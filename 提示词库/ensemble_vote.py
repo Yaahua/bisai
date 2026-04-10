@@ -34,17 +34,17 @@ from collections import Counter, defaultdict
 # ===== 配置 =====
 # 参与集成的预测文件列表（至少 2 个，推荐 3 个）
 PREDICTION_FILES = [
-    '/home/ubuntu/bisai/数据/A榜/submit_v6_rag.json',     # 第一阶段：RAG 动态提示词
-    '/home/ubuntu/bisai/数据/A榜/submit_v7_cicl.json',    # 第二阶段：RAG + c-ICL
+    '/home/ubuntu/bisai/数据/A榜/submit_v6_rag.json',        # 第一阶段：RAG 动态提示词
+    '/home/ubuntu/bisai/数据/A榜/submit_v7_cicl_v2.json',   # 第二阶段：RAG + c-ICL（修正版）
     # 如果有第三个模型（如 Claude 或 Qwen），在此添加路径：
-    # '/home/ubuntu/bisai/数据/A榜/submit_v8_claude.json',
+    # '/home/ubuntu/bisai/数据/A榜/submit_v8_bidirectional.json',
 ]
 
 # 最小投票数（出现次数 >= MIN_VOTES 才保留）
 # 建议：2个文件时用1（OR合并），3个文件时用2（多数投票）
-MIN_VOTES = 2  # 当只有2个文件时，建议设为1；3个文件时设为2
+MIN_VOTES = 2  # 2个文件时用2（AND交集，最大化精确率）；3个文件时用2（多数投票）
 
-OUTPUT_PATH = '/home/ubuntu/bisai/数据/A榜/submit_ensemble.json'
+OUTPUT_PATH = '/home/ubuntu/bisai/数据/A榜/submit_ensemble_v2_intersect.json'
 os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
 
 
