@@ -292,3 +292,55 @@ LLM 在修正过程中可能生成原文中不存在的实体文本。
 3. 如果发现需要修正的已有规则（如原始数据的新模式），更新"一"章节
 4. 如果本批次暴露出新的流程错误、技术错误或启动防呆需求，也应写入第四章与第五章
 5. 每10个批次后，回顾并精简重复内容
+
+### 批次3：chunk_021 ~ chunk_030（关系类型约束与流程防呆）
+
+| 样本 | 错误类型 | 错误内容 | 正确做法 | 依据 |
+|------|------|------|------|------|
+| chunk_021~030 | 流程错误 | 初标阶段直接写 review.md，未先输出完整标注结果 JSON | 必须先逐条输出完整 entities + relations 列表（步骤 3a），再写 review.md（步骤 3b） | SKILL.md 更新 v2 |
+| chunk_021 #6 | 关系类型错误 | CON(CROP, CROSS)：sorghum → F-9:10 sorghum RILs | CON 合法类型为 CON(CROP, VAR) 或 CON(GENE, GENE)，CROSS 不能作为 tail | K8 §2.4 |
+| chunk_021 #6 | 关系类型错误 | LOI(QTL, BIS)：QTLs → B. fusca / C. partellus | LOI tail 应为 TRT/CHR，BIS 不能作为 tail | K8 §2.5 |
+| chunk_021 #7 | 关系类型错误 | LOI(MRK, TRT/CHR)：SNPs → 多个性状/染色体 | LOI head 应为 QTL/GENE，MRK 不能作为 head | K8 §2.5 |
+| chunk_021 #8 | 关系类型错误 | CON(QTL, MRK)：genetic regions → SNPs | CON 合法类型为 CON(CROP, VAR) 或 CON(GENE, GENE)，QTL→MRK 不合法 | K8 §2.4 |
+| chunk_022 #0 | 关系类型错误 | LOI(MRK, GENE)：SCAR_3456624 → Pc39 | LOI tail 应为 TRT/CHR，GENE 不能作为 tail | K8 §2.5 |
+| chunk_022 #1 | 关系类型错误 | LOI(QTL, GENE)：Sdwa5.1.1+ → LOC106767068/VrKNAT7-1 | LOI tail 应为 TRT/CHR，GENE 不能作为 tail | K8 §2.5 |
+| chunk_022 #6 | 关系类型错误 | USE(CROP, BM)：sorghum → marker assisted selection | USE head 应为 VAR，CROP 不能作为 head | K8 §2.6 |
+| chunk_022 #9 | 关系类型错误 | CON(VAR, QTL)：Yugu 5 → QLB-czas1/2/8 | CON tail 应为 VAR，QTL 不能作为 tail | K8 §2.4 |
+| chunk_023 #1 | 关系类型错误 | LOI(QTL, ABS)：QTL → drought | LOI tail 应为 TRT/CHR，ABS 不能作为 tail | K8 §2.5 |
+| chunk_023 #5 | 关系类型错误 | USE(VAR, MRK)：sorghum mini core collection → SNP markers | USE tail 应为 BM，MRK 不能作为 tail | K8 §2.6 |
+| chunk_023 #6 | 关系类型错误 | LOI(MRK, CHR/TRT)：MTAs → SBI-08/SBI-10/aphid count | LOI head 应为 QTL/GENE，MRK 不能作为 head | K8 §2.5 |
+| chunk_024 #0 | 关系类型错误 | LOI(MRK, CHR)：SNPs → chromosome 5/8 | LOI head 应为 QTL/GENE，MRK 不能作为 head | K8 §2.5 |
+| chunk_024 #6 | 关系类型错误 | CON(CROP, CROP)：rice → Oryza sativa | CON 合法类型为 CON(CROP, VAR) 或 CON(GENE, GENE)，CROP→CROP 不合法 | K8 §2.4 |
+| chunk_025 #2 | 关系类型错误 | CON(CROP, GENE)：Arabidopsis → FtMYB13 | CON 合法类型为 CON(CROP, VAR) 或 CON(GENE, GENE)，CROP→GENE 不合法 | K8 §2.4 |
+| chunk_025 #3 | 关系类型错误 | USE(BM, CROSS)：QTL-seq analysis → F2 population | USE head 应为 VAR，BM 不能作为 head | K8 §2.6 |
+| chunk_025 #3 | 关系类型错误 | CON(CROSS, CROSS/VAR)：F2 population → crosses/Shinanotsubuhime/Yuikogane | CON 合法类型为 CON(CROP, VAR) 或 CON(GENE, GENE)，CROSS 不能作为 head | K8 §2.4 |
+| chunk_026 #5 | 关系类型错误 | LOI(QTL, MRK)：heat-stress QTL → bPb-5529 | LOI tail 应为 TRT/CHR，MRK 不能作为 tail | K8 §2.5 |
+| chunk_026 #8 | 关系类型错误 | CON(TRT, TRT)：diastatic power → malting quality trait | CON 合法类型为 CON(CROP, VAR) 或 CON(GENE, GENE)，TRT→TRT 不合法 | K8 §2.4 |
+| chunk_026 #8 | 关系类型错误 | AFF(VAR, VAR)：BC1F1 individuals → final progenies | AFF tail 应为 TRT，VAR 不能作为 tail | K8 §2.2 |
+| chunk_027 #0 | 关系类型错误 | AFF(BIS, BIS)：Pst race V26 → stripe rust infection | AFF tail 应为 TRT，BIS 不能作为 tail | K8 §2.2 |
+| chunk_027 #1 | 关系类型错误 | AFF(GENE, ABS)：基因 → 胁迫 | AFF tail 应为 TRT，ABS 不能作为 tail | K8 §2.2 |
+| chunk_027 #3 | 关系类型错误 | AFF(GENE, GENE)：基因 → 基因 | AFF tail 应为 TRT，GENE 不能作为 tail | K8 §2.2 |
+| chunk_027 #4 | 关系类型错误 | CON(CROSS, VAR)：杂交组合 → 品种 | CON 合法类型为 CON(CROP, VAR) 或 CON(GENE, GENE)，CROSS 不能作为 head | K8 §2.4 |
+| chunk_027 #5 | 关系类型错误 | CON(VAR, VAR)：hulless landraces → oat lines | CON 合法类型为 CON(CROP, VAR) 或 CON(GENE, GENE)，VAR→VAR 不合法 | K8 §2.4 |
+| chunk_028 #2 | 关系类型错误 | AFF(ABS, VAR)：胁迫 → 品种 | AFF tail 应为 TRT，VAR 不能作为 tail | K8 §2.2 |
+| chunk_028 #5 | 关系类型错误 | AFF(CROP, ABS)：作物 → 胁迫 | AFF tail 应为 TRT，ABS 不能作为 tail | K8 §2.2 |
+| chunk_028 #6 | 嵌套关系错误 | AFF(waterlogging @142:154, waterlogging tolerance @142:164) | 两实体起始偏移相同，ABS 被包含在 TRT 内，形成嵌套 AFF，应删除 | error_patterns §3.2 |
+| chunk_029 #1 | 关系类型错误 | AFF(ABS, CROSS)：drought stress → Arta/Harmal | AFF tail 应为 TRT，CROSS 不能作为 tail | K8 §2.2 |
+| chunk_029 #3 | 关系类型错误 | AFF(ABS, GENE)：Cd treatment → WRKY/MYB/ERF/bHLH | AFF tail 应为 TRT，GENE 不能作为 tail | K8 §2.2 |
+| chunk_029 #5 | 关系类型错误 | LOI(MRK, CHR)：five insertion markers → ~255 kb region | LOI head 应为 QTL/GENE，MRK 不能作为 head | K8 §2.5 |
+| chunk_029 #6 | 关系类型错误 | AFF(GENE, GENE)：SiARDP → SiLTP | AFF tail 应为 TRT，GENE 不能作为 tail | K8 §2.2 |
+| chunk_029 #7 | 嵌套关系错误 | AFF(oxidative stress @48:64, oxidative stress tolerance @48:74) | 嵌套 AFF，应删除 | error_patterns §3.2 |
+| chunk_029 #9 | 关系类型错误 | CON(TRT, TRT)：grain weight per spike → GWPS | CON 合法类型为 CON(CROP, VAR) 或 CON(GENE, GENE)，TRT→TRT 不合法 | K8 §2.4 |
+| chunk_030 #0 | 关系类型错误 | AFF(ABS, GENE)：saline-alkali treatment → GsNAC2 | AFF tail 应为 TRT，GENE 不能作为 tail | K8 §2.2 |
+| chunk_030 #3 | 关系类型错误 | USE(BM, TRT)：GWAS → RSA traits/GP accuracy | USE head 应为 VAR，BM 不能作为 head；USE tail 应为 BM，TRT 不能作为 tail | K8 §2.6 |
+| chunk_030 #4 | 关系类型错误 | CON(CROSS, CROP)：Arta/Harmal population → barley | CON 合法类型为 CON(CROP, VAR) 或 CON(GENE, GENE)，CROSS→CROP 不合法 | K8 §2.4 |
+| chunk_030 #5 | 关系类型错误 | USE(BM, GENE)：CRISPR/Cas9 → SiUBC39 | USE head 应为 VAR，BM 不能作为 head；USE tail 应为 BM，GENE 不能作为 tail | K8 §2.6 |
+| chunk_030 #7 | 关系类型错误 | LOI(MRK, QTL)：Molecular markers → morphological loci | LOI head 应为 QTL/GENE，MRK 不能作为 head | K8 §2.5 |
+| chunk_030 #8 | 关系类型错误 | AFF(GENE, GENE)：SbWRKY50 → SOS1/HKT1 | AFF tail 应为 TRT，GENE 不能作为 tail | K8 §2.2 |
+
+**批次3核心规律总结**：
+- **AFF tail 约束**：tail 必须为 TRT，不能为 GENE、ABS、VAR、CROSS、BIS（BIS→CROP 有 K6 先例，例外保留）
+- **LOI head 约束**：head 必须为 QTL/GENE，不能为 MRK；tail 必须为 TRT/CHR，不能为 GENE、ABS、BIS、MRK
+- **CON 类型约束**：只允许 CON(CROP, VAR) 和 CON(GENE, GENE)，不允许 CROSS/TRT/VAR/QTL 参与
+- **USE 类型约束**：只允许 USE(VAR, BM)，head 不能为 BM/CROP，tail 不能为 GENE/TRT/MRK/CROSS
+- **嵌套 AFF 模式**：当 ABS 实体被包含在 TRT 实体内（起始偏移相同），形成的 AFF(ABS, TRT) 应删除
