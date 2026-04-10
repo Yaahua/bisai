@@ -1,47 +1,76 @@
 # 杂粮育种信息抽取：生僻术语词表 (K3)
 
-本文档基于《植物新品种特异性、一致性和稳定性测试指南》系列标准 [1] [2] 和相关遗传学文献，为 CCL 2026 MGBIE 任务提供杂粮（谷子、高粱、燕麦、荞麦等）的生僻术语解释，以辅助实体识别和关系抽取。
+本文档收集了杂粮（谷子、高粱、燕麦、荞麦等）育种文献中常见的生僻术语、拉丁学名和技术缩写，并明确其对应的实体类别，以减少分类错误。
 
-## 1. 谷子 (Foxtail Millet, Setaria italica) 术语
+## 1. 谷子 (Foxtail Millet) 术语
 
-| 术语 | 英文对照 | 类别 | 解释与判定依据 |
+| 中文术语 | 英文/拉丁文 | 对应实体类别 | 解释说明 |
 |---|---|---|---|
-| 猫耳叶 | Cat-ear leaf | 器官/性状 | 幼苗期叶片基部呈猫耳状突起，是谷子DUS测试的基本性状之一 [1]。 |
-| 穗码 | Spikelet cluster | 器官 | 谷子圆锥花序上的小穗簇，其密度（穗码密度）和单码粒数是重要产量性状 [1]。 |
-| 刚毛 | Bristle | 器官 | 谷子小穗基部的刺状附属物，其长度和颜色是品种分类的重要依据 [1]。 |
-| 护颖 | Glume | 器官 | 包被小穗的苞片，其颜色（如红十里香、淡紫色）是DUS测试性状 [1]。 |
-| 颖果 | Caryopsis | 器官 | 谷子的果实类型，其颜色（如灰绿色、浅黄色）是品种分组性状 [1]。 |
-| 出谷率 | Grain yield rate | 性状 | 谷穗脱粒后，籽粒重量占整个谷穗重量的百分比，是评价产量的关键指标 [1]。 |
-| 谷锈病 | Foxtail millet rust | 疾病/抗性 | 由真菌引起的谷子主要病害，抗性分为免疫、高抗、抗病、中抗、感、高感六级 [1]。 |
+| 谷子 / 粟 | *Setaria italica* | `CROP` | 栽培种谷子 [1] |
+| 青狗尾草 | *Setaria viridis* | `CROP` | 谷子的野生祖先种 |
+| 穗码 | Panicle branch / Spikelet | `TRT` (作为部位修饰) | 谷子穗上的分枝结构，分为一级码、二级码 [1] |
+| 猫耳叶 | Cat-ear leaf | `TRT` | 谷子特有的叶片形态变异 |
+| 刚毛 | Bristle | `TRT` (作为部位修饰) | 谷子小穗基部的刺状附属物 [1] |
+| 护颖 | Glume | `TRT` (作为部位修饰) | 包被小穗的苞片 [1] |
+| 颖果 | Caryopsis | `TRT` (作为部位修饰) | 谷子的果实类型 [1] |
+| 出谷率 | Grain yield rate | `TRT` | 谷穗脱粒后，籽粒重量占整个谷穗重量的百分比 [1] |
+| 谷锈病 | Foxtail millet rust / *Uromyces setariae-italicae* | `BIS` | 由真菌引起的常见病害 |
+| 谷瘟病 | Blast / *Magnaporthe grisea* | `BIS` | 常见真菌病害 |
+| 白发病 | Smut / *Sclerospora graminicola* | `BIS` | 常见真菌病害 |
+| 粳性 / 糯性 | Non-waxy / Waxy | `TRT` | 胚乳淀粉特性，由 Waxy 基因控制 |
 
-## 2. 燕麦 (Oat, Avena sativa / Avena nuda) 术语
+## 2. 高粱 (Sorghum) 术语
 
-| 术语 | 英文对照 | 类别 | 解释与判定依据 |
+| 中文术语 | 英文/拉丁文 | 对应实体类别 | 解释说明 |
 |---|---|---|---|
-| 皮裸性 | Hulled/Hulless | 性状 | 燕麦籽粒是否带壳（内外稃是否紧包颖果），是区分皮燕麦（A. sativa）和裸燕麦（A. nuda）的核心分组性状 [2]。 |
-| 旗叶 | Flag leaf | 器官 | 禾本科植物主茎最顶端的一片叶子，其长度和着生姿态（向上、水平、下垂）是DUS测试性状 [2]。 |
-| 穗下节 | Internode below panicle | 器官 | 紧接穗部下方的茎秆节间，其茸毛的有无是燕麦DUS测试性状 [2]。 |
-| 外稃蜡粉 | Lemma glaucosity | 性状 | 燕麦外稃表面覆盖的白色粉状物，其强度（无、弱、中、强）是DUS测试性状 [2]。 |
-| 穗分枝姿态 | Panicle branch attitude | 性状 | 燕麦圆锥花序分枝的着生状态（直立、半直立、水平、下垂、强烈下垂），是分类依据 [2]。 |
+| 高粱 | *Sorghum bicolor* | `CROP` | 栽培种高粱 [2] |
+| 甜高粱 | Sweet sorghum | `CROP` | 茎秆富含糖分的高粱类型 |
+| 丝黑穗病 | Head smut / *Sporisorium reilianum* | `BIS` | 高粱主要病害 |
+| 靶斑病 | Target leaf spot / *Bipolaris sorghicola* | `BIS` | 高粱叶部病害 |
+| 穗下节 | Peduncle | `TRT` (作为部位修饰) | 穗部下方的茎节，常观测其长度或茸毛 [2] |
+| 护颖 | Glume | `TRT` (作为部位修饰) | 包裹小穗的苞片 |
+| 锤度 / 糖度 | Brix | `TRT` | 衡量甜高粱茎秆糖分含量的指标 |
 
-## 3. 高粱 (Sorghum, Sorghum bicolor) 术语
+## 3. 燕麦 (Oat) 术语
 
-| 术语 | 英文对照 | 类别 | 解释与判定依据 |
+| 中文术语 | 英文/拉丁文 | 对应实体类别 | 解释说明 |
 |---|---|---|---|
-| 糯性/粳性 | Waxy/Non-waxy | 性状 | 胚乳中直链淀粉和支链淀粉的比例，糯性高粱几乎全为支链淀粉，是重要的品质性状。 |
-| 穗柄 | Peduncle | 器官 | 连接茎秆和穗部的轴，其长度和弯曲度（如鹅脖穗）是高粱的典型性状。 |
-| 壳色 | Glume color | 性状 | 高粱颖壳的颜色，常与籽粒颜色结合作为品种特征。 |
-| 丝黑穗病 | Head smut | 疾病/抗性 | 高粱主要病害之一，抗性鉴定是高粱品种试验的重要环节。 |
+| 燕麦 (皮燕麦) | *Avena sativa* | `CROP` | 籽粒带稃壳的燕麦 [3] |
+| 裸燕麦 (莜麦) | *Avena nuda* | `CROP` | 籽粒裸露的燕麦 [3] |
+| 冠锈病 | Crown rust / *Puccinia coronata* | `BIS` | 燕麦最严重的真菌病害 |
+| 秆锈病 | Stem rust / *Puccinia graminis* | `BIS` | 燕麦主要病害 |
+| 皮裸性 | Hullessness / Nakedness | `TRT` | 籽粒是否带壳的性状 |
+| 外稃 / 内稃 | Lemma / Palea | `TRT` (作为部位修饰) | 包裹燕麦籽粒的颖壳结构 [3] |
+| 旗叶 | Flag leaf | `TRT` (作为部位修饰) | 禾本科植物主茎最顶端的一片叶子 [3] |
+| 穗分枝姿态 | Panicle branch attitude | `TRT` | 燕麦圆锥花序分枝的着生状态 [3] |
 
-## 4. 荞麦 (Buckwheat, Fagopyrum esculentum / F. tataricum) 术语
+## 4. 荞麦 (Buckwheat) 术语
 
-| 术语 | 英文对照 | 类别 | 解释与判定依据 |
+| 中文术语 | 英文/拉丁文 | 对应实体类别 | 解释说明 |
 |---|---|---|---|
-| 甜荞/苦荞 | Common/Tartary | 分类 | 甜荞（F. esculentum）异花授粉，苦荞（F. tataricum）自花授粉，两者在形态和黄酮含量上有显著差异。 |
-| 瘦果 | Achene | 器官 | 荞麦的果实类型，通常呈三棱形，其大小、颜色和棱的形状是重要性状。 |
-| 芦丁 | Rutin | 代谢物/品质 | 苦荞中富含的黄酮类化合物，是评价荞麦药用和营养价值的核心品质性状。 |
-| 花柱异长 | Heterostyly | 性状 | 甜荞具有长花柱和短花柱两种花型，是其自交不亲和的形态学基础。 |
+| 甜荞 | *Fagopyrum esculentum* | `CROP` | 异花授粉的荞麦类型 |
+| 苦荞 | *Fagopyrum tataricum* | `CROP` | 自花授粉的荞麦类型 |
+| 瘦果 | Achene | `TRT` (作为部位修饰) | 荞麦的果实类型 |
+| 芦丁 | Rutin | `TRT` | 苦荞中富含的黄酮类化合物，核心品质性状 |
+| 花柱异长 | Heterostyly | `TRT` | 甜荞具有长花柱和短花柱两种花型 |
+
+## 5. 实验技术与群体术语 (易混淆为 BM 或 VAR)
+
+| 术语缩写 | 全称 | 对应实体类别 | 解释说明 |
+|---|---|---|---|
+| RIL | Recombinant Inbred Line | `CROSS` | 重组自交系，作图群体，不是品种 |
+| NIL | Near-Isogenic Line | `CROSS` | 近等基因系，作图群体 |
+| DH | Doubled Haploid | `CROSS` | 双单倍体群体 |
+| MAGIC | Multi-parent Advanced Generation Inter-Cross | `CROSS` | 多亲本高级世代互交群体 |
+| GWAS | Genome-Wide Association Study | `BM` | 全基因组关联分析 |
+| QTL mapping | Quantitative Trait Locus mapping | `BM` | QTL定位分析 |
+| MAS / MAB | Marker-Assisted Selection / Breeding | `BM` | 标记辅助选择/育种 |
+| RNA-seq | RNA sequencing | `BM` | 转录组测序分析 |
+| ddRAD-seq | Double digest restriction-site associated DNA sequencing | `BM` | 简化基因组测序技术 |
+| EMS | Ethyl methanesulfonate | `BM` | 化学诱变剂，用于创制突变体群体 |
+| CRISPR/Cas9 | Clustered Regularly Interspaced Short Palindromic Repeats | `BM` | 基因编辑技术 |
 
 ## 参考文献
 [1] NY/T 2425-2013. 植物新品种特异性、一致性和稳定性测试指南 谷子.
-[2] NY/T 2355-2013. 植物新品种特异性、一致性和稳定性测试指南 燕麦.
+[2] NY/T 2492-2013. 植物新品种特异性、一致性和稳定性测试指南 高粱.
+[3] NY/T 2355-2013. 植物新品种特异性、一致性和稳定性测试指南 燕麦.

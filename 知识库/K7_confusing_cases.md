@@ -32,9 +32,39 @@
 | SiLEA14 基因 | [SiLEA]14 | [SiLEA14] | 完整的基因家族成员编号 |
 | Sh1-1 突变体 | [Sh1]-1 | [Sh1-1] | 完整的等位基因标识 |
 
-## 2. 关系方向易混淆案例
+## 2. 实体分类易混淆案例 (基于真实数据)
 
-### 2.1 间接调控与直接调控
+### 2.1 生物胁迫 (BIS) vs 疾病抗性 (TRT)
+**原则**：如果文本描述的是病原体或病害本身，标注为 `BIS`；如果描述的是植物对病害的抵抗能力，标注为 `TRT`。
+
+| 文本片段 | 错误分类 (❌) | 正确分类 (✅) | 判定依据 |
+|---|---|---|---|
+| 该品种易感谷锈病 | `TRT`: [谷锈病] | `BIS`: [谷锈病] | 描述的是病害本身 |
+| 具有极强的谷锈病抗性 | `BIS`: [谷锈病抗性] | `TRT`: [谷锈病抗性] | 描述的是植物的抗性特征 |
+| stripe rust infection | `TRT`: [stripe rust] | `BIS`: [stripe rust] | 病害感染 |
+| powdery mildew resistance | `BIS`: [powdery mildew resistance] | `TRT`: [powdery mildew resistance] | 抗病性状 |
+
+### 2.2 育种方法 (BM) vs 实验技术/材料
+**原则**：`BM` 必须是用于选育、遗传分析或作图的技术路线。
+
+| 文本片段 | 错误分类 (❌) | 正确分类 (✅) | 判定依据 |
+|---|---|---|---|
+| EMS-mutagenized population | `VAR`: [EMS-mutagenized] | `BM`: [EMS-mutagenized] | EMS诱变是育种方法 |
+| Marker-assisted breeding | `TRT`: [Marker-assisted breeding] | `BM`: [Marker-assisted breeding] | 标记辅助育种是标准BM |
+| RNA-seq analysis | `MRK`: [RNA-seq] | `BM`: [RNA-seq] | 转录组测序是遗传分析方法 |
+
+### 2.3 亲本/杂交组合 (CROSS) vs 品种 (VAR)
+**原则**：用于构建群体的双亲或衍生群体（如RIL, F2）标注为 `CROSS`；最终审定或推广的品种标注为 `VAR`。
+
+| 文本片段 | 错误分类 (❌) | 正确分类 (✅) | 判定依据 |
+|---|---|---|---|
+| recombinant inbred lines | `VAR`: [recombinant inbred lines] | `CROSS`: [recombinant inbred lines] | RIL是作图群体 |
+| F-2 population | `VAR`: [F-2 population] | `CROSS`: [F-2 population] | F2是分离群体 |
+| parent lines | `VAR`: [parent lines] | `CROSS`: [parent lines] | 亲本材料 |
+
+## 3. 关系方向易混淆案例
+
+### 3.1 间接调控与直接调控
 **原则**：只标注文本中明确表述的因果关系，不进行过度推理。
 
 | 文本片段 | 错误关系 (❌) | 正确关系 (✅) | 判定依据 |
@@ -42,23 +72,13 @@
 | 基因A上调了基因B的表达，从而增加了株高 | `Gene A` -> `株高` | `Gene A` -> `Gene B`, `Gene B` -> `株高` | 严格遵循文本的因果链条 |
 | 标记M定位到QTL-1，该QTL控制穗长 | `Marker M` -> `穗长` | `Marker M` -> `QTL-1`, `QTL-1` -> `穗长` | 标记是定位手段，QTL是控制因素 |
 
-### 2.2 环境胁迫与基因表达
+### 3.2 环境胁迫与基因表达
 **原则**：环境因素通常是“因”，基因表达变化是“果”。
 
 | 文本片段 | 错误关系 (❌) | 正确关系 (✅) | 判定依据 |
 |---|---|---|---|
 | 基因A在干旱胁迫下表达量上调 | `Gene A` -> `干旱胁迫` | `干旱胁迫` -> `Gene A` | 环境胁迫诱导了基因表达的变化 |
 | 基因A赋予了植物抗旱性 | `抗旱性` -> `Gene A` | `Gene A` -> `抗旱性` | 基因是抗性表型的内在原因 |
-
-## 3. 实体分类易混淆案例
-
-### 3.1 疾病名称 vs 抗性性状
-**原则**：如果文本描述的是病害本身（如“感染了丝黑穗病”），标注为 `Disease`；如果描述的是植物对病害的抵抗能力（如“抗丝黑穗病”），标注为 `Agronomic_Trait`。
-
-| 文本片段 | 错误分类 (❌) | 正确分类 (✅) | 判定依据 |
-|---|---|---|---|
-| 该品种易感谷锈病 | `Agronomic_Trait`: [谷锈病] | `Disease`: [谷锈病] | 描述的是病害本身 |
-| 该品种具有极强的谷锈病抗性 | `Disease`: [谷锈病抗性] | `Agronomic_Trait`: [谷锈病抗性] | 描述的是植物的抗性特征 |
 
 ## 参考文献
 [1] NY/T 2425-2013. 植物新品种特异性、一致性和稳定性测试指南 谷子.
