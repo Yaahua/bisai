@@ -1,0 +1,870 @@
+[
+  {
+    "text": "A comparative transcriptome analysis was performed on wild types, landraces, and improved cultivars of broomcorn millet at seeding and filling stages. The analysis identified genes selected during domestication and improvement. Variations in gene expression patterns between wild types and landraces, and between landraces and improved cultivars, were evaluated to explore molecular mechanisms of domestication and improvement.",
+    "entities": [
+      {
+        "start": 2,
+        "end": 36,
+        "text": "comparative transcriptome analysis",
+        "label": "BM"
+      },
+      {
+        "start": 54,
+        "end": 64,
+        "text": "wild types",
+        "label": "VAR"
+      },
+      {
+        "start": 66,
+        "end": 75,
+        "text": "landraces",
+        "label": "VAR"
+      },
+      {
+        "start": 81,
+        "end": 99,
+        "text": "improved cultivars",
+        "label": "VAR"
+      },
+      {
+        "start": 103,
+        "end": 119,
+        "text": "broomcorn millet",
+        "label": "CROP"
+      },
+      {
+        "start": 123,
+        "end": 130,
+        "text": "seeding",
+        "label": "GST"
+      },
+      {
+        "start": 135,
+        "end": 142,
+        "text": "filling",
+        "label": "GST"
+      },
+      {
+        "start": 197,
+        "end": 210,
+        "text": "domestication",
+        "label": "BM"
+      },
+      {
+        "start": 215,
+        "end": 226,
+        "text": "improvement",
+        "label": "BM"
+      }
+    ],
+    "relations": [
+      {
+        "head": "broomcorn millet",
+        "head_start": 103,
+        "head_end": 119,
+        "head_type": "CROP",
+        "tail": "wild types",
+        "tail_start": 54,
+        "tail_end": 64,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "broomcorn millet",
+        "head_start": 103,
+        "head_end": 119,
+        "head_type": "CROP",
+        "tail": "landraces",
+        "tail_start": 66,
+        "tail_end": 75,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "broomcorn millet",
+        "head_start": 103,
+        "head_end": 119,
+        "head_type": "CROP",
+        "tail": "improved cultivars",
+        "tail_start": 81,
+        "tail_end": 99,
+        "tail_type": "VAR",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "The malondialdehyde (MDA) content of the sinrx1 mutant was significantly higher than that of the WT. The drought resistance of the sinrx1 mutant decreased significantly compared to the WT during germination and seedling stages.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 33,
+        "text": "malondialdehyde (MDA) content",
+        "label": "TRT"
+      },
+      {
+        "start": 41,
+        "end": 54,
+        "text": "sinrx1 mutant",
+        "label": "VAR"
+      },
+      {
+        "start": 97,
+        "end": 99,
+        "text": "WT",
+        "label": "VAR"
+      },
+      {
+        "start": 105,
+        "end": 123,
+        "text": "drought resistance",
+        "label": "TRT"
+      },
+      {
+        "start": 131,
+        "end": 144,
+        "text": "sinrx1 mutant",
+        "label": "VAR"
+      },
+      {
+        "start": 185,
+        "end": 187,
+        "text": "WT",
+        "label": "VAR"
+      },
+      {
+        "start": 195,
+        "end": 206,
+        "text": "germination",
+        "label": "GST"
+      },
+      {
+        "start": 211,
+        "end": 226,
+        "text": "seedling stages",
+        "label": "GST"
+      }
+    ],
+    "relations": [
+      {
+        "head": "sinrx1 mutant",
+        "head_start": 41,
+        "head_end": 54,
+        "head_type": "VAR",
+        "tail": "malondialdehyde (MDA) content",
+        "tail_start": 4,
+        "tail_end": 33,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "sinrx1 mutant",
+        "head_start": 41,
+        "head_end": 54,
+        "head_type": "VAR",
+        "tail": "drought resistance",
+        "tail_start": 105,
+        "tail_end": 123,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "WT",
+        "head_start": 97,
+        "head_end": 99,
+        "head_type": "VAR",
+        "tail": "malondialdehyde (MDA) content",
+        "tail_start": 4,
+        "tail_end": 33,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "WT",
+        "head_start": 97,
+        "head_end": 99,
+        "head_type": "VAR",
+        "tail": "drought resistance",
+        "tail_start": 105,
+        "tail_end": 123,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "drought resistance",
+        "head_start": 105,
+        "head_end": 123,
+        "head_type": "TRT",
+        "tail": "germination",
+        "tail_start": 195,
+        "tail_end": 206,
+        "tail_type": "GST",
+        "label": "OCI"
+      },
+      {
+        "head": "drought resistance",
+        "head_start": 105,
+        "head_end": 123,
+        "head_type": "TRT",
+        "tail": "seedling stages",
+        "tail_start": 211,
+        "tail_end": 226,
+        "tail_type": "GST",
+        "label": "OCI"
+      }
+    ]
+  },
+  {
+    "text": "Crown rust is caused by Puccinia coronata f. sp. avenae Eriks. It is a serious problem for oat production. Pyramiding multiple resistance genes into new cultivars is a key breeding objective. Many race-specific resistance genes have been mapped. Markers closely linked to these genes have been identified.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "text": "Crown rust",
+        "label": "BIS"
+      },
+      {
+        "start": 24,
+        "end": 61,
+        "text": "Puccinia coronata f. sp. avenae Eriks",
+        "label": "BIS"
+      },
+      {
+        "start": 91,
+        "end": 94,
+        "text": "oat",
+        "label": "CROP"
+      },
+      {
+        "start": 107,
+        "end": 143,
+        "text": "Pyramiding multiple resistance genes",
+        "label": "BM"
+      },
+      {
+        "start": 211,
+        "end": 227,
+        "text": "resistance genes",
+        "label": "GENE"
+      },
+      {
+        "start": 246,
+        "end": 253,
+        "text": "Markers",
+        "label": "MRK"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Crown rust",
+        "head_start": 0,
+        "head_end": 10,
+        "head_type": "BIS",
+        "tail": "oat",
+        "tail_start": 91,
+        "tail_end": 94,
+        "tail_type": "CROP",
+        "label": "AFF"
+      },
+      {
+        "head": "Pyramiding multiple resistance genes",
+        "head_start": 107,
+        "head_end": 143,
+        "head_type": "BM",
+        "tail": "resistance genes",
+        "tail_start": 211,
+        "tail_end": 227,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "Markers",
+        "head_start": 246,
+        "head_end": 253,
+        "head_type": "MRK",
+        "tail": "resistance genes",
+        "tail_start": 211,
+        "tail_end": 227,
+        "tail_type": "GENE",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "However, this gene is temperature sensitive and linked to short spikes, awns, and high grain density, resembling a brh gene. To use it in breeding, the linkage between the dwarfing gene and the unfavorable spike traits must be broken.",
+    "entities": [
+      {
+        "start": 58,
+        "end": 70,
+        "text": "short spikes",
+        "label": "TRT"
+      },
+      {
+        "start": 72,
+        "end": 76,
+        "text": "awns",
+        "label": "TRT"
+      },
+      {
+        "start": 82,
+        "end": 100,
+        "text": "high grain density",
+        "label": "TRT"
+      },
+      {
+        "start": 115,
+        "end": 123,
+        "text": "brh gene",
+        "label": "GENE"
+      },
+      {
+        "start": 172,
+        "end": 185,
+        "text": "dwarfing gene",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "brh gene",
+        "head_start": 115,
+        "head_end": 123,
+        "head_type": "GENE",
+        "tail": "short spikes",
+        "tail_start": 58,
+        "tail_end": 70,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "brh gene",
+        "head_start": 115,
+        "head_end": 123,
+        "head_type": "GENE",
+        "tail": "awns",
+        "tail_start": 72,
+        "tail_end": 76,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "brh gene",
+        "head_start": 115,
+        "head_end": 123,
+        "head_type": "GENE",
+        "tail": "high grain density",
+        "tail_start": 82,
+        "tail_end": 100,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "dwarfing gene",
+        "head_start": 172,
+        "head_end": 185,
+        "head_type": "GENE",
+        "tail": "short spikes",
+        "tail_start": 58,
+        "tail_end": 70,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "dwarfing gene",
+        "head_start": 172,
+        "head_end": 185,
+        "head_type": "GENE",
+        "tail": "awns",
+        "tail_start": 72,
+        "tail_end": 76,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "dwarfing gene",
+        "head_start": 172,
+        "head_end": 185,
+        "head_type": "GENE",
+        "tail": "high grain density",
+        "tail_start": 82,
+        "tail_end": 100,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "SiWRKY89-overexpressing plants had higher expression levels of abiotic stress-responsive genes than controls. SiWRKY89 binds to the W-box elements of AtNCED3.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "text": "SiWRKY89",
+        "label": "GENE"
+      },
+      {
+        "start": 110,
+        "end": 118,
+        "text": "SiWRKY89",
+        "label": "GENE"
+      },
+      {
+        "start": 150,
+        "end": 157,
+        "text": "AtNCED3",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "SiWRKY89",
+        "head_start": 0,
+        "head_end": 8,
+        "head_type": "GENE",
+        "tail": "AtNCED3",
+        "tail_start": 150,
+        "tail_end": 157,
+        "tail_type": "GENE",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Foxtail millet has a small diploid genome and better adaptability to arid lands. We identified 29 putative HAK/KUP/KT proteins from the Setaria italica genome database.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "text": "Foxtail millet",
+        "label": "CROP"
+      },
+      {
+        "start": 107,
+        "end": 126,
+        "text": "HAK/KUP/KT proteins",
+        "label": "GENE"
+      },
+      {
+        "start": 136,
+        "end": 151,
+        "text": "Setaria italica",
+        "label": "CROP"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "The TCP gene family members were identified and analyzed in three oat varieties: \"SFS\", \"Sang\", and \"OT3098v2\". Their responses to drought and salt stresses were investigated. \"SFS\" has 83 TCP genes, \"Sang\" has 65, and \"OT3098v2\" has 30. \"SFS\" has 22 specific TCP genes. The oat TCP genes are classified into the PCF, CIN, and CYC/TB1 subfamilies.",
+    "entities": [
+      {
+        "start": 66,
+        "end": 69,
+        "text": "oat",
+        "label": "CROP"
+      },
+      {
+        "start": 82,
+        "end": 85,
+        "text": "SFS",
+        "label": "VAR"
+      },
+      {
+        "start": 89,
+        "end": 93,
+        "text": "Sang",
+        "label": "VAR"
+      },
+      {
+        "start": 101,
+        "end": 109,
+        "text": "OT3098v2",
+        "label": "VAR"
+      },
+      {
+        "start": 131,
+        "end": 138,
+        "text": "drought",
+        "label": "ABS"
+      },
+      {
+        "start": 143,
+        "end": 147,
+        "text": "salt",
+        "label": "ABS"
+      },
+      {
+        "start": 189,
+        "end": 198,
+        "text": "TCP genes",
+        "label": "GENE"
+      },
+      {
+        "start": 313,
+        "end": 316,
+        "text": "PCF",
+        "label": "GENE"
+      },
+      {
+        "start": 318,
+        "end": 321,
+        "text": "CIN",
+        "label": "GENE"
+      },
+      {
+        "start": 327,
+        "end": 334,
+        "text": "CYC/TB1",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "oat",
+        "head_start": 66,
+        "head_end": 69,
+        "head_type": "CROP",
+        "tail": "SFS",
+        "tail_start": 82,
+        "tail_end": 85,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "oat",
+        "head_start": 66,
+        "head_end": 69,
+        "head_type": "CROP",
+        "tail": "Sang",
+        "tail_start": 89,
+        "tail_end": 93,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "oat",
+        "head_start": 66,
+        "head_end": 69,
+        "head_type": "CROP",
+        "tail": "OT3098v2",
+        "tail_start": 101,
+        "tail_end": 109,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "drought",
+        "head_start": 131,
+        "head_end": 138,
+        "head_type": "ABS",
+        "tail": "TCP genes",
+        "tail_start": 189,
+        "tail_end": 198,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "salt",
+        "head_start": 143,
+        "head_end": 147,
+        "head_type": "ABS",
+        "tail": "TCP genes",
+        "tail_start": 189,
+        "tail_end": 198,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "TCP genes",
+        "head_start": 189,
+        "head_end": 198,
+        "head_type": "GENE",
+        "tail": "PCF",
+        "tail_start": 313,
+        "tail_end": 316,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "TCP genes",
+        "head_start": 189,
+        "head_end": 198,
+        "head_type": "GENE",
+        "tail": "CIN",
+        "tail_start": 318,
+        "tail_end": 321,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "TCP genes",
+        "head_start": 189,
+        "head_end": 198,
+        "head_type": "GENE",
+        "tail": "CYC/TB1",
+        "tail_start": 327,
+        "tail_end": 334,
+        "tail_type": "GENE",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "Six environmentally stable QTLs for GPC were detected on chromosomes 2H, 4H, 6H, and 7H, with increasing alleles from ZGMLEL. Three QTLs on chromosome 7H (QGpc.ZiSc-7H.1, QGpc.ZiSc-7H.2, QGpc.ZiSc-7H.3) linked in coupling phase were identified.",
+    "entities": [
+      {
+        "start": 27,
+        "end": 31,
+        "text": "QTLs",
+        "label": "QTL"
+      },
+      {
+        "start": 36,
+        "end": 39,
+        "text": "GPC",
+        "label": "TRT"
+      },
+      {
+        "start": 69,
+        "end": 71,
+        "text": "2H",
+        "label": "CHR"
+      },
+      {
+        "start": 73,
+        "end": 75,
+        "text": "4H",
+        "label": "CHR"
+      },
+      {
+        "start": 77,
+        "end": 79,
+        "text": "6H",
+        "label": "CHR"
+      },
+      {
+        "start": 85,
+        "end": 87,
+        "text": "7H",
+        "label": "CHR"
+      },
+      {
+        "start": 118,
+        "end": 124,
+        "text": "ZGMLEL",
+        "label": "VAR"
+      },
+      {
+        "start": 155,
+        "end": 169,
+        "text": "QGpc.ZiSc-7H.1",
+        "label": "QTL"
+      },
+      {
+        "start": 171,
+        "end": 185,
+        "text": "QGpc.ZiSc-7H.2",
+        "label": "QTL"
+      },
+      {
+        "start": 187,
+        "end": 201,
+        "text": "QGpc.ZiSc-7H.3",
+        "label": "QTL"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QTLs",
+        "head_start": 27,
+        "head_end": 31,
+        "head_type": "QTL",
+        "tail": "GPC",
+        "tail_start": 36,
+        "tail_end": 39,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 27,
+        "head_end": 31,
+        "head_type": "QTL",
+        "tail": "2H",
+        "tail_start": 69,
+        "tail_end": 71,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 27,
+        "head_end": 31,
+        "head_type": "QTL",
+        "tail": "4H",
+        "tail_start": 73,
+        "tail_end": 75,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 27,
+        "head_end": 31,
+        "head_type": "QTL",
+        "tail": "6H",
+        "tail_start": 77,
+        "tail_end": 79,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 27,
+        "head_end": 31,
+        "head_type": "QTL",
+        "tail": "7H",
+        "tail_start": 85,
+        "tail_end": 87,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "ZGMLEL",
+        "head_start": 118,
+        "head_end": 124,
+        "head_type": "VAR",
+        "tail": "GPC",
+        "tail_start": 36,
+        "tail_end": 39,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "QGpc.ZiSc-7H.1",
+        "head_start": 155,
+        "head_end": 169,
+        "head_type": "QTL",
+        "tail": "GPC",
+        "tail_start": 36,
+        "tail_end": 39,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QGpc.ZiSc-7H.2",
+        "head_start": 171,
+        "head_end": 185,
+        "head_type": "QTL",
+        "tail": "GPC",
+        "tail_start": 36,
+        "tail_end": 39,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QGpc.ZiSc-7H.3",
+        "head_start": 187,
+        "head_end": 201,
+        "head_type": "QTL",
+        "tail": "GPC",
+        "tail_start": 36,
+        "tail_end": 39,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QGpc.ZiSc-7H.1",
+        "head_start": 155,
+        "head_end": 169,
+        "head_type": "QTL",
+        "tail": "7H",
+        "tail_start": 85,
+        "tail_end": 87,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QGpc.ZiSc-7H.2",
+        "head_start": 171,
+        "head_end": 185,
+        "head_type": "QTL",
+        "tail": "7H",
+        "tail_start": 85,
+        "tail_end": 87,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QGpc.ZiSc-7H.3",
+        "head_start": 187,
+        "head_end": 201,
+        "head_type": "QTL",
+        "tail": "7H",
+        "tail_start": 85,
+        "tail_end": 87,
+        "tail_type": "CHR",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "The dwarfing gene from Franklin was more effective in early sowing trials. The dwarfing gene from TX9425 was more effective in later sown trials.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 31,
+        "text": "dwarfing gene from Franklin",
+        "label": "GENE"
+      },
+      {
+        "start": 79,
+        "end": 104,
+        "text": "dwarfing gene from TX9425",
+        "label": "GENE"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Holo-omics study interactions among fungi in sorghum. The most abundant fungal endophyte genome was assembled from rhizospheric metagenomic sequences. Its metatranscriptome was compared with the host plant metabolome and transcriptome under drought.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 16,
+        "text": "Holo-omics study",
+        "label": "BM"
+      },
+      {
+        "start": 45,
+        "end": 52,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 155,
+        "end": 172,
+        "text": "metatranscriptome",
+        "label": "BM"
+      },
+      {
+        "start": 206,
+        "end": 216,
+        "text": "metabolome",
+        "label": "BM"
+      },
+      {
+        "start": 221,
+        "end": 234,
+        "text": "transcriptome",
+        "label": "BM"
+      },
+      {
+        "start": 241,
+        "end": 248,
+        "text": "drought",
+        "label": "ABS"
+      }
+    ],
+    "relations": []
+  }
+]

@@ -1,0 +1,599 @@
+[
+  {
+    "text": "The study identified the SbMYBHv33 transcription factor, which is downregulated by salt, drought, and ABA in the salt-tolerant sorghum inbred line M-81E. Overexpression of SbMYBHv33 in sorghum significantly reduced biomass accumulation and salinity tolerance at the seedling stage.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 34,
+        "text": "SbMYBHv33",
+        "label": "GENE"
+      },
+      {
+        "start": 83,
+        "end": 87,
+        "text": "salt",
+        "label": "ABS"
+      },
+      {
+        "start": 89,
+        "end": 96,
+        "text": "drought",
+        "label": "ABS"
+      },
+      {
+        "start": 113,
+        "end": 141,
+        "text": "salt-tolerant sorghum inbred",
+        "label": "VAR"
+      },
+      {
+        "start": 172,
+        "end": 181,
+        "text": "SbMYBHv33",
+        "label": "GENE"
+      },
+      {
+        "start": 185,
+        "end": 192,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 215,
+        "end": 235,
+        "text": "biomass accumulation",
+        "label": "TRT"
+      },
+      {
+        "start": 240,
+        "end": 258,
+        "text": "salinity tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 266,
+        "end": 280,
+        "text": "seedling stage",
+        "label": "GST"
+      }
+    ],
+    "relations": [
+      {
+        "head": "sorghum",
+        "head_start": 185,
+        "head_end": 192,
+        "head_type": "CROP",
+        "tail": "salt-tolerant sorghum inbred",
+        "tail_start": 113,
+        "tail_end": 141,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "salt",
+        "head_start": 83,
+        "head_end": 87,
+        "head_type": "ABS",
+        "tail": "SbMYBHv33",
+        "tail_start": 25,
+        "tail_end": 34,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "drought",
+        "head_start": 89,
+        "head_end": 96,
+        "head_type": "ABS",
+        "tail": "SbMYBHv33",
+        "tail_start": 25,
+        "tail_end": 34,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "salinity tolerance",
+        "head_start": 240,
+        "head_end": 258,
+        "head_type": "TRT",
+        "tail": "seedling stage",
+        "tail_start": 266,
+        "tail_end": 280,
+        "tail_type": "GST",
+        "label": "OCI"
+      }
+    ]
+  },
+  {
+    "text": "STRUCTURE, phylogenetic, and PCoA analyses grouped most Ethiopian and Turkish broomcorn accessions together. Most East Asian accessions from China and South Korea formed another group. Two Sudanese broomcorn individuals were in a distinct group.",
+    "entities": [
+      {
+        "start": 56,
+        "end": 87,
+        "text": "Ethiopian and Turkish broomcorn",
+        "label": "VAR"
+      },
+      {
+        "start": 78,
+        "end": 87,
+        "text": "broomcorn",
+        "label": "CROP"
+      },
+      {
+        "start": 189,
+        "end": 207,
+        "text": "Sudanese broomcorn",
+        "label": "VAR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "broomcorn",
+        "head_start": 78,
+        "head_end": 87,
+        "head_type": "CROP",
+        "tail": "Ethiopian and Turkish broomcorn",
+        "tail_start": 56,
+        "tail_end": 87,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "broomcorn",
+        "head_start": 78,
+        "head_end": 87,
+        "head_type": "CROP",
+        "tail": "Sudanese broomcorn",
+        "tail_start": 189,
+        "tail_end": 207,
+        "tail_type": "VAR",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "Comparative analysis confirmed that the region associated with these three loci is not associated with the anthracnose resistance locus Cg1. Cg1 was previously mapped in the distal region of the same chromosome. The dominant mode of action against pathotypes from Puerto Rico suggests that these resistance sources can be beneficial for sorghum hybrid production.",
+    "entities": [
+      {
+        "start": 107,
+        "end": 118,
+        "text": "anthracnose",
+        "label": "BIS"
+      },
+      {
+        "start": 119,
+        "end": 139,
+        "text": "resistance locus Cg1",
+        "label": "QTL"
+      },
+      {
+        "start": 141,
+        "end": 144,
+        "text": "Cg1",
+        "label": "GENE"
+      },
+      {
+        "start": 200,
+        "end": 210,
+        "text": "chromosome",
+        "label": "CHR"
+      },
+      {
+        "start": 337,
+        "end": 344,
+        "text": "sorghum",
+        "label": "CROP"
+      }
+    ],
+    "relations": [
+      {
+        "head": "resistance locus Cg1",
+        "head_start": 119,
+        "head_end": 139,
+        "head_type": "QTL",
+        "tail": "chromosome",
+        "tail_start": 200,
+        "tail_end": 210,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "Cg1",
+        "head_start": 141,
+        "head_end": 144,
+        "head_type": "GENE",
+        "tail": "chromosome",
+        "tail_start": 200,
+        "tail_end": 210,
+        "tail_type": "CHR",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "Sheepgrass seedlings survived when soil water content was reduced to 14.09% in a drought stress experiment.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "text": "Sheepgrass",
+        "label": "CROP"
+      },
+      {
+        "start": 81,
+        "end": 95,
+        "text": "drought stress",
+        "label": "ABS"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Four QTLs for flag leaf thickness (FLT) were detected. They are located on chromosomes 2H, 3H, 5H, and 6H. The QTL on 6H had the largest effect, with a maximum LOD of 9.8 explaining up to 20.9% of phenotypic variance.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "text": "QTLs",
+        "label": "QTL"
+      },
+      {
+        "start": 14,
+        "end": 39,
+        "text": "flag leaf thickness (FLT)",
+        "label": "TRT"
+      },
+      {
+        "start": 75,
+        "end": 105,
+        "text": "chromosomes 2H, 3H, 5H, and 6H",
+        "label": "CHR"
+      },
+      {
+        "start": 111,
+        "end": 114,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 118,
+        "end": 120,
+        "text": "6H",
+        "label": "CHR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QTLs",
+        "head_start": 5,
+        "head_end": 9,
+        "head_type": "QTL",
+        "tail": "flag leaf thickness (FLT)",
+        "tail_start": 14,
+        "tail_end": 39,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL",
+        "head_start": 111,
+        "head_end": 114,
+        "head_type": "QTL",
+        "tail": "6H",
+        "tail_start": 118,
+        "tail_end": 120,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 5,
+        "head_end": 9,
+        "head_type": "QTL",
+        "tail": "chromosomes 2H, 3H, 5H, and 6H",
+        "tail_start": 75,
+        "tail_end": 105,
+        "tail_type": "CHR",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "Increasing NaCl concentrations progressively inhibited plant height in JXD6 seedlings. The unifoliate leaves exhibited elevated leaf surface temperature, increased chlorophyll a, total chlorophyll and carotenoids contents, enhanced O2- accumulation, and heightened superoxide dismutase, peroxidase, and catalase activities.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 15,
+        "text": "NaCl",
+        "label": "ABS"
+      },
+      {
+        "start": 55,
+        "end": 67,
+        "text": "plant height",
+        "label": "TRT"
+      },
+      {
+        "start": 71,
+        "end": 75,
+        "text": "JXD6",
+        "label": "VAR"
+      },
+      {
+        "start": 201,
+        "end": 221,
+        "text": "carotenoids contents",
+        "label": "TRT"
+      },
+      {
+        "start": 265,
+        "end": 285,
+        "text": "superoxide dismutase",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "JXD6",
+        "head_start": 71,
+        "head_end": 75,
+        "head_type": "VAR",
+        "tail": "plant height",
+        "tail_start": 55,
+        "tail_end": 67,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "JXD6",
+        "head_start": 71,
+        "head_end": 75,
+        "head_type": "VAR",
+        "tail": "carotenoids contents",
+        "tail_start": 201,
+        "tail_end": 221,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "The resulting frame shift causes a Gly436Gln substitution and forms a new termination site at the 70th triplet of the shifted reading frame. The variant protein is called CYP704B:p.G436Qfs*70. The barley HORVU4Hr1G074840 gene was specifically expressed in anthers.",
+    "entities": [
+      {
+        "start": 171,
+        "end": 178,
+        "text": "CYP704B",
+        "label": "GENE"
+      },
+      {
+        "start": 197,
+        "end": 203,
+        "text": "barley",
+        "label": "CROP"
+      },
+      {
+        "start": 204,
+        "end": 220,
+        "text": "HORVU4Hr1G074840",
+        "label": "GENE"
+      },
+      {
+        "start": 256,
+        "end": 263,
+        "text": "anthers",
+        "label": "GST"
+      }
+    ],
+    "relations": [
+      {
+        "head": "barley",
+        "head_start": 197,
+        "head_end": 203,
+        "head_type": "CROP",
+        "tail": "HORVU4Hr1G074840",
+        "tail_start": 204,
+        "tail_end": 220,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "HORVU4Hr1G074840",
+        "head_start": 204,
+        "head_end": 220,
+        "head_type": "GENE",
+        "tail": "anthers",
+        "tail_start": 256,
+        "tail_end": 263,
+        "tail_type": "GST",
+        "label": "OCI"
+      }
+    ]
+  },
+  {
+    "text": "Sorghum (Sorghum bicolor) has the stay-green trait. A panel of 333 sorghum lines was studied for leaf senescence onset and progression.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Sorghum",
+        "label": "CROP"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "SCAR markers SCA 12-1 and SCA 12-2 were designed from the cloned RAPD product sequence. They specifically amplified the RAPD fragment in resistant parent G 73, resistant bulk, and respective RILs. SCAR marker SCA 12 is at the same locus as RAPD marker OPA 12(383) and is linked to the gene for resistance to anthracnose.",
+    "entities": [
+      {
+        "start": 137,
+        "end": 158,
+        "text": "resistant parent G 73",
+        "label": "VAR"
+      },
+      {
+        "start": 191,
+        "end": 195,
+        "text": "RILs",
+        "label": "CROSS"
+      },
+      {
+        "start": 240,
+        "end": 263,
+        "text": "RAPD marker OPA 12(383)",
+        "label": "MRK"
+      },
+      {
+        "start": 294,
+        "end": 319,
+        "text": "resistance to anthracnose",
+        "label": "TRT"
+      },
+      {
+        "start": 308,
+        "end": 319,
+        "text": "anthracnose",
+        "label": "BIS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "resistant parent G 73",
+        "head_start": 137,
+        "head_end": 158,
+        "head_type": "VAR",
+        "tail": "resistance to anthracnose",
+        "tail_start": 294,
+        "tail_end": 319,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "RILs",
+        "head_start": 191,
+        "head_end": 195,
+        "head_type": "CROSS",
+        "tail": "resistance to anthracnose",
+        "tail_start": 294,
+        "tail_end": 319,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "Foxtail millet [Setaria italica] is a multigrain crop. Drought is the main abiotic stress limiting foxtail millet yield. Screening for drought-tolerant varieties and identifying drought resistance regulatory genes is significant in foxtail millet breeding.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "text": "Foxtail millet",
+        "label": "CROP"
+      },
+      {
+        "start": 16,
+        "end": 31,
+        "text": "Setaria italica",
+        "label": "CROP"
+      },
+      {
+        "start": 38,
+        "end": 53,
+        "text": "multigrain crop",
+        "label": "TRT"
+      },
+      {
+        "start": 55,
+        "end": 62,
+        "text": "Drought",
+        "label": "ABS"
+      },
+      {
+        "start": 135,
+        "end": 151,
+        "text": "drought-tolerant",
+        "label": "TRT"
+      },
+      {
+        "start": 178,
+        "end": 196,
+        "text": "drought resistance",
+        "label": "TRT"
+      },
+      {
+        "start": 232,
+        "end": 255,
+        "text": "foxtail millet breeding",
+        "label": "BM"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Foxtail millet",
+        "head_start": 0,
+        "head_end": 14,
+        "head_type": "CROP",
+        "tail": "Setaria italica",
+        "tail_start": 16,
+        "tail_end": 31,
+        "tail_type": "CROP",
+        "label": "CON"
+      },
+      {
+        "head": "Foxtail millet",
+        "head_start": 0,
+        "head_end": 14,
+        "head_type": "CROP",
+        "tail": "multigrain crop",
+        "tail_start": 38,
+        "tail_end": 53,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Drought",
+        "head_start": 55,
+        "head_end": 62,
+        "head_type": "ABS",
+        "tail": "Foxtail millet",
+        "tail_start": 0,
+        "tail_end": 14,
+        "tail_type": "CROP",
+        "label": "AFF"
+      },
+      {
+        "head": "Foxtail millet",
+        "head_start": 0,
+        "head_end": 14,
+        "head_type": "CROP",
+        "tail": "drought-tolerant",
+        "tail_start": 135,
+        "tail_end": 151,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Foxtail millet",
+        "head_start": 0,
+        "head_end": 14,
+        "head_type": "CROP",
+        "tail": "drought resistance",
+        "tail_start": 178,
+        "tail_end": 196,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Foxtail millet",
+        "head_start": 0,
+        "head_end": 14,
+        "head_type": "CROP",
+        "tail": "foxtail millet breeding",
+        "tail_start": 232,
+        "tail_end": 255,
+        "tail_type": "BM",
+        "label": "USE"
+      }
+    ]
+  }
+]

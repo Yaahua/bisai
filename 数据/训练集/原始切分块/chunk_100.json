@@ -1,0 +1,644 @@
+[
+  {
+    "text": "Map-based cloning showed an eight-base pair deletion in the sixth exon of wp1.a in LOC101786849, causing premature termination. WP1 encodes phytoene synthase.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "text": "Map-based cloning",
+        "label": "BM"
+      },
+      {
+        "start": 74,
+        "end": 79,
+        "text": "wp1.a",
+        "label": "GENE"
+      },
+      {
+        "start": 83,
+        "end": 95,
+        "text": "LOC101786849",
+        "label": "GENE"
+      },
+      {
+        "start": 128,
+        "end": 131,
+        "text": "WP1",
+        "label": "GENE"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "The 2S albumin from pine nut (Pin p 1.0101) was recognized by IgE of 75% of sera.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 28,
+        "text": "pine nut",
+        "label": "CROP"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "High contribution QTLs were distributed on seven out of 11 linkage groups. Many small contribution QTLs were found.",
+    "entities": [
+      {
+        "start": 18,
+        "end": 22,
+        "text": "QTLs",
+        "label": "QTL"
+      },
+      {
+        "start": 99,
+        "end": 103,
+        "text": "QTLs",
+        "label": "QTL"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Selected silicoDArT markers were used for chromosomal localization of resistance genes. Five of 71 segregating silicoDArT markers for the Pm11 gene were found on the oat consensus genetic map.",
+    "entities": [
+      {
+        "start": 9,
+        "end": 27,
+        "text": "silicoDArT markers",
+        "label": "MRK"
+      },
+      {
+        "start": 70,
+        "end": 80,
+        "text": "resistance",
+        "label": "TRT"
+      },
+      {
+        "start": 111,
+        "end": 129,
+        "text": "silicoDArT markers",
+        "label": "MRK"
+      },
+      {
+        "start": 138,
+        "end": 142,
+        "text": "Pm11",
+        "label": "GENE"
+      },
+      {
+        "start": 166,
+        "end": 191,
+        "text": "oat consensus genetic map",
+        "label": "CHR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "silicoDArT markers",
+        "head_start": 9,
+        "head_end": 27,
+        "head_type": "MRK",
+        "tail": "resistance",
+        "tail_start": 70,
+        "tail_end": 80,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "silicoDArT markers",
+        "head_start": 9,
+        "head_end": 27,
+        "head_type": "MRK",
+        "tail": "oat consensus genetic map",
+        "tail_start": 166,
+        "tail_end": 191,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "Pm11",
+        "head_start": 138,
+        "head_end": 142,
+        "head_type": "GENE",
+        "tail": "oat consensus genetic map",
+        "tail_start": 166,
+        "tail_end": 191,
+        "tail_type": "CHR",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "Gene editing generated three new haplotypes of the sdw1/denso candidate gene gibberellin 20-oxidase2 (GA20ox2). These haplotypes induced a dwarfing phenotype, enhanced yield potential, and promoted seed dormancy to reduce pre-harvest sprouting. Beta-amylase activity in the grains of the mutant lines was significantly increased, which benefits malt quality.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "text": "Gene editing",
+        "label": "BM"
+      },
+      {
+        "start": 51,
+        "end": 61,
+        "text": "sdw1/denso",
+        "label": "GENE"
+      },
+      {
+        "start": 77,
+        "end": 100,
+        "text": "gibberellin 20-oxidase2",
+        "label": "GENE"
+      },
+      {
+        "start": 102,
+        "end": 109,
+        "text": "GA20ox2",
+        "label": "GENE"
+      },
+      {
+        "start": 139,
+        "end": 157,
+        "text": "dwarfing phenotype",
+        "label": "TRT"
+      },
+      {
+        "start": 159,
+        "end": 183,
+        "text": "enhanced yield potential",
+        "label": "TRT"
+      },
+      {
+        "start": 198,
+        "end": 211,
+        "text": "seed dormancy",
+        "label": "TRT"
+      },
+      {
+        "start": 222,
+        "end": 243,
+        "text": "pre-harvest sprouting",
+        "label": "TRT"
+      },
+      {
+        "start": 245,
+        "end": 266,
+        "text": "Beta-amylase activity",
+        "label": "TRT"
+      },
+      {
+        "start": 288,
+        "end": 300,
+        "text": "mutant lines",
+        "label": "VAR"
+      },
+      {
+        "start": 345,
+        "end": 357,
+        "text": "malt quality",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "gibberellin 20-oxidase2",
+        "head_start": 77,
+        "head_end": 100,
+        "head_type": "GENE",
+        "tail": "sdw1/denso",
+        "tail_start": 51,
+        "tail_end": 61,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "GA20ox2",
+        "head_start": 102,
+        "head_end": 109,
+        "head_type": "GENE",
+        "tail": "sdw1/denso",
+        "tail_start": 51,
+        "tail_end": 61,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "mutant lines",
+        "head_start": 288,
+        "head_end": 300,
+        "head_type": "VAR",
+        "tail": "Beta-amylase activity",
+        "tail_start": 245,
+        "tail_end": 266,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "Drought interactions with abiotic stresses and biotic factors can increase crop vulnerability or enhance drought tolerance. Modern plant breeding techniques can develop locally adapted, drought tolerant, and nutrient rich sorghum cultivars.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Drought",
+        "label": "ABS"
+      },
+      {
+        "start": 105,
+        "end": 122,
+        "text": "drought tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 222,
+        "end": 229,
+        "text": "sorghum",
+        "label": "CROP"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Drought",
+        "head_start": 0,
+        "head_end": 7,
+        "head_type": "ABS",
+        "tail": "drought tolerance",
+        "tail_start": 105,
+        "tail_end": 122,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Kruskall-Wallis and multiple-QTL model mapping identified QTL associated with drought response phenotypes. The QTL were reproducible between stg and rdw under greenhouse conditions. Field studies confirmed all ten drought-response QTL observed under greenhouse conditions.",
+    "entities": [
+      {
+        "start": 58,
+        "end": 61,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 78,
+        "end": 94,
+        "text": "drought response",
+        "label": "TRT"
+      },
+      {
+        "start": 111,
+        "end": 114,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 231,
+        "end": 234,
+        "text": "QTL",
+        "label": "QTL"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "The expression levels of three SWEET genes and four PIP genes were higher in YG than in An. This allocated more photosynthetic sugar to the roots. The high expression levels of SiPIPs enhanced root water transport capacity.",
+    "entities": [
+      {
+        "start": 31,
+        "end": 42,
+        "text": "SWEET genes",
+        "label": "GENE"
+      },
+      {
+        "start": 52,
+        "end": 61,
+        "text": "PIP genes",
+        "label": "GENE"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "We evaluated simulated traits from maize (Zea mays L.) and sorghum [Sorghum bicolor (L.) Moench] diversity panels using ridge-regression best linear unbiased prediction (RR-BLUP) models. The models included fixed-effect covariates tagging peak GWAS signals. The covariates increased genomic selection (GS) prediction accuracy in the RR-BLUP model under various genetic architectures and genomic backgrounds.",
+    "entities": [
+      {
+        "start": 35,
+        "end": 40,
+        "text": "maize",
+        "label": "CROP"
+      },
+      {
+        "start": 42,
+        "end": 52,
+        "text": "Zea mays L",
+        "label": "CROP"
+      },
+      {
+        "start": 59,
+        "end": 66,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 68,
+        "end": 95,
+        "text": "Sorghum bicolor (L.) Moench",
+        "label": "CROP"
+      },
+      {
+        "start": 170,
+        "end": 177,
+        "text": "RR-BLUP",
+        "label": "VAR"
+      },
+      {
+        "start": 244,
+        "end": 248,
+        "text": "GWAS",
+        "label": "BM"
+      },
+      {
+        "start": 283,
+        "end": 305,
+        "text": "genomic selection (GS)",
+        "label": "BM"
+      },
+      {
+        "start": 302,
+        "end": 304,
+        "text": "GS",
+        "label": "VAR"
+      },
+      {
+        "start": 333,
+        "end": 340,
+        "text": "RR-BLUP",
+        "label": "VAR"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Three major stable pleiotropic QTLs (qSCS-1, qRLS-1, and qLNN-1) were associated with SCR, RL, and RN in both normal and salinity treatments. Two major stable pleiotropic QTLs (qSNN-3 and qLWS-3) associated with SN and LW are promising for MAS. Two major-effect QTLs (SCot8-B-CAAT5-D and HVM54-Bmag0571) on chromosomes 1 and 2 were characterized for their positive allele effect, which can be used to develop barley varieties for drought conditions.",
+    "entities": [
+      {
+        "start": 37,
+        "end": 43,
+        "text": "qSCS-1",
+        "label": "QTL"
+      },
+      {
+        "start": 45,
+        "end": 51,
+        "text": "qRLS-1",
+        "label": "QTL"
+      },
+      {
+        "start": 57,
+        "end": 63,
+        "text": "qLNN-1",
+        "label": "QTL"
+      },
+      {
+        "start": 86,
+        "end": 89,
+        "text": "SCR",
+        "label": "TRT"
+      },
+      {
+        "start": 91,
+        "end": 93,
+        "text": "RL",
+        "label": "TRT"
+      },
+      {
+        "start": 99,
+        "end": 101,
+        "text": "RN",
+        "label": "TRT"
+      },
+      {
+        "start": 121,
+        "end": 140,
+        "text": "salinity treatments",
+        "label": "ABS"
+      },
+      {
+        "start": 177,
+        "end": 183,
+        "text": "qSNN-3",
+        "label": "QTL"
+      },
+      {
+        "start": 188,
+        "end": 194,
+        "text": "qLWS-3",
+        "label": "QTL"
+      },
+      {
+        "start": 212,
+        "end": 214,
+        "text": "SN",
+        "label": "TRT"
+      },
+      {
+        "start": 219,
+        "end": 221,
+        "text": "LW",
+        "label": "TRT"
+      },
+      {
+        "start": 268,
+        "end": 283,
+        "text": "SCot8-B-CAAT5-D",
+        "label": "QTL"
+      },
+      {
+        "start": 288,
+        "end": 302,
+        "text": "HVM54-Bmag0571",
+        "label": "QTL"
+      },
+      {
+        "start": 307,
+        "end": 326,
+        "text": "chromosomes 1 and 2",
+        "label": "CHR"
+      },
+      {
+        "start": 430,
+        "end": 448,
+        "text": "drought conditions",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "qSCS-1",
+        "head_start": 37,
+        "head_end": 43,
+        "head_type": "QTL",
+        "tail": "SCR",
+        "tail_start": 86,
+        "tail_end": 89,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "qSCS-1",
+        "head_start": 37,
+        "head_end": 43,
+        "head_type": "QTL",
+        "tail": "RL",
+        "tail_start": 91,
+        "tail_end": 93,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "qSCS-1",
+        "head_start": 37,
+        "head_end": 43,
+        "head_type": "QTL",
+        "tail": "RN",
+        "tail_start": 99,
+        "tail_end": 101,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "qRLS-1",
+        "head_start": 45,
+        "head_end": 51,
+        "head_type": "QTL",
+        "tail": "SCR",
+        "tail_start": 86,
+        "tail_end": 89,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "qRLS-1",
+        "head_start": 45,
+        "head_end": 51,
+        "head_type": "QTL",
+        "tail": "RL",
+        "tail_start": 91,
+        "tail_end": 93,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "qRLS-1",
+        "head_start": 45,
+        "head_end": 51,
+        "head_type": "QTL",
+        "tail": "RN",
+        "tail_start": 99,
+        "tail_end": 101,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "qLNN-1",
+        "head_start": 57,
+        "head_end": 63,
+        "head_type": "QTL",
+        "tail": "SCR",
+        "tail_start": 86,
+        "tail_end": 89,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "qLNN-1",
+        "head_start": 57,
+        "head_end": 63,
+        "head_type": "QTL",
+        "tail": "RL",
+        "tail_start": 91,
+        "tail_end": 93,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "qLNN-1",
+        "head_start": 57,
+        "head_end": 63,
+        "head_type": "QTL",
+        "tail": "RN",
+        "tail_start": 99,
+        "tail_end": 101,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "qSNN-3",
+        "head_start": 177,
+        "head_end": 183,
+        "head_type": "QTL",
+        "tail": "LW",
+        "tail_start": 219,
+        "tail_end": 221,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "qSNN-3",
+        "head_start": 177,
+        "head_end": 183,
+        "head_type": "QTL",
+        "tail": "SN",
+        "tail_start": 212,
+        "tail_end": 214,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "qLWS-3",
+        "head_start": 188,
+        "head_end": 194,
+        "head_type": "QTL",
+        "tail": "LW",
+        "tail_start": 219,
+        "tail_end": 221,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "qLWS-3",
+        "head_start": 188,
+        "head_end": 194,
+        "head_type": "QTL",
+        "tail": "SN",
+        "tail_start": 212,
+        "tail_end": 214,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "SCot8-B-CAAT5-D",
+        "head_start": 268,
+        "head_end": 283,
+        "head_type": "QTL",
+        "tail": "chromosomes 1 and 2",
+        "tail_start": 307,
+        "tail_end": 326,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "HVM54-Bmag0571",
+        "head_start": 288,
+        "head_end": 302,
+        "head_type": "QTL",
+        "tail": "chromosomes 1 and 2",
+        "tail_start": 307,
+        "tail_end": 326,
+        "tail_type": "CHR",
+        "label": "LOI"
+      }
+    ]
+  }
+]

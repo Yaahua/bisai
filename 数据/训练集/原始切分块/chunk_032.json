@@ -1,0 +1,530 @@
+[
+  {
+    "text": "Four markers were above the cutoff point. The significant marker-trait associations are useful for marker-assisted selection in anthracnose resistance breeding and for gene and QTL mapping.",
+    "entities": [
+      {
+        "start": 128,
+        "end": 139,
+        "text": "anthracnose",
+        "label": "BIS"
+      },
+      {
+        "start": 177,
+        "end": 188,
+        "text": "QTL mapping",
+        "label": "BM"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Heterologous expression in Saccharomyces cerevisiae and Arabidopsis thaliana mutants showed that overexpressing SbHKT1;4 caused hypersensitivity to Na+ stress. This hypersensitivity was alleviated by elevated K+ levels, indicating SbHKT1;4 may mediate K+ uptake under excessive Na+. Electrophysiology in Xenopus laevis oocytes demonstrated SbHKT1;4 transports Na+ and K+.",
+    "entities": [
+      {
+        "start": 27,
+        "end": 51,
+        "text": "Saccharomyces cerevisiae",
+        "label": "CROP"
+      },
+      {
+        "start": 112,
+        "end": 120,
+        "text": "SbHKT1;4",
+        "label": "GENE"
+      },
+      {
+        "start": 231,
+        "end": 239,
+        "text": "SbHKT1;4",
+        "label": "GENE"
+      },
+      {
+        "start": 340,
+        "end": 348,
+        "text": "SbHKT1;4",
+        "label": "GENE"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "The quinoa C2H2 gene family promoter's 2000 bp region contains cis-acting elements responsive to stress and hormone factors. Transcriptome sequencing and RT-qPCR analysis showed higher gene expression in the high-resistant material compared to the sensitive material under flooding stress.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 10,
+        "text": "quinoa",
+        "label": "CROP"
+      },
+      {
+        "start": 11,
+        "end": 27,
+        "text": "C2H2 gene family",
+        "label": "GENE"
+      },
+      {
+        "start": 125,
+        "end": 149,
+        "text": "Transcriptome sequencing",
+        "label": "BM"
+      },
+      {
+        "start": 154,
+        "end": 170,
+        "text": "RT-qPCR analysis",
+        "label": "BM"
+      },
+      {
+        "start": 208,
+        "end": 231,
+        "text": "high-resistant material",
+        "label": "VAR"
+      },
+      {
+        "start": 273,
+        "end": 288,
+        "text": "flooding stress",
+        "label": "ABS"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Watermelon, rich in citrulline, was used as a model. Transcriptomic and metabolomic analysis studied citrulline accumulation during drought stress and nitrogen perturbation. Experiments in semi-controlled and open field environments monitored stress treatments with physiological measurements to study drought-induced citrulline accumulation in vegetative tissues.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "text": "Watermelon",
+        "label": "CROP"
+      },
+      {
+        "start": 132,
+        "end": 146,
+        "text": "drought stress",
+        "label": "ABS"
+      },
+      {
+        "start": 302,
+        "end": 341,
+        "text": "drought-induced citrulline accumulation",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "drought stress",
+        "head_start": 132,
+        "head_end": 146,
+        "head_type": "ABS",
+        "tail": "drought-induced citrulline accumulation",
+        "tail_start": 302,
+        "tail_end": 341,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Overexpression of FtNAC31 lowered seed germination rate under ABA treatment and enhanced tolerance to salt and drought stress in transgenic Arabidopsis. Under various stresses, activities of SOD, POD, and CAT increased sharply in FtNAC31 overexpressed lines.",
+    "entities": [
+      {
+        "start": 18,
+        "end": 25,
+        "text": "FtNAC31",
+        "label": "GENE"
+      },
+      {
+        "start": 62,
+        "end": 75,
+        "text": "ABA treatment",
+        "label": "ABS"
+      },
+      {
+        "start": 102,
+        "end": 106,
+        "text": "salt",
+        "label": "ABS"
+      },
+      {
+        "start": 111,
+        "end": 125,
+        "text": "drought stress",
+        "label": "ABS"
+      },
+      {
+        "start": 230,
+        "end": 237,
+        "text": "FtNAC31",
+        "label": "GENE"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "The maximum distance between markers ABAM232 and ABAM497 was 33.4 cM. QTL analysis using composite interval mapping identified QTLs for disease resistance from phenotypic and genotypic data of an F-2 population.",
+    "entities": [
+      {
+        "start": 127,
+        "end": 131,
+        "text": "QTLs",
+        "label": "QTL"
+      },
+      {
+        "start": 136,
+        "end": 154,
+        "text": "disease resistance",
+        "label": "TRT"
+      },
+      {
+        "start": 196,
+        "end": 210,
+        "text": "F-2 population",
+        "label": "CROSS"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Molecular diversity of 40 Tibetan wild barley accessions, 10 Syrian, 72 North American, 36 European, 9 South American, and 8 Australian varieties was characterized using multiple microsatellite loci. The 42 SSR primers amplified 278 alleles across the 175 barley accessions.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 56,
+        "text": "Tibetan wild barley accessions",
+        "label": "VAR"
+      },
+      {
+        "start": 61,
+        "end": 67,
+        "text": "Syrian",
+        "label": "VAR"
+      },
+      {
+        "start": 72,
+        "end": 86,
+        "text": "North American",
+        "label": "VAR"
+      },
+      {
+        "start": 91,
+        "end": 99,
+        "text": "European",
+        "label": "VAR"
+      },
+      {
+        "start": 103,
+        "end": 117,
+        "text": "South American",
+        "label": "VAR"
+      },
+      {
+        "start": 125,
+        "end": 145,
+        "text": "Australian varieties",
+        "label": "VAR"
+      },
+      {
+        "start": 179,
+        "end": 198,
+        "text": "microsatellite loci",
+        "label": "MRK"
+      },
+      {
+        "start": 207,
+        "end": 218,
+        "text": "SSR primers",
+        "label": "MRK"
+      },
+      {
+        "start": 256,
+        "end": 262,
+        "text": "barley",
+        "label": "CROP"
+      }
+    ],
+    "relations": [
+      {
+        "head": "barley",
+        "head_start": 256,
+        "head_end": 262,
+        "head_type": "CROP",
+        "tail": "Tibetan wild barley accessions",
+        "tail_start": 26,
+        "tail_end": 56,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "barley",
+        "head_start": 256,
+        "head_end": 262,
+        "head_type": "CROP",
+        "tail": "Syrian",
+        "tail_start": 61,
+        "tail_end": 67,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "barley",
+        "head_start": 256,
+        "head_end": 262,
+        "head_type": "CROP",
+        "tail": "North American",
+        "tail_start": 72,
+        "tail_end": 86,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "barley",
+        "head_start": 256,
+        "head_end": 262,
+        "head_type": "CROP",
+        "tail": "European",
+        "tail_start": 91,
+        "tail_end": 99,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "barley",
+        "head_start": 256,
+        "head_end": 262,
+        "head_type": "CROP",
+        "tail": "South American",
+        "tail_start": 103,
+        "tail_end": 117,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "barley",
+        "head_start": 256,
+        "head_end": 262,
+        "head_type": "CROP",
+        "tail": "Australian varieties",
+        "tail_start": 125,
+        "tail_end": 145,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "SSR primers",
+        "head_start": 207,
+        "head_end": 218,
+        "head_type": "MRK",
+        "tail": "microsatellite loci",
+        "tail_start": 179,
+        "tail_end": 198,
+        "tail_type": "MRK",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "Pearl millet is a crop with resilience to abiotic stress. We collected 1,455,924 SNP and 124,532 SV markers from a pearl millet inbred germplasm association panel of 242 accessions, including 120 observed phenotypes related to yield.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "text": "Pearl millet",
+        "label": "CROP"
+      },
+      {
+        "start": 42,
+        "end": 56,
+        "text": "abiotic stress",
+        "label": "ABS"
+      },
+      {
+        "start": 71,
+        "end": 84,
+        "text": "1,455,924 SNP",
+        "label": "MRK"
+      },
+      {
+        "start": 89,
+        "end": 107,
+        "text": "124,532 SV markers",
+        "label": "MRK"
+      },
+      {
+        "start": 115,
+        "end": 180,
+        "text": "pearl millet inbred germplasm association panel of 242 accessions",
+        "label": "VAR"
+      },
+      {
+        "start": 227,
+        "end": 232,
+        "text": "yield",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Pearl millet",
+        "head_start": 0,
+        "head_end": 12,
+        "head_type": "CROP",
+        "tail": "pearl millet inbred germplasm association panel of 242 accessions",
+        "tail_start": 115,
+        "tail_end": 180,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "pearl millet inbred germplasm association panel of 242 accessions",
+        "head_start": 115,
+        "head_end": 180,
+        "head_type": "VAR",
+        "tail": "1,455,924 SNP",
+        "tail_start": 71,
+        "tail_end": 84,
+        "tail_type": "MRK",
+        "label": "CON"
+      },
+      {
+        "head": "pearl millet inbred germplasm association panel of 242 accessions",
+        "head_start": 115,
+        "head_end": 180,
+        "head_type": "VAR",
+        "tail": "124,532 SV markers",
+        "tail_start": 89,
+        "tail_end": 107,
+        "tail_type": "MRK",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "SiPYL3 transcript levels were upregulated under abiotic stress. SiPYL3 weakens drought resistance and positively modulates salt tolerance at the seedling stage.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "SiPYL3",
+        "label": "GENE"
+      },
+      {
+        "start": 64,
+        "end": 70,
+        "text": "SiPYL3",
+        "label": "GENE"
+      },
+      {
+        "start": 79,
+        "end": 97,
+        "text": "drought resistance",
+        "label": "TRT"
+      },
+      {
+        "start": 123,
+        "end": 137,
+        "text": "salt tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 145,
+        "end": 159,
+        "text": "seedling stage",
+        "label": "GST"
+      }
+    ],
+    "relations": [
+      {
+        "head": "SiPYL3",
+        "head_start": 0,
+        "head_end": 6,
+        "head_type": "GENE",
+        "tail": "drought resistance",
+        "tail_start": 79,
+        "tail_end": 97,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "SiPYL3",
+        "head_start": 0,
+        "head_end": 6,
+        "head_type": "GENE",
+        "tail": "salt tolerance",
+        "tail_start": 123,
+        "tail_end": 137,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "drought resistance",
+        "head_start": 79,
+        "head_end": 97,
+        "head_type": "TRT",
+        "tail": "seedling stage",
+        "tail_start": 145,
+        "tail_end": 159,
+        "tail_type": "GST",
+        "label": "OCI"
+      },
+      {
+        "head": "salt tolerance",
+        "head_start": 123,
+        "head_end": 137,
+        "head_type": "TRT",
+        "tail": "seedling stage",
+        "tail_start": 145,
+        "tail_end": 159,
+        "tail_type": "GST",
+        "label": "OCI"
+      }
+    ]
+  },
+  {
+    "text": "Seedling reaction to crown rust was assessed as infection type with 10 isolates. Adult plant reaction was assessed in 10 location-years as percentage severity and infection reaction.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 31,
+        "text": "Seedling reaction to crown rust",
+        "label": "TRT"
+      },
+      {
+        "start": 21,
+        "end": 31,
+        "text": "crown rust",
+        "label": "BIS"
+      },
+      {
+        "start": 81,
+        "end": 101,
+        "text": "Adult plant reaction",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "crown rust",
+        "head_start": 21,
+        "head_end": 31,
+        "head_type": "BIS",
+        "tail": "Seedling reaction to crown rust",
+        "tail_start": 0,
+        "tail_end": 31,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "crown rust",
+        "head_start": 21,
+        "head_end": 31,
+        "head_type": "BIS",
+        "tail": "Adult plant reaction",
+        "tail_start": 81,
+        "tail_end": 101,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  }
+]

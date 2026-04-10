@@ -1,0 +1,1085 @@
+[
+  {
+    "text": "114 CqGST genes were identified from the quinoa genome. The phylogenetic tree showed these genes divided into seven subgroups.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 15,
+        "text": "CqGST genes",
+        "label": "GENE"
+      },
+      {
+        "start": 41,
+        "end": 47,
+        "text": "quinoa",
+        "label": "CROP"
+      },
+      {
+        "start": 110,
+        "end": 125,
+        "text": "seven subgroups",
+        "label": "VAR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "quinoa",
+        "head_start": 41,
+        "head_end": 47,
+        "head_type": "CROP",
+        "tail": "seven subgroups",
+        "tail_start": 110,
+        "tail_end": 125,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "quinoa",
+        "head_start": 41,
+        "head_end": 47,
+        "head_type": "CROP",
+        "tail": "CqGST genes",
+        "tail_start": 4,
+        "tail_end": 15,
+        "tail_type": "GENE",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "QTL VaSdt4.1 for seed thickness (SDT) and three QTLs for branch number on the main stem were detected on chromosome 4. QTLs for maximum leaf width (LFMW) and stem internode length were mapped to chromosomes 2 and 9. Genes controlling seed coat, pod, stem and flower color were mapped to chromosomes 3 and 1.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "text": "QTL VaSdt4.1",
+        "label": "QTL"
+      },
+      {
+        "start": 48,
+        "end": 82,
+        "text": "QTLs for branch number on the main",
+        "label": "QTL"
+      },
+      {
+        "start": 105,
+        "end": 117,
+        "text": "chromosome 4",
+        "label": "CHR"
+      },
+      {
+        "start": 119,
+        "end": 153,
+        "text": "QTLs for maximum leaf width (LFMW)",
+        "label": "QTL"
+      },
+      {
+        "start": 195,
+        "end": 214,
+        "text": "chromosomes 2 and 9",
+        "label": "CHR"
+      },
+      {
+        "start": 287,
+        "end": 306,
+        "text": "chromosomes 3 and 1",
+        "label": "CHR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QTL VaSdt4.1",
+        "head_start": 0,
+        "head_end": 12,
+        "head_type": "QTL",
+        "tail": "chromosome 4",
+        "tail_start": 105,
+        "tail_end": 117,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL VaSdt4.1",
+        "head_start": 0,
+        "head_end": 12,
+        "head_type": "QTL",
+        "tail": "chromosomes 2 and 9",
+        "tail_start": 195,
+        "tail_end": 214,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL VaSdt4.1",
+        "head_start": 0,
+        "head_end": 12,
+        "head_type": "QTL",
+        "tail": "chromosomes 3 and 1",
+        "tail_start": 287,
+        "tail_end": 306,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs for branch number on the main",
+        "head_start": 48,
+        "head_end": 82,
+        "head_type": "QTL",
+        "tail": "chromosome 4",
+        "tail_start": 105,
+        "tail_end": 117,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs for branch number on the main",
+        "head_start": 48,
+        "head_end": 82,
+        "head_type": "QTL",
+        "tail": "chromosomes 3 and 1",
+        "tail_start": 287,
+        "tail_end": 306,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs for maximum leaf width (LFMW)",
+        "head_start": 119,
+        "head_end": 153,
+        "head_type": "QTL",
+        "tail": "chromosomes 2 and 9",
+        "tail_start": 195,
+        "tail_end": 214,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs for maximum leaf width (LFMW)",
+        "head_start": 119,
+        "head_end": 153,
+        "head_type": "QTL",
+        "tail": "chromosomes 3 and 1",
+        "tail_start": 287,
+        "tail_end": 306,
+        "tail_type": "CHR",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "Haplotype analysis linked three SbPaO genes to thousand-grain weight (TGW). Superior haplotypes SbPaO1-hap4, SbPaO3-hap5, and SbPaO4-hap4 increased TGW. Single-gene improvements increased TGW by 10.57-17.20%, dual-gene aggregation by 18.78-24.75%, and three-gene aggregation by 29.09%.",
+    "entities": [
+      {
+        "start": 32,
+        "end": 37,
+        "text": "SbPaO",
+        "label": "GENE"
+      },
+      {
+        "start": 47,
+        "end": 68,
+        "text": "thousand-grain weight",
+        "label": "TRT"
+      },
+      {
+        "start": 47,
+        "end": 74,
+        "text": "thousand-grain weight (TGW)",
+        "label": "TRT"
+      },
+      {
+        "start": 70,
+        "end": 73,
+        "text": "TGW",
+        "label": "TRT"
+      },
+      {
+        "start": 96,
+        "end": 107,
+        "text": "SbPaO1-hap4",
+        "label": "GENE"
+      },
+      {
+        "start": 109,
+        "end": 120,
+        "text": "SbPaO3-hap5",
+        "label": "GENE"
+      },
+      {
+        "start": 126,
+        "end": 137,
+        "text": "SbPaO4-hap4",
+        "label": "GENE"
+      },
+      {
+        "start": 148,
+        "end": 151,
+        "text": "TGW",
+        "label": "TRT"
+      },
+      {
+        "start": 188,
+        "end": 191,
+        "text": "TGW",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "SbPaO1-hap4",
+        "head_start": 96,
+        "head_end": 107,
+        "head_type": "GENE",
+        "tail": "thousand-grain weight (TGW)",
+        "tail_start": 47,
+        "tail_end": 74,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "SbPaO3-hap5",
+        "head_start": 109,
+        "head_end": 120,
+        "head_type": "GENE",
+        "tail": "thousand-grain weight (TGW)",
+        "tail_start": 47,
+        "tail_end": 74,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "SbPaO4-hap4",
+        "head_start": 126,
+        "head_end": 137,
+        "head_type": "GENE",
+        "tail": "thousand-grain weight (TGW)",
+        "tail_start": 47,
+        "tail_end": 74,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "thousand-grain weight (TGW)",
+        "head_start": 47,
+        "head_end": 74,
+        "head_type": "TRT",
+        "tail": "thousand-grain weight",
+        "tail_start": 47,
+        "tail_end": 68,
+        "tail_type": "TRT",
+        "label": "CON"
+      },
+      {
+        "head": "thousand-grain weight (TGW)",
+        "head_start": 47,
+        "head_end": 74,
+        "head_type": "TRT",
+        "tail": "TGW",
+        "tail_start": 70,
+        "tail_end": 73,
+        "tail_type": "TRT",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "RT-qPCR characterized AsNAC gene expression in different tissues and its response to abiotic stresses. Collinearity analysis identified segmental duplication as the main driver of oat NAC gene family expansion. The functions of AsNAC109 in regulating abiotic stress tolerance were clarified in Arabidopsis.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 27,
+        "text": "AsNAC",
+        "label": "GENE"
+      },
+      {
+        "start": 85,
+        "end": 101,
+        "text": "abiotic stresses",
+        "label": "ABS"
+      },
+      {
+        "start": 180,
+        "end": 183,
+        "text": "oat",
+        "label": "CROP"
+      },
+      {
+        "start": 184,
+        "end": 199,
+        "text": "NAC gene family",
+        "label": "GENE"
+      },
+      {
+        "start": 228,
+        "end": 236,
+        "text": "AsNAC109",
+        "label": "GENE"
+      },
+      {
+        "start": 251,
+        "end": 275,
+        "text": "abiotic stress tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 294,
+        "end": 305,
+        "text": "Arabidopsis",
+        "label": "CROP"
+      }
+    ],
+    "relations": [
+      {
+        "head": "oat",
+        "head_start": 180,
+        "head_end": 183,
+        "head_type": "CROP",
+        "tail": "NAC gene family",
+        "tail_start": 184,
+        "tail_end": 199,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "abiotic stresses",
+        "head_start": 85,
+        "head_end": 101,
+        "head_type": "ABS",
+        "tail": "abiotic stress tolerance",
+        "tail_start": 251,
+        "tail_end": 275,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "AsNAC109",
+        "head_start": 228,
+        "head_end": 236,
+        "head_type": "GENE",
+        "tail": "abiotic stress tolerance",
+        "tail_start": 251,
+        "tail_end": 275,
+        "tail_type": "TRT",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "In the XiNong 9943 genotype, SOD, POD, CAT, and APX levels at 30% PEG were 2.01, 2.19, 4.92, and 4.46 times higher, respectively, than under normal growth condition (T0).",
+    "entities": [
+      {
+        "start": 7,
+        "end": 18,
+        "text": "XiNong 9943",
+        "label": "VAR"
+      },
+      {
+        "start": 29,
+        "end": 32,
+        "text": "SOD",
+        "label": "TRT"
+      },
+      {
+        "start": 34,
+        "end": 37,
+        "text": "POD",
+        "label": "TRT"
+      },
+      {
+        "start": 39,
+        "end": 42,
+        "text": "CAT",
+        "label": "TRT"
+      },
+      {
+        "start": 48,
+        "end": 51,
+        "text": "APX",
+        "label": "TRT"
+      },
+      {
+        "start": 62,
+        "end": 69,
+        "text": "30% PEG",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "XiNong 9943",
+        "head_start": 7,
+        "head_end": 18,
+        "head_type": "VAR",
+        "tail": "SOD",
+        "tail_start": 29,
+        "tail_end": 32,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "XiNong 9943",
+        "head_start": 7,
+        "head_end": 18,
+        "head_type": "VAR",
+        "tail": "POD",
+        "tail_start": 34,
+        "tail_end": 37,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "XiNong 9943",
+        "head_start": 7,
+        "head_end": 18,
+        "head_type": "VAR",
+        "tail": "CAT",
+        "tail_start": 39,
+        "tail_end": 42,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "XiNong 9943",
+        "head_start": 7,
+        "head_end": 18,
+        "head_type": "VAR",
+        "tail": "APX",
+        "tail_start": 48,
+        "tail_end": 51,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "30% PEG",
+        "head_start": 62,
+        "head_end": 69,
+        "head_type": "ABS",
+        "tail": "SOD",
+        "tail_start": 29,
+        "tail_end": 32,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "30% PEG",
+        "head_start": 62,
+        "head_end": 69,
+        "head_type": "ABS",
+        "tail": "POD",
+        "tail_start": 34,
+        "tail_end": 37,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "30% PEG",
+        "head_start": 62,
+        "head_end": 69,
+        "head_type": "ABS",
+        "tail": "CAT",
+        "tail_start": 39,
+        "tail_end": 42,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "30% PEG",
+        "head_start": 62,
+        "head_end": 69,
+        "head_type": "ABS",
+        "tail": "APX",
+        "tail_start": 48,
+        "tail_end": 51,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Understanding the genetic and molecular factors regulating carbohydrate metabolism is necessary to improve legume starch content, quality, and quantity. This review assessed the genetic and molecular basis of legume carbohydrate components, focusing on seed starch content. It provided an overview of starch biosynthesis in heterotrophic organs, the chemical composition of major consumable legumes, factors influencing starch digestibility, and advances in genetic, transcriptomic, and metabolomic studies in important legume crops.",
+    "entities": [
+      {
+        "start": 107,
+        "end": 128,
+        "text": "legume starch content",
+        "label": "TRT"
+      },
+      {
+        "start": 253,
+        "end": 272,
+        "text": "seed starch content",
+        "label": "TRT"
+      },
+      {
+        "start": 258,
+        "end": 272,
+        "text": "starch content",
+        "label": "TRT"
+      },
+      {
+        "start": 301,
+        "end": 344,
+        "text": "starch biosynthesis in heterotrophic organs",
+        "label": "TRT"
+      },
+      {
+        "start": 420,
+        "end": 440,
+        "text": "starch digestibility",
+        "label": "TRT"
+      },
+      {
+        "start": 520,
+        "end": 532,
+        "text": "legume crops",
+        "label": "CROP"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Three QTNs were associated with days to 50% flowering; two each with leaf-to-stem ratio and number of nodes per plant; and one each with plant height, leaf width, number of leaves per plant, stem girth, and internodal length. Six candidate genes were associated with days to 50% flowering, two each with leaf width, stem girth, leaf-to-stem ratio, and number of nodes per plant, and one each with plant height, number of leaves per plant, and internodal length. FarmCPU was the most suitable model for controlling false positives and false negatives. Analysis of the QTNs may identify new candidate genes for the trait.",
+    "entities": [
+      {
+        "start": 6,
+        "end": 10,
+        "text": "QTNs",
+        "label": "QTL"
+      },
+      {
+        "start": 32,
+        "end": 53,
+        "text": "days to 50% flowering",
+        "label": "TRT"
+      },
+      {
+        "start": 69,
+        "end": 87,
+        "text": "leaf-to-stem ratio",
+        "label": "TRT"
+      },
+      {
+        "start": 92,
+        "end": 117,
+        "text": "number of nodes per plant",
+        "label": "TRT"
+      },
+      {
+        "start": 137,
+        "end": 149,
+        "text": "plant height",
+        "label": "TRT"
+      },
+      {
+        "start": 151,
+        "end": 161,
+        "text": "leaf width",
+        "label": "TRT"
+      },
+      {
+        "start": 163,
+        "end": 189,
+        "text": "number of leaves per plant",
+        "label": "TRT"
+      },
+      {
+        "start": 191,
+        "end": 201,
+        "text": "stem girth",
+        "label": "TRT"
+      },
+      {
+        "start": 207,
+        "end": 224,
+        "text": "internodal length",
+        "label": "TRT"
+      },
+      {
+        "start": 230,
+        "end": 245,
+        "text": "candidate genes",
+        "label": "GENE"
+      },
+      {
+        "start": 267,
+        "end": 288,
+        "text": "days to 50% flowering",
+        "label": "TRT"
+      },
+      {
+        "start": 304,
+        "end": 314,
+        "text": "leaf width",
+        "label": "TRT"
+      },
+      {
+        "start": 316,
+        "end": 326,
+        "text": "stem girth",
+        "label": "TRT"
+      },
+      {
+        "start": 328,
+        "end": 346,
+        "text": "leaf-to-stem ratio",
+        "label": "TRT"
+      },
+      {
+        "start": 352,
+        "end": 377,
+        "text": "number of nodes per plant",
+        "label": "TRT"
+      },
+      {
+        "start": 397,
+        "end": 409,
+        "text": "plant height",
+        "label": "TRT"
+      },
+      {
+        "start": 411,
+        "end": 437,
+        "text": "number of leaves per plant",
+        "label": "TRT"
+      },
+      {
+        "start": 443,
+        "end": 460,
+        "text": "internodal length",
+        "label": "TRT"
+      },
+      {
+        "start": 462,
+        "end": 469,
+        "text": "FarmCPU",
+        "label": "BM"
+      },
+      {
+        "start": 589,
+        "end": 604,
+        "text": "candidate genes",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QTNs",
+        "head_start": 6,
+        "head_end": 10,
+        "head_type": "QTL",
+        "tail": "days to 50% flowering",
+        "tail_start": 32,
+        "tail_end": 53,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTNs",
+        "head_start": 6,
+        "head_end": 10,
+        "head_type": "QTL",
+        "tail": "number of nodes per plant",
+        "tail_start": 92,
+        "tail_end": 117,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTNs",
+        "head_start": 6,
+        "head_end": 10,
+        "head_type": "QTL",
+        "tail": "leaf-to-stem ratio",
+        "tail_start": 69,
+        "tail_end": 87,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTNs",
+        "head_start": 6,
+        "head_end": 10,
+        "head_type": "QTL",
+        "tail": "plant height",
+        "tail_start": 137,
+        "tail_end": 149,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTNs",
+        "head_start": 6,
+        "head_end": 10,
+        "head_type": "QTL",
+        "tail": "leaf width",
+        "tail_start": 151,
+        "tail_end": 161,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTNs",
+        "head_start": 6,
+        "head_end": 10,
+        "head_type": "QTL",
+        "tail": "number of leaves per plant",
+        "tail_start": 163,
+        "tail_end": 189,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTNs",
+        "head_start": 6,
+        "head_end": 10,
+        "head_type": "QTL",
+        "tail": "stem girth",
+        "tail_start": 191,
+        "tail_end": 201,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTNs",
+        "head_start": 6,
+        "head_end": 10,
+        "head_type": "QTL",
+        "tail": "internodal length",
+        "tail_start": 207,
+        "tail_end": 224,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "candidate genes",
+        "head_start": 230,
+        "head_end": 245,
+        "head_type": "GENE",
+        "tail": "days to 50% flowering",
+        "tail_start": 32,
+        "tail_end": 53,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "candidate genes",
+        "head_start": 230,
+        "head_end": 245,
+        "head_type": "GENE",
+        "tail": "leaf width",
+        "tail_start": 151,
+        "tail_end": 161,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "candidate genes",
+        "head_start": 230,
+        "head_end": 245,
+        "head_type": "GENE",
+        "tail": "stem girth",
+        "tail_start": 191,
+        "tail_end": 201,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "candidate genes",
+        "head_start": 230,
+        "head_end": 245,
+        "head_type": "GENE",
+        "tail": "leaf-to-stem ratio",
+        "tail_start": 69,
+        "tail_end": 87,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "candidate genes",
+        "head_start": 230,
+        "head_end": 245,
+        "head_type": "GENE",
+        "tail": "number of nodes per plant",
+        "tail_start": 92,
+        "tail_end": 117,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "candidate genes",
+        "head_start": 230,
+        "head_end": 245,
+        "head_type": "GENE",
+        "tail": "plant height",
+        "tail_start": 137,
+        "tail_end": 149,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "candidate genes",
+        "head_start": 230,
+        "head_end": 245,
+        "head_type": "GENE",
+        "tail": "number of leaves per plant",
+        "tail_start": 163,
+        "tail_end": 189,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "candidate genes",
+        "head_start": 230,
+        "head_end": 245,
+        "head_type": "GENE",
+        "tail": "internodal length",
+        "tail_start": 207,
+        "tail_end": 224,
+        "tail_type": "TRT",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "HvASR2 and HvASR3 expression in barley seedlings was influenced by salt, osmotic, and ABA treatments. HvASR2 is a transcriptional repressor, and HvASR3 is a transcriptional activator.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "HvASR2",
+        "label": "GENE"
+      },
+      {
+        "start": 11,
+        "end": 17,
+        "text": "HvASR3",
+        "label": "GENE"
+      },
+      {
+        "start": 32,
+        "end": 38,
+        "text": "barley",
+        "label": "CROP"
+      },
+      {
+        "start": 67,
+        "end": 71,
+        "text": "salt",
+        "label": "ABS"
+      },
+      {
+        "start": 73,
+        "end": 80,
+        "text": "osmotic",
+        "label": "ABS"
+      },
+      {
+        "start": 86,
+        "end": 100,
+        "text": "ABA treatments",
+        "label": "ABS"
+      },
+      {
+        "start": 102,
+        "end": 108,
+        "text": "HvASR2",
+        "label": "GENE"
+      },
+      {
+        "start": 145,
+        "end": 151,
+        "text": "HvASR3",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "barley",
+        "head_start": 32,
+        "head_end": 38,
+        "head_type": "CROP",
+        "tail": "HvASR2",
+        "tail_start": 0,
+        "tail_end": 6,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "barley",
+        "head_start": 32,
+        "head_end": 38,
+        "head_type": "CROP",
+        "tail": "HvASR3",
+        "tail_start": 11,
+        "tail_end": 17,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "salt",
+        "head_start": 67,
+        "head_end": 71,
+        "head_type": "ABS",
+        "tail": "HvASR2",
+        "tail_start": 0,
+        "tail_end": 6,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "salt",
+        "head_start": 67,
+        "head_end": 71,
+        "head_type": "ABS",
+        "tail": "HvASR3",
+        "tail_start": 11,
+        "tail_end": 17,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "osmotic",
+        "head_start": 73,
+        "head_end": 80,
+        "head_type": "ABS",
+        "tail": "HvASR2",
+        "tail_start": 0,
+        "tail_end": 6,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "osmotic",
+        "head_start": 73,
+        "head_end": 80,
+        "head_type": "ABS",
+        "tail": "HvASR3",
+        "tail_start": 11,
+        "tail_end": 17,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "ABA treatments",
+        "head_start": 86,
+        "head_end": 100,
+        "head_type": "ABS",
+        "tail": "HvASR2",
+        "tail_start": 0,
+        "tail_end": 6,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "ABA treatments",
+        "head_start": 86,
+        "head_end": 100,
+        "head_type": "ABS",
+        "tail": "HvASR3",
+        "tail_start": 11,
+        "tail_end": 17,
+        "tail_type": "GENE",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Most CqAP2/ERF genes showed distinct expression patterns in different tissues and developmental stages. Five CqAP2/ERF genes responded to drought, high temperature, salt, and low phosphorus.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 20,
+        "text": "CqAP2/ERF genes",
+        "label": "GENE"
+      },
+      {
+        "start": 138,
+        "end": 145,
+        "text": "drought",
+        "label": "ABS"
+      },
+      {
+        "start": 147,
+        "end": 163,
+        "text": "high temperature",
+        "label": "ABS"
+      },
+      {
+        "start": 165,
+        "end": 169,
+        "text": "salt",
+        "label": "ABS"
+      },
+      {
+        "start": 175,
+        "end": 189,
+        "text": "low phosphorus",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "drought",
+        "head_start": 138,
+        "head_end": 145,
+        "head_type": "ABS",
+        "tail": "CqAP2/ERF genes",
+        "tail_start": 5,
+        "tail_end": 20,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "high temperature",
+        "head_start": 147,
+        "head_end": 163,
+        "head_type": "ABS",
+        "tail": "CqAP2/ERF genes",
+        "tail_start": 5,
+        "tail_end": 20,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "salt",
+        "head_start": 165,
+        "head_end": 169,
+        "head_type": "ABS",
+        "tail": "CqAP2/ERF genes",
+        "tail_start": 5,
+        "tail_end": 20,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "low phosphorus",
+        "head_start": 175,
+        "head_end": 189,
+        "head_type": "ABS",
+        "tail": "CqAP2/ERF genes",
+        "tail_start": 5,
+        "tail_end": 20,
+        "tail_type": "GENE",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "A QTL (OLRNIII-g864) for lateral root number is near TP3371 and flanked by TP5093 and TP6072 SNP markers. Another QTL (QSRL(IV_61.63)) for specific root length is near TP1873 and flanked by F7XEM6b SRAP and TP1035 SNP markers.",
+    "entities": [
+      {
+        "start": 2,
+        "end": 20,
+        "text": "QTL (OLRNIII-g864)",
+        "label": "QTL"
+      },
+      {
+        "start": 114,
+        "end": 134,
+        "text": "QTL (QSRL(IV_61.63))",
+        "label": "QTL"
+      }
+    ],
+    "relations": []
+  }
+]

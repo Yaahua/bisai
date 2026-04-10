@@ -1,0 +1,868 @@
+[
+  {
+    "text": "The three-line method is a breeding strategy to obtain hybrid F1 offspring. The study used sorghum variety Liangnuo No.1 (male sterile), glutinous sorghum variety SB6 from Taiwan (carrying the wxc waxy allele), and sorghum reference genome variety BTx623. The goal was to produce waxy sorghums, including the male sterile line (A-line), male sterile maintenance line (B-line), and fertility-restoring line (R-line).",
+    "entities": [
+      {
+        "start": 91,
+        "end": 98,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 107,
+        "end": 120,
+        "text": "Liangnuo No.1",
+        "label": "VAR"
+      },
+      {
+        "start": 137,
+        "end": 166,
+        "text": "glutinous sorghum variety SB6",
+        "label": "VAR"
+      },
+      {
+        "start": 215,
+        "end": 254,
+        "text": "sorghum reference genome variety BTx623",
+        "label": "VAR"
+      },
+      {
+        "start": 309,
+        "end": 335,
+        "text": "male sterile line (A-line)",
+        "label": "VAR"
+      },
+      {
+        "start": 337,
+        "end": 375,
+        "text": "male sterile maintenance line (B-line)",
+        "label": "VAR"
+      },
+      {
+        "start": 381,
+        "end": 414,
+        "text": "fertility-restoring line (R-line)",
+        "label": "VAR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "sorghum",
+        "head_start": 91,
+        "head_end": 98,
+        "head_type": "CROP",
+        "tail": "Liangnuo No.1",
+        "tail_start": 107,
+        "tail_end": 120,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "sorghum",
+        "head_start": 91,
+        "head_end": 98,
+        "head_type": "CROP",
+        "tail": "glutinous sorghum variety SB6",
+        "tail_start": 137,
+        "tail_end": 166,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "sorghum",
+        "head_start": 91,
+        "head_end": 98,
+        "head_type": "CROP",
+        "tail": "sorghum reference genome variety BTx623",
+        "tail_start": 215,
+        "tail_end": 254,
+        "tail_type": "VAR",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "Four mungbean F-5 recombinant inbred lines (RILs) from crosses of two wild types (ACC 1, ACC 87) and two cultivars (Berken, Kiloga) were used with DArT markers to construct linkage maps and identify QTLs associated with 54 traits. Polymorphic DArT markers varied from 1062 to 2013 among the four RIL populations.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 13,
+        "text": "mungbean",
+        "label": "CROP"
+      },
+      {
+        "start": 18,
+        "end": 49,
+        "text": "recombinant inbred lines (RILs)",
+        "label": "VAR"
+      },
+      {
+        "start": 82,
+        "end": 87,
+        "text": "ACC 1",
+        "label": "VAR"
+      },
+      {
+        "start": 89,
+        "end": 95,
+        "text": "ACC 87",
+        "label": "VAR"
+      },
+      {
+        "start": 116,
+        "end": 122,
+        "text": "Berken",
+        "label": "VAR"
+      },
+      {
+        "start": 124,
+        "end": 130,
+        "text": "Kiloga",
+        "label": "VAR"
+      },
+      {
+        "start": 147,
+        "end": 151,
+        "text": "DArT",
+        "label": "MRK"
+      },
+      {
+        "start": 199,
+        "end": 203,
+        "text": "QTLs",
+        "label": "QTL"
+      }
+    ],
+    "relations": [
+      {
+        "head": "mungbean",
+        "head_start": 5,
+        "head_end": 13,
+        "head_type": "CROP",
+        "tail": "recombinant inbred lines (RILs)",
+        "tail_start": 18,
+        "tail_end": 49,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "mungbean",
+        "head_start": 5,
+        "head_end": 13,
+        "head_type": "CROP",
+        "tail": "ACC 1",
+        "tail_start": 82,
+        "tail_end": 87,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "mungbean",
+        "head_start": 5,
+        "head_end": 13,
+        "head_type": "CROP",
+        "tail": "ACC 87",
+        "tail_start": 89,
+        "tail_end": 95,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "mungbean",
+        "head_start": 5,
+        "head_end": 13,
+        "head_type": "CROP",
+        "tail": "Berken",
+        "tail_start": 116,
+        "tail_end": 122,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "mungbean",
+        "head_start": 5,
+        "head_end": 13,
+        "head_type": "CROP",
+        "tail": "Kiloga",
+        "tail_start": 124,
+        "tail_end": 130,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "DArT",
+        "head_start": 147,
+        "head_end": 151,
+        "head_type": "MRK",
+        "tail": "QTLs",
+        "tail_start": 199,
+        "tail_end": 203,
+        "tail_type": "QTL",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "Phylogenetic analysis with Arabidopsis thaliana and Oryza sativa homologs classified these genes into seven subfamilies. Evolutionary studies revealed 14 segmental duplication events and syntenic conservation with Triticum aestivum.",
+    "entities": [
+      {
+        "start": 27,
+        "end": 47,
+        "text": "Arabidopsis thaliana",
+        "label": "CROP"
+      },
+      {
+        "start": 52,
+        "end": 64,
+        "text": "Oryza sativa",
+        "label": "CROP"
+      },
+      {
+        "start": 214,
+        "end": 231,
+        "text": "Triticum aestivum",
+        "label": "CROP"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "A hybrid of sweet sorghum M81 and sudangrass Sa was used to construct 174 F11 populations. Genotyping by RAD-seq produced SNPs. These SNPs were used to construct a high-density genetic map of 790 SNPs spanning 2101 cM. The map covered all ten chromosomes with over 80% coverage.",
+    "entities": [
+      {
+        "start": 12,
+        "end": 25,
+        "text": "sweet sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 26,
+        "end": 29,
+        "text": "M81",
+        "label": "VAR"
+      },
+      {
+        "start": 34,
+        "end": 44,
+        "text": "sudangrass",
+        "label": "CROP"
+      },
+      {
+        "start": 45,
+        "end": 47,
+        "text": "Sa",
+        "label": "VAR"
+      },
+      {
+        "start": 74,
+        "end": 89,
+        "text": "F11 populations",
+        "label": "VAR"
+      },
+      {
+        "start": 91,
+        "end": 101,
+        "text": "Genotyping",
+        "label": "BM"
+      },
+      {
+        "start": 105,
+        "end": 112,
+        "text": "RAD-seq",
+        "label": "BM"
+      },
+      {
+        "start": 122,
+        "end": 126,
+        "text": "SNPs",
+        "label": "MRK"
+      },
+      {
+        "start": 164,
+        "end": 188,
+        "text": "high-density genetic map",
+        "label": "MRK"
+      },
+      {
+        "start": 192,
+        "end": 200,
+        "text": "790 SNPs",
+        "label": "MRK"
+      },
+      {
+        "start": 210,
+        "end": 217,
+        "text": "2101 cM",
+        "label": "MRK"
+      },
+      {
+        "start": 239,
+        "end": 254,
+        "text": "ten chromosomes",
+        "label": "CHR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "sweet sorghum",
+        "head_start": 12,
+        "head_end": 25,
+        "head_type": "CROP",
+        "tail": "M81",
+        "tail_start": 26,
+        "tail_end": 29,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "sudangrass",
+        "head_start": 34,
+        "head_end": 44,
+        "head_type": "CROP",
+        "tail": "Sa",
+        "tail_start": 45,
+        "tail_end": 47,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "F11 populations",
+        "head_start": 74,
+        "head_end": 89,
+        "head_type": "VAR",
+        "tail": "RAD-seq",
+        "tail_start": 105,
+        "tail_end": 112,
+        "tail_type": "BM",
+        "label": "USE"
+      }
+    ]
+  },
+  {
+    "text": "Methods: 288 oat lines were evaluated using 2,213 SNP markers from an oat iSelect 6K-beadchip array to study genetic diversity, population structure, linkage disequilibrium, and genotype-phenotype association for hullessness and lemma color. Results: The average gene diversity and PIC were 0.324 and 0.262.",
+    "entities": [
+      {
+        "start": 13,
+        "end": 16,
+        "text": "oat",
+        "label": "CROP"
+      },
+      {
+        "start": 50,
+        "end": 61,
+        "text": "SNP markers",
+        "label": "MRK"
+      },
+      {
+        "start": 70,
+        "end": 93,
+        "text": "oat iSelect 6K-beadchip",
+        "label": "MRK"
+      },
+      {
+        "start": 213,
+        "end": 224,
+        "text": "hullessness",
+        "label": "TRT"
+      },
+      {
+        "start": 229,
+        "end": 240,
+        "text": "lemma color",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "oat",
+        "head_start": 13,
+        "head_end": 16,
+        "head_type": "CROP",
+        "tail": "hullessness",
+        "tail_start": 213,
+        "tail_end": 224,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "oat",
+        "head_start": 13,
+        "head_end": 16,
+        "head_type": "CROP",
+        "tail": "lemma color",
+        "tail_start": 229,
+        "tail_end": 240,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "SNP markers",
+        "head_start": 50,
+        "head_end": 61,
+        "head_type": "MRK",
+        "tail": "hullessness",
+        "tail_start": 213,
+        "tail_end": 224,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "SNP markers",
+        "head_start": 50,
+        "head_end": 61,
+        "head_type": "MRK",
+        "tail": "lemma color",
+        "tail_start": 229,
+        "tail_end": 240,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "oat iSelect 6K-beadchip",
+        "head_start": 70,
+        "head_end": 93,
+        "head_type": "MRK",
+        "tail": "SNP markers",
+        "tail_start": 50,
+        "tail_end": 61,
+        "tail_type": "MRK",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "The sorghum gene SbWRKY51 encodes a group II WRKY transcription factor. Its expression is up-regulated by salt stress, drought, and abscisic acid (ABA).",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 17,
+        "end": 25,
+        "text": "SbWRKY51",
+        "label": "GENE"
+      },
+      {
+        "start": 45,
+        "end": 49,
+        "text": "WRKY",
+        "label": "GENE"
+      },
+      {
+        "start": 106,
+        "end": 117,
+        "text": "salt stress",
+        "label": "ABS"
+      },
+      {
+        "start": 119,
+        "end": 126,
+        "text": "drought",
+        "label": "ABS"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "VRADIO7G29860, VRADIO7G29450, and VRADIO7G28520 encode s-adenosyl-L-methionine, FTSHI1 protein, and CRS2-associated factor, respectively, and are candidate genes for chlorophyll biosynthesis. They may be used to develop genotypes with high SPAD value and trichome density for yield and MYMIV resistance in mungbean.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "text": "VRADIO7G29860",
+        "label": "GENE"
+      },
+      {
+        "start": 15,
+        "end": 28,
+        "text": "VRADIO7G29450",
+        "label": "GENE"
+      },
+      {
+        "start": 34,
+        "end": 47,
+        "text": "VRADIO7G28520",
+        "label": "GENE"
+      },
+      {
+        "start": 80,
+        "end": 86,
+        "text": "FTSHI1",
+        "label": "GENE"
+      },
+      {
+        "start": 100,
+        "end": 115,
+        "text": "CRS2-associated",
+        "label": "GENE"
+      },
+      {
+        "start": 255,
+        "end": 271,
+        "text": "trichome density",
+        "label": "TRT"
+      },
+      {
+        "start": 286,
+        "end": 302,
+        "text": "MYMIV resistance",
+        "label": "TRT"
+      },
+      {
+        "start": 306,
+        "end": 314,
+        "text": "mungbean",
+        "label": "CROP"
+      }
+    ],
+    "relations": [
+      {
+        "head": "mungbean",
+        "head_start": 306,
+        "head_end": 314,
+        "head_type": "CROP",
+        "tail": "trichome density",
+        "tail_start": 255,
+        "tail_end": 271,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "mungbean",
+        "head_start": 306,
+        "head_end": 314,
+        "head_type": "CROP",
+        "tail": "MYMIV resistance",
+        "tail_start": 286,
+        "tail_end": 302,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "ASR gene transcript expression patterns indicate ASRs may play roles in abiotic stress responses in foxtail millet tissues. Subcellular localization assays showed SiASR1 localizes in the nucleus.",
+    "entities": [
+      {
+        "start": 100,
+        "end": 114,
+        "text": "foxtail millet",
+        "label": "CROP"
+      },
+      {
+        "start": 163,
+        "end": 169,
+        "text": "SiASR1",
+        "label": "GENE"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "100 oat cultivars were clustered into three salt tolerance levels. Salt-tolerant cultivars maintained higher growth rate, leaf cell membrane integrity, and osmotic adjustment capability under saline condition.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 7,
+        "text": "oat",
+        "label": "CROP"
+      },
+      {
+        "start": 44,
+        "end": 58,
+        "text": "salt tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 67,
+        "end": 90,
+        "text": "Salt-tolerant cultivars",
+        "label": "VAR"
+      },
+      {
+        "start": 109,
+        "end": 120,
+        "text": "growth rate",
+        "label": "TRT"
+      },
+      {
+        "start": 122,
+        "end": 150,
+        "text": "leaf cell membrane integrity",
+        "label": "TRT"
+      },
+      {
+        "start": 156,
+        "end": 185,
+        "text": "osmotic adjustment capability",
+        "label": "TRT"
+      },
+      {
+        "start": 192,
+        "end": 208,
+        "text": "saline condition",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "oat",
+        "head_start": 4,
+        "head_end": 7,
+        "head_type": "CROP",
+        "tail": "Salt-tolerant cultivars",
+        "tail_start": 67,
+        "tail_end": 90,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "Salt-tolerant cultivars",
+        "head_start": 67,
+        "head_end": 90,
+        "head_type": "VAR",
+        "tail": "salt tolerance",
+        "tail_start": 44,
+        "tail_end": 58,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Salt-tolerant cultivars",
+        "head_start": 67,
+        "head_end": 90,
+        "head_type": "VAR",
+        "tail": "growth rate",
+        "tail_start": 109,
+        "tail_end": 120,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Salt-tolerant cultivars",
+        "head_start": 67,
+        "head_end": 90,
+        "head_type": "VAR",
+        "tail": "leaf cell membrane integrity",
+        "tail_start": 122,
+        "tail_end": 150,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Salt-tolerant cultivars",
+        "head_start": 67,
+        "head_end": 90,
+        "head_type": "VAR",
+        "tail": "osmotic adjustment capability",
+        "tail_start": 156,
+        "tail_end": 185,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "saline condition",
+        "head_start": 192,
+        "head_end": 208,
+        "head_type": "ABS",
+        "tail": "salt tolerance",
+        "tail_start": 44,
+        "tail_end": 58,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "saline condition",
+        "head_start": 192,
+        "head_end": 208,
+        "head_type": "ABS",
+        "tail": "growth rate",
+        "tail_start": 109,
+        "tail_end": 120,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "saline condition",
+        "head_start": 192,
+        "head_end": 208,
+        "head_type": "ABS",
+        "tail": "leaf cell membrane integrity",
+        "tail_start": 122,
+        "tail_end": 150,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "saline condition",
+        "head_start": 192,
+        "head_end": 208,
+        "head_type": "ABS",
+        "tail": "osmotic adjustment capability",
+        "tail_start": 156,
+        "tail_end": 185,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Two major-effect QTLs SCot8-B-CAAT5-D and HVM54-Bmag0571 on chromosomes 1 and 2 have positive allele effects for developing barley varieties for drought conditions. The new alleles qLWS-4a, qSLS-4, qLNS-7b, qSCS-7, and qLNS-7a are useful for pyramiding elite alleles in molecular breeding and marker assisted selection to improve salinity tolerance in barley.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 37,
+        "text": "SCot8-B-CAAT5-D",
+        "label": "QTL"
+      },
+      {
+        "start": 42,
+        "end": 56,
+        "text": "HVM54-Bmag0571",
+        "label": "QTL"
+      },
+      {
+        "start": 60,
+        "end": 79,
+        "text": "chromosomes 1 and 2",
+        "label": "CHR"
+      },
+      {
+        "start": 145,
+        "end": 163,
+        "text": "drought conditions",
+        "label": "ABS"
+      },
+      {
+        "start": 181,
+        "end": 188,
+        "text": "qLWS-4a",
+        "label": "QTL"
+      },
+      {
+        "start": 190,
+        "end": 196,
+        "text": "qSLS-4",
+        "label": "QTL"
+      },
+      {
+        "start": 198,
+        "end": 205,
+        "text": "qLNS-7b",
+        "label": "QTL"
+      },
+      {
+        "start": 207,
+        "end": 213,
+        "text": "qSCS-7",
+        "label": "QTL"
+      },
+      {
+        "start": 219,
+        "end": 226,
+        "text": "qLNS-7a",
+        "label": "QTL"
+      },
+      {
+        "start": 270,
+        "end": 288,
+        "text": "molecular breeding",
+        "label": "BM"
+      },
+      {
+        "start": 293,
+        "end": 318,
+        "text": "marker assisted selection",
+        "label": "BM"
+      },
+      {
+        "start": 330,
+        "end": 348,
+        "text": "salinity tolerance",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "SCot8-B-CAAT5-D",
+        "head_start": 22,
+        "head_end": 37,
+        "head_type": "QTL",
+        "tail": "chromosomes 1 and 2",
+        "tail_start": 60,
+        "tail_end": 79,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "HVM54-Bmag0571",
+        "head_start": 42,
+        "head_end": 56,
+        "head_type": "QTL",
+        "tail": "chromosomes 1 and 2",
+        "tail_start": 60,
+        "tail_end": 79,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "qLWS-4a",
+        "head_start": 181,
+        "head_end": 188,
+        "head_type": "QTL",
+        "tail": "salinity tolerance",
+        "tail_start": 330,
+        "tail_end": 348,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "qSLS-4",
+        "head_start": 190,
+        "head_end": 196,
+        "head_type": "QTL",
+        "tail": "salinity tolerance",
+        "tail_start": 330,
+        "tail_end": 348,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "qLNS-7b",
+        "head_start": 198,
+        "head_end": 205,
+        "head_type": "QTL",
+        "tail": "salinity tolerance",
+        "tail_start": 330,
+        "tail_end": 348,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "qSCS-7",
+        "head_start": 207,
+        "head_end": 213,
+        "head_type": "QTL",
+        "tail": "salinity tolerance",
+        "tail_start": 330,
+        "tail_end": 348,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "qLNS-7a",
+        "head_start": 219,
+        "head_end": 226,
+        "head_type": "QTL",
+        "tail": "salinity tolerance",
+        "tail_start": 330,
+        "tail_end": 348,
+        "tail_type": "TRT",
+        "label": "LOI"
+      }
+    ]
+  }
+]

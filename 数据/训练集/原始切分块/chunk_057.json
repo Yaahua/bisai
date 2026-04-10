@@ -1,0 +1,799 @@
+[
+  {
+    "text": "A cDNA (SiDREB2) encoding a putative dehydration-responsive element-binding protein 2 was isolated from foxtail millet. An allele-specific marker (ASM) for dehydration tolerance was developed. The cDNA clone (GenBank accession no. GT090998) codes for a putative DREB2 protein. It was isolated as a differentially expressed gene from a 6 h dehydration stress SSH library.",
+    "entities": [
+      {
+        "start": 8,
+        "end": 15,
+        "text": "SiDREB2",
+        "label": "GENE"
+      },
+      {
+        "start": 37,
+        "end": 85,
+        "text": "dehydration-responsive element-binding protein 2",
+        "label": "GENE"
+      },
+      {
+        "start": 104,
+        "end": 118,
+        "text": "foxtail millet",
+        "label": "CROP"
+      },
+      {
+        "start": 123,
+        "end": 151,
+        "text": "allele-specific marker (ASM)",
+        "label": "MRK"
+      },
+      {
+        "start": 156,
+        "end": 177,
+        "text": "dehydration tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 209,
+        "end": 239,
+        "text": "GenBank accession no. GT090998",
+        "label": "GENE"
+      },
+      {
+        "start": 262,
+        "end": 275,
+        "text": "DREB2 protein",
+        "label": "GENE"
+      },
+      {
+        "start": 339,
+        "end": 357,
+        "text": "dehydration stress",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "foxtail millet",
+        "head_start": 104,
+        "head_end": 118,
+        "head_type": "CROP",
+        "tail": "SiDREB2",
+        "tail_start": 8,
+        "tail_end": 15,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "foxtail millet",
+        "head_start": 104,
+        "head_end": 118,
+        "head_type": "CROP",
+        "tail": "GenBank accession no. GT090998",
+        "tail_start": 209,
+        "tail_end": 239,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "allele-specific marker (ASM)",
+        "head_start": 123,
+        "head_end": 151,
+        "head_type": "MRK",
+        "tail": "dehydration tolerance",
+        "tail_start": 156,
+        "tail_end": 177,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "dehydration stress",
+        "head_start": 339,
+        "head_end": 357,
+        "head_type": "ABS",
+        "tail": "dehydration tolerance",
+        "tail_start": 156,
+        "tail_end": 177,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "The heat shock protein 70 (Hsp70) gene from Sorghum bicolor MN1618 is designated SbHsp70-1. Its full-length cDNA is 2524 bp with a 1950 bp open reading frame encoding a 649 amino acid protein.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 38,
+        "text": "heat shock protein 70 (Hsp70) gene",
+        "label": "GENE"
+      },
+      {
+        "start": 44,
+        "end": 59,
+        "text": "Sorghum bicolor",
+        "label": "CROP"
+      },
+      {
+        "start": 60,
+        "end": 66,
+        "text": "MN1618",
+        "label": "VAR"
+      },
+      {
+        "start": 81,
+        "end": 90,
+        "text": "SbHsp70-1",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Sorghum bicolor",
+        "head_start": 44,
+        "head_end": 59,
+        "head_type": "CROP",
+        "tail": "MN1618",
+        "tail_start": 60,
+        "tail_end": 66,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "heat shock protein 70 (Hsp70) gene",
+        "head_start": 4,
+        "head_end": 38,
+        "head_type": "GENE",
+        "tail": "SbHsp70-1",
+        "tail_start": 81,
+        "tail_end": 90,
+        "tail_type": "GENE",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "15 oat varieties were tested for alkali tolerance under four Na2CO3 treatment levels (0, 10, 20, 40 mM). The alkali tolerance of oat seedlings was evaluated.",
+    "entities": [
+      {
+        "start": 3,
+        "end": 6,
+        "text": "oat",
+        "label": "CROP"
+      },
+      {
+        "start": 33,
+        "end": 49,
+        "text": "alkali tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 61,
+        "end": 67,
+        "text": "Na2CO3",
+        "label": "ABS"
+      },
+      {
+        "start": 129,
+        "end": 142,
+        "text": "oat seedlings",
+        "label": "GST"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Na2CO3",
+        "head_start": 61,
+        "head_end": 67,
+        "head_type": "ABS",
+        "tail": "alkali tolerance",
+        "tail_start": 33,
+        "tail_end": 49,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "alkali tolerance",
+        "head_start": 33,
+        "head_end": 49,
+        "head_type": "TRT",
+        "tail": "oat seedlings",
+        "tail_start": 129,
+        "tail_end": 142,
+        "tail_type": "GST",
+        "label": "OCI"
+      },
+      {
+        "head": "Na2CO3",
+        "head_start": 61,
+        "head_end": 67,
+        "head_type": "ABS",
+        "tail": "oat seedlings",
+        "tail_start": 129,
+        "tail_end": 142,
+        "tail_type": "GST",
+        "label": "OCI"
+      }
+    ]
+  },
+  {
+    "text": "Sorghum genetic resource collection, selection strategies, and breeding improvement have progressed. Functional genetic studies identified key genes regulating yield-related traits, quality attributes, and tolerance to abiotic and biotic stresses.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 160,
+        "end": 180,
+        "text": "yield-related traits",
+        "label": "TRT"
+      },
+      {
+        "start": 182,
+        "end": 200,
+        "text": "quality attributes",
+        "label": "TRT"
+      },
+      {
+        "start": 206,
+        "end": 226,
+        "text": "tolerance to abiotic",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Sorghum",
+        "head_start": 0,
+        "head_end": 7,
+        "head_type": "CROP",
+        "tail": "yield-related traits",
+        "tail_start": 160,
+        "tail_end": 180,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Sorghum",
+        "head_start": 0,
+        "head_end": 7,
+        "head_type": "CROP",
+        "tail": "quality attributes",
+        "tail_start": 182,
+        "tail_end": 200,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Sorghum",
+        "head_start": 0,
+        "head_end": 7,
+        "head_type": "CROP",
+        "tail": "tolerance to abiotic",
+        "tail_start": 206,
+        "tail_end": 226,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "SiPRR37 expression changes resulted from a Tc1-Mariner transposon insertion in its first intron. SiPRR37 contributed to adaptation in northeastern ecoregions.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "SiPRR37",
+        "label": "GENE"
+      },
+      {
+        "start": 43,
+        "end": 65,
+        "text": "Tc1-Mariner transposon",
+        "label": "GENE"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Stay-green QTLs were mapped to physical locations on chromosomes in the sorghum genome. Their intervals ranged from 1.8 to 2.5 Mbp. Stable QTLs were detected at two locations across three consecutive seasons in two mapping populations.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "text": "Stay-green QTLs",
+        "label": "QTL"
+      },
+      {
+        "start": 53,
+        "end": 64,
+        "text": "chromosomes",
+        "label": "CHR"
+      },
+      {
+        "start": 72,
+        "end": 86,
+        "text": "sorghum genome",
+        "label": "CROP"
+      },
+      {
+        "start": 132,
+        "end": 143,
+        "text": "Stable QTLs",
+        "label": "QTL"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Stay-green QTLs",
+        "head_start": 0,
+        "head_end": 15,
+        "head_type": "QTL",
+        "tail": "chromosomes",
+        "tail_start": 53,
+        "tail_end": 64,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "Stay-green QTLs",
+        "head_start": 0,
+        "head_end": 15,
+        "head_type": "QTL",
+        "tail": "sorghum genome",
+        "tail_start": 72,
+        "tail_end": 86,
+        "tail_type": "CROP",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "Annual ryegrass (Lolium multiflorum Lam.) and perennial ryegrass (Lolium perenne L.) are two species of ryegrass.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "text": "Annual ryegrass",
+        "label": "CROP"
+      },
+      {
+        "start": 17,
+        "end": 39,
+        "text": "Lolium multiflorum Lam",
+        "label": "CROP"
+      },
+      {
+        "start": 46,
+        "end": 64,
+        "text": "perennial ryegrass",
+        "label": "CROP"
+      },
+      {
+        "start": 66,
+        "end": 82,
+        "text": "Lolium perenne L",
+        "label": "CROP"
+      },
+      {
+        "start": 104,
+        "end": 112,
+        "text": "ryegrass",
+        "label": "CROP"
+      }
+    ],
+    "relations": [
+      {
+        "head": "ryegrass",
+        "head_start": 104,
+        "head_end": 112,
+        "head_type": "CROP",
+        "tail": "Annual ryegrass",
+        "tail_start": 0,
+        "tail_end": 15,
+        "tail_type": "CROP",
+        "label": "CON"
+      },
+      {
+        "head": "ryegrass",
+        "head_start": 104,
+        "head_end": 112,
+        "head_type": "CROP",
+        "tail": "perennial ryegrass",
+        "tail_start": 46,
+        "tail_end": 64,
+        "tail_type": "CROP",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "A genetic linkage map for mungbean was constructed using 430 SSR and EST-SSR markers. All markers were mapped onto 11 linkage groups spanning 727.6 cM.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 34,
+        "text": "mungbean",
+        "label": "CROP"
+      },
+      {
+        "start": 61,
+        "end": 64,
+        "text": "SSR",
+        "label": "MRK"
+      },
+      {
+        "start": 69,
+        "end": 76,
+        "text": "EST-SSR",
+        "label": "MRK"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Similar studies in sugarcane identified genes SoMAX2, SoMAX3, SoMAX4-1, SoMAX4-2, and SoTB1. These genes regulate bud outgrowth and tillering. They involve hormonal control through auxins, gibberellins, and cytokinins to coordinate plant responses. These discoveries are essential for breeding and genetic engineering strategies to develop crop varieties with favorable tillering traits.",
+    "entities": [
+      {
+        "start": 19,
+        "end": 28,
+        "text": "sugarcane",
+        "label": "CROP"
+      },
+      {
+        "start": 46,
+        "end": 52,
+        "text": "SoMAX2",
+        "label": "GENE"
+      },
+      {
+        "start": 54,
+        "end": 60,
+        "text": "SoMAX3",
+        "label": "GENE"
+      },
+      {
+        "start": 62,
+        "end": 70,
+        "text": "SoMAX4-1",
+        "label": "GENE"
+      },
+      {
+        "start": 72,
+        "end": 80,
+        "text": "SoMAX4-2",
+        "label": "GENE"
+      },
+      {
+        "start": 86,
+        "end": 91,
+        "text": "SoTB1",
+        "label": "GENE"
+      },
+      {
+        "start": 114,
+        "end": 127,
+        "text": "bud outgrowth",
+        "label": "TRT"
+      },
+      {
+        "start": 132,
+        "end": 141,
+        "text": "tillering",
+        "label": "TRT"
+      },
+      {
+        "start": 181,
+        "end": 187,
+        "text": "auxins",
+        "label": "BM"
+      },
+      {
+        "start": 189,
+        "end": 201,
+        "text": "gibberellins",
+        "label": "BM"
+      },
+      {
+        "start": 207,
+        "end": 217,
+        "text": "cytokinins",
+        "label": "BM"
+      }
+    ],
+    "relations": [
+      {
+        "head": "sugarcane",
+        "head_start": 19,
+        "head_end": 28,
+        "head_type": "CROP",
+        "tail": "SoMAX2",
+        "tail_start": 46,
+        "tail_end": 52,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "sugarcane",
+        "head_start": 19,
+        "head_end": 28,
+        "head_type": "CROP",
+        "tail": "SoMAX3",
+        "tail_start": 54,
+        "tail_end": 60,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "sugarcane",
+        "head_start": 19,
+        "head_end": 28,
+        "head_type": "CROP",
+        "tail": "SoMAX4-1",
+        "tail_start": 62,
+        "tail_end": 70,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "sugarcane",
+        "head_start": 19,
+        "head_end": 28,
+        "head_type": "CROP",
+        "tail": "SoMAX4-2",
+        "tail_start": 72,
+        "tail_end": 80,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "sugarcane",
+        "head_start": 19,
+        "head_end": 28,
+        "head_type": "CROP",
+        "tail": "SoTB1",
+        "tail_start": 86,
+        "tail_end": 91,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "SoMAX2",
+        "head_start": 46,
+        "head_end": 52,
+        "head_type": "GENE",
+        "tail": "bud outgrowth",
+        "tail_start": 114,
+        "tail_end": 127,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "SoMAX2",
+        "head_start": 46,
+        "head_end": 52,
+        "head_type": "GENE",
+        "tail": "tillering",
+        "tail_start": 132,
+        "tail_end": 141,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "SoMAX3",
+        "head_start": 54,
+        "head_end": 60,
+        "head_type": "GENE",
+        "tail": "bud outgrowth",
+        "tail_start": 114,
+        "tail_end": 127,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "SoMAX3",
+        "head_start": 54,
+        "head_end": 60,
+        "head_type": "GENE",
+        "tail": "tillering",
+        "tail_start": 132,
+        "tail_end": 141,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "SoMAX4-1",
+        "head_start": 62,
+        "head_end": 70,
+        "head_type": "GENE",
+        "tail": "bud outgrowth",
+        "tail_start": 114,
+        "tail_end": 127,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "SoMAX4-1",
+        "head_start": 62,
+        "head_end": 70,
+        "head_type": "GENE",
+        "tail": "tillering",
+        "tail_start": 132,
+        "tail_end": 141,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "SoMAX4-2",
+        "head_start": 72,
+        "head_end": 80,
+        "head_type": "GENE",
+        "tail": "bud outgrowth",
+        "tail_start": 114,
+        "tail_end": 127,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "SoMAX4-2",
+        "head_start": 72,
+        "head_end": 80,
+        "head_type": "GENE",
+        "tail": "tillering",
+        "tail_start": 132,
+        "tail_end": 141,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "SoTB1",
+        "head_start": 86,
+        "head_end": 91,
+        "head_type": "GENE",
+        "tail": "bud outgrowth",
+        "tail_start": 114,
+        "tail_end": 127,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "SoTB1",
+        "head_start": 86,
+        "head_end": 91,
+        "head_type": "GENE",
+        "tail": "tillering",
+        "tail_start": 132,
+        "tail_end": 141,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "auxins",
+        "head_start": 181,
+        "head_end": 187,
+        "head_type": "BM",
+        "tail": "bud outgrowth",
+        "tail_start": 114,
+        "tail_end": 127,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "auxins",
+        "head_start": 181,
+        "head_end": 187,
+        "head_type": "BM",
+        "tail": "tillering",
+        "tail_start": 132,
+        "tail_end": 141,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "gibberellins",
+        "head_start": 189,
+        "head_end": 201,
+        "head_type": "BM",
+        "tail": "bud outgrowth",
+        "tail_start": 114,
+        "tail_end": 127,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "gibberellins",
+        "head_start": 189,
+        "head_end": 201,
+        "head_type": "BM",
+        "tail": "tillering",
+        "tail_start": 132,
+        "tail_end": 141,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "cytokinins",
+        "head_start": 207,
+        "head_end": 217,
+        "head_type": "BM",
+        "tail": "bud outgrowth",
+        "tail_start": 114,
+        "tail_end": 127,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "cytokinins",
+        "head_start": 207,
+        "head_end": 217,
+        "head_type": "BM",
+        "tail": "tillering",
+        "tail_start": 132,
+        "tail_end": 141,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Co-regulation analysis suggested that DEGs in M79 contributed to a regulatory network involving photosynthesis, signal transduction, transcriptional regulation, redox regulation, hormonal signaling, and osmotic regulation. RNA-seq analysis showed that some photosynthesis-related DEGs were highly expressed in M79 compared to its parental lines under drought stress.",
+    "entities": [
+      {
+        "start": 46,
+        "end": 49,
+        "text": "M79",
+        "label": "VAR"
+      },
+      {
+        "start": 96,
+        "end": 110,
+        "text": "photosynthesis",
+        "label": "TRT"
+      },
+      {
+        "start": 223,
+        "end": 230,
+        "text": "RNA-seq",
+        "label": "BM"
+      },
+      {
+        "start": 310,
+        "end": 313,
+        "text": "M79",
+        "label": "VAR"
+      },
+      {
+        "start": 351,
+        "end": 365,
+        "text": "drought stress",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "M79",
+        "head_start": 46,
+        "head_end": 49,
+        "head_type": "VAR",
+        "tail": "photosynthesis",
+        "tail_start": 96,
+        "tail_end": 110,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "drought stress",
+        "head_start": 351,
+        "head_end": 365,
+        "head_type": "ABS",
+        "tail": "photosynthesis",
+        "tail_start": 96,
+        "tail_end": 110,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  }
+]

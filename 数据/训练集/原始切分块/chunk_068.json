@@ -1,0 +1,829 @@
+[
+  {
+    "text": "Pc39 cosegregated with SNP marker GMI_ES01_c12570_390 in the AC Assiniboia/MN841801 RIL population. It was flanked by SNP markers avgbs_126086.1.41 and GMI_ES15_c276_702, with genetic distances of 1.7 and 0.3 cM, respectively. In the AC Medallion/MN841801 RIL population, similar results were obtained. The flanking markers had genetic distances of 0.4 and 0.4 cM, respectively.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "text": "Pc39",
+        "label": "QTL"
+      },
+      {
+        "start": 23,
+        "end": 53,
+        "text": "SNP marker GMI_ES01_c12570_390",
+        "label": "MRK"
+      },
+      {
+        "start": 61,
+        "end": 98,
+        "text": "AC Assiniboia/MN841801 RIL population",
+        "label": "CROSS"
+      },
+      {
+        "start": 118,
+        "end": 147,
+        "text": "SNP markers avgbs_126086.1.41",
+        "label": "MRK"
+      },
+      {
+        "start": 152,
+        "end": 169,
+        "text": "GMI_ES15_c276_702",
+        "label": "MRK"
+      },
+      {
+        "start": 234,
+        "end": 270,
+        "text": "AC Medallion/MN841801 RIL population",
+        "label": "CROSS"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "We identified an elite haplotype Hap2 of SiNLP2, which is utilized in breeding. Our study provided gene resources for variety improvement and marker-assisted selection.",
+    "entities": [
+      {
+        "start": 33,
+        "end": 37,
+        "text": "Hap2",
+        "label": "QTL"
+      },
+      {
+        "start": 41,
+        "end": 47,
+        "text": "SiNLP2",
+        "label": "GENE"
+      },
+      {
+        "start": 142,
+        "end": 167,
+        "text": "marker-assisted selection",
+        "label": "BM"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Hap2",
+        "head_start": 33,
+        "head_end": 37,
+        "head_type": "QTL",
+        "tail": "SiNLP2",
+        "tail_start": 41,
+        "tail_end": 47,
+        "tail_type": "GENE",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "A F-2 segregating population was constructed by crossing Yunqiao No.1 (hard-shelled) and Rice-Tartary (easily-shelled). Bulked segregant analysis sequencing (BSA-seq) was used for initial mapping. The gene locus controlling the easily-shelled trait was preliminarily located in a 4.07 Mb region of chromosome 1. Kompetitive allele-specific PCR primers based on SNPs in the initial region were designed and tested in 335 individual plants of the F-2 population.",
+    "entities": [
+      {
+        "start": 2,
+        "end": 28,
+        "text": "F-2 segregating population",
+        "label": "CROSS"
+      },
+      {
+        "start": 57,
+        "end": 69,
+        "text": "Yunqiao No.1",
+        "label": "VAR"
+      },
+      {
+        "start": 71,
+        "end": 83,
+        "text": "hard-shelled",
+        "label": "TRT"
+      },
+      {
+        "start": 89,
+        "end": 101,
+        "text": "Rice-Tartary",
+        "label": "VAR"
+      },
+      {
+        "start": 103,
+        "end": 117,
+        "text": "easily-shelled",
+        "label": "TRT"
+      },
+      {
+        "start": 120,
+        "end": 166,
+        "text": "Bulked segregant analysis sequencing (BSA-seq)",
+        "label": "BM"
+      },
+      {
+        "start": 228,
+        "end": 248,
+        "text": "easily-shelled trait",
+        "label": "TRT"
+      },
+      {
+        "start": 278,
+        "end": 294,
+        "text": "a 4.07 Mb region",
+        "label": "QTL"
+      },
+      {
+        "start": 298,
+        "end": 310,
+        "text": "chromosome 1",
+        "label": "CHR"
+      },
+      {
+        "start": 312,
+        "end": 351,
+        "text": "Kompetitive allele-specific PCR primers",
+        "label": "MRK"
+      },
+      {
+        "start": 361,
+        "end": 365,
+        "text": "SNPs",
+        "label": "MRK"
+      },
+      {
+        "start": 445,
+        "end": 459,
+        "text": "F-2 population",
+        "label": "CROSS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Yunqiao No.1",
+        "head_start": 57,
+        "head_end": 69,
+        "head_type": "VAR",
+        "tail": "hard-shelled",
+        "tail_start": 71,
+        "tail_end": 83,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Rice-Tartary",
+        "head_start": 89,
+        "head_end": 101,
+        "head_type": "VAR",
+        "tail": "easily-shelled",
+        "tail_start": 103,
+        "tail_end": 117,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "F-2 segregating population",
+        "head_start": 2,
+        "head_end": 28,
+        "head_type": "CROSS",
+        "tail": "Yunqiao No.1",
+        "tail_start": 57,
+        "tail_end": 69,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "F-2 segregating population",
+        "head_start": 2,
+        "head_end": 28,
+        "head_type": "CROSS",
+        "tail": "Rice-Tartary",
+        "tail_start": 89,
+        "tail_end": 101,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "Bulked segregant analysis sequencing (BSA-seq)",
+        "head_start": 120,
+        "head_end": 166,
+        "head_type": "BM",
+        "tail": "easily-shelled trait",
+        "tail_start": 228,
+        "tail_end": 248,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "a 4.07 Mb region",
+        "head_start": 278,
+        "head_end": 294,
+        "head_type": "QTL",
+        "tail": "chromosome 1",
+        "tail_start": 298,
+        "tail_end": 310,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "Kompetitive allele-specific PCR primers",
+        "head_start": 312,
+        "head_end": 351,
+        "head_type": "MRK",
+        "tail": "SNPs",
+        "tail_start": 361,
+        "tail_end": 365,
+        "tail_type": "MRK",
+        "label": "LOI"
+      },
+      {
+        "head": "Kompetitive allele-specific PCR primers",
+        "head_start": 312,
+        "head_end": 351,
+        "head_type": "MRK",
+        "tail": "easily-shelled trait",
+        "tail_start": 228,
+        "tail_end": 248,
+        "tail_type": "TRT",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "SNP loci linked to the crown rust resistance gene Pc98 were identified. KASP assays were developed for marker-assisted selection. Crown rust is a damaging disease of oat caused by Puccinia coronata var. avenae f. sp. avenae.",
+    "entities": [
+      {
+        "start": 72,
+        "end": 83,
+        "text": "KASP assays",
+        "label": "MRK"
+      },
+      {
+        "start": 103,
+        "end": 128,
+        "text": "marker-assisted selection",
+        "label": "BM"
+      },
+      {
+        "start": 130,
+        "end": 140,
+        "text": "Crown rust",
+        "label": "BIS"
+      },
+      {
+        "start": 166,
+        "end": 169,
+        "text": "oat",
+        "label": "CROP"
+      },
+      {
+        "start": 180,
+        "end": 223,
+        "text": "Puccinia coronata var. avenae f. sp. avenae",
+        "label": "BIS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "KASP assays",
+        "head_start": 72,
+        "head_end": 83,
+        "head_type": "MRK",
+        "tail": "marker-assisted selection",
+        "tail_start": 103,
+        "tail_end": 128,
+        "tail_type": "BM",
+        "label": "USE"
+      }
+    ]
+  },
+  {
+    "text": "New sweet sorghum germplasm selection requires resistance to anthracnose, a disease caused by Colletotrichum sublineolum. Identifying novel anthracnose-resistance sources in sweet sorghum germplasm enables faster development of new resistant germplasm.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 17,
+        "text": "sweet sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 10,
+        "end": 57,
+        "text": "sorghum germplasm selection requires resistance",
+        "label": "TRT"
+      },
+      {
+        "start": 61,
+        "end": 72,
+        "text": "anthracnose",
+        "label": "BIS"
+      },
+      {
+        "start": 180,
+        "end": 187,
+        "text": "sorghum",
+        "label": "CROP"
+      }
+    ],
+    "relations": [
+      {
+        "head": "anthracnose",
+        "head_start": 61,
+        "head_end": 72,
+        "head_type": "BIS",
+        "tail": "sorghum germplasm selection requires resistance",
+        "tail_start": 10,
+        "tail_end": 57,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "SbMYC2 directly activates the expression of the GLUTATHIONE-DISULFIDE REDUCTASE gene SbGR1. SbGR1 silencing weakened drought tolerance in sorghum, and increased ROS accumulation and decreased chlorophyll content in sorghum leaves.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "SbMYC2",
+        "label": "GENE"
+      },
+      {
+        "start": 48,
+        "end": 79,
+        "text": "GLUTATHIONE-DISULFIDE REDUCTASE",
+        "label": "GENE"
+      },
+      {
+        "start": 85,
+        "end": 90,
+        "text": "SbGR1",
+        "label": "GENE"
+      },
+      {
+        "start": 92,
+        "end": 97,
+        "text": "SbGR1",
+        "label": "GENE"
+      },
+      {
+        "start": 117,
+        "end": 134,
+        "text": "drought tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 138,
+        "end": 145,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 161,
+        "end": 177,
+        "text": "ROS accumulation",
+        "label": "TRT"
+      },
+      {
+        "start": 192,
+        "end": 211,
+        "text": "chlorophyll content",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "SbMYC2",
+        "head_start": 0,
+        "head_end": 6,
+        "head_type": "GENE",
+        "tail": "SbGR1",
+        "tail_start": 85,
+        "tail_end": 90,
+        "tail_type": "GENE",
+        "label": "LOI"
+      },
+      {
+        "head": "SbMYC2",
+        "head_start": 0,
+        "head_end": 6,
+        "head_type": "GENE",
+        "tail": "GLUTATHIONE-DISULFIDE REDUCTASE",
+        "tail_start": 48,
+        "tail_end": 79,
+        "tail_type": "GENE",
+        "label": "LOI"
+      },
+      {
+        "head": "SbMYC2",
+        "head_start": 0,
+        "head_end": 6,
+        "head_type": "GENE",
+        "tail": "drought tolerance",
+        "tail_start": 117,
+        "tail_end": 134,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "sorghum",
+        "head_start": 138,
+        "head_end": 145,
+        "head_type": "CROP",
+        "tail": "drought tolerance",
+        "tail_start": 117,
+        "tail_end": 134,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "sorghum",
+        "head_start": 138,
+        "head_end": 145,
+        "head_type": "CROP",
+        "tail": "ROS accumulation",
+        "tail_start": 161,
+        "tail_end": 177,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "sorghum",
+        "head_start": 138,
+        "head_end": 145,
+        "head_type": "CROP",
+        "tail": "chlorophyll content",
+        "tail_start": 192,
+        "tail_end": 211,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "Genomic regions for BYD tolerance were mapped in an oat population of 152 recombinant inbred lines from the cross 'Ogle' (tolerant)/MAM17-5 (sensitive). Tolerance was evaluated in field trials under artificial inoculation with viruliferous aphids harboring BYD virus isolate PAV-IL.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 33,
+        "text": "BYD tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 52,
+        "end": 55,
+        "text": "oat",
+        "label": "CROP"
+      },
+      {
+        "start": 115,
+        "end": 131,
+        "text": "Ogle' (tolerant)",
+        "label": "VAR"
+      },
+      {
+        "start": 132,
+        "end": 151,
+        "text": "MAM17-5 (sensitive)",
+        "label": "VAR"
+      },
+      {
+        "start": 227,
+        "end": 281,
+        "text": "viruliferous aphids harboring BYD virus isolate PAV-IL",
+        "label": "BIS"
+      },
+      {
+        "start": 257,
+        "end": 281,
+        "text": "BYD virus isolate PAV-IL",
+        "label": "BIS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "oat",
+        "head_start": 52,
+        "head_end": 55,
+        "head_type": "CROP",
+        "tail": "Ogle' (tolerant)",
+        "tail_start": 115,
+        "tail_end": 131,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "oat",
+        "head_start": 52,
+        "head_end": 55,
+        "head_type": "CROP",
+        "tail": "MAM17-5 (sensitive)",
+        "tail_start": 132,
+        "tail_end": 151,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "Ogle' (tolerant)",
+        "head_start": 115,
+        "head_end": 131,
+        "head_type": "VAR",
+        "tail": "BYD tolerance",
+        "tail_start": 20,
+        "tail_end": 33,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "viruliferous aphids harboring BYD virus isolate PAV-IL",
+        "head_start": 227,
+        "head_end": 281,
+        "head_type": "BIS",
+        "tail": "BYD virus isolate PAV-IL",
+        "tail_start": 257,
+        "tail_end": 281,
+        "tail_type": "BIS",
+        "label": "CON"
+      },
+      {
+        "head": "BYD virus isolate PAV-IL",
+        "head_start": 257,
+        "head_end": 281,
+        "head_type": "BIS",
+        "tail": "BYD tolerance",
+        "tail_start": 20,
+        "tail_end": 33,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Nucleoredoxin (NRX) is a member of the thioredoxin (TRX) superfamily. It regulates plant growth, development, and stress responses. Its role in drought resistance in foxtail millet is unclear.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 19,
+        "text": "Nucleoredoxin (NRX)",
+        "label": "GENE"
+      },
+      {
+        "start": 39,
+        "end": 56,
+        "text": "thioredoxin (TRX)",
+        "label": "GENE"
+      },
+      {
+        "start": 144,
+        "end": 162,
+        "text": "drought resistance",
+        "label": "TRT"
+      },
+      {
+        "start": 166,
+        "end": 180,
+        "text": "foxtail millet",
+        "label": "CROP"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Optimal germination occurred at higher temperatures under stress conditions: 20-30°C for annual ryegrass, and 20-30°C and 25-35°C for perennial ryegrass. Germination percentage and germination rate were inhibited by increasing salinity or alkalinity, especially higher alkalinities.",
+    "entities": [
+      {
+        "start": 89,
+        "end": 104,
+        "text": "annual ryegrass",
+        "label": "CROP"
+      },
+      {
+        "start": 134,
+        "end": 152,
+        "text": "perennial ryegrass",
+        "label": "CROP"
+      },
+      {
+        "start": 154,
+        "end": 176,
+        "text": "Germination percentage",
+        "label": "TRT"
+      },
+      {
+        "start": 181,
+        "end": 197,
+        "text": "germination rate",
+        "label": "TRT"
+      },
+      {
+        "start": 227,
+        "end": 235,
+        "text": "salinity",
+        "label": "ABS"
+      },
+      {
+        "start": 239,
+        "end": 249,
+        "text": "alkalinity",
+        "label": "ABS"
+      },
+      {
+        "start": 262,
+        "end": 281,
+        "text": "higher alkalinities",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "salinity",
+        "head_start": 227,
+        "head_end": 235,
+        "head_type": "ABS",
+        "tail": "Germination percentage",
+        "tail_start": 154,
+        "tail_end": 176,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "salinity",
+        "head_start": 227,
+        "head_end": 235,
+        "head_type": "ABS",
+        "tail": "germination rate",
+        "tail_start": 181,
+        "tail_end": 197,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "alkalinity",
+        "head_start": 239,
+        "head_end": 249,
+        "head_type": "ABS",
+        "tail": "Germination percentage",
+        "tail_start": 154,
+        "tail_end": 176,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "alkalinity",
+        "head_start": 239,
+        "head_end": 249,
+        "head_type": "ABS",
+        "tail": "germination rate",
+        "tail_start": 181,
+        "tail_end": 197,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "higher alkalinities",
+        "head_start": 262,
+        "head_end": 281,
+        "head_type": "ABS",
+        "tail": "Germination percentage",
+        "tail_start": 154,
+        "tail_end": 176,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "higher alkalinities",
+        "head_start": 262,
+        "head_end": 281,
+        "head_type": "ABS",
+        "tail": "germination rate",
+        "tail_start": 181,
+        "tail_end": 197,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Defense-related genes Sobic.002G013800 (Meta-QTL 2.1), Sobic.005G053800 (Meta-QTL 5.1), Sobic.005G062600 (Meta-QTL 5.1), Sobic.005G075100 (Meta-QTL 5.1), and Sobic.007G027100 (Meta-QTL 7.3) were significantly upregulated in several tissues during different stress conditions in sorghum.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 38,
+        "text": "Sobic.002G013800",
+        "label": "GENE"
+      },
+      {
+        "start": 40,
+        "end": 52,
+        "text": "Meta-QTL 2.1",
+        "label": "QTL"
+      },
+      {
+        "start": 55,
+        "end": 71,
+        "text": "Sobic.005G053800",
+        "label": "GENE"
+      },
+      {
+        "start": 73,
+        "end": 85,
+        "text": "Meta-QTL 5.1",
+        "label": "QTL"
+      },
+      {
+        "start": 88,
+        "end": 104,
+        "text": "Sobic.005G062600",
+        "label": "GENE"
+      },
+      {
+        "start": 106,
+        "end": 118,
+        "text": "Meta-QTL 5.1",
+        "label": "QTL"
+      },
+      {
+        "start": 121,
+        "end": 137,
+        "text": "Sobic.005G075100",
+        "label": "GENE"
+      },
+      {
+        "start": 139,
+        "end": 151,
+        "text": "Meta-QTL 5.1",
+        "label": "QTL"
+      },
+      {
+        "start": 158,
+        "end": 174,
+        "text": "Sobic.007G027100",
+        "label": "GENE"
+      },
+      {
+        "start": 176,
+        "end": 188,
+        "text": "Meta-QTL 7.3",
+        "label": "QTL"
+      },
+      {
+        "start": 278,
+        "end": 285,
+        "text": "sorghum",
+        "label": "CROP"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Sobic.002G013800",
+        "head_start": 22,
+        "head_end": 38,
+        "head_type": "GENE",
+        "tail": "Meta-QTL 2.1",
+        "tail_start": 40,
+        "tail_end": 52,
+        "tail_type": "QTL",
+        "label": "LOI"
+      },
+      {
+        "head": "Sobic.005G053800",
+        "head_start": 55,
+        "head_end": 71,
+        "head_type": "GENE",
+        "tail": "Meta-QTL 5.1",
+        "tail_start": 73,
+        "tail_end": 85,
+        "tail_type": "QTL",
+        "label": "LOI"
+      },
+      {
+        "head": "Sobic.005G062600",
+        "head_start": 88,
+        "head_end": 104,
+        "head_type": "GENE",
+        "tail": "Meta-QTL 5.1",
+        "tail_start": 73,
+        "tail_end": 85,
+        "tail_type": "QTL",
+        "label": "LOI"
+      },
+      {
+        "head": "Sobic.005G075100",
+        "head_start": 121,
+        "head_end": 137,
+        "head_type": "GENE",
+        "tail": "Meta-QTL 5.1",
+        "tail_start": 73,
+        "tail_end": 85,
+        "tail_type": "QTL",
+        "label": "LOI"
+      },
+      {
+        "head": "Sobic.007G027100",
+        "head_start": 158,
+        "head_end": 174,
+        "head_type": "GENE",
+        "tail": "Meta-QTL 7.3",
+        "tail_start": 176,
+        "tail_end": 188,
+        "tail_type": "QTL",
+        "label": "LOI"
+      }
+    ]
+  }
+]

@@ -1,0 +1,872 @@
+[
+  {
+    "text": "Seven PsRBOH genes were identified in the pea (Pisum sativum L.) genome. They were phylogenetically clustered into five groups. Collinearity analyses identified four pairs of orthologs between pea and soybean RBOHs.",
+    "entities": [
+      {
+        "start": 42,
+        "end": 45,
+        "text": "pea",
+        "label": "CROP"
+      },
+      {
+        "start": 47,
+        "end": 62,
+        "text": "Pisum sativum L",
+        "label": "CROP"
+      },
+      {
+        "start": 193,
+        "end": 196,
+        "text": "pea",
+        "label": "CROP"
+      },
+      {
+        "start": 201,
+        "end": 208,
+        "text": "soybean",
+        "label": "CROP"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "SiDREBs were identified as 166 family members and classified into six subfamilies. They are unevenly distributed on nine chromosomes and designated as SiDREB1-166 based on their chromosomal positions.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "SiDREBs",
+        "label": "GENE"
+      },
+      {
+        "start": 116,
+        "end": 132,
+        "text": "nine chromosomes",
+        "label": "CHR"
+      },
+      {
+        "start": 151,
+        "end": 162,
+        "text": "SiDREB1-166",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "SiDREB1-166",
+        "head_start": 151,
+        "head_end": 162,
+        "head_type": "GENE",
+        "tail": "nine chromosomes",
+        "tail_start": 116,
+        "tail_end": 132,
+        "tail_type": "CHR",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "The sorghum aphid Melanaphis sacchari is an important insect in the late growth phase of sorghum (Sorghum bicolor). The mechanisms of sorghum response to aphid infestation are unclear.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 17,
+        "text": "sorghum aphid",
+        "label": "BIS"
+      },
+      {
+        "start": 18,
+        "end": 37,
+        "text": "Melanaphis sacchari",
+        "label": "BIS"
+      },
+      {
+        "start": 68,
+        "end": 85,
+        "text": "late growth phase",
+        "label": "GST"
+      },
+      {
+        "start": 89,
+        "end": 96,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 98,
+        "end": 113,
+        "text": "Sorghum bicolor",
+        "label": "CROP"
+      },
+      {
+        "start": 154,
+        "end": 171,
+        "text": "aphid infestation",
+        "label": "BIS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "sorghum",
+        "head_start": 89,
+        "head_end": 96,
+        "head_type": "CROP",
+        "tail": "Sorghum bicolor",
+        "tail_start": 98,
+        "tail_end": 113,
+        "tail_type": "CROP",
+        "label": "CON"
+      },
+      {
+        "head": "sorghum aphid",
+        "head_start": 4,
+        "head_end": 17,
+        "head_type": "BIS",
+        "tail": "Melanaphis sacchari",
+        "tail_start": 18,
+        "tail_end": 37,
+        "tail_type": "BIS",
+        "label": "CON"
+      },
+      {
+        "head": "aphid infestation",
+        "head_start": 154,
+        "head_end": 171,
+        "head_type": "BIS",
+        "tail": "sorghum",
+        "tail_start": 89,
+        "tail_end": 96,
+        "tail_type": "CROP",
+        "label": "AFF"
+      },
+      {
+        "head": "sorghum aphid",
+        "head_start": 4,
+        "head_end": 17,
+        "head_type": "BIS",
+        "tail": "late growth phase",
+        "tail_start": 68,
+        "tail_end": 85,
+        "tail_type": "GST",
+        "label": "OCI"
+      },
+      {
+        "head": "Melanaphis sacchari",
+        "head_start": 18,
+        "head_end": 37,
+        "head_type": "BIS",
+        "tail": "late growth phase",
+        "tail_start": 68,
+        "tail_end": 85,
+        "tail_type": "GST",
+        "label": "OCI"
+      }
+    ]
+  },
+  {
+    "text": "Ten QTL for bruchid resistance were identified on chromosomes Vu02, Vu03, Vu04, Vu06, Vu08, Vu09, and Vu11. Two major QTLs were mapped: MDP6.1(MW) on Vu06 for median development period (R-2 = 25.9%), and a co-localized QTL region on Vu09 containing NEI9.1(MW) for adult bruchid emergence number (R-2 = 28.6%), NE9.1(MW) for egg number per 10 seeds (R-2 = 18.8%), ANH9.1(MW) for average exit holes on seeds (R-2 = 19.6%), and seed weight (R-2 = 15.6%-16.3%). Markers linked to these QTLs (MDP6.1(MW), NEI9.1(MW), ANH9.1(MW)) can be validated for marker-assisted selection in cowpea breeding.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 7,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 12,
+        "end": 19,
+        "text": "bruchid",
+        "label": "BIS"
+      },
+      {
+        "start": 62,
+        "end": 66,
+        "text": "Vu02",
+        "label": "CHR"
+      },
+      {
+        "start": 68,
+        "end": 72,
+        "text": "Vu03",
+        "label": "CHR"
+      },
+      {
+        "start": 74,
+        "end": 78,
+        "text": "Vu04",
+        "label": "CHR"
+      },
+      {
+        "start": 80,
+        "end": 84,
+        "text": "Vu06",
+        "label": "CHR"
+      },
+      {
+        "start": 86,
+        "end": 90,
+        "text": "Vu08",
+        "label": "CHR"
+      },
+      {
+        "start": 92,
+        "end": 96,
+        "text": "Vu09",
+        "label": "CHR"
+      },
+      {
+        "start": 102,
+        "end": 106,
+        "text": "Vu11",
+        "label": "CHR"
+      },
+      {
+        "start": 136,
+        "end": 146,
+        "text": "MDP6.1(MW)",
+        "label": "QTL"
+      },
+      {
+        "start": 159,
+        "end": 184,
+        "text": "median development period",
+        "label": "TRT"
+      },
+      {
+        "start": 249,
+        "end": 259,
+        "text": "NEI9.1(MW)",
+        "label": "QTL"
+      },
+      {
+        "start": 264,
+        "end": 294,
+        "text": "adult bruchid emergence number",
+        "label": "TRT"
+      },
+      {
+        "start": 310,
+        "end": 319,
+        "text": "NE9.1(MW)",
+        "label": "QTL"
+      },
+      {
+        "start": 324,
+        "end": 347,
+        "text": "egg number per 10 seeds",
+        "label": "TRT"
+      },
+      {
+        "start": 363,
+        "end": 373,
+        "text": "ANH9.1(MW)",
+        "label": "QTL"
+      },
+      {
+        "start": 378,
+        "end": 405,
+        "text": "average exit holes on seeds",
+        "label": "TRT"
+      },
+      {
+        "start": 425,
+        "end": 436,
+        "text": "seed weight",
+        "label": "TRT"
+      },
+      {
+        "start": 545,
+        "end": 570,
+        "text": "marker-assisted selection",
+        "label": "BM"
+      },
+      {
+        "start": 574,
+        "end": 580,
+        "text": "cowpea",
+        "label": "CROP"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QTL",
+        "head_start": 4,
+        "head_end": 7,
+        "head_type": "QTL",
+        "tail": "Vu02",
+        "tail_start": 62,
+        "tail_end": 66,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL",
+        "head_start": 4,
+        "head_end": 7,
+        "head_type": "QTL",
+        "tail": "Vu03",
+        "tail_start": 68,
+        "tail_end": 72,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL",
+        "head_start": 4,
+        "head_end": 7,
+        "head_type": "QTL",
+        "tail": "Vu04",
+        "tail_start": 74,
+        "tail_end": 78,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL",
+        "head_start": 4,
+        "head_end": 7,
+        "head_type": "QTL",
+        "tail": "Vu06",
+        "tail_start": 80,
+        "tail_end": 84,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL",
+        "head_start": 4,
+        "head_end": 7,
+        "head_type": "QTL",
+        "tail": "Vu08",
+        "tail_start": 86,
+        "tail_end": 90,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL",
+        "head_start": 4,
+        "head_end": 7,
+        "head_type": "QTL",
+        "tail": "Vu09",
+        "tail_start": 92,
+        "tail_end": 96,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL",
+        "head_start": 4,
+        "head_end": 7,
+        "head_type": "QTL",
+        "tail": "Vu11",
+        "tail_start": 102,
+        "tail_end": 106,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "MDP6.1(MW)",
+        "head_start": 136,
+        "head_end": 146,
+        "head_type": "QTL",
+        "tail": "Vu06",
+        "tail_start": 80,
+        "tail_end": 84,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "NEI9.1(MW)",
+        "head_start": 249,
+        "head_end": 259,
+        "head_type": "QTL",
+        "tail": "Vu09",
+        "tail_start": 92,
+        "tail_end": 96,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "NE9.1(MW)",
+        "head_start": 310,
+        "head_end": 319,
+        "head_type": "QTL",
+        "tail": "Vu09",
+        "tail_start": 92,
+        "tail_end": 96,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "ANH9.1(MW)",
+        "head_start": 363,
+        "head_end": 373,
+        "head_type": "QTL",
+        "tail": "Vu09",
+        "tail_start": 92,
+        "tail_end": 96,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "MDP6.1(MW)",
+        "head_start": 136,
+        "head_end": 146,
+        "head_type": "QTL",
+        "tail": "median development period",
+        "tail_start": 159,
+        "tail_end": 184,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "NEI9.1(MW)",
+        "head_start": 249,
+        "head_end": 259,
+        "head_type": "QTL",
+        "tail": "adult bruchid emergence number",
+        "tail_start": 264,
+        "tail_end": 294,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "NE9.1(MW)",
+        "head_start": 310,
+        "head_end": 319,
+        "head_type": "QTL",
+        "tail": "egg number per 10 seeds",
+        "tail_start": 324,
+        "tail_end": 347,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "ANH9.1(MW)",
+        "head_start": 363,
+        "head_end": 373,
+        "head_type": "QTL",
+        "tail": "average exit holes on seeds",
+        "tail_start": 378,
+        "tail_end": 405,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL",
+        "head_start": 4,
+        "head_end": 7,
+        "head_type": "QTL",
+        "tail": "bruchid",
+        "tail_start": 12,
+        "tail_end": 19,
+        "tail_type": "BIS",
+        "label": "AFF"
+      },
+      {
+        "head": "cowpea",
+        "head_start": 574,
+        "head_end": 580,
+        "head_type": "CROP",
+        "tail": "marker-assisted selection",
+        "tail_start": 545,
+        "tail_end": 570,
+        "tail_type": "BM",
+        "label": "USE"
+      },
+      {
+        "head": "bruchid",
+        "head_start": 12,
+        "head_end": 19,
+        "head_type": "BIS",
+        "tail": "cowpea",
+        "tail_start": 574,
+        "tail_end": 580,
+        "tail_type": "CROP",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "An F-2 population was derived from a cross between the breeding line 'Tokei1121' (T1121) and the cultivar 'Erimo167'. It was phenotyped for epicotyl length (ECL) and genotyped using SSR and SNP markers. A molecular linkage map was generated. Fifty-two segregating markers, including 27 SSRs and 25 SNPs, were located on seven linkage groups at a LOD threshold of 3.0.",
+    "entities": [
+      {
+        "start": 3,
+        "end": 17,
+        "text": "F-2 population",
+        "label": "CROSS"
+      },
+      {
+        "start": 55,
+        "end": 88,
+        "text": "breeding line 'Tokei1121' (T1121)",
+        "label": "VAR"
+      },
+      {
+        "start": 97,
+        "end": 116,
+        "text": "cultivar 'Erimo167'",
+        "label": "VAR"
+      },
+      {
+        "start": 140,
+        "end": 161,
+        "text": "epicotyl length (ECL)",
+        "label": "TRT"
+      },
+      {
+        "start": 182,
+        "end": 185,
+        "text": "SSR",
+        "label": "MRK"
+      },
+      {
+        "start": 190,
+        "end": 201,
+        "text": "SNP markers",
+        "label": "MRK"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "The ASM was validated in 170 foxtail millet accessions using single-marker regression analysis. Regression of lipid peroxidation (LP) on the ASM showed that the SiDREB2-associated trait explained 27.18% of LP variation, indicating it is a major QTL for dehydration tolerance.",
+    "entities": [
+      {
+        "start": 29,
+        "end": 43,
+        "text": "foxtail millet",
+        "label": "CROP"
+      },
+      {
+        "start": 161,
+        "end": 168,
+        "text": "SiDREB2",
+        "label": "GENE"
+      },
+      {
+        "start": 245,
+        "end": 248,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 253,
+        "end": 274,
+        "text": "dehydration tolerance",
+        "label": "TRT"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "SiTPSs and SiTPPs contribute to low-temperature stress responses. These genes are genetic resources for low-temperature breeding in foxtail millet.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "SiTPSs",
+        "label": "GENE"
+      },
+      {
+        "start": 11,
+        "end": 17,
+        "text": "SiTPPs",
+        "label": "GENE"
+      },
+      {
+        "start": 32,
+        "end": 54,
+        "text": "low-temperature stress",
+        "label": "ABS"
+      },
+      {
+        "start": 104,
+        "end": 128,
+        "text": "low-temperature breeding",
+        "label": "BM"
+      },
+      {
+        "start": 132,
+        "end": 146,
+        "text": "foxtail millet",
+        "label": "CROP"
+      }
+    ],
+    "relations": [
+      {
+        "head": "SiTPSs",
+        "head_start": 0,
+        "head_end": 6,
+        "head_type": "GENE",
+        "tail": "low-temperature stress",
+        "tail_start": 32,
+        "tail_end": 54,
+        "tail_type": "ABS",
+        "label": "AFF"
+      },
+      {
+        "head": "SiTPPs",
+        "head_start": 11,
+        "head_end": 17,
+        "head_type": "GENE",
+        "tail": "low-temperature stress",
+        "tail_start": 32,
+        "tail_end": 54,
+        "tail_type": "ABS",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Broomcorn millet (Panicum miliaceum L.) is a crop domesticated in northern China. It has been improved for reproductive and vegetative traits.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 16,
+        "text": "Broomcorn millet",
+        "label": "CROP"
+      },
+      {
+        "start": 18,
+        "end": 39,
+        "text": "Panicum miliaceum L.)",
+        "label": "CROP"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Salinity tolerance is an important trait in brewing sorghum. A transcriptome and metabolome analysis was conducted on two sweet sorghum genotypes: the salt-tolerant line NY1298 and the salt-sensitive line MY1176, after salt treatment.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "text": "Salinity tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 44,
+        "end": 59,
+        "text": "brewing sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 63,
+        "end": 76,
+        "text": "transcriptome",
+        "label": "BM"
+      },
+      {
+        "start": 81,
+        "end": 91,
+        "text": "metabolome",
+        "label": "BM"
+      },
+      {
+        "start": 122,
+        "end": 135,
+        "text": "sweet sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 151,
+        "end": 164,
+        "text": "salt-tolerant",
+        "label": "TRT"
+      },
+      {
+        "start": 170,
+        "end": 176,
+        "text": "NY1298",
+        "label": "VAR"
+      },
+      {
+        "start": 185,
+        "end": 199,
+        "text": "salt-sensitive",
+        "label": "TRT"
+      },
+      {
+        "start": 205,
+        "end": 211,
+        "text": "MY1176",
+        "label": "VAR"
+      },
+      {
+        "start": 219,
+        "end": 233,
+        "text": "salt treatment",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "brewing sorghum",
+        "head_start": 44,
+        "head_end": 59,
+        "head_type": "CROP",
+        "tail": "sweet sorghum",
+        "tail_start": 122,
+        "tail_end": 135,
+        "tail_type": "CROP",
+        "label": "CON"
+      },
+      {
+        "head": "NY1298",
+        "head_start": 170,
+        "head_end": 176,
+        "head_type": "VAR",
+        "tail": "salt-tolerant",
+        "tail_start": 151,
+        "tail_end": 164,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "MY1176",
+        "head_start": 205,
+        "head_end": 211,
+        "head_type": "VAR",
+        "tail": "salt-sensitive",
+        "tail_start": 185,
+        "tail_end": 199,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "salt treatment",
+        "head_start": 219,
+        "head_end": 233,
+        "head_type": "ABS",
+        "tail": "Salinity tolerance",
+        "tail_start": 0,
+        "tail_end": 18,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Two QTL clusters contained overlapping QTLs for PH, FW and DW. Orthologs of three SD candidate genes from maize were found within two SD QTLs.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 16,
+        "text": "QTL clusters",
+        "label": "QTL"
+      },
+      {
+        "start": 39,
+        "end": 43,
+        "text": "QTLs",
+        "label": "QTL"
+      },
+      {
+        "start": 48,
+        "end": 50,
+        "text": "PH",
+        "label": "TRT"
+      },
+      {
+        "start": 52,
+        "end": 54,
+        "text": "FW",
+        "label": "TRT"
+      },
+      {
+        "start": 59,
+        "end": 61,
+        "text": "DW",
+        "label": "TRT"
+      },
+      {
+        "start": 82,
+        "end": 94,
+        "text": "SD candidate",
+        "label": "GENE"
+      },
+      {
+        "start": 106,
+        "end": 111,
+        "text": "maize",
+        "label": "CROP"
+      },
+      {
+        "start": 134,
+        "end": 141,
+        "text": "SD QTLs",
+        "label": "QTL"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QTL clusters",
+        "head_start": 4,
+        "head_end": 16,
+        "head_type": "QTL",
+        "tail": "QTLs",
+        "tail_start": 39,
+        "tail_end": 43,
+        "tail_type": "QTL",
+        "label": "CON"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 39,
+        "head_end": 43,
+        "head_type": "QTL",
+        "tail": "PH",
+        "tail_start": 48,
+        "tail_end": 50,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 39,
+        "head_end": 43,
+        "head_type": "QTL",
+        "tail": "FW",
+        "tail_start": 52,
+        "tail_end": 54,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 39,
+        "head_end": 43,
+        "head_type": "QTL",
+        "tail": "DW",
+        "tail_start": 59,
+        "tail_end": 61,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "maize",
+        "head_start": 106,
+        "head_end": 111,
+        "head_type": "CROP",
+        "tail": "SD candidate",
+        "tail_start": 82,
+        "tail_end": 94,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "SD candidate",
+        "head_start": 82,
+        "head_end": 94,
+        "head_type": "GENE",
+        "tail": "SD QTLs",
+        "tail_start": 134,
+        "tail_end": 141,
+        "tail_type": "QTL",
+        "label": "LOI"
+      }
+    ]
+  }
+]

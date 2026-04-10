@@ -1,0 +1,627 @@
+[
+  {
+    "text": "Foliar resistance to Ascochyta lentis is controlled by a dominant gene (AbR(1)) in lentil accession ILL5588 ('Northfield'). Flanking RAPD markers linked to the resistance locus were identified by bulked segregant analysis.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "text": "Foliar resistance",
+        "label": "TRT"
+      },
+      {
+        "start": 21,
+        "end": 37,
+        "text": "Ascochyta lentis",
+        "label": "BIS"
+      },
+      {
+        "start": 57,
+        "end": 65,
+        "text": "dominant",
+        "label": "GENE"
+      },
+      {
+        "start": 72,
+        "end": 78,
+        "text": "AbR(1)",
+        "label": "GENE"
+      },
+      {
+        "start": 83,
+        "end": 89,
+        "text": "lentil",
+        "label": "CROP"
+      },
+      {
+        "start": 100,
+        "end": 107,
+        "text": "ILL5588",
+        "label": "VAR"
+      },
+      {
+        "start": 110,
+        "end": 120,
+        "text": "Northfield",
+        "label": "VAR"
+      },
+      {
+        "start": 133,
+        "end": 145,
+        "text": "RAPD markers",
+        "label": "MRK"
+      },
+      {
+        "start": 160,
+        "end": 176,
+        "text": "resistance locus",
+        "label": "QTL"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Ascochyta lentis",
+        "head_start": 21,
+        "head_end": 37,
+        "head_type": "BIS",
+        "tail": "resistance locus",
+        "tail_start": 160,
+        "tail_end": 176,
+        "tail_type": "QTL",
+        "label": "LOI"
+      },
+      {
+        "head": "AbR(1)",
+        "head_start": 72,
+        "head_end": 78,
+        "head_type": "GENE",
+        "tail": "Foliar resistance",
+        "tail_start": 0,
+        "tail_end": 17,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "dominant",
+        "head_start": 57,
+        "head_end": 65,
+        "head_type": "GENE",
+        "tail": "Foliar resistance",
+        "tail_start": 0,
+        "tail_end": 17,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "ILL5588",
+        "head_start": 100,
+        "head_end": 107,
+        "head_type": "VAR",
+        "tail": "Foliar resistance",
+        "tail_start": 0,
+        "tail_end": 17,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Northfield",
+        "head_start": 110,
+        "head_end": 120,
+        "head_type": "VAR",
+        "tail": "Foliar resistance",
+        "tail_start": 0,
+        "tail_end": 17,
+        "tail_type": "TRT",
+        "label": "CON"
+      },
+      {
+        "head": "lentil",
+        "head_start": 83,
+        "head_end": 89,
+        "head_type": "CROP",
+        "tail": "ILL5588",
+        "tail_start": 100,
+        "tail_end": 107,
+        "tail_type": "VAR",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "The dendrogram from SSR molecular marker data grouped the genotypes into three clusters. The SSR marker data showed a narrow genetic base in mungbean genotypes.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 40,
+        "text": "SSR molecular marker",
+        "label": "MRK"
+      },
+      {
+        "start": 141,
+        "end": 149,
+        "text": "mungbean",
+        "label": "CROP"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Citric acid treatment up-regulated CHS, ANR, MYB and bHLH genes and promoted flavonoid accumulation. It delayed sorghum seed discoloration and enhanced antioxidant activity and storage life.",
+    "entities": [
+      {
+        "start": 35,
+        "end": 38,
+        "text": "CHS",
+        "label": "GENE"
+      },
+      {
+        "start": 40,
+        "end": 43,
+        "text": "ANR",
+        "label": "GENE"
+      },
+      {
+        "start": 45,
+        "end": 48,
+        "text": "MYB",
+        "label": "GENE"
+      },
+      {
+        "start": 53,
+        "end": 57,
+        "text": "bHLH",
+        "label": "GENE"
+      },
+      {
+        "start": 77,
+        "end": 99,
+        "text": "flavonoid accumulation",
+        "label": "TRT"
+      },
+      {
+        "start": 112,
+        "end": 119,
+        "text": "sorghum",
+        "label": "CROP"
+      }
+    ],
+    "relations": [
+      {
+        "head": "CHS",
+        "head_start": 35,
+        "head_end": 38,
+        "head_type": "GENE",
+        "tail": "flavonoid accumulation",
+        "tail_start": 77,
+        "tail_end": 99,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "ANR",
+        "head_start": 40,
+        "head_end": 43,
+        "head_type": "GENE",
+        "tail": "flavonoid accumulation",
+        "tail_start": 77,
+        "tail_end": 99,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "MYB",
+        "head_start": 45,
+        "head_end": 48,
+        "head_type": "GENE",
+        "tail": "flavonoid accumulation",
+        "tail_start": 77,
+        "tail_end": 99,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "bHLH",
+        "head_start": 53,
+        "head_end": 57,
+        "head_type": "GENE",
+        "tail": "flavonoid accumulation",
+        "tail_start": 77,
+        "tail_end": 99,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "High-affinity K+ transporters (HKT) are essential for plant response to abiotic stresses. They maintain Na+ and K+ balance and prevent sodium toxicity in root and leaf.",
+    "entities": [
+      {
+        "start": 31,
+        "end": 34,
+        "text": "HKT",
+        "label": "GENE"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Transcriptomic and metabolomic analyses were performed on the roots of a Cd-tolerant Tartary buckwheat cultivar after 0 h (CK), 6 h (T1), and 48 h (T2) of Cd treatment. Fresh weight and root length were not significantly inhibited under T1 treatment but were inhibited under T2 treatment.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 39,
+        "text": "Transcriptomic and metabolomic analyses",
+        "label": "BM"
+      },
+      {
+        "start": 73,
+        "end": 111,
+        "text": "Cd-tolerant Tartary buckwheat cultivar",
+        "label": "VAR"
+      },
+      {
+        "start": 85,
+        "end": 102,
+        "text": "Tartary buckwheat",
+        "label": "CROP"
+      },
+      {
+        "start": 155,
+        "end": 167,
+        "text": "Cd treatment",
+        "label": "ABS"
+      },
+      {
+        "start": 169,
+        "end": 181,
+        "text": "Fresh weight",
+        "label": "TRT"
+      },
+      {
+        "start": 186,
+        "end": 197,
+        "text": "root length",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Tartary buckwheat",
+        "head_start": 85,
+        "head_end": 102,
+        "head_type": "CROP",
+        "tail": "Cd-tolerant Tartary buckwheat cultivar",
+        "tail_start": 73,
+        "tail_end": 111,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "Cd-tolerant Tartary buckwheat cultivar",
+        "head_start": 73,
+        "head_end": 111,
+        "head_type": "VAR",
+        "tail": "Fresh weight",
+        "tail_start": 169,
+        "tail_end": 181,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Cd-tolerant Tartary buckwheat cultivar",
+        "head_start": 73,
+        "head_end": 111,
+        "head_type": "VAR",
+        "tail": "root length",
+        "tail_start": 186,
+        "tail_end": 197,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Cd treatment",
+        "head_start": 155,
+        "head_end": 167,
+        "head_type": "ABS",
+        "tail": "Fresh weight",
+        "tail_start": 169,
+        "tail_end": 181,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Cd treatment",
+        "head_start": 155,
+        "head_end": 167,
+        "head_type": "ABS",
+        "tail": "root length",
+        "tail_start": 186,
+        "tail_end": 197,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "High-yielding varieties had decreased plant height and increased leaf area per plant at maturity compared to low- and middle-yielding varieties. The decline in leaf area per plant and root traits from flowering to maturity was less pronounced in high-yielding varieties.",
+    "entities": [
+      {
+        "start": 38,
+        "end": 50,
+        "text": "plant height",
+        "label": "TRT"
+      },
+      {
+        "start": 65,
+        "end": 84,
+        "text": "leaf area per plant",
+        "label": "TRT"
+      },
+      {
+        "start": 184,
+        "end": 195,
+        "text": "root traits",
+        "label": "TRT"
+      },
+      {
+        "start": 201,
+        "end": 210,
+        "text": "flowering",
+        "label": "GST"
+      },
+      {
+        "start": 214,
+        "end": 222,
+        "text": "maturity",
+        "label": "GST"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Multiple-effect QTLs were identified. The major QTL on chromosome SBI-06 was significantly associated with flowering date, plant height, Brix, sucrose, and sugar content. Four of ten traits showed significant QTL-by-environment interaction.",
+    "entities": [
+      {
+        "start": 48,
+        "end": 72,
+        "text": "QTL on chromosome SBI-06",
+        "label": "QTL"
+      },
+      {
+        "start": 55,
+        "end": 72,
+        "text": "chromosome SBI-06",
+        "label": "CHR"
+      },
+      {
+        "start": 107,
+        "end": 121,
+        "text": "flowering date",
+        "label": "TRT"
+      },
+      {
+        "start": 123,
+        "end": 135,
+        "text": "plant height",
+        "label": "TRT"
+      },
+      {
+        "start": 137,
+        "end": 141,
+        "text": "Brix",
+        "label": "TRT"
+      },
+      {
+        "start": 143,
+        "end": 150,
+        "text": "sucrose",
+        "label": "TRT"
+      },
+      {
+        "start": 156,
+        "end": 169,
+        "text": "sugar content",
+        "label": "TRT"
+      },
+      {
+        "start": 209,
+        "end": 239,
+        "text": "QTL-by-environment interaction",
+        "label": "QTL"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QTL on chromosome SBI-06",
+        "head_start": 48,
+        "head_end": 72,
+        "head_type": "QTL",
+        "tail": "chromosome SBI-06",
+        "tail_start": 55,
+        "tail_end": 72,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL on chromosome SBI-06",
+        "head_start": 48,
+        "head_end": 72,
+        "head_type": "QTL",
+        "tail": "flowering date",
+        "tail_start": 107,
+        "tail_end": 121,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL on chromosome SBI-06",
+        "head_start": 48,
+        "head_end": 72,
+        "head_type": "QTL",
+        "tail": "plant height",
+        "tail_start": 123,
+        "tail_end": 135,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL on chromosome SBI-06",
+        "head_start": 48,
+        "head_end": 72,
+        "head_type": "QTL",
+        "tail": "Brix",
+        "tail_start": 137,
+        "tail_end": 141,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL on chromosome SBI-06",
+        "head_start": 48,
+        "head_end": 72,
+        "head_type": "QTL",
+        "tail": "sucrose",
+        "tail_start": 143,
+        "tail_end": 150,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL on chromosome SBI-06",
+        "head_start": 48,
+        "head_end": 72,
+        "head_type": "QTL",
+        "tail": "sugar content",
+        "tail_start": 156,
+        "tail_end": 169,
+        "tail_type": "TRT",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "The QTL qFBW6.1 is newly reported. Eight SNPs were converted into CAPS markers. These QTLs and markers can be used for marker-assisted selection in sorghum to develop lines with bioenergy-related traits.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 7,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 8,
+        "end": 15,
+        "text": "qFBW6.1",
+        "label": "QTL"
+      },
+      {
+        "start": 35,
+        "end": 45,
+        "text": "Eight SNPs",
+        "label": "MRK"
+      },
+      {
+        "start": 66,
+        "end": 78,
+        "text": "CAPS markers",
+        "label": "MRK"
+      },
+      {
+        "start": 86,
+        "end": 90,
+        "text": "QTLs",
+        "label": "QTL"
+      },
+      {
+        "start": 119,
+        "end": 144,
+        "text": "marker-assisted selection",
+        "label": "BM"
+      },
+      {
+        "start": 148,
+        "end": 155,
+        "text": "sorghum",
+        "label": "CROP"
+      }
+    ],
+    "relations": [
+      {
+        "head": "marker-assisted selection",
+        "head_start": 119,
+        "head_end": 144,
+        "head_type": "BM",
+        "tail": "QTLs",
+        "tail_start": 86,
+        "tail_end": 90,
+        "tail_type": "QTL",
+        "label": "USE"
+      }
+    ]
+  },
+  {
+    "text": "The profiling of 200 Tartary buckwheat accessions shows 540 metabolites were modified by human selection. A metabolic genome-wide association study shows 384 mGWAS signals for 336 metabolites are under selection.",
+    "entities": [
+      {
+        "start": 21,
+        "end": 38,
+        "text": "Tartary buckwheat",
+        "label": "CROP"
+      },
+      {
+        "start": 118,
+        "end": 147,
+        "text": "genome-wide association study",
+        "label": "BM"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "DNA marker GSR345 is a reliable diagnostic tool for greenbug resistance in twenty sorghum accessions. It facilitates marker-assisted breeding for aphid resistance and positional-cloning of SgR1 in sorghum.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "text": "DNA marker GSR345",
+        "label": "MRK"
+      },
+      {
+        "start": 52,
+        "end": 71,
+        "text": "greenbug resistance",
+        "label": "TRT"
+      },
+      {
+        "start": 82,
+        "end": 89,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 146,
+        "end": 162,
+        "text": "aphid resistance",
+        "label": "TRT"
+      },
+      {
+        "start": 189,
+        "end": 193,
+        "text": "SgR1",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "SgR1",
+        "head_start": 189,
+        "head_end": 193,
+        "head_type": "GENE",
+        "tail": "aphid resistance",
+        "tail_start": 146,
+        "tail_end": 162,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  }
+]

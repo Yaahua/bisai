@@ -1,0 +1,544 @@
+[
+  {
+    "text": "Six PCR-based markers were developed to identify the resistant Pc39 allele. The closely linked marker SCAR_3456624 is within 0.37 cM of Pc39.",
+    "entities": [
+      {
+        "start": 63,
+        "end": 67,
+        "text": "Pc39",
+        "label": "GENE"
+      },
+      {
+        "start": 102,
+        "end": 114,
+        "text": "SCAR_3456624",
+        "label": "MRK"
+      },
+      {
+        "start": 136,
+        "end": 140,
+        "text": "Pc39",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "SCAR_3456624",
+        "head_start": 102,
+        "head_end": 114,
+        "head_type": "MRK",
+        "tail": "Pc39",
+        "tail_start": 63,
+        "tail_end": 67,
+        "tail_type": "GENE",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "The Sdwa5.1.1+ was confirmed in an F-2:3 population from the same cross and mapped to a 3.298-Kb region containing the gene LOC106767068, designated as VrKNAT7-1. This gene encodes the transcription factor KNOTTED ARABIDOPSIS THALIANA7 (KNAT7), a KNOX II protein. VrKNAT7 sequence alignment between ACC41 and KPS2 revealed polymorphisms in the coding, untranslated, and promoter regions.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 14,
+        "text": "Sdwa5.1.1+",
+        "label": "QTL"
+      },
+      {
+        "start": 35,
+        "end": 51,
+        "text": "F-2:3 population",
+        "label": "CROSS"
+      },
+      {
+        "start": 124,
+        "end": 136,
+        "text": "LOC106767068",
+        "label": "GENE"
+      },
+      {
+        "start": 152,
+        "end": 161,
+        "text": "VrKNAT7-1",
+        "label": "GENE"
+      },
+      {
+        "start": 206,
+        "end": 243,
+        "text": "KNOTTED ARABIDOPSIS THALIANA7 (KNAT7)",
+        "label": "GENE"
+      },
+      {
+        "start": 247,
+        "end": 254,
+        "text": "KNOX II",
+        "label": "GENE"
+      },
+      {
+        "start": 264,
+        "end": 280,
+        "text": "VrKNAT7 sequence",
+        "label": "GENE"
+      },
+      {
+        "start": 299,
+        "end": 304,
+        "text": "ACC41",
+        "label": "GENE"
+      },
+      {
+        "start": 309,
+        "end": 313,
+        "text": "KPS2",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Sdwa5.1.1+",
+        "head_start": 4,
+        "head_end": 14,
+        "head_type": "QTL",
+        "tail": "LOC106767068",
+        "tail_start": 124,
+        "tail_end": 136,
+        "tail_type": "GENE",
+        "label": "LOI"
+      },
+      {
+        "head": "Sdwa5.1.1+",
+        "head_start": 4,
+        "head_end": 14,
+        "head_type": "QTL",
+        "tail": "VrKNAT7-1",
+        "tail_start": 152,
+        "tail_end": 161,
+        "tail_type": "GENE",
+        "label": "LOI"
+      },
+      {
+        "head": "VrKNAT7-1",
+        "head_start": 152,
+        "head_end": 161,
+        "head_type": "GENE",
+        "tail": "KNOTTED ARABIDOPSIS THALIANA7 (KNAT7)",
+        "tail_start": 206,
+        "tail_end": 243,
+        "tail_type": "GENE",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "Field selection using pathogen and artificial inoculation is time-consuming. We used 105 F-3 lines from a cross between BSR-resistant 'Syumari' and susceptible 'Buchishoryukei-1' for BSR inoculation tests. AFLP analyses with 1024 primer sets showed six fragments were polymorphic between resistant and susceptible bulked groups.",
+    "entities": [
+      {
+        "start": 120,
+        "end": 123,
+        "text": "BSR",
+        "label": "ABS"
+      },
+      {
+        "start": 135,
+        "end": 142,
+        "text": "Syumari",
+        "label": "VAR"
+      },
+      {
+        "start": 161,
+        "end": 177,
+        "text": "Buchishoryukei-1",
+        "label": "VAR"
+      },
+      {
+        "start": 183,
+        "end": 186,
+        "text": "BSR",
+        "label": "BIS"
+      },
+      {
+        "start": 183,
+        "end": 204,
+        "text": "BSR inoculation tests",
+        "label": "BM"
+      },
+      {
+        "start": 206,
+        "end": 210,
+        "text": "AFLP",
+        "label": "MRK"
+      },
+      {
+        "start": 230,
+        "end": 241,
+        "text": "primer sets",
+        "label": "MRK"
+      },
+      {
+        "start": 253,
+        "end": 262,
+        "text": "fragments",
+        "label": "MRK"
+      }
+    ],
+    "relations": [
+      {
+        "head": "AFLP",
+        "head_start": 206,
+        "head_end": 210,
+        "head_type": "MRK",
+        "tail": "primer sets",
+        "tail_start": 230,
+        "tail_end": 241,
+        "tail_type": "MRK",
+        "label": "CON"
+      },
+      {
+        "head": "AFLP",
+        "head_start": 206,
+        "head_end": 210,
+        "head_type": "MRK",
+        "tail": "fragments",
+        "tail_start": 253,
+        "tail_end": 262,
+        "tail_type": "MRK",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "Loss-of-function mutations in CCD7, CCD8, MAX1, and DUF genes downregulated expression of associated genes in the SL biosynthetic pathway. Edited lines showed phenotypic changes compared to wild-type plants.",
+    "entities": [
+      {
+        "start": 30,
+        "end": 34,
+        "text": "CCD7",
+        "label": "GENE"
+      },
+      {
+        "start": 36,
+        "end": 40,
+        "text": "CCD8",
+        "label": "GENE"
+      },
+      {
+        "start": 42,
+        "end": 46,
+        "text": "MAX1",
+        "label": "GENE"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Abiotic stress impacts sorghum growth and yield. Phospholipase D hydrolyzes phospholipids and responds to abiotic stresses. The Phospholipase D (SbPLD) family in sorghum is rarely reported.",
+    "entities": [
+      {
+        "start": 23,
+        "end": 30,
+        "text": "sorghum",
+        "label": "CROP"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Qing1 and Long4 yields were 27.25% and 21.42% higher than the control. Both varieties had higher average proline, CAT and soluble sugar contents than the control.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Qing1",
+        "label": "VAR"
+      },
+      {
+        "start": 10,
+        "end": 15,
+        "text": "Long4",
+        "label": "VAR"
+      },
+      {
+        "start": 97,
+        "end": 112,
+        "text": "average proline",
+        "label": "TRT"
+      },
+      {
+        "start": 114,
+        "end": 117,
+        "text": "CAT",
+        "label": "TRT"
+      },
+      {
+        "start": 122,
+        "end": 144,
+        "text": "soluble sugar contents",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Qing1",
+        "head_start": 0,
+        "head_end": 5,
+        "head_type": "VAR",
+        "tail": "average proline",
+        "tail_start": 97,
+        "tail_end": 112,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Qing1",
+        "head_start": 0,
+        "head_end": 5,
+        "head_type": "VAR",
+        "tail": "CAT",
+        "tail_start": 114,
+        "tail_end": 117,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Qing1",
+        "head_start": 0,
+        "head_end": 5,
+        "head_type": "VAR",
+        "tail": "soluble sugar contents",
+        "tail_start": 122,
+        "tail_end": 144,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Long4",
+        "head_start": 10,
+        "head_end": 15,
+        "head_type": "VAR",
+        "tail": "soluble sugar contents",
+        "tail_start": 122,
+        "tail_end": 144,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Long4",
+        "head_start": 10,
+        "head_end": 15,
+        "head_type": "VAR",
+        "tail": "average proline",
+        "tail_start": 97,
+        "tail_end": 112,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "Subsequent experiments identified 38 QTLs controlling variation in height, flowering, biomass, leaf area, greenness and stomatal density. Colocalisation of these QTLs with agronomic traits indicates they can be used for improving sorghum performance through marker assisted selection under preflowering drought stress.",
+    "entities": [
+      {
+        "start": 37,
+        "end": 41,
+        "text": "QTLs",
+        "label": "QTL"
+      },
+      {
+        "start": 67,
+        "end": 73,
+        "text": "height",
+        "label": "TRT"
+      },
+      {
+        "start": 86,
+        "end": 93,
+        "text": "biomass",
+        "label": "TRT"
+      },
+      {
+        "start": 106,
+        "end": 136,
+        "text": "greenness and stomatal density",
+        "label": "TRT"
+      },
+      {
+        "start": 230,
+        "end": 237,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 258,
+        "end": 283,
+        "text": "marker assisted selection",
+        "label": "BM"
+      },
+      {
+        "start": 290,
+        "end": 317,
+        "text": "preflowering drought stress",
+        "label": "ABS"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Genes associated with abscisic acid, gibberellic acid, brassinosteroid, and auxin signaling are involved in seed germination. GWAS of the 24-h germination rate across 232 cultivars identified four significant SNPs and 31 candidate genes. SbPP2C33 is the top candidate based on transcriptome integration.",
+    "entities": [
+      {
+        "start": 126,
+        "end": 130,
+        "text": "GWAS",
+        "label": "BM"
+      },
+      {
+        "start": 138,
+        "end": 159,
+        "text": "24-h germination rate",
+        "label": "TRT"
+      },
+      {
+        "start": 209,
+        "end": 213,
+        "text": "SNPs",
+        "label": "MRK"
+      },
+      {
+        "start": 238,
+        "end": 246,
+        "text": "SbPP2C33",
+        "label": "GENE"
+      },
+      {
+        "start": 277,
+        "end": 290,
+        "text": "transcriptome",
+        "label": "BM"
+      }
+    ],
+    "relations": [
+      {
+        "head": "SNPs",
+        "head_start": 209,
+        "head_end": 213,
+        "head_type": "MRK",
+        "tail": "24-h germination rate",
+        "tail_start": 138,
+        "tail_end": 159,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "SbPP2C33",
+        "head_start": 238,
+        "head_end": 246,
+        "head_type": "GENE",
+        "tail": "24-h germination rate",
+        "tail_start": 138,
+        "tail_end": 159,
+        "tail_type": "TRT",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "Sorghum is a widely grown cereal crop. It is adapted to different climates and bred for multiple purposes, resulting in phenotypic diversity.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Sorghum",
+        "label": "CROP"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Three QTL, QLB-czas1, QLB-czas2, and QLB-czas8, were detected on chromosomes 1, 2, and 8 of Yugu 5. QLB-czas1 explained 14-17% of phenotypic variation in 2 environments. QLB-czas2 explained 9% in 5 environments. QLB-czas8 explained 12-20% in 6 environments. Bulked segregant analysis and RNA sequencing identified common SNPs in the genomic region of QLB-czas8.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 20,
+        "text": "QLB-czas1",
+        "label": "QTL"
+      },
+      {
+        "start": 22,
+        "end": 31,
+        "text": "QLB-czas2",
+        "label": "QTL"
+      },
+      {
+        "start": 37,
+        "end": 46,
+        "text": "QLB-czas8",
+        "label": "QTL"
+      },
+      {
+        "start": 65,
+        "end": 88,
+        "text": "chromosomes 1, 2, and 8",
+        "label": "CHR"
+      },
+      {
+        "start": 92,
+        "end": 98,
+        "text": "Yugu 5",
+        "label": "VAR"
+      },
+      {
+        "start": 100,
+        "end": 109,
+        "text": "QLB-czas1",
+        "label": "QTL"
+      },
+      {
+        "start": 170,
+        "end": 179,
+        "text": "QLB-czas2",
+        "label": "QTL"
+      },
+      {
+        "start": 212,
+        "end": 221,
+        "text": "QLB-czas8",
+        "label": "QTL"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Yugu 5",
+        "head_start": 92,
+        "head_end": 98,
+        "head_type": "VAR",
+        "tail": "QLB-czas1",
+        "tail_start": 11,
+        "tail_end": 20,
+        "tail_type": "QTL",
+        "label": "CON"
+      },
+      {
+        "head": "Yugu 5",
+        "head_start": 92,
+        "head_end": 98,
+        "head_type": "VAR",
+        "tail": "QLB-czas2",
+        "tail_start": 22,
+        "tail_end": 31,
+        "tail_type": "QTL",
+        "label": "CON"
+      },
+      {
+        "head": "Yugu 5",
+        "head_start": 92,
+        "head_end": 98,
+        "head_type": "VAR",
+        "tail": "QLB-czas8",
+        "tail_start": 37,
+        "tail_end": 46,
+        "tail_type": "QTL",
+        "label": "CON"
+      }
+    ]
+  }
+]

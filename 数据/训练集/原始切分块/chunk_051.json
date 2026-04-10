@@ -1,0 +1,474 @@
+[
+  {
+    "text": "Four PsRBOHs had a high probability of localization in the plasma membrane. PsRBOH6 was localized to the plasma membrane and endoplasmic reticulum.",
+    "entities": [
+      {
+        "start": 76,
+        "end": 83,
+        "text": "PsRBOH6",
+        "label": "GENE"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "The SQR allele of Xtxp51 had a large positive effect on vigor and emergence in the Tx2794 population. Xtxp51 showed slight genotype by environment interaction in the Wheatland population.",
+    "entities": [
+      {
+        "start": 56,
+        "end": 61,
+        "text": "vigor",
+        "label": "TRT"
+      },
+      {
+        "start": 83,
+        "end": 89,
+        "text": "Tx2794",
+        "label": "VAR"
+      },
+      {
+        "start": 166,
+        "end": 175,
+        "text": "Wheatland",
+        "label": "VAR"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Drought stress threatens crop yield. Basic helix-loop-helix (bHLH) transcription factors function in Arabidopsis and rice under drought stress, but are little known in sorghum.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "text": "Drought stress",
+        "label": "ABS"
+      },
+      {
+        "start": 101,
+        "end": 112,
+        "text": "Arabidopsis",
+        "label": "CROP"
+      },
+      {
+        "start": 117,
+        "end": 121,
+        "text": "rice",
+        "label": "CROP"
+      },
+      {
+        "start": 128,
+        "end": 142,
+        "text": "drought stress",
+        "label": "ABS"
+      },
+      {
+        "start": 168,
+        "end": 175,
+        "text": "sorghum",
+        "label": "CROP"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Differentially expressed genes (DEGs) were identified. Among them, three metabolic pathways were related to β-glucan biosynthesis: xyloglucan:xyloglucosyl transferase activity, starch and sucrose metabolism, and photosynthesis.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 37,
+        "text": "Differentially expressed genes (DEGs)",
+        "label": "GENE"
+      },
+      {
+        "start": 108,
+        "end": 129,
+        "text": "β-glucan biosynthesis",
+        "label": "TRT"
+      },
+      {
+        "start": 131,
+        "end": 175,
+        "text": "xyloglucan:xyloglucosyl transferase activity",
+        "label": "TRT"
+      },
+      {
+        "start": 177,
+        "end": 206,
+        "text": "starch and sucrose metabolism",
+        "label": "TRT"
+      },
+      {
+        "start": 212,
+        "end": 226,
+        "text": "photosynthesis",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "β-glucan biosynthesis",
+        "head_start": 108,
+        "head_end": 129,
+        "head_type": "TRT",
+        "tail": "xyloglucan:xyloglucosyl transferase activity",
+        "tail_start": 131,
+        "tail_end": 175,
+        "tail_type": "TRT",
+        "label": "CON"
+      },
+      {
+        "head": "β-glucan biosynthesis",
+        "head_start": 108,
+        "head_end": 129,
+        "head_type": "TRT",
+        "tail": "starch and sucrose metabolism",
+        "tail_start": 177,
+        "tail_end": 206,
+        "tail_type": "TRT",
+        "label": "CON"
+      },
+      {
+        "head": "β-glucan biosynthesis",
+        "head_start": 108,
+        "head_end": 129,
+        "head_type": "TRT",
+        "tail": "photosynthesis",
+        "tail_start": 212,
+        "tail_end": 226,
+        "tail_type": "TRT",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "Under salt stress, saccharides and amino acids levels elevated in Baiyan 2 (BY2) and Baiyan 5 (BY5). In BY2 exposed to 150 mM NaCl, metabolite concentrations increased significantly: sucrose increased by 38.34-fold, Sophorose increased by 314.15-fold, Isomaltose 2 increased by 25.76-fold.",
+    "entities": [
+      {
+        "start": 6,
+        "end": 17,
+        "text": "salt stress",
+        "label": "ABS"
+      },
+      {
+        "start": 66,
+        "end": 80,
+        "text": "Baiyan 2 (BY2)",
+        "label": "VAR"
+      },
+      {
+        "start": 85,
+        "end": 99,
+        "text": "Baiyan 5 (BY5)",
+        "label": "VAR"
+      },
+      {
+        "start": 104,
+        "end": 107,
+        "text": "BY2",
+        "label": "VAR"
+      },
+      {
+        "start": 119,
+        "end": 130,
+        "text": "150 mM NaCl",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "150 mM NaCl",
+        "head_start": 119,
+        "head_end": 130,
+        "head_type": "ABS",
+        "tail": "BY2",
+        "tail_start": 104,
+        "tail_end": 107,
+        "tail_type": "VAR",
+        "label": "AFF"
+      },
+      {
+        "head": "salt stress",
+        "head_start": 6,
+        "head_end": 17,
+        "head_type": "ABS",
+        "tail": "Baiyan 2 (BY2)",
+        "tail_start": 66,
+        "tail_end": 80,
+        "tail_type": "VAR",
+        "label": "AFF"
+      },
+      {
+        "head": "salt stress",
+        "head_start": 6,
+        "head_end": 17,
+        "head_type": "ABS",
+        "tail": "Baiyan 5 (BY5)",
+        "tail_start": 85,
+        "tail_end": 99,
+        "tail_type": "VAR",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Sorghum landraces from China exhibit excellent emergence and seedling vigor under cool conditions. They are used as sources of genes for improving seedling cold tolerance in other cultivars. Marker-assisted selection (MAS) could expedite the introgression of genes from landraces into elite lines. However, few studies have demonstrated the efficacy of MAS for quantitatively inherited agronomic traits.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 61,
+        "end": 69,
+        "text": "seedling",
+        "label": "GST"
+      },
+      {
+        "start": 147,
+        "end": 170,
+        "text": "seedling cold tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 191,
+        "end": 222,
+        "text": "Marker-assisted selection (MAS)",
+        "label": "BM"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "The study maps genomic regions for terminal heat- and drought-stress tolerance in barley. A hundred lines from a ND24260 x Flagship doubled haploid population were evaluated for stay-green expression.",
+    "entities": [
+      {
+        "start": 35,
+        "end": 48,
+        "text": "terminal heat",
+        "label": "ABS"
+      },
+      {
+        "start": 54,
+        "end": 68,
+        "text": "drought-stress",
+        "label": "ABS"
+      },
+      {
+        "start": 82,
+        "end": 88,
+        "text": "barley",
+        "label": "CROP"
+      },
+      {
+        "start": 113,
+        "end": 131,
+        "text": "ND24260 x Flagship",
+        "label": "CROSS"
+      },
+      {
+        "start": 178,
+        "end": 199,
+        "text": "stay-green expression",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "terminal heat",
+        "head_start": 35,
+        "head_end": 48,
+        "head_type": "ABS",
+        "tail": "stay-green expression",
+        "tail_start": 178,
+        "tail_end": 199,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "drought-stress",
+        "head_start": 54,
+        "head_end": 68,
+        "head_type": "ABS",
+        "tail": "stay-green expression",
+        "tail_start": 178,
+        "tail_end": 199,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "The research evaluated the purity and relationships of the original oats (Avena sativa L.) variety AV-25 and two multi-line sub-populations AV25-T and AV25-S. Both sub-populations are useful as forages in the central highland region of Colombia, which includes the departments of Boyaca and Cundinamarca. They were derived from the original composite mixture Avena 25, used in the mountainsides of the southern department of Narino.",
+    "entities": [
+      {
+        "start": 68,
+        "end": 72,
+        "text": "oats",
+        "label": "CROP"
+      },
+      {
+        "start": 74,
+        "end": 88,
+        "text": "Avena sativa L",
+        "label": "CROP"
+      },
+      {
+        "start": 99,
+        "end": 104,
+        "text": "AV-25",
+        "label": "VAR"
+      },
+      {
+        "start": 140,
+        "end": 146,
+        "text": "AV25-T",
+        "label": "VAR"
+      },
+      {
+        "start": 151,
+        "end": 157,
+        "text": "AV25-S",
+        "label": "VAR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "oats",
+        "head_start": 68,
+        "head_end": 72,
+        "head_type": "CROP",
+        "tail": "AV-25",
+        "tail_start": 99,
+        "tail_end": 104,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "oats",
+        "head_start": 68,
+        "head_end": 72,
+        "head_type": "CROP",
+        "tail": "AV25-T",
+        "tail_start": 140,
+        "tail_end": 146,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "oats",
+        "head_start": 68,
+        "head_end": 72,
+        "head_type": "CROP",
+        "tail": "AV25-S",
+        "tail_start": 151,
+        "tail_end": 157,
+        "tail_type": "VAR",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "Triploid Miscanthus × giganteus is a sterile perennial grass used for biomass production. A scale standardizing description of M. × giganteus morphological stages has not been developed.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 31,
+        "text": "Triploid Miscanthus × giganteus",
+        "label": "VAR"
+      },
+      {
+        "start": 9,
+        "end": 31,
+        "text": "Miscanthus × giganteus",
+        "label": "CROP"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Miscanthus × giganteus",
+        "head_start": 9,
+        "head_end": 31,
+        "head_type": "CROP",
+        "tail": "Triploid Miscanthus × giganteus",
+        "tail_start": 0,
+        "tail_end": 31,
+        "tail_type": "VAR",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "Recent advancements in enhancing crop yield involve research on tiller development using QTL mapping, association studies, and transcriptome analysis across crops. QTL mapping has identified genomic regions associated with tiller development. Genome-wide association studies (GWAS) have provided insights into natural genetic variations.",
+    "entities": [
+      {
+        "start": 23,
+        "end": 43,
+        "text": "enhancing crop yield",
+        "label": "TRT"
+      },
+      {
+        "start": 89,
+        "end": 92,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 89,
+        "end": 100,
+        "text": "QTL mapping",
+        "label": "BM"
+      },
+      {
+        "start": 127,
+        "end": 140,
+        "text": "transcriptome",
+        "label": "BM"
+      },
+      {
+        "start": 164,
+        "end": 167,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 164,
+        "end": 175,
+        "text": "QTL mapping",
+        "label": "BM"
+      },
+      {
+        "start": 243,
+        "end": 281,
+        "text": "Genome-wide association studies (GWAS)",
+        "label": "BM"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QTL mapping",
+        "head_start": 89,
+        "head_end": 100,
+        "head_type": "BM",
+        "tail": "QTL",
+        "tail_start": 89,
+        "tail_end": 92,
+        "tail_type": "QTL",
+        "label": "USE"
+      },
+      {
+        "head": "transcriptome",
+        "head_start": 127,
+        "head_end": 140,
+        "head_type": "BM",
+        "tail": "QTL mapping",
+        "tail_start": 89,
+        "tail_end": 100,
+        "tail_type": "BM",
+        "label": "USE"
+      }
+    ]
+  }
+]

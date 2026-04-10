@@ -1,0 +1,716 @@
+[
+  {
+    "text": "To isolate the gene, a high-resolution mapping population with 10,204 meiotic events was constructed. F-2 plants were screened using co-dominant flanking markers, and segmental recombinant inbred lines (RILs) were tested for BaMMV resistance.",
+    "entities": [
+      {
+        "start": 102,
+        "end": 112,
+        "text": "F-2 plants",
+        "label": "CROSS"
+      },
+      {
+        "start": 133,
+        "end": 161,
+        "text": "co-dominant flanking markers",
+        "label": "MRK"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "The QTL improved leaf relative water content by 5.0% in 'Baronesse' and 9.1% in 'Aydanhanim' under controlled environments. It accelerated heading and maturity by 2.5 days in 'Baronesse' and by 5-6 days in 'Aydanhanim'.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 7,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 17,
+        "end": 44,
+        "text": "leaf relative water content",
+        "label": "TRT"
+      },
+      {
+        "start": 57,
+        "end": 66,
+        "text": "Baronesse",
+        "label": "VAR"
+      },
+      {
+        "start": 81,
+        "end": 91,
+        "text": "Aydanhanim",
+        "label": "VAR"
+      },
+      {
+        "start": 139,
+        "end": 146,
+        "text": "heading",
+        "label": "GST"
+      },
+      {
+        "start": 151,
+        "end": 159,
+        "text": "maturity",
+        "label": "GST"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QTL",
+        "head_start": 4,
+        "head_end": 7,
+        "head_type": "QTL",
+        "tail": "leaf relative water content",
+        "tail_start": 17,
+        "tail_end": 44,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "QTL",
+        "head_start": 4,
+        "head_end": 7,
+        "head_type": "QTL",
+        "tail": "heading",
+        "tail_start": 139,
+        "tail_end": 146,
+        "tail_type": "GST",
+        "label": "AFF"
+      },
+      {
+        "head": "QTL",
+        "head_start": 4,
+        "head_end": 7,
+        "head_type": "QTL",
+        "tail": "maturity",
+        "tail_start": 151,
+        "tail_end": 159,
+        "tail_type": "GST",
+        "label": "AFF"
+      },
+      {
+        "head": "Baronesse",
+        "head_start": 57,
+        "head_end": 66,
+        "head_type": "VAR",
+        "tail": "leaf relative water content",
+        "tail_start": 17,
+        "tail_end": 44,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Aydanhanim",
+        "head_start": 81,
+        "head_end": 91,
+        "head_type": "VAR",
+        "tail": "leaf relative water content",
+        "tail_start": 17,
+        "tail_end": 44,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "Population genomics analyses on 445 worldwide sorghum accessions, covering wild sorghum and four end-use subpopulations. Frequent genetic exchanges among subpopulations. Strong selective sweeps affected 14.68% (107.5 Mb) of the sorghum genome, including 3649, 4287, and 3888 genes during sorghum domestication, grain sorghum improvement, and sweet sorghum improvement.",
+    "entities": [
+      {
+        "start": 46,
+        "end": 53,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 311,
+        "end": 324,
+        "text": "grain sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 342,
+        "end": 355,
+        "text": "sweet sorghum",
+        "label": "CROP"
+      }
+    ],
+    "relations": [
+      {
+        "head": "sorghum",
+        "head_start": 46,
+        "head_end": 53,
+        "head_type": "CROP",
+        "tail": "grain sorghum",
+        "tail_start": 311,
+        "tail_end": 324,
+        "tail_type": "CROP",
+        "label": "CON"
+      },
+      {
+        "head": "sorghum",
+        "head_start": 46,
+        "head_end": 53,
+        "head_type": "CROP",
+        "tail": "sweet sorghum",
+        "tail_start": 342,
+        "tail_end": 355,
+        "tail_type": "CROP",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "The sbgpgl1 mutant and wild-type BTx623 were compared at the heading stage. The sbgpgl1 mutant had less height, and smaller leaf and panicle length and width.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 18,
+        "text": "sbgpgl1 mutant",
+        "label": "VAR"
+      },
+      {
+        "start": 33,
+        "end": 39,
+        "text": "BTx623",
+        "label": "VAR"
+      },
+      {
+        "start": 61,
+        "end": 74,
+        "text": "heading stage",
+        "label": "GST"
+      },
+      {
+        "start": 104,
+        "end": 110,
+        "text": "height",
+        "label": "TRT"
+      },
+      {
+        "start": 133,
+        "end": 157,
+        "text": "panicle length and width",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "sbgpgl1 mutant",
+        "head_start": 4,
+        "head_end": 18,
+        "head_type": "VAR",
+        "tail": "height",
+        "tail_start": 104,
+        "tail_end": 110,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "sbgpgl1 mutant",
+        "head_start": 4,
+        "head_end": 18,
+        "head_type": "VAR",
+        "tail": "panicle length and width",
+        "tail_start": 133,
+        "tail_end": 157,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "height",
+        "head_start": 104,
+        "head_end": 110,
+        "head_type": "TRT",
+        "tail": "heading stage",
+        "tail_start": 61,
+        "tail_end": 74,
+        "tail_type": "GST",
+        "label": "OCI"
+      },
+      {
+        "head": "panicle length and width",
+        "head_start": 133,
+        "head_end": 157,
+        "head_type": "TRT",
+        "tail": "heading stage",
+        "tail_start": 61,
+        "tail_end": 74,
+        "tail_type": "GST",
+        "label": "OCI"
+      }
+    ]
+  },
+  {
+    "text": "A genome-wide association study on drought tolerance in Tartary buckwheat germplasm identified a gene encoding pectin methylesterase inhibitors protein (FtPMEI13). This gene is associated with drought tolerance and is induced during drought stress and abscisic acid (ABA) treatment.",
+    "entities": [
+      {
+        "start": 2,
+        "end": 31,
+        "text": "genome-wide association study",
+        "label": "BM"
+      },
+      {
+        "start": 35,
+        "end": 52,
+        "text": "drought tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 56,
+        "end": 73,
+        "text": "Tartary buckwheat",
+        "label": "CROP"
+      },
+      {
+        "start": 111,
+        "end": 151,
+        "text": "pectin methylesterase inhibitors protein",
+        "label": "GENE"
+      },
+      {
+        "start": 153,
+        "end": 161,
+        "text": "FtPMEI13",
+        "label": "GENE"
+      },
+      {
+        "start": 193,
+        "end": 210,
+        "text": "drought tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 233,
+        "end": 247,
+        "text": "drought stress",
+        "label": "ABS"
+      },
+      {
+        "start": 252,
+        "end": 281,
+        "text": "abscisic acid (ABA) treatment",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "drought stress",
+        "head_start": 233,
+        "head_end": 247,
+        "head_type": "ABS",
+        "tail": "drought tolerance",
+        "tail_start": 35,
+        "tail_end": 52,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "abscisic acid (ABA) treatment",
+        "head_start": 252,
+        "head_end": 281,
+        "head_type": "ABS",
+        "tail": "drought tolerance",
+        "tail_start": 35,
+        "tail_end": 52,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Using marker-assisted selection, the resistance QTL QTL-Sb.RKN.3.1 from 'Honey Drip' sorghum was crossed into five sorghum backgrounds including forage, sweet, and grain sorghum until the BC1F6 generation. Greenhouse experiments showed the recurrent parent genotypes were susceptible to M. incognita and statistically similar.",
+    "entities": [
+      {
+        "start": 6,
+        "end": 31,
+        "text": "marker-assisted selection",
+        "label": "BM"
+      },
+      {
+        "start": 52,
+        "end": 66,
+        "text": "QTL-Sb.RKN.3.1",
+        "label": "QTL"
+      },
+      {
+        "start": 73,
+        "end": 83,
+        "text": "Honey Drip",
+        "label": "VAR"
+      },
+      {
+        "start": 85,
+        "end": 92,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 115,
+        "end": 122,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 145,
+        "end": 151,
+        "text": "forage",
+        "label": "CROP"
+      },
+      {
+        "start": 153,
+        "end": 158,
+        "text": "sweet",
+        "label": "CROP"
+      },
+      {
+        "start": 164,
+        "end": 177,
+        "text": "grain sorghum",
+        "label": "CROP"
+      }
+    ],
+    "relations": [
+      {
+        "head": "sorghum",
+        "head_start": 85,
+        "head_end": 92,
+        "head_type": "CROP",
+        "tail": "Honey Drip",
+        "tail_start": 73,
+        "tail_end": 83,
+        "tail_type": "VAR",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "Sorghum cultivars SCS (Sanchisan) and JL (Jinliang 5) have contrasting drought resistance. Under drought stress, soluble sugar content in SCS leaves increased by 112.2%. Betaine and POD levels in JL leaves also increased. Metabolome analysis identified 374 differentially accumulated metabolites.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 0,
+        "end": 33,
+        "text": "Sorghum cultivars SCS (Sanchisan)",
+        "label": "VAR"
+      },
+      {
+        "start": 38,
+        "end": 53,
+        "text": "JL (Jinliang 5)",
+        "label": "VAR"
+      },
+      {
+        "start": 71,
+        "end": 89,
+        "text": "drought resistance",
+        "label": "TRT"
+      },
+      {
+        "start": 97,
+        "end": 111,
+        "text": "drought stress",
+        "label": "ABS"
+      },
+      {
+        "start": 113,
+        "end": 134,
+        "text": "soluble sugar content",
+        "label": "TRT"
+      },
+      {
+        "start": 138,
+        "end": 148,
+        "text": "SCS leaves",
+        "label": "VAR"
+      },
+      {
+        "start": 170,
+        "end": 177,
+        "text": "Betaine",
+        "label": "TRT"
+      },
+      {
+        "start": 182,
+        "end": 192,
+        "text": "POD levels",
+        "label": "TRT"
+      },
+      {
+        "start": 196,
+        "end": 205,
+        "text": "JL leaves",
+        "label": "VAR"
+      },
+      {
+        "start": 222,
+        "end": 232,
+        "text": "Metabolome",
+        "label": "BM"
+      },
+      {
+        "start": 253,
+        "end": 295,
+        "text": "374 differentially accumulated metabolites",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Sorghum",
+        "head_start": 0,
+        "head_end": 7,
+        "head_type": "CROP",
+        "tail": "Sorghum cultivars SCS (Sanchisan)",
+        "tail_start": 0,
+        "tail_end": 33,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "Sorghum",
+        "head_start": 0,
+        "head_end": 7,
+        "head_type": "CROP",
+        "tail": "JL (Jinliang 5)",
+        "tail_start": 38,
+        "tail_end": 53,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "Sorghum cultivars SCS (Sanchisan)",
+        "head_start": 0,
+        "head_end": 33,
+        "head_type": "VAR",
+        "tail": "drought resistance",
+        "tail_start": 71,
+        "tail_end": 89,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "JL (Jinliang 5)",
+        "head_start": 38,
+        "head_end": 53,
+        "head_type": "VAR",
+        "tail": "drought resistance",
+        "tail_start": 71,
+        "tail_end": 89,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "drought stress",
+        "head_start": 97,
+        "head_end": 111,
+        "head_type": "ABS",
+        "tail": "soluble sugar content",
+        "tail_start": 113,
+        "tail_end": 134,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Sorghum cultivars SCS (Sanchisan)",
+        "head_start": 0,
+        "head_end": 33,
+        "head_type": "VAR",
+        "tail": "SCS leaves",
+        "tail_start": 138,
+        "tail_end": 148,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "JL (Jinliang 5)",
+        "head_start": 38,
+        "head_end": 53,
+        "head_type": "VAR",
+        "tail": "JL leaves",
+        "tail_start": 196,
+        "tail_end": 205,
+        "tail_type": "VAR",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "Agronomic traits were evaluated in 1250 foxtail millet accessions. A crucial gene SiTGW6 governing grain yield was identified. Elite haplotypes and dCAPS markers were developed for SiTGW6 to facilitate molecular breeding.",
+    "entities": [
+      {
+        "start": 40,
+        "end": 54,
+        "text": "foxtail millet",
+        "label": "CROP"
+      },
+      {
+        "start": 82,
+        "end": 88,
+        "text": "SiTGW6",
+        "label": "GENE"
+      },
+      {
+        "start": 99,
+        "end": 110,
+        "text": "grain yield",
+        "label": "TRT"
+      },
+      {
+        "start": 133,
+        "end": 143,
+        "text": "haplotypes",
+        "label": "MRK"
+      },
+      {
+        "start": 148,
+        "end": 161,
+        "text": "dCAPS markers",
+        "label": "MRK"
+      }
+    ],
+    "relations": [
+      {
+        "head": "SiTGW6",
+        "head_start": 82,
+        "head_end": 88,
+        "head_type": "GENE",
+        "tail": "grain yield",
+        "tail_start": 99,
+        "tail_end": 110,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "haplotypes",
+        "head_start": 133,
+        "head_end": 143,
+        "head_type": "MRK",
+        "tail": "SiTGW6",
+        "tail_start": 82,
+        "tail_end": 88,
+        "tail_type": "GENE",
+        "label": "LOI"
+      },
+      {
+        "head": "dCAPS markers",
+        "head_start": 148,
+        "head_end": 161,
+        "head_type": "MRK",
+        "tail": "SiTGW6",
+        "tail_start": 82,
+        "tail_end": 88,
+        "tail_type": "GENE",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "A core collection of 888 foxtail millet accessions was inoculated with blast strain HN-1. GWAS identified regulators for blast disease resistance. Phenotypic variation showed: <1.60% highly resistant, 35.25% moderately resistant, 57.09% moderately susceptible, 6.08% highly susceptible.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 39,
+        "text": "foxtail millet",
+        "label": "CROP"
+      },
+      {
+        "start": 71,
+        "end": 88,
+        "text": "blast strain HN-1",
+        "label": "BIS"
+      },
+      {
+        "start": 90,
+        "end": 94,
+        "text": "GWAS",
+        "label": "BM"
+      },
+      {
+        "start": 121,
+        "end": 145,
+        "text": "blast disease resistance",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "blast strain HN-1",
+        "head_start": 71,
+        "head_end": 88,
+        "head_type": "BIS",
+        "tail": "blast disease resistance",
+        "tail_start": 121,
+        "tail_end": 145,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "foxtail millet",
+        "head_start": 25,
+        "head_end": 39,
+        "head_type": "CROP",
+        "tail": "blast disease resistance",
+        "tail_start": 121,
+        "tail_end": 145,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "Covariance analysis showed SiDREBs are more closely related to monocots sorghum, maize, and rice than to dicots Arabidopsis thaliana, tomato, and soybean. Promoter analysis revealed SiDREBs contain stress-related cis-acting elements.",
+    "entities": [
+      {
+        "start": 27,
+        "end": 34,
+        "text": "SiDREBs",
+        "label": "GENE"
+      },
+      {
+        "start": 72,
+        "end": 79,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 81,
+        "end": 86,
+        "text": "maize",
+        "label": "CROP"
+      },
+      {
+        "start": 92,
+        "end": 96,
+        "text": "rice",
+        "label": "CROP"
+      },
+      {
+        "start": 112,
+        "end": 132,
+        "text": "Arabidopsis thaliana",
+        "label": "CROP"
+      },
+      {
+        "start": 134,
+        "end": 140,
+        "text": "tomato",
+        "label": "CROP"
+      },
+      {
+        "start": 146,
+        "end": 153,
+        "text": "soybean",
+        "label": "CROP"
+      }
+    ],
+    "relations": []
+  }
+]

@@ -1,0 +1,671 @@
+[
+  {
+    "text": "Lines or germplasm with the Seita.5G1346005UTR277+ allele exhibited significantly wider leaves than those with the Seita.5G1346005UTR277- allele, both within the RIL population and natural populations.",
+    "entities": [
+      {
+        "start": 28,
+        "end": 57,
+        "text": "Seita.5G1346005UTR277+ allele",
+        "label": "MRK"
+      },
+      {
+        "start": 82,
+        "end": 94,
+        "text": "wider leaves",
+        "label": "TRT"
+      },
+      {
+        "start": 115,
+        "end": 144,
+        "text": "Seita.5G1346005UTR277- allele",
+        "label": "MRK"
+      },
+      {
+        "start": 162,
+        "end": 176,
+        "text": "RIL population",
+        "label": "CROSS"
+      },
+      {
+        "start": 181,
+        "end": 200,
+        "text": "natural populations",
+        "label": "VAR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Seita.5G1346005UTR277+ allele",
+        "head_start": 28,
+        "head_end": 57,
+        "head_type": "MRK",
+        "tail": "wider leaves",
+        "tail_start": 82,
+        "tail_end": 94,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "Seita.5G1346005UTR277- allele",
+        "head_start": 115,
+        "head_end": 144,
+        "head_type": "MRK",
+        "tail": "wider leaves",
+        "tail_start": 82,
+        "tail_end": 94,
+        "tail_type": "TRT",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "It reduced reactive oxygen species accumulation and increased chlorophyll content in sorghum leaves. Silencing SbMYC2 by virus-induced gene silencing compromised drought tolerance in sorghum seedlings.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 47,
+        "text": "reactive oxygen species accumulation",
+        "label": "TRT"
+      },
+      {
+        "start": 62,
+        "end": 81,
+        "text": "chlorophyll content",
+        "label": "TRT"
+      },
+      {
+        "start": 85,
+        "end": 99,
+        "text": "sorghum leaves",
+        "label": "CROP"
+      },
+      {
+        "start": 111,
+        "end": 117,
+        "text": "SbMYC2",
+        "label": "GENE"
+      },
+      {
+        "start": 162,
+        "end": 179,
+        "text": "drought tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 183,
+        "end": 200,
+        "text": "sorghum seedlings",
+        "label": "CROP"
+      }
+    ],
+    "relations": [
+      {
+        "head": "sorghum leaves",
+        "head_start": 85,
+        "head_end": 99,
+        "head_type": "CROP",
+        "tail": "chlorophyll content",
+        "tail_start": 62,
+        "tail_end": 81,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "SbMYC2",
+        "head_start": 111,
+        "head_end": 117,
+        "head_type": "GENE",
+        "tail": "drought tolerance",
+        "tail_start": 162,
+        "tail_end": 179,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "sorghum seedlings",
+        "head_start": 183,
+        "head_end": 200,
+        "head_type": "CROP",
+        "tail": "chlorophyll content",
+        "tail_start": 62,
+        "tail_end": 81,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "Mutations in the Phytochrome C (SiPHYC) gene, including transposon insertions and a frame shift mutation, cause the extremely early heading phenotype. RNA-Seq analysis identified 19 differentially expressed genes associated with this phenotype. Genome-wide InDels and SNPs were identified, providing resources for marker-assisted breeding.",
+    "entities": [
+      {
+        "start": 17,
+        "end": 30,
+        "text": "Phytochrome C",
+        "label": "GENE"
+      },
+      {
+        "start": 32,
+        "end": 38,
+        "text": "SiPHYC",
+        "label": "GENE"
+      },
+      {
+        "start": 116,
+        "end": 149,
+        "text": "extremely early heading phenotype",
+        "label": "TRT"
+      },
+      {
+        "start": 151,
+        "end": 158,
+        "text": "RNA-Seq",
+        "label": "BM"
+      },
+      {
+        "start": 257,
+        "end": 263,
+        "text": "InDels",
+        "label": "MRK"
+      },
+      {
+        "start": 268,
+        "end": 272,
+        "text": "SNPs",
+        "label": "MRK"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Phytochrome C",
+        "head_start": 17,
+        "head_end": 30,
+        "head_type": "GENE",
+        "tail": "extremely early heading phenotype",
+        "tail_start": 116,
+        "tail_end": 149,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "SiPHYC",
+        "head_start": 32,
+        "head_end": 38,
+        "head_type": "GENE",
+        "tail": "extremely early heading phenotype",
+        "tail_start": 116,
+        "tail_end": 149,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Heritability for P-R and E-G was larger than for CGR, grain number per square meter, or yield. A multitrait, multienvironment analysis identified 12 QTL (LOD >= 2.5) for CGR, P-R, and E-G, explaining 21 to 36% of trait variability.",
+    "entities": [
+      {
+        "start": 17,
+        "end": 20,
+        "text": "P-R",
+        "label": "TRT"
+      },
+      {
+        "start": 25,
+        "end": 28,
+        "text": "E-G",
+        "label": "TRT"
+      },
+      {
+        "start": 49,
+        "end": 52,
+        "text": "CGR",
+        "label": "TRT"
+      },
+      {
+        "start": 54,
+        "end": 83,
+        "text": "grain number per square meter",
+        "label": "TRT"
+      },
+      {
+        "start": 88,
+        "end": 93,
+        "text": "yield",
+        "label": "TRT"
+      },
+      {
+        "start": 149,
+        "end": 152,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 170,
+        "end": 173,
+        "text": "CGR",
+        "label": "TRT"
+      },
+      {
+        "start": 175,
+        "end": 178,
+        "text": "P-R",
+        "label": "TRT"
+      },
+      {
+        "start": 184,
+        "end": 187,
+        "text": "E-G",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QTL",
+        "head_start": 149,
+        "head_end": 152,
+        "head_type": "QTL",
+        "tail": "CGR",
+        "tail_start": 49,
+        "tail_end": 52,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL",
+        "head_start": 149,
+        "head_end": 152,
+        "head_type": "QTL",
+        "tail": "P-R",
+        "tail_start": 17,
+        "tail_end": 20,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL",
+        "head_start": 149,
+        "head_end": 152,
+        "head_type": "QTL",
+        "tail": "E-G",
+        "tail_start": 25,
+        "tail_end": 28,
+        "tail_type": "TRT",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "The lamina joint bending assay investigated if mutation of the rice homolog of SiCST1 affected brassinolide signaling. oscst1 exhibited insensitivity to exogenous BR treatment.",
+    "entities": [
+      {
+        "start": 63,
+        "end": 67,
+        "text": "rice",
+        "label": "CROP"
+      },
+      {
+        "start": 79,
+        "end": 85,
+        "text": "SiCST1",
+        "label": "GENE"
+      },
+      {
+        "start": 119,
+        "end": 125,
+        "text": "oscst1",
+        "label": "VAR"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Among these QTNs and adjacent genes, 39 QTNs were repeatedly detected. 10 candidate genes were identified. 19 QTNs and two genes (sdw1/denso and Vrs1) were previously reported. 8 candidate genes need further validation.",
+    "entities": [
+      {
+        "start": 12,
+        "end": 16,
+        "text": "QTNs",
+        "label": "QTL"
+      },
+      {
+        "start": 40,
+        "end": 44,
+        "text": "QTNs",
+        "label": "QTL"
+      },
+      {
+        "start": 110,
+        "end": 114,
+        "text": "QTNs",
+        "label": "QTL"
+      },
+      {
+        "start": 130,
+        "end": 140,
+        "text": "sdw1/denso",
+        "label": "GENE"
+      },
+      {
+        "start": 145,
+        "end": 149,
+        "text": "Vrs1",
+        "label": "GENE"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "The high-density linkage map was created using GBS. The map contained 1082 SNP markers on 10 chromosomes, with an average marker distance of 1.83 cm.",
+    "entities": [
+      {
+        "start": 47,
+        "end": 50,
+        "text": "GBS",
+        "label": "VAR"
+      },
+      {
+        "start": 75,
+        "end": 86,
+        "text": "SNP markers",
+        "label": "MRK"
+      },
+      {
+        "start": 93,
+        "end": 104,
+        "text": "chromosomes",
+        "label": "CHR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "SNP markers",
+        "head_start": 75,
+        "head_end": 86,
+        "head_type": "MRK",
+        "tail": "chromosomes",
+        "tail_start": 93,
+        "tail_end": 104,
+        "tail_type": "CHR",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "Landraces possessed greater genetic diversity and contained most HvVRN1 alleles compared to modern commercial barley, especially in winter barley regions. HvVRN1 allele number diversity reduced significantly with higher growing latitudes, but increased in accessions carrying the winter HvVRN2 allele.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "text": "Landraces",
+        "label": "VAR"
+      },
+      {
+        "start": 65,
+        "end": 71,
+        "text": "HvVRN1",
+        "label": "GENE"
+      },
+      {
+        "start": 110,
+        "end": 116,
+        "text": "barley",
+        "label": "CROP"
+      },
+      {
+        "start": 132,
+        "end": 145,
+        "text": "winter barley",
+        "label": "CROP"
+      },
+      {
+        "start": 155,
+        "end": 161,
+        "text": "HvVRN1",
+        "label": "GENE"
+      },
+      {
+        "start": 287,
+        "end": 293,
+        "text": "HvVRN2",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "barley",
+        "head_start": 110,
+        "head_end": 116,
+        "head_type": "CROP",
+        "tail": "Landraces",
+        "tail_start": 0,
+        "tail_end": 9,
+        "tail_type": "VAR",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "Drought affects sorghum growth and development. It impedes germination and embryonic structures through osmotic potential, reduces photosynthetic rates, and causes source-sink imbalance affecting seed filling. This reduces grain yield and quality. Sorghum responds to drought with morphological, physiological, and molecular alterations.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Drought",
+        "label": "ABS"
+      },
+      {
+        "start": 16,
+        "end": 23,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 59,
+        "end": 70,
+        "text": "germination",
+        "label": "GST"
+      },
+      {
+        "start": 75,
+        "end": 95,
+        "text": "embryonic structures",
+        "label": "GST"
+      },
+      {
+        "start": 104,
+        "end": 121,
+        "text": "osmotic potential",
+        "label": "ABS"
+      },
+      {
+        "start": 131,
+        "end": 151,
+        "text": "photosynthetic rates",
+        "label": "TRT"
+      },
+      {
+        "start": 164,
+        "end": 185,
+        "text": "source-sink imbalance",
+        "label": "TRT"
+      },
+      {
+        "start": 196,
+        "end": 208,
+        "text": "seed filling",
+        "label": "GST"
+      },
+      {
+        "start": 223,
+        "end": 234,
+        "text": "grain yield",
+        "label": "TRT"
+      },
+      {
+        "start": 239,
+        "end": 246,
+        "text": "quality",
+        "label": "TRT"
+      },
+      {
+        "start": 248,
+        "end": 255,
+        "text": "Sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 268,
+        "end": 275,
+        "text": "drought",
+        "label": "ABS"
+      },
+      {
+        "start": 281,
+        "end": 336,
+        "text": "morphological, physiological, and molecular alterations",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Drought",
+        "head_start": 0,
+        "head_end": 7,
+        "head_type": "ABS",
+        "tail": "sorghum",
+        "tail_start": 16,
+        "tail_end": 23,
+        "tail_type": "CROP",
+        "label": "AFF"
+      },
+      {
+        "head": "Drought",
+        "head_start": 0,
+        "head_end": 7,
+        "head_type": "ABS",
+        "tail": "germination",
+        "tail_start": 59,
+        "tail_end": 70,
+        "tail_type": "GST",
+        "label": "OCI"
+      },
+      {
+        "head": "Drought",
+        "head_start": 0,
+        "head_end": 7,
+        "head_type": "ABS",
+        "tail": "embryonic structures",
+        "tail_start": 75,
+        "tail_end": 95,
+        "tail_type": "GST",
+        "label": "OCI"
+      },
+      {
+        "head": "osmotic potential",
+        "head_start": 104,
+        "head_end": 121,
+        "head_type": "ABS",
+        "tail": "germination",
+        "tail_start": 59,
+        "tail_end": 70,
+        "tail_type": "GST",
+        "label": "AFF"
+      },
+      {
+        "head": "osmotic potential",
+        "head_start": 104,
+        "head_end": 121,
+        "head_type": "ABS",
+        "tail": "embryonic structures",
+        "tail_start": 75,
+        "tail_end": 95,
+        "tail_type": "GST",
+        "label": "AFF"
+      },
+      {
+        "head": "drought",
+        "head_start": 268,
+        "head_end": 275,
+        "head_type": "ABS",
+        "tail": "morphological, physiological, and molecular alterations",
+        "tail_start": 281,
+        "tail_end": 336,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Drought",
+        "head_start": 0,
+        "head_end": 7,
+        "head_type": "ABS",
+        "tail": "photosynthetic rates",
+        "tail_start": 131,
+        "tail_end": 151,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Drought",
+        "head_start": 0,
+        "head_end": 7,
+        "head_type": "ABS",
+        "tail": "source-sink imbalance",
+        "tail_start": 164,
+        "tail_end": 185,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Drought",
+        "head_start": 0,
+        "head_end": 7,
+        "head_type": "ABS",
+        "tail": "grain yield",
+        "tail_start": 223,
+        "tail_end": 234,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Drought",
+        "head_start": 0,
+        "head_end": 7,
+        "head_type": "ABS",
+        "tail": "quality",
+        "tail_start": 239,
+        "tail_end": 246,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "The AC cultivar was inoculated with race 73 of C. lindemuthianum. The relative expression of Co-AC candidate genes, other putative genes near this locus, and known resistance genes was assessed. Phvul.001G244500 showed significantly higher expression.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 6,
+        "text": "AC",
+        "label": "VAR"
+      },
+      {
+        "start": 36,
+        "end": 64,
+        "text": "race 73 of C. lindemuthianum",
+        "label": "BIS"
+      },
+      {
+        "start": 93,
+        "end": 114,
+        "text": "Co-AC candidate genes",
+        "label": "GENE"
+      },
+      {
+        "start": 195,
+        "end": 211,
+        "text": "Phvul.001G244500",
+        "label": "GENE"
+      }
+    ],
+    "relations": []
+  }
+]

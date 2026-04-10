@@ -1,0 +1,785 @@
+[
+  {
+    "text": "180 drought-inducible transcription factors were identified in common buckwheat cotyledons and roots. The analysis identified drought responsive DEGs and studied molecular mechanisms regulating drought stress response.",
+    "entities": [
+      {
+        "start": 63,
+        "end": 79,
+        "text": "common buckwheat",
+        "label": "CROP"
+      },
+      {
+        "start": 194,
+        "end": 217,
+        "text": "drought stress response",
+        "label": "TRT"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "The BBCH scale and its numerical code are adapted to describe morphological development stages in M. × giganteus, using observations of the 'Freedom' and 'Illinois' clones in Iowa, USA.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 14,
+        "text": "BBCH scale",
+        "label": "BM"
+      },
+      {
+        "start": 62,
+        "end": 94,
+        "text": "morphological development stages",
+        "label": "TRT"
+      },
+      {
+        "start": 98,
+        "end": 112,
+        "text": "M. × giganteus",
+        "label": "CROP"
+      },
+      {
+        "start": 140,
+        "end": 149,
+        "text": "'Freedom'",
+        "label": "VAR"
+      },
+      {
+        "start": 154,
+        "end": 164,
+        "text": "'Illinois'",
+        "label": "VAR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "BBCH scale",
+        "head_start": 4,
+        "head_end": 14,
+        "head_type": "BM",
+        "tail": "morphological development stages",
+        "tail_start": 62,
+        "tail_end": 94,
+        "tail_type": "TRT",
+        "label": "USE"
+      },
+      {
+        "head": "M. × giganteus",
+        "head_start": 98,
+        "head_end": 112,
+        "head_type": "CROP",
+        "tail": "'Freedom'",
+        "tail_start": 140,
+        "tail_end": 149,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "M. × giganteus",
+        "head_start": 98,
+        "head_end": 112,
+        "head_type": "CROP",
+        "tail": "'Illinois'",
+        "tail_start": 154,
+        "tail_end": 164,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "M. × giganteus",
+        "head_start": 98,
+        "head_end": 112,
+        "head_type": "CROP",
+        "tail": "morphological development stages",
+        "tail_start": 62,
+        "tail_end": 94,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "Five AFLP markers were linked to the sht1 locus. Two markers, e54m58/610 and e55m46/320, cosegregated with the sht1 locus without recombination.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 17,
+        "text": "AFLP markers",
+        "label": "MRK"
+      },
+      {
+        "start": 37,
+        "end": 47,
+        "text": "sht1 locus",
+        "label": "QTL"
+      },
+      {
+        "start": 62,
+        "end": 72,
+        "text": "e54m58/610",
+        "label": "MRK"
+      },
+      {
+        "start": 77,
+        "end": 87,
+        "text": "e55m46/320",
+        "label": "MRK"
+      },
+      {
+        "start": 111,
+        "end": 121,
+        "text": "sht1 locus",
+        "label": "QTL"
+      }
+    ],
+    "relations": [
+      {
+        "head": "AFLP markers",
+        "head_start": 5,
+        "head_end": 17,
+        "head_type": "MRK",
+        "tail": "sht1 locus",
+        "tail_start": 37,
+        "tail_end": 47,
+        "tail_type": "QTL",
+        "label": "LOI"
+      },
+      {
+        "head": "e54m58/610",
+        "head_start": 62,
+        "head_end": 72,
+        "head_type": "MRK",
+        "tail": "sht1 locus",
+        "tail_start": 111,
+        "tail_end": 121,
+        "tail_type": "QTL",
+        "label": "LOI"
+      },
+      {
+        "head": "e55m46/320",
+        "head_start": 77,
+        "head_end": 87,
+        "head_type": "MRK",
+        "tail": "sht1 locus",
+        "tail_start": 111,
+        "tail_end": 121,
+        "tail_type": "QTL",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "Salinity did not affect the leaf and root dry weight of Baiyan2. The leaf and root dry weight of Mengnongda1 were reduced by 42% and 35%, respectively.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "text": "Salinity",
+        "label": "ABS"
+      },
+      {
+        "start": 28,
+        "end": 52,
+        "text": "leaf and root dry weight",
+        "label": "TRT"
+      },
+      {
+        "start": 56,
+        "end": 63,
+        "text": "Baiyan2",
+        "label": "VAR"
+      },
+      {
+        "start": 69,
+        "end": 93,
+        "text": "leaf and root dry weight",
+        "label": "TRT"
+      },
+      {
+        "start": 97,
+        "end": 108,
+        "text": "Mengnongda1",
+        "label": "VAR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Salinity",
+        "head_start": 0,
+        "head_end": 8,
+        "head_type": "ABS",
+        "tail": "leaf and root dry weight",
+        "tail_start": 28,
+        "tail_end": 52,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Salinity",
+        "head_start": 0,
+        "head_end": 8,
+        "head_type": "ABS",
+        "tail": "leaf and root dry weight",
+        "tail_start": 69,
+        "tail_end": 93,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Baiyan2",
+        "head_start": 56,
+        "head_end": 63,
+        "head_type": "VAR",
+        "tail": "leaf and root dry weight",
+        "tail_start": 28,
+        "tail_end": 52,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Mengnongda1",
+        "head_start": 97,
+        "head_end": 108,
+        "head_type": "VAR",
+        "tail": "leaf and root dry weight",
+        "tail_start": 69,
+        "tail_end": 93,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "The candidate gene VrFRO8 was identified by comparative genomics, transcriptome and RT-qPCR analysis. Its expression was significantly up-regulated after salt treatment.",
+    "entities": [
+      {
+        "start": 19,
+        "end": 25,
+        "text": "VrFRO8",
+        "label": "GENE"
+      },
+      {
+        "start": 44,
+        "end": 64,
+        "text": "comparative genomics",
+        "label": "BM"
+      },
+      {
+        "start": 66,
+        "end": 79,
+        "text": "transcriptome",
+        "label": "BM"
+      },
+      {
+        "start": 84,
+        "end": 100,
+        "text": "RT-qPCR analysis",
+        "label": "BM"
+      },
+      {
+        "start": 154,
+        "end": 168,
+        "text": "salt treatment",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "salt treatment",
+        "head_start": 154,
+        "head_end": 168,
+        "head_type": "ABS",
+        "tail": "VrFRO8",
+        "tail_start": 19,
+        "tail_end": 25,
+        "tail_type": "GENE",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "SLAF-seq with bulked segregant analysis (BSA) was used to fine map the Blp1 gene in an F2 population from the cross Hatiexi No. 1 x Zhe5819. Based on SNP screening criteria, 77,542 polymorphic SNPs were obtained for association analysis.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "text": "SLAF-seq",
+        "label": "BM"
+      },
+      {
+        "start": 14,
+        "end": 39,
+        "text": "bulked segregant analysis",
+        "label": "BM"
+      },
+      {
+        "start": 41,
+        "end": 44,
+        "text": "BSA",
+        "label": "BM"
+      },
+      {
+        "start": 58,
+        "end": 66,
+        "text": "fine map",
+        "label": "BM"
+      },
+      {
+        "start": 71,
+        "end": 75,
+        "text": "Blp1",
+        "label": "GENE"
+      },
+      {
+        "start": 87,
+        "end": 139,
+        "text": "F2 population from the cross Hatiexi No. 1 x Zhe5819",
+        "label": "CROSS"
+      },
+      {
+        "start": 116,
+        "end": 129,
+        "text": "Hatiexi No. 1",
+        "label": "VAR"
+      },
+      {
+        "start": 132,
+        "end": 139,
+        "text": "Zhe5819",
+        "label": "VAR"
+      },
+      {
+        "start": 150,
+        "end": 172,
+        "text": "SNP screening criteria",
+        "label": "BM"
+      },
+      {
+        "start": 174,
+        "end": 197,
+        "text": "77,542 polymorphic SNPs",
+        "label": "MRK"
+      },
+      {
+        "start": 216,
+        "end": 236,
+        "text": "association analysis",
+        "label": "BM"
+      }
+    ],
+    "relations": [
+      {
+        "head": "F2 population from the cross Hatiexi No. 1 x Zhe5819",
+        "head_start": 87,
+        "head_end": 139,
+        "head_type": "CROSS",
+        "tail": "Hatiexi No. 1",
+        "tail_start": 116,
+        "tail_end": 129,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "F2 population from the cross Hatiexi No. 1 x Zhe5819",
+        "head_start": 87,
+        "head_end": 139,
+        "head_type": "CROSS",
+        "tail": "Zhe5819",
+        "tail_start": 132,
+        "tail_end": 139,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "association analysis",
+        "head_start": 216,
+        "head_end": 236,
+        "head_type": "BM",
+        "tail": "77,542 polymorphic SNPs",
+        "tail_start": 174,
+        "tail_end": 197,
+        "tail_type": "MRK",
+        "label": "USE"
+      },
+      {
+        "head": "SLAF-seq",
+        "head_start": 0,
+        "head_end": 8,
+        "head_type": "BM",
+        "tail": "Blp1",
+        "tail_start": 71,
+        "tail_end": 75,
+        "tail_type": "GENE",
+        "label": "USE"
+      },
+      {
+        "head": "bulked segregant analysis",
+        "head_start": 14,
+        "head_end": 39,
+        "head_type": "BM",
+        "tail": "Blp1",
+        "tail_start": 71,
+        "tail_end": 75,
+        "tail_type": "GENE",
+        "label": "USE"
+      }
+    ]
+  },
+  {
+    "text": "Quantitative real-time PCR analysis showed SiDREB2 was significantly up-regulated by dehydration (polyethylene glycol) and salinity (NaCl). A synonymous SNP associated with dehydration tolerance was detected at the 558th base pair (an A/G transition) in the SiDREB2 gene in a core set of 45 foxtail millet accessions.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 35,
+        "text": "Quantitative real-time PCR analysis",
+        "label": "BM"
+      },
+      {
+        "start": 43,
+        "end": 50,
+        "text": "SiDREB2",
+        "label": "GENE"
+      },
+      {
+        "start": 85,
+        "end": 96,
+        "text": "dehydration",
+        "label": "ABS"
+      },
+      {
+        "start": 98,
+        "end": 117,
+        "text": "polyethylene glycol",
+        "label": "ABS"
+      },
+      {
+        "start": 123,
+        "end": 131,
+        "text": "salinity",
+        "label": "ABS"
+      },
+      {
+        "start": 133,
+        "end": 137,
+        "text": "NaCl",
+        "label": "ABS"
+      },
+      {
+        "start": 153,
+        "end": 156,
+        "text": "SNP",
+        "label": "MRK"
+      },
+      {
+        "start": 173,
+        "end": 194,
+        "text": "dehydration tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 258,
+        "end": 265,
+        "text": "SiDREB2",
+        "label": "GENE"
+      },
+      {
+        "start": 291,
+        "end": 305,
+        "text": "foxtail millet",
+        "label": "CROP"
+      },
+      {
+        "start": 291,
+        "end": 316,
+        "text": "foxtail millet accessions",
+        "label": "VAR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "dehydration",
+        "head_start": 85,
+        "head_end": 96,
+        "head_type": "ABS",
+        "tail": "SiDREB2",
+        "tail_start": 43,
+        "tail_end": 50,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "salinity",
+        "head_start": 123,
+        "head_end": 131,
+        "head_type": "ABS",
+        "tail": "SiDREB2",
+        "tail_start": 43,
+        "tail_end": 50,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "SNP",
+        "head_start": 153,
+        "head_end": 156,
+        "head_type": "MRK",
+        "tail": "dehydration tolerance",
+        "tail_start": 173,
+        "tail_end": 194,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "SNP",
+        "head_start": 153,
+        "head_end": 156,
+        "head_type": "MRK",
+        "tail": "SiDREB2",
+        "tail_start": 258,
+        "tail_end": 265,
+        "tail_type": "GENE",
+        "label": "LOI"
+      },
+      {
+        "head": "foxtail millet",
+        "head_start": 291,
+        "head_end": 305,
+        "head_type": "CROP",
+        "tail": "foxtail millet accessions",
+        "tail_start": 291,
+        "tail_end": 316,
+        "tail_type": "VAR",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "The grains of 'Longli-4' were treated with ethyl methanesulfonate (EMS) at 0.8% for 8 h. Nine plants from M2 families were selected to investigate the EMS mutagenesis effect.",
+    "entities": [
+      {
+        "start": 15,
+        "end": 23,
+        "text": "Longli-4",
+        "label": "VAR"
+      },
+      {
+        "start": 43,
+        "end": 65,
+        "text": "ethyl methanesulfonate",
+        "label": "BM"
+      },
+      {
+        "start": 67,
+        "end": 70,
+        "text": "EMS",
+        "label": "BM"
+      },
+      {
+        "start": 151,
+        "end": 166,
+        "text": "EMS mutagenesis",
+        "label": "BM"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Longli-4",
+        "head_start": 15,
+        "head_end": 23,
+        "head_type": "VAR",
+        "tail": "ethyl methanesulfonate",
+        "tail_start": 43,
+        "tail_end": 65,
+        "tail_type": "BM",
+        "label": "USE"
+      },
+      {
+        "head": "Longli-4",
+        "head_start": 15,
+        "head_end": 23,
+        "head_type": "VAR",
+        "tail": "EMS",
+        "tail_start": 67,
+        "tail_end": 70,
+        "tail_type": "BM",
+        "label": "USE"
+      }
+    ]
+  },
+  {
+    "text": "45 barley genes or orthologs were identified as candidate genes for barley grain size and weight. 12, 20, 9, and 4 genes or orthologs were for barley, rice, maize, and wheat, respectively. 20 of them were located in 14 QTL hotspot regions on chromosomes 1H, 2H, 3H, 5H, and 7H, which control barley grain size and weight.",
+    "entities": [
+      {
+        "start": 3,
+        "end": 9,
+        "text": "barley",
+        "label": "CROP"
+      },
+      {
+        "start": 68,
+        "end": 96,
+        "text": "barley grain size and weight",
+        "label": "TRT"
+      },
+      {
+        "start": 151,
+        "end": 155,
+        "text": "rice",
+        "label": "CROP"
+      },
+      {
+        "start": 157,
+        "end": 162,
+        "text": "maize",
+        "label": "CROP"
+      },
+      {
+        "start": 168,
+        "end": 173,
+        "text": "wheat",
+        "label": "CROP"
+      },
+      {
+        "start": 219,
+        "end": 238,
+        "text": "QTL hotspot regions",
+        "label": "QTL"
+      },
+      {
+        "start": 242,
+        "end": 268,
+        "text": "chromosomes 1H, 2H, 3H, 5H",
+        "label": "CHR"
+      },
+      {
+        "start": 274,
+        "end": 276,
+        "text": "7H",
+        "label": "CHR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "barley",
+        "head_start": 3,
+        "head_end": 9,
+        "head_type": "CROP",
+        "tail": "barley grain size and weight",
+        "tail_start": 68,
+        "tail_end": 96,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "QTL hotspot regions",
+        "head_start": 219,
+        "head_end": 238,
+        "head_type": "QTL",
+        "tail": "chromosomes 1H, 2H, 3H, 5H",
+        "tail_start": 242,
+        "tail_end": 268,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL hotspot regions",
+        "head_start": 219,
+        "head_end": 238,
+        "head_type": "QTL",
+        "tail": "7H",
+        "tail_start": 274,
+        "tail_end": 276,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL hotspot regions",
+        "head_start": 219,
+        "head_end": 238,
+        "head_type": "QTL",
+        "tail": "barley grain size and weight",
+        "tail_start": 68,
+        "tail_end": 96,
+        "tail_type": "TRT",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "Early maturity is an important agronomic trait. It allows multiple cropping and utilizes light and temperature resources in alpine regions. This avoids damage from low temperatures and early frost. Genes determining flowering affect flowering time, which directly affects crop maturity and yield.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "text": "Early maturity",
+        "label": "TRT"
+      },
+      {
+        "start": 89,
+        "end": 120,
+        "text": "light and temperature resources",
+        "label": "ABS"
+      },
+      {
+        "start": 124,
+        "end": 138,
+        "text": "alpine regions",
+        "label": "ABS"
+      },
+      {
+        "start": 164,
+        "end": 180,
+        "text": "low temperatures",
+        "label": "ABS"
+      },
+      {
+        "start": 185,
+        "end": 196,
+        "text": "early frost",
+        "label": "ABS"
+      },
+      {
+        "start": 233,
+        "end": 247,
+        "text": "flowering time",
+        "label": "TRT"
+      },
+      {
+        "start": 272,
+        "end": 285,
+        "text": "crop maturity",
+        "label": "TRT"
+      },
+      {
+        "start": 290,
+        "end": 295,
+        "text": "yield",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "flowering time",
+        "head_start": 233,
+        "head_end": 247,
+        "head_type": "TRT",
+        "tail": "crop maturity",
+        "tail_start": 272,
+        "tail_end": 285,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "flowering time",
+        "head_start": 233,
+        "head_end": 247,
+        "head_type": "TRT",
+        "tail": "yield",
+        "tail_start": 290,
+        "tail_end": 295,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  }
+]

@@ -1,0 +1,922 @@
+[
+  {
+    "text": "Two genes, Seita.5G251300 and Seita.8G036300, exhibit drought-tolerant haplotypes. These haplotypes have an advantage in 1000 grain weight and main panicle grain weight, without penalty in grain weight per plant.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 25,
+        "text": "Seita.5G251300",
+        "label": "GENE"
+      },
+      {
+        "start": 30,
+        "end": 44,
+        "text": "Seita.8G036300",
+        "label": "GENE"
+      },
+      {
+        "start": 121,
+        "end": 138,
+        "text": "1000 grain weight",
+        "label": "TRT"
+      },
+      {
+        "start": 143,
+        "end": 168,
+        "text": "main panicle grain weight",
+        "label": "TRT"
+      },
+      {
+        "start": 189,
+        "end": 211,
+        "text": "grain weight per plant",
+        "label": "TRT"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Colocation analysis associated these QTNs with known stay-green QTLs. 47 putative genes near these QTNs potentially influenced drought tolerance traits. Accession selection should consider multiple indices.",
+    "entities": [
+      {
+        "start": 37,
+        "end": 41,
+        "text": "QTNs",
+        "label": "QTL"
+      },
+      {
+        "start": 53,
+        "end": 68,
+        "text": "stay-green QTLs",
+        "label": "QTL"
+      },
+      {
+        "start": 99,
+        "end": 103,
+        "text": "QTNs",
+        "label": "QTL"
+      },
+      {
+        "start": 127,
+        "end": 144,
+        "text": "drought tolerance",
+        "label": "TRT"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "In Tartary buckwheat, 12 ABA receptors were identified, designated as FtRCAR1 through FtRCAR12. FtRCARs are divided into three subfamily.",
+    "entities": [
+      {
+        "start": 3,
+        "end": 20,
+        "text": "Tartary buckwheat",
+        "label": "CROP"
+      },
+      {
+        "start": 70,
+        "end": 77,
+        "text": "FtRCAR1",
+        "label": "GENE"
+      },
+      {
+        "start": 86,
+        "end": 94,
+        "text": "FtRCAR12",
+        "label": "GENE"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Drought causes yield loss in sorghum. This study aimed to identify drought-tolerant sorghum lines and genomic regions using 216 sorghum accessions in stressed and non-stressed environments at two locations.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Drought",
+        "label": "ABS"
+      },
+      {
+        "start": 15,
+        "end": 25,
+        "text": "yield loss",
+        "label": "TRT"
+      },
+      {
+        "start": 29,
+        "end": 36,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 124,
+        "end": 146,
+        "text": "216 sorghum accessions",
+        "label": "VAR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Drought",
+        "head_start": 0,
+        "head_end": 7,
+        "head_type": "ABS",
+        "tail": "yield loss",
+        "tail_start": 15,
+        "tail_end": 25,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "sorghum",
+        "head_start": 29,
+        "head_end": 36,
+        "head_type": "CROP",
+        "tail": "216 sorghum accessions",
+        "tail_start": 124,
+        "tail_end": 146,
+        "tail_type": "VAR",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "The 'Longli-4' variety was treated with ethyl methanesulfonate (EMS) at 0.8% for 8 h.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 13,
+        "text": "Longli-4",
+        "label": "VAR"
+      },
+      {
+        "start": 40,
+        "end": 62,
+        "text": "ethyl methanesulfonate",
+        "label": "BM"
+      },
+      {
+        "start": 64,
+        "end": 67,
+        "text": "EMS",
+        "label": "BM"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Longli-4",
+        "head_start": 5,
+        "head_end": 13,
+        "head_type": "VAR",
+        "tail": "ethyl methanesulfonate",
+        "tail_start": 40,
+        "tail_end": 62,
+        "tail_type": "BM",
+        "label": "USE"
+      },
+      {
+        "head": "Longli-4",
+        "head_start": 5,
+        "head_end": 13,
+        "head_type": "VAR",
+        "tail": "EMS",
+        "tail_start": 64,
+        "tail_end": 67,
+        "tail_type": "BM",
+        "label": "USE"
+      }
+    ]
+  },
+  {
+    "text": "Two loci were on chromosome 1, two on chromosome 2, two on chromosome 6, one on chromosome 8, and one on chromosome 10. The loci Pm 2-1 and Pm 2-2 on chromosome 2 were detected in 7 and 5 of 11 environments, respectively.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 8,
+        "text": "loci",
+        "label": "QTL"
+      },
+      {
+        "start": 17,
+        "end": 29,
+        "text": "chromosome 1",
+        "label": "CHR"
+      },
+      {
+        "start": 38,
+        "end": 50,
+        "text": "chromosome 2",
+        "label": "CHR"
+      },
+      {
+        "start": 59,
+        "end": 71,
+        "text": "chromosome 6",
+        "label": "CHR"
+      },
+      {
+        "start": 80,
+        "end": 92,
+        "text": "chromosome 8",
+        "label": "CHR"
+      },
+      {
+        "start": 105,
+        "end": 118,
+        "text": "chromosome 10",
+        "label": "CHR"
+      },
+      {
+        "start": 129,
+        "end": 135,
+        "text": "Pm 2-1",
+        "label": "QTL"
+      },
+      {
+        "start": 140,
+        "end": 146,
+        "text": "Pm 2-2",
+        "label": "QTL"
+      },
+      {
+        "start": 150,
+        "end": 162,
+        "text": "chromosome 2",
+        "label": "CHR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "loci",
+        "head_start": 4,
+        "head_end": 8,
+        "head_type": "QTL",
+        "tail": "chromosome 1",
+        "tail_start": 17,
+        "tail_end": 29,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "loci",
+        "head_start": 4,
+        "head_end": 8,
+        "head_type": "QTL",
+        "tail": "chromosome 2",
+        "tail_start": 38,
+        "tail_end": 50,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "loci",
+        "head_start": 4,
+        "head_end": 8,
+        "head_type": "QTL",
+        "tail": "chromosome 6",
+        "tail_start": 59,
+        "tail_end": 71,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "loci",
+        "head_start": 4,
+        "head_end": 8,
+        "head_type": "QTL",
+        "tail": "chromosome 8",
+        "tail_start": 80,
+        "tail_end": 92,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "loci",
+        "head_start": 4,
+        "head_end": 8,
+        "head_type": "QTL",
+        "tail": "chromosome 10",
+        "tail_start": 105,
+        "tail_end": 118,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "Pm 2-1",
+        "head_start": 129,
+        "head_end": 135,
+        "head_type": "QTL",
+        "tail": "chromosome 2",
+        "tail_start": 150,
+        "tail_end": 162,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "Pm 2-2",
+        "head_start": 140,
+        "head_end": 146,
+        "head_type": "QTL",
+        "tail": "chromosome 2",
+        "tail_start": 150,
+        "tail_end": 162,
+        "tail_type": "CHR",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "ABA upregulated CHS, CHI, F3'H, F3H, and FLS transcript levels, while downregulating 4CL and PAL. Transcription factors mediating these genes were also regulated by ABA.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "ABA",
+        "label": "ABS"
+      },
+      {
+        "start": 16,
+        "end": 19,
+        "text": "CHS",
+        "label": "GENE"
+      },
+      {
+        "start": 21,
+        "end": 24,
+        "text": "CHI",
+        "label": "GENE"
+      },
+      {
+        "start": 26,
+        "end": 30,
+        "text": "F3'H",
+        "label": "GENE"
+      },
+      {
+        "start": 32,
+        "end": 35,
+        "text": "F3H",
+        "label": "GENE"
+      },
+      {
+        "start": 41,
+        "end": 44,
+        "text": "FLS",
+        "label": "GENE"
+      },
+      {
+        "start": 85,
+        "end": 88,
+        "text": "4CL",
+        "label": "GENE"
+      },
+      {
+        "start": 93,
+        "end": 96,
+        "text": "PAL",
+        "label": "GENE"
+      },
+      {
+        "start": 165,
+        "end": 168,
+        "text": "ABA",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "ABA",
+        "head_start": 0,
+        "head_end": 3,
+        "head_type": "ABS",
+        "tail": "CHS",
+        "tail_start": 16,
+        "tail_end": 19,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "ABA",
+        "head_start": 0,
+        "head_end": 3,
+        "head_type": "ABS",
+        "tail": "CHI",
+        "tail_start": 21,
+        "tail_end": 24,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "ABA",
+        "head_start": 0,
+        "head_end": 3,
+        "head_type": "ABS",
+        "tail": "F3'H",
+        "tail_start": 26,
+        "tail_end": 30,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "ABA",
+        "head_start": 0,
+        "head_end": 3,
+        "head_type": "ABS",
+        "tail": "F3H",
+        "tail_start": 32,
+        "tail_end": 35,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "ABA",
+        "head_start": 0,
+        "head_end": 3,
+        "head_type": "ABS",
+        "tail": "FLS",
+        "tail_start": 41,
+        "tail_end": 44,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "ABA",
+        "head_start": 0,
+        "head_end": 3,
+        "head_type": "ABS",
+        "tail": "4CL",
+        "tail_start": 85,
+        "tail_end": 88,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "ABA",
+        "head_start": 0,
+        "head_end": 3,
+        "head_type": "ABS",
+        "tail": "PAL",
+        "tail_start": 93,
+        "tail_end": 96,
+        "tail_type": "GENE",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "A major QTL with 13.75% contribution rate is located on barley chromosome 7H (GBM1303-GMS056). A minor QTL with 6.01% contribution rate is located on chromosome 2H (Scssr03381-Scssr07759). It comes from the high-value parent ZGMLEL.",
+    "entities": [
+      {
+        "start": 2,
+        "end": 11,
+        "text": "major QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 56,
+        "end": 62,
+        "text": "barley",
+        "label": "CROP"
+      },
+      {
+        "start": 63,
+        "end": 76,
+        "text": "chromosome 7H",
+        "label": "CHR"
+      },
+      {
+        "start": 78,
+        "end": 85,
+        "text": "GBM1303",
+        "label": "MRK"
+      },
+      {
+        "start": 86,
+        "end": 92,
+        "text": "GMS056",
+        "label": "MRK"
+      },
+      {
+        "start": 97,
+        "end": 106,
+        "text": "minor QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 150,
+        "end": 163,
+        "text": "chromosome 2H",
+        "label": "CHR"
+      },
+      {
+        "start": 165,
+        "end": 175,
+        "text": "Scssr03381",
+        "label": "MRK"
+      },
+      {
+        "start": 176,
+        "end": 186,
+        "text": "Scssr07759",
+        "label": "MRK"
+      },
+      {
+        "start": 225,
+        "end": 231,
+        "text": "ZGMLEL",
+        "label": "VAR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "major QTL",
+        "head_start": 2,
+        "head_end": 11,
+        "head_type": "QTL",
+        "tail": "chromosome 7H",
+        "tail_start": 63,
+        "tail_end": 76,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "minor QTL",
+        "head_start": 97,
+        "head_end": 106,
+        "head_type": "QTL",
+        "tail": "chromosome 2H",
+        "tail_start": 150,
+        "tail_end": 163,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "GBM1303",
+        "head_start": 78,
+        "head_end": 85,
+        "head_type": "MRK",
+        "tail": "chromosome 7H",
+        "tail_start": 63,
+        "tail_end": 76,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "GMS056",
+        "head_start": 86,
+        "head_end": 92,
+        "head_type": "MRK",
+        "tail": "chromosome 7H",
+        "tail_start": 63,
+        "tail_end": 76,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "Scssr03381",
+        "head_start": 165,
+        "head_end": 175,
+        "head_type": "MRK",
+        "tail": "chromosome 2H",
+        "tail_start": 150,
+        "tail_end": 163,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "Scssr07759",
+        "head_start": 176,
+        "head_end": 186,
+        "head_type": "MRK",
+        "tail": "chromosome 2H",
+        "tail_start": 150,
+        "tail_end": 163,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "barley",
+        "head_start": 56,
+        "head_end": 62,
+        "head_type": "CROP",
+        "tail": "ZGMLEL",
+        "tail_start": 225,
+        "tail_end": 231,
+        "tail_type": "VAR",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "A recombinant inbred line (RIL) population of 333 foxtail millet lines was grown in 13 trials. Quantitative trait loci (QTL) controlling nine agronomic traits for panicle architecture and grain yield were identified. Panicle weight, grain weight per panicle, panicle length, panicle diameter, and panicle exsertion length varied across locations.",
+    "entities": [
+      {
+        "start": 2,
+        "end": 42,
+        "text": "recombinant inbred line (RIL) population",
+        "label": "CROSS"
+      },
+      {
+        "start": 50,
+        "end": 64,
+        "text": "foxtail millet",
+        "label": "CROP"
+      },
+      {
+        "start": 95,
+        "end": 124,
+        "text": "Quantitative trait loci (QTL)",
+        "label": "QTL"
+      },
+      {
+        "start": 163,
+        "end": 183,
+        "text": "panicle architecture",
+        "label": "TRT"
+      },
+      {
+        "start": 188,
+        "end": 199,
+        "text": "grain yield",
+        "label": "TRT"
+      },
+      {
+        "start": 217,
+        "end": 231,
+        "text": "Panicle weight",
+        "label": "TRT"
+      },
+      {
+        "start": 233,
+        "end": 257,
+        "text": "grain weight per panicle",
+        "label": "TRT"
+      },
+      {
+        "start": 259,
+        "end": 273,
+        "text": "panicle length",
+        "label": "TRT"
+      },
+      {
+        "start": 275,
+        "end": 291,
+        "text": "panicle diameter",
+        "label": "TRT"
+      },
+      {
+        "start": 297,
+        "end": 321,
+        "text": "panicle exsertion length",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "foxtail millet",
+        "head_start": 50,
+        "head_end": 64,
+        "head_type": "CROP",
+        "tail": "recombinant inbred line (RIL) population",
+        "tail_start": 2,
+        "tail_end": 42,
+        "tail_type": "CROSS",
+        "label": "CON"
+      },
+      {
+        "head": "foxtail millet",
+        "head_start": 50,
+        "head_end": 64,
+        "head_type": "CROP",
+        "tail": "panicle architecture",
+        "tail_start": 163,
+        "tail_end": 183,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "foxtail millet",
+        "head_start": 50,
+        "head_end": 64,
+        "head_type": "CROP",
+        "tail": "grain yield",
+        "tail_start": 188,
+        "tail_end": 199,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "foxtail millet",
+        "head_start": 50,
+        "head_end": 64,
+        "head_type": "CROP",
+        "tail": "Panicle weight",
+        "tail_start": 217,
+        "tail_end": 231,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "foxtail millet",
+        "head_start": 50,
+        "head_end": 64,
+        "head_type": "CROP",
+        "tail": "grain weight per panicle",
+        "tail_start": 233,
+        "tail_end": 257,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "foxtail millet",
+        "head_start": 50,
+        "head_end": 64,
+        "head_type": "CROP",
+        "tail": "panicle length",
+        "tail_start": 259,
+        "tail_end": 273,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "foxtail millet",
+        "head_start": 50,
+        "head_end": 64,
+        "head_type": "CROP",
+        "tail": "panicle diameter",
+        "tail_start": 275,
+        "tail_end": 291,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "foxtail millet",
+        "head_start": 50,
+        "head_end": 64,
+        "head_type": "CROP",
+        "tail": "panicle exsertion length",
+        "tail_start": 297,
+        "tail_end": 321,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Quantitative trait loci (QTL)",
+        "head_start": 95,
+        "head_end": 124,
+        "head_type": "QTL",
+        "tail": "panicle architecture",
+        "tail_start": 163,
+        "tail_end": 183,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "Quantitative trait loci (QTL)",
+        "head_start": 95,
+        "head_end": 124,
+        "head_type": "QTL",
+        "tail": "grain yield",
+        "tail_start": 188,
+        "tail_end": 199,
+        "tail_type": "TRT",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "One to five QTLs were detected for kernel morphology traits and groat percentage, explaining 7.0-60.7% of phenotypic variance. A QTL for kernel length in each population and a QTL for kernel width in one population colocated with a QTL for groat percentage, indicating kernel size or shape influences groat percentage.",
+    "entities": [
+      {
+        "start": 12,
+        "end": 15,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 35,
+        "end": 59,
+        "text": "kernel morphology traits",
+        "label": "TRT"
+      },
+      {
+        "start": 64,
+        "end": 80,
+        "text": "groat percentage",
+        "label": "TRT"
+      },
+      {
+        "start": 129,
+        "end": 132,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 137,
+        "end": 150,
+        "text": "kernel length",
+        "label": "TRT"
+      },
+      {
+        "start": 176,
+        "end": 179,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 184,
+        "end": 196,
+        "text": "kernel width",
+        "label": "TRT"
+      },
+      {
+        "start": 240,
+        "end": 256,
+        "text": "groat percentage",
+        "label": "TRT"
+      },
+      {
+        "start": 269,
+        "end": 280,
+        "text": "kernel size",
+        "label": "TRT"
+      },
+      {
+        "start": 301,
+        "end": 317,
+        "text": "groat percentage",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QTL",
+        "head_start": 12,
+        "head_end": 15,
+        "head_type": "QTL",
+        "tail": "kernel length",
+        "tail_start": 137,
+        "tail_end": 150,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL",
+        "head_start": 129,
+        "head_end": 132,
+        "head_type": "QTL",
+        "tail": "kernel width",
+        "tail_start": 184,
+        "tail_end": 196,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL",
+        "head_start": 176,
+        "head_end": 179,
+        "head_type": "QTL",
+        "tail": "groat percentage",
+        "tail_start": 240,
+        "tail_end": 256,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "kernel size",
+        "head_start": 269,
+        "head_end": 280,
+        "head_type": "TRT",
+        "tail": "groat percentage",
+        "tail_start": 301,
+        "tail_end": 317,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "QTL",
+        "head_start": 12,
+        "head_end": 15,
+        "head_type": "QTL",
+        "tail": "kernel morphology traits",
+        "tail_start": 35,
+        "tail_end": 59,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL",
+        "head_start": 12,
+        "head_end": 15,
+        "head_type": "QTL",
+        "tail": "groat percentage",
+        "tail_start": 64,
+        "tail_end": 80,
+        "tail_type": "TRT",
+        "label": "LOI"
+      }
+    ]
+  }
+]

@@ -1,0 +1,943 @@
+[
+  {
+    "text": "Sorghum is a drought-tolerant grain crop. This study explores the drought tolerance mechanisms of sorghum.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 13,
+        "end": 20,
+        "text": "drought",
+        "label": "ABS"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Leaf width correlated with plant-level transpiration efficiency and associated with 19 QTL in sorghum. Reducing transpiration without compromising photosynthesis and yield enhances plant transpiration efficiency, a desirable selection target in crop improvement.",
+    "entities": [
+      {
+        "start": 27,
+        "end": 63,
+        "text": "plant-level transpiration efficiency",
+        "label": "TRT"
+      },
+      {
+        "start": 84,
+        "end": 90,
+        "text": "19 QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 94,
+        "end": 101,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 187,
+        "end": 211,
+        "text": "transpiration efficiency",
+        "label": "TRT"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Qianku 3 had a higher seed-setting rate than Liuku 3 in 2017 and 2018. Qianku 3 also had a higher filled grain number and seed-setting rate on branch than Liuku 3.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "text": "Qianku 3",
+        "label": "VAR"
+      },
+      {
+        "start": 22,
+        "end": 39,
+        "text": "seed-setting rate",
+        "label": "TRT"
+      },
+      {
+        "start": 45,
+        "end": 52,
+        "text": "Liuku 3",
+        "label": "VAR"
+      },
+      {
+        "start": 56,
+        "end": 60,
+        "text": "2017",
+        "label": "GST"
+      },
+      {
+        "start": 65,
+        "end": 69,
+        "text": "2018",
+        "label": "GST"
+      },
+      {
+        "start": 98,
+        "end": 117,
+        "text": "filled grain number",
+        "label": "TRT"
+      },
+      {
+        "start": 122,
+        "end": 139,
+        "text": "seed-setting rate",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Qianku 3",
+        "head_start": 0,
+        "head_end": 8,
+        "head_type": "VAR",
+        "tail": "seed-setting rate",
+        "tail_start": 22,
+        "tail_end": 39,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Liuku 3",
+        "head_start": 45,
+        "head_end": 52,
+        "head_type": "VAR",
+        "tail": "seed-setting rate",
+        "tail_start": 22,
+        "tail_end": 39,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Qianku 3",
+        "head_start": 0,
+        "head_end": 8,
+        "head_type": "VAR",
+        "tail": "filled grain number",
+        "tail_start": 98,
+        "tail_end": 117,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "seed-setting rate",
+        "head_start": 22,
+        "head_end": 39,
+        "head_type": "TRT",
+        "tail": "2017",
+        "tail_start": 56,
+        "tail_end": 60,
+        "tail_type": "GST",
+        "label": "OCI"
+      },
+      {
+        "head": "seed-setting rate",
+        "head_start": 22,
+        "head_end": 39,
+        "head_type": "TRT",
+        "tail": "2018",
+        "tail_start": 65,
+        "tail_end": 69,
+        "tail_type": "GST",
+        "label": "OCI"
+      }
+    ]
+  },
+  {
+    "text": "Natural variation analysis identified SiYTH1(AGTG) as the dominant allele for drought tolerance in foxtail millet. This study offers insights into m(6) A reader-mediated drought tolerance and provides a genetic resource for improving drought tolerance in foxtail millet breeding.",
+    "entities": [
+      {
+        "start": 38,
+        "end": 50,
+        "text": "SiYTH1(AGTG)",
+        "label": "GENE"
+      },
+      {
+        "start": 78,
+        "end": 95,
+        "text": "drought tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 99,
+        "end": 113,
+        "text": "foxtail millet",
+        "label": "CROP"
+      },
+      {
+        "start": 147,
+        "end": 187,
+        "text": "m(6) A reader-mediated drought tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 234,
+        "end": 241,
+        "text": "drought",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "foxtail millet",
+        "head_start": 99,
+        "head_end": 113,
+        "head_type": "CROP",
+        "tail": "drought tolerance",
+        "tail_start": 78,
+        "tail_end": 95,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "SiYTH1(AGTG)",
+        "head_start": 38,
+        "head_end": 50,
+        "head_type": "GENE",
+        "tail": "drought tolerance",
+        "tail_start": 78,
+        "tail_end": 95,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "drought",
+        "head_start": 234,
+        "head_end": 241,
+        "head_type": "ABS",
+        "tail": "drought tolerance",
+        "tail_start": 78,
+        "tail_end": 95,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "drought",
+        "head_start": 234,
+        "head_end": 241,
+        "head_type": "ABS",
+        "tail": "m(6) A reader-mediated drought tolerance",
+        "tail_start": 147,
+        "tail_end": 187,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "foxtail millet",
+        "head_start": 99,
+        "head_end": 113,
+        "head_type": "CROP",
+        "tail": "m(6) A reader-mediated drought tolerance",
+        "tail_start": 147,
+        "tail_end": 187,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Tartary buckwheat (Fagopyrum tataricum) has adaptation to low nitrogen condition. The plasticity of roots drives this adaptation.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 39,
+        "text": "Tartary buckwheat (Fagopyrum tataricum)",
+        "label": "CROP"
+      },
+      {
+        "start": 58,
+        "end": 80,
+        "text": "low nitrogen condition",
+        "label": "ABS"
+      },
+      {
+        "start": 82,
+        "end": 105,
+        "text": "The plasticity of roots",
+        "label": "TRT"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Expression analysis showed that FeRDEB1 gene transcript levels increased rapidly after low-/high-temperature treatment, drought stress, and exogenous ABA treatment. Over-expression of FeDREB1 gene enhanced drought and freezing tolerance in transgenic Arabidopsis but caused growth retardation.",
+    "entities": [
+      {
+        "start": 32,
+        "end": 39,
+        "text": "FeRDEB1",
+        "label": "GENE"
+      },
+      {
+        "start": 87,
+        "end": 118,
+        "text": "low-/high-temperature treatment",
+        "label": "ABS"
+      },
+      {
+        "start": 120,
+        "end": 134,
+        "text": "drought stress",
+        "label": "ABS"
+      },
+      {
+        "start": 140,
+        "end": 163,
+        "text": "exogenous ABA treatment",
+        "label": "ABS"
+      },
+      {
+        "start": 184,
+        "end": 191,
+        "text": "FeDREB1",
+        "label": "GENE"
+      },
+      {
+        "start": 206,
+        "end": 213,
+        "text": "drought",
+        "label": "ABS"
+      },
+      {
+        "start": 218,
+        "end": 226,
+        "text": "freezing",
+        "label": "ABS"
+      },
+      {
+        "start": 240,
+        "end": 262,
+        "text": "transgenic Arabidopsis",
+        "label": "VAR"
+      },
+      {
+        "start": 274,
+        "end": 292,
+        "text": "growth retardation",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "low-/high-temperature treatment",
+        "head_start": 87,
+        "head_end": 118,
+        "head_type": "ABS",
+        "tail": "FeRDEB1",
+        "tail_start": 32,
+        "tail_end": 39,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "drought stress",
+        "head_start": 120,
+        "head_end": 134,
+        "head_type": "ABS",
+        "tail": "FeRDEB1",
+        "tail_start": 32,
+        "tail_end": 39,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "exogenous ABA treatment",
+        "head_start": 140,
+        "head_end": 163,
+        "head_type": "ABS",
+        "tail": "FeRDEB1",
+        "tail_start": 32,
+        "tail_end": 39,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "FeDREB1",
+        "head_start": 184,
+        "head_end": 191,
+        "head_type": "GENE",
+        "tail": "drought",
+        "tail_start": 206,
+        "tail_end": 213,
+        "tail_type": "ABS",
+        "label": "AFF"
+      },
+      {
+        "head": "FeDREB1",
+        "head_start": 184,
+        "head_end": 191,
+        "head_type": "GENE",
+        "tail": "freezing",
+        "tail_start": 218,
+        "tail_end": 226,
+        "tail_type": "ABS",
+        "label": "AFF"
+      },
+      {
+        "head": "FeDREB1",
+        "head_start": 184,
+        "head_end": 191,
+        "head_type": "GENE",
+        "tail": "growth retardation",
+        "tail_start": 274,
+        "tail_end": 292,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "transgenic Arabidopsis",
+        "head_start": 240,
+        "head_end": 262,
+        "head_type": "VAR",
+        "tail": "FeDREB1",
+        "tail_start": 184,
+        "tail_end": 191,
+        "tail_type": "GENE",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "The C2 cluster contained QTL for yield, agronomic, and N-related traits. Among novel QTL, Qstna.sau-5H and Qnhi.sau-5H expression was unaffected by N treatment.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 14,
+        "text": "C2 cluster",
+        "label": "QTL"
+      },
+      {
+        "start": 25,
+        "end": 28,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 33,
+        "end": 38,
+        "text": "yield",
+        "label": "TRT"
+      },
+      {
+        "start": 40,
+        "end": 49,
+        "text": "agronomic",
+        "label": "TRT"
+      },
+      {
+        "start": 55,
+        "end": 71,
+        "text": "N-related traits",
+        "label": "TRT"
+      },
+      {
+        "start": 79,
+        "end": 88,
+        "text": "novel QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 90,
+        "end": 102,
+        "text": "Qstna.sau-5H",
+        "label": "QTL"
+      },
+      {
+        "start": 107,
+        "end": 118,
+        "text": "Qnhi.sau-5H",
+        "label": "QTL"
+      },
+      {
+        "start": 148,
+        "end": 159,
+        "text": "N treatment",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "C2 cluster",
+        "head_start": 4,
+        "head_end": 14,
+        "head_type": "QTL",
+        "tail": "QTL",
+        "tail_start": 25,
+        "tail_end": 28,
+        "tail_type": "QTL",
+        "label": "CON"
+      },
+      {
+        "head": "QTL",
+        "head_start": 25,
+        "head_end": 28,
+        "head_type": "QTL",
+        "tail": "yield",
+        "tail_start": 33,
+        "tail_end": 38,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL",
+        "head_start": 25,
+        "head_end": 28,
+        "head_type": "QTL",
+        "tail": "agronomic",
+        "tail_start": 40,
+        "tail_end": 49,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL",
+        "head_start": 25,
+        "head_end": 28,
+        "head_type": "QTL",
+        "tail": "N-related traits",
+        "tail_start": 55,
+        "tail_end": 71,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "novel QTL",
+        "head_start": 79,
+        "head_end": 88,
+        "head_type": "QTL",
+        "tail": "Qstna.sau-5H",
+        "tail_start": 90,
+        "tail_end": 102,
+        "tail_type": "QTL",
+        "label": "CON"
+      },
+      {
+        "head": "novel QTL",
+        "head_start": 79,
+        "head_end": 88,
+        "head_type": "QTL",
+        "tail": "Qnhi.sau-5H",
+        "tail_start": 107,
+        "tail_end": 118,
+        "tail_type": "QTL",
+        "label": "CON"
+      },
+      {
+        "head": "N treatment",
+        "head_start": 148,
+        "head_end": 159,
+        "head_type": "ABS",
+        "tail": "Qstna.sau-5H",
+        "tail_start": 90,
+        "tail_end": 102,
+        "tail_type": "QTL",
+        "label": "AFF"
+      },
+      {
+        "head": "N treatment",
+        "head_start": 148,
+        "head_end": 159,
+        "head_type": "ABS",
+        "tail": "Qnhi.sau-5H",
+        "tail_start": 107,
+        "tail_end": 118,
+        "tail_type": "QTL",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Breeding for BYD tolerance controls the disease. Characterizing major tolerance sources and identifying marker-trait associations benefits BYD tolerance breeding. Genomic regions for BYD tolerance were mapped in an oat population of 152 recombinant inbred lines from the cross 'Ogle' (tolerant)/MAM17-5 (sensitive).",
+    "entities": [
+      {
+        "start": 13,
+        "end": 16,
+        "text": "BYD",
+        "label": "BIS"
+      },
+      {
+        "start": 13,
+        "end": 26,
+        "text": "BYD tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 139,
+        "end": 161,
+        "text": "BYD tolerance breeding",
+        "label": "BM"
+      },
+      {
+        "start": 183,
+        "end": 196,
+        "text": "BYD tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 212,
+        "end": 229,
+        "text": "an oat population",
+        "label": "CROP"
+      },
+      {
+        "start": 233,
+        "end": 261,
+        "text": "152 recombinant inbred lines",
+        "label": "VAR"
+      },
+      {
+        "start": 267,
+        "end": 314,
+        "text": "the cross 'Ogle' (tolerant)/MAM17-5 (sensitive)",
+        "label": "CROSS"
+      },
+      {
+        "start": 278,
+        "end": 294,
+        "text": "Ogle' (tolerant)",
+        "label": "VAR"
+      },
+      {
+        "start": 295,
+        "end": 314,
+        "text": "MAM17-5 (sensitive)",
+        "label": "VAR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "BYD",
+        "head_start": 13,
+        "head_end": 16,
+        "head_type": "BIS",
+        "tail": "BYD tolerance",
+        "tail_start": 13,
+        "tail_end": 26,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "BYD tolerance breeding",
+        "head_start": 139,
+        "head_end": 161,
+        "head_type": "BM",
+        "tail": "BYD tolerance",
+        "tail_start": 13,
+        "tail_end": 26,
+        "tail_type": "TRT",
+        "label": "CON"
+      },
+      {
+        "head": "an oat population",
+        "head_start": 212,
+        "head_end": 229,
+        "head_type": "CROP",
+        "tail": "152 recombinant inbred lines",
+        "tail_start": 233,
+        "tail_end": 261,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "the cross 'Ogle' (tolerant)/MAM17-5 (sensitive)",
+        "head_start": 267,
+        "head_end": 314,
+        "head_type": "CROSS",
+        "tail": "Ogle' (tolerant)",
+        "tail_start": 278,
+        "tail_end": 294,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "the cross 'Ogle' (tolerant)/MAM17-5 (sensitive)",
+        "head_start": 267,
+        "head_end": 314,
+        "head_type": "CROSS",
+        "tail": "MAM17-5 (sensitive)",
+        "tail_start": 295,
+        "tail_end": 314,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "Ogle' (tolerant)",
+        "head_start": 278,
+        "head_end": 294,
+        "head_type": "VAR",
+        "tail": "BYD tolerance",
+        "tail_start": 13,
+        "tail_end": 26,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "Droughts negatively affect sorghum's productivity and nutritional quality. However, resilient genotypes exist across its diversity centers. These genotypes function differently under drought stress at molecular and physiological levels.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "text": "Droughts",
+        "label": "ABS"
+      },
+      {
+        "start": 27,
+        "end": 34,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 146,
+        "end": 155,
+        "text": "genotypes",
+        "label": "VAR"
+      },
+      {
+        "start": 183,
+        "end": 197,
+        "text": "drought stress",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Droughts",
+        "head_start": 0,
+        "head_end": 8,
+        "head_type": "ABS",
+        "tail": "sorghum",
+        "tail_start": 27,
+        "tail_end": 34,
+        "tail_type": "CROP",
+        "label": "AFF"
+      },
+      {
+        "head": "drought stress",
+        "head_start": 183,
+        "head_end": 197,
+        "head_type": "ABS",
+        "tail": "genotypes",
+        "tail_start": 146,
+        "tail_end": 155,
+        "tail_type": "VAR",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "GWAS identified seven SNP markers. SNP2 and SNP3 positively correlated with beta-glucan. SNP1, SNP4, SNP5, SNP6, and SNP7 negatively correlated with beta-glucan. Candidate genes HORVU7Hr1G000320 and HORVU7Hr1G000040 are linked to SNP7 and belong to the nucleotide triphosphate hydrolase superfamily, which may affect beta-glucan synthase activity.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "text": "GWAS",
+        "label": "BM"
+      },
+      {
+        "start": 35,
+        "end": 39,
+        "text": "SNP2",
+        "label": "MRK"
+      },
+      {
+        "start": 44,
+        "end": 48,
+        "text": "SNP3",
+        "label": "MRK"
+      },
+      {
+        "start": 76,
+        "end": 87,
+        "text": "beta-glucan",
+        "label": "TRT"
+      },
+      {
+        "start": 89,
+        "end": 93,
+        "text": "SNP1",
+        "label": "MRK"
+      },
+      {
+        "start": 95,
+        "end": 99,
+        "text": "SNP4",
+        "label": "MRK"
+      },
+      {
+        "start": 101,
+        "end": 105,
+        "text": "SNP5",
+        "label": "MRK"
+      },
+      {
+        "start": 107,
+        "end": 111,
+        "text": "SNP6",
+        "label": "MRK"
+      },
+      {
+        "start": 117,
+        "end": 121,
+        "text": "SNP7",
+        "label": "MRK"
+      },
+      {
+        "start": 178,
+        "end": 194,
+        "text": "HORVU7Hr1G000320",
+        "label": "GENE"
+      },
+      {
+        "start": 199,
+        "end": 215,
+        "text": "HORVU7Hr1G000040",
+        "label": "GENE"
+      },
+      {
+        "start": 230,
+        "end": 234,
+        "text": "SNP7",
+        "label": "MRK"
+      },
+      {
+        "start": 317,
+        "end": 346,
+        "text": "beta-glucan synthase activity",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "SNP2",
+        "head_start": 35,
+        "head_end": 39,
+        "head_type": "MRK",
+        "tail": "beta-glucan",
+        "tail_start": 76,
+        "tail_end": 87,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "SNP3",
+        "head_start": 44,
+        "head_end": 48,
+        "head_type": "MRK",
+        "tail": "beta-glucan",
+        "tail_start": 76,
+        "tail_end": 87,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "SNP1",
+        "head_start": 89,
+        "head_end": 93,
+        "head_type": "MRK",
+        "tail": "beta-glucan",
+        "tail_start": 76,
+        "tail_end": 87,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "SNP4",
+        "head_start": 95,
+        "head_end": 99,
+        "head_type": "MRK",
+        "tail": "beta-glucan",
+        "tail_start": 76,
+        "tail_end": 87,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "SNP5",
+        "head_start": 101,
+        "head_end": 105,
+        "head_type": "MRK",
+        "tail": "beta-glucan",
+        "tail_start": 76,
+        "tail_end": 87,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "SNP6",
+        "head_start": 107,
+        "head_end": 111,
+        "head_type": "MRK",
+        "tail": "beta-glucan",
+        "tail_start": 76,
+        "tail_end": 87,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "SNP7",
+        "head_start": 117,
+        "head_end": 121,
+        "head_type": "MRK",
+        "tail": "beta-glucan",
+        "tail_start": 76,
+        "tail_end": 87,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "HORVU7Hr1G000320",
+        "head_start": 178,
+        "head_end": 194,
+        "head_type": "GENE",
+        "tail": "SNP7",
+        "tail_start": 117,
+        "tail_end": 121,
+        "tail_type": "MRK",
+        "label": "LOI"
+      },
+      {
+        "head": "HORVU7Hr1G000040",
+        "head_start": 199,
+        "head_end": 215,
+        "head_type": "GENE",
+        "tail": "SNP7",
+        "tail_start": 117,
+        "tail_end": 121,
+        "tail_type": "MRK",
+        "label": "LOI"
+      },
+      {
+        "head": "HORVU7Hr1G000320",
+        "head_start": 178,
+        "head_end": 194,
+        "head_type": "GENE",
+        "tail": "beta-glucan synthase activity",
+        "tail_start": 317,
+        "tail_end": 346,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "HORVU7Hr1G000040",
+        "head_start": 199,
+        "head_end": 215,
+        "head_type": "GENE",
+        "tail": "beta-glucan synthase activity",
+        "tail_start": 317,
+        "tail_end": 346,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  }
+]

@@ -1,0 +1,506 @@
+[
+  {
+    "text": "Protein phosphatase 2Cs (PP2Cs) are signaling regulators in plants and play central roles in abscisic acid (ABA)-mediated stress signaling. The PP2C gene family has not been systematically identified and characterized in pea (Pisum sativum). We identified 89 PsPP2C genes.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 31,
+        "text": "Protein phosphatase 2Cs (PP2Cs)",
+        "label": "GENE"
+      },
+      {
+        "start": 144,
+        "end": 160,
+        "text": "PP2C gene family",
+        "label": "GENE"
+      },
+      {
+        "start": 221,
+        "end": 240,
+        "text": "pea (Pisum sativum)",
+        "label": "CROP"
+      },
+      {
+        "start": 259,
+        "end": 271,
+        "text": "PsPP2C genes",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "PP2C gene family",
+        "head_start": 144,
+        "head_end": 160,
+        "head_type": "GENE",
+        "tail": "PsPP2C genes",
+        "tail_start": 259,
+        "tail_end": 271,
+        "tail_type": "GENE",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "A weighted gene co-expression network analysis (WGCNA) constructed 34 modules for all expressed genes. Seven modules were closely related to drought treatment. The drought-related module contained 1,343 hub genes, including RAB18, LEA14, and RD22. Cell cycle and DNA replication-related transcriptional pathways were identified as vital regulators of drought tolerance in foxtail millet.",
+    "entities": [
+      {
+        "start": 30,
+        "end": 46,
+        "text": "network analysis",
+        "label": "BM"
+      },
+      {
+        "start": 141,
+        "end": 158,
+        "text": "drought treatment",
+        "label": "ABS"
+      },
+      {
+        "start": 224,
+        "end": 229,
+        "text": "RAB18",
+        "label": "GENE"
+      },
+      {
+        "start": 231,
+        "end": 236,
+        "text": "LEA14",
+        "label": "GENE"
+      },
+      {
+        "start": 242,
+        "end": 246,
+        "text": "RD22",
+        "label": "GENE"
+      },
+      {
+        "start": 351,
+        "end": 368,
+        "text": "drought tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 372,
+        "end": 386,
+        "text": "foxtail millet",
+        "label": "CROP"
+      }
+    ],
+    "relations": [
+      {
+        "head": "drought treatment",
+        "head_start": 141,
+        "head_end": 158,
+        "head_type": "ABS",
+        "tail": "drought tolerance",
+        "tail_start": 351,
+        "tail_end": 368,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "foxtail millet",
+        "head_start": 372,
+        "head_end": 386,
+        "head_type": "CROP",
+        "tail": "drought tolerance",
+        "tail_start": 351,
+        "tail_end": 368,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "Genetic modeling revealed carotenoid content is controlled by three major-gene pairs plus polygenes (MX3-AI-A model). Major-gene heritability is 96.65% and polygene heritability is 3.35%. Three elite RILs with higher carotenoid and superior agronomic performance were identified for marker-assisted backcrossing.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 44,
+        "text": "carotenoid content",
+        "label": "TRT"
+      },
+      {
+        "start": 283,
+        "end": 311,
+        "text": "marker-assisted backcrossing",
+        "label": "BM"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "The grain filling rate (GFR) determines grain yield in foxtail millet. Its regulatory and molecular mechanisms are unclear.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 22,
+        "text": "grain filling rate",
+        "label": "TRT"
+      },
+      {
+        "start": 40,
+        "end": 51,
+        "text": "grain yield",
+        "label": "TRT"
+      },
+      {
+        "start": 55,
+        "end": 69,
+        "text": "foxtail millet",
+        "label": "CROP"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Fluorescence in situ hybridization (FISH) with probes pAs120, AF226603, Ast-R171 and Ast-T116 was used to analyze genome structural diversity and relationships in tetraploid, hexaploid and octoploid Avena species and amphiploids. In A. agadiriana (2n=4x=28), the probes hybridized to all chromosomes, indicating an autotetraploid origin or origin from closely related ancestors with the same genomes.",
+    "entities": [
+      {
+        "start": 163,
+        "end": 173,
+        "text": "tetraploid",
+        "label": "CROP"
+      },
+      {
+        "start": 233,
+        "end": 246,
+        "text": "A. agadiriana",
+        "label": "VAR"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "The alkali tolerance threshold for oats is 10 mM Na2CO3. Strongly alkali-tolerant varieties are Hammer (V1), Monica (V4) and Tyke (V6). Weakly alkali-tolerant varieties are Baiyan 2 (V5) and Apollo (V12).",
+    "entities": [
+      {
+        "start": 35,
+        "end": 39,
+        "text": "oats",
+        "label": "CROP"
+      },
+      {
+        "start": 96,
+        "end": 102,
+        "text": "Hammer",
+        "label": "VAR"
+      },
+      {
+        "start": 104,
+        "end": 106,
+        "text": "V1",
+        "label": "VAR"
+      },
+      {
+        "start": 109,
+        "end": 115,
+        "text": "Monica",
+        "label": "VAR"
+      },
+      {
+        "start": 117,
+        "end": 119,
+        "text": "V4",
+        "label": "VAR"
+      },
+      {
+        "start": 125,
+        "end": 129,
+        "text": "Tyke",
+        "label": "VAR"
+      },
+      {
+        "start": 131,
+        "end": 133,
+        "text": "V6",
+        "label": "VAR"
+      },
+      {
+        "start": 173,
+        "end": 181,
+        "text": "Baiyan 2",
+        "label": "VAR"
+      },
+      {
+        "start": 183,
+        "end": 185,
+        "text": "V5",
+        "label": "VAR"
+      },
+      {
+        "start": 191,
+        "end": 197,
+        "text": "Apollo",
+        "label": "VAR"
+      },
+      {
+        "start": 199,
+        "end": 202,
+        "text": "V12",
+        "label": "VAR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "oats",
+        "head_start": 35,
+        "head_end": 39,
+        "head_type": "CROP",
+        "tail": "Hammer",
+        "tail_start": 96,
+        "tail_end": 102,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "oats",
+        "head_start": 35,
+        "head_end": 39,
+        "head_type": "CROP",
+        "tail": "Monica",
+        "tail_start": 109,
+        "tail_end": 115,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "oats",
+        "head_start": 35,
+        "head_end": 39,
+        "head_type": "CROP",
+        "tail": "Tyke",
+        "tail_start": 125,
+        "tail_end": 129,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "oats",
+        "head_start": 35,
+        "head_end": 39,
+        "head_type": "CROP",
+        "tail": "Baiyan 2",
+        "tail_start": 173,
+        "tail_end": 181,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "oats",
+        "head_start": 35,
+        "head_end": 39,
+        "head_type": "CROP",
+        "tail": "Apollo",
+        "tail_start": 191,
+        "tail_end": 197,
+        "tail_type": "VAR",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "Ectopic expression of the AsSnRK2D gene in tobacco improved primary root length and plant fresh weight under dehydration and salt stress. The AsSnRK2D-overexpressing tobacco showed improved tolerance to dehydration and salinity stress.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 34,
+        "text": "AsSnRK2D",
+        "label": "GENE"
+      },
+      {
+        "start": 43,
+        "end": 50,
+        "text": "tobacco",
+        "label": "CROP"
+      },
+      {
+        "start": 60,
+        "end": 79,
+        "text": "primary root length",
+        "label": "TRT"
+      },
+      {
+        "start": 84,
+        "end": 102,
+        "text": "plant fresh weight",
+        "label": "TRT"
+      },
+      {
+        "start": 109,
+        "end": 136,
+        "text": "dehydration and salt stress",
+        "label": "ABS"
+      },
+      {
+        "start": 142,
+        "end": 150,
+        "text": "AsSnRK2D",
+        "label": "GENE"
+      },
+      {
+        "start": 203,
+        "end": 234,
+        "text": "dehydration and salinity stress",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "AsSnRK2D",
+        "head_start": 26,
+        "head_end": 34,
+        "head_type": "GENE",
+        "tail": "primary root length",
+        "tail_start": 60,
+        "tail_end": 79,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "AsSnRK2D",
+        "head_start": 26,
+        "head_end": 34,
+        "head_type": "GENE",
+        "tail": "plant fresh weight",
+        "tail_start": 84,
+        "tail_end": 102,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "tobacco",
+        "head_start": 43,
+        "head_end": 50,
+        "head_type": "CROP",
+        "tail": "primary root length",
+        "tail_start": 60,
+        "tail_end": 79,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "tobacco",
+        "head_start": 43,
+        "head_end": 50,
+        "head_type": "CROP",
+        "tail": "plant fresh weight",
+        "tail_start": 84,
+        "tail_end": 102,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "dehydration and salt stress",
+        "head_start": 109,
+        "head_end": 136,
+        "head_type": "ABS",
+        "tail": "primary root length",
+        "tail_start": 60,
+        "tail_end": 79,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "dehydration and salt stress",
+        "head_start": 109,
+        "head_end": 136,
+        "head_type": "ABS",
+        "tail": "plant fresh weight",
+        "tail_start": 84,
+        "tail_end": 102,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "AtRCAR1/2/3 and AtMPK6 directly interact with the FtMYB30 transcription factor. FtMYB30 mediates plant tolerance to salt and drought through an ABA-dependent signaling pathway.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "text": "AtRCAR1/2/3",
+        "label": "GENE"
+      },
+      {
+        "start": 16,
+        "end": 22,
+        "text": "AtMPK6",
+        "label": "GENE"
+      },
+      {
+        "start": 50,
+        "end": 57,
+        "text": "FtMYB30",
+        "label": "GENE"
+      },
+      {
+        "start": 80,
+        "end": 87,
+        "text": "FtMYB30",
+        "label": "GENE"
+      },
+      {
+        "start": 116,
+        "end": 120,
+        "text": "salt",
+        "label": "ABS"
+      },
+      {
+        "start": 125,
+        "end": 132,
+        "text": "drought",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "salt",
+        "head_start": 116,
+        "head_end": 120,
+        "head_type": "ABS",
+        "tail": "FtMYB30",
+        "tail_start": 50,
+        "tail_end": 57,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "drought",
+        "head_start": 125,
+        "head_end": 132,
+        "head_type": "ABS",
+        "tail": "FtMYB30",
+        "tail_start": 50,
+        "tail_end": 57,
+        "tail_type": "GENE",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "SbPLD alpha 3 expression was high in most tissues. SbPLD alpha 4 expression was mainly in roots.",
+    "entities": [],
+    "relations": []
+  },
+  {
+    "text": "2683 genes and 160 metabolites had significant differential abundances between control and Cd-treated groups. Multi-omics analysis showed the flavonoid biosynthesis pathway regulates Cd stress responses in sorghum.",
+    "entities": [
+      {
+        "start": 183,
+        "end": 192,
+        "text": "Cd stress",
+        "label": "ABS"
+      },
+      {
+        "start": 206,
+        "end": 213,
+        "text": "sorghum",
+        "label": "CROP"
+      }
+    ],
+    "relations": []
+  }
+]

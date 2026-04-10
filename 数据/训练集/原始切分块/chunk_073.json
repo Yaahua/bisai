@@ -1,0 +1,1060 @@
+[
+  {
+    "text": "Two major effect SNPs, S01_72265728 and S05_58213541, explained 35% and 32% of Fe and Zn phenotypic variance, respectively. SNP S01_72265728 is in a cytochrome P450 gene and has a positive effect on kernel Fe accumulation. SNP S05_58213541 is intergenic near gene Sobic.005G134800, a zinc-binding ribosomal protein, and has a negative effect on Zn.",
+    "entities": [
+      {
+        "start": 23,
+        "end": 35,
+        "text": "S01_72265728",
+        "label": "MRK"
+      },
+      {
+        "start": 40,
+        "end": 52,
+        "text": "S05_58213541",
+        "label": "MRK"
+      },
+      {
+        "start": 79,
+        "end": 81,
+        "text": "Fe",
+        "label": "TRT"
+      },
+      {
+        "start": 86,
+        "end": 88,
+        "text": "Zn",
+        "label": "TRT"
+      },
+      {
+        "start": 149,
+        "end": 164,
+        "text": "cytochrome P450",
+        "label": "GENE"
+      },
+      {
+        "start": 199,
+        "end": 221,
+        "text": "kernel Fe accumulation",
+        "label": "TRT"
+      },
+      {
+        "start": 264,
+        "end": 280,
+        "text": "Sobic.005G134800",
+        "label": "GENE"
+      },
+      {
+        "start": 284,
+        "end": 314,
+        "text": "zinc-binding ribosomal protein",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "S01_72265728",
+        "head_start": 23,
+        "head_end": 35,
+        "head_type": "MRK",
+        "tail": "Fe",
+        "tail_start": 79,
+        "tail_end": 81,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "S05_58213541",
+        "head_start": 40,
+        "head_end": 52,
+        "head_type": "MRK",
+        "tail": "Zn",
+        "tail_start": 86,
+        "tail_end": 88,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "cytochrome P450",
+        "head_start": 149,
+        "head_end": 164,
+        "head_type": "GENE",
+        "tail": "kernel Fe accumulation",
+        "tail_start": 199,
+        "tail_end": 221,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "S05_58213541",
+        "head_start": 40,
+        "head_end": 52,
+        "head_type": "MRK",
+        "tail": "Sobic.005G134800",
+        "tail_start": 264,
+        "tail_end": 280,
+        "tail_type": "GENE",
+        "label": "LOI"
+      },
+      {
+        "head": "S01_72265728",
+        "head_start": 23,
+        "head_end": 35,
+        "head_type": "MRK",
+        "tail": "kernel Fe accumulation",
+        "tail_start": 199,
+        "tail_end": 221,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Sobic.005G134800",
+        "head_start": 264,
+        "head_end": 280,
+        "head_type": "GENE",
+        "tail": "zinc-binding ribosomal protein",
+        "tail_start": 284,
+        "tail_end": 314,
+        "tail_type": "GENE",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "One gene was mapped to chromosome 6H based on seedling tests. Two QTLs, QSc.VlWa.4H and QSc.VlWa.6H, were mapped to chromosomes 4H and 6H based on APR. Epistatic interaction occurred between the two QTLs. Environment/QTL interaction was observed only for QSc.VlWa.6H, which co-segregated with the seedling resistance gene and contributed to basal scald resistance across all growth stages.",
+    "entities": [
+      {
+        "start": 23,
+        "end": 36,
+        "text": "chromosome 6H",
+        "label": "CHR"
+      },
+      {
+        "start": 72,
+        "end": 83,
+        "text": "QSc.VlWa.4H",
+        "label": "QTL"
+      },
+      {
+        "start": 88,
+        "end": 99,
+        "text": "QSc.VlWa.6H",
+        "label": "QTL"
+      },
+      {
+        "start": 116,
+        "end": 130,
+        "text": "chromosomes 4H",
+        "label": "CHR"
+      },
+      {
+        "start": 135,
+        "end": 137,
+        "text": "6H",
+        "label": "CHR"
+      },
+      {
+        "start": 297,
+        "end": 321,
+        "text": "seedling resistance gene",
+        "label": "GENE"
+      },
+      {
+        "start": 341,
+        "end": 363,
+        "text": "basal scald resistance",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QSc.VlWa.4H",
+        "head_start": 72,
+        "head_end": 83,
+        "head_type": "QTL",
+        "tail": "chromosomes 4H",
+        "tail_start": 116,
+        "tail_end": 130,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QSc.VlWa.6H",
+        "head_start": 88,
+        "head_end": 99,
+        "head_type": "QTL",
+        "tail": "6H",
+        "tail_start": 135,
+        "tail_end": 137,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QSc.VlWa.6H",
+        "head_start": 88,
+        "head_end": 99,
+        "head_type": "QTL",
+        "tail": "seedling resistance gene",
+        "tail_start": 297,
+        "tail_end": 321,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "QSc.VlWa.6H",
+        "head_start": 88,
+        "head_end": 99,
+        "head_type": "QTL",
+        "tail": "basal scald resistance",
+        "tail_start": 341,
+        "tail_end": 363,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "To detect molecular markers linked to the sht1 locus, AFLP analysis was used with bulked segregant analysis of progeny from a cross between a non-brittle common buckwheat and a brittle self-compatible buckwheat line. 312 primer combinations were screened and a linkage map around the sht1 locus was constructed using 102 F-2 plants.",
+    "entities": [
+      {
+        "start": 54,
+        "end": 67,
+        "text": "AFLP analysis",
+        "label": "BM"
+      },
+      {
+        "start": 82,
+        "end": 107,
+        "text": "bulked segregant analysis",
+        "label": "BM"
+      },
+      {
+        "start": 142,
+        "end": 170,
+        "text": "non-brittle common buckwheat",
+        "label": "VAR"
+      },
+      {
+        "start": 177,
+        "end": 215,
+        "text": "brittle self-compatible buckwheat line",
+        "label": "VAR"
+      },
+      {
+        "start": 284,
+        "end": 294,
+        "text": "sht1 locus",
+        "label": "QTL"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "We identified 70 B3 proteins in pearl millet and categorized them into ARF, RAV, LAV, and REM subfamilies. We mapped their chromosomal locations and analyzed their gene structures, conserved motifs, and gene duplication events.",
+    "entities": [
+      {
+        "start": 17,
+        "end": 28,
+        "text": "B3 proteins",
+        "label": "GENE"
+      },
+      {
+        "start": 32,
+        "end": 44,
+        "text": "pearl millet",
+        "label": "CROP"
+      },
+      {
+        "start": 71,
+        "end": 74,
+        "text": "ARF",
+        "label": "GENE"
+      },
+      {
+        "start": 76,
+        "end": 79,
+        "text": "RAV",
+        "label": "GENE"
+      },
+      {
+        "start": 81,
+        "end": 84,
+        "text": "LAV",
+        "label": "GENE"
+      },
+      {
+        "start": 90,
+        "end": 93,
+        "text": "REM",
+        "label": "GENE"
+      },
+      {
+        "start": 123,
+        "end": 144,
+        "text": "chromosomal locations",
+        "label": "CHR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "pearl millet",
+        "head_start": 32,
+        "head_end": 44,
+        "head_type": "CROP",
+        "tail": "B3 proteins",
+        "tail_start": 17,
+        "tail_end": 28,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "B3 proteins",
+        "head_start": 17,
+        "head_end": 28,
+        "head_type": "GENE",
+        "tail": "ARF",
+        "tail_start": 71,
+        "tail_end": 74,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "B3 proteins",
+        "head_start": 17,
+        "head_end": 28,
+        "head_type": "GENE",
+        "tail": "RAV",
+        "tail_start": 76,
+        "tail_end": 79,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "B3 proteins",
+        "head_start": 17,
+        "head_end": 28,
+        "head_type": "GENE",
+        "tail": "LAV",
+        "tail_start": 81,
+        "tail_end": 84,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "B3 proteins",
+        "head_start": 17,
+        "head_end": 28,
+        "head_type": "GENE",
+        "tail": "REM",
+        "tail_start": 90,
+        "tail_end": 93,
+        "tail_type": "GENE",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "SbERF027-overexpressing lines had higher cold tolerance than wild-type plants. SbERF027-silenced lines via VIGS had lower cold tolerance than wild-type plants. SNP-911 of the promoter enhanced cold tolerance by mediating SbERF027 expression.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "text": "SbERF027",
+        "label": "GENE"
+      },
+      {
+        "start": 79,
+        "end": 87,
+        "text": "SbERF027",
+        "label": "GENE"
+      },
+      {
+        "start": 122,
+        "end": 136,
+        "text": "cold tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 142,
+        "end": 158,
+        "text": "wild-type plants",
+        "label": "VAR"
+      },
+      {
+        "start": 160,
+        "end": 167,
+        "text": "SNP-911",
+        "label": "MRK"
+      },
+      {
+        "start": 221,
+        "end": 229,
+        "text": "SbERF027",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "wild-type plants",
+        "head_start": 142,
+        "head_end": 158,
+        "head_type": "VAR",
+        "tail": "cold tolerance",
+        "tail_start": 122,
+        "tail_end": 136,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "SbERF027",
+        "head_start": 0,
+        "head_end": 8,
+        "head_type": "GENE",
+        "tail": "cold tolerance",
+        "tail_start": 122,
+        "tail_end": 136,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "SNP-911",
+        "head_start": 160,
+        "head_end": 167,
+        "head_type": "MRK",
+        "tail": "cold tolerance",
+        "tail_start": 122,
+        "tail_end": 136,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "The major QTL qSiMS6.1 was delimited to a 186-kb interval between markers SiM20 and SiM9. Millet_GLEAN_10020454 in this region is the candidate gene for qSiMS6.1, encoding a male-sterile 5 like protein.",
+    "entities": [
+      {
+        "start": 14,
+        "end": 22,
+        "text": "qSiMS6.1",
+        "label": "QTL"
+      },
+      {
+        "start": 74,
+        "end": 79,
+        "text": "SiM20",
+        "label": "MRK"
+      },
+      {
+        "start": 84,
+        "end": 88,
+        "text": "SiM9",
+        "label": "MRK"
+      },
+      {
+        "start": 90,
+        "end": 111,
+        "text": "Millet_GLEAN_10020454",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "SiM20",
+        "head_start": 74,
+        "head_end": 79,
+        "head_type": "MRK",
+        "tail": "qSiMS6.1",
+        "tail_start": 14,
+        "tail_end": 22,
+        "tail_type": "QTL",
+        "label": "LOI"
+      },
+      {
+        "head": "SiM9",
+        "head_start": 84,
+        "head_end": 88,
+        "head_type": "MRK",
+        "tail": "qSiMS6.1",
+        "tail_start": 14,
+        "tail_end": 22,
+        "tail_type": "QTL",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "DArT markers detected 30 QTLs for pod and seed traits, explaining 1.8-13.0% phenotypic variation. Major QTLs were identified: qPeN2.2 for peduncle number per plant on chromosome 2, qPoL3 for pod length on chromosome 3, qSB4 for seed breadth on chromosome 4, qSL7.2 for seed length on chromosome 7, and qST9 for seed thickness on chromosome 9.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "text": "DArT markers",
+        "label": "MRK"
+      },
+      {
+        "start": 34,
+        "end": 37,
+        "text": "pod",
+        "label": "TRT"
+      },
+      {
+        "start": 42,
+        "end": 53,
+        "text": "seed traits",
+        "label": "TRT"
+      },
+      {
+        "start": 126,
+        "end": 133,
+        "text": "qPeN2.2",
+        "label": "QTL"
+      },
+      {
+        "start": 138,
+        "end": 163,
+        "text": "peduncle number per plant",
+        "label": "TRT"
+      },
+      {
+        "start": 167,
+        "end": 179,
+        "text": "chromosome 2",
+        "label": "CHR"
+      },
+      {
+        "start": 181,
+        "end": 186,
+        "text": "qPoL3",
+        "label": "QTL"
+      },
+      {
+        "start": 191,
+        "end": 201,
+        "text": "pod length",
+        "label": "TRT"
+      },
+      {
+        "start": 205,
+        "end": 217,
+        "text": "chromosome 3",
+        "label": "CHR"
+      },
+      {
+        "start": 219,
+        "end": 223,
+        "text": "qSB4",
+        "label": "QTL"
+      },
+      {
+        "start": 244,
+        "end": 256,
+        "text": "chromosome 4",
+        "label": "CHR"
+      },
+      {
+        "start": 258,
+        "end": 264,
+        "text": "qSL7.2",
+        "label": "QTL"
+      },
+      {
+        "start": 284,
+        "end": 296,
+        "text": "chromosome 7",
+        "label": "CHR"
+      },
+      {
+        "start": 302,
+        "end": 306,
+        "text": "qST9",
+        "label": "QTL"
+      },
+      {
+        "start": 329,
+        "end": 341,
+        "text": "chromosome 9",
+        "label": "CHR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "DArT markers",
+        "head_start": 0,
+        "head_end": 12,
+        "head_type": "MRK",
+        "tail": "pod",
+        "tail_start": 34,
+        "tail_end": 37,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "DArT markers",
+        "head_start": 0,
+        "head_end": 12,
+        "head_type": "MRK",
+        "tail": "seed traits",
+        "tail_start": 42,
+        "tail_end": 53,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "qPeN2.2",
+        "head_start": 126,
+        "head_end": 133,
+        "head_type": "QTL",
+        "tail": "peduncle number per plant",
+        "tail_start": 138,
+        "tail_end": 163,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "qPeN2.2",
+        "head_start": 126,
+        "head_end": 133,
+        "head_type": "QTL",
+        "tail": "chromosome 2",
+        "tail_start": 167,
+        "tail_end": 179,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "qPeN2.2",
+        "head_start": 126,
+        "head_end": 133,
+        "head_type": "QTL",
+        "tail": "pod length",
+        "tail_start": 191,
+        "tail_end": 201,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "qPoL3",
+        "head_start": 181,
+        "head_end": 186,
+        "head_type": "QTL",
+        "tail": "pod length",
+        "tail_start": 191,
+        "tail_end": 201,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "qPoL3",
+        "head_start": 181,
+        "head_end": 186,
+        "head_type": "QTL",
+        "tail": "chromosome 3",
+        "tail_start": 205,
+        "tail_end": 217,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "qSB4",
+        "head_start": 219,
+        "head_end": 223,
+        "head_type": "QTL",
+        "tail": "chromosome 4",
+        "tail_start": 244,
+        "tail_end": 256,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "qSL7.2",
+        "head_start": 258,
+        "head_end": 264,
+        "head_type": "QTL",
+        "tail": "chromosome 7",
+        "tail_start": 284,
+        "tail_end": 296,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "qST9",
+        "head_start": 302,
+        "head_end": 306,
+        "head_type": "QTL",
+        "tail": "chromosome 9",
+        "tail_start": 329,
+        "tail_end": 341,
+        "tail_type": "CHR",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "Cis-acting elements ABRE, MYB, ARE, and STRE were identified in the promoters of HvASRs. The expression of HvASRs was influenced by salt, osmotic, and ABA treatments in barley seedling roots and leaves.",
+    "entities": [
+      {
+        "start": 81,
+        "end": 87,
+        "text": "HvASRs",
+        "label": "GENE"
+      },
+      {
+        "start": 132,
+        "end": 136,
+        "text": "salt",
+        "label": "ABS"
+      },
+      {
+        "start": 138,
+        "end": 145,
+        "text": "osmotic",
+        "label": "ABS"
+      },
+      {
+        "start": 151,
+        "end": 165,
+        "text": "ABA treatments",
+        "label": "ABS"
+      },
+      {
+        "start": 169,
+        "end": 175,
+        "text": "barley",
+        "label": "CROP"
+      }
+    ],
+    "relations": [
+      {
+        "head": "salt",
+        "head_start": 132,
+        "head_end": 136,
+        "head_type": "ABS",
+        "tail": "HvASRs",
+        "tail_start": 81,
+        "tail_end": 87,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "osmotic",
+        "head_start": 138,
+        "head_end": 145,
+        "head_type": "ABS",
+        "tail": "HvASRs",
+        "tail_start": 81,
+        "tail_end": 87,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "ABA treatments",
+        "head_start": 151,
+        "head_end": 165,
+        "head_type": "ABS",
+        "tail": "HvASRs",
+        "tail_start": 81,
+        "tail_end": 87,
+        "tail_type": "GENE",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Understanding the genetic function of forage quality-related traits, including crude protein (CP), neutral detergent fiber (NDF), acid detergent fiber (ADF), hemicellulose (HC), and cellulose (CL) contents, is essential for identifying forage quality genes and selecting effective molecular markers in sorghum. In this study, 245 sorghum accessions were genotyped using 85,585 single-nucleotide polymorphisms (SNPs), and phenotypic data were obtained from four environments.",
+    "entities": [
+      {
+        "start": 79,
+        "end": 97,
+        "text": "crude protein (CP)",
+        "label": "TRT"
+      },
+      {
+        "start": 99,
+        "end": 128,
+        "text": "neutral detergent fiber (NDF)",
+        "label": "TRT"
+      },
+      {
+        "start": 130,
+        "end": 156,
+        "text": "acid detergent fiber (ADF)",
+        "label": "TRT"
+      },
+      {
+        "start": 158,
+        "end": 176,
+        "text": "hemicellulose (HC)",
+        "label": "TRT"
+      },
+      {
+        "start": 182,
+        "end": 205,
+        "text": "cellulose (CL) contents",
+        "label": "TRT"
+      },
+      {
+        "start": 302,
+        "end": 309,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 377,
+        "end": 415,
+        "text": "single-nucleotide polymorphisms (SNPs)",
+        "label": "MRK"
+      },
+      {
+        "start": 456,
+        "end": 473,
+        "text": "four environments",
+        "label": "GST"
+      }
+    ],
+    "relations": [
+      {
+        "head": "sorghum",
+        "head_start": 302,
+        "head_end": 309,
+        "head_type": "CROP",
+        "tail": "crude protein (CP)",
+        "tail_start": 79,
+        "tail_end": 97,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "sorghum",
+        "head_start": 302,
+        "head_end": 309,
+        "head_type": "CROP",
+        "tail": "neutral detergent fiber (NDF)",
+        "tail_start": 99,
+        "tail_end": 128,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "sorghum",
+        "head_start": 302,
+        "head_end": 309,
+        "head_type": "CROP",
+        "tail": "acid detergent fiber (ADF)",
+        "tail_start": 130,
+        "tail_end": 156,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "sorghum",
+        "head_start": 302,
+        "head_end": 309,
+        "head_type": "CROP",
+        "tail": "hemicellulose (HC)",
+        "tail_start": 158,
+        "tail_end": 176,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "sorghum",
+        "head_start": 302,
+        "head_end": 309,
+        "head_type": "CROP",
+        "tail": "cellulose (CL) contents",
+        "tail_start": 182,
+        "tail_end": 205,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "single-nucleotide polymorphisms (SNPs)",
+        "head_start": 377,
+        "head_end": 415,
+        "head_type": "MRK",
+        "tail": "crude protein (CP)",
+        "tail_start": 79,
+        "tail_end": 97,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "single-nucleotide polymorphisms (SNPs)",
+        "head_start": 377,
+        "head_end": 415,
+        "head_type": "MRK",
+        "tail": "neutral detergent fiber (NDF)",
+        "tail_start": 99,
+        "tail_end": 128,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "single-nucleotide polymorphisms (SNPs)",
+        "head_start": 377,
+        "head_end": 415,
+        "head_type": "MRK",
+        "tail": "acid detergent fiber (ADF)",
+        "tail_start": 130,
+        "tail_end": 156,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "single-nucleotide polymorphisms (SNPs)",
+        "head_start": 377,
+        "head_end": 415,
+        "head_type": "MRK",
+        "tail": "hemicellulose (HC)",
+        "tail_start": 158,
+        "tail_end": 176,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "single-nucleotide polymorphisms (SNPs)",
+        "head_start": 377,
+        "head_end": 415,
+        "head_type": "MRK",
+        "tail": "cellulose (CL) contents",
+        "tail_start": 182,
+        "tail_end": 205,
+        "tail_type": "TRT",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "The map length was 1010.18 cM across 11 linkage groups. 58 QTLs were detected for plant height, maximum leaf area, biomass, relative water content, days to first flowering, and seed yield, and 5 QTLs for drought tolerance index, across irrigated and drought environments at two locations. 38 QTLs were consistently detected two or more times.",
+    "entities": [
+      {
+        "start": 59,
+        "end": 63,
+        "text": "QTLs",
+        "label": "QTL"
+      },
+      {
+        "start": 82,
+        "end": 94,
+        "text": "plant height",
+        "label": "TRT"
+      },
+      {
+        "start": 96,
+        "end": 113,
+        "text": "maximum leaf area",
+        "label": "TRT"
+      },
+      {
+        "start": 115,
+        "end": 122,
+        "text": "biomass",
+        "label": "TRT"
+      },
+      {
+        "start": 124,
+        "end": 146,
+        "text": "relative water content",
+        "label": "TRT"
+      },
+      {
+        "start": 148,
+        "end": 171,
+        "text": "days to first flowering",
+        "label": "TRT"
+      },
+      {
+        "start": 177,
+        "end": 187,
+        "text": "seed yield",
+        "label": "TRT"
+      },
+      {
+        "start": 195,
+        "end": 199,
+        "text": "QTLs",
+        "label": "QTL"
+      },
+      {
+        "start": 204,
+        "end": 227,
+        "text": "drought tolerance index",
+        "label": "TRT"
+      },
+      {
+        "start": 292,
+        "end": 296,
+        "text": "QTLs",
+        "label": "QTL"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QTLs",
+        "head_start": 59,
+        "head_end": 63,
+        "head_type": "QTL",
+        "tail": "plant height",
+        "tail_start": 82,
+        "tail_end": 94,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 59,
+        "head_end": 63,
+        "head_type": "QTL",
+        "tail": "maximum leaf area",
+        "tail_start": 96,
+        "tail_end": 113,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 59,
+        "head_end": 63,
+        "head_type": "QTL",
+        "tail": "biomass",
+        "tail_start": 115,
+        "tail_end": 122,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 59,
+        "head_end": 63,
+        "head_type": "QTL",
+        "tail": "relative water content",
+        "tail_start": 124,
+        "tail_end": 146,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 59,
+        "head_end": 63,
+        "head_type": "QTL",
+        "tail": "drought tolerance index",
+        "tail_start": 204,
+        "tail_end": 227,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 59,
+        "head_end": 63,
+        "head_type": "QTL",
+        "tail": "seed yield",
+        "tail_start": 177,
+        "tail_end": 187,
+        "tail_type": "TRT",
+        "label": "LOI"
+      }
+    ]
+  }
+]

@@ -1,0 +1,460 @@
+[
+  {
+    "text": "Transcriptome analysis identified 588 differentially expressed genes (DEGs), with 383 up-regulated and 205 down-regulated. The DEGs were associated with ribosomes, plant hormone signal transduction, and photosynthesis. Additionally, 549 differentially expressed proteins (DEPs) were identified in maize leaves under both monocropping and maize-peanut intercropping systems.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "text": "Transcriptome",
+        "label": "BM"
+      },
+      {
+        "start": 297,
+        "end": 302,
+        "text": "maize",
+        "label": "CROP"
+      },
+      {
+        "start": 321,
+        "end": 333,
+        "text": "monocropping",
+        "label": "BM"
+      },
+      {
+        "start": 338,
+        "end": 372,
+        "text": "maize-peanut intercropping systems",
+        "label": "BM"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Diverse sources of tolerance and contrasting lines can be used for sorghum improvement programs through crossing to obtain extreme phenotypes. High yielding and drought tolerant lines were abundant among accessions from lowland areas, implying targeted collection from these areas is important for improving drought adaptation of sorghum.",
+    "entities": [
+      {
+        "start": 67,
+        "end": 74,
+        "text": "sorghum",
+        "label": "CROP"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Promoter analysis revealed stress-responsive cis-regulatory elements (MYB, MYC, ARE, MBS), implicating AsaPP2Cs in biotic stress adaptation. Transcriptomic data identified seven differentially expressed AsaPP2C genes: Asa_chr6Dg00217, Asa_chr6Ag01950, Asa_chr3Ag01998, Asa_chr5Ag00079, Asa_chr4Cg03270, Asa_chr6Cg02197, and Asa_chr7Dg02992, validated via qRT-PCR.",
+    "entities": [
+      {
+        "start": 103,
+        "end": 111,
+        "text": "AsaPP2Cs",
+        "label": "GENE"
+      },
+      {
+        "start": 115,
+        "end": 128,
+        "text": "biotic stress",
+        "label": "BIS"
+      },
+      {
+        "start": 218,
+        "end": 233,
+        "text": "Asa_chr6Dg00217",
+        "label": "GENE"
+      },
+      {
+        "start": 235,
+        "end": 250,
+        "text": "Asa_chr6Ag01950",
+        "label": "GENE"
+      },
+      {
+        "start": 252,
+        "end": 267,
+        "text": "Asa_chr3Ag01998",
+        "label": "GENE"
+      },
+      {
+        "start": 269,
+        "end": 284,
+        "text": "Asa_chr5Ag00079",
+        "label": "GENE"
+      },
+      {
+        "start": 286,
+        "end": 301,
+        "text": "Asa_chr4Cg03270",
+        "label": "GENE"
+      },
+      {
+        "start": 303,
+        "end": 318,
+        "text": "Asa_chr6Cg02197",
+        "label": "GENE"
+      },
+      {
+        "start": 324,
+        "end": 339,
+        "text": "Asa_chr7Dg02992",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "biotic stress",
+        "head_start": 115,
+        "head_end": 128,
+        "head_type": "BIS",
+        "tail": "AsaPP2Cs",
+        "tail_start": 103,
+        "tail_end": 111,
+        "tail_type": "GENE",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "DPY1 is phosphorylated and activated in response to osmotic stress. DPY1 is required for osmotic stress-induced phosphorylation events, including phosphorylation of SnRK2s. DPY1 acts upstream of SAPK6 and is required for full SAPK6 activation, regulating downstream genes in response to drought stress.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "text": "DPY1",
+        "label": "GENE"
+      },
+      {
+        "start": 68,
+        "end": 72,
+        "text": "DPY1",
+        "label": "GENE"
+      },
+      {
+        "start": 89,
+        "end": 111,
+        "text": "osmotic stress-induced",
+        "label": "ABS"
+      },
+      {
+        "start": 165,
+        "end": 171,
+        "text": "SnRK2s",
+        "label": "GENE"
+      },
+      {
+        "start": 173,
+        "end": 177,
+        "text": "DPY1",
+        "label": "GENE"
+      },
+      {
+        "start": 195,
+        "end": 200,
+        "text": "SAPK6",
+        "label": "GENE"
+      },
+      {
+        "start": 226,
+        "end": 231,
+        "text": "SAPK6",
+        "label": "GENE"
+      },
+      {
+        "start": 287,
+        "end": 301,
+        "text": "drought stress",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "DPY1",
+        "head_start": 0,
+        "head_end": 4,
+        "head_type": "GENE",
+        "tail": "SnRK2s",
+        "tail_start": 165,
+        "tail_end": 171,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "DPY1",
+        "head_start": 0,
+        "head_end": 4,
+        "head_type": "GENE",
+        "tail": "SAPK6",
+        "tail_start": 195,
+        "tail_end": 200,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "DPY1",
+        "head_start": 0,
+        "head_end": 4,
+        "head_type": "GENE",
+        "tail": "drought stress",
+        "tail_start": 287,
+        "tail_end": 301,
+        "tail_type": "ABS",
+        "label": "AFF"
+      },
+      {
+        "head": "osmotic stress-induced",
+        "head_start": 89,
+        "head_end": 111,
+        "head_type": "ABS",
+        "tail": "drought stress",
+        "tail_start": 287,
+        "tail_end": 301,
+        "tail_type": "ABS",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Pearl millet is tolerant to heat and drought. It can be used to identify heat-resistant genes.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "text": "Pearl millet",
+        "label": "CROP"
+      },
+      {
+        "start": 28,
+        "end": 32,
+        "text": "heat",
+        "label": "ABS"
+      },
+      {
+        "start": 37,
+        "end": 44,
+        "text": "drought",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "heat",
+        "head_start": 28,
+        "head_end": 32,
+        "head_type": "ABS",
+        "tail": "Pearl millet",
+        "tail_start": 0,
+        "tail_end": 12,
+        "tail_type": "CROP",
+        "label": "AFF"
+      },
+      {
+        "head": "drought",
+        "head_start": 37,
+        "head_end": 44,
+        "head_type": "ABS",
+        "tail": "Pearl millet",
+        "tail_start": 0,
+        "tail_end": 12,
+        "tail_type": "CROP",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Stacking resistant alleles from zero to five significantly decreased DON values and increased germination ability. The haplotype information of historical and modern Nordic varieties was analyzed and can be used to select parents for crossings.",
+    "entities": [
+      {
+        "start": 94,
+        "end": 113,
+        "text": "germination ability",
+        "label": "TRT"
+      },
+      {
+        "start": 166,
+        "end": 182,
+        "text": "Nordic varieties",
+        "label": "VAR"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "LN improved the expression of flavonoid biosynthetic genes. The transcriptional regulation mediated by MYB and bHLH was analyzed. 78 transcription factors, 124 small secreted peptides and 38 receptor-like protein kinases encoding genes were involved in LN response.",
+    "entities": [
+      {
+        "start": 30,
+        "end": 58,
+        "text": "flavonoid biosynthetic genes",
+        "label": "GENE"
+      },
+      {
+        "start": 103,
+        "end": 106,
+        "text": "MYB",
+        "label": "GENE"
+      },
+      {
+        "start": 111,
+        "end": 115,
+        "text": "bHLH",
+        "label": "GENE"
+      },
+      {
+        "start": 133,
+        "end": 154,
+        "text": "transcription factors",
+        "label": "GENE"
+      },
+      {
+        "start": 160,
+        "end": 183,
+        "text": "small secreted peptides",
+        "label": "GENE"
+      },
+      {
+        "start": 191,
+        "end": 235,
+        "text": "receptor-like protein kinases encoding genes",
+        "label": "GENE"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "A population of 184 recombinant inbred lines (RILs) was derived from the cross E36-1 x SPV570. The RILs and parents were phenotyped for yield component traits in field and root traits in an above ground rhizotron. High heritability and genetic advance were estimated for all root traits and most yield traits.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 44,
+        "text": "184 recombinant inbred lines",
+        "label": "CROSS"
+      },
+      {
+        "start": 46,
+        "end": 50,
+        "text": "RILs",
+        "label": "CROSS"
+      },
+      {
+        "start": 79,
+        "end": 93,
+        "text": "E36-1 x SPV570",
+        "label": "CROSS"
+      },
+      {
+        "start": 136,
+        "end": 158,
+        "text": "yield component traits",
+        "label": "TRT"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "In class U, CqGSTU22, CqGSTU67, CqGSTU43, CqGSTU42, and CqGSTU15 were strongly expressed in various tissues and organs. In class L, CqGSTL1 and CqGSTL5 were strongly expressed. In class Z, CqGSTZ5 was strongly expressed. In DHAR class, CqDHAR2 and CqDHAR3 were strongly expressed. CqGSTU66, CqGSTF20, and CqGSTF23 were not expressed in the tested tissues or organs.",
+    "entities": [
+      {
+        "start": 12,
+        "end": 20,
+        "text": "CqGSTU22",
+        "label": "GENE"
+      },
+      {
+        "start": 22,
+        "end": 30,
+        "text": "CqGSTU67",
+        "label": "GENE"
+      },
+      {
+        "start": 32,
+        "end": 40,
+        "text": "CqGSTU43",
+        "label": "GENE"
+      },
+      {
+        "start": 42,
+        "end": 50,
+        "text": "CqGSTU42",
+        "label": "GENE"
+      },
+      {
+        "start": 56,
+        "end": 64,
+        "text": "CqGSTU15",
+        "label": "GENE"
+      },
+      {
+        "start": 132,
+        "end": 139,
+        "text": "CqGSTL1",
+        "label": "GENE"
+      },
+      {
+        "start": 144,
+        "end": 151,
+        "text": "CqGSTL5",
+        "label": "GENE"
+      },
+      {
+        "start": 189,
+        "end": 196,
+        "text": "CqGSTZ5",
+        "label": "GENE"
+      },
+      {
+        "start": 236,
+        "end": 243,
+        "text": "CqDHAR2",
+        "label": "GENE"
+      },
+      {
+        "start": 248,
+        "end": 255,
+        "text": "CqDHAR3",
+        "label": "GENE"
+      },
+      {
+        "start": 281,
+        "end": 289,
+        "text": "CqGSTU66",
+        "label": "GENE"
+      },
+      {
+        "start": 291,
+        "end": 299,
+        "text": "CqGSTF20",
+        "label": "GENE"
+      },
+      {
+        "start": 305,
+        "end": 313,
+        "text": "CqGSTF23",
+        "label": "GENE"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "The R2R3-MYB transcription factor FtMYB43 positively regulates procyanidin synthesis. The glycoside hydrolase gene FtSAGH1 is responsible for releasing active salicylic acid, which is a precursor of aspirin and is involved in plant defence.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 12,
+        "text": "R2R3-MYB",
+        "label": "GENE"
+      },
+      {
+        "start": 34,
+        "end": 41,
+        "text": "FtMYB43",
+        "label": "GENE"
+      },
+      {
+        "start": 115,
+        "end": 122,
+        "text": "FtSAGH1",
+        "label": "GENE"
+      }
+    ],
+    "relations": []
+  }
+]

@@ -1,0 +1,647 @@
+[
+  {
+    "text": "QTLs qPH5A and qMLA2A were consistently identified in intervals from GMES5773 to MUS128 on LG05 and from Mchr11-34 to HAAS_VR_1812 on LG02 across four environments. They contributed 6.40-20.06% and 6.97-7.94% of phenotypic variation, respectively. These QTLs did not share loci with previously identified drought-related loci.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "text": "qPH5A",
+        "label": "QTL"
+      },
+      {
+        "start": 15,
+        "end": 21,
+        "text": "qMLA2A",
+        "label": "QTL"
+      },
+      {
+        "start": 134,
+        "end": 138,
+        "text": "LG02",
+        "label": "CHR"
+      },
+      {
+        "start": 305,
+        "end": 320,
+        "text": "drought-related",
+        "label": "ABS"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "The salt tolerance-related genes are well studied in Arabidopsis and soybean, but limited in mungbean. We mined salt tolerance related genes using the survival rate trait and 160,1405 SNPs in 112 mungbean accessions. VrFRO8 significantly associated with salt-stress were identified in the GWAS analysis.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 32,
+        "text": "salt tolerance-related genes",
+        "label": "GENE"
+      },
+      {
+        "start": 53,
+        "end": 64,
+        "text": "Arabidopsis",
+        "label": "CROP"
+      },
+      {
+        "start": 69,
+        "end": 76,
+        "text": "soybean",
+        "label": "CROP"
+      },
+      {
+        "start": 93,
+        "end": 101,
+        "text": "mungbean",
+        "label": "CROP"
+      },
+      {
+        "start": 112,
+        "end": 140,
+        "text": "salt tolerance related genes",
+        "label": "GENE"
+      },
+      {
+        "start": 217,
+        "end": 223,
+        "text": "VrFRO8",
+        "label": "GENE"
+      },
+      {
+        "start": 254,
+        "end": 265,
+        "text": "salt-stress",
+        "label": "ABS"
+      },
+      {
+        "start": 289,
+        "end": 293,
+        "text": "GWAS",
+        "label": "BM"
+      }
+    ],
+    "relations": [
+      {
+        "head": "salt-stress",
+        "head_start": 254,
+        "head_end": 265,
+        "head_type": "ABS",
+        "tail": "VrFRO8",
+        "tail_start": 217,
+        "tail_end": 223,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "salt-stress",
+        "head_start": 254,
+        "head_end": 265,
+        "head_type": "ABS",
+        "tail": "salt tolerance related genes",
+        "tail_start": 112,
+        "tail_end": 140,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "salt-stress",
+        "head_start": 254,
+        "head_end": 265,
+        "head_type": "ABS",
+        "tail": "salt tolerance-related genes",
+        "tail_start": 4,
+        "tail_end": 32,
+        "tail_type": "GENE",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "SiPLC1 is a GENE. It is homologous to AtPLC1 and AtPLC3 of Arabidopsis thaliana and to OsPLC4 of Oryza sativa. SiPLC1 is predominantly expressed in roots during the early stem elongation GST. Its expression is upregulated under salt stress ABS.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "SiPLC1",
+        "label": "GENE"
+      },
+      {
+        "start": 38,
+        "end": 44,
+        "text": "AtPLC1",
+        "label": "GENE"
+      },
+      {
+        "start": 49,
+        "end": 55,
+        "text": "AtPLC3",
+        "label": "GENE"
+      },
+      {
+        "start": 59,
+        "end": 79,
+        "text": "Arabidopsis thaliana",
+        "label": "CROP"
+      },
+      {
+        "start": 87,
+        "end": 93,
+        "text": "OsPLC4",
+        "label": "GENE"
+      },
+      {
+        "start": 97,
+        "end": 109,
+        "text": "Oryza sativa",
+        "label": "CROP"
+      },
+      {
+        "start": 111,
+        "end": 117,
+        "text": "SiPLC1",
+        "label": "GENE"
+      },
+      {
+        "start": 228,
+        "end": 243,
+        "text": "salt stress ABS",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "salt stress ABS",
+        "head_start": 228,
+        "head_end": 243,
+        "head_type": "ABS",
+        "tail": "SiPLC1",
+        "tail_start": 0,
+        "tail_end": 6,
+        "tail_type": "GENE",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "We identified 7 SiHKT genes in foxtail millet. Phylogenetic analysis, conserved motif prediction, and gene structure analysis classified these genes into two subfamilies.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 21,
+        "text": "SiHKT",
+        "label": "GENE"
+      },
+      {
+        "start": 31,
+        "end": 45,
+        "text": "foxtail millet",
+        "label": "CROP"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "The alleles per locus ranged from one for CEDG006, CEDG010, CEDG050, CEDG088, CEDG092 and CEDG232 to three for CEDG214. The average was 1.5 alleles per primer. The expected heterozygosity index was 0.29 ranging from 0.15 to 0.49.",
+    "entities": [
+      {
+        "start": 42,
+        "end": 49,
+        "text": "CEDG006",
+        "label": "MRK"
+      },
+      {
+        "start": 51,
+        "end": 58,
+        "text": "CEDG010",
+        "label": "MRK"
+      },
+      {
+        "start": 60,
+        "end": 67,
+        "text": "CEDG050",
+        "label": "MRK"
+      },
+      {
+        "start": 69,
+        "end": 76,
+        "text": "CEDG088",
+        "label": "MRK"
+      },
+      {
+        "start": 78,
+        "end": 85,
+        "text": "CEDG092",
+        "label": "MRK"
+      },
+      {
+        "start": 90,
+        "end": 97,
+        "text": "CEDG232",
+        "label": "MRK"
+      },
+      {
+        "start": 111,
+        "end": 118,
+        "text": "CEDG214",
+        "label": "MRK"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "CqGST genes are distributed on all chromosomes except chromosome 09. Chromosome 07 contains 20 CqGST genes. CqGSTL1 and CqGSTU1 cannot be mapped to specific chromosomes.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "text": "CqGST genes",
+        "label": "GENE"
+      },
+      {
+        "start": 54,
+        "end": 67,
+        "text": "chromosome 09",
+        "label": "CHR"
+      },
+      {
+        "start": 69,
+        "end": 82,
+        "text": "Chromosome 07",
+        "label": "CHR"
+      },
+      {
+        "start": 108,
+        "end": 115,
+        "text": "CqGSTL1",
+        "label": "GENE"
+      },
+      {
+        "start": 120,
+        "end": 127,
+        "text": "CqGSTU1",
+        "label": "GENE"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "F-2 and F-3 populations from a cross between Sorghum virgatum and domesticated sorghum were used. Human selection reshaped sorghum through QTLs with large genetic effects in harvest, plant architecture and grain taste traits, including reduction of shattering, few branches, short stature, and removal of polyphenols from seed. Seed width expansion was selected through small-effect QTLs to improve yield.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "F-2",
+        "label": "VAR"
+      },
+      {
+        "start": 8,
+        "end": 11,
+        "text": "F-3",
+        "label": "VAR"
+      },
+      {
+        "start": 45,
+        "end": 61,
+        "text": "Sorghum virgatum",
+        "label": "CROP"
+      },
+      {
+        "start": 66,
+        "end": 86,
+        "text": "domesticated sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 98,
+        "end": 113,
+        "text": "Human selection",
+        "label": "BM"
+      },
+      {
+        "start": 139,
+        "end": 143,
+        "text": "QTLs",
+        "label": "QTL"
+      },
+      {
+        "start": 174,
+        "end": 181,
+        "text": "harvest",
+        "label": "TRT"
+      },
+      {
+        "start": 183,
+        "end": 201,
+        "text": "plant architecture",
+        "label": "TRT"
+      },
+      {
+        "start": 206,
+        "end": 224,
+        "text": "grain taste traits",
+        "label": "TRT"
+      },
+      {
+        "start": 236,
+        "end": 259,
+        "text": "reduction of shattering",
+        "label": "TRT"
+      },
+      {
+        "start": 261,
+        "end": 273,
+        "text": "few branches",
+        "label": "TRT"
+      },
+      {
+        "start": 275,
+        "end": 288,
+        "text": "short stature",
+        "label": "TRT"
+      },
+      {
+        "start": 294,
+        "end": 326,
+        "text": "removal of polyphenols from seed",
+        "label": "TRT"
+      },
+      {
+        "start": 328,
+        "end": 348,
+        "text": "Seed width expansion",
+        "label": "TRT"
+      },
+      {
+        "start": 370,
+        "end": 387,
+        "text": "small-effect QTLs",
+        "label": "QTL"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QTLs",
+        "head_start": 139,
+        "head_end": 143,
+        "head_type": "QTL",
+        "tail": "harvest",
+        "tail_start": 174,
+        "tail_end": 181,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 139,
+        "head_end": 143,
+        "head_type": "QTL",
+        "tail": "plant architecture",
+        "tail_start": 183,
+        "tail_end": 201,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 139,
+        "head_end": 143,
+        "head_type": "QTL",
+        "tail": "grain taste traits",
+        "tail_start": 206,
+        "tail_end": 224,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 139,
+        "head_end": 143,
+        "head_type": "QTL",
+        "tail": "reduction of shattering",
+        "tail_start": 236,
+        "tail_end": 259,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 139,
+        "head_end": 143,
+        "head_type": "QTL",
+        "tail": "few branches",
+        "tail_start": 261,
+        "tail_end": 273,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 139,
+        "head_end": 143,
+        "head_type": "QTL",
+        "tail": "short stature",
+        "tail_start": 275,
+        "tail_end": 288,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 139,
+        "head_end": 143,
+        "head_type": "QTL",
+        "tail": "removal of polyphenols from seed",
+        "tail_start": 294,
+        "tail_end": 326,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 139,
+        "head_end": 143,
+        "head_type": "QTL",
+        "tail": "Seed width expansion",
+        "tail_start": 328,
+        "tail_end": 348,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Plants with drought tolerance QTLs and higher recurrent parent genome were selfed to produce BC4F3. Under non-irrigated conditions, BC4F3 lines with introgressed QTLs had higher yield than both parents.",
+    "entities": [
+      {
+        "start": 12,
+        "end": 29,
+        "text": "drought tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 30,
+        "end": 34,
+        "text": "QTLs",
+        "label": "QTL"
+      },
+      {
+        "start": 162,
+        "end": 166,
+        "text": "QTLs",
+        "label": "QTL"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "VrFRO8 reduces SOD contents by influencing the Fe2+/Fe3+ ratio under salt stress. This study mined a key gene associated with salt tolerance and constructed a VrFRO8-related PPI network for salt tolerance.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "VrFRO8",
+        "label": "GENE"
+      },
+      {
+        "start": 159,
+        "end": 165,
+        "text": "VrFRO8",
+        "label": "GENE"
+      },
+      {
+        "start": 190,
+        "end": 204,
+        "text": "salt tolerance",
+        "label": "TRT"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Two barley genotypes, XZ20 and XZ25, with different total phenolics content were used. Drought affected 118 phenolic metabolites during the grain developing stage.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 10,
+        "text": "barley",
+        "label": "CROP"
+      },
+      {
+        "start": 22,
+        "end": 26,
+        "text": "XZ20",
+        "label": "VAR"
+      },
+      {
+        "start": 31,
+        "end": 35,
+        "text": "XZ25",
+        "label": "VAR"
+      },
+      {
+        "start": 52,
+        "end": 75,
+        "text": "total phenolics content",
+        "label": "TRT"
+      },
+      {
+        "start": 87,
+        "end": 94,
+        "text": "Drought",
+        "label": "ABS"
+      },
+      {
+        "start": 108,
+        "end": 128,
+        "text": "phenolic metabolites",
+        "label": "TRT"
+      },
+      {
+        "start": 140,
+        "end": 162,
+        "text": "grain developing stage",
+        "label": "GST"
+      }
+    ],
+    "relations": [
+      {
+        "head": "barley",
+        "head_start": 4,
+        "head_end": 10,
+        "head_type": "CROP",
+        "tail": "XZ20",
+        "tail_start": 22,
+        "tail_end": 26,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "barley",
+        "head_start": 4,
+        "head_end": 10,
+        "head_type": "CROP",
+        "tail": "XZ25",
+        "tail_start": 31,
+        "tail_end": 35,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "XZ20",
+        "head_start": 22,
+        "head_end": 26,
+        "head_type": "VAR",
+        "tail": "total phenolics content",
+        "tail_start": 52,
+        "tail_end": 75,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "XZ25",
+        "head_start": 31,
+        "head_end": 35,
+        "head_type": "VAR",
+        "tail": "total phenolics content",
+        "tail_start": 52,
+        "tail_end": 75,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Drought",
+        "head_start": 87,
+        "head_end": 94,
+        "head_type": "ABS",
+        "tail": "phenolic metabolites",
+        "tail_start": 108,
+        "tail_end": 128,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "phenolic metabolites",
+        "head_start": 108,
+        "head_end": 128,
+        "head_type": "TRT",
+        "tail": "grain developing stage",
+        "tail_start": 140,
+        "tail_end": 162,
+        "tail_type": "GST",
+        "label": "OCI"
+      },
+      {
+        "head": "Drought",
+        "head_start": 87,
+        "head_end": 94,
+        "head_type": "ABS",
+        "tail": "grain developing stage",
+        "tail_start": 140,
+        "tail_end": 162,
+        "tail_type": "GST",
+        "label": "OCI"
+      }
+    ]
+  }
+]

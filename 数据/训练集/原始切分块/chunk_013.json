@@ -1,0 +1,510 @@
+[
+  {
+    "text": "SSR markers and agronomical traits analyzed genetic diversity of 142 sweet sorghum parent lines. The lines were clustered into 5 groups based on agronomical traits. Each group is characterized by morphological traits and main origins.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "text": "SSR markers",
+        "label": "MRK"
+      },
+      {
+        "start": 16,
+        "end": 34,
+        "text": "agronomical traits",
+        "label": "TRT"
+      },
+      {
+        "start": 69,
+        "end": 82,
+        "text": "sweet sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 83,
+        "end": 95,
+        "text": "parent lines",
+        "label": "CROSS"
+      },
+      {
+        "start": 196,
+        "end": 216,
+        "text": "morphological traits",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "sweet sorghum",
+        "head_start": 69,
+        "head_end": 82,
+        "head_type": "CROP",
+        "tail": "parent lines",
+        "tail_start": 83,
+        "tail_end": 95,
+        "tail_type": "CROSS",
+        "label": "CON"
+      },
+      {
+        "head": "SSR markers",
+        "head_start": 0,
+        "head_end": 11,
+        "head_type": "MRK",
+        "tail": "agronomical traits",
+        "tail_start": 16,
+        "tail_end": 34,
+        "tail_type": "TRT",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "2326 transcripts contained at least one SSR, with a frequency of one SSR per 1.17 kb. Mono-nucleotide repeats were the most abundant type (45.48%), followed by tri-nucleotide repeats (35.17%).",
+    "entities": [
+      {
+        "start": 40,
+        "end": 43,
+        "text": "SSR",
+        "label": "MRK"
+      },
+      {
+        "start": 69,
+        "end": 72,
+        "text": "SSR",
+        "label": "MRK"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "SiNF-YC2 interacted with SiCO in the nucleus. SiNF-YC2 promotes flowering and improves resistance to salt stress.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "text": "SiNF-YC2",
+        "label": "GENE"
+      },
+      {
+        "start": 46,
+        "end": 54,
+        "text": "SiNF-YC2",
+        "label": "GENE"
+      },
+      {
+        "start": 101,
+        "end": 112,
+        "text": "salt stress",
+        "label": "ABS"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Pc39 is a major race-specific crown rust resistance gene found in an Israeli accession of the wild hexaploid Avena sterilis. Its effectiveness in Europe has decreased but remains relatively high. Molecular markers would aid its mapping and deployment in breeding programs.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "text": "Pc39",
+        "label": "GENE"
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "text": "crown rust",
+        "label": "BIS"
+      },
+      {
+        "start": 69,
+        "end": 86,
+        "text": "Israeli accession",
+        "label": "VAR"
+      },
+      {
+        "start": 94,
+        "end": 123,
+        "text": "wild hexaploid Avena sterilis",
+        "label": "CROP"
+      }
+    ],
+    "relations": [
+      {
+        "head": "wild hexaploid Avena sterilis",
+        "head_start": 94,
+        "head_end": 123,
+        "head_type": "CROP",
+        "tail": "Israeli accession",
+        "tail_start": 69,
+        "tail_end": 86,
+        "tail_type": "VAR",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "Many cultivated soybeans with yellow seed coats lack PAs or anthocyanins. Some soybean cultivars have coloured seed coats that contain these compounds. We analyse the transcriptional control of PA and anthocyanin biosynthesis in soybean.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 24,
+        "text": "soybeans",
+        "label": "CROP"
+      },
+      {
+        "start": 30,
+        "end": 47,
+        "text": "yellow seed coats",
+        "label": "TRT"
+      },
+      {
+        "start": 53,
+        "end": 56,
+        "text": "PAs",
+        "label": "TRT"
+      },
+      {
+        "start": 60,
+        "end": 72,
+        "text": "anthocyanins",
+        "label": "TRT"
+      },
+      {
+        "start": 79,
+        "end": 86,
+        "text": "soybean",
+        "label": "CROP"
+      },
+      {
+        "start": 102,
+        "end": 121,
+        "text": "coloured seed coats",
+        "label": "TRT"
+      },
+      {
+        "start": 111,
+        "end": 121,
+        "text": "seed coats",
+        "label": "TRT"
+      },
+      {
+        "start": 194,
+        "end": 225,
+        "text": "PA and anthocyanin biosynthesis",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "soybeans",
+        "head_start": 16,
+        "head_end": 24,
+        "head_type": "CROP",
+        "tail": "yellow seed coats",
+        "tail_start": 30,
+        "tail_end": 47,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "soybean",
+        "head_start": 79,
+        "head_end": 86,
+        "head_type": "CROP",
+        "tail": "coloured seed coats",
+        "tail_start": 102,
+        "tail_end": 121,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "The study identified the quinoa trihelix family and families associated with salt stress, including Na+/H+ antiporter (NHX) and calcineurin B-like (CBL). Expression analysis identified Cqtrihelix23 as responsive to salt stress. Transient transformation experiments revealed that Cqtrihelix23 enhanced quinoa's tolerance to salt stress by promoting root development, maintaining the antioxidant system, and reducing the Na+/K+ ratio.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 31,
+        "text": "quinoa",
+        "label": "CROP"
+      },
+      {
+        "start": 32,
+        "end": 47,
+        "text": "trihelix family",
+        "label": "GENE"
+      },
+      {
+        "start": 77,
+        "end": 88,
+        "text": "salt stress",
+        "label": "ABS"
+      },
+      {
+        "start": 100,
+        "end": 117,
+        "text": "Na+/H+ antiporter",
+        "label": "GENE"
+      },
+      {
+        "start": 119,
+        "end": 122,
+        "text": "NHX",
+        "label": "GENE"
+      },
+      {
+        "start": 128,
+        "end": 146,
+        "text": "calcineurin B-like",
+        "label": "GENE"
+      },
+      {
+        "start": 148,
+        "end": 151,
+        "text": "CBL",
+        "label": "GENE"
+      },
+      {
+        "start": 185,
+        "end": 197,
+        "text": "Cqtrihelix23",
+        "label": "GENE"
+      },
+      {
+        "start": 279,
+        "end": 291,
+        "text": "Cqtrihelix23",
+        "label": "GENE"
+      },
+      {
+        "start": 348,
+        "end": 364,
+        "text": "root development",
+        "label": "TRT"
+      },
+      {
+        "start": 382,
+        "end": 400,
+        "text": "antioxidant system",
+        "label": "TRT"
+      },
+      {
+        "start": 419,
+        "end": 431,
+        "text": "Na+/K+ ratio",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "quinoa",
+        "head_start": 25,
+        "head_end": 31,
+        "head_type": "CROP",
+        "tail": "Cqtrihelix23",
+        "tail_start": 185,
+        "tail_end": 197,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "Cqtrihelix23",
+        "head_start": 185,
+        "head_end": 197,
+        "head_type": "GENE",
+        "tail": "root development",
+        "tail_start": 348,
+        "tail_end": 364,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Cqtrihelix23",
+        "head_start": 185,
+        "head_end": 197,
+        "head_type": "GENE",
+        "tail": "antioxidant system",
+        "tail_start": 382,
+        "tail_end": 400,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Cqtrihelix23",
+        "head_start": 185,
+        "head_end": 197,
+        "head_type": "GENE",
+        "tail": "Na+/K+ ratio",
+        "tail_start": 419,
+        "tail_end": 431,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Anthocyanin is a natural pigment with functional roles in plants. Foxtail millet (Setaria italica) is a nutritional crop.",
+    "entities": [
+      {
+        "start": 66,
+        "end": 80,
+        "text": "Foxtail millet",
+        "label": "CROP"
+      },
+      {
+        "start": 82,
+        "end": 97,
+        "text": "Setaria italica",
+        "label": "CROP"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "We identified 160 MTAs and 44 durable QTL for nine traits. Each explained 3.7%-43.9% of the variation. Haplotypes from the three most predictive QTL per trait increased the variation explained to 16%-46%.",
+    "entities": [
+      {
+        "start": 38,
+        "end": 41,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 145,
+        "end": 148,
+        "text": "QTL",
+        "label": "QTL"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Integrative breeding targets early maturity, high harvest index, and water use efficiency (WUE) to improve sorghum productivity and mitigate drought effects. These traits guide sorghum improvement for drought tolerance.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 20,
+        "text": "Integrative breeding",
+        "label": "BM"
+      },
+      {
+        "start": 29,
+        "end": 43,
+        "text": "early maturity",
+        "label": "TRT"
+      },
+      {
+        "start": 45,
+        "end": 63,
+        "text": "high harvest index",
+        "label": "TRT"
+      },
+      {
+        "start": 69,
+        "end": 95,
+        "text": "water use efficiency (WUE)",
+        "label": "TRT"
+      },
+      {
+        "start": 107,
+        "end": 127,
+        "text": "sorghum productivity",
+        "label": "TRT"
+      },
+      {
+        "start": 141,
+        "end": 156,
+        "text": "drought effects",
+        "label": "ABS"
+      },
+      {
+        "start": 177,
+        "end": 184,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 201,
+        "end": 218,
+        "text": "drought tolerance",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Integrative breeding",
+        "head_start": 0,
+        "head_end": 20,
+        "head_type": "BM",
+        "tail": "early maturity",
+        "tail_start": 29,
+        "tail_end": 43,
+        "tail_type": "TRT",
+        "label": "USE"
+      },
+      {
+        "head": "Integrative breeding",
+        "head_start": 0,
+        "head_end": 20,
+        "head_type": "BM",
+        "tail": "high harvest index",
+        "tail_start": 45,
+        "tail_end": 63,
+        "tail_type": "TRT",
+        "label": "USE"
+      },
+      {
+        "head": "Integrative breeding",
+        "head_start": 0,
+        "head_end": 20,
+        "head_type": "BM",
+        "tail": "water use efficiency (WUE)",
+        "tail_start": 69,
+        "tail_end": 95,
+        "tail_type": "TRT",
+        "label": "USE"
+      },
+      {
+        "head": "Integrative breeding",
+        "head_start": 0,
+        "head_end": 20,
+        "head_type": "BM",
+        "tail": "sorghum productivity",
+        "tail_start": 107,
+        "tail_end": 127,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "The genetic map was constructed with 85 markers (SSRs, AFLPs, STSs, and Dhn genes) using the MULTIPOINT algorithm. QTL mapping was conducted with the MULTIQTL package.",
+    "entities": [
+      {
+        "start": 49,
+        "end": 53,
+        "text": "SSRs",
+        "label": "MRK"
+      },
+      {
+        "start": 72,
+        "end": 81,
+        "text": "Dhn genes",
+        "label": "GENE"
+      },
+      {
+        "start": 115,
+        "end": 118,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 115,
+        "end": 126,
+        "text": "QTL mapping",
+        "label": "BM"
+      }
+    ],
+    "relations": []
+  }
+]

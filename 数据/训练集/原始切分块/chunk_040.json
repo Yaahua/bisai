@@ -1,0 +1,635 @@
+[
+  {
+    "text": "Twelve QTLs for five foliar diseases were detected on sorghum linkage groups SBI-03, SBI-04, and SBI-06. They accounted for 6.9-44.9% phenotypic variance. The morphological marker Plant color (Plcor) was associated with most QTLs across years and locations.",
+    "entities": [
+      {
+        "start": 7,
+        "end": 11,
+        "text": "QTLs",
+        "label": "QTL"
+      },
+      {
+        "start": 16,
+        "end": 36,
+        "text": "five foliar diseases",
+        "label": "BIS"
+      },
+      {
+        "start": 54,
+        "end": 61,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 77,
+        "end": 83,
+        "text": "SBI-03",
+        "label": "CHR"
+      },
+      {
+        "start": 85,
+        "end": 91,
+        "text": "SBI-04",
+        "label": "CHR"
+      },
+      {
+        "start": 97,
+        "end": 103,
+        "text": "SBI-06",
+        "label": "CHR"
+      },
+      {
+        "start": 180,
+        "end": 199,
+        "text": "Plant color (Plcor)",
+        "label": "TRT"
+      },
+      {
+        "start": 225,
+        "end": 229,
+        "text": "QTLs",
+        "label": "QTL"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QTLs",
+        "head_start": 7,
+        "head_end": 11,
+        "head_type": "QTL",
+        "tail": "Plant color (Plcor)",
+        "tail_start": 180,
+        "tail_end": 199,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 7,
+        "head_end": 11,
+        "head_type": "QTL",
+        "tail": "SBI-03",
+        "tail_start": 77,
+        "tail_end": 83,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 7,
+        "head_end": 11,
+        "head_type": "QTL",
+        "tail": "SBI-04",
+        "tail_start": 85,
+        "tail_end": 91,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 7,
+        "head_end": 11,
+        "head_type": "QTL",
+        "tail": "SBI-06",
+        "tail_start": 97,
+        "tail_end": 103,
+        "tail_type": "CHR",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "Inclusive Composite Interval Mapping (ICIM) mapped QTLs for five forage traits. 18 QTLs were identified for plant height (PH, 4 QTLs), fresh weight (FW, 8 QTLs), dry weight (DW, 3 QTLs), stem diameter (SD, 2 QTLs), and sugar content (SC, 1 QTL).",
+    "entities": [
+      {
+        "start": 0,
+        "end": 43,
+        "text": "Inclusive Composite Interval Mapping (ICIM)",
+        "label": "BM"
+      },
+      {
+        "start": 122,
+        "end": 124,
+        "text": "PH",
+        "label": "TRT"
+      },
+      {
+        "start": 149,
+        "end": 151,
+        "text": "FW",
+        "label": "TRT"
+      },
+      {
+        "start": 174,
+        "end": 176,
+        "text": "DW",
+        "label": "TRT"
+      },
+      {
+        "start": 202,
+        "end": 204,
+        "text": "SD",
+        "label": "TRT"
+      },
+      {
+        "start": 234,
+        "end": 236,
+        "text": "SC",
+        "label": "TRT"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Genes regulating chlorophyll content (CC) and relative water content (RWC) under abiotic stress were screened using WGCNA. Gene-trait correlations were defined as modules, each denoted by a color.",
+    "entities": [
+      {
+        "start": 17,
+        "end": 41,
+        "text": "chlorophyll content (CC)",
+        "label": "TRT"
+      },
+      {
+        "start": 46,
+        "end": 74,
+        "text": "relative water content (RWC)",
+        "label": "TRT"
+      },
+      {
+        "start": 81,
+        "end": 95,
+        "text": "abiotic stress",
+        "label": "ABS"
+      },
+      {
+        "start": 163,
+        "end": 170,
+        "text": "modules",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "abiotic stress",
+        "head_start": 81,
+        "head_end": 95,
+        "head_type": "ABS",
+        "tail": "chlorophyll content (CC)",
+        "tail_start": 17,
+        "tail_end": 41,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "abiotic stress",
+        "head_start": 81,
+        "head_end": 95,
+        "head_type": "ABS",
+        "tail": "relative water content (RWC)",
+        "tail_start": 46,
+        "tail_end": 74,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "The locus explained 15% of phenotypic variance in GWAS and 64% in QTL mapping. Pm13 confers APR, confirmed by comparing field data with laboratory leaf segment tests.",
+    "entities": [
+      {
+        "start": 50,
+        "end": 54,
+        "text": "GWAS",
+        "label": "BM"
+      },
+      {
+        "start": 66,
+        "end": 77,
+        "text": "QTL mapping",
+        "label": "BM"
+      },
+      {
+        "start": 79,
+        "end": 83,
+        "text": "Pm13",
+        "label": "GENE"
+      },
+      {
+        "start": 92,
+        "end": 95,
+        "text": "APR",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Pm13",
+        "head_start": 79,
+        "head_end": 83,
+        "head_type": "GENE",
+        "tail": "APR",
+        "tail_start": 92,
+        "tail_end": 95,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "Blp1 was delimited within a 1.66 Mb region on chromosome 1H by the upstream marker HZSNP63 and the downstream marker HZSNP59. The SLAF-seq-BSA approach identified the candidate region and discovered polymorphic markers.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "text": "Blp1",
+        "label": "QTL"
+      },
+      {
+        "start": 28,
+        "end": 42,
+        "text": "1.66 Mb region",
+        "label": "QTL"
+      },
+      {
+        "start": 46,
+        "end": 59,
+        "text": "chromosome 1H",
+        "label": "CHR"
+      },
+      {
+        "start": 83,
+        "end": 90,
+        "text": "HZSNP63",
+        "label": "MRK"
+      },
+      {
+        "start": 117,
+        "end": 124,
+        "text": "HZSNP59",
+        "label": "MRK"
+      },
+      {
+        "start": 130,
+        "end": 142,
+        "text": "SLAF-seq-BSA",
+        "label": "BM"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Blp1",
+        "head_start": 0,
+        "head_end": 4,
+        "head_type": "QTL",
+        "tail": "1.66 Mb region",
+        "tail_start": 28,
+        "tail_end": 42,
+        "tail_type": "QTL",
+        "label": "LOI"
+      },
+      {
+        "head": "1.66 Mb region",
+        "head_start": 28,
+        "head_end": 42,
+        "head_type": "QTL",
+        "tail": "chromosome 1H",
+        "tail_start": 46,
+        "tail_end": 59,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "HZSNP63",
+        "head_start": 83,
+        "head_end": 90,
+        "head_type": "MRK",
+        "tail": "chromosome 1H",
+        "tail_start": 46,
+        "tail_end": 59,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "HZSNP59",
+        "head_start": 117,
+        "head_end": 124,
+        "head_type": "MRK",
+        "tail": "chromosome 1H",
+        "tail_start": 46,
+        "tail_end": 59,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "SLAF-seq-BSA",
+        "head_start": 130,
+        "head_end": 142,
+        "head_type": "BM",
+        "tail": "1.66 Mb region",
+        "tail_start": 28,
+        "tail_end": 42,
+        "tail_type": "QTL",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "Isolation and analysis confirmed the markers' homology with drought-induced ESTs from cowpea. Two candidates showed homology to a multidrug resistance protein 3 and a photosystem I assembly protein ycf3.",
+    "entities": [
+      {
+        "start": 76,
+        "end": 80,
+        "text": "ESTs",
+        "label": "MRK"
+      },
+      {
+        "start": 86,
+        "end": 92,
+        "text": "cowpea",
+        "label": "CROP"
+      },
+      {
+        "start": 130,
+        "end": 160,
+        "text": "multidrug resistance protein 3",
+        "label": "GENE"
+      },
+      {
+        "start": 167,
+        "end": 202,
+        "text": "photosystem I assembly protein ycf3",
+        "label": "GENE"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Barley yellow dwarf viruses (BYDVs) cause barley yellow dwarf (BYD) disease and affect oat (Avena sativa L.). Oat lacked molecular marker technology for marker-trait association studies to determine genetic tolerance mechanisms.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 27,
+        "text": "Barley yellow dwarf viruses",
+        "label": "BIS"
+      },
+      {
+        "start": 29,
+        "end": 34,
+        "text": "BYDVs",
+        "label": "BIS"
+      },
+      {
+        "start": 42,
+        "end": 61,
+        "text": "barley yellow dwarf",
+        "label": "BIS"
+      },
+      {
+        "start": 63,
+        "end": 66,
+        "text": "BYD",
+        "label": "BIS"
+      },
+      {
+        "start": 87,
+        "end": 90,
+        "text": "oat",
+        "label": "CROP"
+      },
+      {
+        "start": 92,
+        "end": 106,
+        "text": "Avena sativa L",
+        "label": "CROP"
+      },
+      {
+        "start": 110,
+        "end": 113,
+        "text": "Oat",
+        "label": "CROP"
+      },
+      {
+        "start": 121,
+        "end": 137,
+        "text": "molecular marker",
+        "label": "MRK"
+      }
+    ],
+    "relations": [
+      {
+        "head": "oat",
+        "head_start": 87,
+        "head_end": 90,
+        "head_type": "CROP",
+        "tail": "Avena sativa L",
+        "tail_start": 92,
+        "tail_end": 106,
+        "tail_type": "CROP",
+        "label": "CON"
+      },
+      {
+        "head": "BYDVs",
+        "head_start": 29,
+        "head_end": 34,
+        "head_type": "BIS",
+        "tail": "BYD",
+        "tail_start": 63,
+        "tail_end": 66,
+        "tail_type": "BIS",
+        "label": "AFF"
+      },
+      {
+        "head": "Barley yellow dwarf viruses",
+        "head_start": 0,
+        "head_end": 27,
+        "head_type": "BIS",
+        "tail": "barley yellow dwarf",
+        "tail_start": 42,
+        "tail_end": 61,
+        "tail_type": "BIS",
+        "label": "AFF"
+      },
+      {
+        "head": "Barley yellow dwarf viruses",
+        "head_start": 0,
+        "head_end": 27,
+        "head_type": "BIS",
+        "tail": "oat",
+        "tail_start": 87,
+        "tail_end": 90,
+        "tail_type": "CROP",
+        "label": "AFF"
+      },
+      {
+        "head": "BYDVs",
+        "head_start": 29,
+        "head_end": 34,
+        "head_type": "BIS",
+        "tail": "oat",
+        "tail_start": 87,
+        "tail_end": 90,
+        "tail_type": "CROP",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "We highlighted the genetic basis of drought tolerance in sorghum. We also discussed interactions of drought with other abiotic stresses and biotic factors.",
+    "entities": [
+      {
+        "start": 36,
+        "end": 53,
+        "text": "drought tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 57,
+        "end": 64,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 100,
+        "end": 107,
+        "text": "drought",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "sorghum",
+        "head_start": 57,
+        "head_end": 64,
+        "head_type": "CROP",
+        "tail": "drought tolerance",
+        "tail_start": 36,
+        "tail_end": 53,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "The down-regulation of ribosomal protein-related genes causes stunted growth in salt-sensitive accessions. The salt-tolerant accession alleviates salt stress by increasing energy production.",
+    "entities": [
+      {
+        "start": 23,
+        "end": 54,
+        "text": "ribosomal protein-related genes",
+        "label": "GENE"
+      },
+      {
+        "start": 80,
+        "end": 105,
+        "text": "salt-sensitive accessions",
+        "label": "VAR"
+      },
+      {
+        "start": 107,
+        "end": 134,
+        "text": "The salt-tolerant accession",
+        "label": "VAR"
+      },
+      {
+        "start": 146,
+        "end": 157,
+        "text": "salt stress",
+        "label": "ABS"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "A single cytoplasmic source of foxtail millet male sterile lines limits heterosis utilization. To explore cytoplasmic genetic diversity, 23 polymorphic mitochondrial DNA primer pairs were identified from 14 diverse foxtail millet accessions after screening 34 consensus mtDNA primers derived from various plant species.",
+    "entities": [
+      {
+        "start": 31,
+        "end": 45,
+        "text": "foxtail millet",
+        "label": "CROP"
+      },
+      {
+        "start": 46,
+        "end": 64,
+        "text": "male sterile lines",
+        "label": "VAR"
+      },
+      {
+        "start": 72,
+        "end": 93,
+        "text": "heterosis utilization",
+        "label": "TRT"
+      },
+      {
+        "start": 106,
+        "end": 135,
+        "text": "cytoplasmic genetic diversity",
+        "label": "TRT"
+      },
+      {
+        "start": 152,
+        "end": 182,
+        "text": "mitochondrial DNA primer pairs",
+        "label": "MRK"
+      },
+      {
+        "start": 215,
+        "end": 240,
+        "text": "foxtail millet accessions",
+        "label": "VAR"
+      },
+      {
+        "start": 260,
+        "end": 283,
+        "text": "consensus mtDNA primers",
+        "label": "MRK"
+      }
+    ],
+    "relations": [
+      {
+        "head": "foxtail millet",
+        "head_start": 31,
+        "head_end": 45,
+        "head_type": "CROP",
+        "tail": "male sterile lines",
+        "tail_start": 46,
+        "tail_end": 64,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "male sterile lines",
+        "head_start": 46,
+        "head_end": 64,
+        "head_type": "VAR",
+        "tail": "heterosis utilization",
+        "tail_start": 72,
+        "tail_end": 93,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "foxtail millet",
+        "head_start": 31,
+        "head_end": 45,
+        "head_type": "CROP",
+        "tail": "foxtail millet accessions",
+        "tail_start": 215,
+        "tail_end": 240,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "mitochondrial DNA primer pairs",
+        "head_start": 152,
+        "head_end": 182,
+        "head_type": "MRK",
+        "tail": "consensus mtDNA primers",
+        "tail_start": 260,
+        "tail_end": 283,
+        "tail_type": "MRK",
+        "label": "HAS"
+      }
+    ]
+  }
+]

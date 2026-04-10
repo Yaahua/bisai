@@ -1,0 +1,708 @@
+[
+  {
+    "text": "A natural population of 334 barley varieties or lines and a double haploid population from the cross between Tam407227 and Franklin were used to search for new QTL for BYMD resistance. Two major QTL on chromosomes 3H and 7H were detected by genome wide association study and validated in the DH population.",
+    "entities": [
+      {
+        "start": 28,
+        "end": 34,
+        "text": "barley",
+        "label": "CROP"
+      },
+      {
+        "start": 60,
+        "end": 85,
+        "text": "double haploid population",
+        "label": "CROSS"
+      },
+      {
+        "start": 109,
+        "end": 118,
+        "text": "Tam407227",
+        "label": "VAR"
+      },
+      {
+        "start": 123,
+        "end": 131,
+        "text": "Franklin",
+        "label": "VAR"
+      },
+      {
+        "start": 160,
+        "end": 163,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 168,
+        "end": 183,
+        "text": "BYMD resistance",
+        "label": "TRT"
+      },
+      {
+        "start": 195,
+        "end": 198,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 202,
+        "end": 223,
+        "text": "chromosomes 3H and 7H",
+        "label": "CHR"
+      },
+      {
+        "start": 292,
+        "end": 305,
+        "text": "DH population",
+        "label": "CROSS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "barley",
+        "head_start": 28,
+        "head_end": 34,
+        "head_type": "CROP",
+        "tail": "Tam407227",
+        "tail_start": 109,
+        "tail_end": 118,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "barley",
+        "head_start": 28,
+        "head_end": 34,
+        "head_type": "CROP",
+        "tail": "Franklin",
+        "tail_start": 123,
+        "tail_end": 131,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "QTL",
+        "head_start": 160,
+        "head_end": 163,
+        "head_type": "QTL",
+        "tail": "BYMD resistance",
+        "tail_start": 168,
+        "tail_end": 183,
+        "tail_type": "TRT",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "1398 Chinese barley accessions were characterized with molecular markers for vernalization genes HvVRN1 and HvVRN2. Different haplotype combinations at these genes were present at different frequencies in wild barley, landraces and modern cultivars.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 19,
+        "text": "Chinese barley",
+        "label": "CROP"
+      },
+      {
+        "start": 55,
+        "end": 72,
+        "text": "molecular markers",
+        "label": "MRK"
+      },
+      {
+        "start": 97,
+        "end": 103,
+        "text": "HvVRN1",
+        "label": "GENE"
+      },
+      {
+        "start": 108,
+        "end": 114,
+        "text": "HvVRN2",
+        "label": "GENE"
+      },
+      {
+        "start": 205,
+        "end": 216,
+        "text": "wild barley",
+        "label": "VAR"
+      },
+      {
+        "start": 218,
+        "end": 227,
+        "text": "landraces",
+        "label": "VAR"
+      },
+      {
+        "start": 232,
+        "end": 248,
+        "text": "modern cultivars",
+        "label": "VAR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Chinese barley",
+        "head_start": 5,
+        "head_end": 19,
+        "head_type": "CROP",
+        "tail": "wild barley",
+        "tail_start": 205,
+        "tail_end": 216,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "Chinese barley",
+        "head_start": 5,
+        "head_end": 19,
+        "head_type": "CROP",
+        "tail": "landraces",
+        "tail_start": 218,
+        "tail_end": 227,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "Chinese barley",
+        "head_start": 5,
+        "head_end": 19,
+        "head_type": "CROP",
+        "tail": "modern cultivars",
+        "tail_start": 232,
+        "tail_end": 248,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "molecular markers",
+        "head_start": 55,
+        "head_end": 72,
+        "head_type": "MRK",
+        "tail": "HvVRN1",
+        "tail_start": 97,
+        "tail_end": 103,
+        "tail_type": "GENE",
+        "label": "LOI"
+      },
+      {
+        "head": "molecular markers",
+        "head_start": 55,
+        "head_end": 72,
+        "head_type": "MRK",
+        "tail": "HvVRN2",
+        "tail_start": 108,
+        "tail_end": 114,
+        "tail_type": "GENE",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "The analysis of daily growth traits revealed early transient QTL predictive of final phenotypes. It identified known and novel candidate genes associated with growth-related traits and temporal responses to cold stress.",
+    "entities": [
+      {
+        "start": 61,
+        "end": 64,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 207,
+        "end": 218,
+        "text": "cold stress",
+        "label": "ABS"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Major QTLs for heading date, plant height, node number, stem diameter, panicle neck length, and flag leaf width were consistently detected under both photoperiods. Close associations of genomic regions on chromosomes 6 and 7 with multiple traits suggest pleiotropy or tight linkage.",
+    "entities": [
+      {
+        "start": 6,
+        "end": 10,
+        "text": "QTLs",
+        "label": "QTL"
+      },
+      {
+        "start": 15,
+        "end": 27,
+        "text": "heading date",
+        "label": "TRT"
+      },
+      {
+        "start": 29,
+        "end": 41,
+        "text": "plant height",
+        "label": "TRT"
+      },
+      {
+        "start": 43,
+        "end": 54,
+        "text": "node number",
+        "label": "TRT"
+      },
+      {
+        "start": 56,
+        "end": 69,
+        "text": "stem diameter",
+        "label": "TRT"
+      },
+      {
+        "start": 71,
+        "end": 90,
+        "text": "panicle neck length",
+        "label": "TRT"
+      },
+      {
+        "start": 96,
+        "end": 111,
+        "text": "flag leaf width",
+        "label": "TRT"
+      },
+      {
+        "start": 205,
+        "end": 224,
+        "text": "chromosomes 6 and 7",
+        "label": "CHR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QTLs",
+        "head_start": 6,
+        "head_end": 10,
+        "head_type": "QTL",
+        "tail": "heading date",
+        "tail_start": 15,
+        "tail_end": 27,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 6,
+        "head_end": 10,
+        "head_type": "QTL",
+        "tail": "plant height",
+        "tail_start": 29,
+        "tail_end": 41,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 6,
+        "head_end": 10,
+        "head_type": "QTL",
+        "tail": "node number",
+        "tail_start": 43,
+        "tail_end": 54,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 6,
+        "head_end": 10,
+        "head_type": "QTL",
+        "tail": "stem diameter",
+        "tail_start": 56,
+        "tail_end": 69,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 6,
+        "head_end": 10,
+        "head_type": "QTL",
+        "tail": "panicle neck length",
+        "tail_start": 71,
+        "tail_end": 90,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 6,
+        "head_end": 10,
+        "head_type": "QTL",
+        "tail": "flag leaf width",
+        "tail_start": 96,
+        "tail_end": 111,
+        "tail_type": "TRT",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "Whole-genome duplication analysis showed 14 duplication pairs in the MAPK cascade family in foxtail millet, expanded by segmental replication. qRT-PCR results indicated that expression levels of most SiMAPKs and SiMAPKKs changed under exogenous hormone and abiotic stress treatments. SiMAPK3 and SiMAPKK4-2 were induced under almost all treatments, while SiMAPKK5 expression was repressed.",
+    "entities": [
+      {
+        "start": 92,
+        "end": 106,
+        "text": "foxtail millet",
+        "label": "CROP"
+      },
+      {
+        "start": 143,
+        "end": 150,
+        "text": "qRT-PCR",
+        "label": "QTL"
+      },
+      {
+        "start": 257,
+        "end": 271,
+        "text": "abiotic stress",
+        "label": "TRT"
+      },
+      {
+        "start": 284,
+        "end": 291,
+        "text": "SiMAPK3",
+        "label": "GENE"
+      },
+      {
+        "start": 296,
+        "end": 306,
+        "text": "SiMAPKK4-2",
+        "label": "GENE"
+      },
+      {
+        "start": 355,
+        "end": 363,
+        "text": "SiMAPKK5",
+        "label": "GENE"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Another 40 markers showed associations with resistance. These markers are distributed across all seven barley chromosomes. Most markers were grouped into eleven QTL regions. These QTL regions coincide with the locations of most reported resistance genes.",
+    "entities": [
+      {
+        "start": 62,
+        "end": 69,
+        "text": "markers",
+        "label": "MRK"
+      },
+      {
+        "start": 97,
+        "end": 121,
+        "text": "seven barley chromosomes",
+        "label": "CHR"
+      },
+      {
+        "start": 103,
+        "end": 109,
+        "text": "barley",
+        "label": "CROP"
+      },
+      {
+        "start": 180,
+        "end": 191,
+        "text": "QTL regions",
+        "label": "QTL"
+      },
+      {
+        "start": 237,
+        "end": 253,
+        "text": "resistance genes",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "barley",
+        "head_start": 103,
+        "head_end": 109,
+        "head_type": "CROP",
+        "tail": "seven barley chromosomes",
+        "tail_start": 97,
+        "tail_end": 121,
+        "tail_type": "CHR",
+        "label": "CON"
+      },
+      {
+        "head": "markers",
+        "head_start": 62,
+        "head_end": 69,
+        "head_type": "MRK",
+        "tail": "QTL regions",
+        "tail_start": 180,
+        "tail_end": 191,
+        "tail_type": "QTL",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL regions",
+        "head_start": 180,
+        "head_end": 191,
+        "head_type": "QTL",
+        "tail": "seven barley chromosomes",
+        "tail_start": 97,
+        "tail_end": 121,
+        "tail_type": "CHR",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "Tolerant accession Q68 showed superior salt tolerance associated with faster root-specific H2O2 accumulation and reactive oxygen species-induced K+ and Ca2+ fluxes in the root apex within 30 min after NaCl application. This was associated with constitutive up-regulation of membrane-localized receptor kinase regulatory protein FERONIA.",
+    "entities": [
+      {
+        "start": 19,
+        "end": 22,
+        "text": "Q68",
+        "label": "VAR"
+      },
+      {
+        "start": 39,
+        "end": 43,
+        "text": "salt",
+        "label": "ABS"
+      },
+      {
+        "start": 39,
+        "end": 53,
+        "text": "salt tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 77,
+        "end": 108,
+        "text": "root-specific H2O2 accumulation",
+        "label": "TRT"
+      },
+      {
+        "start": 113,
+        "end": 194,
+        "text": "reactive oxygen species-induced K+ and Ca2+ fluxes in the root apex within 30 min",
+        "label": "TRT"
+      },
+      {
+        "start": 195,
+        "end": 217,
+        "text": "after NaCl application",
+        "label": "TRT"
+      },
+      {
+        "start": 201,
+        "end": 205,
+        "text": "NaCl",
+        "label": "ABS"
+      },
+      {
+        "start": 328,
+        "end": 335,
+        "text": "FERONIA",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Q68",
+        "head_start": 19,
+        "head_end": 22,
+        "head_type": "VAR",
+        "tail": "salt tolerance",
+        "tail_start": 39,
+        "tail_end": 53,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "salt",
+        "head_start": 39,
+        "head_end": 43,
+        "head_type": "ABS",
+        "tail": "salt tolerance",
+        "tail_start": 39,
+        "tail_end": 53,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "NaCl",
+        "head_start": 201,
+        "head_end": 205,
+        "head_type": "ABS",
+        "tail": "salt tolerance",
+        "tail_start": 39,
+        "tail_end": 53,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Q68",
+        "head_start": 19,
+        "head_end": 22,
+        "head_type": "VAR",
+        "tail": "root-specific H2O2 accumulation",
+        "tail_start": 77,
+        "tail_end": 108,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Q68",
+        "head_start": 19,
+        "head_end": 22,
+        "head_type": "VAR",
+        "tail": "reactive oxygen species-induced K+ and Ca2+ fluxes in the root apex within 30 min",
+        "tail_start": 113,
+        "tail_end": 194,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "FERONIA",
+        "head_start": 328,
+        "head_end": 335,
+        "head_type": "GENE",
+        "tail": "salt tolerance",
+        "tail_start": 39,
+        "tail_end": 53,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "qRT-PCR analysis indicated that multiple stress-responsive genes expression in transgenic lines was significantly higher than in WT under drought stress. The expression of AtNCED gene in ABA biosynthesis was increased significantly under normal and stress conditions. An ABA-response-element (ABRE) was found in promoter regions.",
+    "entities": [
+      {
+        "start": 138,
+        "end": 152,
+        "text": "drought stress",
+        "label": "ABS"
+      },
+      {
+        "start": 172,
+        "end": 178,
+        "text": "AtNCED",
+        "label": "GENE"
+      },
+      {
+        "start": 187,
+        "end": 203,
+        "text": "ABA biosynthesis",
+        "label": "TRT"
+      },
+      {
+        "start": 271,
+        "end": 298,
+        "text": "ABA-response-element (ABRE)",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "drought stress",
+        "head_start": 138,
+        "head_end": 152,
+        "head_type": "ABS",
+        "tail": "ABA biosynthesis",
+        "tail_start": 187,
+        "tail_end": 203,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "AtNCED",
+        "head_start": 172,
+        "head_end": 178,
+        "head_type": "GENE",
+        "tail": "ABA biosynthesis",
+        "tail_start": 187,
+        "tail_end": 203,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "ABA-response-element (ABRE)",
+        "head_start": 271,
+        "head_end": 298,
+        "head_type": "TRT",
+        "tail": "ABA biosynthesis",
+        "tail_start": 187,
+        "tail_end": 203,
+        "tail_type": "TRT",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "This QTL is likely Rmy16Hb. The three QTL have an additive effect on BYMD resistance, reducing disease scores from 2.45 (all sensitive alleles) to 0.62 (all tolerant alleles).",
+    "entities": [
+      {
+        "start": 5,
+        "end": 8,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 19,
+        "end": 26,
+        "text": "Rmy16Hb",
+        "label": "GENE"
+      },
+      {
+        "start": 38,
+        "end": 41,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 69,
+        "end": 84,
+        "text": "BYMD resistance",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QTL",
+        "head_start": 5,
+        "head_end": 8,
+        "head_type": "QTL",
+        "tail": "BYMD resistance",
+        "tail_start": 69,
+        "tail_end": 84,
+        "tail_type": "TRT",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "Beta-1,3-glucanase (XnhsbmSFC4/SBI-10) is involved in aphid and brown planthopper resistance. It was associated with deadhearts% and leaf glossiness. Comparative QTL analysis revealed common QTL for shoot fly, greenbug, head bug, and midge.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "text": "Beta-1,3-glucanase",
+        "label": "GENE"
+      },
+      {
+        "start": 20,
+        "end": 37,
+        "text": "XnhsbmSFC4/SBI-10",
+        "label": "CHR"
+      },
+      {
+        "start": 54,
+        "end": 59,
+        "text": "aphid",
+        "label": "BIS"
+      },
+      {
+        "start": 210,
+        "end": 218,
+        "text": "greenbug",
+        "label": "BIS"
+      }
+    ],
+    "relations": []
+  }
+]

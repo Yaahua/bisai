@@ -1,0 +1,948 @@
+[
+  {
+    "text": "Three and two QTNs were detected by three and two multi-locus methods, respectively. One QTN on chromosome 5 is associated with CP, NDF, and ADF.",
+    "entities": [
+      {
+        "start": 14,
+        "end": 18,
+        "text": "QTNs",
+        "label": "QTL"
+      },
+      {
+        "start": 89,
+        "end": 92,
+        "text": "QTN",
+        "label": "QTL"
+      },
+      {
+        "start": 96,
+        "end": 108,
+        "text": "chromosome 5",
+        "label": "CHR"
+      },
+      {
+        "start": 128,
+        "end": 130,
+        "text": "CP",
+        "label": "TRT"
+      },
+      {
+        "start": 132,
+        "end": 135,
+        "text": "NDF",
+        "label": "TRT"
+      },
+      {
+        "start": 141,
+        "end": 144,
+        "text": "ADF",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QTNs",
+        "head_start": 14,
+        "head_end": 18,
+        "head_type": "QTL",
+        "tail": "CP",
+        "tail_start": 128,
+        "tail_end": 130,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTNs",
+        "head_start": 14,
+        "head_end": 18,
+        "head_type": "QTL",
+        "tail": "NDF",
+        "tail_start": 132,
+        "tail_end": 135,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTNs",
+        "head_start": 14,
+        "head_end": 18,
+        "head_type": "QTL",
+        "tail": "ADF",
+        "tail_start": 141,
+        "tail_end": 144,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTN",
+        "head_start": 89,
+        "head_end": 92,
+        "head_type": "QTL",
+        "tail": "CP",
+        "tail_start": 128,
+        "tail_end": 130,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTN",
+        "head_start": 89,
+        "head_end": 92,
+        "head_type": "QTL",
+        "tail": "NDF",
+        "tail_start": 132,
+        "tail_end": 135,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTN",
+        "head_start": 89,
+        "head_end": 92,
+        "head_type": "QTL",
+        "tail": "ADF",
+        "tail_start": 141,
+        "tail_end": 144,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTN",
+        "head_start": 89,
+        "head_end": 92,
+        "head_type": "QTL",
+        "tail": "chromosome 5",
+        "tail_start": 96,
+        "tail_end": 108,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTNs",
+        "head_start": 14,
+        "head_end": 18,
+        "head_type": "QTL",
+        "tail": "chromosome 5",
+        "tail_start": 96,
+        "tail_end": 108,
+        "tail_type": "CHR",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "A major seed dormancy QTL in sorghum, qDor7, was fine mapped. The qDor7 locus was delimited to a 96-kb region containing 16 predicted gene models.",
+    "entities": [
+      {
+        "start": 8,
+        "end": 21,
+        "text": "seed dormancy",
+        "label": "TRT"
+      },
+      {
+        "start": 22,
+        "end": 25,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 29,
+        "end": 36,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 38,
+        "end": 43,
+        "text": "qDor7",
+        "label": "QTL"
+      },
+      {
+        "start": 66,
+        "end": 71,
+        "text": "qDor7",
+        "label": "QTL"
+      }
+    ],
+    "relations": [
+      {
+        "head": "sorghum",
+        "head_start": 29,
+        "head_end": 36,
+        "head_type": "CROP",
+        "tail": "seed dormancy",
+        "tail_start": 8,
+        "tail_end": 21,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "QTL",
+        "head_start": 22,
+        "head_end": 25,
+        "head_type": "QTL",
+        "tail": "seed dormancy",
+        "tail_start": 8,
+        "tail_end": 21,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "qDor7",
+        "head_start": 38,
+        "head_end": 43,
+        "head_type": "QTL",
+        "tail": "seed dormancy",
+        "tail_start": 8,
+        "tail_end": 21,
+        "tail_type": "TRT",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "DETs related to hormone signaling (auxins, ethylene, gibberellin, and abscisic acid), kinases, protein modifications, and degradation were identified, indicating roles of hormones and kinases in enhancing salt tolerance. Transcription factors, such as ERF, bHLH, HBP, MADS, MYB, and WRKY, were predicted to regulate transcripts involved in salt stress responses.",
+    "entities": [
+      {
+        "start": 205,
+        "end": 219,
+        "text": "salt tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 340,
+        "end": 351,
+        "text": "salt stress",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "salt stress",
+        "head_start": 340,
+        "head_end": 351,
+        "head_type": "ABS",
+        "tail": "salt tolerance",
+        "tail_start": 205,
+        "tail_end": 219,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "NaCl treatments inhibited growth and photosynthesis more severely in Lvjuren than in Fengtian. Fengtian restricted overaccumulation of Na+ and Cl- in leaf blades more efficiently than Lvjuren. This was attributed to upregulated expressions of SbNHX2, SbHKT1;4, SbHKT1;5, SbCLCc, and SbCLCg or downregulated expression of SbNPF6.4.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "text": "NaCl treatments",
+        "label": "ABS"
+      },
+      {
+        "start": 26,
+        "end": 32,
+        "text": "growth",
+        "label": "TRT"
+      },
+      {
+        "start": 37,
+        "end": 51,
+        "text": "photosynthesis",
+        "label": "TRT"
+      },
+      {
+        "start": 69,
+        "end": 76,
+        "text": "Lvjuren",
+        "label": "VAR"
+      },
+      {
+        "start": 85,
+        "end": 93,
+        "text": "Fengtian",
+        "label": "VAR"
+      },
+      {
+        "start": 95,
+        "end": 103,
+        "text": "Fengtian",
+        "label": "VAR"
+      },
+      {
+        "start": 135,
+        "end": 138,
+        "text": "Na+",
+        "label": "TRT"
+      },
+      {
+        "start": 143,
+        "end": 146,
+        "text": "Cl-",
+        "label": "TRT"
+      },
+      {
+        "start": 184,
+        "end": 191,
+        "text": "Lvjuren",
+        "label": "VAR"
+      },
+      {
+        "start": 243,
+        "end": 249,
+        "text": "SbNHX2",
+        "label": "GENE"
+      },
+      {
+        "start": 251,
+        "end": 259,
+        "text": "SbHKT1;4",
+        "label": "GENE"
+      },
+      {
+        "start": 261,
+        "end": 269,
+        "text": "SbHKT1;5",
+        "label": "GENE"
+      },
+      {
+        "start": 271,
+        "end": 277,
+        "text": "SbCLCc",
+        "label": "GENE"
+      },
+      {
+        "start": 283,
+        "end": 289,
+        "text": "SbCLCg",
+        "label": "GENE"
+      },
+      {
+        "start": 321,
+        "end": 329,
+        "text": "SbNPF6.4",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "NaCl treatments",
+        "head_start": 0,
+        "head_end": 15,
+        "head_type": "ABS",
+        "tail": "growth",
+        "tail_start": 26,
+        "tail_end": 32,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "NaCl treatments",
+        "head_start": 0,
+        "head_end": 15,
+        "head_type": "ABS",
+        "tail": "photosynthesis",
+        "tail_start": 37,
+        "tail_end": 51,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Lvjuren",
+        "head_start": 69,
+        "head_end": 76,
+        "head_type": "VAR",
+        "tail": "growth",
+        "tail_start": 26,
+        "tail_end": 32,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Lvjuren",
+        "head_start": 69,
+        "head_end": 76,
+        "head_type": "VAR",
+        "tail": "photosynthesis",
+        "tail_start": 37,
+        "tail_end": 51,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Lvjuren",
+        "head_start": 69,
+        "head_end": 76,
+        "head_type": "VAR",
+        "tail": "Na+",
+        "tail_start": 135,
+        "tail_end": 138,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Lvjuren",
+        "head_start": 69,
+        "head_end": 76,
+        "head_type": "VAR",
+        "tail": "Cl-",
+        "tail_start": 143,
+        "tail_end": 146,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Fengtian",
+        "head_start": 85,
+        "head_end": 93,
+        "head_type": "VAR",
+        "tail": "growth",
+        "tail_start": 26,
+        "tail_end": 32,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Fengtian",
+        "head_start": 85,
+        "head_end": 93,
+        "head_type": "VAR",
+        "tail": "photosynthesis",
+        "tail_start": 37,
+        "tail_end": 51,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "SbNHX2",
+        "head_start": 243,
+        "head_end": 249,
+        "head_type": "GENE",
+        "tail": "Na+",
+        "tail_start": 135,
+        "tail_end": 138,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "SbHKT1;4",
+        "head_start": 251,
+        "head_end": 259,
+        "head_type": "GENE",
+        "tail": "Na+",
+        "tail_start": 135,
+        "tail_end": 138,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "SbHKT1;5",
+        "head_start": 261,
+        "head_end": 269,
+        "head_type": "GENE",
+        "tail": "Na+",
+        "tail_start": 135,
+        "tail_end": 138,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "SbCLCc",
+        "head_start": 271,
+        "head_end": 277,
+        "head_type": "GENE",
+        "tail": "Cl-",
+        "tail_start": 143,
+        "tail_end": 146,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "SbCLCg",
+        "head_start": 283,
+        "head_end": 289,
+        "head_type": "GENE",
+        "tail": "Cl-",
+        "tail_start": 143,
+        "tail_end": 146,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "SbNPF6.4",
+        "head_start": 321,
+        "head_end": 329,
+        "head_type": "GENE",
+        "tail": "Na+",
+        "tail_start": 135,
+        "tail_end": 138,
+        "tail_type": "TRT",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "SiPLATZ12 overexpression increases Na+ accumulation, decreases K+ accumulation, and lowers vacuolar pH. SiPLATZ12 overexpression represses transcription of most NHX, SOS, and CBL genes.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "text": "SiPLATZ12",
+        "label": "GENE"
+      },
+      {
+        "start": 104,
+        "end": 113,
+        "text": "SiPLATZ12",
+        "label": "GENE"
+      },
+      {
+        "start": 161,
+        "end": 164,
+        "text": "NHX",
+        "label": "GENE"
+      },
+      {
+        "start": 166,
+        "end": 169,
+        "text": "SOS",
+        "label": "GENE"
+      },
+      {
+        "start": 175,
+        "end": 178,
+        "text": "CBL",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "SiPLATZ12",
+        "head_start": 0,
+        "head_end": 9,
+        "head_type": "GENE",
+        "tail": "NHX",
+        "tail_start": 161,
+        "tail_end": 164,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "SiPLATZ12",
+        "head_start": 0,
+        "head_end": 9,
+        "head_type": "GENE",
+        "tail": "SOS",
+        "tail_start": 166,
+        "tail_end": 169,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "SiPLATZ12",
+        "head_start": 0,
+        "head_end": 9,
+        "head_type": "GENE",
+        "tail": "CBL",
+        "tail_start": 175,
+        "tail_end": 178,
+        "tail_type": "GENE",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "The salt-tolerant oat cultivar Vao-9 and the salt-sensitive oat cultivar Bai5 were treated with 150 mmol L-1 salt stress for 6 days. Label-Free technology was used to analyze differentially expressed proteins in leaves.",
+    "entities": [
+      {
+        "start": 18,
+        "end": 21,
+        "text": "oat",
+        "label": "CROP"
+      },
+      {
+        "start": 31,
+        "end": 36,
+        "text": "Vao-9",
+        "label": "VAR"
+      },
+      {
+        "start": 73,
+        "end": 77,
+        "text": "Bai5",
+        "label": "VAR"
+      },
+      {
+        "start": 109,
+        "end": 120,
+        "text": "salt stress",
+        "label": "ABS"
+      },
+      {
+        "start": 133,
+        "end": 154,
+        "text": "Label-Free technology",
+        "label": "BM"
+      }
+    ],
+    "relations": [
+      {
+        "head": "oat",
+        "head_start": 18,
+        "head_end": 21,
+        "head_type": "CROP",
+        "tail": "Vao-9",
+        "tail_start": 31,
+        "tail_end": 36,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "oat",
+        "head_start": 18,
+        "head_end": 21,
+        "head_type": "CROP",
+        "tail": "Bai5",
+        "tail_start": 73,
+        "tail_end": 77,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "salt stress",
+        "head_start": 109,
+        "head_end": 120,
+        "head_type": "ABS",
+        "tail": "Vao-9",
+        "tail_start": 31,
+        "tail_end": 36,
+        "tail_type": "VAR",
+        "label": "AFF"
+      },
+      {
+        "head": "salt stress",
+        "head_start": 109,
+        "head_end": 120,
+        "head_type": "ABS",
+        "tail": "Bai5",
+        "tail_start": 73,
+        "tail_end": 77,
+        "tail_type": "VAR",
+        "label": "AFF"
+      },
+      {
+        "head": "Vao-9",
+        "head_start": 31,
+        "head_end": 36,
+        "head_type": "VAR",
+        "tail": "Label-Free technology",
+        "tail_start": 133,
+        "tail_end": 154,
+        "tail_type": "BM",
+        "label": "USE"
+      },
+      {
+        "head": "Bai5",
+        "head_start": 73,
+        "head_end": 77,
+        "head_type": "VAR",
+        "tail": "Label-Free technology",
+        "tail_start": 133,
+        "tail_end": 154,
+        "tail_type": "BM",
+        "label": "USE"
+      }
+    ]
+  },
+  {
+    "text": "'Dingku-1' had improved plant height, stem diameter, and biomass accumulation after rewatering from a brief drought. 'Xiqiao-2' showed greater tolerance to long-term post-anthesis drought. 'Dingku-1' was less affected by short-term post-anthesis drought.",
+    "entities": [
+      {
+        "start": 1,
+        "end": 9,
+        "text": "Dingku-1",
+        "label": "VAR"
+      },
+      {
+        "start": 24,
+        "end": 36,
+        "text": "plant height",
+        "label": "TRT"
+      },
+      {
+        "start": 57,
+        "end": 77,
+        "text": "biomass accumulation",
+        "label": "TRT"
+      },
+      {
+        "start": 102,
+        "end": 115,
+        "text": "brief drought",
+        "label": "ABS"
+      },
+      {
+        "start": 118,
+        "end": 126,
+        "text": "Xiqiao-2",
+        "label": "VAR"
+      },
+      {
+        "start": 156,
+        "end": 187,
+        "text": "long-term post-anthesis drought",
+        "label": "ABS"
+      },
+      {
+        "start": 190,
+        "end": 198,
+        "text": "Dingku-1",
+        "label": "VAR"
+      },
+      {
+        "start": 232,
+        "end": 245,
+        "text": "post-anthesis",
+        "label": "GST"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Dingku-1",
+        "head_start": 1,
+        "head_end": 9,
+        "head_type": "VAR",
+        "tail": "plant height",
+        "tail_start": 24,
+        "tail_end": 36,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Dingku-1",
+        "head_start": 1,
+        "head_end": 9,
+        "head_type": "VAR",
+        "tail": "biomass accumulation",
+        "tail_start": 57,
+        "tail_end": 77,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "brief drought",
+        "head_start": 102,
+        "head_end": 115,
+        "head_type": "ABS",
+        "tail": "plant height",
+        "tail_start": 24,
+        "tail_end": 36,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "brief drought",
+        "head_start": 102,
+        "head_end": 115,
+        "head_type": "ABS",
+        "tail": "biomass accumulation",
+        "tail_start": 57,
+        "tail_end": 77,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "long-term post-anthesis drought",
+        "head_start": 156,
+        "head_end": 187,
+        "head_type": "ABS",
+        "tail": "post-anthesis",
+        "tail_start": 232,
+        "tail_end": 245,
+        "tail_type": "GST",
+        "label": "OCI"
+      }
+    ]
+  },
+  {
+    "text": "The stabilized hybrid Summer (♀) x Kanlow (♂) (SxK) can be damaged by aphids. Hormone, metabolite, and RNA-Seq analyses delineated defense networks induced by aphid feeding in SxK switchgrass and pinpointed transcription factors (TFs) such as WRKYs that regulate these responses.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 51,
+        "text": "Summer (♀) x Kanlow (♂) (SxK)",
+        "label": "CROSS"
+      },
+      {
+        "start": 70,
+        "end": 76,
+        "text": "aphids",
+        "label": "BIS"
+      },
+      {
+        "start": 103,
+        "end": 110,
+        "text": "RNA-Seq",
+        "label": "BM"
+      },
+      {
+        "start": 159,
+        "end": 164,
+        "text": "aphid",
+        "label": "BIS"
+      },
+      {
+        "start": 180,
+        "end": 191,
+        "text": "switchgrass",
+        "label": "CROP"
+      },
+      {
+        "start": 243,
+        "end": 248,
+        "text": "WRKYs",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "switchgrass",
+        "head_start": 180,
+        "head_end": 191,
+        "head_type": "CROP",
+        "tail": "Summer (♀) x Kanlow (♂) (SxK)",
+        "tail_start": 22,
+        "tail_end": 51,
+        "tail_type": "CROSS",
+        "label": "CON"
+      },
+      {
+        "head": "aphids",
+        "head_start": 70,
+        "head_end": 76,
+        "head_type": "BIS",
+        "tail": "Summer (♀) x Kanlow (♂) (SxK)",
+        "tail_start": 22,
+        "tail_end": 51,
+        "tail_type": "CROSS",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Functional PACE-PCR markers were developed for Wx, wx(a), and wx(b) alleles. The markers are suitable for marker-assisted selection and multiplexed, low-to-mid-density genomic selection. They were validated in segregating populations of three public and private breeding programs.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 19,
+        "text": "Functional PACE-PCR",
+        "label": "MRK"
+      },
+      {
+        "start": 47,
+        "end": 49,
+        "text": "Wx",
+        "label": "GENE"
+      },
+      {
+        "start": 51,
+        "end": 56,
+        "text": "wx(a)",
+        "label": "GENE"
+      },
+      {
+        "start": 62,
+        "end": 67,
+        "text": "wx(b)",
+        "label": "GENE"
+      },
+      {
+        "start": 106,
+        "end": 121,
+        "text": "marker-assisted",
+        "label": "BM"
+      },
+      {
+        "start": 168,
+        "end": 185,
+        "text": "genomic selection",
+        "label": "BM"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Functional PACE-PCR",
+        "head_start": 0,
+        "head_end": 19,
+        "head_type": "MRK",
+        "tail": "Wx",
+        "tail_start": 47,
+        "tail_end": 49,
+        "tail_type": "GENE",
+        "label": "LOI"
+      },
+      {
+        "head": "Functional PACE-PCR",
+        "head_start": 0,
+        "head_end": 19,
+        "head_type": "MRK",
+        "tail": "wx(a)",
+        "tail_start": 51,
+        "tail_end": 56,
+        "tail_type": "GENE",
+        "label": "LOI"
+      },
+      {
+        "head": "Functional PACE-PCR",
+        "head_start": 0,
+        "head_end": 19,
+        "head_type": "MRK",
+        "tail": "wx(b)",
+        "tail_start": 62,
+        "tail_end": 67,
+        "tail_type": "GENE",
+        "label": "LOI"
+      },
+      {
+        "head": "genomic selection",
+        "head_start": 168,
+        "head_end": 185,
+        "head_type": "BM",
+        "tail": "Functional PACE-PCR",
+        "tail_start": 0,
+        "tail_end": 19,
+        "tail_type": "MRK",
+        "label": "USE"
+      },
+      {
+        "head": "marker-assisted",
+        "head_start": 106,
+        "head_end": 121,
+        "head_type": "BM",
+        "tail": "Functional PACE-PCR",
+        "tail_start": 0,
+        "tail_end": 19,
+        "tail_type": "MRK",
+        "label": "USE"
+      }
+    ]
+  },
+  {
+    "text": "Four stable QTL were identified. Eight candidate genes were predicted using RNA-seq and WGCNA.",
+    "entities": [
+      {
+        "start": 12,
+        "end": 15,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 76,
+        "end": 83,
+        "text": "RNA-seq",
+        "label": "BM"
+      }
+    ],
+    "relations": []
+  }
+]

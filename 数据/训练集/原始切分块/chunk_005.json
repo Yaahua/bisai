@@ -1,0 +1,617 @@
+[
+  {
+    "text": "The genetic structure of 142 sorghum parent lines was analyzed using a model-based approach with SSR markers. Forty-one SSR markers were selected from 103 markers. These markers generated 189 alleles, ranging from 2 to 11 per marker, with an average of 4.6.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 49,
+        "text": "142 sorghum parent lines",
+        "label": "CROSS"
+      },
+      {
+        "start": 29,
+        "end": 36,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 97,
+        "end": 108,
+        "text": "SSR markers",
+        "label": "MRK"
+      },
+      {
+        "start": 110,
+        "end": 131,
+        "text": "Forty-one SSR markers",
+        "label": "MRK"
+      },
+      {
+        "start": 151,
+        "end": 162,
+        "text": "103 markers",
+        "label": "MRK"
+      }
+    ],
+    "relations": [
+      {
+        "head": "sorghum",
+        "head_start": 29,
+        "head_end": 36,
+        "head_type": "CROP",
+        "tail": "142 sorghum parent lines",
+        "tail_start": 25,
+        "tail_end": 49,
+        "tail_type": "CROSS",
+        "label": "CON"
+      },
+      {
+        "head": "142 sorghum parent lines",
+        "head_start": 25,
+        "head_end": 49,
+        "head_type": "CROSS",
+        "tail": "SSR markers",
+        "tail_start": 97,
+        "tail_end": 108,
+        "tail_type": "MRK",
+        "label": "USE"
+      },
+      {
+        "head": "103 markers",
+        "head_start": 151,
+        "head_end": 162,
+        "head_type": "MRK",
+        "tail": "Forty-one SSR markers",
+        "tail_start": 110,
+        "tail_end": 131,
+        "tail_type": "MRK",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "The locus N1 controls the covered/hulless character. N1 affected most measured traits. Additive QTL models with N1 as a covariate were superior to models based on separate covered and hulless sub-populations.",
+    "entities": [
+      {
+        "start": 10,
+        "end": 12,
+        "text": "N1",
+        "label": "GENE"
+      },
+      {
+        "start": 26,
+        "end": 51,
+        "text": "covered/hulless character",
+        "label": "TRT"
+      },
+      {
+        "start": 53,
+        "end": 55,
+        "text": "N1",
+        "label": "GENE"
+      },
+      {
+        "start": 112,
+        "end": 114,
+        "text": "N1",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "N1",
+        "head_start": 10,
+        "head_end": 12,
+        "head_type": "GENE",
+        "tail": "covered/hulless character",
+        "tail_start": 26,
+        "tail_end": 51,
+        "tail_type": "TRT",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "Promoter analysis revealed abundant hormone- and stress-responsive cis-elements. Tissue-specific RNA-seq data showed root-enriched expression of SbDIR2, SbDIR4, SbDIR18, SbDIR39, SbDIR44, and SbDIR53, implicating their roles in root development.",
+    "entities": [
+      {
+        "start": 97,
+        "end": 104,
+        "text": "RNA-seq",
+        "label": "BM"
+      },
+      {
+        "start": 145,
+        "end": 151,
+        "text": "SbDIR2",
+        "label": "GENE"
+      },
+      {
+        "start": 153,
+        "end": 159,
+        "text": "SbDIR4",
+        "label": "GENE"
+      },
+      {
+        "start": 161,
+        "end": 168,
+        "text": "SbDIR18",
+        "label": "GENE"
+      },
+      {
+        "start": 170,
+        "end": 177,
+        "text": "SbDIR39",
+        "label": "GENE"
+      },
+      {
+        "start": 179,
+        "end": 186,
+        "text": "SbDIR44",
+        "label": "GENE"
+      },
+      {
+        "start": 192,
+        "end": 199,
+        "text": "SbDIR53",
+        "label": "GENE"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "SbCASP4 improves salt tolerance in sweet sorghum by enhancing the root apoplastic barrier and blocking sodium ion transport to the shoot. Sweet sorghum is a C4 crop tolerant to salt, drought, and waterlogging.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "SbCASP4",
+        "label": "GENE"
+      },
+      {
+        "start": 17,
+        "end": 31,
+        "text": "salt tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 35,
+        "end": 48,
+        "text": "sweet sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 177,
+        "end": 181,
+        "text": "salt",
+        "label": "ABS"
+      },
+      {
+        "start": 183,
+        "end": 190,
+        "text": "drought",
+        "label": "ABS"
+      },
+      {
+        "start": 196,
+        "end": 208,
+        "text": "waterlogging",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "SbCASP4",
+        "head_start": 0,
+        "head_end": 7,
+        "head_type": "GENE",
+        "tail": "salt tolerance",
+        "tail_start": 17,
+        "tail_end": 31,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "sweet sorghum",
+        "head_start": 35,
+        "head_end": 48,
+        "head_type": "CROP",
+        "tail": "salt tolerance",
+        "tail_start": 17,
+        "tail_end": 31,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "salt",
+        "head_start": 177,
+        "head_end": 181,
+        "head_type": "ABS",
+        "tail": "salt tolerance",
+        "tail_start": 17,
+        "tail_end": 31,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Hsfs4 and Hsfs22 are highly expressed in panicle. Hsfs4 and Hsfs9 are expressed in seedling.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Hsfs4",
+        "label": "GENE"
+      },
+      {
+        "start": 10,
+        "end": 16,
+        "text": "Hsfs22",
+        "label": "GENE"
+      },
+      {
+        "start": 50,
+        "end": 55,
+        "text": "Hsfs4",
+        "label": "GENE"
+      },
+      {
+        "start": 60,
+        "end": 65,
+        "text": "Hsfs9",
+        "label": "GENE"
+      },
+      {
+        "start": 83,
+        "end": 91,
+        "text": "seedling",
+        "label": "GST"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Quinoa is an economic crop. Drought affects quinoa yield. Clarifying quinoa adaptation to drought is conducive to cultivating drought-tolerant varieties. The study of quinoa drought stress-related metabolism and identification of related metabolites are unknown.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Quinoa",
+        "label": "CROP"
+      },
+      {
+        "start": 28,
+        "end": 35,
+        "text": "Drought",
+        "label": "ABS"
+      },
+      {
+        "start": 69,
+        "end": 75,
+        "text": "quinoa",
+        "label": "CROP"
+      },
+      {
+        "start": 90,
+        "end": 97,
+        "text": "drought",
+        "label": "ABS"
+      },
+      {
+        "start": 167,
+        "end": 173,
+        "text": "quinoa",
+        "label": "CROP"
+      },
+      {
+        "start": 174,
+        "end": 188,
+        "text": "drought stress",
+        "label": "ABS"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "443 genotype-specific high NH4+-responsive DEGs with sequence variation were identified by integrating transcriptome and genome re-sequencing data. TFs including MYB, MADS, and LBD genes and RLKs such as FtBAM1/3 may help adapt to high NH4+.",
+    "entities": [
+      {
+        "start": 103,
+        "end": 116,
+        "text": "transcriptome",
+        "label": "BM"
+      },
+      {
+        "start": 121,
+        "end": 141,
+        "text": "genome re-sequencing",
+        "label": "BM"
+      },
+      {
+        "start": 162,
+        "end": 165,
+        "text": "MYB",
+        "label": "GENE"
+      },
+      {
+        "start": 204,
+        "end": 212,
+        "text": "FtBAM1/3",
+        "label": "GENE"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "DEP in Bai5 is classified into protein processing in the endoplasmic reticulum, estrogen signaling pathway, antigen processing and presentation, longevity regulating pathway-multiple species, arginine and proline metabolism, beta-alanine metabolism, vitamin B6 metabolism, salmonella infection, chloroalkane and chloroalkene degradation, and limonene and pinene degradation. DEP in Vao-9 are classified as ribosome and carbon fixation pathways in prokaryotes, pentose and glucuronate interconversions, GABA ergic synapse, and taurine and hypotaurine metabolism.",
+    "entities": [
+      {
+        "start": 7,
+        "end": 11,
+        "text": "Bai5",
+        "label": "VAR"
+      },
+      {
+        "start": 273,
+        "end": 293,
+        "text": "salmonella infection",
+        "label": "BIS"
+      },
+      {
+        "start": 382,
+        "end": 387,
+        "text": "Vao-9",
+        "label": "VAR"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "F-1 and F-2 plants inoculated with C. graminicola isolates showed that resistance to anthracnose in sorghum accession G 73 segregated as a recessive trait in a cross with susceptible cultivar HC 136. A PCR-based SCAR marker was developed for marker-assisted selection in sorghum breeding.",
+    "entities": [
+      {
+        "start": 71,
+        "end": 96,
+        "text": "resistance to anthracnose",
+        "label": "TRT"
+      },
+      {
+        "start": 85,
+        "end": 96,
+        "text": "anthracnose",
+        "label": "BIS"
+      },
+      {
+        "start": 118,
+        "end": 122,
+        "text": "G 73",
+        "label": "VAR"
+      },
+      {
+        "start": 192,
+        "end": 198,
+        "text": "HC 136",
+        "label": "VAR"
+      },
+      {
+        "start": 242,
+        "end": 267,
+        "text": "marker-assisted selection",
+        "label": "BM"
+      },
+      {
+        "start": 271,
+        "end": 278,
+        "text": "sorghum",
+        "label": "CROP"
+      }
+    ],
+    "relations": [
+      {
+        "head": "G 73",
+        "head_start": 118,
+        "head_end": 122,
+        "head_type": "VAR",
+        "tail": "resistance to anthracnose",
+        "tail_start": 71,
+        "tail_end": 96,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "sorghum",
+        "head_start": 271,
+        "head_end": 278,
+        "head_type": "CROP",
+        "tail": "G 73",
+        "tail_start": 118,
+        "tail_end": 122,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "sorghum",
+        "head_start": 271,
+        "head_end": 278,
+        "head_type": "CROP",
+        "tail": "HC 136",
+        "tail_start": 192,
+        "tail_end": 198,
+        "tail_type": "VAR",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "Two minor QTLs (qBX3.1 and qBX7.1) for Brix (BX) were mapped on chromosomes 3 and 7. The QTLs in two clusters (qPH7.1/qBX7.1 and qPH7.1/qFBW7.1) overlapped for PH, FBW and BX.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 22,
+        "text": "qBX3.1",
+        "label": "QTL"
+      },
+      {
+        "start": 27,
+        "end": 33,
+        "text": "qBX7.1",
+        "label": "QTL"
+      },
+      {
+        "start": 39,
+        "end": 48,
+        "text": "Brix (BX)",
+        "label": "TRT"
+      },
+      {
+        "start": 64,
+        "end": 83,
+        "text": "chromosomes 3 and 7",
+        "label": "CHR"
+      },
+      {
+        "start": 111,
+        "end": 124,
+        "text": "qPH7.1/qBX7.1",
+        "label": "QTL"
+      },
+      {
+        "start": 129,
+        "end": 143,
+        "text": "qPH7.1/qFBW7.1",
+        "label": "QTL"
+      },
+      {
+        "start": 160,
+        "end": 162,
+        "text": "PH",
+        "label": "TRT"
+      },
+      {
+        "start": 164,
+        "end": 167,
+        "text": "FBW",
+        "label": "TRT"
+      },
+      {
+        "start": 172,
+        "end": 174,
+        "text": "BX",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "qBX3.1",
+        "head_start": 16,
+        "head_end": 22,
+        "head_type": "QTL",
+        "tail": "Brix (BX)",
+        "tail_start": 39,
+        "tail_end": 48,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "qBX7.1",
+        "head_start": 27,
+        "head_end": 33,
+        "head_type": "QTL",
+        "tail": "Brix (BX)",
+        "tail_start": 39,
+        "tail_end": 48,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "qBX3.1",
+        "head_start": 16,
+        "head_end": 22,
+        "head_type": "QTL",
+        "tail": "chromosomes 3 and 7",
+        "tail_start": 64,
+        "tail_end": 83,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "qBX7.1",
+        "head_start": 27,
+        "head_end": 33,
+        "head_type": "QTL",
+        "tail": "chromosomes 3 and 7",
+        "tail_start": 64,
+        "tail_end": 83,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "qPH7.1/qBX7.1",
+        "head_start": 111,
+        "head_end": 124,
+        "head_type": "QTL",
+        "tail": "PH",
+        "tail_start": 160,
+        "tail_end": 162,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "qPH7.1/qBX7.1",
+        "head_start": 111,
+        "head_end": 124,
+        "head_type": "QTL",
+        "tail": "FBW",
+        "tail_start": 164,
+        "tail_end": 167,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "qPH7.1/qBX7.1",
+        "head_start": 111,
+        "head_end": 124,
+        "head_type": "QTL",
+        "tail": "BX",
+        "tail_start": 172,
+        "tail_end": 174,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "qPH7.1/qFBW7.1",
+        "head_start": 129,
+        "head_end": 143,
+        "head_type": "QTL",
+        "tail": "PH",
+        "tail_start": 160,
+        "tail_end": 162,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "qPH7.1/qFBW7.1",
+        "head_start": 129,
+        "head_end": 143,
+        "head_type": "QTL",
+        "tail": "FBW",
+        "tail_start": 164,
+        "tail_end": 167,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "qPH7.1/qFBW7.1",
+        "head_start": 129,
+        "head_end": 143,
+        "head_type": "QTL",
+        "tail": "BX",
+        "tail_start": 172,
+        "tail_end": 174,
+        "tail_type": "TRT",
+        "label": "LOI"
+      }
+    ]
+  }
+]

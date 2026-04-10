@@ -1,0 +1,845 @@
+[
+  {
+    "text": "Significant QTLs for NS, NDP, SW and PW traits were mapped on LG4 with nearest markers 4181663 and 4175954, explaining 21.9%, 21.8%, 23.5% and 19.9% PVE respectively. Seven consensus QTLs for yield and morphological traits were mapped on LG2, LG3, LG4, LG7A and LG10.",
+    "entities": [
+      {
+        "start": 12,
+        "end": 16,
+        "text": "QTLs",
+        "label": "QTL"
+      },
+      {
+        "start": 21,
+        "end": 23,
+        "text": "NS",
+        "label": "TRT"
+      },
+      {
+        "start": 25,
+        "end": 28,
+        "text": "NDP",
+        "label": "TRT"
+      },
+      {
+        "start": 30,
+        "end": 32,
+        "text": "SW",
+        "label": "TRT"
+      },
+      {
+        "start": 37,
+        "end": 39,
+        "text": "PW",
+        "label": "TRT"
+      },
+      {
+        "start": 62,
+        "end": 65,
+        "text": "LG4",
+        "label": "CHR"
+      },
+      {
+        "start": 87,
+        "end": 94,
+        "text": "4181663",
+        "label": "MRK"
+      },
+      {
+        "start": 99,
+        "end": 106,
+        "text": "4175954",
+        "label": "MRK"
+      },
+      {
+        "start": 238,
+        "end": 241,
+        "text": "LG2",
+        "label": "CHR"
+      },
+      {
+        "start": 243,
+        "end": 246,
+        "text": "LG3",
+        "label": "CHR"
+      },
+      {
+        "start": 248,
+        "end": 251,
+        "text": "LG4",
+        "label": "CHR"
+      },
+      {
+        "start": 253,
+        "end": 257,
+        "text": "LG7A",
+        "label": "CHR"
+      },
+      {
+        "start": 262,
+        "end": 266,
+        "text": "LG10",
+        "label": "CHR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QTLs",
+        "head_start": 12,
+        "head_end": 16,
+        "head_type": "QTL",
+        "tail": "NS",
+        "tail_start": 21,
+        "tail_end": 23,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 12,
+        "head_end": 16,
+        "head_type": "QTL",
+        "tail": "NDP",
+        "tail_start": 25,
+        "tail_end": 28,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 12,
+        "head_end": 16,
+        "head_type": "QTL",
+        "tail": "SW",
+        "tail_start": 30,
+        "tail_end": 32,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 12,
+        "head_end": 16,
+        "head_type": "QTL",
+        "tail": "PW",
+        "tail_start": 37,
+        "tail_end": 39,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "4181663",
+        "head_start": 87,
+        "head_end": 94,
+        "head_type": "MRK",
+        "tail": "QTLs",
+        "tail_start": 12,
+        "tail_end": 16,
+        "tail_type": "QTL",
+        "label": "LOI"
+      },
+      {
+        "head": "4175954",
+        "head_start": 99,
+        "head_end": 106,
+        "head_type": "MRK",
+        "tail": "QTLs",
+        "tail_start": 12,
+        "tail_end": 16,
+        "tail_type": "QTL",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 12,
+        "head_end": 16,
+        "head_type": "QTL",
+        "tail": "LG4",
+        "tail_start": 62,
+        "tail_end": 65,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 12,
+        "head_end": 16,
+        "head_type": "QTL",
+        "tail": "LG2",
+        "tail_start": 238,
+        "tail_end": 241,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 12,
+        "head_end": 16,
+        "head_type": "QTL",
+        "tail": "LG3",
+        "tail_start": 243,
+        "tail_end": 246,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 12,
+        "head_end": 16,
+        "head_type": "QTL",
+        "tail": "LG7A",
+        "tail_start": 253,
+        "tail_end": 257,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 12,
+        "head_end": 16,
+        "head_type": "QTL",
+        "tail": "LG10",
+        "tail_start": 262,
+        "tail_end": 266,
+        "tail_type": "CHR",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "Several mutations of the sorghum GRANULE-BOUND STARCH SYNTHASE (GBSS) gene result in a low amylose:amylopectin starch ratio. Recessive waxy alleles improve starch digestibility.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 32,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 33,
+        "end": 69,
+        "text": "GRANULE-BOUND STARCH SYNTHASE (GBSS)",
+        "label": "GENE"
+      },
+      {
+        "start": 64,
+        "end": 68,
+        "text": "GBSS",
+        "label": "VAR"
+      },
+      {
+        "start": 87,
+        "end": 123,
+        "text": "low amylose:amylopectin starch ratio",
+        "label": "TRT"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Linkage maps were constructed with SNPs for CT19 X TX430 and ICSV700 X M81 E populations. QTL mapping identified QTL conferring chilling tolerance at seedling stage.",
+    "entities": [
+      {
+        "start": 35,
+        "end": 39,
+        "text": "SNPs",
+        "label": "MRK"
+      },
+      {
+        "start": 44,
+        "end": 56,
+        "text": "CT19 X TX430",
+        "label": "CROSS"
+      },
+      {
+        "start": 61,
+        "end": 76,
+        "text": "ICSV700 X M81 E",
+        "label": "CROSS"
+      },
+      {
+        "start": 90,
+        "end": 93,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 113,
+        "end": 116,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 128,
+        "end": 146,
+        "text": "chilling tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 150,
+        "end": 164,
+        "text": "seedling stage",
+        "label": "GST"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Different natural growth environments resulted in adaptation, with significant differences in salt tolerance between northern and southern Chinese Tartary buckwheat populations. Using selective sweep scanning and a genome-wide association study, we identified genes responsible for Tartary buckwheat domestication and differentiation, which were experimentally validated.",
+    "entities": [
+      {
+        "start": 94,
+        "end": 98,
+        "text": "salt",
+        "label": "ABS"
+      },
+      {
+        "start": 94,
+        "end": 108,
+        "text": "salt tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 139,
+        "end": 164,
+        "text": "Chinese Tartary buckwheat",
+        "label": "VAR"
+      },
+      {
+        "start": 215,
+        "end": 244,
+        "text": "genome-wide association study",
+        "label": "BM"
+      },
+      {
+        "start": 282,
+        "end": 313,
+        "text": "Tartary buckwheat domestication",
+        "label": "TRT"
+      },
+      {
+        "start": 318,
+        "end": 333,
+        "text": "differentiation",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "salt",
+        "head_start": 94,
+        "head_end": 98,
+        "head_type": "ABS",
+        "tail": "salt tolerance",
+        "tail_start": 94,
+        "tail_end": 108,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Chinese Tartary buckwheat",
+        "head_start": 139,
+        "head_end": 164,
+        "head_type": "VAR",
+        "tail": "salt tolerance",
+        "tail_start": 94,
+        "tail_end": 108,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "Dehdrine (DHN) can screen drought tolerance in durra and caudatum races. NADP-Malic Enzyme, Carbonic Anhydrase (CA) and Plasma membrane Intrinsic Protein (PIP2-5) are up-regulated by drought stress only in durra race.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 43,
+        "text": "drought tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 120,
+        "end": 162,
+        "text": "Plasma membrane Intrinsic Protein (PIP2-5)",
+        "label": "GENE"
+      },
+      {
+        "start": 183,
+        "end": 197,
+        "text": "drought stress",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "drought stress",
+        "head_start": 183,
+        "head_end": 197,
+        "head_type": "ABS",
+        "tail": "Plasma membrane Intrinsic Protein (PIP2-5)",
+        "tail_start": 120,
+        "tail_end": 162,
+        "tail_type": "GENE",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "The study used sorghum accessions PI302232 (small grain, Sg) and PI563512 (large grain, Lg). The 1000-grain weight, grain length, and grain width of Lg were higher than Sg. An F2 population was derived from the cross between Sg and Lg parents.",
+    "entities": [
+      {
+        "start": 15,
+        "end": 22,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 34,
+        "end": 42,
+        "text": "PI302232",
+        "label": "VAR"
+      },
+      {
+        "start": 44,
+        "end": 55,
+        "text": "small grain",
+        "label": "VAR"
+      },
+      {
+        "start": 57,
+        "end": 59,
+        "text": "Sg",
+        "label": "VAR"
+      },
+      {
+        "start": 65,
+        "end": 73,
+        "text": "PI563512",
+        "label": "VAR"
+      },
+      {
+        "start": 75,
+        "end": 86,
+        "text": "large grain",
+        "label": "VAR"
+      },
+      {
+        "start": 88,
+        "end": 90,
+        "text": "Lg",
+        "label": "VAR"
+      },
+      {
+        "start": 97,
+        "end": 114,
+        "text": "1000-grain weight",
+        "label": "TRT"
+      },
+      {
+        "start": 116,
+        "end": 128,
+        "text": "grain length",
+        "label": "TRT"
+      },
+      {
+        "start": 134,
+        "end": 145,
+        "text": "grain width",
+        "label": "TRT"
+      },
+      {
+        "start": 176,
+        "end": 189,
+        "text": "F2 population",
+        "label": "CROSS"
+      },
+      {
+        "start": 211,
+        "end": 242,
+        "text": "cross between Sg and Lg parents",
+        "label": "CROSS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "sorghum",
+        "head_start": 15,
+        "head_end": 22,
+        "head_type": "CROP",
+        "tail": "PI302232",
+        "tail_start": 34,
+        "tail_end": 42,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "sorghum",
+        "head_start": 15,
+        "head_end": 22,
+        "head_type": "CROP",
+        "tail": "PI563512",
+        "tail_start": 65,
+        "tail_end": 73,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "PI302232",
+        "head_start": 34,
+        "head_end": 42,
+        "head_type": "VAR",
+        "tail": "Sg",
+        "tail_start": 57,
+        "tail_end": 59,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "PI563512",
+        "head_start": 65,
+        "head_end": 73,
+        "head_type": "VAR",
+        "tail": "Lg",
+        "tail_start": 88,
+        "tail_end": 90,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "Lg",
+        "head_start": 88,
+        "head_end": 90,
+        "head_type": "VAR",
+        "tail": "1000-grain weight",
+        "tail_start": 97,
+        "tail_end": 114,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Lg",
+        "head_start": 88,
+        "head_end": 90,
+        "head_type": "VAR",
+        "tail": "grain length",
+        "tail_start": 116,
+        "tail_end": 128,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Lg",
+        "head_start": 88,
+        "head_end": 90,
+        "head_type": "VAR",
+        "tail": "grain width",
+        "tail_start": 134,
+        "tail_end": 145,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "F2 population",
+        "head_start": 176,
+        "head_end": 189,
+        "head_type": "CROSS",
+        "tail": "cross between Sg and Lg parents",
+        "tail_start": 211,
+        "tail_end": 242,
+        "tail_type": "CROSS",
+        "label": "USE"
+      },
+      {
+        "head": "cross between Sg and Lg parents",
+        "head_start": 211,
+        "head_end": 242,
+        "head_type": "CROSS",
+        "tail": "Sg",
+        "tail_start": 57,
+        "tail_end": 59,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "cross between Sg and Lg parents",
+        "head_start": 211,
+        "head_end": 242,
+        "head_type": "CROSS",
+        "tail": "Lg",
+        "tail_start": 88,
+        "tail_end": 90,
+        "tail_type": "VAR",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "Chromosomes 1, 4, 5, and 7 are important for salinity stress. They involve genes controlling stomata length (LR), leaf number (LN), leaf weight (LW), and genetic score (SCR).",
+    "entities": [
+      {
+        "start": 0,
+        "end": 26,
+        "text": "Chromosomes 1, 4, 5, and 7",
+        "label": "CHR"
+      },
+      {
+        "start": 45,
+        "end": 60,
+        "text": "salinity stress",
+        "label": "ABS"
+      },
+      {
+        "start": 93,
+        "end": 107,
+        "text": "stomata length",
+        "label": "TRT"
+      },
+      {
+        "start": 132,
+        "end": 143,
+        "text": "leaf weight",
+        "label": "TRT"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "AREB/ABFs in bZIP transcription factors are involved in plant drought and salt stress responses. Their properties and functions in Fagopyrum tataricum are poorly understood.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "text": "AREB/ABFs",
+        "label": "GENE"
+      },
+      {
+        "start": 13,
+        "end": 39,
+        "text": "bZIP transcription factors",
+        "label": "GENE"
+      },
+      {
+        "start": 56,
+        "end": 69,
+        "text": "plant drought",
+        "label": "ABS"
+      },
+      {
+        "start": 74,
+        "end": 85,
+        "text": "salt stress",
+        "label": "ABS"
+      },
+      {
+        "start": 131,
+        "end": 150,
+        "text": "Fagopyrum tataricum",
+        "label": "CROP"
+      }
+    ],
+    "relations": [
+      {
+        "head": "AREB/ABFs",
+        "head_start": 0,
+        "head_end": 9,
+        "head_type": "GENE",
+        "tail": "bZIP transcription factors",
+        "tail_start": 13,
+        "tail_end": 39,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "AREB/ABFs",
+        "head_start": 0,
+        "head_end": 9,
+        "head_type": "GENE",
+        "tail": "plant drought",
+        "tail_start": 56,
+        "tail_end": 69,
+        "tail_type": "ABS",
+        "label": "AFF"
+      },
+      {
+        "head": "AREB/ABFs",
+        "head_start": 0,
+        "head_end": 9,
+        "head_type": "GENE",
+        "tail": "salt stress",
+        "tail_start": 74,
+        "tail_end": 85,
+        "tail_type": "ABS",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Association studies identified markers significantly associated with lateral root angle (LRA) on chromosomes 2, 6, 7, and 11, length distribution (LED) on chromosome 8, and total root length-growth rate (TRL_GR), volume (VOL), and total dry weight (TDW) on chromosomes 3 and 5. Genes from these regions are potential candidates.",
+    "entities": [
+      {
+        "start": 69,
+        "end": 93,
+        "text": "lateral root angle (LRA)",
+        "label": "TRT"
+      },
+      {
+        "start": 97,
+        "end": 124,
+        "text": "chromosomes 2, 6, 7, and 11",
+        "label": "CHR"
+      },
+      {
+        "start": 126,
+        "end": 151,
+        "text": "length distribution (LED)",
+        "label": "TRT"
+      },
+      {
+        "start": 155,
+        "end": 167,
+        "text": "chromosome 8",
+        "label": "CHR"
+      },
+      {
+        "start": 173,
+        "end": 211,
+        "text": "total root length-growth rate (TRL_GR)",
+        "label": "TRT"
+      },
+      {
+        "start": 213,
+        "end": 225,
+        "text": "volume (VOL)",
+        "label": "TRT"
+      },
+      {
+        "start": 231,
+        "end": 253,
+        "text": "total dry weight (TDW)",
+        "label": "TRT"
+      },
+      {
+        "start": 257,
+        "end": 276,
+        "text": "chromosomes 3 and 5",
+        "label": "CHR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "lateral root angle (LRA)",
+        "head_start": 69,
+        "head_end": 93,
+        "head_type": "TRT",
+        "tail": "chromosomes 2, 6, 7, and 11",
+        "tail_start": 97,
+        "tail_end": 124,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "length distribution (LED)",
+        "head_start": 126,
+        "head_end": 151,
+        "head_type": "TRT",
+        "tail": "chromosome 8",
+        "tail_start": 155,
+        "tail_end": 167,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "total root length-growth rate (TRL_GR)",
+        "head_start": 173,
+        "head_end": 211,
+        "head_type": "TRT",
+        "tail": "chromosomes 3 and 5",
+        "tail_start": 257,
+        "tail_end": 276,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "volume (VOL)",
+        "head_start": 213,
+        "head_end": 225,
+        "head_type": "TRT",
+        "tail": "chromosomes 3 and 5",
+        "tail_start": 257,
+        "tail_end": 276,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "total dry weight (TDW)",
+        "head_start": 231,
+        "head_end": 253,
+        "head_type": "TRT",
+        "tail": "chromosomes 3 and 5",
+        "tail_start": 257,
+        "tail_end": 276,
+        "tail_type": "CHR",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "12 QTLs were identified at germination stage. 29 QTLs were identified at seedling stage. Only qGP7-1 for germination percentage was consistent under control and 2.0% NaCl stress.",
+    "entities": [
+      {
+        "start": 27,
+        "end": 44,
+        "text": "germination stage",
+        "label": "GST"
+      },
+      {
+        "start": 73,
+        "end": 87,
+        "text": "seedling stage",
+        "label": "GST"
+      },
+      {
+        "start": 94,
+        "end": 100,
+        "text": "qGP7-1",
+        "label": "QTL"
+      },
+      {
+        "start": 105,
+        "end": 127,
+        "text": "germination percentage",
+        "label": "TRT"
+      },
+      {
+        "start": 161,
+        "end": 177,
+        "text": "2.0% NaCl stress",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "2.0% NaCl stress",
+        "head_start": 161,
+        "head_end": 177,
+        "head_type": "ABS",
+        "tail": "germination stage",
+        "tail_start": 27,
+        "tail_end": 44,
+        "tail_type": "GST",
+        "label": "OCI"
+      },
+      {
+        "head": "2.0% NaCl stress",
+        "head_start": 161,
+        "head_end": 177,
+        "head_type": "ABS",
+        "tail": "germination percentage",
+        "tail_start": 105,
+        "tail_end": 127,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  }
+]

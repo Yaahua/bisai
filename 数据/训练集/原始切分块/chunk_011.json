@@ -1,0 +1,860 @@
+[
+  {
+    "text": "Maize-peanut intercropping enhanced carbon fixation and carboxylation in maize leaves compared to maize monocropping. In intercropping, apparent quantum yield (AQY), light-saturated net photosynthetic rate (LSPn), light saturation point (LSP), and light compensation point (LCP) increased by 11.6%, 9.4%, 8.9%, and 32.1%, respectively. Carboxylation efficiency (CE), CO2 saturation point (Cisat), Rubisco maximum carboxylation rate (Vcmax), maximum electron transfer rate (Jmax), and triose phosphate utilization rate (TPU) increased by 28.5%, 7.3%, 18.7%, 29.2%, and 17.0%, respectively. The CO2 compensation point (Γ) decreased by 22.6%.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Maize",
+        "label": "CROP"
+      },
+      {
+        "start": 0,
+        "end": 26,
+        "text": "Maize-peanut intercropping",
+        "label": "BM"
+      },
+      {
+        "start": 6,
+        "end": 12,
+        "text": "peanut",
+        "label": "CROP"
+      },
+      {
+        "start": 36,
+        "end": 51,
+        "text": "carbon fixation",
+        "label": "TRT"
+      },
+      {
+        "start": 56,
+        "end": 69,
+        "text": "carboxylation",
+        "label": "TRT"
+      },
+      {
+        "start": 73,
+        "end": 85,
+        "text": "maize leaves",
+        "label": "TRT"
+      },
+      {
+        "start": 98,
+        "end": 116,
+        "text": "maize monocropping",
+        "label": "BM"
+      },
+      {
+        "start": 136,
+        "end": 164,
+        "text": "apparent quantum yield (AQY)",
+        "label": "TRT"
+      },
+      {
+        "start": 166,
+        "end": 212,
+        "text": "light-saturated net photosynthetic rate (LSPn)",
+        "label": "TRT"
+      },
+      {
+        "start": 214,
+        "end": 242,
+        "text": "light saturation point (LSP)",
+        "label": "TRT"
+      },
+      {
+        "start": 248,
+        "end": 278,
+        "text": "light compensation point (LCP)",
+        "label": "TRT"
+      },
+      {
+        "start": 336,
+        "end": 365,
+        "text": "Carboxylation efficiency (CE)",
+        "label": "TRT"
+      },
+      {
+        "start": 367,
+        "end": 395,
+        "text": "CO2 saturation point (Cisat)",
+        "label": "TRT"
+      },
+      {
+        "start": 397,
+        "end": 439,
+        "text": "Rubisco maximum carboxylation rate (Vcmax)",
+        "label": "TRT"
+      },
+      {
+        "start": 441,
+        "end": 478,
+        "text": "maximum electron transfer rate (Jmax)",
+        "label": "TRT"
+      },
+      {
+        "start": 484,
+        "end": 523,
+        "text": "triose phosphate utilization rate (TPU)",
+        "label": "TRT"
+      },
+      {
+        "start": 593,
+        "end": 619,
+        "text": "CO2 compensation point (Γ)",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Maize",
+        "head_start": 0,
+        "head_end": 5,
+        "head_type": "CROP",
+        "tail": "maize leaves",
+        "tail_start": 73,
+        "tail_end": 85,
+        "tail_type": "TRT",
+        "label": "CON"
+      },
+      {
+        "head": "Maize-peanut intercropping",
+        "head_start": 0,
+        "head_end": 26,
+        "head_type": "BM",
+        "tail": "carbon fixation",
+        "tail_start": 36,
+        "tail_end": 51,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Maize-peanut intercropping",
+        "head_start": 0,
+        "head_end": 26,
+        "head_type": "BM",
+        "tail": "carboxylation",
+        "tail_start": 56,
+        "tail_end": 69,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Maize-peanut intercropping",
+        "head_start": 0,
+        "head_end": 26,
+        "head_type": "BM",
+        "tail": "apparent quantum yield (AQY)",
+        "tail_start": 136,
+        "tail_end": 164,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Maize-peanut intercropping",
+        "head_start": 0,
+        "head_end": 26,
+        "head_type": "BM",
+        "tail": "light-saturated net photosynthetic rate (LSPn)",
+        "tail_start": 166,
+        "tail_end": 212,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Maize-peanut intercropping",
+        "head_start": 0,
+        "head_end": 26,
+        "head_type": "BM",
+        "tail": "light saturation point (LSP)",
+        "tail_start": 214,
+        "tail_end": 242,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Maize-peanut intercropping",
+        "head_start": 0,
+        "head_end": 26,
+        "head_type": "BM",
+        "tail": "light compensation point (LCP)",
+        "tail_start": 248,
+        "tail_end": 278,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Maize-peanut intercropping",
+        "head_start": 0,
+        "head_end": 26,
+        "head_type": "BM",
+        "tail": "Carboxylation efficiency (CE)",
+        "tail_start": 336,
+        "tail_end": 365,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Maize-peanut intercropping",
+        "head_start": 0,
+        "head_end": 26,
+        "head_type": "BM",
+        "tail": "CO2 saturation point (Cisat)",
+        "tail_start": 367,
+        "tail_end": 395,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Maize-peanut intercropping",
+        "head_start": 0,
+        "head_end": 26,
+        "head_type": "BM",
+        "tail": "Rubisco maximum carboxylation rate (Vcmax)",
+        "tail_start": 397,
+        "tail_end": 439,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Maize-peanut intercropping",
+        "head_start": 0,
+        "head_end": 26,
+        "head_type": "BM",
+        "tail": "maximum electron transfer rate (Jmax)",
+        "tail_start": 441,
+        "tail_end": 478,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Maize-peanut intercropping",
+        "head_start": 0,
+        "head_end": 26,
+        "head_type": "BM",
+        "tail": "triose phosphate utilization rate (TPU)",
+        "tail_start": 484,
+        "tail_end": 523,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Maize-peanut intercropping",
+        "head_start": 0,
+        "head_end": 26,
+        "head_type": "BM",
+        "tail": "CO2 compensation point (Γ)",
+        "tail_start": 593,
+        "tail_end": 619,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "The transgenic Arabidopsis seedlings had greater root length and mature plants had higher survival rates under drought conditions. The transgenic plants also had higher proline content and antioxidant activity compared to the control.",
+    "entities": [
+      {
+        "start": 15,
+        "end": 26,
+        "text": "Arabidopsis",
+        "label": "CROP"
+      },
+      {
+        "start": 41,
+        "end": 60,
+        "text": "greater root length",
+        "label": "TRT"
+      },
+      {
+        "start": 111,
+        "end": 129,
+        "text": "drought conditions",
+        "label": "ABS"
+      },
+      {
+        "start": 169,
+        "end": 184,
+        "text": "proline content",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Arabidopsis",
+        "head_start": 15,
+        "head_end": 26,
+        "head_type": "CROP",
+        "tail": "greater root length",
+        "tail_start": 41,
+        "tail_end": 60,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "The quinoa cultivar Shelly seeds and seedlings were treated with NaCl solution. Physiological, biochemical and agronomic traits were investigated. The response patterns of three salt stress-responsive genes (SSRGs) were determined by real-time PCR.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 10,
+        "text": "quinoa",
+        "label": "CROP"
+      },
+      {
+        "start": 20,
+        "end": 26,
+        "text": "Shelly",
+        "label": "VAR"
+      },
+      {
+        "start": 65,
+        "end": 78,
+        "text": "NaCl solution",
+        "label": "ABS"
+      },
+      {
+        "start": 80,
+        "end": 93,
+        "text": "Physiological",
+        "label": "TRT"
+      },
+      {
+        "start": 95,
+        "end": 106,
+        "text": "biochemical",
+        "label": "TRT"
+      },
+      {
+        "start": 111,
+        "end": 120,
+        "text": "agronomic",
+        "label": "TRT"
+      },
+      {
+        "start": 178,
+        "end": 206,
+        "text": "salt stress-responsive genes",
+        "label": "GENE"
+      },
+      {
+        "start": 208,
+        "end": 213,
+        "text": "SSRGs",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "quinoa",
+        "head_start": 4,
+        "head_end": 10,
+        "head_type": "CROP",
+        "tail": "Shelly",
+        "tail_start": 20,
+        "tail_end": 26,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "NaCl solution",
+        "head_start": 65,
+        "head_end": 78,
+        "head_type": "ABS",
+        "tail": "Physiological",
+        "tail_start": 80,
+        "tail_end": 93,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "NaCl solution",
+        "head_start": 65,
+        "head_end": 78,
+        "head_type": "ABS",
+        "tail": "biochemical",
+        "tail_start": 95,
+        "tail_end": 106,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "NaCl solution",
+        "head_start": 65,
+        "head_end": 78,
+        "head_type": "ABS",
+        "tail": "agronomic",
+        "tail_start": 111,
+        "tail_end": 120,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Two statistical models, MLM and BLINK, identified 44 shared SNPs. Notable candidate genes include FPA for flowering time (VRADI10G01470; chr.",
+    "entities": [
+      {
+        "start": 60,
+        "end": 64,
+        "text": "SNPs",
+        "label": "MRK"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Salt or alkali treatment for 3 days inhibited plant growth and increased Na+ levels in the whole plant, leaves, sheath, and roots of both genotypes. Under alkali stress, K+ levels decreased in the whole plant, leaves, sheath, and roots of both genotypes. M-81E roots accumulated higher Na+ levels than leaves, while 314B leaves accumulated higher Na+ levels than roots.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "text": "Salt",
+        "label": "ABS"
+      },
+      {
+        "start": 8,
+        "end": 24,
+        "text": "alkali treatment",
+        "label": "ABS"
+      },
+      {
+        "start": 73,
+        "end": 76,
+        "text": "Na+",
+        "label": "TRT"
+      },
+      {
+        "start": 155,
+        "end": 168,
+        "text": "alkali stress",
+        "label": "ABS"
+      },
+      {
+        "start": 170,
+        "end": 172,
+        "text": "K+",
+        "label": "TRT"
+      },
+      {
+        "start": 255,
+        "end": 260,
+        "text": "M-81E",
+        "label": "VAR"
+      },
+      {
+        "start": 286,
+        "end": 289,
+        "text": "Na+",
+        "label": "TRT"
+      },
+      {
+        "start": 316,
+        "end": 320,
+        "text": "314B",
+        "label": "VAR"
+      },
+      {
+        "start": 347,
+        "end": 350,
+        "text": "Na+",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Salt",
+        "head_start": 0,
+        "head_end": 4,
+        "head_type": "ABS",
+        "tail": "Na+",
+        "tail_start": 73,
+        "tail_end": 76,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "alkali treatment",
+        "head_start": 8,
+        "head_end": 24,
+        "head_type": "ABS",
+        "tail": "Na+",
+        "tail_start": 73,
+        "tail_end": 76,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "alkali treatment",
+        "head_start": 8,
+        "head_end": 24,
+        "head_type": "ABS",
+        "tail": "K+",
+        "tail_start": 170,
+        "tail_end": 172,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "alkali stress",
+        "head_start": 155,
+        "head_end": 168,
+        "head_type": "ABS",
+        "tail": "Na+",
+        "tail_start": 73,
+        "tail_end": 76,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "alkali stress",
+        "head_start": 155,
+        "head_end": 168,
+        "head_type": "ABS",
+        "tail": "K+",
+        "tail_start": 170,
+        "tail_end": 172,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "M-81E",
+        "head_start": 255,
+        "head_end": 260,
+        "head_type": "VAR",
+        "tail": "Na+",
+        "tail_start": 73,
+        "tail_end": 76,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "314B",
+        "head_start": 316,
+        "head_end": 320,
+        "head_type": "VAR",
+        "tail": "Na+",
+        "tail_start": 73,
+        "tail_end": 76,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "Heterologous transformation of Arabidopsis with SbMYBHv33 produced a similar phenotype. Loss of function of the Arabidopsis homolog of SbMYBHv33 resulted in longer roots and increased salt tolerance.",
+    "entities": [
+      {
+        "start": 31,
+        "end": 42,
+        "text": "Arabidopsis",
+        "label": "CROP"
+      },
+      {
+        "start": 48,
+        "end": 57,
+        "text": "SbMYBHv33",
+        "label": "GENE"
+      },
+      {
+        "start": 135,
+        "end": 144,
+        "text": "SbMYBHv33",
+        "label": "GENE"
+      },
+      {
+        "start": 157,
+        "end": 169,
+        "text": "longer roots",
+        "label": "TRT"
+      },
+      {
+        "start": 184,
+        "end": 198,
+        "text": "salt tolerance",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "SbMYBHv33",
+        "head_start": 48,
+        "head_end": 57,
+        "head_type": "GENE",
+        "tail": "longer roots",
+        "tail_start": 157,
+        "tail_end": 169,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "SbMYBHv33",
+        "head_start": 48,
+        "head_end": 57,
+        "head_type": "GENE",
+        "tail": "salt tolerance",
+        "tail_start": 184,
+        "tail_end": 198,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Sorghum genes exhibit downregulation in response to drought stress. The review explores drought tolerance in sorghum, including its morphological characteristics, physiological mechanisms, and the identification and selection of its functional genes.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 88,
+        "end": 105,
+        "text": "drought tolerance",
+        "label": "TRT"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Sorghum is an important staple crop in arid regions. Sorghum has tolerance to abiotic stresses including drought, salt, alkaline, and heavy metal stressors, making it valuable research material for understanding molecular mechanisms and mining genes for genetic improvement of abiotic stress tolerance.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 53,
+        "end": 60,
+        "text": "Sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 78,
+        "end": 94,
+        "text": "abiotic stresses",
+        "label": "ABS"
+      },
+      {
+        "start": 105,
+        "end": 112,
+        "text": "drought",
+        "label": "ABS"
+      },
+      {
+        "start": 114,
+        "end": 118,
+        "text": "salt",
+        "label": "ABS"
+      },
+      {
+        "start": 120,
+        "end": 128,
+        "text": "alkaline",
+        "label": "ABS"
+      },
+      {
+        "start": 134,
+        "end": 145,
+        "text": "heavy metal",
+        "label": "ABS"
+      },
+      {
+        "start": 277,
+        "end": 301,
+        "text": "abiotic stress tolerance",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Sorghum",
+        "head_start": 0,
+        "head_end": 7,
+        "head_type": "CROP",
+        "tail": "abiotic stress tolerance",
+        "tail_start": 277,
+        "tail_end": 301,
+        "tail_type": "TRT",
+        "label": "CON"
+      },
+      {
+        "head": "abiotic stresses",
+        "head_start": 78,
+        "head_end": 94,
+        "head_type": "ABS",
+        "tail": "drought",
+        "tail_start": 105,
+        "tail_end": 112,
+        "tail_type": "ABS",
+        "label": "CON"
+      },
+      {
+        "head": "abiotic stresses",
+        "head_start": 78,
+        "head_end": 94,
+        "head_type": "ABS",
+        "tail": "salt",
+        "tail_start": 114,
+        "tail_end": 118,
+        "tail_type": "ABS",
+        "label": "CON"
+      },
+      {
+        "head": "abiotic stresses",
+        "head_start": 78,
+        "head_end": 94,
+        "head_type": "ABS",
+        "tail": "alkaline",
+        "tail_start": 120,
+        "tail_end": 128,
+        "tail_type": "ABS",
+        "label": "CON"
+      },
+      {
+        "head": "abiotic stresses",
+        "head_start": 78,
+        "head_end": 94,
+        "head_type": "ABS",
+        "tail": "heavy metal",
+        "tail_start": 134,
+        "tail_end": 145,
+        "tail_type": "ABS",
+        "label": "AFF"
+      },
+      {
+        "head": "drought",
+        "head_start": 105,
+        "head_end": 112,
+        "head_type": "ABS",
+        "tail": "abiotic stress tolerance",
+        "tail_start": 277,
+        "tail_end": 301,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "salt",
+        "head_start": 114,
+        "head_end": 118,
+        "head_type": "ABS",
+        "tail": "abiotic stress tolerance",
+        "tail_start": 277,
+        "tail_end": 301,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "alkaline",
+        "head_start": 120,
+        "head_end": 128,
+        "head_type": "ABS",
+        "tail": "abiotic stress tolerance",
+        "tail_start": 277,
+        "tail_end": 301,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "heavy metal",
+        "head_start": 134,
+        "head_end": 145,
+        "head_type": "ABS",
+        "tail": "abiotic stress tolerance",
+        "tail_start": 277,
+        "tail_end": 301,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "The expression levels of drought-associated genes were significantly increased in SbANK56 transgenic plants. Analysis of natural variation in SbANK56 revealed a significant positive correlation between SbANK56Hap4 and both its differential expression and drought stress tolerance.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 49,
+        "text": "drought-associated genes",
+        "label": "GENE"
+      },
+      {
+        "start": 82,
+        "end": 89,
+        "text": "SbANK56",
+        "label": "GENE"
+      },
+      {
+        "start": 82,
+        "end": 107,
+        "text": "SbANK56 transgenic plants",
+        "label": "VAR"
+      },
+      {
+        "start": 142,
+        "end": 149,
+        "text": "SbANK56",
+        "label": "GENE"
+      },
+      {
+        "start": 202,
+        "end": 213,
+        "text": "SbANK56Hap4",
+        "label": "GENE"
+      },
+      {
+        "start": 255,
+        "end": 269,
+        "text": "drought stress",
+        "label": "ABS"
+      },
+      {
+        "start": 255,
+        "end": 279,
+        "text": "drought stress tolerance",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "drought stress",
+        "head_start": 255,
+        "head_end": 269,
+        "head_type": "ABS",
+        "tail": "drought stress tolerance",
+        "tail_start": 255,
+        "tail_end": 279,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "A genetic map was constructed with 1065 markers and a total length of 1191.7 cM. 19 QTLs were detected for five traits: one QTL for CP, five for NDF, three for ADF, two for ADL, and eight for HC.",
+    "entities": [
+      {
+        "start": 54,
+        "end": 66,
+        "text": "total length",
+        "label": "TRT"
+      },
+      {
+        "start": 84,
+        "end": 88,
+        "text": "QTLs",
+        "label": "QTL"
+      },
+      {
+        "start": 124,
+        "end": 127,
+        "text": "QTL",
+        "label": "QTL"
+      }
+    ],
+    "relations": []
+  }
+]

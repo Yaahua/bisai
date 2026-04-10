@@ -1,0 +1,798 @@
+[
+  {
+    "text": "The salt tolerance of 188 accessions was evaluated using shoot length, root length, shoot fresh weight, root fresh weight, shoot dry weight, and root dry weight. The evaluation used the salt tolerant index, Spearman correlation analysis, membership function analysis, principal component analysis, and cluster analysis. The results classified the accessions as highly salt tolerant, salt-tolerant, moderate, salt-sensitive, or highly salt-sensitive.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 18,
+        "text": "salt tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 207,
+        "end": 236,
+        "text": "Spearman correlation analysis",
+        "label": "BM"
+      },
+      {
+        "start": 238,
+        "end": 266,
+        "text": "membership function analysis",
+        "label": "BM"
+      },
+      {
+        "start": 268,
+        "end": 296,
+        "text": "principal component analysis",
+        "label": "BM"
+      },
+      {
+        "start": 302,
+        "end": 318,
+        "text": "cluster analysis",
+        "label": "BM"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Transcriptome analysis revealed that up-regulated genes in transgenic rice were involved in phenylpropanoid biosynthesis, fatty acid elongation, phenylalanine metabolism, and flavonoid biosynthesis pathways. Quantitative real-time PCR showed that genes encoding major enzymes in lignin and suberin biosynthesis pathways had higher expression in SiMYB16 transgenic plants. Flavonoid and lignin content, and fatty acid synthase activity increased in SiMYB16 transgenic rice compared to wild-type under salt stress.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "text": "Transcriptome",
+        "label": "BM"
+      },
+      {
+        "start": 59,
+        "end": 74,
+        "text": "transgenic rice",
+        "label": "VAR"
+      },
+      {
+        "start": 345,
+        "end": 352,
+        "text": "SiMYB16",
+        "label": "GENE"
+      },
+      {
+        "start": 345,
+        "end": 370,
+        "text": "SiMYB16 transgenic plants",
+        "label": "VAR"
+      },
+      {
+        "start": 372,
+        "end": 381,
+        "text": "Flavonoid",
+        "label": "TRT"
+      },
+      {
+        "start": 386,
+        "end": 400,
+        "text": "lignin content",
+        "label": "TRT"
+      },
+      {
+        "start": 406,
+        "end": 434,
+        "text": "fatty acid synthase activity",
+        "label": "TRT"
+      },
+      {
+        "start": 448,
+        "end": 471,
+        "text": "SiMYB16 transgenic rice",
+        "label": "VAR"
+      },
+      {
+        "start": 484,
+        "end": 493,
+        "text": "wild-type",
+        "label": "VAR"
+      },
+      {
+        "start": 500,
+        "end": 511,
+        "text": "salt stress",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "SiMYB16",
+        "head_start": 345,
+        "head_end": 352,
+        "head_type": "GENE",
+        "tail": "SiMYB16 transgenic plants",
+        "tail_start": 345,
+        "tail_end": 370,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "SiMYB16",
+        "head_start": 345,
+        "head_end": 352,
+        "head_type": "GENE",
+        "tail": "SiMYB16 transgenic rice",
+        "tail_start": 448,
+        "tail_end": 471,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "SiMYB16 transgenic rice",
+        "head_start": 448,
+        "head_end": 471,
+        "head_type": "VAR",
+        "tail": "Flavonoid",
+        "tail_start": 372,
+        "tail_end": 381,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "SiMYB16 transgenic rice",
+        "head_start": 448,
+        "head_end": 471,
+        "head_type": "VAR",
+        "tail": "lignin content",
+        "tail_start": 386,
+        "tail_end": 400,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "SiMYB16 transgenic rice",
+        "head_start": 448,
+        "head_end": 471,
+        "head_type": "VAR",
+        "tail": "fatty acid synthase activity",
+        "tail_start": 406,
+        "tail_end": 434,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "salt stress",
+        "head_start": 500,
+        "head_end": 511,
+        "head_type": "ABS",
+        "tail": "Flavonoid",
+        "tail_start": 372,
+        "tail_end": 381,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "salt stress",
+        "head_start": 500,
+        "head_end": 511,
+        "head_type": "ABS",
+        "tail": "lignin content",
+        "tail_start": 386,
+        "tail_end": 400,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "salt stress",
+        "head_start": 500,
+        "head_end": 511,
+        "head_type": "ABS",
+        "tail": "fatty acid synthase activity",
+        "tail_start": 406,
+        "tail_end": 434,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Zinc and iron are essential mineral elements for crop growth and human health. Foxtail millet is a food crop rich in mineral elements and an important dietary supplement.",
+    "entities": [
+      {
+        "start": 79,
+        "end": 93,
+        "text": "Foxtail millet",
+        "label": "CROP"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Two QTL on chromosomes 5H and 6H, designated Qcl.caf-5H and Qcl.caf-6H, are novel. Qcl.caf-5H explained up to 30.9% of phenotypic variance with a LOD of 15.1. Five near isogenic line pairs were developed to validate this QTL. The NILs showed an average 21.0% difference in CL.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 7,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 11,
+        "end": 32,
+        "text": "chromosomes 5H and 6H",
+        "label": "CHR"
+      },
+      {
+        "start": 45,
+        "end": 55,
+        "text": "Qcl.caf-5H",
+        "label": "QTL"
+      },
+      {
+        "start": 60,
+        "end": 70,
+        "text": "Qcl.caf-6H",
+        "label": "QTL"
+      },
+      {
+        "start": 83,
+        "end": 93,
+        "text": "Qcl.caf-5H",
+        "label": "QTL"
+      },
+      {
+        "start": 159,
+        "end": 188,
+        "text": "Five near isogenic line pairs",
+        "label": "VAR"
+      },
+      {
+        "start": 230,
+        "end": 234,
+        "text": "NILs",
+        "label": "VAR"
+      },
+      {
+        "start": 273,
+        "end": 275,
+        "text": "CL",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QTL",
+        "head_start": 4,
+        "head_end": 7,
+        "head_type": "QTL",
+        "tail": "chromosomes 5H and 6H",
+        "tail_start": 11,
+        "tail_end": 32,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "Qcl.caf-5H",
+        "head_start": 45,
+        "head_end": 55,
+        "head_type": "QTL",
+        "tail": "chromosomes 5H and 6H",
+        "tail_start": 11,
+        "tail_end": 32,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "Qcl.caf-6H",
+        "head_start": 60,
+        "head_end": 70,
+        "head_type": "QTL",
+        "tail": "chromosomes 5H and 6H",
+        "tail_start": 11,
+        "tail_end": 32,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "Five near isogenic line pairs",
+        "head_start": 159,
+        "head_end": 188,
+        "head_type": "VAR",
+        "tail": "Qcl.caf-5H",
+        "tail_start": 45,
+        "tail_end": 55,
+        "tail_type": "QTL",
+        "label": "USE"
+      },
+      {
+        "head": "NILs",
+        "head_start": 230,
+        "head_end": 234,
+        "head_type": "VAR",
+        "tail": "CL",
+        "tail_start": 273,
+        "tail_end": 275,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "SbMADS1 influences days to flowering. SbFT acts as a mobile signal integrating photoperiod cues. These genes are involved in starch and sucrose metabolism pathways. The pathways support improved growth and yield in sorghum. Functional genome annotation revealed that candidate genes are involved in starch and sucrose metabolism, secondary metabolism, and hormonal signaling.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "SbMADS1",
+        "label": "GENE"
+      },
+      {
+        "start": 19,
+        "end": 36,
+        "text": "days to flowering",
+        "label": "TRT"
+      },
+      {
+        "start": 38,
+        "end": 42,
+        "text": "SbFT",
+        "label": "GENE"
+      },
+      {
+        "start": 125,
+        "end": 163,
+        "text": "starch and sucrose metabolism pathways",
+        "label": "TRT"
+      },
+      {
+        "start": 215,
+        "end": 222,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 299,
+        "end": 328,
+        "text": "starch and sucrose metabolism",
+        "label": "TRT"
+      },
+      {
+        "start": 330,
+        "end": 350,
+        "text": "secondary metabolism",
+        "label": "TRT"
+      },
+      {
+        "start": 356,
+        "end": 374,
+        "text": "hormonal signaling",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "SbMADS1",
+        "head_start": 0,
+        "head_end": 7,
+        "head_type": "GENE",
+        "tail": "days to flowering",
+        "tail_start": 19,
+        "tail_end": 36,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "SbFT",
+        "head_start": 38,
+        "head_end": 42,
+        "head_type": "GENE",
+        "tail": "starch and sucrose metabolism pathways",
+        "tail_start": 125,
+        "tail_end": 163,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "starch and sucrose metabolism pathways",
+        "head_start": 125,
+        "head_end": 163,
+        "head_type": "TRT",
+        "tail": "sorghum",
+        "tail_start": 215,
+        "tail_end": 222,
+        "tail_type": "CROP",
+        "label": "AFF"
+      },
+      {
+        "head": "starch and sucrose metabolism",
+        "head_start": 299,
+        "head_end": 328,
+        "head_type": "TRT",
+        "tail": "sorghum",
+        "tail_start": 215,
+        "tail_end": 222,
+        "tail_type": "CROP",
+        "label": "AFF"
+      },
+      {
+        "head": "secondary metabolism",
+        "head_start": 330,
+        "head_end": 350,
+        "head_type": "TRT",
+        "tail": "sorghum",
+        "tail_start": 215,
+        "tail_end": 222,
+        "tail_type": "CROP",
+        "label": "AFF"
+      },
+      {
+        "head": "hormonal signaling",
+        "head_start": 356,
+        "head_end": 374,
+        "head_type": "TRT",
+        "tail": "sorghum",
+        "tail_start": 215,
+        "tail_end": 222,
+        "tail_type": "CROP",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "A novel bHLH gene FtbHLH3 was isolated. In tartary buckwheat, FtbHLH3 expression was induced by polyethylene glycol 6000 (PEG6000) and abscisic acid (ABA). Subcellular localization and a yeast one-hybrid assay showed FtbHLH3 has transcriptional activation activity.",
+    "entities": [
+      {
+        "start": 8,
+        "end": 25,
+        "text": "bHLH gene FtbHLH3",
+        "label": "GENE"
+      },
+      {
+        "start": 43,
+        "end": 60,
+        "text": "tartary buckwheat",
+        "label": "CROP"
+      },
+      {
+        "start": 62,
+        "end": 69,
+        "text": "FtbHLH3",
+        "label": "GENE"
+      },
+      {
+        "start": 96,
+        "end": 130,
+        "text": "polyethylene glycol 6000 (PEG6000)",
+        "label": "ABS"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Forage sorghum cultivars in India are susceptible to foliar diseases including anthracnose, rust, zonate leaf spot, drechslera leaf blight and target leaf spot. QTLs confer resistance to these foliar diseases.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "text": "Forage sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 79,
+        "end": 90,
+        "text": "anthracnose",
+        "label": "BIS"
+      },
+      {
+        "start": 92,
+        "end": 96,
+        "text": "rust",
+        "label": "BIS"
+      },
+      {
+        "start": 98,
+        "end": 114,
+        "text": "zonate leaf spot",
+        "label": "BIS"
+      },
+      {
+        "start": 116,
+        "end": 138,
+        "text": "drechslera leaf blight",
+        "label": "BIS"
+      },
+      {
+        "start": 143,
+        "end": 159,
+        "text": "target leaf spot",
+        "label": "BIS"
+      },
+      {
+        "start": 161,
+        "end": 165,
+        "text": "QTLs",
+        "label": "QTL"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QTLs",
+        "head_start": 161,
+        "head_end": 165,
+        "head_type": "QTL",
+        "tail": "anthracnose",
+        "tail_start": 79,
+        "tail_end": 90,
+        "tail_type": "BIS",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 161,
+        "head_end": 165,
+        "head_type": "QTL",
+        "tail": "rust",
+        "tail_start": 92,
+        "tail_end": 96,
+        "tail_type": "BIS",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 161,
+        "head_end": 165,
+        "head_type": "QTL",
+        "tail": "zonate leaf spot",
+        "tail_start": 98,
+        "tail_end": 114,
+        "tail_type": "BIS",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 161,
+        "head_end": 165,
+        "head_type": "QTL",
+        "tail": "drechslera leaf blight",
+        "tail_start": 116,
+        "tail_end": 138,
+        "tail_type": "BIS",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 161,
+        "head_end": 165,
+        "head_type": "QTL",
+        "tail": "target leaf spot",
+        "tail_start": 143,
+        "tail_end": 159,
+        "tail_type": "BIS",
+        "label": "LOI"
+      },
+      {
+        "head": "anthracnose",
+        "head_start": 79,
+        "head_end": 90,
+        "head_type": "BIS",
+        "tail": "Forage sorghum",
+        "tail_start": 0,
+        "tail_end": 14,
+        "tail_type": "CROP",
+        "label": "AFF"
+      },
+      {
+        "head": "rust",
+        "head_start": 92,
+        "head_end": 96,
+        "head_type": "BIS",
+        "tail": "Forage sorghum",
+        "tail_start": 0,
+        "tail_end": 14,
+        "tail_type": "CROP",
+        "label": "AFF"
+      },
+      {
+        "head": "zonate leaf spot",
+        "head_start": 98,
+        "head_end": 114,
+        "head_type": "BIS",
+        "tail": "Forage sorghum",
+        "tail_start": 0,
+        "tail_end": 14,
+        "tail_type": "CROP",
+        "label": "AFF"
+      },
+      {
+        "head": "drechslera leaf blight",
+        "head_start": 116,
+        "head_end": 138,
+        "head_type": "BIS",
+        "tail": "Forage sorghum",
+        "tail_start": 0,
+        "tail_end": 14,
+        "tail_type": "CROP",
+        "label": "AFF"
+      },
+      {
+        "head": "target leaf spot",
+        "head_start": 143,
+        "head_end": 159,
+        "head_type": "BIS",
+        "tail": "Forage sorghum",
+        "tail_start": 0,
+        "tail_end": 14,
+        "tail_type": "CROP",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "QTL regions contain genes encoding chilling stress and hormonal response genes. These QTL can aid molecular breeding of sorghum for improved low-temperature germinability.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 35,
+        "end": 50,
+        "text": "chilling stress",
+        "label": "ABS"
+      },
+      {
+        "start": 86,
+        "end": 89,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 120,
+        "end": 127,
+        "text": "sorghum",
+        "label": "CROP"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "The Stg introgression lines Meko/B35-selection 120, Teshale/B35-selection 2 and Teshale/E36-1 showed better drought stress tolerance than other genotypes. These lines also showed better grain yield than their recurrent parents under post-flowering drought stress.",
+    "entities": [
+      {
+        "start": 28,
+        "end": 50,
+        "text": "Meko/B35-selection 120",
+        "label": "VAR"
+      },
+      {
+        "start": 52,
+        "end": 75,
+        "text": "Teshale/B35-selection 2",
+        "label": "VAR"
+      },
+      {
+        "start": 80,
+        "end": 93,
+        "text": "Teshale/E36-1",
+        "label": "VAR"
+      },
+      {
+        "start": 108,
+        "end": 132,
+        "text": "drought stress tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 186,
+        "end": 197,
+        "text": "grain yield",
+        "label": "TRT"
+      },
+      {
+        "start": 248,
+        "end": 262,
+        "text": "drought stress",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Meko/B35-selection 120",
+        "head_start": 28,
+        "head_end": 50,
+        "head_type": "VAR",
+        "tail": "drought stress tolerance",
+        "tail_start": 108,
+        "tail_end": 132,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Teshale/B35-selection 2",
+        "head_start": 52,
+        "head_end": 75,
+        "head_type": "VAR",
+        "tail": "drought stress tolerance",
+        "tail_start": 108,
+        "tail_end": 132,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Teshale/E36-1",
+        "head_start": 80,
+        "head_end": 93,
+        "head_type": "VAR",
+        "tail": "drought stress tolerance",
+        "tail_start": 108,
+        "tail_end": 132,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Meko/B35-selection 120",
+        "head_start": 28,
+        "head_end": 50,
+        "head_type": "VAR",
+        "tail": "grain yield",
+        "tail_start": 186,
+        "tail_end": 197,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Teshale/B35-selection 2",
+        "head_start": 52,
+        "head_end": 75,
+        "head_type": "VAR",
+        "tail": "grain yield",
+        "tail_start": 186,
+        "tail_end": 197,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Teshale/E36-1",
+        "head_start": 80,
+        "head_end": 93,
+        "head_type": "VAR",
+        "tail": "grain yield",
+        "tail_start": 186,
+        "tail_end": 197,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "drought stress",
+        "head_start": 248,
+        "head_end": 262,
+        "head_type": "ABS",
+        "tail": "drought stress tolerance",
+        "tail_start": 108,
+        "tail_end": 132,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "drought stress",
+        "head_start": 248,
+        "head_end": 262,
+        "head_type": "ABS",
+        "tail": "grain yield",
+        "tail_start": 186,
+        "tail_end": 197,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "A barley mapping population was developed using morphological marker stocks as parents. Ninety-four doubled-haploid lines were derived from an F-1 using the Hordeum bulbosum system for genetic mapping.",
+    "entities": [
+      {
+        "start": 2,
+        "end": 8,
+        "text": "barley",
+        "label": "CROP"
+      }
+    ],
+    "relations": []
+  }
+]

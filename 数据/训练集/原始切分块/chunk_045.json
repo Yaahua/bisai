@@ -1,0 +1,701 @@
+[
+  {
+    "text": "The 4H and 7H QTLs had negative additive effects of -0.02 and -0.033, and originated from the male parent Schooner.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 6,
+        "text": "4H",
+        "label": "CHR"
+      },
+      {
+        "start": 11,
+        "end": 13,
+        "text": "7H",
+        "label": "CHR"
+      },
+      {
+        "start": 14,
+        "end": 18,
+        "text": "QTLs",
+        "label": "QTL"
+      },
+      {
+        "start": 106,
+        "end": 114,
+        "text": "Schooner",
+        "label": "VAR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QTLs",
+        "head_start": 14,
+        "head_end": 18,
+        "head_type": "QTL",
+        "tail": "4H",
+        "tail_start": 4,
+        "tail_end": 6,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 14,
+        "head_end": 18,
+        "head_type": "QTL",
+        "tail": "7H",
+        "tail_start": 11,
+        "tail_end": 13,
+        "tail_type": "CHR",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "Sorghum bicolor is an important cereal crop. Stay-green sorghum plants retain green leaf area longer under drought conditions and have higher yields than senescent plants.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "text": "Sorghum bicolor",
+        "label": "CROP"
+      },
+      {
+        "start": 45,
+        "end": 55,
+        "text": "Stay-green",
+        "label": "TRT"
+      },
+      {
+        "start": 45,
+        "end": 70,
+        "text": "Stay-green sorghum plants",
+        "label": "VAR"
+      },
+      {
+        "start": 107,
+        "end": 114,
+        "text": "drought",
+        "label": "ABS"
+      },
+      {
+        "start": 154,
+        "end": 170,
+        "text": "senescent plants",
+        "label": "VAR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Sorghum bicolor",
+        "head_start": 0,
+        "head_end": 15,
+        "head_type": "CROP",
+        "tail": "Stay-green sorghum plants",
+        "tail_start": 45,
+        "tail_end": 70,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "Stay-green sorghum plants",
+        "head_start": 45,
+        "head_end": 70,
+        "head_type": "VAR",
+        "tail": "Stay-green",
+        "tail_start": 45,
+        "tail_end": 55,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "drought",
+        "head_start": 107,
+        "head_end": 114,
+        "head_type": "ABS",
+        "tail": "Stay-green",
+        "tail_start": 45,
+        "tail_end": 55,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "We integrated multiple data sets to combine recent QTL and GWAS analyses for yield and drought resistance. This uncovered consistent genomic regions related to these traits. We determined the physical position of significant markers in the reference faba bean genome and assessed the co-localization of significant QTNs with stable QTLs, pinpointing likely candidate genes. One hundred fifty-two annotated genes in 10 overlapping genomic regions were predicted as faba bean candidate genes for drought and yield related traits. Many were closely related to genes previously identified in other crops.",
+    "entities": [
+      {
+        "start": 51,
+        "end": 54,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 59,
+        "end": 63,
+        "text": "GWAS",
+        "label": "BM"
+      },
+      {
+        "start": 87,
+        "end": 94,
+        "text": "drought",
+        "label": "ABS"
+      },
+      {
+        "start": 87,
+        "end": 105,
+        "text": "drought resistance",
+        "label": "TRT"
+      },
+      {
+        "start": 250,
+        "end": 259,
+        "text": "faba bean",
+        "label": "CROP"
+      },
+      {
+        "start": 315,
+        "end": 319,
+        "text": "QTNs",
+        "label": "QTL"
+      },
+      {
+        "start": 332,
+        "end": 336,
+        "text": "QTLs",
+        "label": "QTL"
+      },
+      {
+        "start": 469,
+        "end": 473,
+        "text": "bean",
+        "label": "CROP"
+      },
+      {
+        "start": 494,
+        "end": 501,
+        "text": "drought",
+        "label": "ABS"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "The MTSI selection index selected genotypes based on multiple agro-morphological traits, excluding leaf-to-stem ratio. Genotypes G81, G90, G80, and G89 were identified as desirable by MTSI.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 24,
+        "text": "MTSI selection index",
+        "label": "BM"
+      },
+      {
+        "start": 99,
+        "end": 117,
+        "text": "leaf-to-stem ratio",
+        "label": "TRT"
+      },
+      {
+        "start": 119,
+        "end": 132,
+        "text": "Genotypes G81",
+        "label": "VAR"
+      },
+      {
+        "start": 134,
+        "end": 137,
+        "text": "G90",
+        "label": "VAR"
+      },
+      {
+        "start": 139,
+        "end": 142,
+        "text": "G80",
+        "label": "VAR"
+      },
+      {
+        "start": 148,
+        "end": 151,
+        "text": "G89",
+        "label": "VAR"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "We analyzed 33 SiNAC genes from the foxtail millet genome. Phylogenetic analysis classified these genes into 11 subgroups. Chromosomal mapping localized them to nine chromosomes.",
+    "entities": [
+      {
+        "start": 15,
+        "end": 26,
+        "text": "SiNAC genes",
+        "label": "GENE"
+      },
+      {
+        "start": 36,
+        "end": 50,
+        "text": "foxtail millet",
+        "label": "CROP"
+      },
+      {
+        "start": 166,
+        "end": 177,
+        "text": "chromosomes",
+        "label": "CHR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "foxtail millet",
+        "head_start": 36,
+        "head_end": 50,
+        "head_type": "CROP",
+        "tail": "SiNAC genes",
+        "tail_start": 15,
+        "tail_end": 26,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "SiNAC genes",
+        "head_start": 15,
+        "head_end": 26,
+        "head_type": "GENE",
+        "tail": "chromosomes",
+        "tail_start": 166,
+        "tail_end": 177,
+        "tail_type": "CHR",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "FtbHLH3 overexpression in Arabidopsis increased drought tolerance and oxidative tolerance. Transgenic lines had lower MDA, IL, and ROS, and higher Pro content, antioxidant enzyme activities, and photosynthetic efficiency compared to WT. Under drought stress, transgenic lines had higher expression of stress-responsive genes than WT.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "FtbHLH3",
+        "label": "GENE"
+      },
+      {
+        "start": 26,
+        "end": 37,
+        "text": "Arabidopsis",
+        "label": "CROP"
+      },
+      {
+        "start": 48,
+        "end": 65,
+        "text": "drought tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 70,
+        "end": 89,
+        "text": "oxidative tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 118,
+        "end": 121,
+        "text": "MDA",
+        "label": "TRT"
+      },
+      {
+        "start": 123,
+        "end": 125,
+        "text": "IL",
+        "label": "TRT"
+      },
+      {
+        "start": 131,
+        "end": 134,
+        "text": "ROS",
+        "label": "TRT"
+      },
+      {
+        "start": 147,
+        "end": 158,
+        "text": "Pro content",
+        "label": "TRT"
+      },
+      {
+        "start": 160,
+        "end": 189,
+        "text": "antioxidant enzyme activities",
+        "label": "TRT"
+      },
+      {
+        "start": 195,
+        "end": 220,
+        "text": "photosynthetic efficiency",
+        "label": "TRT"
+      },
+      {
+        "start": 243,
+        "end": 257,
+        "text": "drought stress",
+        "label": "ABS"
+      },
+      {
+        "start": 301,
+        "end": 324,
+        "text": "stress-responsive genes",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "FtbHLH3",
+        "head_start": 0,
+        "head_end": 7,
+        "head_type": "GENE",
+        "tail": "drought tolerance",
+        "tail_start": 48,
+        "tail_end": 65,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "FtbHLH3",
+        "head_start": 0,
+        "head_end": 7,
+        "head_type": "GENE",
+        "tail": "oxidative tolerance",
+        "tail_start": 70,
+        "tail_end": 89,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "drought stress",
+        "head_start": 243,
+        "head_end": 257,
+        "head_type": "ABS",
+        "tail": "drought tolerance",
+        "tail_start": 48,
+        "tail_end": 65,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "drought stress",
+        "head_start": 243,
+        "head_end": 257,
+        "head_type": "ABS",
+        "tail": "oxidative tolerance",
+        "tail_start": 70,
+        "tail_end": 89,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "QTL for stem sugar-related and other agronomic traits were identified in a sorghum population from the cross R9188 x R9403463-2-1. QTL analyses used phenotypic data for 11 traits from two field experiments and a genetic map with 228 SSR and AFLP markers. The markers formed 16 linkage groups, with 11 groups assigned to sorghum chromosomes SBI-01 to SBI-10.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 37,
+        "end": 53,
+        "text": "agronomic traits",
+        "label": "TRT"
+      },
+      {
+        "start": 75,
+        "end": 82,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 109,
+        "end": 129,
+        "text": "R9188 x R9403463-2-1",
+        "label": "CROSS"
+      },
+      {
+        "start": 233,
+        "end": 236,
+        "text": "SSR",
+        "label": "MRK"
+      },
+      {
+        "start": 241,
+        "end": 245,
+        "text": "AFLP",
+        "label": "MRK"
+      },
+      {
+        "start": 320,
+        "end": 327,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 340,
+        "end": 346,
+        "text": "SBI-01",
+        "label": "CHR"
+      },
+      {
+        "start": 350,
+        "end": 356,
+        "text": "SBI-10",
+        "label": "CHR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "sorghum",
+        "head_start": 75,
+        "head_end": 82,
+        "head_type": "CROP",
+        "tail": "R9188 x R9403463-2-1",
+        "tail_start": 109,
+        "tail_end": 129,
+        "tail_type": "CROSS",
+        "label": "CON"
+      },
+      {
+        "head": "SSR",
+        "head_start": 233,
+        "head_end": 236,
+        "head_type": "MRK",
+        "tail": "SBI-01",
+        "tail_start": 340,
+        "tail_end": 346,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "AFLP",
+        "head_start": 241,
+        "head_end": 245,
+        "head_type": "MRK",
+        "tail": "SBI-01",
+        "tail_start": 340,
+        "tail_end": 346,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "AFLP",
+        "head_start": 241,
+        "head_end": 245,
+        "head_type": "MRK",
+        "tail": "SBI-10",
+        "tail_start": 350,
+        "tail_end": 356,
+        "tail_type": "CHR",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "We analyzed the E2 gene family in foxtail millet (Setaria italica). 52 E2 genes were identified and classified into four subfamilies (UBC, UEV, SCE, and RCE). Foxtail millet exhibited significant gene expansion.",
+    "entities": [
+      {
+        "start": 34,
+        "end": 48,
+        "text": "foxtail millet",
+        "label": "CROP"
+      },
+      {
+        "start": 50,
+        "end": 65,
+        "text": "Setaria italica",
+        "label": "CROP"
+      },
+      {
+        "start": 71,
+        "end": 79,
+        "text": "E2 genes",
+        "label": "GENE"
+      },
+      {
+        "start": 134,
+        "end": 137,
+        "text": "UBC",
+        "label": "GENE"
+      },
+      {
+        "start": 139,
+        "end": 142,
+        "text": "UEV",
+        "label": "GENE"
+      },
+      {
+        "start": 144,
+        "end": 147,
+        "text": "SCE",
+        "label": "GENE"
+      },
+      {
+        "start": 153,
+        "end": 156,
+        "text": "RCE",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "foxtail millet",
+        "head_start": 34,
+        "head_end": 48,
+        "head_type": "CROP",
+        "tail": "Setaria italica",
+        "tail_start": 50,
+        "tail_end": 65,
+        "tail_type": "CROP",
+        "label": "CON"
+      },
+      {
+        "head": "E2 genes",
+        "head_start": 71,
+        "head_end": 79,
+        "head_type": "GENE",
+        "tail": "UBC",
+        "tail_start": 134,
+        "tail_end": 137,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "E2 genes",
+        "head_start": 71,
+        "head_end": 79,
+        "head_type": "GENE",
+        "tail": "UEV",
+        "tail_start": 139,
+        "tail_end": 142,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "E2 genes",
+        "head_start": 71,
+        "head_end": 79,
+        "head_type": "GENE",
+        "tail": "SCE",
+        "tail_start": 144,
+        "tail_end": 147,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "E2 genes",
+        "head_start": 71,
+        "head_end": 79,
+        "head_type": "GENE",
+        "tail": "RCE",
+        "tail_start": 153,
+        "tail_end": 156,
+        "tail_type": "GENE",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "QTLs detected per trait ranged from 1 to 5, averaging 2.3. There were five QTLs for tuber width and three QTLs for tuber weight.",
+    "entities": [
+      {
+        "start": 75,
+        "end": 79,
+        "text": "QTLs",
+        "label": "QTL"
+      },
+      {
+        "start": 84,
+        "end": 95,
+        "text": "tuber width",
+        "label": "TRT"
+      },
+      {
+        "start": 106,
+        "end": 110,
+        "text": "QTLs",
+        "label": "QTL"
+      },
+      {
+        "start": 115,
+        "end": 127,
+        "text": "tuber weight",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QTLs",
+        "head_start": 75,
+        "head_end": 79,
+        "head_type": "QTL",
+        "tail": "tuber width",
+        "tail_start": 84,
+        "tail_end": 95,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs",
+        "head_start": 75,
+        "head_end": 79,
+        "head_type": "QTL",
+        "tail": "tuber weight",
+        "tail_start": 115,
+        "tail_end": 127,
+        "tail_type": "TRT",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "210 MYB genes were identified in sorghum. The genes, named SbMYB1-SbMYB210, are distributed across ten chromosomes. They were divided into six subfamilies.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 7,
+        "text": "MYB",
+        "label": "GENE"
+      },
+      {
+        "start": 33,
+        "end": 40,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 59,
+        "end": 74,
+        "text": "SbMYB1-SbMYB210",
+        "label": "GENE"
+      },
+      {
+        "start": 103,
+        "end": 114,
+        "text": "chromosomes",
+        "label": "CHR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "SbMYB1-SbMYB210",
+        "head_start": 59,
+        "head_end": 74,
+        "head_type": "GENE",
+        "tail": "chromosomes",
+        "tail_start": 103,
+        "tail_end": 114,
+        "tail_type": "CHR",
+        "label": "LOI"
+      }
+    ]
+  }
+]

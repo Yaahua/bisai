@@ -1,0 +1,508 @@
+[
+  {
+    "text": "A genome-wide analysis identified 33 AsEPF/EPFL genes in oats (Avena sativa). Among these, 28 genes contain the conserved EPF domain and 5 genes harbor the stomagen domain.",
+    "entities": [
+      {
+        "start": 37,
+        "end": 53,
+        "text": "AsEPF/EPFL genes",
+        "label": "GENE"
+      },
+      {
+        "start": 57,
+        "end": 61,
+        "text": "oats",
+        "label": "CROP"
+      },
+      {
+        "start": 63,
+        "end": 75,
+        "text": "Avena sativa",
+        "label": "CROP"
+      },
+      {
+        "start": 122,
+        "end": 132,
+        "text": "EPF domain",
+        "label": "GENE"
+      },
+      {
+        "start": 156,
+        "end": 171,
+        "text": "stomagen domain",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "oats",
+        "head_start": 57,
+        "head_end": 61,
+        "head_type": "CROP",
+        "tail": "Avena sativa",
+        "tail_start": 63,
+        "tail_end": 75,
+        "tail_type": "CROP",
+        "label": "CON"
+      },
+      {
+        "head": "AsEPF/EPFL genes",
+        "head_start": 37,
+        "head_end": 53,
+        "head_type": "GENE",
+        "tail": "EPF domain",
+        "tail_start": 122,
+        "tail_end": 132,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "AsEPF/EPFL genes",
+        "head_start": 37,
+        "head_end": 53,
+        "head_type": "GENE",
+        "tail": "stomagen domain",
+        "tail_start": 156,
+        "tail_end": 171,
+        "tail_type": "GENE",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "Lutein, zeaxanthin, and beta-carotene were the major carotenoids. Several QTL were detected for each compound, color, and total carotenoids.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Lutein",
+        "label": "TRT"
+      },
+      {
+        "start": 8,
+        "end": 18,
+        "text": "zeaxanthin",
+        "label": "TRT"
+      },
+      {
+        "start": 24,
+        "end": 37,
+        "text": "beta-carotene",
+        "label": "TRT"
+      },
+      {
+        "start": 74,
+        "end": 77,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 111,
+        "end": 116,
+        "text": "color",
+        "label": "TRT"
+      },
+      {
+        "start": 122,
+        "end": 139,
+        "text": "total carotenoids",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QTL",
+        "head_start": 74,
+        "head_end": 77,
+        "head_type": "QTL",
+        "tail": "Lutein",
+        "tail_start": 0,
+        "tail_end": 6,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL",
+        "head_start": 74,
+        "head_end": 77,
+        "head_type": "QTL",
+        "tail": "zeaxanthin",
+        "tail_start": 8,
+        "tail_end": 18,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL",
+        "head_start": 74,
+        "head_end": 77,
+        "head_type": "QTL",
+        "tail": "beta-carotene",
+        "tail_start": 24,
+        "tail_end": 37,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL",
+        "head_start": 74,
+        "head_end": 77,
+        "head_type": "QTL",
+        "tail": "color",
+        "tail_start": 111,
+        "tail_end": 116,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL",
+        "head_start": 74,
+        "head_end": 77,
+        "head_type": "QTL",
+        "tail": "total carotenoids",
+        "tail_start": 122,
+        "tail_end": 139,
+        "tail_type": "TRT",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "QTL for yield and yield components were mapped and tagged using ICi-Mapping software v. 41.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 34,
+        "text": "QTL for yield and yield components",
+        "label": "QTL"
+      },
+      {
+        "start": 64,
+        "end": 90,
+        "text": "ICi-Mapping software v. 41",
+        "label": "BM"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Three primers were designed from the identified SNP to develop an ASM for dehydration tolerance. The ASM produced a 261 bp fragment in all tolerant accessions and no amplification in sensitive accessions.",
+    "entities": [
+      {
+        "start": 48,
+        "end": 51,
+        "text": "SNP",
+        "label": "MRK"
+      },
+      {
+        "start": 74,
+        "end": 95,
+        "text": "dehydration tolerance",
+        "label": "TRT"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Nine QTL were identified for PCERGOT. Five QTL were identified using the overall data set. Four QTL were specific to the group data sets defined by temperature and humidity. QTL on SBI-02 and SBI-06 were validated in additional populations.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 8,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 29,
+        "end": 36,
+        "text": "PCERGOT",
+        "label": "TRT"
+      },
+      {
+        "start": 43,
+        "end": 46,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 96,
+        "end": 99,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 174,
+        "end": 177,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 181,
+        "end": 187,
+        "text": "SBI-02",
+        "label": "CHR"
+      },
+      {
+        "start": 192,
+        "end": 198,
+        "text": "SBI-06",
+        "label": "CHR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QTL",
+        "head_start": 5,
+        "head_end": 8,
+        "head_type": "QTL",
+        "tail": "PCERGOT",
+        "tail_start": 29,
+        "tail_end": 36,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL",
+        "head_start": 5,
+        "head_end": 8,
+        "head_type": "QTL",
+        "tail": "SBI-02",
+        "tail_start": 181,
+        "tail_end": 187,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL",
+        "head_start": 5,
+        "head_end": 8,
+        "head_type": "QTL",
+        "tail": "SBI-06",
+        "tail_start": 192,
+        "tail_end": 198,
+        "tail_type": "CHR",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "A GWAS involved 446 elite oat (Avena sativa L.) breeding lines from North America. They were genotyped with 1005 DArT markers and had phenotypic data from historical and balanced 2-year data.",
+    "entities": [
+      {
+        "start": 2,
+        "end": 6,
+        "text": "GWAS",
+        "label": "BM"
+      },
+      {
+        "start": 26,
+        "end": 29,
+        "text": "oat",
+        "label": "CROP"
+      },
+      {
+        "start": 31,
+        "end": 45,
+        "text": "Avena sativa L",
+        "label": "CROP"
+      },
+      {
+        "start": 113,
+        "end": 125,
+        "text": "DArT markers",
+        "label": "MRK"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "This review integrates findings on the responses of S. viridis and S. italica to drought, heat, light, saline soils, nutrient deficiencies and heavy metal contamination. Comparative analyses highlight conserved and divergent stress-response pathways between S. italica and S. viridis.",
+    "entities": [
+      {
+        "start": 52,
+        "end": 62,
+        "text": "S. viridis",
+        "label": "CROP"
+      },
+      {
+        "start": 67,
+        "end": 77,
+        "text": "S. italica",
+        "label": "CROP"
+      },
+      {
+        "start": 81,
+        "end": 88,
+        "text": "drought",
+        "label": "ABS"
+      },
+      {
+        "start": 90,
+        "end": 94,
+        "text": "heat",
+        "label": "ABS"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "One hundred and fourteen oat (Avena sativa L.) varieties were evaluated for genetic diversity using 77 molecular polymorphisms from eight AFLP primer combinations. Genetic similarity was calculated with the DICE coefficient for cluster analysis and principal component analysis.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 28,
+        "text": "oat",
+        "label": "CROP"
+      },
+      {
+        "start": 30,
+        "end": 44,
+        "text": "Avena sativa L",
+        "label": "CROP"
+      },
+      {
+        "start": 47,
+        "end": 56,
+        "text": "varieties",
+        "label": "VAR"
+      },
+      {
+        "start": 138,
+        "end": 162,
+        "text": "AFLP primer combinations",
+        "label": "MRK"
+      }
+    ],
+    "relations": [
+      {
+        "head": "oat",
+        "head_start": 25,
+        "head_end": 28,
+        "head_type": "CROP",
+        "tail": "Avena sativa L",
+        "tail_start": 30,
+        "tail_end": 44,
+        "tail_type": "CROP",
+        "label": "CON"
+      },
+      {
+        "head": "varieties",
+        "head_start": 47,
+        "head_end": 56,
+        "head_type": "VAR",
+        "tail": "AFLP primer combinations",
+        "tail_start": 138,
+        "tail_end": 162,
+        "tail_type": "MRK",
+        "label": "USE"
+      }
+    ]
+  },
+  {
+    "text": "qRT-PCR analysis showed that AtOAT transformation up-regulated the expression of proline biosynthesis genes TaOAT, TaP5CS, and TaP5CR, and down-regulated the proline catabolism gene TaP5CDH in transgenic plants under stress. Genes in the ornithine pathway (Orn-OAT-P5C/GSA-P5CR-Pro) were up-regulated, along with genes in the glutamate pathway (Glu-P5CS-P5C/GSA-P5CR-Pro).",
+    "entities": [
+      {
+        "start": 81,
+        "end": 107,
+        "text": "proline biosynthesis genes",
+        "label": "GENE"
+      },
+      {
+        "start": 115,
+        "end": 121,
+        "text": "TaP5CS",
+        "label": "GENE"
+      },
+      {
+        "start": 127,
+        "end": 133,
+        "text": "TaP5CR",
+        "label": "GENE"
+      },
+      {
+        "start": 182,
+        "end": 189,
+        "text": "TaP5CDH",
+        "label": "GENE"
+      },
+      {
+        "start": 257,
+        "end": 281,
+        "text": "Orn-OAT-P5C/GSA-P5CR-Pro",
+        "label": "GENE"
+      },
+      {
+        "start": 345,
+        "end": 370,
+        "text": "Glu-P5CS-P5C/GSA-P5CR-Pro",
+        "label": "GENE"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "AsSnRK2D, a member of the SnRK2 family, was isolated from oat (Avena sativa). The AsSnRK2D protein contains SnRK2 family-specific functional domains.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "text": "AsSnRK2D",
+        "label": "GENE"
+      },
+      {
+        "start": 26,
+        "end": 31,
+        "text": "SnRK2",
+        "label": "GENE"
+      },
+      {
+        "start": 58,
+        "end": 61,
+        "text": "oat",
+        "label": "CROP"
+      },
+      {
+        "start": 63,
+        "end": 75,
+        "text": "Avena sativa",
+        "label": "CROP"
+      },
+      {
+        "start": 82,
+        "end": 98,
+        "text": "AsSnRK2D protein",
+        "label": "GENE"
+      },
+      {
+        "start": 108,
+        "end": 113,
+        "text": "SnRK2",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "AsSnRK2D",
+        "head_start": 0,
+        "head_end": 8,
+        "head_type": "GENE",
+        "tail": "Avena sativa",
+        "tail_start": 63,
+        "tail_end": 75,
+        "tail_type": "CROP",
+        "label": "LOI"
+      },
+      {
+        "head": "AsSnRK2D",
+        "head_start": 0,
+        "head_end": 8,
+        "head_type": "GENE",
+        "tail": "oat",
+        "tail_start": 58,
+        "tail_end": 61,
+        "tail_type": "CROP",
+        "label": "LOI"
+      }
+    ]
+  }
+]

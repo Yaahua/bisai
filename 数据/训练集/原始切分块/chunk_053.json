@@ -1,0 +1,645 @@
+[
+  {
+    "text": "Four QTL influenced winter injury scores at Pullman in 1999. Winter hardiness is influenced by several genes and the cumulative effects of winter stress.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 8,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 20,
+        "end": 40,
+        "text": "winter injury scores",
+        "label": "TRT"
+      },
+      {
+        "start": 44,
+        "end": 51,
+        "text": "Pullman",
+        "label": "GST"
+      },
+      {
+        "start": 61,
+        "end": 77,
+        "text": "Winter hardiness",
+        "label": "TRT"
+      },
+      {
+        "start": 139,
+        "end": 152,
+        "text": "winter stress",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QTL",
+        "head_start": 5,
+        "head_end": 8,
+        "head_type": "QTL",
+        "tail": "winter injury scores",
+        "tail_start": 20,
+        "tail_end": 40,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "winter stress",
+        "head_start": 139,
+        "head_end": 152,
+        "head_type": "ABS",
+        "tail": "Winter hardiness",
+        "tail_start": 61,
+        "tail_end": 77,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Under high temperature stress, FtPYL16 expression dropped to 0.12 and FtPYL17 fell to 0.22. At grain development stages, FtPY15 expression is high at 19 D.",
+    "entities": [
+      {
+        "start": 6,
+        "end": 29,
+        "text": "high temperature stress",
+        "label": "ABS"
+      },
+      {
+        "start": 31,
+        "end": 38,
+        "text": "FtPYL16",
+        "label": "GENE"
+      },
+      {
+        "start": 70,
+        "end": 77,
+        "text": "FtPYL17",
+        "label": "GENE"
+      },
+      {
+        "start": 95,
+        "end": 119,
+        "text": "grain development stages",
+        "label": "GST"
+      },
+      {
+        "start": 121,
+        "end": 127,
+        "text": "FtPY15",
+        "label": "GENE"
+      },
+      {
+        "start": 150,
+        "end": 154,
+        "text": "19 D",
+        "label": "GST"
+      }
+    ],
+    "relations": [
+      {
+        "head": "high temperature stress",
+        "head_start": 6,
+        "head_end": 29,
+        "head_type": "ABS",
+        "tail": "FtPYL16",
+        "tail_start": 31,
+        "tail_end": 38,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "high temperature stress",
+        "head_start": 6,
+        "head_end": 29,
+        "head_type": "ABS",
+        "tail": "FtPYL17",
+        "tail_start": 70,
+        "tail_end": 77,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "FtPY15",
+        "head_start": 121,
+        "head_end": 127,
+        "head_type": "GENE",
+        "tail": "grain development stages",
+        "tail_start": 95,
+        "tail_end": 119,
+        "tail_type": "GST",
+        "label": "OCI"
+      },
+      {
+        "head": "grain development stages",
+        "head_start": 95,
+        "head_end": 119,
+        "head_type": "GST",
+        "tail": "19 D",
+        "tail_start": 150,
+        "tail_end": 154,
+        "tail_type": "GST",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "QTLs for kernel morphology and groat percentage were compared to QTLs for chemical grain composition and agronomic traits. Several oat genome regions contained QTL clusters influencing two or more traits.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "text": "QTLs",
+        "label": "QTL"
+      },
+      {
+        "start": 65,
+        "end": 69,
+        "text": "QTLs",
+        "label": "QTL"
+      },
+      {
+        "start": 105,
+        "end": 121,
+        "text": "agronomic traits",
+        "label": "TRT"
+      },
+      {
+        "start": 131,
+        "end": 134,
+        "text": "oat",
+        "label": "CROP"
+      },
+      {
+        "start": 160,
+        "end": 172,
+        "text": "QTL clusters",
+        "label": "QTL"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Long-dormancy-associated alleles at both loci were over-represented in East Asian accessions. Both Qsd1 and Qsd2 had significant genetic effects on seed dormancy in cultivated barley.",
+    "entities": [
+      {
+        "start": 71,
+        "end": 81,
+        "text": "East Asian",
+        "label": "VAR"
+      },
+      {
+        "start": 99,
+        "end": 103,
+        "text": "Qsd1",
+        "label": "GENE"
+      },
+      {
+        "start": 108,
+        "end": 112,
+        "text": "Qsd2",
+        "label": "GENE"
+      },
+      {
+        "start": 148,
+        "end": 161,
+        "text": "seed dormancy",
+        "label": "TRT"
+      },
+      {
+        "start": 165,
+        "end": 182,
+        "text": "cultivated barley",
+        "label": "CROP"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Qsd1",
+        "head_start": 99,
+        "head_end": 103,
+        "head_type": "GENE",
+        "tail": "seed dormancy",
+        "tail_start": 148,
+        "tail_end": 161,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "Qsd2",
+        "head_start": 108,
+        "head_end": 112,
+        "head_type": "GENE",
+        "tail": "seed dormancy",
+        "tail_start": 148,
+        "tail_end": 161,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "cultivated barley",
+        "head_start": 165,
+        "head_end": 182,
+        "head_type": "CROP",
+        "tail": "seed dormancy",
+        "tail_start": 148,
+        "tail_end": 161,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "Drought stress significantly decreased the unsaturation indices (UI) of digalactosyl-diacylglycerol (DGDG), monogalactosyl-diacylglycerol (MGDG), phosphatidylglycerol (PG) and phosphatidylcholine (PC) in both cultivars, except for DGDG in cv. Kangsi.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "text": "Drought stress",
+        "label": "ABS"
+      },
+      {
+        "start": 43,
+        "end": 68,
+        "text": "unsaturation indices (UI)",
+        "label": "TRT"
+      },
+      {
+        "start": 72,
+        "end": 106,
+        "text": "digalactosyl-diacylglycerol (DGDG)",
+        "label": "TRT"
+      },
+      {
+        "start": 108,
+        "end": 144,
+        "text": "monogalactosyl-diacylglycerol (MGDG)",
+        "label": "TRT"
+      },
+      {
+        "start": 146,
+        "end": 171,
+        "text": "phosphatidylglycerol (PG)",
+        "label": "TRT"
+      },
+      {
+        "start": 176,
+        "end": 200,
+        "text": "phosphatidylcholine (PC)",
+        "label": "TRT"
+      },
+      {
+        "start": 239,
+        "end": 249,
+        "text": "cv. Kangsi",
+        "label": "VAR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Drought stress",
+        "head_start": 0,
+        "head_end": 14,
+        "head_type": "ABS",
+        "tail": "unsaturation indices (UI)",
+        "tail_start": 43,
+        "tail_end": 68,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Drought stress",
+        "head_start": 0,
+        "head_end": 14,
+        "head_type": "ABS",
+        "tail": "digalactosyl-diacylglycerol (DGDG)",
+        "tail_start": 72,
+        "tail_end": 106,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Drought stress",
+        "head_start": 0,
+        "head_end": 14,
+        "head_type": "ABS",
+        "tail": "monogalactosyl-diacylglycerol (MGDG)",
+        "tail_start": 108,
+        "tail_end": 144,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Drought stress",
+        "head_start": 0,
+        "head_end": 14,
+        "head_type": "ABS",
+        "tail": "phosphatidylglycerol (PG)",
+        "tail_start": 146,
+        "tail_end": 171,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Drought stress",
+        "head_start": 0,
+        "head_end": 14,
+        "head_type": "ABS",
+        "tail": "phosphatidylcholine (PC)",
+        "tail_start": 176,
+        "tail_end": 200,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "The CAMTA family in quinoa has structures and functions. CAMTAs regulate organ development, growth, and drought stress responses.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 26,
+        "text": "quinoa",
+        "label": "CROP"
+      },
+      {
+        "start": 104,
+        "end": 118,
+        "text": "drought stress",
+        "label": "ABS"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Jingu 21 was sown in the field in 2022. 31 herbicides were applied. 21 traits, including morphological, physiological, and yield-component traits, were measured to assess millet resistance.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "text": "Jingu 21",
+        "label": "VAR"
+      },
+      {
+        "start": 43,
+        "end": 53,
+        "text": "herbicides",
+        "label": "ABS"
+      },
+      {
+        "start": 89,
+        "end": 102,
+        "text": "morphological",
+        "label": "TRT"
+      },
+      {
+        "start": 104,
+        "end": 117,
+        "text": "physiological",
+        "label": "TRT"
+      },
+      {
+        "start": 123,
+        "end": 145,
+        "text": "yield-component traits",
+        "label": "TRT"
+      },
+      {
+        "start": 171,
+        "end": 177,
+        "text": "millet",
+        "label": "CROP"
+      }
+    ],
+    "relations": [
+      {
+        "head": "millet",
+        "head_start": 171,
+        "head_end": 177,
+        "head_type": "CROP",
+        "tail": "Jingu 21",
+        "tail_start": 0,
+        "tail_end": 8,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "Jingu 21",
+        "head_start": 0,
+        "head_end": 8,
+        "head_type": "VAR",
+        "tail": "morphological",
+        "tail_start": 89,
+        "tail_end": 102,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Jingu 21",
+        "head_start": 0,
+        "head_end": 8,
+        "head_type": "VAR",
+        "tail": "physiological",
+        "tail_start": 104,
+        "tail_end": 117,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Jingu 21",
+        "head_start": 0,
+        "head_end": 8,
+        "head_type": "VAR",
+        "tail": "yield-component traits",
+        "tail_start": 123,
+        "tail_end": 145,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "herbicides",
+        "head_start": 43,
+        "head_end": 53,
+        "head_type": "ABS",
+        "tail": "yield-component traits",
+        "tail_start": 123,
+        "tail_end": 145,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "GWAS detected 49, 5, and 25 significant SNP loci with GLM, MLM, and FarmCPU, respectively. Many loci were detected by two or more models. Two candidate genes for drought tolerance were annotated: Sb08g019720.1, homologous to the early flowering MYB protein transcription factor gene in Arabidopsis thaliana; and Sb01g037050.1, homologous to the basic leucine zipper transcription factor gene in maize.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "text": "GWAS",
+        "label": "BM"
+      },
+      {
+        "start": 40,
+        "end": 48,
+        "text": "SNP loci",
+        "label": "QTL"
+      },
+      {
+        "start": 162,
+        "end": 179,
+        "text": "drought tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 196,
+        "end": 209,
+        "text": "Sb08g019720.1",
+        "label": "GENE"
+      },
+      {
+        "start": 286,
+        "end": 306,
+        "text": "Arabidopsis thaliana",
+        "label": "CROP"
+      },
+      {
+        "start": 312,
+        "end": 325,
+        "text": "Sb01g037050.1",
+        "label": "GENE"
+      },
+      {
+        "start": 395,
+        "end": 400,
+        "text": "maize",
+        "label": "CROP"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "QTL affecting these traits were detected. The two oat populations have different genetic mechanisms for heading date.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 50,
+        "end": 53,
+        "text": "oat",
+        "label": "CROP"
+      },
+      {
+        "start": 50,
+        "end": 65,
+        "text": "oat populations",
+        "label": "VAR"
+      },
+      {
+        "start": 104,
+        "end": 116,
+        "text": "heading date",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QTL",
+        "head_start": 0,
+        "head_end": 3,
+        "head_type": "QTL",
+        "tail": "heading date",
+        "tail_start": 104,
+        "tail_end": 116,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "oat",
+        "head_start": 50,
+        "head_end": 53,
+        "head_type": "CROP",
+        "tail": "oat populations",
+        "tail_start": 50,
+        "tail_end": 65,
+        "tail_type": "VAR",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "Carotenoid content defines foxtail millet varieties. Varieties with different carotenoid levels have distinct genetic features and nutritional profiles.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "text": "Carotenoid content",
+        "label": "TRT"
+      },
+      {
+        "start": 27,
+        "end": 41,
+        "text": "foxtail millet",
+        "label": "CROP"
+      },
+      {
+        "start": 53,
+        "end": 88,
+        "text": "Varieties with different carotenoid",
+        "label": "VAR"
+      },
+      {
+        "start": 110,
+        "end": 126,
+        "text": "genetic features",
+        "label": "TRT"
+      },
+      {
+        "start": 131,
+        "end": 151,
+        "text": "nutritional profiles",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "foxtail millet",
+        "head_start": 27,
+        "head_end": 41,
+        "head_type": "CROP",
+        "tail": "Carotenoid content",
+        "tail_start": 0,
+        "tail_end": 18,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Varieties with different carotenoid",
+        "head_start": 53,
+        "head_end": 88,
+        "head_type": "VAR",
+        "tail": "genetic features",
+        "tail_start": 110,
+        "tail_end": 126,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Varieties with different carotenoid",
+        "head_start": 53,
+        "head_end": 88,
+        "head_type": "VAR",
+        "tail": "nutritional profiles",
+        "tail_start": 131,
+        "tail_end": 151,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  }
+]

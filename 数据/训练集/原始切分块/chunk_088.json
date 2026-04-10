@@ -1,0 +1,808 @@
+[
+  {
+    "text": "It is tolerant to drought, salinity, and high temperature. To understand salinity tolerance mechanisms, physiological and transcriptome analyses were conducted between salinity tolerant line ICMB 01222 and salinity susceptible line ICMB 081 under control and salinity conditions.",
+    "entities": [
+      {
+        "start": 18,
+        "end": 25,
+        "text": "drought",
+        "label": "ABS"
+      },
+      {
+        "start": 27,
+        "end": 35,
+        "text": "salinity",
+        "label": "ABS"
+      },
+      {
+        "start": 41,
+        "end": 57,
+        "text": "high temperature",
+        "label": "ABS"
+      },
+      {
+        "start": 122,
+        "end": 135,
+        "text": "transcriptome",
+        "label": "BM"
+      },
+      {
+        "start": 168,
+        "end": 185,
+        "text": "salinity tolerant",
+        "label": "TRT"
+      },
+      {
+        "start": 191,
+        "end": 201,
+        "text": "ICMB 01222",
+        "label": "VAR"
+      },
+      {
+        "start": 206,
+        "end": 226,
+        "text": "salinity susceptible",
+        "label": "TRT"
+      },
+      {
+        "start": 232,
+        "end": 240,
+        "text": "ICMB 081",
+        "label": "VAR"
+      },
+      {
+        "start": 259,
+        "end": 267,
+        "text": "salinity",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "ICMB 01222",
+        "head_start": 191,
+        "head_end": 201,
+        "head_type": "VAR",
+        "tail": "salinity tolerant",
+        "tail_start": 168,
+        "tail_end": 185,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "ICMB 081",
+        "head_start": 232,
+        "head_end": 240,
+        "head_type": "VAR",
+        "tail": "salinity susceptible",
+        "tail_start": 206,
+        "tail_end": 226,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "salinity",
+        "head_start": 27,
+        "head_end": 35,
+        "head_type": "ABS",
+        "tail": "salinity tolerant",
+        "tail_start": 168,
+        "tail_end": 185,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "salinity",
+        "head_start": 27,
+        "head_end": 35,
+        "head_type": "ABS",
+        "tail": "salinity susceptible",
+        "tail_start": 206,
+        "tail_end": 226,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "FtMYB12 was induced by low temperature. FtMYB12 encodes a nuclear transcription activator.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "FtMYB12",
+        "label": "GENE"
+      },
+      {
+        "start": 23,
+        "end": 38,
+        "text": "low temperature",
+        "label": "ABS"
+      },
+      {
+        "start": 40,
+        "end": 47,
+        "text": "FtMYB12",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "low temperature",
+        "head_start": 23,
+        "head_end": 38,
+        "head_type": "ABS",
+        "tail": "FtMYB12",
+        "tail_start": 0,
+        "tail_end": 7,
+        "tail_type": "GENE",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "We identified 217 foxtail millet seed resources for drought resistance at the maturity stage. Two cultivars with extremely strong drought resistance, JKH4 (Chi 5422) and JKH6 (Chigu 26), and two with extremely weak drought resistance, JRK3 (17M1309) and JRK6 (Canggu 9), were selected for physiological comparison and transcriptome sequencing before and after drought treatment.",
+    "entities": [
+      {
+        "start": 18,
+        "end": 32,
+        "text": "foxtail millet",
+        "label": "CROP"
+      },
+      {
+        "start": 52,
+        "end": 70,
+        "text": "drought resistance",
+        "label": "TRT"
+      },
+      {
+        "start": 78,
+        "end": 92,
+        "text": "maturity stage",
+        "label": "GST"
+      },
+      {
+        "start": 150,
+        "end": 154,
+        "text": "JKH4",
+        "label": "VAR"
+      },
+      {
+        "start": 156,
+        "end": 164,
+        "text": "Chi 5422",
+        "label": "VAR"
+      },
+      {
+        "start": 170,
+        "end": 174,
+        "text": "JKH6",
+        "label": "VAR"
+      },
+      {
+        "start": 176,
+        "end": 184,
+        "text": "Chigu 26",
+        "label": "VAR"
+      },
+      {
+        "start": 235,
+        "end": 239,
+        "text": "JRK3",
+        "label": "VAR"
+      },
+      {
+        "start": 241,
+        "end": 248,
+        "text": "17M1309",
+        "label": "VAR"
+      },
+      {
+        "start": 254,
+        "end": 258,
+        "text": "JRK6",
+        "label": "VAR"
+      },
+      {
+        "start": 260,
+        "end": 268,
+        "text": "Canggu 9",
+        "label": "VAR"
+      },
+      {
+        "start": 318,
+        "end": 342,
+        "text": "transcriptome sequencing",
+        "label": "BM"
+      },
+      {
+        "start": 360,
+        "end": 377,
+        "text": "drought treatment",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "foxtail millet",
+        "head_start": 18,
+        "head_end": 32,
+        "head_type": "CROP",
+        "tail": "JKH4",
+        "tail_start": 150,
+        "tail_end": 154,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "foxtail millet",
+        "head_start": 18,
+        "head_end": 32,
+        "head_type": "CROP",
+        "tail": "Chi 5422",
+        "tail_start": 156,
+        "tail_end": 164,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "foxtail millet",
+        "head_start": 18,
+        "head_end": 32,
+        "head_type": "CROP",
+        "tail": "JKH6",
+        "tail_start": 170,
+        "tail_end": 174,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "foxtail millet",
+        "head_start": 18,
+        "head_end": 32,
+        "head_type": "CROP",
+        "tail": "Chigu 26",
+        "tail_start": 176,
+        "tail_end": 184,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "foxtail millet",
+        "head_start": 18,
+        "head_end": 32,
+        "head_type": "CROP",
+        "tail": "JRK3",
+        "tail_start": 235,
+        "tail_end": 239,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "foxtail millet",
+        "head_start": 18,
+        "head_end": 32,
+        "head_type": "CROP",
+        "tail": "17M1309",
+        "tail_start": 241,
+        "tail_end": 248,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "foxtail millet",
+        "head_start": 18,
+        "head_end": 32,
+        "head_type": "CROP",
+        "tail": "JRK6",
+        "tail_start": 254,
+        "tail_end": 258,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "foxtail millet",
+        "head_start": 18,
+        "head_end": 32,
+        "head_type": "CROP",
+        "tail": "Canggu 9",
+        "tail_start": 260,
+        "tail_end": 268,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "drought resistance",
+        "head_start": 52,
+        "head_end": 70,
+        "head_type": "TRT",
+        "tail": "maturity stage",
+        "tail_start": 78,
+        "tail_end": 92,
+        "tail_type": "GST",
+        "label": "OCI"
+      },
+      {
+        "head": "drought treatment",
+        "head_start": 360,
+        "head_end": 377,
+        "head_type": "ABS",
+        "tail": "maturity stage",
+        "tail_start": 78,
+        "tail_end": 92,
+        "tail_type": "GST",
+        "label": "OCI"
+      }
+    ]
+  },
+  {
+    "text": "A novel wx loss-of-function allele, wxe, was identified in the sorghum mutant population of BTx623. Compared to the wild-type, wxe exhibited reduced amylose content, increased kernel hardness, elevated protein content, reduced endosperm-to-germ ratio, and decreased kernel weight.",
+    "entities": [
+      {
+        "start": 8,
+        "end": 10,
+        "text": "wx",
+        "label": "GENE"
+      },
+      {
+        "start": 36,
+        "end": 39,
+        "text": "wxe",
+        "label": "GENE"
+      },
+      {
+        "start": 63,
+        "end": 70,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 92,
+        "end": 98,
+        "text": "BTx623",
+        "label": "VAR"
+      },
+      {
+        "start": 149,
+        "end": 164,
+        "text": "amylose content",
+        "label": "TRT"
+      },
+      {
+        "start": 176,
+        "end": 191,
+        "text": "kernel hardness",
+        "label": "TRT"
+      },
+      {
+        "start": 202,
+        "end": 217,
+        "text": "protein content",
+        "label": "TRT"
+      },
+      {
+        "start": 227,
+        "end": 250,
+        "text": "endosperm-to-germ ratio",
+        "label": "TRT"
+      },
+      {
+        "start": 266,
+        "end": 279,
+        "text": "kernel weight",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "sorghum",
+        "head_start": 63,
+        "head_end": 70,
+        "head_type": "CROP",
+        "tail": "BTx623",
+        "tail_start": 92,
+        "tail_end": 98,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "wxe",
+        "head_start": 36,
+        "head_end": 39,
+        "head_type": "GENE",
+        "tail": "amylose content",
+        "tail_start": 149,
+        "tail_end": 164,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "wxe",
+        "head_start": 36,
+        "head_end": 39,
+        "head_type": "GENE",
+        "tail": "kernel hardness",
+        "tail_start": 176,
+        "tail_end": 191,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "wxe",
+        "head_start": 36,
+        "head_end": 39,
+        "head_type": "GENE",
+        "tail": "protein content",
+        "tail_start": 202,
+        "tail_end": 217,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "wxe",
+        "head_start": 36,
+        "head_end": 39,
+        "head_type": "GENE",
+        "tail": "endosperm-to-germ ratio",
+        "tail_start": 227,
+        "tail_end": 250,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "wxe",
+        "head_start": 36,
+        "head_end": 39,
+        "head_type": "GENE",
+        "tail": "kernel weight",
+        "tail_start": 266,
+        "tail_end": 279,
+        "tail_type": "TRT",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "SbWRKY55 binds to the promoter of SbBGLU22 and inhibits its expression. SbWRKY55 interacts with SbFYVE1, blocking the ABA signaling pathway.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "text": "SbWRKY55",
+        "label": "GENE"
+      },
+      {
+        "start": 34,
+        "end": 42,
+        "text": "SbBGLU22",
+        "label": "GENE"
+      },
+      {
+        "start": 72,
+        "end": 80,
+        "text": "SbWRKY55",
+        "label": "GENE"
+      },
+      {
+        "start": 96,
+        "end": 103,
+        "text": "SbFYVE1",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "SbWRKY55",
+        "head_start": 0,
+        "head_end": 8,
+        "head_type": "GENE",
+        "tail": "SbBGLU22",
+        "tail_start": 34,
+        "tail_end": 42,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "SbWRKY55",
+        "head_start": 0,
+        "head_end": 8,
+        "head_type": "GENE",
+        "tail": "SbFYVE1",
+        "tail_start": 96,
+        "tail_end": 103,
+        "tail_type": "GENE",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "The naked trait is controlled by a 17-kb deletion harboring the entire ethylene response factor (ERF) gene on the nud locus on barley chromosome 7HL. We developed a new PCR-based diagnostic marker to rapidly select hulled and naked barley accessions, which produces a smaller product with improved resolution.",
+    "entities": [
+      {
+        "start": 114,
+        "end": 123,
+        "text": "nud locus",
+        "label": "QTL"
+      },
+      {
+        "start": 127,
+        "end": 148,
+        "text": "barley chromosome 7HL",
+        "label": "CHR"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Broomcorn millet (Panicum miliaceum L.) is a crop. A worldwide collection of 516 broomcorn millet genomes shows genetic variations, population structure and diversity.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 16,
+        "text": "Broomcorn millet",
+        "label": "CROP"
+      },
+      {
+        "start": 18,
+        "end": 39,
+        "text": "Panicum miliaceum L.)",
+        "label": "CROP"
+      },
+      {
+        "start": 81,
+        "end": 97,
+        "text": "broomcorn millet",
+        "label": "CROP"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Cowpea is tolerant to drought and salt stresses. WRKY transcription factors are related to abiotic stress tolerance. The expression of the cowpea WRKY gene family in response to water deficit is not well known.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Cowpea",
+        "label": "CROP"
+      },
+      {
+        "start": 22,
+        "end": 47,
+        "text": "drought and salt stresses",
+        "label": "ABS"
+      },
+      {
+        "start": 49,
+        "end": 53,
+        "text": "WRKY",
+        "label": "GENE"
+      },
+      {
+        "start": 91,
+        "end": 105,
+        "text": "abiotic stress",
+        "label": "ABS"
+      },
+      {
+        "start": 91,
+        "end": 115,
+        "text": "abiotic stress tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 146,
+        "end": 150,
+        "text": "WRKY",
+        "label": "GENE"
+      },
+      {
+        "start": 178,
+        "end": 191,
+        "text": "water deficit",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "WRKY",
+        "head_start": 49,
+        "head_end": 53,
+        "head_type": "GENE",
+        "tail": "abiotic stress tolerance",
+        "tail_start": 91,
+        "tail_end": 115,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "SbCASP-LP1C1 improves salt tolerance in sweet sorghum [Sorghum bicolor (L.) Moench]. It enhances the root apoplastic barrier and blocks sodium ion transport to the shoot.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "text": "SbCASP-LP1C1",
+        "label": "GENE"
+      },
+      {
+        "start": 22,
+        "end": 36,
+        "text": "salt tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 40,
+        "end": 53,
+        "text": "sweet sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 55,
+        "end": 82,
+        "text": "Sorghum bicolor (L.) Moench",
+        "label": "CROP"
+      },
+      {
+        "start": 101,
+        "end": 124,
+        "text": "root apoplastic barrier",
+        "label": "TRT"
+      },
+      {
+        "start": 129,
+        "end": 169,
+        "text": "blocks sodium ion transport to the shoot",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "sweet sorghum",
+        "head_start": 40,
+        "head_end": 53,
+        "head_type": "CROP",
+        "tail": "Sorghum bicolor (L.) Moench",
+        "tail_start": 55,
+        "tail_end": 82,
+        "tail_type": "CROP",
+        "label": "CON"
+      },
+      {
+        "head": "SbCASP-LP1C1",
+        "head_start": 0,
+        "head_end": 12,
+        "head_type": "GENE",
+        "tail": "salt tolerance",
+        "tail_start": 22,
+        "tail_end": 36,
+        "tail_type": "TRT",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "Overexpression of SbMPK14 in Arabidopsis and maize caused hypersensitivity to drought by promoting water loss. SbMPK14 functions as a negative regulator of drought response. Transcriptome analysis and qRT-PCR verification of maize SbMPK14 overexpression lines showed that SbMPK14 increases drought sensitivity by suppressing the activity of specific ERF and WRKY transcription factors.",
+    "entities": [
+      {
+        "start": 18,
+        "end": 25,
+        "text": "SbMPK14",
+        "label": "GENE"
+      },
+      {
+        "start": 29,
+        "end": 40,
+        "text": "Arabidopsis",
+        "label": "CROP"
+      },
+      {
+        "start": 45,
+        "end": 50,
+        "text": "maize",
+        "label": "CROP"
+      },
+      {
+        "start": 58,
+        "end": 85,
+        "text": "hypersensitivity to drought",
+        "label": "TRT"
+      },
+      {
+        "start": 99,
+        "end": 109,
+        "text": "water loss",
+        "label": "TRT"
+      },
+      {
+        "start": 111,
+        "end": 118,
+        "text": "SbMPK14",
+        "label": "GENE"
+      },
+      {
+        "start": 156,
+        "end": 172,
+        "text": "drought response",
+        "label": "TRT"
+      },
+      {
+        "start": 174,
+        "end": 187,
+        "text": "Transcriptome",
+        "label": "BM"
+      },
+      {
+        "start": 231,
+        "end": 238,
+        "text": "SbMPK14",
+        "label": "GENE"
+      },
+      {
+        "start": 272,
+        "end": 279,
+        "text": "SbMPK14",
+        "label": "GENE"
+      },
+      {
+        "start": 350,
+        "end": 353,
+        "text": "ERF",
+        "label": "GENE"
+      },
+      {
+        "start": 358,
+        "end": 362,
+        "text": "WRKY",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "SbMPK14",
+        "head_start": 18,
+        "head_end": 25,
+        "head_type": "GENE",
+        "tail": "drought response",
+        "tail_start": 156,
+        "tail_end": 172,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "SbMPK14",
+        "head_start": 18,
+        "head_end": 25,
+        "head_type": "GENE",
+        "tail": "water loss",
+        "tail_start": 99,
+        "tail_end": 109,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "SbMPK14",
+        "head_start": 18,
+        "head_end": 25,
+        "head_type": "GENE",
+        "tail": "ERF",
+        "tail_start": 350,
+        "tail_end": 353,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "SbMPK14",
+        "head_start": 18,
+        "head_end": 25,
+        "head_type": "GENE",
+        "tail": "WRKY",
+        "tail_start": 358,
+        "tail_end": 362,
+        "tail_type": "GENE",
+        "label": "AFF"
+      }
+    ]
+  }
+]

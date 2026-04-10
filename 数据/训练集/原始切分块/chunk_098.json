@@ -1,0 +1,964 @@
+[
+  {
+    "text": "FtMYB13, a R2R3-MYB from Tartary buckwheat, is located in the nucleus and is not a transcriptional activator. Compared to wild type (WT), transgenic Arabidopsis overexpressing FtMYB13 showed lower ABA sensitivity and improved drought/salt tolerance. This was due to higher proline content, greater photosynthetic efficiency, higher transcript abundance of stress-related genes, and smaller amounts of reactive oxygen species (ROS) and malondialdehyde (MDA).",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "FtMYB13",
+        "label": "GENE"
+      },
+      {
+        "start": 11,
+        "end": 19,
+        "text": "R2R3-MYB",
+        "label": "GENE"
+      },
+      {
+        "start": 25,
+        "end": 42,
+        "text": "Tartary buckwheat",
+        "label": "CROP"
+      },
+      {
+        "start": 62,
+        "end": 69,
+        "text": "nucleus",
+        "label": "TRT"
+      },
+      {
+        "start": 138,
+        "end": 183,
+        "text": "transgenic Arabidopsis overexpressing FtMYB13",
+        "label": "VAR"
+      },
+      {
+        "start": 226,
+        "end": 233,
+        "text": "drought",
+        "label": "ABS"
+      },
+      {
+        "start": 234,
+        "end": 238,
+        "text": "salt",
+        "label": "ABS"
+      },
+      {
+        "start": 273,
+        "end": 288,
+        "text": "proline content",
+        "label": "TRT"
+      },
+      {
+        "start": 298,
+        "end": 323,
+        "text": "photosynthetic efficiency",
+        "label": "TRT"
+      },
+      {
+        "start": 332,
+        "end": 376,
+        "text": "transcript abundance of stress-related genes",
+        "label": "TRT"
+      },
+      {
+        "start": 390,
+        "end": 430,
+        "text": "amounts of reactive oxygen species (ROS)",
+        "label": "TRT"
+      },
+      {
+        "start": 435,
+        "end": 456,
+        "text": "malondialdehyde (MDA)",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "FtMYB13",
+        "head_start": 0,
+        "head_end": 7,
+        "head_type": "GENE",
+        "tail": "R2R3-MYB",
+        "tail_start": 11,
+        "tail_end": 19,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "Tartary buckwheat",
+        "head_start": 25,
+        "head_end": 42,
+        "head_type": "CROP",
+        "tail": "R2R3-MYB",
+        "tail_start": 11,
+        "tail_end": 19,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "FtMYB13",
+        "head_start": 0,
+        "head_end": 7,
+        "head_type": "GENE",
+        "tail": "nucleus",
+        "tail_start": 62,
+        "tail_end": 69,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "transgenic Arabidopsis overexpressing FtMYB13",
+        "head_start": 138,
+        "head_end": 183,
+        "head_type": "VAR",
+        "tail": "FtMYB13",
+        "tail_start": 0,
+        "tail_end": 7,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "drought",
+        "head_start": 226,
+        "head_end": 233,
+        "head_type": "ABS",
+        "tail": "transgenic Arabidopsis overexpressing FtMYB13",
+        "tail_start": 138,
+        "tail_end": 183,
+        "tail_type": "VAR",
+        "label": "AFF"
+      },
+      {
+        "head": "salt",
+        "head_start": 234,
+        "head_end": 238,
+        "head_type": "ABS",
+        "tail": "transgenic Arabidopsis overexpressing FtMYB13",
+        "tail_start": 138,
+        "tail_end": 183,
+        "tail_type": "VAR",
+        "label": "AFF"
+      },
+      {
+        "head": "transgenic Arabidopsis overexpressing FtMYB13",
+        "head_start": 138,
+        "head_end": 183,
+        "head_type": "VAR",
+        "tail": "proline content",
+        "tail_start": 273,
+        "tail_end": 288,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "transgenic Arabidopsis overexpressing FtMYB13",
+        "head_start": 138,
+        "head_end": 183,
+        "head_type": "VAR",
+        "tail": "photosynthetic efficiency",
+        "tail_start": 298,
+        "tail_end": 323,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "transgenic Arabidopsis overexpressing FtMYB13",
+        "head_start": 138,
+        "head_end": 183,
+        "head_type": "VAR",
+        "tail": "transcript abundance of stress-related genes",
+        "tail_start": 332,
+        "tail_end": 376,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "transgenic Arabidopsis overexpressing FtMYB13",
+        "head_start": 138,
+        "head_end": 183,
+        "head_type": "VAR",
+        "tail": "amounts of reactive oxygen species (ROS)",
+        "tail_start": 390,
+        "tail_end": 430,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "transgenic Arabidopsis overexpressing FtMYB13",
+        "head_start": 138,
+        "head_end": 183,
+        "head_type": "VAR",
+        "tail": "malondialdehyde (MDA)",
+        "tail_start": 435,
+        "tail_end": 456,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "drought",
+        "head_start": 226,
+        "head_end": 233,
+        "head_type": "ABS",
+        "tail": "photosynthetic efficiency",
+        "tail_start": 298,
+        "tail_end": 323,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "drought",
+        "head_start": 226,
+        "head_end": 233,
+        "head_type": "ABS",
+        "tail": "proline content",
+        "tail_start": 273,
+        "tail_end": 288,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "salt",
+        "head_start": 234,
+        "head_end": 238,
+        "head_type": "ABS",
+        "tail": "proline content",
+        "tail_start": 273,
+        "tail_end": 288,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "salt",
+        "head_start": 234,
+        "head_end": 238,
+        "head_type": "ABS",
+        "tail": "photosynthetic efficiency",
+        "tail_start": 298,
+        "tail_end": 323,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "drought",
+        "head_start": 226,
+        "head_end": 233,
+        "head_type": "ABS",
+        "tail": "amounts of reactive oxygen species (ROS)",
+        "tail_start": 390,
+        "tail_end": 430,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "drought",
+        "head_start": 226,
+        "head_end": 233,
+        "head_type": "ABS",
+        "tail": "malondialdehyde (MDA)",
+        "tail_start": 435,
+        "tail_end": 456,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "salt",
+        "head_start": 234,
+        "head_end": 238,
+        "head_type": "ABS",
+        "tail": "amounts of reactive oxygen species (ROS)",
+        "tail_start": 390,
+        "tail_end": 430,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "salt",
+        "head_start": 234,
+        "head_end": 238,
+        "head_type": "ABS",
+        "tail": "malondialdehyde (MDA)",
+        "tail_start": 435,
+        "tail_end": 456,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Drought tolerance of mung bean cultivars/lines was examined based on seed germination characteristics, antioxidative potential, and nutrient uptake. PEG-induced drought adversely affected germination enzyme activities, seed germination attributes, seedling biomass production, and nutrient uptake. Total soluble proteins (TSP) and malondialdehyde (MDA) contents increased.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "text": "Drought tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 21,
+        "end": 30,
+        "text": "mung bean",
+        "label": "CROP"
+      },
+      {
+        "start": 31,
+        "end": 46,
+        "text": "cultivars/lines",
+        "label": "VAR"
+      },
+      {
+        "start": 69,
+        "end": 101,
+        "text": "seed germination characteristics",
+        "label": "TRT"
+      },
+      {
+        "start": 103,
+        "end": 126,
+        "text": "antioxidative potential",
+        "label": "TRT"
+      },
+      {
+        "start": 132,
+        "end": 147,
+        "text": "nutrient uptake",
+        "label": "TRT"
+      },
+      {
+        "start": 149,
+        "end": 168,
+        "text": "PEG-induced drought",
+        "label": "ABS"
+      },
+      {
+        "start": 188,
+        "end": 217,
+        "text": "germination enzyme activities",
+        "label": "TRT"
+      },
+      {
+        "start": 219,
+        "end": 246,
+        "text": "seed germination attributes",
+        "label": "TRT"
+      },
+      {
+        "start": 248,
+        "end": 275,
+        "text": "seedling biomass production",
+        "label": "TRT"
+      },
+      {
+        "start": 281,
+        "end": 296,
+        "text": "nutrient uptake",
+        "label": "TRT"
+      },
+      {
+        "start": 298,
+        "end": 326,
+        "text": "Total soluble proteins (TSP)",
+        "label": "TRT"
+      },
+      {
+        "start": 331,
+        "end": 361,
+        "text": "malondialdehyde (MDA) contents",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "mung bean",
+        "head_start": 21,
+        "head_end": 30,
+        "head_type": "CROP",
+        "tail": "cultivars/lines",
+        "tail_start": 31,
+        "tail_end": 46,
+        "tail_type": "VAR",
+        "label": "HAS"
+      },
+      {
+        "head": "cultivars/lines",
+        "head_start": 31,
+        "head_end": 46,
+        "head_type": "VAR",
+        "tail": "Drought tolerance",
+        "tail_start": 0,
+        "tail_end": 17,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "PEG-induced drought",
+        "head_start": 149,
+        "head_end": 168,
+        "head_type": "ABS",
+        "tail": "germination enzyme activities",
+        "tail_start": 188,
+        "tail_end": 217,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "PEG-induced drought",
+        "head_start": 149,
+        "head_end": 168,
+        "head_type": "ABS",
+        "tail": "seed germination attributes",
+        "tail_start": 219,
+        "tail_end": 246,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "PEG-induced drought",
+        "head_start": 149,
+        "head_end": 168,
+        "head_type": "ABS",
+        "tail": "seedling biomass production",
+        "tail_start": 248,
+        "tail_end": 275,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "PEG-induced drought",
+        "head_start": 149,
+        "head_end": 168,
+        "head_type": "ABS",
+        "tail": "nutrient uptake",
+        "tail_start": 132,
+        "tail_end": 147,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "PEG-induced drought",
+        "head_start": 149,
+        "head_end": 168,
+        "head_type": "ABS",
+        "tail": "Total soluble proteins (TSP)",
+        "tail_start": 298,
+        "tail_end": 326,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "PEG-induced drought",
+        "head_start": 149,
+        "head_end": 168,
+        "head_type": "ABS",
+        "tail": "malondialdehyde (MDA) contents",
+        "tail_start": 331,
+        "tail_end": 361,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "The genes are distributed across seven chromosomes and classified into ten subfamilies. The encoded proteins vary in length, physicochemical properties, and predicted subcellular localization, with most members containing the conserved PP2Cc catalytic domain.",
+    "entities": [
+      {
+        "start": 39,
+        "end": 50,
+        "text": "chromosomes",
+        "label": "CHR"
+      },
+      {
+        "start": 236,
+        "end": 258,
+        "text": "PP2Cc catalytic domain",
+        "label": "GENE"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "QJy-sbi06 was located in a 21.2 kb region on chromosome 6. The candidate gene sobic.006G147400, encoding an NAC transcription factor, was identified in this region. Association analysis and sequencing showed that XL52 has a 1.8 kb transposon insertion in the NAC gene, which interrupts and inactivates the juice yield gene.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "text": "QJy-sbi06",
+        "label": "QTL"
+      },
+      {
+        "start": 45,
+        "end": 57,
+        "text": "chromosome 6",
+        "label": "CHR"
+      },
+      {
+        "start": 78,
+        "end": 94,
+        "text": "sobic.006G147400",
+        "label": "GENE"
+      },
+      {
+        "start": 108,
+        "end": 132,
+        "text": "NAC transcription factor",
+        "label": "GENE"
+      },
+      {
+        "start": 213,
+        "end": 217,
+        "text": "XL52",
+        "label": "VAR"
+      },
+      {
+        "start": 259,
+        "end": 267,
+        "text": "NAC gene",
+        "label": "GENE"
+      },
+      {
+        "start": 306,
+        "end": 317,
+        "text": "juice yield",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QJy-sbi06",
+        "head_start": 0,
+        "head_end": 9,
+        "head_type": "QTL",
+        "tail": "chromosome 6",
+        "tail_start": 45,
+        "tail_end": 57,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "sobic.006G147400",
+        "head_start": 78,
+        "head_end": 94,
+        "head_type": "GENE",
+        "tail": "chromosome 6",
+        "tail_start": 45,
+        "tail_end": 57,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "NAC gene",
+        "head_start": 259,
+        "head_end": 267,
+        "head_type": "GENE",
+        "tail": "juice yield",
+        "tail_start": 306,
+        "tail_end": 317,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "NAC transcription factor",
+        "head_start": 108,
+        "head_end": 132,
+        "head_type": "GENE",
+        "tail": "juice yield",
+        "tail_start": 306,
+        "tail_end": 317,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "XL52",
+        "head_start": 213,
+        "head_end": 217,
+        "head_type": "VAR",
+        "tail": "juice yield",
+        "tail_start": 306,
+        "tail_end": 317,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "300 quinoa accessions were screened for adaptation to low-altitude areas using seventeen traits. The experiment was conducted in Taigu District, Shanxi Province in 2021.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 10,
+        "text": "quinoa",
+        "label": "CROP"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Marker Xtxp211 significantly affected seedling vigor and emergence in both populations. Loci interactions were also significant.",
+    "entities": [
+      {
+        "start": 7,
+        "end": 14,
+        "text": "Xtxp211",
+        "label": "MRK"
+      },
+      {
+        "start": 38,
+        "end": 52,
+        "text": "seedling vigor",
+        "label": "TRT"
+      },
+      {
+        "start": 57,
+        "end": 66,
+        "text": "emergence",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Xtxp211",
+        "head_start": 7,
+        "head_end": 14,
+        "head_type": "MRK",
+        "tail": "seedling vigor",
+        "tail_start": 38,
+        "tail_end": 52,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Xtxp211",
+        "head_start": 7,
+        "head_end": 14,
+        "head_type": "MRK",
+        "tail": "emergence",
+        "tail_start": 57,
+        "tail_end": 66,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Candidate genes are associated with QTL for insect resistance. The study genetically mapped the candidate genes and identified their association with shoot fly resistance. It updated the genetic map with new markers to locate additional QTL.",
+    "entities": [
+      {
+        "start": 36,
+        "end": 39,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 44,
+        "end": 61,
+        "text": "insect resistance",
+        "label": "TRT"
+      },
+      {
+        "start": 150,
+        "end": 170,
+        "text": "shoot fly resistance",
+        "label": "TRT"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Water deficit stress affects mung bean growth and reduces yield. A field experiment evaluated four water stress-tolerant genotypes: BARI Mung-8, BMX-08010-2, BMX-010015, and BMX-08009-7, along with two check varieties, BARI Mung-6 and BARI Mung-7, across five environments.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 20,
+        "text": "Water deficit stress",
+        "label": "ABS"
+      },
+      {
+        "start": 29,
+        "end": 38,
+        "text": "mung bean",
+        "label": "CROP"
+      },
+      {
+        "start": 58,
+        "end": 63,
+        "text": "yield",
+        "label": "TRT"
+      },
+      {
+        "start": 132,
+        "end": 143,
+        "text": "BARI Mung-8",
+        "label": "VAR"
+      },
+      {
+        "start": 145,
+        "end": 156,
+        "text": "BMX-08010-2",
+        "label": "VAR"
+      },
+      {
+        "start": 158,
+        "end": 168,
+        "text": "BMX-010015",
+        "label": "VAR"
+      },
+      {
+        "start": 174,
+        "end": 185,
+        "text": "BMX-08009-7",
+        "label": "VAR"
+      },
+      {
+        "start": 219,
+        "end": 230,
+        "text": "BARI Mung-6",
+        "label": "VAR"
+      },
+      {
+        "start": 235,
+        "end": 246,
+        "text": "BARI Mung-7",
+        "label": "VAR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "mung bean",
+        "head_start": 29,
+        "head_end": 38,
+        "head_type": "CROP",
+        "tail": "BARI Mung-8",
+        "tail_start": 132,
+        "tail_end": 143,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "mung bean",
+        "head_start": 29,
+        "head_end": 38,
+        "head_type": "CROP",
+        "tail": "BMX-08010-2",
+        "tail_start": 145,
+        "tail_end": 156,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "mung bean",
+        "head_start": 29,
+        "head_end": 38,
+        "head_type": "CROP",
+        "tail": "BMX-010015",
+        "tail_start": 158,
+        "tail_end": 168,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "mung bean",
+        "head_start": 29,
+        "head_end": 38,
+        "head_type": "CROP",
+        "tail": "BMX-08009-7",
+        "tail_start": 174,
+        "tail_end": 185,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "mung bean",
+        "head_start": 29,
+        "head_end": 38,
+        "head_type": "CROP",
+        "tail": "BARI Mung-6",
+        "tail_start": 219,
+        "tail_end": 230,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "mung bean",
+        "head_start": 29,
+        "head_end": 38,
+        "head_type": "CROP",
+        "tail": "BARI Mung-7",
+        "tail_start": 235,
+        "tail_end": 246,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "Water deficit stress",
+        "head_start": 0,
+        "head_end": 20,
+        "head_type": "ABS",
+        "tail": "yield",
+        "tail_start": 58,
+        "tail_end": 63,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "It has a short life cycle, high harvest index, low planting costs, strong adaptability and resistance. This study reveals sodium ion (Na+) toxicity resistance strategies from germination to seedling stage, root to leaf, and phenotype to mechanism.",
+    "entities": [
+      {
+        "start": 122,
+        "end": 147,
+        "text": "sodium ion (Na+) toxicity",
+        "label": "ABS"
+      },
+      {
+        "start": 122,
+        "end": 158,
+        "text": "sodium ion (Na+) toxicity resistance",
+        "label": "TRT"
+      },
+      {
+        "start": 175,
+        "end": 186,
+        "text": "germination",
+        "label": "GST"
+      },
+      {
+        "start": 190,
+        "end": 204,
+        "text": "seedling stage",
+        "label": "GST"
+      },
+      {
+        "start": 224,
+        "end": 233,
+        "text": "phenotype",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "sodium ion (Na+) toxicity",
+        "head_start": 122,
+        "head_end": 147,
+        "head_type": "ABS",
+        "tail": "germination",
+        "tail_start": 175,
+        "tail_end": 186,
+        "tail_type": "GST",
+        "label": "OCI"
+      },
+      {
+        "head": "sodium ion (Na+) toxicity",
+        "head_start": 122,
+        "head_end": 147,
+        "head_type": "ABS",
+        "tail": "seedling stage",
+        "tail_start": 190,
+        "tail_end": 204,
+        "tail_type": "GST",
+        "label": "OCI"
+      },
+      {
+        "head": "sodium ion (Na+) toxicity resistance",
+        "head_start": 122,
+        "head_end": 158,
+        "head_type": "TRT",
+        "tail": "germination",
+        "tail_start": 175,
+        "tail_end": 186,
+        "tail_type": "GST",
+        "label": "OCI"
+      },
+      {
+        "head": "sodium ion (Na+) toxicity resistance",
+        "head_start": 122,
+        "head_end": 158,
+        "head_type": "TRT",
+        "tail": "seedling stage",
+        "tail_start": 190,
+        "tail_end": 204,
+        "tail_type": "GST",
+        "label": "OCI"
+      },
+      {
+        "head": "phenotype",
+        "head_start": 224,
+        "head_end": 233,
+        "head_type": "TRT",
+        "tail": "seedling stage",
+        "tail_start": 190,
+        "tail_end": 204,
+        "tail_type": "GST",
+        "label": "OCI"
+      }
+    ]
+  },
+  {
+    "text": "Expression analysis found that SbHSP60-3 is implicated in drought tolerance, SbHSP60-9 in salt tolerance, SbHSP60-9 and SbHSP60-24 in heat tolerance, and SbHSP60-3, SbHSP60-9, and SbHSP10-2 in cold stress tolerance. These genes are key regulatory genes.",
+    "entities": [
+      {
+        "start": 31,
+        "end": 40,
+        "text": "SbHSP60-3",
+        "label": "GENE"
+      },
+      {
+        "start": 58,
+        "end": 75,
+        "text": "drought tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 77,
+        "end": 86,
+        "text": "SbHSP60-9",
+        "label": "GENE"
+      },
+      {
+        "start": 90,
+        "end": 104,
+        "text": "salt tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 106,
+        "end": 115,
+        "text": "SbHSP60-9",
+        "label": "GENE"
+      },
+      {
+        "start": 120,
+        "end": 130,
+        "text": "SbHSP60-24",
+        "label": "GENE"
+      },
+      {
+        "start": 154,
+        "end": 163,
+        "text": "SbHSP60-3",
+        "label": "GENE"
+      },
+      {
+        "start": 165,
+        "end": 174,
+        "text": "SbHSP60-9",
+        "label": "GENE"
+      },
+      {
+        "start": 180,
+        "end": 189,
+        "text": "SbHSP10-2",
+        "label": "GENE"
+      },
+      {
+        "start": 198,
+        "end": 214,
+        "text": "stress tolerance",
+        "label": "TRT"
+      }
+    ],
+    "relations": []
+  }
+]

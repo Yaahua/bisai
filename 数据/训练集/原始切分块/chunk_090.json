@@ -1,0 +1,833 @@
+[
+  {
+    "text": "SNP markers for PcKM were tested on these populations and linkage maps were generated. Seventeen newly developed SNP markers from GBS data were mapped in these two populations and three other populations segregating for Pc45 or PcKM.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "text": "SNP markers",
+        "label": "MRK"
+      },
+      {
+        "start": 103,
+        "end": 124,
+        "text": "developed SNP markers",
+        "label": "MRK"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "The genotypic drought response ranking is XiNong 9943 > XiNong 9940 > QianKu-5 > QianKu-4. XiNong 9943 shows drought tolerance and is useful for buckwheat breeding.",
+    "entities": [
+      {
+        "start": 14,
+        "end": 21,
+        "text": "drought",
+        "label": "ABS"
+      },
+      {
+        "start": 42,
+        "end": 53,
+        "text": "XiNong 9943",
+        "label": "VAR"
+      },
+      {
+        "start": 56,
+        "end": 67,
+        "text": "XiNong 9940",
+        "label": "VAR"
+      },
+      {
+        "start": 70,
+        "end": 78,
+        "text": "QianKu-5",
+        "label": "VAR"
+      },
+      {
+        "start": 81,
+        "end": 89,
+        "text": "QianKu-4",
+        "label": "VAR"
+      },
+      {
+        "start": 91,
+        "end": 102,
+        "text": "XiNong 9943",
+        "label": "VAR"
+      },
+      {
+        "start": 109,
+        "end": 126,
+        "text": "drought tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 145,
+        "end": 154,
+        "text": "buckwheat",
+        "label": "CROP"
+      }
+    ],
+    "relations": [
+      {
+        "head": "XiNong 9943",
+        "head_start": 42,
+        "head_end": 53,
+        "head_type": "VAR",
+        "tail": "drought tolerance",
+        "tail_start": 109,
+        "tail_end": 126,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "drought",
+        "head_start": 14,
+        "head_end": 21,
+        "head_type": "ABS",
+        "tail": "drought tolerance",
+        "tail_start": 109,
+        "tail_end": 126,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "buckwheat",
+        "head_start": 145,
+        "head_end": 154,
+        "head_type": "CROP",
+        "tail": "XiNong 9943",
+        "tail_start": 42,
+        "tail_end": 53,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "buckwheat",
+        "head_start": 145,
+        "head_end": 154,
+        "head_type": "CROP",
+        "tail": "XiNong 9940",
+        "tail_start": 56,
+        "tail_end": 67,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "buckwheat",
+        "head_start": 145,
+        "head_end": 154,
+        "head_type": "CROP",
+        "tail": "QianKu-5",
+        "tail_start": 70,
+        "tail_end": 78,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "buckwheat",
+        "head_start": 145,
+        "head_end": 154,
+        "head_type": "CROP",
+        "tail": "QianKu-4",
+        "tail_start": 81,
+        "tail_end": 89,
+        "tail_type": "VAR",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "Combined stress triggers ABA accumulation by up-regulating NCED genes and suppressing CYP707A genes. Exogenous ABA application under low temperature-drought stress activated the PYR/PYL-PP2C-SnRK2 cascade, enhancing antioxidant defenses and increasing soluble sugars to starch ratio.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 28,
+        "text": "ABA",
+        "label": "TRT"
+      },
+      {
+        "start": 59,
+        "end": 63,
+        "text": "NCED",
+        "label": "GENE"
+      },
+      {
+        "start": 86,
+        "end": 93,
+        "text": "CYP707A",
+        "label": "GENE"
+      },
+      {
+        "start": 101,
+        "end": 126,
+        "text": "Exogenous ABA application",
+        "label": "BM"
+      },
+      {
+        "start": 133,
+        "end": 163,
+        "text": "low temperature-drought stress",
+        "label": "ABS"
+      },
+      {
+        "start": 178,
+        "end": 196,
+        "text": "PYR/PYL-PP2C-SnRK2",
+        "label": "GENE"
+      },
+      {
+        "start": 216,
+        "end": 236,
+        "text": "antioxidant defenses",
+        "label": "TRT"
+      },
+      {
+        "start": 252,
+        "end": 282,
+        "text": "soluble sugars to starch ratio",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "low temperature-drought stress",
+        "head_start": 133,
+        "head_end": 163,
+        "head_type": "ABS",
+        "tail": "ABA",
+        "tail_start": 25,
+        "tail_end": 28,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Exogenous ABA application",
+        "head_start": 101,
+        "head_end": 126,
+        "head_type": "BM",
+        "tail": "ABA",
+        "tail_start": 25,
+        "tail_end": 28,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "PYR/PYL-PP2C-SnRK2",
+        "head_start": 178,
+        "head_end": 196,
+        "head_type": "GENE",
+        "tail": "antioxidant defenses",
+        "tail_start": 216,
+        "tail_end": 236,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "PYR/PYL-PP2C-SnRK2",
+        "head_start": 178,
+        "head_end": 196,
+        "head_type": "GENE",
+        "tail": "soluble sugars to starch ratio",
+        "tail_start": 252,
+        "tail_end": 282,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "ABA treatment depressed most FtRCARs transcripts. ABA upregulated CHS, CHI, F3'H, F3H and FLS transcripts, while 4CL and PAL transcripts were down-regulated.",
+    "entities": [
+      {
+        "start": 66,
+        "end": 69,
+        "text": "CHS",
+        "label": "GENE"
+      },
+      {
+        "start": 76,
+        "end": 80,
+        "text": "F3'H",
+        "label": "GENE"
+      },
+      {
+        "start": 82,
+        "end": 85,
+        "text": "F3H",
+        "label": "GENE"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "The proline content decreased in seeds with 4% and 16% moisture content, and increased in seeds with 28% moisture content. Proline played the main role in adaptation to oxidative stress in seeds with 28% moisture content. Antioxidant enzymes played the main role in seeds with 4% and 16% moisture content.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 19,
+        "text": "proline content",
+        "label": "TRT"
+      },
+      {
+        "start": 44,
+        "end": 71,
+        "text": "4% and 16% moisture content",
+        "label": "ABS"
+      },
+      {
+        "start": 90,
+        "end": 95,
+        "text": "seeds",
+        "label": "GST"
+      },
+      {
+        "start": 123,
+        "end": 130,
+        "text": "Proline",
+        "label": "TRT"
+      },
+      {
+        "start": 169,
+        "end": 185,
+        "text": "oxidative stress",
+        "label": "ABS"
+      },
+      {
+        "start": 200,
+        "end": 220,
+        "text": "28% moisture content",
+        "label": "ABS"
+      },
+      {
+        "start": 222,
+        "end": 241,
+        "text": "Antioxidant enzymes",
+        "label": "TRT"
+      },
+      {
+        "start": 277,
+        "end": 304,
+        "text": "4% and 16% moisture content",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "4% and 16% moisture content",
+        "head_start": 44,
+        "head_end": 71,
+        "head_type": "ABS",
+        "tail": "proline content",
+        "tail_start": 4,
+        "tail_end": 19,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "28% moisture content",
+        "head_start": 200,
+        "head_end": 220,
+        "head_type": "ABS",
+        "tail": "proline content",
+        "tail_start": 4,
+        "tail_end": 19,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "oxidative stress",
+        "head_start": 169,
+        "head_end": 185,
+        "head_type": "ABS",
+        "tail": "seeds",
+        "tail_start": 90,
+        "tail_end": 95,
+        "tail_type": "GST",
+        "label": "OCI"
+      },
+      {
+        "head": "4% and 16% moisture content",
+        "head_start": 44,
+        "head_end": 71,
+        "head_type": "ABS",
+        "tail": "seeds",
+        "tail_start": 90,
+        "tail_end": 95,
+        "tail_type": "GST",
+        "label": "OCI"
+      }
+    ]
+  },
+  {
+    "text": "Expression analysis in Tartary buckwheat indicated that FtbZIP83 was induced by ABA, NaCl, and PEG. Overexpression of FtbZIP83 in Arabidopsis increased drought and salt tolerance. This was attributed to higher proline contents and antioxidant enzyme activity, and lower ROS accumulation and MDA content in transgenic lines compared to controls.",
+    "entities": [
+      {
+        "start": 23,
+        "end": 40,
+        "text": "Tartary buckwheat",
+        "label": "CROP"
+      },
+      {
+        "start": 56,
+        "end": 64,
+        "text": "FtbZIP83",
+        "label": "GENE"
+      },
+      {
+        "start": 85,
+        "end": 89,
+        "text": "NaCl",
+        "label": "ABS"
+      },
+      {
+        "start": 95,
+        "end": 98,
+        "text": "PEG",
+        "label": "ABS"
+      },
+      {
+        "start": 118,
+        "end": 126,
+        "text": "FtbZIP83",
+        "label": "GENE"
+      },
+      {
+        "start": 130,
+        "end": 141,
+        "text": "Arabidopsis",
+        "label": "CROP"
+      },
+      {
+        "start": 164,
+        "end": 178,
+        "text": "salt tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 210,
+        "end": 226,
+        "text": "proline contents",
+        "label": "TRT"
+      },
+      {
+        "start": 270,
+        "end": 286,
+        "text": "ROS accumulation",
+        "label": "TRT"
+      },
+      {
+        "start": 291,
+        "end": 302,
+        "text": "MDA content",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "NaCl",
+        "head_start": 85,
+        "head_end": 89,
+        "head_type": "ABS",
+        "tail": "FtbZIP83",
+        "tail_start": 56,
+        "tail_end": 64,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "PEG",
+        "head_start": 95,
+        "head_end": 98,
+        "head_type": "ABS",
+        "tail": "FtbZIP83",
+        "tail_start": 56,
+        "tail_end": 64,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "Arabidopsis",
+        "head_start": 130,
+        "head_end": 141,
+        "head_type": "CROP",
+        "tail": "salt tolerance",
+        "tail_start": 164,
+        "tail_end": 178,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "Nineteen QTNs and two genes (sdw1/denso and Vrs1) were previously reported. The Vrs1 gene controls the number of rows in the spike. It is associated with spikelet number of main spike, spikelet number per plant, grain number per plant, grain number per spike, and 1,000 grain weight in multiple environments and by multi-locus GWAS methods. Eight candidate genes need further validation.",
+    "entities": [
+      {
+        "start": 9,
+        "end": 13,
+        "text": "QTNs",
+        "label": "QTL"
+      },
+      {
+        "start": 29,
+        "end": 39,
+        "text": "sdw1/denso",
+        "label": "GENE"
+      },
+      {
+        "start": 44,
+        "end": 48,
+        "text": "Vrs1",
+        "label": "GENE"
+      },
+      {
+        "start": 80,
+        "end": 89,
+        "text": "Vrs1 gene",
+        "label": "GENE"
+      },
+      {
+        "start": 103,
+        "end": 130,
+        "text": "number of rows in the spike",
+        "label": "TRT"
+      },
+      {
+        "start": 154,
+        "end": 183,
+        "text": "spikelet number of main spike",
+        "label": "TRT"
+      },
+      {
+        "start": 185,
+        "end": 210,
+        "text": "spikelet number per plant",
+        "label": "TRT"
+      },
+      {
+        "start": 212,
+        "end": 234,
+        "text": "grain number per plant",
+        "label": "TRT"
+      },
+      {
+        "start": 236,
+        "end": 258,
+        "text": "grain number per spike",
+        "label": "TRT"
+      },
+      {
+        "start": 264,
+        "end": 282,
+        "text": "1,000 grain weight",
+        "label": "TRT"
+      },
+      {
+        "start": 315,
+        "end": 331,
+        "text": "multi-locus GWAS",
+        "label": "BM"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Vrs1 gene",
+        "head_start": 80,
+        "head_end": 89,
+        "head_type": "GENE",
+        "tail": "number of rows in the spike",
+        "tail_start": 103,
+        "tail_end": 130,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Vrs1 gene",
+        "head_start": 80,
+        "head_end": 89,
+        "head_type": "GENE",
+        "tail": "spikelet number of main spike",
+        "tail_start": 154,
+        "tail_end": 183,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Vrs1 gene",
+        "head_start": 80,
+        "head_end": 89,
+        "head_type": "GENE",
+        "tail": "spikelet number per plant",
+        "tail_start": 185,
+        "tail_end": 210,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Vrs1 gene",
+        "head_start": 80,
+        "head_end": 89,
+        "head_type": "GENE",
+        "tail": "grain number per plant",
+        "tail_start": 212,
+        "tail_end": 234,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Vrs1 gene",
+        "head_start": 80,
+        "head_end": 89,
+        "head_type": "GENE",
+        "tail": "grain number per spike",
+        "tail_start": 236,
+        "tail_end": 258,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Vrs1 gene",
+        "head_start": 80,
+        "head_end": 89,
+        "head_type": "GENE",
+        "tail": "1,000 grain weight",
+        "tail_start": 264,
+        "tail_end": 282,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Six QTLs, qTB6, qSFW9, qJW9, qBrix2, qBrix10 and qSTI-Brix9, were main effect QTLs controlling salt tolerance with PVE > 10%. qSFW9 and qJW9 colocalized in marker interval SB5069-UGSM18 with PVEs of 17.70% and 14.20%, respectively, and positive effects from L-Tian. QTL clusters controlling PH, TB, STI-TB, SFW and JW were mapped in marker interval Xcup19-SB4177 on chromosome 7.",
+    "entities": [
+      {
+        "start": 10,
+        "end": 14,
+        "text": "qTB6",
+        "label": "QTL"
+      },
+      {
+        "start": 16,
+        "end": 21,
+        "text": "qSFW9",
+        "label": "QTL"
+      },
+      {
+        "start": 23,
+        "end": 27,
+        "text": "qJW9",
+        "label": "QTL"
+      },
+      {
+        "start": 29,
+        "end": 35,
+        "text": "qBrix2",
+        "label": "QTL"
+      },
+      {
+        "start": 37,
+        "end": 44,
+        "text": "qBrix10",
+        "label": "QTL"
+      },
+      {
+        "start": 49,
+        "end": 59,
+        "text": "qSTI-Brix9",
+        "label": "QTL"
+      },
+      {
+        "start": 95,
+        "end": 109,
+        "text": "salt tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 258,
+        "end": 264,
+        "text": "L-Tian",
+        "label": "VAR"
+      },
+      {
+        "start": 366,
+        "end": 378,
+        "text": "chromosome 7",
+        "label": "CHR"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Gene co-expression networks constructed by WGCNA show distinct expression patterns of SbPLC1, SbPLC3a, and SbPLC4 under abiotic stress. qRT-PCR reveals expression level variations among most SbPLCs under drought, NaCl, NaHCO3, ABA treatments, and developmental stages, indicating specific and overlapping patterns. This analysis provides insights into SbPLCs roles in sorghum, their expression patterns, regulatory elements, and protein interactions under environmental stimuli and developmental stages.",
+    "entities": [
+      {
+        "start": 86,
+        "end": 92,
+        "text": "SbPLC1",
+        "label": "GENE"
+      },
+      {
+        "start": 94,
+        "end": 101,
+        "text": "SbPLC3a",
+        "label": "GENE"
+      },
+      {
+        "start": 107,
+        "end": 113,
+        "text": "SbPLC4",
+        "label": "GENE"
+      },
+      {
+        "start": 120,
+        "end": 134,
+        "text": "abiotic stress",
+        "label": "ABS"
+      },
+      {
+        "start": 191,
+        "end": 197,
+        "text": "SbPLCs",
+        "label": "GENE"
+      },
+      {
+        "start": 204,
+        "end": 211,
+        "text": "drought",
+        "label": "ABS"
+      },
+      {
+        "start": 213,
+        "end": 217,
+        "text": "NaCl",
+        "label": "ABS"
+      },
+      {
+        "start": 219,
+        "end": 225,
+        "text": "NaHCO3",
+        "label": "ABS"
+      },
+      {
+        "start": 227,
+        "end": 241,
+        "text": "ABA treatments",
+        "label": "ABS"
+      },
+      {
+        "start": 247,
+        "end": 267,
+        "text": "developmental stages",
+        "label": "GST"
+      },
+      {
+        "start": 352,
+        "end": 358,
+        "text": "SbPLCs",
+        "label": "GENE"
+      },
+      {
+        "start": 368,
+        "end": 375,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 482,
+        "end": 502,
+        "text": "developmental stages",
+        "label": "GST"
+      }
+    ],
+    "relations": [
+      {
+        "head": "abiotic stress",
+        "head_start": 120,
+        "head_end": 134,
+        "head_type": "ABS",
+        "tail": "SbPLC4",
+        "tail_start": 107,
+        "tail_end": 113,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "abiotic stress",
+        "head_start": 120,
+        "head_end": 134,
+        "head_type": "ABS",
+        "tail": "SbPLC1",
+        "tail_start": 86,
+        "tail_end": 92,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "abiotic stress",
+        "head_start": 120,
+        "head_end": 134,
+        "head_type": "ABS",
+        "tail": "SbPLC3a",
+        "tail_start": 94,
+        "tail_end": 101,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "SbPLCs",
+        "head_start": 191,
+        "head_end": 197,
+        "head_type": "GENE",
+        "tail": "developmental stages",
+        "tail_start": 247,
+        "tail_end": 267,
+        "tail_type": "GST",
+        "label": "OCI"
+      }
+    ]
+  },
+  {
+    "text": "Functional genomics techniques have enabled the identification of key genes implicated in defense responses against fungal pathogens in sorghum. Genome editing of identified resistance genes holds promise for developing high-performing varieties.",
+    "entities": [
+      {
+        "start": 116,
+        "end": 132,
+        "text": "fungal pathogens",
+        "label": "BIS"
+      },
+      {
+        "start": 136,
+        "end": 143,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 145,
+        "end": 159,
+        "text": "Genome editing",
+        "label": "BM"
+      },
+      {
+        "start": 174,
+        "end": 190,
+        "text": "resistance genes",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "resistance genes",
+        "head_start": 174,
+        "head_end": 190,
+        "head_type": "GENE",
+        "tail": "fungal pathogens",
+        "tail_start": 116,
+        "tail_end": 132,
+        "tail_type": "BIS",
+        "label": "AFF"
+      }
+    ]
+  }
+]

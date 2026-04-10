@@ -1,0 +1,841 @@
+[
+  {
+    "text": "For sorghum SSR markers, 2,113 primer pairs were designed from 81,342 public genomic contigs. Screening eight sorghum lines identified 1,758 polymorphic primers. Of these, 1,710 SSR markers were predominantly polymorphic and detected from two to eight alleles.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 12,
+        "end": 23,
+        "text": "SSR markers",
+        "label": "MRK"
+      },
+      {
+        "start": 31,
+        "end": 43,
+        "text": "primer pairs",
+        "label": "MRK"
+      },
+      {
+        "start": 63,
+        "end": 92,
+        "text": "81,342 public genomic contigs",
+        "label": "MRK"
+      },
+      {
+        "start": 104,
+        "end": 123,
+        "text": "eight sorghum lines",
+        "label": "VAR"
+      },
+      {
+        "start": 135,
+        "end": 160,
+        "text": "1,758 polymorphic primers",
+        "label": "MRK"
+      },
+      {
+        "start": 172,
+        "end": 189,
+        "text": "1,710 SSR markers",
+        "label": "MRK"
+      }
+    ],
+    "relations": [
+      {
+        "head": "sorghum",
+        "head_start": 4,
+        "head_end": 11,
+        "head_type": "CROP",
+        "tail": "eight sorghum lines",
+        "tail_start": 104,
+        "tail_end": 123,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "SSR markers",
+        "head_start": 12,
+        "head_end": 23,
+        "head_type": "MRK",
+        "tail": "primer pairs",
+        "tail_start": 31,
+        "tail_end": 43,
+        "tail_type": "MRK",
+        "label": "CON"
+      },
+      {
+        "head": "81,342 public genomic contigs",
+        "head_start": 63,
+        "head_end": 92,
+        "head_type": "MRK",
+        "tail": "primer pairs",
+        "tail_start": 31,
+        "tail_end": 43,
+        "tail_type": "MRK",
+        "label": "CON"
+      },
+      {
+        "head": "eight sorghum lines",
+        "head_start": 104,
+        "head_end": 123,
+        "head_type": "VAR",
+        "tail": "1,758 polymorphic primers",
+        "tail_start": 135,
+        "tail_end": 160,
+        "tail_type": "MRK",
+        "label": "USE"
+      },
+      {
+        "head": "SSR markers",
+        "head_start": 12,
+        "head_end": 23,
+        "head_type": "MRK",
+        "tail": "1,710 SSR markers",
+        "tail_start": 172,
+        "tail_end": 189,
+        "tail_type": "MRK",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "369 SNPs were associated with six grain traits. 30 SNPs were detected in multiple years.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 8,
+        "text": "SNPs",
+        "label": "MRK"
+      },
+      {
+        "start": 51,
+        "end": 55,
+        "text": "SNPs",
+        "label": "MRK"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Twenty-five sorghum accessions were evaluated. The LW7 marker identified accessions with the male sterility gene rf4 in Suphan Buri1 and 03B cultivars. These genotypes lacked the 779 bp band. The cross between Suphan Buri1 and the male-sterile line 03A produced a sterile male, confirming the marker's usefulness in breeding.",
+    "entities": [
+      {
+        "start": 12,
+        "end": 19,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 51,
+        "end": 61,
+        "text": "LW7 marker",
+        "label": "MRK"
+      },
+      {
+        "start": 93,
+        "end": 116,
+        "text": "male sterility gene rf4",
+        "label": "GENE"
+      },
+      {
+        "start": 120,
+        "end": 132,
+        "text": "Suphan Buri1",
+        "label": "VAR"
+      },
+      {
+        "start": 137,
+        "end": 140,
+        "text": "03B",
+        "label": "VAR"
+      },
+      {
+        "start": 179,
+        "end": 190,
+        "text": "779 bp band",
+        "label": "MRK"
+      },
+      {
+        "start": 210,
+        "end": 252,
+        "text": "Suphan Buri1 and the male-sterile line 03A",
+        "label": "CROSS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "sorghum",
+        "head_start": 12,
+        "head_end": 19,
+        "head_type": "CROP",
+        "tail": "Suphan Buri1",
+        "tail_start": 120,
+        "tail_end": 132,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "sorghum",
+        "head_start": 12,
+        "head_end": 19,
+        "head_type": "CROP",
+        "tail": "03B",
+        "tail_start": 137,
+        "tail_end": 140,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "LW7 marker",
+        "head_start": 51,
+        "head_end": 61,
+        "head_type": "MRK",
+        "tail": "male sterility gene rf4",
+        "tail_start": 93,
+        "tail_end": 116,
+        "tail_type": "GENE",
+        "label": "LOI"
+      },
+      {
+        "head": "LW7 marker",
+        "head_start": 51,
+        "head_end": 61,
+        "head_type": "MRK",
+        "tail": "Suphan Buri1",
+        "tail_start": 120,
+        "tail_end": 132,
+        "tail_type": "VAR",
+        "label": "AFF"
+      },
+      {
+        "head": "LW7 marker",
+        "head_start": 51,
+        "head_end": 61,
+        "head_type": "MRK",
+        "tail": "03B",
+        "tail_start": 137,
+        "tail_end": 140,
+        "tail_type": "VAR",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Two sorghum varieties, drought-sensitive Jinza 35 (V1) and drought-tolerant Longza 24 (V2), were studied under drought conditions. Transcriptomic analysis revealed distinct molecular mechanisms between the varieties. Both varieties showed drought-responsive changes in photosynthesis-related pathways.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 41,
+        "end": 49,
+        "text": "Jinza 35",
+        "label": "VAR"
+      },
+      {
+        "start": 76,
+        "end": 85,
+        "text": "Longza 24",
+        "label": "VAR"
+      },
+      {
+        "start": 111,
+        "end": 118,
+        "text": "drought",
+        "label": "ABS"
+      },
+      {
+        "start": 239,
+        "end": 246,
+        "text": "drought",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "sorghum",
+        "head_start": 4,
+        "head_end": 11,
+        "head_type": "CROP",
+        "tail": "Jinza 35",
+        "tail_start": 41,
+        "tail_end": 49,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "sorghum",
+        "head_start": 4,
+        "head_end": 11,
+        "head_type": "CROP",
+        "tail": "Longza 24",
+        "tail_start": 76,
+        "tail_end": 85,
+        "tail_type": "VAR",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "The identified QTL include those in regions linked with seedling resistance genes Pc48, Pc58a, Pc68, Pc71, Pc91, and PcKM, and with adult-plant resistance and adaptation-related QTL. QTL on linkage groups Mrg03, Mrg08, and Mrg23 were identified in regions not previously associated with crown rust resistance.",
+    "entities": [
+      {
+        "start": 15,
+        "end": 18,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 82,
+        "end": 86,
+        "text": "Pc48",
+        "label": "GENE"
+      },
+      {
+        "start": 88,
+        "end": 93,
+        "text": "Pc58a",
+        "label": "GENE"
+      },
+      {
+        "start": 95,
+        "end": 99,
+        "text": "Pc68",
+        "label": "GENE"
+      },
+      {
+        "start": 101,
+        "end": 105,
+        "text": "Pc71",
+        "label": "GENE"
+      },
+      {
+        "start": 107,
+        "end": 111,
+        "text": "Pc91",
+        "label": "GENE"
+      },
+      {
+        "start": 117,
+        "end": 121,
+        "text": "PcKM",
+        "label": "GENE"
+      },
+      {
+        "start": 132,
+        "end": 154,
+        "text": "adult-plant resistance",
+        "label": "TRT"
+      },
+      {
+        "start": 159,
+        "end": 181,
+        "text": "adaptation-related QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 183,
+        "end": 186,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 205,
+        "end": 210,
+        "text": "Mrg03",
+        "label": "CHR"
+      },
+      {
+        "start": 212,
+        "end": 217,
+        "text": "Mrg08",
+        "label": "CHR"
+      },
+      {
+        "start": 223,
+        "end": 228,
+        "text": "Mrg23",
+        "label": "CHR"
+      },
+      {
+        "start": 287,
+        "end": 297,
+        "text": "crown rust",
+        "label": "BIS"
+      },
+      {
+        "start": 287,
+        "end": 308,
+        "text": "crown rust resistance",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QTL",
+        "head_start": 15,
+        "head_end": 18,
+        "head_type": "QTL",
+        "tail": "Pc48",
+        "tail_start": 82,
+        "tail_end": 86,
+        "tail_type": "GENE",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL",
+        "head_start": 15,
+        "head_end": 18,
+        "head_type": "QTL",
+        "tail": "Pc58a",
+        "tail_start": 88,
+        "tail_end": 93,
+        "tail_type": "GENE",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL",
+        "head_start": 15,
+        "head_end": 18,
+        "head_type": "QTL",
+        "tail": "Pc68",
+        "tail_start": 95,
+        "tail_end": 99,
+        "tail_type": "GENE",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL",
+        "head_start": 15,
+        "head_end": 18,
+        "head_type": "QTL",
+        "tail": "Pc71",
+        "tail_start": 101,
+        "tail_end": 105,
+        "tail_type": "GENE",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL",
+        "head_start": 15,
+        "head_end": 18,
+        "head_type": "QTL",
+        "tail": "Pc91",
+        "tail_start": 107,
+        "tail_end": 111,
+        "tail_type": "GENE",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL",
+        "head_start": 15,
+        "head_end": 18,
+        "head_type": "QTL",
+        "tail": "PcKM",
+        "tail_start": 117,
+        "tail_end": 121,
+        "tail_type": "GENE",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL",
+        "head_start": 15,
+        "head_end": 18,
+        "head_type": "QTL",
+        "tail": "Mrg03",
+        "tail_start": 205,
+        "tail_end": 210,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL",
+        "head_start": 15,
+        "head_end": 18,
+        "head_type": "QTL",
+        "tail": "Mrg08",
+        "tail_start": 212,
+        "tail_end": 217,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL",
+        "head_start": 15,
+        "head_end": 18,
+        "head_type": "QTL",
+        "tail": "Mrg23",
+        "tail_start": 223,
+        "tail_end": 228,
+        "tail_type": "CHR",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "The drought-tolerant variety V2 showed enrichment in phenylpropanoid biosynthesis, starch-sucrose metabolism, and plant hormone signaling pathways. Variety V1 activated ribosome metabolism and cell cycle regulation pathways.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 20,
+        "text": "drought-tolerant",
+        "label": "TRT"
+      },
+      {
+        "start": 29,
+        "end": 31,
+        "text": "V2",
+        "label": "VAR"
+      },
+      {
+        "start": 156,
+        "end": 158,
+        "text": "V1",
+        "label": "VAR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "V2",
+        "head_start": 29,
+        "head_end": 31,
+        "head_type": "VAR",
+        "tail": "drought-tolerant",
+        "tail_start": 4,
+        "tail_end": 20,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "Hexaploid amphiploids have the AACCDD genome composition, while octoploid amphiploids have AACCCCDD, AAAACCDD, or AABBCCDD compositions. The A, B, C, and D oat genomes differ in involvement in non-centromeric, intercalary translocations.",
+    "entities": [
+      {
+        "start": 141,
+        "end": 167,
+        "text": "A, B, C, and D oat genomes",
+        "label": "CHR"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Sweet sorghum accumulates sugars in the stem parenchyma. Soluble acid invertase (SAI) is involved in sucrose accumulation. Characterization of SAI genes and development of functional markers are important for marker-assisted selection.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "text": "Sweet sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 40,
+        "end": 55,
+        "text": "stem parenchyma",
+        "label": "TRT"
+      },
+      {
+        "start": 57,
+        "end": 79,
+        "text": "Soluble acid invertase",
+        "label": "GENE"
+      },
+      {
+        "start": 81,
+        "end": 84,
+        "text": "SAI",
+        "label": "GENE"
+      },
+      {
+        "start": 101,
+        "end": 121,
+        "text": "sucrose accumulation",
+        "label": "TRT"
+      },
+      {
+        "start": 172,
+        "end": 190,
+        "text": "functional markers",
+        "label": "MRK"
+      },
+      {
+        "start": 209,
+        "end": 234,
+        "text": "marker-assisted selection",
+        "label": "BM"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Sweet sorghum",
+        "head_start": 0,
+        "head_end": 13,
+        "head_type": "CROP",
+        "tail": "stem parenchyma",
+        "tail_start": 40,
+        "tail_end": 55,
+        "tail_type": "TRT",
+        "label": "CON"
+      },
+      {
+        "head": "Soluble acid invertase",
+        "head_start": 57,
+        "head_end": 79,
+        "head_type": "GENE",
+        "tail": "sucrose accumulation",
+        "tail_start": 101,
+        "tail_end": 121,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "SAI",
+        "head_start": 81,
+        "head_end": 84,
+        "head_type": "GENE",
+        "tail": "sucrose accumulation",
+        "tail_start": 101,
+        "tail_end": 121,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "functional markers",
+        "head_start": 172,
+        "head_end": 190,
+        "head_type": "MRK",
+        "tail": "marker-assisted selection",
+        "tail_start": 209,
+        "tail_end": 234,
+        "tail_type": "BM",
+        "label": "USE"
+      }
+    ]
+  },
+  {
+    "text": "Drought stress increased malondialdehyde (MDA) and hydrogen peroxide (H2O2) levels, with the highest accumulation in L3. Cultivar D maintained higher antioxidant enzyme activities (CAT, POD, SOD, APX), better photosynthetic performance, and greater chlorophyll retention than L3.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "text": "Drought stress",
+        "label": "ABS"
+      },
+      {
+        "start": 117,
+        "end": 119,
+        "text": "L3",
+        "label": "VAR"
+      },
+      {
+        "start": 121,
+        "end": 131,
+        "text": "Cultivar D",
+        "label": "VAR"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "The study identified two zinc finger knuckle genes, Ca04468 and Ca07571, as candidates for drought response in chickpea. Sanger sequencing, DArT, molecular markers, RT-qPCR, and field trial seed trait associations were used for their analysis.",
+    "entities": [
+      {
+        "start": 52,
+        "end": 59,
+        "text": "Ca04468",
+        "label": "GENE"
+      },
+      {
+        "start": 64,
+        "end": 71,
+        "text": "Ca07571",
+        "label": "GENE"
+      },
+      {
+        "start": 91,
+        "end": 98,
+        "text": "drought",
+        "label": "ABS"
+      },
+      {
+        "start": 111,
+        "end": 119,
+        "text": "chickpea",
+        "label": "CROP"
+      },
+      {
+        "start": 121,
+        "end": 138,
+        "text": "Sanger sequencing",
+        "label": "BM"
+      },
+      {
+        "start": 140,
+        "end": 144,
+        "text": "DArT",
+        "label": "MRK"
+      },
+      {
+        "start": 146,
+        "end": 163,
+        "text": "molecular markers",
+        "label": "MRK"
+      },
+      {
+        "start": 165,
+        "end": 172,
+        "text": "RT-qPCR",
+        "label": "BM"
+      },
+      {
+        "start": 178,
+        "end": 213,
+        "text": "field trial seed trait associations",
+        "label": "BM"
+      }
+    ],
+    "relations": [
+      {
+        "head": "chickpea",
+        "head_start": 111,
+        "head_end": 119,
+        "head_type": "CROP",
+        "tail": "Ca04468",
+        "tail_start": 52,
+        "tail_end": 59,
+        "tail_type": "GENE",
+        "label": "LOI"
+      },
+      {
+        "head": "chickpea",
+        "head_start": 111,
+        "head_end": 119,
+        "head_type": "CROP",
+        "tail": "Ca07571",
+        "tail_start": 64,
+        "tail_end": 71,
+        "tail_type": "GENE",
+        "label": "LOI"
+      },
+      {
+        "head": "drought",
+        "head_start": 91,
+        "head_end": 98,
+        "head_type": "ABS",
+        "tail": "chickpea",
+        "tail_start": 111,
+        "tail_end": 119,
+        "tail_type": "CROP",
+        "label": "LOI"
+      },
+      {
+        "head": "Sanger sequencing",
+        "head_start": 121,
+        "head_end": 138,
+        "head_type": "BM",
+        "tail": "Ca04468",
+        "tail_start": 52,
+        "tail_end": 59,
+        "tail_type": "GENE",
+        "label": "LOI"
+      },
+      {
+        "head": "Sanger sequencing",
+        "head_start": 121,
+        "head_end": 138,
+        "head_type": "BM",
+        "tail": "Ca07571",
+        "tail_start": 64,
+        "tail_end": 71,
+        "tail_type": "GENE",
+        "label": "LOI"
+      },
+      {
+        "head": "DArT",
+        "head_start": 140,
+        "head_end": 144,
+        "head_type": "MRK",
+        "tail": "Ca04468",
+        "tail_start": 52,
+        "tail_end": 59,
+        "tail_type": "GENE",
+        "label": "LOI"
+      },
+      {
+        "head": "DArT",
+        "head_start": 140,
+        "head_end": 144,
+        "head_type": "MRK",
+        "tail": "Ca07571",
+        "tail_start": 64,
+        "tail_end": 71,
+        "tail_type": "GENE",
+        "label": "LOI"
+      },
+      {
+        "head": "molecular markers",
+        "head_start": 146,
+        "head_end": 163,
+        "head_type": "MRK",
+        "tail": "Ca04468",
+        "tail_start": 52,
+        "tail_end": 59,
+        "tail_type": "GENE",
+        "label": "LOI"
+      },
+      {
+        "head": "molecular markers",
+        "head_start": 146,
+        "head_end": 163,
+        "head_type": "MRK",
+        "tail": "Ca07571",
+        "tail_start": 64,
+        "tail_end": 71,
+        "tail_type": "GENE",
+        "label": "LOI"
+      },
+      {
+        "head": "RT-qPCR",
+        "head_start": 165,
+        "head_end": 172,
+        "head_type": "BM",
+        "tail": "Ca04468",
+        "tail_start": 52,
+        "tail_end": 59,
+        "tail_type": "GENE",
+        "label": "LOI"
+      },
+      {
+        "head": "field trial seed trait associations",
+        "head_start": 178,
+        "head_end": 213,
+        "head_type": "BM",
+        "tail": "Ca04468",
+        "tail_start": 52,
+        "tail_end": 59,
+        "tail_type": "GENE",
+        "label": "LOI"
+      },
+      {
+        "head": "field trial seed trait associations",
+        "head_start": 178,
+        "head_end": 213,
+        "head_type": "BM",
+        "tail": "Ca07571",
+        "tail_start": 64,
+        "tail_end": 71,
+        "tail_type": "GENE",
+        "label": "LOI"
+      }
+    ]
+  }
+]

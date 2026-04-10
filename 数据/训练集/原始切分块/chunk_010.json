@@ -1,0 +1,968 @@
+[
+  {
+    "text": "QTLs for biological yield, days to heading, and kernel weight on chromosome 2H; QTL for harvest index on 1H; QTLs for kernel weight on 2H, 4H, and 5H. For rainfall less than 450 mm, QTL for grain yield on 6H; QTLs for kernel weight on 2H and 5H; QTLs for seed per head on 1H and 6H; QTL for days to heading on 2H.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 25,
+        "text": "QTLs for biological yield",
+        "label": "QTL"
+      },
+      {
+        "start": 9,
+        "end": 25,
+        "text": "biological yield",
+        "label": "TRT"
+      },
+      {
+        "start": 27,
+        "end": 42,
+        "text": "days to heading",
+        "label": "TRT"
+      },
+      {
+        "start": 65,
+        "end": 78,
+        "text": "chromosome 2H",
+        "label": "CHR"
+      },
+      {
+        "start": 80,
+        "end": 101,
+        "text": "QTL for harvest index",
+        "label": "QTL"
+      },
+      {
+        "start": 88,
+        "end": 101,
+        "text": "harvest index",
+        "label": "TRT"
+      },
+      {
+        "start": 105,
+        "end": 107,
+        "text": "1H",
+        "label": "CHR"
+      },
+      {
+        "start": 109,
+        "end": 131,
+        "text": "QTLs for kernel weight",
+        "label": "QTL"
+      },
+      {
+        "start": 118,
+        "end": 131,
+        "text": "kernel weight",
+        "label": "TRT"
+      },
+      {
+        "start": 135,
+        "end": 137,
+        "text": "2H",
+        "label": "CHR"
+      },
+      {
+        "start": 139,
+        "end": 141,
+        "text": "4H",
+        "label": "CHR"
+      },
+      {
+        "start": 147,
+        "end": 149,
+        "text": "5H",
+        "label": "CHR"
+      },
+      {
+        "start": 155,
+        "end": 180,
+        "text": "rainfall less than 450 mm",
+        "label": "ABS"
+      },
+      {
+        "start": 182,
+        "end": 201,
+        "text": "QTL for grain yield",
+        "label": "QTL"
+      },
+      {
+        "start": 190,
+        "end": 201,
+        "text": "grain yield",
+        "label": "TRT"
+      },
+      {
+        "start": 205,
+        "end": 207,
+        "text": "6H",
+        "label": "CHR"
+      },
+      {
+        "start": 209,
+        "end": 231,
+        "text": "QTLs for kernel weight",
+        "label": "QTL"
+      },
+      {
+        "start": 218,
+        "end": 231,
+        "text": "kernel weight",
+        "label": "TRT"
+      },
+      {
+        "start": 235,
+        "end": 237,
+        "text": "2H",
+        "label": "CHR"
+      },
+      {
+        "start": 242,
+        "end": 244,
+        "text": "5H",
+        "label": "CHR"
+      },
+      {
+        "start": 246,
+        "end": 268,
+        "text": "QTLs for seed per head",
+        "label": "QTL"
+      },
+      {
+        "start": 255,
+        "end": 268,
+        "text": "seed per head",
+        "label": "TRT"
+      },
+      {
+        "start": 272,
+        "end": 274,
+        "text": "1H",
+        "label": "CHR"
+      },
+      {
+        "start": 279,
+        "end": 281,
+        "text": "6H",
+        "label": "CHR"
+      },
+      {
+        "start": 283,
+        "end": 306,
+        "text": "QTL for days to heading",
+        "label": "QTL"
+      },
+      {
+        "start": 291,
+        "end": 306,
+        "text": "days to heading",
+        "label": "TRT"
+      },
+      {
+        "start": 310,
+        "end": 312,
+        "text": "2H",
+        "label": "CHR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QTLs for biological yield",
+        "head_start": 0,
+        "head_end": 25,
+        "head_type": "QTL",
+        "tail": "biological yield",
+        "tail_start": 9,
+        "tail_end": 25,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs for biological yield",
+        "head_start": 0,
+        "head_end": 25,
+        "head_type": "QTL",
+        "tail": "chromosome 2H",
+        "tail_start": 65,
+        "tail_end": 78,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL for harvest index",
+        "head_start": 80,
+        "head_end": 101,
+        "head_type": "QTL",
+        "tail": "harvest index",
+        "tail_start": 88,
+        "tail_end": 101,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL for harvest index",
+        "head_start": 80,
+        "head_end": 101,
+        "head_type": "QTL",
+        "tail": "1H",
+        "tail_start": 105,
+        "tail_end": 107,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs for kernel weight",
+        "head_start": 109,
+        "head_end": 131,
+        "head_type": "QTL",
+        "tail": "kernel weight",
+        "tail_start": 118,
+        "tail_end": 131,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs for kernel weight",
+        "head_start": 109,
+        "head_end": 131,
+        "head_type": "QTL",
+        "tail": "2H",
+        "tail_start": 135,
+        "tail_end": 137,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs for kernel weight",
+        "head_start": 109,
+        "head_end": 131,
+        "head_type": "QTL",
+        "tail": "4H",
+        "tail_start": 139,
+        "tail_end": 141,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs for kernel weight",
+        "head_start": 109,
+        "head_end": 131,
+        "head_type": "QTL",
+        "tail": "5H",
+        "tail_start": 147,
+        "tail_end": 149,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL for grain yield",
+        "head_start": 182,
+        "head_end": 201,
+        "head_type": "QTL",
+        "tail": "6H",
+        "tail_start": 205,
+        "tail_end": 207,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs for seed per head",
+        "head_start": 246,
+        "head_end": 268,
+        "head_type": "QTL",
+        "tail": "seed per head",
+        "tail_start": 255,
+        "tail_end": 268,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs for seed per head",
+        "head_start": 246,
+        "head_end": 268,
+        "head_type": "QTL",
+        "tail": "1H",
+        "tail_start": 105,
+        "tail_end": 107,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTLs for seed per head",
+        "head_start": 246,
+        "head_end": 268,
+        "head_type": "QTL",
+        "tail": "6H",
+        "tail_start": 205,
+        "tail_end": 207,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL for days to heading",
+        "head_start": 283,
+        "head_end": 306,
+        "head_type": "QTL",
+        "tail": "days to heading",
+        "tail_start": 27,
+        "tail_end": 42,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL for days to heading",
+        "head_start": 283,
+        "head_end": 306,
+        "head_type": "QTL",
+        "tail": "2H",
+        "tail_start": 135,
+        "tail_end": 137,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "rainfall less than 450 mm",
+        "head_start": 155,
+        "head_end": 180,
+        "head_type": "ABS",
+        "tail": "kernel weight",
+        "tail_start": 118,
+        "tail_end": 131,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "rainfall less than 450 mm",
+        "head_start": 155,
+        "head_end": 180,
+        "head_type": "ABS",
+        "tail": "grain yield",
+        "tail_start": 190,
+        "tail_end": 201,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "rainfall less than 450 mm",
+        "head_start": 155,
+        "head_end": 180,
+        "head_type": "ABS",
+        "tail": "seed per head",
+        "tail_start": 255,
+        "tail_end": 268,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "rainfall less than 450 mm",
+        "head_start": 155,
+        "head_end": 180,
+        "head_type": "ABS",
+        "tail": "days to heading",
+        "tail_start": 27,
+        "tail_end": 42,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "A study identified the Alkaline tolerance 1 (AT1) gene in sorghum. AT1 is associated with alkaline tolerance and encodes a G protein gamma-subunit. Editing AT1 enhances yields of sorghum, rice, maize, and millet in alkaline soils.",
+    "entities": [
+      {
+        "start": 23,
+        "end": 49,
+        "text": "Alkaline tolerance 1 (AT1)",
+        "label": "GENE"
+      },
+      {
+        "start": 58,
+        "end": 65,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 67,
+        "end": 70,
+        "text": "AT1",
+        "label": "GENE"
+      },
+      {
+        "start": 90,
+        "end": 108,
+        "text": "alkaline tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 123,
+        "end": 146,
+        "text": "G protein gamma-subunit",
+        "label": "TRT"
+      },
+      {
+        "start": 156,
+        "end": 159,
+        "text": "AT1",
+        "label": "GENE"
+      },
+      {
+        "start": 179,
+        "end": 186,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 188,
+        "end": 192,
+        "text": "rice",
+        "label": "CROP"
+      },
+      {
+        "start": 194,
+        "end": 199,
+        "text": "maize",
+        "label": "CROP"
+      },
+      {
+        "start": 205,
+        "end": 211,
+        "text": "millet",
+        "label": "CROP"
+      },
+      {
+        "start": 215,
+        "end": 229,
+        "text": "alkaline soils",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "alkaline soils",
+        "head_start": 215,
+        "head_end": 229,
+        "head_type": "ABS",
+        "tail": "alkaline tolerance",
+        "tail_start": 90,
+        "tail_end": 108,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Alkaline tolerance 1 (AT1)",
+        "head_start": 23,
+        "head_end": 49,
+        "head_type": "GENE",
+        "tail": "alkaline tolerance",
+        "tail_start": 90,
+        "tail_end": 108,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "AT1",
+        "head_start": 67,
+        "head_end": 70,
+        "head_type": "GENE",
+        "tail": "alkaline tolerance",
+        "tail_start": 90,
+        "tail_end": 108,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "Alkaline tolerance 1 (AT1)",
+        "head_start": 23,
+        "head_end": 49,
+        "head_type": "GENE",
+        "tail": "G protein gamma-subunit",
+        "tail_start": 123,
+        "tail_end": 146,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "AT1",
+        "head_start": 67,
+        "head_end": 70,
+        "head_type": "GENE",
+        "tail": "G protein gamma-subunit",
+        "tail_start": 123,
+        "tail_end": 146,
+        "tail_type": "TRT",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "A high quality chromosome-scale genome assembly of little millet comprises 18 chromosomes and 59,045 genes. Eleven chromosomes are assembled from telomere to telomere, revealing an 850 Mb tetraploid genome.",
+    "entities": [
+      {
+        "start": 15,
+        "end": 38,
+        "text": "chromosome-scale genome",
+        "label": "TRT"
+      },
+      {
+        "start": 51,
+        "end": 64,
+        "text": "little millet",
+        "label": "CROP"
+      },
+      {
+        "start": 75,
+        "end": 89,
+        "text": "18 chromosomes",
+        "label": "CHR"
+      },
+      {
+        "start": 94,
+        "end": 106,
+        "text": "59,045 genes",
+        "label": "GENE"
+      },
+      {
+        "start": 108,
+        "end": 126,
+        "text": "Eleven chromosomes",
+        "label": "CHR"
+      },
+      {
+        "start": 181,
+        "end": 205,
+        "text": "850 Mb tetraploid genome",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "little millet",
+        "head_start": 51,
+        "head_end": 64,
+        "head_type": "CROP",
+        "tail": "chromosome-scale genome",
+        "tail_start": 15,
+        "tail_end": 38,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "chromosome-scale genome",
+        "head_start": 15,
+        "head_end": 38,
+        "head_type": "TRT",
+        "tail": "18 chromosomes",
+        "tail_start": 75,
+        "tail_end": 89,
+        "tail_type": "CHR",
+        "label": "CON"
+      },
+      {
+        "head": "chromosome-scale genome",
+        "head_start": 15,
+        "head_end": 38,
+        "head_type": "TRT",
+        "tail": "59,045 genes",
+        "tail_start": 94,
+        "tail_end": 106,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "chromosome-scale genome",
+        "head_start": 15,
+        "head_end": 38,
+        "head_type": "TRT",
+        "tail": "Eleven chromosomes",
+        "tail_start": 108,
+        "tail_end": 126,
+        "tail_type": "CHR",
+        "label": "CON"
+      },
+      {
+        "head": "little millet",
+        "head_start": 51,
+        "head_end": 64,
+        "head_type": "CROP",
+        "tail": "850 Mb tetraploid genome",
+        "tail_start": 181,
+        "tail_end": 205,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "Six sterile and six restorer lines of sorghum and 36 hybrid sorghum combinations from incomplete double-row crosses were tested. The root bleeding sap of the F1 hybrid sorghum showed high heterosis for soluble sugar content and amino acid content at flowering stage, with average high-parent heterosis of 129.34% and 74.57%, respectively.",
+    "entities": [
+      {
+        "start": 38,
+        "end": 45,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 133,
+        "end": 150,
+        "text": "root bleeding sap",
+        "label": "TRT"
+      },
+      {
+        "start": 158,
+        "end": 175,
+        "text": "F1 hybrid sorghum",
+        "label": "CROSS"
+      },
+      {
+        "start": 202,
+        "end": 223,
+        "text": "soluble sugar content",
+        "label": "TRT"
+      },
+      {
+        "start": 228,
+        "end": 246,
+        "text": "amino acid content",
+        "label": "TRT"
+      },
+      {
+        "start": 250,
+        "end": 265,
+        "text": "flowering stage",
+        "label": "GST"
+      }
+    ],
+    "relations": [
+      {
+        "head": "F1 hybrid sorghum",
+        "head_start": 158,
+        "head_end": 175,
+        "head_type": "CROSS",
+        "tail": "soluble sugar content",
+        "tail_start": 202,
+        "tail_end": 223,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "F1 hybrid sorghum",
+        "head_start": 158,
+        "head_end": 175,
+        "head_type": "CROSS",
+        "tail": "amino acid content",
+        "tail_start": 228,
+        "tail_end": 246,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "soluble sugar content",
+        "head_start": 202,
+        "head_end": 223,
+        "head_type": "TRT",
+        "tail": "flowering stage",
+        "tail_start": 250,
+        "tail_end": 265,
+        "tail_type": "GST",
+        "label": "OCI"
+      },
+      {
+        "head": "amino acid content",
+        "head_start": 228,
+        "head_end": 246,
+        "head_type": "TRT",
+        "tail": "flowering stage",
+        "tail_start": 250,
+        "tail_end": 265,
+        "tail_type": "GST",
+        "label": "OCI"
+      }
+    ]
+  },
+  {
+    "text": "A linkage map used 149 markers (RAPD, AFLP, ISSR, SSR, and 2 morphological markers) on 11 linkage groups (LGs). Analysis of variance for FT was significant across locations and years.",
+    "entities": [
+      {
+        "start": 38,
+        "end": 42,
+        "text": "AFLP",
+        "label": "MRK"
+      },
+      {
+        "start": 50,
+        "end": 53,
+        "text": "SSR",
+        "label": "MRK"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Under saline-alkali stress, SiDREB153 expression differed between resistant and susceptible materials. Under drought, saline-alkali, and shade stress, SiDREB80 expression increased. Under saline-alkali and high temperature stress, SiDREB4, SiDREB129, and SiDREB131 expression increased. Under herbicide and saline-alkali stress, SiDREB159 expression increased.",
+    "entities": [
+      {
+        "start": 6,
+        "end": 26,
+        "text": "saline-alkali stress",
+        "label": "ABS"
+      },
+      {
+        "start": 28,
+        "end": 37,
+        "text": "SiDREB153",
+        "label": "GENE"
+      },
+      {
+        "start": 109,
+        "end": 116,
+        "text": "drought",
+        "label": "ABS"
+      },
+      {
+        "start": 118,
+        "end": 131,
+        "text": "saline-alkali",
+        "label": "ABS"
+      },
+      {
+        "start": 137,
+        "end": 149,
+        "text": "shade stress",
+        "label": "ABS"
+      },
+      {
+        "start": 151,
+        "end": 159,
+        "text": "SiDREB80",
+        "label": "GENE"
+      },
+      {
+        "start": 188,
+        "end": 201,
+        "text": "saline-alkali",
+        "label": "ABS"
+      },
+      {
+        "start": 206,
+        "end": 229,
+        "text": "high temperature stress",
+        "label": "ABS"
+      },
+      {
+        "start": 231,
+        "end": 238,
+        "text": "SiDREB4",
+        "label": "GENE"
+      },
+      {
+        "start": 240,
+        "end": 249,
+        "text": "SiDREB129",
+        "label": "GENE"
+      },
+      {
+        "start": 255,
+        "end": 264,
+        "text": "SiDREB131",
+        "label": "GENE"
+      },
+      {
+        "start": 293,
+        "end": 302,
+        "text": "herbicide",
+        "label": "ABS"
+      },
+      {
+        "start": 307,
+        "end": 327,
+        "text": "saline-alkali stress",
+        "label": "ABS"
+      },
+      {
+        "start": 329,
+        "end": 338,
+        "text": "SiDREB159",
+        "label": "GENE"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Lodging reduces grain yield in cereal crops. Stem height, diameter, and strength are crucial for lodging resistance, grain yield, and photosynthate transport in barley. Understanding the genetic basis of stem benefits barley breeding.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "text": "grain yield",
+        "label": "TRT"
+      },
+      {
+        "start": 45,
+        "end": 56,
+        "text": "Stem height",
+        "label": "TRT"
+      },
+      {
+        "start": 97,
+        "end": 115,
+        "text": "lodging resistance",
+        "label": "TRT"
+      },
+      {
+        "start": 117,
+        "end": 128,
+        "text": "grain yield",
+        "label": "TRT"
+      },
+      {
+        "start": 218,
+        "end": 224,
+        "text": "barley",
+        "label": "CROP"
+      }
+    ],
+    "relations": [
+      {
+        "head": "barley",
+        "head_start": 218,
+        "head_end": 224,
+        "head_type": "CROP",
+        "tail": "grain yield",
+        "tail_start": 16,
+        "tail_end": 27,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "barley",
+        "head_start": 218,
+        "head_end": 224,
+        "head_type": "CROP",
+        "tail": "Stem height",
+        "tail_start": 45,
+        "tail_end": 56,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "barley",
+        "head_start": 218,
+        "head_end": 224,
+        "head_type": "CROP",
+        "tail": "lodging resistance",
+        "tail_start": 97,
+        "tail_end": 115,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "One CslF2 gene and 32 transcription factors were identified. Five modules were positively correlated with β-glucan accumulation.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 9,
+        "text": "CslF2",
+        "label": "GENE"
+      },
+      {
+        "start": 106,
+        "end": 127,
+        "text": "β-glucan accumulation",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "CslF2",
+        "head_start": 4,
+        "head_end": 9,
+        "head_type": "GENE",
+        "tail": "β-glucan accumulation",
+        "tail_start": 106,
+        "tail_end": 127,
+        "tail_type": "TRT",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "The gene expression was higher in the high-resistant material than in the sensitive material under flooding stress. The quinoa C2H2 gene showed tissue specificity and was induced under flooding stress, indicating it plays a role in flooding stress in quinoa.",
+    "entities": [
+      {
+        "start": 99,
+        "end": 114,
+        "text": "flooding stress",
+        "label": "ABS"
+      },
+      {
+        "start": 120,
+        "end": 126,
+        "text": "quinoa",
+        "label": "CROP"
+      },
+      {
+        "start": 127,
+        "end": 136,
+        "text": "C2H2 gene",
+        "label": "GENE"
+      },
+      {
+        "start": 185,
+        "end": 200,
+        "text": "flooding stress",
+        "label": "ABS"
+      },
+      {
+        "start": 232,
+        "end": 247,
+        "text": "flooding stress",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "flooding stress",
+        "head_start": 185,
+        "head_end": 200,
+        "head_type": "ABS",
+        "tail": "C2H2 gene",
+        "tail_start": 127,
+        "tail_end": 136,
+        "tail_type": "GENE",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "There are 20 distinct AsCAMTA genes. They are clustered into three subfamilies. Chromosomal mapping shows an uneven distribution across 10 chromosomes.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 29,
+        "text": "AsCAMTA",
+        "label": "GENE"
+      },
+      {
+        "start": 139,
+        "end": 150,
+        "text": "chromosomes",
+        "label": "CHR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "AsCAMTA",
+        "head_start": 22,
+        "head_end": 29,
+        "head_type": "GENE",
+        "tail": "chromosomes",
+        "tail_start": 139,
+        "tail_end": 150,
+        "tail_type": "CHR",
+        "label": "LOI"
+      }
+    ]
+  }
+]

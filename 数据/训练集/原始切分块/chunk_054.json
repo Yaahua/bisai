@@ -1,0 +1,971 @@
+[
+  {
+    "text": "Metabolite changes were examined in DK19 and K33 during drought stress periods day 7 and day 11. 15 significantly altered metabolites were identified in the materials within amino acid biosynthesis pathways.",
+    "entities": [
+      {
+        "start": 36,
+        "end": 40,
+        "text": "DK19",
+        "label": "VAR"
+      },
+      {
+        "start": 45,
+        "end": 48,
+        "text": "K33",
+        "label": "VAR"
+      },
+      {
+        "start": 56,
+        "end": 70,
+        "text": "drought stress",
+        "label": "ABS"
+      },
+      {
+        "start": 79,
+        "end": 84,
+        "text": "day 7",
+        "label": "GST"
+      },
+      {
+        "start": 89,
+        "end": 95,
+        "text": "day 11",
+        "label": "GST"
+      }
+    ],
+    "relations": [
+      {
+        "head": "drought stress",
+        "head_start": 56,
+        "head_end": 70,
+        "head_type": "ABS",
+        "tail": "day 7",
+        "tail_start": 79,
+        "tail_end": 84,
+        "tail_type": "GST",
+        "label": "OCI"
+      },
+      {
+        "head": "drought stress",
+        "head_start": 56,
+        "head_end": 70,
+        "head_type": "ABS",
+        "tail": "day 11",
+        "tail_start": 89,
+        "tail_end": 95,
+        "tail_type": "GST",
+        "label": "OCI"
+      }
+    ]
+  },
+  {
+    "text": "Residual atrazine in soil is a major abiotic stress to millet. An atrazine-resistant variety (Gongai2, GA2) and an atrazine-sensitive variety (Longgu31, LG31) were obtained from field experiments.",
+    "entities": [
+      {
+        "start": 9,
+        "end": 17,
+        "text": "atrazine",
+        "label": "ABS"
+      },
+      {
+        "start": 55,
+        "end": 61,
+        "text": "millet",
+        "label": "CROP"
+      },
+      {
+        "start": 66,
+        "end": 84,
+        "text": "atrazine-resistant",
+        "label": "TRT"
+      },
+      {
+        "start": 94,
+        "end": 101,
+        "text": "Gongai2",
+        "label": "VAR"
+      },
+      {
+        "start": 103,
+        "end": 106,
+        "text": "GA2",
+        "label": "VAR"
+      },
+      {
+        "start": 115,
+        "end": 133,
+        "text": "atrazine-sensitive",
+        "label": "TRT"
+      },
+      {
+        "start": 143,
+        "end": 151,
+        "text": "Longgu31",
+        "label": "VAR"
+      },
+      {
+        "start": 153,
+        "end": 157,
+        "text": "LG31",
+        "label": "VAR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "millet",
+        "head_start": 55,
+        "head_end": 61,
+        "head_type": "CROP",
+        "tail": "Gongai2",
+        "tail_start": 94,
+        "tail_end": 101,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "millet",
+        "head_start": 55,
+        "head_end": 61,
+        "head_type": "CROP",
+        "tail": "GA2",
+        "tail_start": 103,
+        "tail_end": 106,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "millet",
+        "head_start": 55,
+        "head_end": 61,
+        "head_type": "CROP",
+        "tail": "Longgu31",
+        "tail_start": 143,
+        "tail_end": 151,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "millet",
+        "head_start": 55,
+        "head_end": 61,
+        "head_type": "CROP",
+        "tail": "LG31",
+        "tail_start": 153,
+        "tail_end": 157,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "Gongai2",
+        "head_start": 94,
+        "head_end": 101,
+        "head_type": "VAR",
+        "tail": "atrazine-resistant",
+        "tail_start": 66,
+        "tail_end": 84,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "GA2",
+        "head_start": 103,
+        "head_end": 106,
+        "head_type": "VAR",
+        "tail": "atrazine-resistant",
+        "tail_start": 66,
+        "tail_end": 84,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Longgu31",
+        "head_start": 143,
+        "head_end": 151,
+        "head_type": "VAR",
+        "tail": "atrazine-sensitive",
+        "tail_start": 115,
+        "tail_end": 133,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "LG31",
+        "head_start": 153,
+        "head_end": 157,
+        "head_type": "VAR",
+        "tail": "atrazine-sensitive",
+        "tail_start": 115,
+        "tail_end": 133,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "atrazine",
+        "head_start": 9,
+        "head_end": 17,
+        "head_type": "ABS",
+        "tail": "atrazine-resistant",
+        "tail_start": 66,
+        "tail_end": 84,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "atrazine",
+        "head_start": 9,
+        "head_end": 17,
+        "head_type": "ABS",
+        "tail": "atrazine-sensitive",
+        "tail_start": 115,
+        "tail_end": 133,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Three QTLs associated with A: E were identified. Two QTLs are on SBI-09 and one QTL is on SBI-10. They accounted for 17-21% of the phenotypic variation. Subsequent experiments identified 38 QTLs controlling height, flowering, biomass, leaf area, greenness and stomatal density.",
+    "entities": [
+      {
+        "start": 6,
+        "end": 10,
+        "text": "QTLs",
+        "label": "QTL"
+      },
+      {
+        "start": 53,
+        "end": 57,
+        "text": "QTLs",
+        "label": "QTL"
+      },
+      {
+        "start": 65,
+        "end": 71,
+        "text": "SBI-09",
+        "label": "CHR"
+      },
+      {
+        "start": 90,
+        "end": 96,
+        "text": "SBI-10",
+        "label": "CHR"
+      },
+      {
+        "start": 190,
+        "end": 194,
+        "text": "QTLs",
+        "label": "QTL"
+      },
+      {
+        "start": 207,
+        "end": 213,
+        "text": "height",
+        "label": "TRT"
+      },
+      {
+        "start": 226,
+        "end": 233,
+        "text": "biomass",
+        "label": "TRT"
+      },
+      {
+        "start": 246,
+        "end": 276,
+        "text": "greenness and stomatal density",
+        "label": "TRT"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Arabidopsis plants overexpressing FtbHLH2 had higher root length and photosynthetic efficiency, and lower malondialdehyde and reactive oxygen species after cold treatment compared to wild type plants. The expression levels of some stress-related genes in transgenic plants were higher than in wild type under normal and stress conditions.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "text": "Arabidopsis",
+        "label": "CROP"
+      },
+      {
+        "start": 34,
+        "end": 41,
+        "text": "FtbHLH2",
+        "label": "GENE"
+      },
+      {
+        "start": 53,
+        "end": 64,
+        "text": "root length",
+        "label": "TRT"
+      },
+      {
+        "start": 69,
+        "end": 94,
+        "text": "photosynthetic efficiency",
+        "label": "TRT"
+      },
+      {
+        "start": 106,
+        "end": 121,
+        "text": "malondialdehyde",
+        "label": "TRT"
+      },
+      {
+        "start": 126,
+        "end": 149,
+        "text": "reactive oxygen species",
+        "label": "TRT"
+      },
+      {
+        "start": 156,
+        "end": 170,
+        "text": "cold treatment",
+        "label": "ABS"
+      },
+      {
+        "start": 231,
+        "end": 245,
+        "text": "stress-related",
+        "label": "GENE"
+      },
+      {
+        "start": 320,
+        "end": 337,
+        "text": "stress conditions",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "FtbHLH2",
+        "head_start": 34,
+        "head_end": 41,
+        "head_type": "GENE",
+        "tail": "photosynthetic efficiency",
+        "tail_start": 69,
+        "tail_end": 94,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "FtbHLH2",
+        "head_start": 34,
+        "head_end": 41,
+        "head_type": "GENE",
+        "tail": "malondialdehyde",
+        "tail_start": 106,
+        "tail_end": 121,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "FtbHLH2",
+        "head_start": 34,
+        "head_end": 41,
+        "head_type": "GENE",
+        "tail": "reactive oxygen species",
+        "tail_start": 126,
+        "tail_end": 149,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "cold treatment",
+        "head_start": 156,
+        "head_end": 170,
+        "head_type": "ABS",
+        "tail": "malondialdehyde",
+        "tail_start": 106,
+        "tail_end": 121,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "cold treatment",
+        "head_start": 156,
+        "head_end": 170,
+        "head_type": "ABS",
+        "tail": "reactive oxygen species",
+        "tail_start": 126,
+        "tail_end": 149,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "stress conditions",
+        "head_start": 320,
+        "head_end": 337,
+        "head_type": "ABS",
+        "tail": "stress-related",
+        "tail_start": 231,
+        "tail_end": 245,
+        "tail_type": "GENE",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Sorghum is a staple crop in Sub-Saharan Africa and South Asia. Drought and high temperature can cause significant yield losses in these sorghum production regions.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 63,
+        "end": 70,
+        "text": "Drought",
+        "label": "ABS"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "FtbZIP83, an AREB/ABF gene, was isolated from Tartary buckwheat. FtbZIP83 expression was induced by ABA, NaCl and PEG.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "text": "FtbZIP83",
+        "label": "GENE"
+      },
+      {
+        "start": 13,
+        "end": 21,
+        "text": "AREB/ABF",
+        "label": "GENE"
+      },
+      {
+        "start": 65,
+        "end": 73,
+        "text": "FtbZIP83",
+        "label": "GENE"
+      },
+      {
+        "start": 105,
+        "end": 109,
+        "text": "NaCl",
+        "label": "ABS"
+      },
+      {
+        "start": 114,
+        "end": 117,
+        "text": "PEG",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "FtbZIP83",
+        "head_start": 0,
+        "head_end": 8,
+        "head_type": "GENE",
+        "tail": "AREB/ABF",
+        "tail_start": 13,
+        "tail_end": 21,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "NaCl",
+        "head_start": 105,
+        "head_end": 109,
+        "head_type": "ABS",
+        "tail": "FtbZIP83",
+        "tail_start": 0,
+        "tail_end": 8,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "PEG",
+        "head_start": 114,
+        "head_end": 117,
+        "head_type": "ABS",
+        "tail": "FtbZIP83",
+        "tail_start": 0,
+        "tail_end": 8,
+        "tail_type": "GENE",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "A QTL for wheat grain TKW was detected on chromosome 7AS, flanked by SSR marker Wmc17, using GWAS. BSR-seq analysis of an F2 population with extreme TKW traits identified a candidate trehalose-6-phosphate phosphatase gene at 135.0 Mb (CS V1.0), designated TaTPP-7A.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 25,
+        "text": "A QTL for wheat grain TKW",
+        "label": "QTL"
+      },
+      {
+        "start": 10,
+        "end": 15,
+        "text": "wheat",
+        "label": "CROP"
+      },
+      {
+        "start": 22,
+        "end": 25,
+        "text": "TKW",
+        "label": "TRT"
+      },
+      {
+        "start": 42,
+        "end": 56,
+        "text": "chromosome 7AS",
+        "label": "CHR"
+      },
+      {
+        "start": 69,
+        "end": 85,
+        "text": "SSR marker Wmc17",
+        "label": "MRK"
+      },
+      {
+        "start": 93,
+        "end": 97,
+        "text": "GWAS",
+        "label": "BM"
+      },
+      {
+        "start": 122,
+        "end": 135,
+        "text": "F2 population",
+        "label": "CROSS"
+      },
+      {
+        "start": 183,
+        "end": 221,
+        "text": "trehalose-6-phosphate phosphatase gene",
+        "label": "GENE"
+      },
+      {
+        "start": 256,
+        "end": 264,
+        "text": "TaTPP-7A",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "wheat",
+        "head_start": 10,
+        "head_end": 15,
+        "head_type": "CROP",
+        "tail": "A QTL for wheat grain TKW",
+        "tail_start": 0,
+        "tail_end": 25,
+        "tail_type": "QTL",
+        "label": "CON"
+      },
+      {
+        "head": "wheat",
+        "head_start": 10,
+        "head_end": 15,
+        "head_type": "CROP",
+        "tail": "TKW",
+        "tail_start": 22,
+        "tail_end": 25,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "A QTL for wheat grain TKW",
+        "head_start": 0,
+        "head_end": 25,
+        "head_type": "QTL",
+        "tail": "TKW",
+        "tail_start": 22,
+        "tail_end": 25,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "A QTL for wheat grain TKW",
+        "head_start": 0,
+        "head_end": 25,
+        "head_type": "QTL",
+        "tail": "chromosome 7AS",
+        "tail_start": 42,
+        "tail_end": 56,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "SSR marker Wmc17",
+        "head_start": 69,
+        "head_end": 85,
+        "head_type": "MRK",
+        "tail": "A QTL for wheat grain TKW",
+        "tail_start": 0,
+        "tail_end": 25,
+        "tail_type": "QTL",
+        "label": "LOI"
+      },
+      {
+        "head": "SSR marker Wmc17",
+        "head_start": 69,
+        "head_end": 85,
+        "head_type": "MRK",
+        "tail": "chromosome 7AS",
+        "tail_start": 42,
+        "tail_end": 56,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "F2 population",
+        "head_start": 122,
+        "head_end": 135,
+        "head_type": "CROSS",
+        "tail": "TKW",
+        "tail_start": 22,
+        "tail_end": 25,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "TaTPP-7A",
+        "head_start": 256,
+        "head_end": 264,
+        "head_type": "GENE",
+        "tail": "TKW",
+        "tail_start": 22,
+        "tail_end": 25,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "trehalose-6-phosphate phosphatase gene",
+        "head_start": 183,
+        "head_end": 221,
+        "head_type": "GENE",
+        "tail": "TKW",
+        "tail_start": 22,
+        "tail_end": 25,
+        "tail_type": "TRT",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "Ectopic expression of transcription factors GmTT2A, GmTT2B, GmMYB5A, or R in soybean hairy roots induced accumulation of PAs or anthocyanins. It upregulated 1775, 856, 1411, and 1766 genes, respectively. Several of these genes encode enzymes for PA biosynthesis. Genes regulated by GmTT2A and GmTT2B partially overlapped, suggesting conserved but divergent roles for these TFs in regulating PA accumulation.",
+    "entities": [
+      {
+        "start": 44,
+        "end": 50,
+        "text": "GmTT2A",
+        "label": "GENE"
+      },
+      {
+        "start": 52,
+        "end": 58,
+        "text": "GmTT2B",
+        "label": "GENE"
+      },
+      {
+        "start": 60,
+        "end": 67,
+        "text": "GmMYB5A",
+        "label": "GENE"
+      },
+      {
+        "start": 72,
+        "end": 73,
+        "text": "R",
+        "label": "GENE"
+      },
+      {
+        "start": 77,
+        "end": 84,
+        "text": "soybean",
+        "label": "CROP"
+      },
+      {
+        "start": 121,
+        "end": 124,
+        "text": "PAs",
+        "label": "TRT"
+      },
+      {
+        "start": 128,
+        "end": 140,
+        "text": "anthocyanins",
+        "label": "TRT"
+      },
+      {
+        "start": 246,
+        "end": 261,
+        "text": "PA biosynthesis",
+        "label": "TRT"
+      },
+      {
+        "start": 373,
+        "end": 376,
+        "text": "TFs",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "soybean",
+        "head_start": 77,
+        "head_end": 84,
+        "head_type": "CROP",
+        "tail": "PAs",
+        "tail_start": 121,
+        "tail_end": 124,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "soybean",
+        "head_start": 77,
+        "head_end": 84,
+        "head_type": "CROP",
+        "tail": "anthocyanins",
+        "tail_start": 128,
+        "tail_end": 140,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "GmTT2A",
+        "head_start": 44,
+        "head_end": 50,
+        "head_type": "GENE",
+        "tail": "PAs",
+        "tail_start": 121,
+        "tail_end": 124,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "GmTT2B",
+        "head_start": 52,
+        "head_end": 58,
+        "head_type": "GENE",
+        "tail": "PAs",
+        "tail_start": 121,
+        "tail_end": 124,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "GmMYB5A",
+        "head_start": 60,
+        "head_end": 67,
+        "head_type": "GENE",
+        "tail": "PAs",
+        "tail_start": 121,
+        "tail_end": 124,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "R",
+        "head_start": 72,
+        "head_end": 73,
+        "head_type": "GENE",
+        "tail": "PAs",
+        "tail_start": 121,
+        "tail_end": 124,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "GmMYB5A",
+        "head_start": 60,
+        "head_end": 67,
+        "head_type": "GENE",
+        "tail": "anthocyanins",
+        "tail_start": 128,
+        "tail_end": 140,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "R",
+        "head_start": 72,
+        "head_end": 73,
+        "head_type": "GENE",
+        "tail": "anthocyanins",
+        "tail_start": 128,
+        "tail_end": 140,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "GmTT2A",
+        "head_start": 44,
+        "head_end": 50,
+        "head_type": "GENE",
+        "tail": "PA biosynthesis",
+        "tail_start": 246,
+        "tail_end": 261,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "GmTT2B",
+        "head_start": 52,
+        "head_end": 58,
+        "head_type": "GENE",
+        "tail": "anthocyanins",
+        "tail_start": 128,
+        "tail_end": 140,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "GmMYB5A",
+        "head_start": 60,
+        "head_end": 67,
+        "head_type": "GENE",
+        "tail": "PA biosynthesis",
+        "tail_start": 246,
+        "tail_end": 261,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "R",
+        "head_start": 72,
+        "head_end": 73,
+        "head_type": "GENE",
+        "tail": "PA biosynthesis",
+        "tail_start": 246,
+        "tail_end": 261,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "TFs",
+        "head_start": 373,
+        "head_end": 376,
+        "head_type": "GENE",
+        "tail": "PAs",
+        "tail_start": 121,
+        "tail_end": 124,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "DROOPY LEAF1 (DPY1) is a leucine-rich repeat receptor-like kinase. DPY1 regulates plant architecture in foxtail millet (Setaria italica). DPY1 is essential for drought stress acclimation in foxtail millet.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "text": "DROOPY LEAF1",
+        "label": "GENE"
+      },
+      {
+        "start": 14,
+        "end": 18,
+        "text": "DPY1",
+        "label": "GENE"
+      },
+      {
+        "start": 67,
+        "end": 71,
+        "text": "DPY1",
+        "label": "GENE"
+      },
+      {
+        "start": 104,
+        "end": 118,
+        "text": "foxtail millet",
+        "label": "CROP"
+      },
+      {
+        "start": 120,
+        "end": 135,
+        "text": "Setaria italica",
+        "label": "CROP"
+      },
+      {
+        "start": 138,
+        "end": 142,
+        "text": "DPY1",
+        "label": "GENE"
+      },
+      {
+        "start": 160,
+        "end": 174,
+        "text": "drought stress",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "DROOPY LEAF1",
+        "head_start": 0,
+        "head_end": 12,
+        "head_type": "GENE",
+        "tail": "DPY1",
+        "tail_start": 14,
+        "tail_end": 18,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "DPY1",
+        "head_start": 14,
+        "head_end": 18,
+        "head_type": "GENE",
+        "tail": "drought stress",
+        "tail_start": 160,
+        "tail_end": 174,
+        "tail_type": "ABS",
+        "label": "AFF"
+      },
+      {
+        "head": "foxtail millet",
+        "head_start": 104,
+        "head_end": 118,
+        "head_type": "CROP",
+        "tail": "Setaria italica",
+        "tail_start": 120,
+        "tail_end": 135,
+        "tail_type": "CROP",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "A genome-wide association study (GWAS) for drought tolerance was conducted in cowpea. 331 cowpea genotypes were evaluated for drought tolerance.",
+    "entities": [
+      {
+        "start": 2,
+        "end": 37,
+        "text": "genome-wide association study (GWAS",
+        "label": "BM"
+      },
+      {
+        "start": 43,
+        "end": 60,
+        "text": "drought tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 78,
+        "end": 84,
+        "text": "cowpea",
+        "label": "CROP"
+      },
+      {
+        "start": 126,
+        "end": 143,
+        "text": "drought tolerance",
+        "label": "TRT"
+      }
+    ],
+    "relations": []
+  }
+]

@@ -1,0 +1,845 @@
+[
+  {
+    "text": "LCR4 exhibited robust resistance against stripe rust infection at both the seedling stage and the adult stage upon inoculation with Puccinia striiformis f. sp. tritici (Pst) race V26 and mixed Pst races, respectively. Genetic analysis elucidated that the translocated 2RL chromosome segment is responsible for this resistance.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "text": "LCR4",
+        "label": "VAR"
+      },
+      {
+        "start": 41,
+        "end": 62,
+        "text": "stripe rust infection",
+        "label": "BIS"
+      },
+      {
+        "start": 75,
+        "end": 89,
+        "text": "seedling stage",
+        "label": "GST"
+      },
+      {
+        "start": 98,
+        "end": 109,
+        "text": "adult stage",
+        "label": "GST"
+      },
+      {
+        "start": 132,
+        "end": 182,
+        "text": "Puccinia striiformis f. sp. tritici (Pst) race V26",
+        "label": "BIS"
+      },
+      {
+        "start": 187,
+        "end": 202,
+        "text": "mixed Pst races",
+        "label": "BIS"
+      },
+      {
+        "start": 268,
+        "end": 290,
+        "text": "2RL chromosome segment",
+        "label": "CHR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "stripe rust infection",
+        "head_start": 41,
+        "head_end": 62,
+        "head_type": "BIS",
+        "tail": "seedling stage",
+        "tail_start": 75,
+        "tail_end": 89,
+        "tail_type": "GST",
+        "label": "OCI"
+      },
+      {
+        "head": "stripe rust infection",
+        "head_start": 41,
+        "head_end": 62,
+        "head_type": "BIS",
+        "tail": "adult stage",
+        "tail_start": 98,
+        "tail_end": 109,
+        "tail_type": "GST",
+        "label": "OCI"
+      },
+      {
+        "head": "Puccinia striiformis f. sp. tritici (Pst) race V26",
+        "head_start": 132,
+        "head_end": 182,
+        "head_type": "BIS",
+        "tail": "stripe rust infection",
+        "tail_start": 41,
+        "tail_end": 62,
+        "tail_type": "BIS",
+        "label": "AFF"
+      },
+      {
+        "head": "mixed Pst races",
+        "head_start": 187,
+        "head_end": 202,
+        "head_type": "BIS",
+        "tail": "stripe rust infection",
+        "tail_start": 41,
+        "tail_end": 62,
+        "tail_type": "BIS",
+        "label": "AFF"
+      },
+      {
+        "head": "2RL chromosome segment",
+        "head_start": 268,
+        "head_end": 290,
+        "head_type": "CHR",
+        "tail": "stripe rust infection",
+        "tail_start": 41,
+        "tail_end": 62,
+        "tail_type": "BIS",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Sorghum bicolor is a tolerant cereal crop. C2 domain family proteins are involved in the response to abiotic stress such as salt and drought stress. Less information on C2 domain family members has been reported in Sorghum bicolor.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "text": "Sorghum bicolor",
+        "label": "CROP"
+      },
+      {
+        "start": 43,
+        "end": 68,
+        "text": "C2 domain family proteins",
+        "label": "GENE"
+      },
+      {
+        "start": 101,
+        "end": 115,
+        "text": "abiotic stress",
+        "label": "ABS"
+      },
+      {
+        "start": 124,
+        "end": 147,
+        "text": "salt and drought stress",
+        "label": "ABS"
+      },
+      {
+        "start": 169,
+        "end": 193,
+        "text": "C2 domain family members",
+        "label": "GENE"
+      },
+      {
+        "start": 215,
+        "end": 230,
+        "text": "Sorghum bicolor",
+        "label": "CROP"
+      }
+    ],
+    "relations": [
+      {
+        "head": "C2 domain family proteins",
+        "head_start": 43,
+        "head_end": 68,
+        "head_type": "GENE",
+        "tail": "abiotic stress",
+        "tail_start": 101,
+        "tail_end": 115,
+        "tail_type": "ABS",
+        "label": "AFF"
+      },
+      {
+        "head": "C2 domain family proteins",
+        "head_start": 43,
+        "head_end": 68,
+        "head_type": "GENE",
+        "tail": "salt and drought stress",
+        "tail_start": 124,
+        "tail_end": 147,
+        "tail_type": "ABS",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "NM5 showed a delay in the transcriptional responses of the ROS scavenging system to simulated drought treatment and an easy recovery of photosynthesis-associated gene expression. Compared to JS6, NM5 exhibited different regulation strategies in the jasmonic acid (JA) signal transduction pathway.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "NM5",
+        "label": "VAR"
+      },
+      {
+        "start": 84,
+        "end": 111,
+        "text": "simulated drought treatment",
+        "label": "ABS"
+      },
+      {
+        "start": 136,
+        "end": 177,
+        "text": "photosynthesis-associated gene expression",
+        "label": "TRT"
+      },
+      {
+        "start": 191,
+        "end": 194,
+        "text": "JS6",
+        "label": "VAR"
+      },
+      {
+        "start": 249,
+        "end": 295,
+        "text": "jasmonic acid (JA) signal transduction pathway",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "simulated drought treatment",
+        "head_start": 84,
+        "head_end": 111,
+        "head_type": "ABS",
+        "tail": "photosynthesis-associated gene expression",
+        "tail_start": 136,
+        "tail_end": 177,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "simulated drought treatment",
+        "head_start": 84,
+        "head_end": 111,
+        "head_type": "ABS",
+        "tail": "jasmonic acid (JA) signal transduction pathway",
+        "tail_start": 249,
+        "tail_end": 295,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "The genes in the ornithine pathway (Orn-OAT-P5C/GSA-P5CR-Pro) were up-regulated. The genes in the glutamate pathway (Glu-P5CS-P5C/GSA-P5CR-Pro) were also up-regulated. AtOAT expression enhanced wheat abiotic tolerance. It modified proline biosynthesis by up-regulating proline biosynthesis-associated genes and down-regulating the proline catabolic gene under stress.",
+    "entities": [
+      {
+        "start": 36,
+        "end": 60,
+        "text": "Orn-OAT-P5C/GSA-P5CR-Pro",
+        "label": "GENE"
+      },
+      {
+        "start": 117,
+        "end": 142,
+        "text": "Glu-P5CS-P5C/GSA-P5CR-Pro",
+        "label": "GENE"
+      },
+      {
+        "start": 168,
+        "end": 173,
+        "text": "AtOAT",
+        "label": "GENE"
+      },
+      {
+        "start": 194,
+        "end": 199,
+        "text": "wheat",
+        "label": "CROP"
+      },
+      {
+        "start": 200,
+        "end": 217,
+        "text": "abiotic tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 231,
+        "end": 251,
+        "text": "proline biosynthesis",
+        "label": "TRT"
+      },
+      {
+        "start": 269,
+        "end": 306,
+        "text": "proline biosynthesis-associated genes",
+        "label": "GENE"
+      },
+      {
+        "start": 331,
+        "end": 353,
+        "text": "proline catabolic gene",
+        "label": "GENE"
+      },
+      {
+        "start": 360,
+        "end": 366,
+        "text": "stress",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "AtOAT",
+        "head_start": 168,
+        "head_end": 173,
+        "head_type": "GENE",
+        "tail": "abiotic tolerance",
+        "tail_start": 200,
+        "tail_end": 217,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "AtOAT",
+        "head_start": 168,
+        "head_end": 173,
+        "head_type": "GENE",
+        "tail": "proline biosynthesis",
+        "tail_start": 231,
+        "tail_end": 251,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "stress",
+        "head_start": 360,
+        "head_end": 366,
+        "head_type": "ABS",
+        "tail": "abiotic tolerance",
+        "tail_start": 200,
+        "tail_end": 217,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "wheat",
+        "head_start": 194,
+        "head_end": 199,
+        "head_type": "CROP",
+        "tail": "abiotic tolerance",
+        "tail_start": 200,
+        "tail_end": 217,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "An F5 population from a cross between low juice yielding Xinliang52 (XL52) and high juice yielding W455 lines was used for QTL analysis of stem juice yield. A QTL controlling stem juice yield was mapped with SSR marker Xtxp97, explaining 46.7% of phenotypic variance.",
+    "entities": [
+      {
+        "start": 3,
+        "end": 16,
+        "text": "F5 population",
+        "label": "CROSS"
+      },
+      {
+        "start": 38,
+        "end": 56,
+        "text": "low juice yielding",
+        "label": "TRT"
+      },
+      {
+        "start": 57,
+        "end": 67,
+        "text": "Xinliang52",
+        "label": "VAR"
+      },
+      {
+        "start": 69,
+        "end": 73,
+        "text": "XL52",
+        "label": "VAR"
+      },
+      {
+        "start": 79,
+        "end": 98,
+        "text": "high juice yielding",
+        "label": "TRT"
+      },
+      {
+        "start": 99,
+        "end": 103,
+        "text": "W455",
+        "label": "VAR"
+      },
+      {
+        "start": 159,
+        "end": 162,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 175,
+        "end": 191,
+        "text": "stem juice yield",
+        "label": "TRT"
+      },
+      {
+        "start": 208,
+        "end": 225,
+        "text": "SSR marker Xtxp97",
+        "label": "MRK"
+      }
+    ],
+    "relations": [
+      {
+        "head": "F5 population",
+        "head_start": 3,
+        "head_end": 16,
+        "head_type": "CROSS",
+        "tail": "Xinliang52",
+        "tail_start": 57,
+        "tail_end": 67,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "F5 population",
+        "head_start": 3,
+        "head_end": 16,
+        "head_type": "CROSS",
+        "tail": "XL52",
+        "tail_start": 69,
+        "tail_end": 73,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "F5 population",
+        "head_start": 3,
+        "head_end": 16,
+        "head_type": "CROSS",
+        "tail": "W455",
+        "tail_start": 99,
+        "tail_end": 103,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "Xinliang52",
+        "head_start": 57,
+        "head_end": 67,
+        "head_type": "VAR",
+        "tail": "low juice yielding",
+        "tail_start": 38,
+        "tail_end": 56,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Xinliang52",
+        "head_start": 57,
+        "head_end": 67,
+        "head_type": "VAR",
+        "tail": "high juice yielding",
+        "tail_start": 79,
+        "tail_end": 98,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "XL52",
+        "head_start": 69,
+        "head_end": 73,
+        "head_type": "VAR",
+        "tail": "low juice yielding",
+        "tail_start": 38,
+        "tail_end": 56,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "W455",
+        "head_start": 99,
+        "head_end": 103,
+        "head_type": "VAR",
+        "tail": "high juice yielding",
+        "tail_start": 79,
+        "tail_end": 98,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "QTL",
+        "head_start": 159,
+        "head_end": 162,
+        "head_type": "QTL",
+        "tail": "stem juice yield",
+        "tail_start": 175,
+        "tail_end": 191,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL",
+        "head_start": 159,
+        "head_end": 162,
+        "head_type": "QTL",
+        "tail": "SSR marker Xtxp97",
+        "tail_start": 208,
+        "tail_end": 225,
+        "tail_type": "MRK",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "The genetic diversity and population structure of hulless oat were investigated using genotyping-by-sequencing on 805 oat lines, including 186 hulless oats. Population structure analyses showed strong genetic differentiation between hulless landraces and other oat lines, including modern hulless cultivars.",
+    "entities": [
+      {
+        "start": 50,
+        "end": 61,
+        "text": "hulless oat",
+        "label": "CROP"
+      },
+      {
+        "start": 86,
+        "end": 110,
+        "text": "genotyping-by-sequencing",
+        "label": "BM"
+      },
+      {
+        "start": 143,
+        "end": 155,
+        "text": "hulless oats",
+        "label": "VAR"
+      },
+      {
+        "start": 233,
+        "end": 250,
+        "text": "hulless landraces",
+        "label": "VAR"
+      },
+      {
+        "start": 261,
+        "end": 270,
+        "text": "oat lines",
+        "label": "VAR"
+      },
+      {
+        "start": 282,
+        "end": 306,
+        "text": "modern hulless cultivars",
+        "label": "VAR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "hulless oat",
+        "head_start": 50,
+        "head_end": 61,
+        "head_type": "CROP",
+        "tail": "hulless oats",
+        "tail_start": 143,
+        "tail_end": 155,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "hulless oat",
+        "head_start": 50,
+        "head_end": 61,
+        "head_type": "CROP",
+        "tail": "hulless landraces",
+        "tail_start": 233,
+        "tail_end": 250,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "hulless oat",
+        "head_start": 50,
+        "head_end": 61,
+        "head_type": "CROP",
+        "tail": "modern hulless cultivars",
+        "tail_start": 282,
+        "tail_end": 306,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "hulless oat",
+        "head_start": 50,
+        "head_end": 61,
+        "head_type": "CROP",
+        "tail": "genotyping-by-sequencing",
+        "tail_start": 86,
+        "tail_end": 110,
+        "tail_type": "BM",
+        "label": "USE"
+      },
+      {
+        "head": "hulless landraces",
+        "head_start": 233,
+        "head_end": 250,
+        "head_type": "VAR",
+        "tail": "oat lines",
+        "tail_start": 261,
+        "tail_end": 270,
+        "tail_type": "VAR",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "An EMS-induced foxtail millet population of about 15,000 M-1 lines was established. 1353 independent M-2 lines with abnormal phenotypes in leaf color, plant morphology, and panicle shape were identified.",
+    "entities": [
+      {
+        "start": 3,
+        "end": 14,
+        "text": "EMS-induced",
+        "label": "BM"
+      },
+      {
+        "start": 15,
+        "end": 29,
+        "text": "foxtail millet",
+        "label": "CROP"
+      },
+      {
+        "start": 139,
+        "end": 149,
+        "text": "leaf color",
+        "label": "TRT"
+      },
+      {
+        "start": 151,
+        "end": 167,
+        "text": "plant morphology",
+        "label": "TRT"
+      },
+      {
+        "start": 173,
+        "end": 186,
+        "text": "panicle shape",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "foxtail millet",
+        "head_start": 15,
+        "head_end": 29,
+        "head_type": "CROP",
+        "tail": "leaf color",
+        "tail_start": 139,
+        "tail_end": 149,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "foxtail millet",
+        "head_start": 15,
+        "head_end": 29,
+        "head_type": "CROP",
+        "tail": "plant morphology",
+        "tail_start": 151,
+        "tail_end": 167,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "foxtail millet",
+        "head_start": 15,
+        "head_end": 29,
+        "head_type": "CROP",
+        "tail": "panicle shape",
+        "tail_start": 173,
+        "tail_end": 186,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "The segregation ratio matched the expected ratio in the F-2 population of the two crosses. Four maintainer lines/CMS line pairs (F-5/BC3) with high stalk juice and stalk juice sugar contents were developed.",
+    "entities": [
+      {
+        "start": 56,
+        "end": 70,
+        "text": "F-2 population",
+        "label": "CROSS"
+      },
+      {
+        "start": 82,
+        "end": 89,
+        "text": "crosses",
+        "label": "CROSS"
+      },
+      {
+        "start": 96,
+        "end": 137,
+        "text": "maintainer lines/CMS line pairs (F-5/BC3)",
+        "label": "VAR"
+      },
+      {
+        "start": 164,
+        "end": 175,
+        "text": "stalk juice",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "crosses",
+        "head_start": 82,
+        "head_end": 89,
+        "head_type": "CROSS",
+        "tail": "F-2 population",
+        "tail_start": 56,
+        "tail_end": 70,
+        "tail_type": "CROSS",
+        "label": "CON"
+      },
+      {
+        "head": "maintainer lines/CMS line pairs (F-5/BC3)",
+        "head_start": 96,
+        "head_end": 137,
+        "head_type": "VAR",
+        "tail": "stalk juice",
+        "tail_start": 164,
+        "tail_end": 175,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "The seed-setting rate was positively correlated with grain number. Grain number was correlated with flower number at the same plant position. Grains number on branches was the most dominant component of the seed-setting rate (Path coefficient = 2.19). Grains number on stem was the next component (Path coefficient = 0.60).",
+    "entities": [
+      {
+        "start": 4,
+        "end": 21,
+        "text": "seed-setting rate",
+        "label": "TRT"
+      },
+      {
+        "start": 67,
+        "end": 79,
+        "text": "Grain number",
+        "label": "TRT"
+      },
+      {
+        "start": 100,
+        "end": 113,
+        "text": "flower number",
+        "label": "TRT"
+      },
+      {
+        "start": 142,
+        "end": 167,
+        "text": "Grains number on branches",
+        "label": "TRT"
+      },
+      {
+        "start": 252,
+        "end": 273,
+        "text": "Grains number on stem",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "seed-setting rate",
+        "head_start": 4,
+        "head_end": 21,
+        "head_type": "TRT",
+        "tail": "Grain number",
+        "tail_start": 67,
+        "tail_end": 79,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Grain number",
+        "head_start": 67,
+        "head_end": 79,
+        "head_type": "TRT",
+        "tail": "flower number",
+        "tail_start": 100,
+        "tail_end": 113,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Grains number on branches",
+        "head_start": 142,
+        "head_end": 167,
+        "head_type": "TRT",
+        "tail": "seed-setting rate",
+        "tail_start": 4,
+        "tail_end": 21,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Grains number on stem",
+        "head_start": 252,
+        "head_end": 273,
+        "head_type": "TRT",
+        "tail": "seed-setting rate",
+        "tail_start": 4,
+        "tail_end": 21,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "SSR molecular markers were developed and characterized for mung bean. They were used to analyze genetic diversity. A genomic library containing microsatellite loci was isolated, cloned, and sequenced from the mung bean variety 'MCV-1'.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 21,
+        "text": "SSR molecular markers",
+        "label": "MRK"
+      },
+      {
+        "start": 59,
+        "end": 68,
+        "text": "mung bean",
+        "label": "CROP"
+      },
+      {
+        "start": 144,
+        "end": 163,
+        "text": "microsatellite loci",
+        "label": "MRK"
+      },
+      {
+        "start": 209,
+        "end": 218,
+        "text": "mung bean",
+        "label": "CROP"
+      },
+      {
+        "start": 228,
+        "end": 233,
+        "text": "MCV-1",
+        "label": "VAR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "mung bean",
+        "head_start": 59,
+        "head_end": 68,
+        "head_type": "CROP",
+        "tail": "MCV-1",
+        "tail_start": 228,
+        "tail_end": 233,
+        "tail_type": "VAR",
+        "label": "CON"
+      }
+    ]
+  }
+]

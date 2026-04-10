@@ -1,0 +1,639 @@
+[
+  {
+    "text": "A two-year experiment under acidic conditions measured 12 yield-related traits in the F2 and F3 populations of the cross E232 x Murasakimochi and its reciprocal cross. The phenotypic coefficient of variation was high.",
+    "entities": [
+      {
+        "start": 86,
+        "end": 88,
+        "text": "F2",
+        "label": "CROSS"
+      },
+      {
+        "start": 93,
+        "end": 95,
+        "text": "F3",
+        "label": "CROSS"
+      },
+      {
+        "start": 121,
+        "end": 125,
+        "text": "E232",
+        "label": "VAR"
+      },
+      {
+        "start": 121,
+        "end": 141,
+        "text": "E232 x Murasakimochi",
+        "label": "CROSS"
+      },
+      {
+        "start": 128,
+        "end": 141,
+        "text": "Murasakimochi",
+        "label": "VAR"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "This study mapped QTLs for agronomic and yield traits using three connected mapping populations of different genetic backgrounds in Ethiopian sorghum germplasm. The three bi-parental populations, each with 207 F 2:3 lines, were evaluated under two moisture stress environments.",
+    "entities": [
+      {
+        "start": 18,
+        "end": 22,
+        "text": "QTLs",
+        "label": "QTL"
+      },
+      {
+        "start": 27,
+        "end": 53,
+        "text": "agronomic and yield traits",
+        "label": "TRT"
+      },
+      {
+        "start": 132,
+        "end": 159,
+        "text": "Ethiopian sorghum germplasm",
+        "label": "CROP"
+      },
+      {
+        "start": 248,
+        "end": 263,
+        "text": "moisture stress",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QTLs",
+        "head_start": 18,
+        "head_end": 22,
+        "head_type": "QTL",
+        "tail": "agronomic and yield traits",
+        "tail_start": 27,
+        "tail_end": 53,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "moisture stress",
+        "head_start": 248,
+        "head_end": 263,
+        "head_type": "ABS",
+        "tail": "agronomic and yield traits",
+        "tail_start": 27,
+        "tail_end": 53,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Transcriptomic analysis revealed enriched metabolic pathways in L4 seeds: flavonoid biosynthesis, TCA cycle, and terpenoid backbone biosynthesis. L1 seeds showed enriched carbon metabolism. Key genes involved include CHS, CHI, AACT, ENO1, IDH, NADP-ME, and HAO2L. Aging may adversely affect flavonoids and terpenoids, contributing to vigor loss in storage-sensitive seeds. Storage-tolerant seeds maintain carbon metabolism and energy supply.",
+    "entities": [
+      {
+        "start": 64,
+        "end": 72,
+        "text": "L4 seeds",
+        "label": "VAR"
+      },
+      {
+        "start": 146,
+        "end": 154,
+        "text": "L1 seeds",
+        "label": "VAR"
+      },
+      {
+        "start": 217,
+        "end": 220,
+        "text": "CHS",
+        "label": "GENE"
+      },
+      {
+        "start": 233,
+        "end": 237,
+        "text": "ENO1",
+        "label": "GENE"
+      },
+      {
+        "start": 257,
+        "end": 262,
+        "text": "HAO2L",
+        "label": "GENE"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "The best location for planting strip-tilled fertilized corn varies with soil and climatic conditions and the time between fertilizer application and planting. With fewer days, planting directly on the center of the fertilized strip-till decreased plant population and grain yield.",
+    "entities": [
+      {
+        "start": 55,
+        "end": 59,
+        "text": "corn",
+        "label": "CROP"
+      },
+      {
+        "start": 226,
+        "end": 236,
+        "text": "strip-till",
+        "label": "BM"
+      },
+      {
+        "start": 247,
+        "end": 263,
+        "text": "plant population",
+        "label": "TRT"
+      },
+      {
+        "start": 268,
+        "end": 279,
+        "text": "grain yield",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "corn",
+        "head_start": 55,
+        "head_end": 59,
+        "head_type": "CROP",
+        "tail": "plant population",
+        "tail_start": 247,
+        "tail_end": 263,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "corn",
+        "head_start": 55,
+        "head_end": 59,
+        "head_type": "CROP",
+        "tail": "grain yield",
+        "tail_start": 268,
+        "tail_end": 279,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "145 VfAP2/ERFs were identified and are unevenly distributed across six chromosomes. Phylogenetic analysis classified them into five subgroups. Cis-elements analysis found VfAP2/ERF promoters contain elements related to light response, plant hormone, abiotic stress response, and plant growth and development.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 14,
+        "text": "VfAP2/ERFs",
+        "label": "GENE"
+      },
+      {
+        "start": 67,
+        "end": 82,
+        "text": "six chromosomes",
+        "label": "CHR"
+      },
+      {
+        "start": 219,
+        "end": 233,
+        "text": "light response",
+        "label": "TRT"
+      },
+      {
+        "start": 235,
+        "end": 248,
+        "text": "plant hormone",
+        "label": "TRT"
+      },
+      {
+        "start": 250,
+        "end": 273,
+        "text": "abiotic stress response",
+        "label": "TRT"
+      },
+      {
+        "start": 279,
+        "end": 307,
+        "text": "plant growth and development",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "VfAP2/ERFs",
+        "head_start": 4,
+        "head_end": 14,
+        "head_type": "GENE",
+        "tail": "six chromosomes",
+        "tail_start": 67,
+        "tail_end": 82,
+        "tail_type": "CHR",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "SG QTL were mapped near previously reported chromosomal regions. Two heat-stress QTL were mapped to bPb-5529 on 5H, adjacent to QTL for root length and root-shoot ratio. SG QTL detection in barley under heat- and water-stressed conditions enables high throughput screening for these traits.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "SG QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 69,
+        "end": 84,
+        "text": "heat-stress QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 112,
+        "end": 114,
+        "text": "5H",
+        "label": "CHR"
+      },
+      {
+        "start": 136,
+        "end": 147,
+        "text": "root length",
+        "label": "TRT"
+      },
+      {
+        "start": 152,
+        "end": 168,
+        "text": "root-shoot ratio",
+        "label": "TRT"
+      },
+      {
+        "start": 190,
+        "end": 196,
+        "text": "barley",
+        "label": "CROP"
+      },
+      {
+        "start": 203,
+        "end": 208,
+        "text": "heat-",
+        "label": "ABS"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "IP-MS and transcriptome analysis revealed that SiUBC39 is involved in growth and development regulation, drought stress response, and immune response. SiPIP2;1 and SiEhd2 were identified as interactors of SiUBC39, explaining its roles in blast resistance and flowering time control. Domestication analysis identified an A/G mutation in the SiUBC39 promoter TATA box, distinguishing domesticated and wild haplotypes and highlighting its role in domestication selection.",
+    "entities": [
+      {
+        "start": 10,
+        "end": 23,
+        "text": "transcriptome",
+        "label": "BM"
+      },
+      {
+        "start": 47,
+        "end": 54,
+        "text": "SiUBC39",
+        "label": "GENE"
+      },
+      {
+        "start": 105,
+        "end": 119,
+        "text": "drought stress",
+        "label": "ABS"
+      },
+      {
+        "start": 134,
+        "end": 149,
+        "text": "immune response",
+        "label": "BIS"
+      },
+      {
+        "start": 151,
+        "end": 159,
+        "text": "SiPIP2;1",
+        "label": "GENE"
+      },
+      {
+        "start": 164,
+        "end": 170,
+        "text": "SiEhd2",
+        "label": "GENE"
+      },
+      {
+        "start": 205,
+        "end": 212,
+        "text": "SiUBC39",
+        "label": "GENE"
+      },
+      {
+        "start": 238,
+        "end": 243,
+        "text": "blast",
+        "label": "BIS"
+      },
+      {
+        "start": 259,
+        "end": 273,
+        "text": "flowering time",
+        "label": "TRT"
+      },
+      {
+        "start": 340,
+        "end": 347,
+        "text": "SiUBC39",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "SiUBC39",
+        "head_start": 47,
+        "head_end": 54,
+        "head_type": "GENE",
+        "tail": "drought stress",
+        "tail_start": 105,
+        "tail_end": 119,
+        "tail_type": "ABS",
+        "label": "AFF"
+      },
+      {
+        "head": "SiUBC39",
+        "head_start": 47,
+        "head_end": 54,
+        "head_type": "GENE",
+        "tail": "immune response",
+        "tail_start": 134,
+        "tail_end": 149,
+        "tail_type": "BIS",
+        "label": "AFF"
+      },
+      {
+        "head": "SiUBC39",
+        "head_start": 47,
+        "head_end": 54,
+        "head_type": "GENE",
+        "tail": "flowering time",
+        "tail_start": 259,
+        "tail_end": 273,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Phylogenetic analysis assigned eight FtNAC TFs to three abiotic stress-related subgroups. The relative expression levels of FtNAC genes were analyzed under abiotic stresses (salt, drought, cold, ultraviolet B) and exogenous phytohormones (abscisic acid, methyl jasmonate, salicylic acid).",
+    "entities": [
+      {
+        "start": 37,
+        "end": 46,
+        "text": "FtNAC TFs",
+        "label": "GENE"
+      },
+      {
+        "start": 124,
+        "end": 129,
+        "text": "FtNAC",
+        "label": "GENE"
+      },
+      {
+        "start": 156,
+        "end": 172,
+        "text": "abiotic stresses",
+        "label": "ABS"
+      },
+      {
+        "start": 174,
+        "end": 178,
+        "text": "salt",
+        "label": "ABS"
+      },
+      {
+        "start": 180,
+        "end": 187,
+        "text": "drought",
+        "label": "ABS"
+      },
+      {
+        "start": 189,
+        "end": 193,
+        "text": "cold",
+        "label": "ABS"
+      },
+      {
+        "start": 195,
+        "end": 208,
+        "text": "ultraviolet B",
+        "label": "ABS"
+      },
+      {
+        "start": 214,
+        "end": 237,
+        "text": "exogenous phytohormones",
+        "label": "ABS"
+      },
+      {
+        "start": 254,
+        "end": 270,
+        "text": "methyl jasmonate",
+        "label": "ABS"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "The Sd3 allele increased enzyme thermostability and enhanced diastatic power, a malting quality trait. The BC1F1 individuals impacted the agronomic and quality traits of the final progenies, showing the importance of screening at the early backcrossing stage in MABC.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 7,
+        "text": "Sd3",
+        "label": "GENE"
+      },
+      {
+        "start": 61,
+        "end": 76,
+        "text": "diastatic power",
+        "label": "TRT"
+      },
+      {
+        "start": 80,
+        "end": 101,
+        "text": "malting quality trait",
+        "label": "TRT"
+      },
+      {
+        "start": 107,
+        "end": 124,
+        "text": "BC1F1 individuals",
+        "label": "VAR"
+      },
+      {
+        "start": 174,
+        "end": 189,
+        "text": "final progenies",
+        "label": "VAR"
+      },
+      {
+        "start": 240,
+        "end": 252,
+        "text": "backcrossing",
+        "label": "BM"
+      },
+      {
+        "start": 262,
+        "end": 266,
+        "text": "MABC",
+        "label": "BM"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Sd3",
+        "head_start": 4,
+        "head_end": 7,
+        "head_type": "GENE",
+        "tail": "diastatic power",
+        "tail_start": 61,
+        "tail_end": 76,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "diastatic power",
+        "head_start": 61,
+        "head_end": 76,
+        "head_type": "TRT",
+        "tail": "malting quality trait",
+        "tail_start": 80,
+        "tail_end": 101,
+        "tail_type": "TRT",
+        "label": "CON"
+      },
+      {
+        "head": "BC1F1 individuals",
+        "head_start": 107,
+        "head_end": 124,
+        "head_type": "VAR",
+        "tail": "final progenies",
+        "tail_start": 174,
+        "tail_end": 189,
+        "tail_type": "VAR",
+        "label": "AFF"
+      },
+      {
+        "head": "final progenies",
+        "head_start": 174,
+        "head_end": 189,
+        "head_type": "VAR",
+        "tail": "backcrossing",
+        "tail_start": 240,
+        "tail_end": 252,
+        "tail_type": "BM",
+        "label": "USE"
+      },
+      {
+        "head": "final progenies",
+        "head_start": 174,
+        "head_end": 189,
+        "head_type": "VAR",
+        "tail": "MABC",
+        "tail_start": 262,
+        "tail_end": 266,
+        "tail_type": "BM",
+        "label": "USE"
+      }
+    ]
+  },
+  {
+    "text": "Multiple SSR markers, including SXAU8002 for 100-grain weight and SXAU8006 for stem diameter, were associated with agronomic traits. A candidate gene, FtPinG0007685500, was identified that may affect node number and stem diameter by participating in lignin synthesis.",
+    "entities": [
+      {
+        "start": 32,
+        "end": 40,
+        "text": "SXAU8002",
+        "label": "MRK"
+      },
+      {
+        "start": 45,
+        "end": 61,
+        "text": "100-grain weight",
+        "label": "TRT"
+      },
+      {
+        "start": 66,
+        "end": 74,
+        "text": "SXAU8006",
+        "label": "MRK"
+      },
+      {
+        "start": 151,
+        "end": 167,
+        "text": "FtPinG0007685500",
+        "label": "GENE"
+      },
+      {
+        "start": 200,
+        "end": 211,
+        "text": "node number",
+        "label": "TRT"
+      },
+      {
+        "start": 216,
+        "end": 229,
+        "text": "stem diameter",
+        "label": "TRT"
+      },
+      {
+        "start": 250,
+        "end": 266,
+        "text": "lignin synthesis",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "SXAU8002",
+        "head_start": 32,
+        "head_end": 40,
+        "head_type": "MRK",
+        "tail": "100-grain weight",
+        "tail_start": 45,
+        "tail_end": 61,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "SXAU8006",
+        "head_start": 66,
+        "head_end": 74,
+        "head_type": "MRK",
+        "tail": "stem diameter",
+        "tail_start": 216,
+        "tail_end": 229,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "FtPinG0007685500",
+        "head_start": 151,
+        "head_end": 167,
+        "head_type": "GENE",
+        "tail": "node number",
+        "tail_start": 200,
+        "tail_end": 211,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "FtPinG0007685500",
+        "head_start": 151,
+        "head_end": 167,
+        "head_type": "GENE",
+        "tail": "stem diameter",
+        "tail_start": 216,
+        "tail_end": 229,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  }
+]
