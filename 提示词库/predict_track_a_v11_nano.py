@@ -1,0 +1,268 @@
+#!/usr/bin/env python3
+"""
+MGBIE Track-A 预测脚本 v11 — GPT-4.1-nano 版本
+================================================
+目的：作为第四个模型加入集成，与 v7/v9_clean/v10_gemini 组成四模型投票
+使用 gpt-4.1-nano：速度快、成本低、风格与 mini 和 Gemini 均有差异
+"""
+import json
+import os
+import re
+import time
+import threading
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+import numpy as np
+from openai import OpenAI
+
+TRAIN_PATH  = '/home/ubuntu/official_mgbie/dataset/train.json'
+TEST_PATH   = '/home/ubuntu/official_mgbie/dataset/test_A.json'
+OUTPUT_PATH = '/home/ubuntu/bisai/数据/A榜/submit_v11_nano.json'
+os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
+
+MODEL   = "gpt-4.1-nano"
+WORKERS = 25   # nano 速度快，可以更高并发
+SAVE_EVERY = 20
+TOP_K   = 5
+
+with open(TRAIN_PATH, encoding='utf-8') as f:
+    TRAIN_DATA = json.load(f)
+with open(TEST_PATH, encoding='utf-8') as f:
+    TEST_DATA = json.load(f)
+
+# 合法三元组集合
+LEGAL_TRIPLETS = set()
+for item in TRAIN_DATA:
+    for r in item.get('relations', []):
+        LEGAL_TRIPLETS.add((r['head_type'], r['label'], r['tail_type']))
+
+# 非法三元组黑名单
+ILLEGAL_TRIPLETS = {
+    ('VAR',  'CON', 'CROP'), ('GENE', 'CON', 'CROP'), ('CROSS','CON', 'CROP'),
+    ('MRK',  'AFF', 'TRT'),  ('GENE', 'AFF', 'ABS'),
+    ('TRT',  'HAS', 'VAR'),  ('TRT',  'HAS', 'CROP'), ('VAR',  'OCI', 'TRT'),
+    ('VAR',  'AFF', 'BIS'),  ('QTL',  'LOI', 'VAR'),  ('CROP', 'HAS', 'ABS'),
+    ('VAR',  'HAS', 'ABS'),  ('VAR',  'HAS', 'BIS'),  ('BM',   'USE', 'CROP'),
+    ('CHR',  'LOI', 'VAR'),  ('TRT',  'LOI', 'TRT'),  ('ABS',  'LOI', 'CHR'),
+    ('BIS',  'LOI', 'CHR'),  ('GST',  'AFF', 'TRT'),  ('CROP', 'AFF', 'TRT'),
+}
+
+# TF-IDF 检索
+print("构建 TF-IDF 检索索引...")
+TRAIN_TEXTS  = [item['text'] for item in TRAIN_DATA]
+tfidf        = TfidfVectorizer(ngram_range=(1, 2), max_features=50000, sublinear_tf=True)
+TRAIN_MATRIX = tfidf.fit_transform(TRAIN_TEXTS)
+print(f"完成，维度：{TRAIN_MATRIX.shape}")
+
+def find_examples_for_triplet(head_type, rel, tail_type, n=2):
+    examples = []
+    for item in TRAIN_DATA:
+        for r in item.get('relations', []):
+            if r['head_type'] == head_type and r['label'] == rel and r['tail_type'] == tail_type:
+                examples.append(item)
+                break
+        if len(examples) >= n:
+            break
+    return examples
+
+GENE_LOI_TRT_EX = find_examples_for_triplet('GENE', 'LOI', 'TRT', 2)
+MRK_LOI_CHR_EX  = find_examples_for_triplet('MRK',  'LOI', 'CHR', 2)
+VAR_USE_BM_EX   = find_examples_for_triplet('VAR',  'USE', 'BM',  2)
+
+def retrieve_top_k(query_text, k=TOP_K):
+    vec  = tfidf.transform([query_text])
+    sims = cosine_similarity(vec, TRAIN_MATRIX).flatten()
+    top  = np.argsort(sims)[::-1][:k]
+    return [TRAIN_DATA[i] for i in top if sims[i] > 0.01][:k]
+
+def format_example(item):
+    ents = [{"text": e["text"], "label": e["label"]} for e in item["entities"]]
+    rels = [{"head": r["head"], "head_type": r["head_type"],
+             "tail": r["tail"], "tail_type": r["tail_type"],
+             "label": r["label"]} for r in item["relations"]]
+    return f'Input: {item["text"]}\nOutput: {json.dumps({"entities": ents, "relations": rels}, ensure_ascii=False)}'
+
+def build_fewshot(rag_samples, text):
+    lines = ["## Similar Examples (retrieved)"]
+    for s in rag_samples:
+        lines.append(format_example(s))
+        lines.append("")
+    text_lower = text.lower()
+    injected = set()
+    if any(w in text_lower for w in ['gene', 'locus', 'loci', 'allele']) and GENE_LOI_TRT_EX:
+        ex = GENE_LOI_TRT_EX[0]
+        if id(ex) not in injected:
+            lines += ["# Targeted: GENE-LOI-TRT", format_example(ex), ""]
+            injected.add(id(ex))
+    if any(w in text_lower for w in ['marker', 'ssr', 'snp', 'qtl', 'chromosome']) and MRK_LOI_CHR_EX:
+        ex = MRK_LOI_CHR_EX[0]
+        if id(ex) not in injected:
+            lines += ["# Targeted: MRK-LOI-CHR", format_example(ex), ""]
+            injected.add(id(ex))
+    if any(w in text_lower for w in ['breeding', 'selection', 'backcross', 'gwas', 'mas']) and VAR_USE_BM_EX:
+        ex = VAR_USE_BM_EX[0]
+        if id(ex) not in injected:
+            lines += ["# Targeted: VAR-USE-BM", format_example(ex), ""]
+            injected.add(id(ex))
+    return "\n".join(lines)
+
+SYSTEM = """You are an expert NER and RE annotator for coarse grain crop breeding literature (MGBIE task).
+
+## Entity Types (12)
+CROP: crop species (sorghum, barley, millet, quinoa, oat, buckwheat, foxtail millet, proso millet, mung bean, cowpea — ALWAYS annotate)
+VAR: cultivar/variety name
+GENE: gene name or ID
+QTL: quantitative trait loci
+MRK: molecular marker
+TRT: main trait/phenotype under study (do NOT over-annotate measurement parameters)
+ABS: abiotic stress
+BIS: biotic stress
+BM: breeding method (GWAS, QTL mapping, MAS, MABC, backcross)
+CHR: chromosome identifier (strip "chromosome" prefix)
+CROSS: hybrid/segregating population (RILs, DH lines, F2)
+GST: growth stage
+
+## Relation Types (6)
+AFF: biological causation (regulates/controls/affects/increases/decreases/promotes/inhibits)
+LOI: physical mapping (mapped/located/associated with/linked/detected on)
+HAS: (CROP or VAR) → TRT possession. NEVER TRT→anything.
+CON: CROP contains VAR or GENE
+USE: (VAR or CROSS or CROP) uses BM
+OCI: entity occurs at GST
+
+## Rules
+1. ALWAYS annotate CROP species names — most commonly missed.
+2. TRT: only the PRIMARY trait, not every measurement.
+3. LOI(GENE→TRT) is common — do not miss it.
+4. HAS direction: (CROP/VAR) → TRT only.
+5. ~32.7% of sentences have NO relations — output [] when uncertain.
+6. Entity "text" MUST be exact substring of input.
+7. Output valid JSON only: {"entities": [...], "relations": [...]}"""
+
+def resolve(text, raw):
+    entities_out, relations_out = [], []
+    used_spans, entity_map = set(), {}
+    for e in raw.get("entities", []):
+        et, lb = e.get("text", "").strip(), e.get("label", "")
+        if not et or not lb:
+            continue
+        idx = text.find(et)
+        while idx != -1 and (idx, idx + len(et)) in used_spans:
+            idx = text.find(et, idx + 1)
+        if idx == -1:
+            lo = text.lower().find(et.lower())
+            if lo != -1 and (lo, lo + len(et)) not in used_spans:
+                idx = lo
+            else:
+                continue
+        s, en = idx, idx + len(et)
+        used_spans.add((s, en))
+        actual = text[s:en]
+        entities_out.append({"start": s, "end": en, "text": actual, "label": lb})
+        if et not in entity_map:
+            entity_map[et] = (s, en, actual, lb)
+    for r in raw.get("relations", []):
+        ht, tt = r.get("head", "").strip(), r.get("tail", "").strip()
+        hty, tty, rl = r.get("head_type", ""), r.get("tail_type", ""), r.get("label", "")
+        if not all([ht, tt, hty, tty, rl]):
+            continue
+        if (hty, rl, tty) in ILLEGAL_TRIPLETS:
+            continue
+        if (hty, rl, tty) not in LEGAL_TRIPLETS:
+            continue
+        if ht not in entity_map or tt not in entity_map:
+            continue
+        hs, he, ha, _ = entity_map[ht]
+        ts, te, ta, _ = entity_map[tt]
+        relations_out.append({
+            "head": ha, "head_start": hs, "head_end": he, "head_type": hty,
+            "tail": ta, "tail_start": ts, "tail_end": te, "tail_type": tty,
+            "label": rl
+        })
+    return entities_out, relations_out
+
+_thread_local = threading.local()
+def get_client():
+    if not hasattr(_thread_local, 'client'):
+        _thread_local.client = OpenAI()
+    return _thread_local.client
+
+def predict_one(idx, text):
+    rag_samples   = retrieve_top_k(text)
+    fewshot_block = build_fewshot(rag_samples, text)
+    for attempt in range(3):
+        try:
+            time.sleep(attempt * 1.5)
+            resp = get_client().chat.completions.create(
+                model=MODEL,
+                messages=[
+                    {"role": "system", "content": SYSTEM},
+                    {"role": "user",   "content": (
+                        f"{fewshot_block}\n\n"
+                        f"## Now annotate:\nInput: {text}\nOutput:"
+                    )}
+                ],
+                temperature=0,
+                max_tokens=2048
+            )
+            raw_str = resp.choices[0].message.content.strip()
+            raw_str = re.sub(r'^```json\s*', '', raw_str)
+            raw_str = re.sub(r'^```\s*',     '', raw_str)
+            raw_str = re.sub(r'\s*```$',     '', raw_str)
+            raw = json.loads(raw_str)
+            ents, rels = resolve(text, raw)
+            return idx, text, ents, rels, None
+        except json.JSONDecodeError:
+            if attempt == 2:
+                return idx, text, [], [], "JSONError"
+        except Exception as ex:
+            if attempt == 2:
+                return idx, text, [], [], f"Error: {str(ex)[:40]}"
+            time.sleep(2 ** attempt)
+    return idx, text, [], [], "max_retries"
+
+# 主程序
+results_dict = {}
+if os.path.exists(OUTPUT_PATH):
+    with open(OUTPUT_PATH, encoding='utf-8') as f:
+        existing = json.load(f)
+    for i, r in enumerate(existing):
+        results_dict[i] = r
+    print(f"断点续传：已有 {len(results_dict)} 条")
+
+pending = [i for i in range(len(TEST_DATA)) if i not in results_dict]
+print(f"待处理: {len(pending)} 条 | 模型: {MODEL} | 线程: {WORKERS}")
+
+save_lock       = threading.Lock()
+completed_count = [0]
+failed_list     = []
+
+def save_results():
+    ordered = [results_dict[i] for i in sorted(results_dict.keys())]
+    with open(OUTPUT_PATH, 'w', encoding='utf-8') as f:
+        json.dump(ordered, f, ensure_ascii=False, indent=2)
+
+with ThreadPoolExecutor(max_workers=WORKERS) as executor:
+    futures = {executor.submit(predict_one, i, TEST_DATA[i]["text"]): i for i in pending}
+    for future in as_completed(futures):
+        idx, text, ents, rels, err = future.result()
+        with save_lock:
+            results_dict[idx] = {"text": text, "entities": ents, "relations": rels}
+            completed_count[0] += 1
+            done = completed_count[0]
+            status = f"✓ 实体:{len(ents)} 关系:{len(rels)}"
+            if err:
+                failed_list.append(idx)
+                status = f"⚠ 失败({err})"
+            print(f"[{idx+1:>3}/{len(TEST_DATA)}] {text[:50]}... {status}")
+            if done % SAVE_EVERY == 0:
+                save_results()
+                print(f"  >>> 已保存 {len(results_dict)}/{len(TEST_DATA)} 条 <<<")
+
+save_results()
+print(f"\n===== 全部完成 =====")
+print(f"总条数: {len(TEST_DATA)} | 成功: {len(TEST_DATA)-len(failed_list)} | 失败: {len(failed_list)}")
+if failed_list:
+    print(f"失败索引: {sorted(failed_list)}")
+print(f"输出: {OUTPUT_PATH}")
