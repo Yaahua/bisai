@@ -1,0 +1,866 @@
+[
+  {
+    "text": "A QTL for wheat grain TKW was detected on chromosome 7AS, flanked by SSR marker Wmc17, using GWAS. BSR-seq analysis of an F2 population with extreme TKW traits identified a candidate trehalose-6-phosphate phosphatase gene at 135.0 Mb (CS V1.0), designated TaTPP-7A.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 25,
+        "text": "A QTL for wheat grain TKW",
+        "label": "QTL"
+      },
+      {
+        "start": 10,
+        "end": 15,
+        "text": "wheat",
+        "label": "CROP"
+      },
+      {
+        "start": 22,
+        "end": 25,
+        "text": "TKW",
+        "label": "TRT"
+      },
+      {
+        "start": 42,
+        "end": 56,
+        "text": "chromosome 7AS",
+        "label": "CHR"
+      },
+      {
+        "start": 69,
+        "end": 85,
+        "text": "SSR marker Wmc17",
+        "label": "MRK"
+      },
+      {
+        "start": 93,
+        "end": 97,
+        "text": "GWAS",
+        "label": "BM"
+      },
+      {
+        "start": 122,
+        "end": 135,
+        "text": "F2 population",
+        "label": "CROSS"
+      },
+      {
+        "start": 183,
+        "end": 221,
+        "text": "trehalose-6-phosphate phosphatase gene",
+        "label": "GENE"
+      },
+      {
+        "start": 256,
+        "end": 264,
+        "text": "TaTPP-7A",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "wheat",
+        "head_start": 10,
+        "head_end": 15,
+        "head_type": "CROP",
+        "tail": "A QTL for wheat grain TKW",
+        "tail_start": 0,
+        "tail_end": 25,
+        "tail_type": "QTL",
+        "label": "CON"
+      },
+      {
+        "head": "wheat",
+        "head_start": 10,
+        "head_end": 15,
+        "head_type": "CROP",
+        "tail": "TKW",
+        "tail_start": 22,
+        "tail_end": 25,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "A QTL for wheat grain TKW",
+        "head_start": 0,
+        "head_end": 25,
+        "head_type": "QTL",
+        "tail": "TKW",
+        "tail_start": 22,
+        "tail_end": 25,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "A QTL for wheat grain TKW",
+        "head_start": 0,
+        "head_end": 25,
+        "head_type": "QTL",
+        "tail": "chromosome 7AS",
+        "tail_start": 42,
+        "tail_end": 56,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "SSR marker Wmc17",
+        "head_start": 69,
+        "head_end": 85,
+        "head_type": "MRK",
+        "tail": "A QTL for wheat grain TKW",
+        "tail_start": 0,
+        "tail_end": 25,
+        "tail_type": "QTL",
+        "label": "LOI"
+      },
+      {
+        "head": "SSR marker Wmc17",
+        "head_start": 69,
+        "head_end": 85,
+        "head_type": "MRK",
+        "tail": "chromosome 7AS",
+        "tail_start": 42,
+        "tail_end": 56,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "F2 population",
+        "head_start": 122,
+        "head_end": 135,
+        "head_type": "CROSS",
+        "tail": "TKW",
+        "tail_start": 22,
+        "tail_end": 25,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "TaTPP-7A",
+        "head_start": 256,
+        "head_end": 264,
+        "head_type": "GENE",
+        "tail": "TKW",
+        "tail_start": 22,
+        "tail_end": 25,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "trehalose-6-phosphate phosphatase gene",
+        "head_start": 183,
+        "head_end": 221,
+        "head_type": "GENE",
+        "tail": "TKW",
+        "tail_start": 22,
+        "tail_end": 25,
+        "tail_type": "TRT",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "We identified candidate genes for salt tolerance in quinoa. Some DEGs were exclusively expressed in the ST genotype. DEGs common to both genotypes under salt stress may be key genes for quinoa salinity adaptation.",
+    "entities": [
+      {
+        "start": 34,
+        "end": 48,
+        "text": "salt tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 52,
+        "end": 58,
+        "text": "quinoa",
+        "label": "CROP"
+      },
+      {
+        "start": 104,
+        "end": 115,
+        "text": "ST genotype",
+        "label": "VAR"
+      },
+      {
+        "start": 153,
+        "end": 164,
+        "text": "salt stress",
+        "label": "ABS"
+      },
+      {
+        "start": 193,
+        "end": 212,
+        "text": "salinity adaptation",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "quinoa",
+        "head_start": 52,
+        "head_end": 58,
+        "head_type": "CROP",
+        "tail": "ST genotype",
+        "tail_start": 104,
+        "tail_end": 115,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "ST genotype",
+        "head_start": 104,
+        "head_end": 115,
+        "head_type": "VAR",
+        "tail": "salt tolerance",
+        "tail_start": 34,
+        "tail_end": 48,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "salt stress",
+        "head_start": 153,
+        "head_end": 164,
+        "head_type": "ABS",
+        "tail": "salt tolerance",
+        "tail_start": 34,
+        "tail_end": 48,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "salt stress",
+        "head_start": 153,
+        "head_end": 164,
+        "head_type": "ABS",
+        "tail": "salinity adaptation",
+        "tail_start": 193,
+        "tail_end": 212,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "quinoa",
+        "head_start": 52,
+        "head_end": 58,
+        "head_type": "CROP",
+        "tail": "salinity adaptation",
+        "tail_start": 193,
+        "tail_end": 212,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "FtMYB13, a R2R3-MYB from Tartary buckwheat, is located in the nucleus and is not a transcriptional activator. Compared to wild type (WT), transgenic Arabidopsis overexpressing FtMYB13 showed lower ABA sensitivity and improved drought/salt tolerance. This was due to higher proline content, greater photosynthetic efficiency, higher transcript abundance of stress-related genes, and smaller amounts of reactive oxygen species (ROS) and malondialdehyde (MDA).",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "FtMYB13",
+        "label": "GENE"
+      },
+      {
+        "start": 11,
+        "end": 19,
+        "text": "R2R3-MYB",
+        "label": "GENE"
+      },
+      {
+        "start": 25,
+        "end": 42,
+        "text": "Tartary buckwheat",
+        "label": "CROP"
+      },
+      {
+        "start": 62,
+        "end": 69,
+        "text": "nucleus",
+        "label": "TRT"
+      },
+      {
+        "start": 138,
+        "end": 183,
+        "text": "transgenic Arabidopsis overexpressing FtMYB13",
+        "label": "VAR"
+      },
+      {
+        "start": 226,
+        "end": 233,
+        "text": "drought",
+        "label": "ABS"
+      },
+      {
+        "start": 234,
+        "end": 238,
+        "text": "salt",
+        "label": "ABS"
+      },
+      {
+        "start": 273,
+        "end": 288,
+        "text": "proline content",
+        "label": "TRT"
+      },
+      {
+        "start": 298,
+        "end": 323,
+        "text": "photosynthetic efficiency",
+        "label": "TRT"
+      },
+      {
+        "start": 332,
+        "end": 376,
+        "text": "transcript abundance of stress-related genes",
+        "label": "TRT"
+      },
+      {
+        "start": 390,
+        "end": 430,
+        "text": "amounts of reactive oxygen species (ROS)",
+        "label": "TRT"
+      },
+      {
+        "start": 435,
+        "end": 456,
+        "text": "malondialdehyde (MDA)",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "FtMYB13",
+        "head_start": 0,
+        "head_end": 7,
+        "head_type": "GENE",
+        "tail": "R2R3-MYB",
+        "tail_start": 11,
+        "tail_end": 19,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "Tartary buckwheat",
+        "head_start": 25,
+        "head_end": 42,
+        "head_type": "CROP",
+        "tail": "R2R3-MYB",
+        "tail_start": 11,
+        "tail_end": 19,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "FtMYB13",
+        "head_start": 0,
+        "head_end": 7,
+        "head_type": "GENE",
+        "tail": "nucleus",
+        "tail_start": 62,
+        "tail_end": 69,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "transgenic Arabidopsis overexpressing FtMYB13",
+        "head_start": 138,
+        "head_end": 183,
+        "head_type": "VAR",
+        "tail": "FtMYB13",
+        "tail_start": 0,
+        "tail_end": 7,
+        "tail_type": "GENE",
+        "label": "CON"
+      },
+      {
+        "head": "drought",
+        "head_start": 226,
+        "head_end": 233,
+        "head_type": "ABS",
+        "tail": "transgenic Arabidopsis overexpressing FtMYB13",
+        "tail_start": 138,
+        "tail_end": 183,
+        "tail_type": "VAR",
+        "label": "AFF"
+      },
+      {
+        "head": "salt",
+        "head_start": 234,
+        "head_end": 238,
+        "head_type": "ABS",
+        "tail": "transgenic Arabidopsis overexpressing FtMYB13",
+        "tail_start": 138,
+        "tail_end": 183,
+        "tail_type": "VAR",
+        "label": "AFF"
+      },
+      {
+        "head": "transgenic Arabidopsis overexpressing FtMYB13",
+        "head_start": 138,
+        "head_end": 183,
+        "head_type": "VAR",
+        "tail": "proline content",
+        "tail_start": 273,
+        "tail_end": 288,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "transgenic Arabidopsis overexpressing FtMYB13",
+        "head_start": 138,
+        "head_end": 183,
+        "head_type": "VAR",
+        "tail": "photosynthetic efficiency",
+        "tail_start": 298,
+        "tail_end": 323,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "transgenic Arabidopsis overexpressing FtMYB13",
+        "head_start": 138,
+        "head_end": 183,
+        "head_type": "VAR",
+        "tail": "transcript abundance of stress-related genes",
+        "tail_start": 332,
+        "tail_end": 376,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "transgenic Arabidopsis overexpressing FtMYB13",
+        "head_start": 138,
+        "head_end": 183,
+        "head_type": "VAR",
+        "tail": "amounts of reactive oxygen species (ROS)",
+        "tail_start": 390,
+        "tail_end": 430,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "transgenic Arabidopsis overexpressing FtMYB13",
+        "head_start": 138,
+        "head_end": 183,
+        "head_type": "VAR",
+        "tail": "malondialdehyde (MDA)",
+        "tail_start": 435,
+        "tail_end": 456,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "drought",
+        "head_start": 226,
+        "head_end": 233,
+        "head_type": "ABS",
+        "tail": "photosynthetic efficiency",
+        "tail_start": 298,
+        "tail_end": 323,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "drought",
+        "head_start": 226,
+        "head_end": 233,
+        "head_type": "ABS",
+        "tail": "proline content",
+        "tail_start": 273,
+        "tail_end": 288,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "salt",
+        "head_start": 234,
+        "head_end": 238,
+        "head_type": "ABS",
+        "tail": "proline content",
+        "tail_start": 273,
+        "tail_end": 288,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "salt",
+        "head_start": 234,
+        "head_end": 238,
+        "head_type": "ABS",
+        "tail": "photosynthetic efficiency",
+        "tail_start": 298,
+        "tail_end": 323,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "drought",
+        "head_start": 226,
+        "head_end": 233,
+        "head_type": "ABS",
+        "tail": "amounts of reactive oxygen species (ROS)",
+        "tail_start": 390,
+        "tail_end": 430,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "drought",
+        "head_start": 226,
+        "head_end": 233,
+        "head_type": "ABS",
+        "tail": "malondialdehyde (MDA)",
+        "tail_start": 435,
+        "tail_end": 456,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "salt",
+        "head_start": 234,
+        "head_end": 238,
+        "head_type": "ABS",
+        "tail": "amounts of reactive oxygen species (ROS)",
+        "tail_start": 390,
+        "tail_end": 430,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "salt",
+        "head_start": 234,
+        "head_end": 238,
+        "head_type": "ABS",
+        "tail": "malondialdehyde (MDA)",
+        "tail_start": 435,
+        "tail_end": 456,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "A F-2 segregating population was constructed by crossing Yunqiao No.1 (hard-shelled) and Rice-Tartary (easily-shelled). Bulked segregant analysis sequencing (BSA-seq) was used for initial mapping. The gene locus controlling the easily-shelled trait was preliminarily located in a 4.07 Mb region of chromosome 1. Kompetitive allele-specific PCR primers based on SNPs in the initial region were designed and tested in 335 individual plants of the F-2 population.",
+    "entities": [
+      {
+        "start": 2,
+        "end": 28,
+        "text": "F-2 segregating population",
+        "label": "CROSS"
+      },
+      {
+        "start": 57,
+        "end": 69,
+        "text": "Yunqiao No.1",
+        "label": "VAR"
+      },
+      {
+        "start": 71,
+        "end": 83,
+        "text": "hard-shelled",
+        "label": "TRT"
+      },
+      {
+        "start": 89,
+        "end": 101,
+        "text": "Rice-Tartary",
+        "label": "VAR"
+      },
+      {
+        "start": 103,
+        "end": 117,
+        "text": "easily-shelled",
+        "label": "TRT"
+      },
+      {
+        "start": 120,
+        "end": 166,
+        "text": "Bulked segregant analysis sequencing (BSA-seq)",
+        "label": "BM"
+      },
+      {
+        "start": 228,
+        "end": 248,
+        "text": "easily-shelled trait",
+        "label": "TRT"
+      },
+      {
+        "start": 278,
+        "end": 294,
+        "text": "a 4.07 Mb region",
+        "label": "QTL"
+      },
+      {
+        "start": 298,
+        "end": 310,
+        "text": "chromosome 1",
+        "label": "CHR"
+      },
+      {
+        "start": 312,
+        "end": 351,
+        "text": "Kompetitive allele-specific PCR primers",
+        "label": "MRK"
+      },
+      {
+        "start": 361,
+        "end": 365,
+        "text": "SNPs",
+        "label": "MRK"
+      },
+      {
+        "start": 445,
+        "end": 459,
+        "text": "F-2 population",
+        "label": "CROSS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Yunqiao No.1",
+        "head_start": 57,
+        "head_end": 69,
+        "head_type": "VAR",
+        "tail": "hard-shelled",
+        "tail_start": 71,
+        "tail_end": 83,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Rice-Tartary",
+        "head_start": 89,
+        "head_end": 101,
+        "head_type": "VAR",
+        "tail": "easily-shelled",
+        "tail_start": 103,
+        "tail_end": 117,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "F-2 segregating population",
+        "head_start": 2,
+        "head_end": 28,
+        "head_type": "CROSS",
+        "tail": "Yunqiao No.1",
+        "tail_start": 57,
+        "tail_end": 69,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "F-2 segregating population",
+        "head_start": 2,
+        "head_end": 28,
+        "head_type": "CROSS",
+        "tail": "Rice-Tartary",
+        "tail_start": 89,
+        "tail_end": 101,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "Bulked segregant analysis sequencing (BSA-seq)",
+        "head_start": 120,
+        "head_end": 166,
+        "head_type": "BM",
+        "tail": "easily-shelled trait",
+        "tail_start": 228,
+        "tail_end": 248,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "a 4.07 Mb region",
+        "head_start": 278,
+        "head_end": 294,
+        "head_type": "QTL",
+        "tail": "chromosome 1",
+        "tail_start": 298,
+        "tail_end": 310,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "Kompetitive allele-specific PCR primers",
+        "head_start": 312,
+        "head_end": 351,
+        "head_type": "MRK",
+        "tail": "SNPs",
+        "tail_start": 361,
+        "tail_end": 365,
+        "tail_type": "MRK",
+        "label": "LOI"
+      },
+      {
+        "head": "Kompetitive allele-specific PCR primers",
+        "head_start": 312,
+        "head_end": 351,
+        "head_type": "MRK",
+        "tail": "easily-shelled trait",
+        "tail_start": 228,
+        "tail_end": 248,
+        "tail_type": "TRT",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "Restriction site polymorphisms were used to investigate co-location of candidate genes with QTL for seedling drought stress-induced premature senescence in cowpea. Genomic DNA from 113 F-2:8 RILs of drought-tolerant IT93K503-1 and susceptible CB46 genotypes was digested with EcoR1, HpaII, Mse1, or Msp1 restriction enzymes and amplified with primers from 13 drought-responsive cDNAs.",
+    "entities": [
+      {
+        "start": 92,
+        "end": 95,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 100,
+        "end": 141,
+        "text": "seedling drought stress-induced premature",
+        "label": "TRT"
+      },
+      {
+        "start": 156,
+        "end": 162,
+        "text": "cowpea",
+        "label": "CROP"
+      },
+      {
+        "start": 185,
+        "end": 195,
+        "text": "F-2:8 RILs",
+        "label": "CROSS"
+      },
+      {
+        "start": 199,
+        "end": 226,
+        "text": "drought-tolerant IT93K503-1",
+        "label": "VAR"
+      },
+      {
+        "start": 231,
+        "end": 247,
+        "text": "susceptible CB46",
+        "label": "VAR"
+      },
+      {
+        "start": 276,
+        "end": 281,
+        "text": "EcoR1",
+        "label": "MRK"
+      },
+      {
+        "start": 283,
+        "end": 288,
+        "text": "HpaII",
+        "label": "MRK"
+      },
+      {
+        "start": 290,
+        "end": 294,
+        "text": "Mse1",
+        "label": "MRK"
+      },
+      {
+        "start": 299,
+        "end": 303,
+        "text": "Msp1",
+        "label": "MRK"
+      },
+      {
+        "start": 359,
+        "end": 383,
+        "text": "drought-responsive cDNAs",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "susceptible CB46",
+        "head_start": 231,
+        "head_end": 247,
+        "head_type": "VAR",
+        "tail": "seedling drought stress-induced premature",
+        "tail_start": 100,
+        "tail_end": 141,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "cowpea",
+        "head_start": 156,
+        "head_end": 162,
+        "head_type": "CROP",
+        "tail": "drought-tolerant IT93K503-1",
+        "tail_start": 199,
+        "tail_end": 226,
+        "tail_type": "VAR",
+        "label": "HAS"
+      },
+      {
+        "head": "cowpea",
+        "head_start": 156,
+        "head_end": 162,
+        "head_type": "CROP",
+        "tail": "susceptible CB46",
+        "tail_start": 231,
+        "tail_end": 247,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "QTL",
+        "head_start": 92,
+        "head_end": 95,
+        "head_type": "QTL",
+        "tail": "seedling drought stress-induced premature",
+        "tail_start": 100,
+        "tail_end": 141,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "F-2:8 RILs",
+        "head_start": 185,
+        "head_end": 195,
+        "head_type": "CROSS",
+        "tail": "drought-tolerant IT93K503-1",
+        "tail_start": 199,
+        "tail_end": 226,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "F-2:8 RILs",
+        "head_start": 185,
+        "head_end": 195,
+        "head_type": "CROSS",
+        "tail": "susceptible CB46",
+        "tail_start": 231,
+        "tail_end": 247,
+        "tail_type": "VAR",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "ABA Insensitive 5 (ABI5) is a basic leucine zipper transcription factor. There is minimal research on the ABI5 family in foxtail millet.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 24,
+        "text": "ABA Insensitive 5 (ABI5)",
+        "label": "GENE"
+      },
+      {
+        "start": 121,
+        "end": 135,
+        "text": "foxtail millet",
+        "label": "CROP"
+      }
+    ],
+    "relations": []
+  }
+]
