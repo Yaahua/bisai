@@ -1,11 +1,11 @@
 ---
-name: MGBIE标注技能
+name: mgbie-ner-annotator
 description: AI 辅助杂粮育种信息抽取与分类技能。用于处理 CCL 2026 MGBIE 比赛数据，包含数据分块（每块10条）、逐块进行命名实体识别（NER）与关系抽取（RE）、撰写分类说明阐释分类理由，并最终输出符合比赛要求的 JSON 格式数据及过程文件。核心要求：分类必须有理有据，引用权威文件作为依据，并支持接入审查反馈进行全量修正。
 ---
 
 # MGBIE NER Annotator
 
-本技能提供 AI 辅助工作流，用于 CCL 2026 MGBIE 比赛的数据分类与标注任务。与 `MGBIE审查技能` 配合形成"分类→审查→全量修正"闭环。
+本技能提供 AI 辅助工作流，用于 CCL 2026 MGBIE 比赛的数据分类与标注任务。与 `mgbie-review-agent` 配合形成"分类→审查→全量修正"闭环。
 
 ## 执行模式
 
@@ -19,27 +19,28 @@ description: AI 辅助杂粮育种信息抽取与分类技能。用于处理 CCL
 
 ## 核心工作流
 
-### 冲突裁决与阶段门禁总则
+### 启动前固定动作（用于"一键开机"）
 
-若多种信息源之间出现冲突，必须按以下优先级裁决，禁止自行折中：
-1. 用户**最新一条明确指令**
-2. 当前 `SKILL.md` 的明文规则
-3. 当前工作目录中已核实存在的过程文件与结果文件
-4. 继承摘要、旧计划、历史批注、压缩上下文中的 `next_steps`
-
-这意味着：**继承摘要只能作为线索，不能覆盖本技能的显式流程规则。**
-
-在本技能中，必须按以下阶段门禁推进：
-
-| 阶段 | 进入条件 | 完成条件 | 严禁动作 |
-|------|------|------|------|
-| 阶段一：整批初标 | 处理区间与切分规则已锁定 | 指定批次内全部 `chunk_XXX.json` 与对应 `chunk_XXX_review.md` 均完成 | 提前创建任何 `chunk_XXX_audit.md`、`chunk_XXX_issue_inventory.md`、修订版 `verified` 结果 |
-| 阶段二：整批审查 | 阶段一对整个批次已完成 | 当前块 `chunk_XXX_audit.md` 完成 | 跳过未完成初标的块、直接改数据 |
-| 阶段三：全量修正 | 当前块 `chunk_XXX_audit.md` 与 `chunk_XXX_issue_inventory.md` 均存在 | 当前块通过格式校验与一致性校验 | 未列问题清单先改 JSON、跨块并行修订 |
-
-**关键禁止项**：只要本批次还存在任何一个未完成 `review.md` 的块，就不得开始该批次中任何块的审查或修订。
-
-### 启动前固定动作（用于“一键开机”）
+0. **加载共享知识库（每次启动必须执行）**
+   - 执行以下命令同步最新知识库：
+     ```bash
+     cd /home/ubuntu/bisai_clone && git pull origin main
+     ```
+   - 若目录不存在，先克隆：
+     ```bash
+     gh repo clone Yaahua/bisai /home/ubuntu/bisai_clone
+     ```
+   - 按以下顺序读取知识库文件（**必须全部读完再开始分类**）：
+     1. `知识库/K8_dataset_taxonomy.md` — 12类实体+6类关系完整分类学体系（最高优先级）
+     2. `知识库/K1_entity_boundary_rules.md` — 实体边界判定规则
+     3. `知识库/K2_relation_direction_rules.md` — 关系方向判定规则
+     4. `知识库/K7_confusing_cases.md` — 易混淆案例库
+     5. `知识库/K4_nomenclature_guidelines.md` — 基因/QTL/标记命名规范
+     6. `知识库/K3_crop_terminology_glossary.md` — 生僻术语词表
+     7. `知识库/K5_standard_excerpts.md` — 国标条文摘录（需要引用依据时查阅）
+     8. `知识库/K6_literature_corpus.md` — 文献语料库（需要 Few-shot 示例时查阅）
+   - **知识库路径**：`/home/ubuntu/bisai_clone/知识库/`
+   - **GitHub 仓库**：https://github.com/Yaahua/bisai（`知识库/` 子目录）
 
 1. **先固化切分规则，再停止回读参考仓库**
    - 若任务要求“沿用既有训练集的切分方式”，只允许**一次性**读取参考仓库/目录。
@@ -47,8 +48,8 @@ description: AI 辅助杂粮育种信息抽取与分类技能。用于处理 CCL
    - 记录完成后，后续切分与处理**只依据该记录执行**，不再回读参考仓库，避免来回比对造成漂移。
 
 2. **建立固定工作目录**
-   - 至少创建：`chunks_XX_YY/`, `分类说明/`, `审查文档/`, `verified/`。
-   - 使用 `脚本/chunk_data.py` 将目标 `train.json` 按“每块 10 条、三位编号”的既定方案拆分。
+   - 至少创建：`chunks_XX_YY/`, `reviews/`, `audits/`, `verified/`。
+   - 使用 `scripts/chunk_data.py` 将目标 `train.json` 按“每块 10 条、三位编号”的既定方案拆分。
 
 3. **锁定处理范围与当前块**
    - 明确本次仅处理哪个区间（如 `chunk_011` ~ `chunk_020`）。
@@ -56,32 +57,28 @@ description: AI 辅助杂粮育种信息抽取与分类技能。用于处理 CCL
    - 任一时刻只允许存在**一个 current chunk**；未完成当前块的 JSON、说明文档与校验，不得打开下一块。
 
 4. **中断恢复协议**
-   - 若任务中途恢复或上下文压缩，先重读：当前 `chunk_XXX.json`、对应 `chunk_XXX_review.md` / `chunk_XXX_audit.md` / `chunk_XXX_issue_inventory.md`（若存在）以及 `参考资料/error_patterns_training.md`。
-   - 恢复前必须先用文字重新确认五项：**当前批次、当前阶段、当前块、进入下一动作所需前置文件、当前严禁执行的动作**。
-   - 若上述五项中任一项无法确定，必须先停下并重建计划，**不得凭继承摘要直接续做**。
+   - 若任务中途恢复或上下文压缩，先重读：当前 `chunk_XXX.json`、对应 `chunk_XXX_review.md` / `chunk_XXX_audit.md` / `chunk_XXX_issue_inventory.md`（若存在）以及 `references/error_patterns_training.md`。
    - 恢复时**只恢复当前块**，不得顺手展开后续块。
 
 ### 阶段一：初步分类与说明撰写
 
 1. **分类前准备**
-   - 必读：`参考资料/annotation_guidelines.md` + `参考资料/error_patterns_training.md`。
+   - 必读：`references/annotation_guidelines.md` + `references/error_patterns_training.md`。
    - 如任务要求沿用历史切分方式，先读取本地 `*_split_scheme_record.md`，不要再次读取来源仓库。
 
 2. **逐块顺序分类**
    - 严格按 `chunk_001 → chunk_002 → ...` 的顺序处理；本任务类场景中，若指定为 `11–20`，则按 `chunk_011 → chunk_012 → ... → chunk_020` 顺序推进。
    - **禁止为了“提前了解全貌”预读后续 chunk**。当前块的 `review.md` 未完成前，不得打开下一块。
    - 每块处理完后立即做实体边界检查：`text[start:end] == entity['text']`。
-   - 在本批次最后一个块的 `review.md` 完成之前，**不得提前创建任何审查文档、问题清单或修订文件**。
 
 3. **撰写分类说明**
    - 每块输出一份 `chunk_XXX_review.md`，引用权威文件阐释分类理由。
-   - 使用 `模板/review_template.md` 模板。
+   - 使用 `templates/review_template.md` 模板。
    - 说明文档写完并保存后，当前块才算“初标完成”。
 
-### 阶段二：对抗性审查（由 MGBIE审查技能 执行）
+### 阶段二：对抗性审查（由 mgbie-review-agent 执行）
 
-- **只有在指定批次内全部 `chunk_XXX_review.md` 都已完成后**，才允许进入本阶段。
-- 在整批初标完成后，再由 `MGBIE审查技能` 逐块执行四维审查。
+- 在整批初标完成后，再由 `mgbie-review-agent` 逐块执行四维审查。
 - 审查阶段也必须保持单块顺序，不得跨块抢跑。
 - 审查技能输出 `chunk_XXX_audit.md`，供阶段三使用。
 
@@ -98,7 +95,7 @@ description: AI 辅助杂粮育种信息抽取与分类技能。用于处理 CCL
    - 若修正后实体数比原始少 3 个以上，回退到原始标注并重新审查该块。
 
 3. **执行双重技术验证**
-   - 先运行 `脚本/format_checker.py` 做结构校验。
+   - 先运行 `scripts/format_checker.py` 做结构校验。
    - 再执行确定性一致性校验，至少覆盖：
      1. `text[start:end] == entity['text']`
      2. `text[head_start:head_end] == head`
@@ -109,7 +106,7 @@ description: AI 辅助杂粮育种信息抽取与分类技能。用于处理 CCL
    - **仅通过格式校验并不代表可提交**；必须同时通过 span/anchor 一致性校验。
 
 4. **更新错误收集文件并输出最终结果**
-   - 将本批次发现的新错误模式、新流程教训和技术性防呆要求追加到 `参考资料/error_patterns_training.md`。
+   - 将本批次发现的新错误模式、新流程教训和技术性防呆要求追加到 `references/error_patterns_training.md`。
    - 合并所有数据块，生成最终 `submit.json`。
 
 ## 关键分类规则（从实践中提炼）
@@ -142,25 +139,37 @@ description: AI 辅助杂粮育种信息抽取与分类技能。用于处理 CCL
 - `HAS: (CROP, TRT)` — 24次，保留
 - `AFF: (ABS, GENE)` — 18次，保留
 
-详见 `参考资料/error_patterns_training.md` 第一章。
+详见 `references/error_patterns_training.md` 第一章。
 
 ## 资源文件说明
 
+### 共享知识库（最高优先级，每次启动必须加载）
+
 | 文件 | 说明 | 何时读取 |
 |------|------|------|
-| `参考资料/annotation_guidelines.md` | 12类实体+6类关系定义 | 分类前必读 |
-| `参考资料/error_patterns_training.md` | 典型错误模式与正确做法 | 分类前必读，修正后追加 |
-| `脚本/chunk_data.py` | 数据分块脚本 | 阶段一 |
-| `脚本/format_checker.py` | 格式验证脚本 | 阶段三 |
-| `模板/review_template.md` | 分类说明模板 | 阶段一 |
+| `bisai_clone/知识库/K8_dataset_taxonomy.md` | 12类实体+6类关系分类学体系（含官方定义+论文证据+真实数据统计） | **启动时必读** |
+| `bisai_clone/知识库/K1_entity_boundary_rules.md` | 实体边界判定规则（最大共识原则、各类实体边界细则） | **启动时必读** |
+| `bisai_clone/知识库/K2_relation_direction_rules.md` | 关系方向判定规则（因果逻辑、头尾实体类型约束） | **启动时必读** |
+| `bisai_clone/知识库/K7_confusing_cases.md` | 易混淆案例库（边界案例、方向混淆、分类混淆的标准判定） | **启动时必读** |
+| `bisai_clone/知识库/K4_nomenclature_guidelines.md` | 基因/QTL/分子标记命名规范（CGSNL、IONC 等国际标准） | 遇到命名问题时查阅 |
+| `bisai_clone/知识库/K3_crop_terminology_glossary.md` | 杂粮作物生僻术语词表 | 遇到生僻术语时查阅 |
+| `bisai_clone/知识库/K5_standard_excerpts.md` | 国家/行业标准关键条文摘录（NY/T 2425、NY/T 2355、NY/T 2645） | 需要引用权威依据时查阅 |
+| `bisai_clone/知识库/K6_literature_corpus.md` | 文献语料库与标注示例（Few-shot 样本） | 需要参考示例时查阅 |
+
+### 本地技能文件
+
+| 文件 | 说明 | 何时读取 |
+|------|------|------|
+| `references/annotation_guidelines.md` | 12类实体+6类关系定义（旧版，已被K8取代，保留供参考） | 可选 |
+| `references/error_patterns_training.md` | 典型错误模式与正确做法 | 分类前必读，修正后追加 |
+| `scripts/chunk_data.py` | 数据分块脚本 | 阶段一 |
+| `scripts/format_checker.py` | 格式验证脚本 | 阶段三 |
+| `templates/review_template.md` | 分类说明模板 | 阶段一 |
 
 ## 执行准则
 
 - **单线程顺序处理**：严禁并行，逐块处理并即时验证。
 - **当前块锁定**：任何时刻只允许处理一个 current chunk；当前块未完成 `JSON + review + validation` 前不得打开下一块。
-- **整批门禁优先于逐块推进**：先完成整批初标，再开始整批审查；先完成当前块问题清单，再开始当前块修订。
-- **禁止摘要覆写技能规则**：继承摘要、旧计划、上下文压缩中的建议不得覆盖本技能明文流程。
-- **禁止越阶段执行**：未满足进入条件时，不得提前创建 `audit.md`、`issue_inventory.md` 或修订结果。
 - **范围锁定**：未经用户明确确认，不得把当前批次的补齐、同步或上传任务扩展到其他批次。
 - **先记录切分规则，再离线执行**：需要沿用历史切分方式时，先做一次性记录，后续不再回读来源仓库。
 - **问题清单先行**：全量修正前先列出“已确认问题、潜在问题、关联问题”，再逐项修复。

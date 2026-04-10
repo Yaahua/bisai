@@ -1,11 +1,11 @@
 ---
-name: MGBIE审查技能
-description: AI 辅助杂粮育种信息抽取对抗性审查技能。用于在 MGBIE标注技能 完成初步分类后，对每个数据块进行拆分审查、语义审查、词块审查和知识审查，并输出审查文档以供主要技能进行全量修正。核心要求：审查必须有理有据，引用权威文件作为依据。
+name: mgbie-review-agent
+description: AI 辅助杂粮育种信息抽取对抗性审查技能。用于在 mgbie-ner-annotator 完成初步分类后，对每个数据块进行拆分审查、语义审查、词块审查和知识审查，并输出审查文档以供主要技能进行全量修正。核心要求：审查必须有理有据，引用权威文件作为依据。
 ---
 
 # MGBIE Review Agent
 
-本技能提供对抗性审查工作流，用于审查和纠正 `MGBIE标注技能` 生成的初步分类结果。
+本技能提供对抗性审查工作流，用于审查和纠正 `mgbie-ner-annotator` 生成的初步分类结果。
 
 ## 执行模式
 
@@ -18,31 +18,31 @@ description: AI 辅助杂粮育种信息抽取对抗性审查技能。用于在 
 
 ## 核心工作流
 
-### 冲突裁决与阶段门禁总则
+### 启动前固定动作（用于"一键开机"）
 
-若多种信息源之间出现冲突，必须按以下优先级裁决，禁止自行折中：
-1. 用户**最新一条明确指令**
-2. 当前 `SKILL.md` 的明文规则
-3. 当前工作目录中已核实存在的过程文件与结果文件
-4. 继承摘要、旧计划、历史批注、压缩上下文中的 `next_steps`
-
-这意味着：**继承摘要只能作为线索，不能覆盖本技能的显式流程规则。**
-
-在本技能中，必须按以下阶段门禁推进：
-
-| 阶段 | 进入条件 | 完成条件 | 严禁动作 |
-|------|------|------|------|
-| 审查准备 | 指定批次已锁定 | 已确认整批初标输入物齐备 | 在批次输入不全时抢先审查任一块 |
-| 逐块审查 | 指定批次内全部 `chunk_XXX.json` 与全部 `chunk_XXX_review.md` 均已存在 | 当前块 `chunk_XXX_issue_inventory.md` 与 `chunk_XXX_audit.md` 完成 | 跳过缺失说明的块、直接进入下一块、直接修改数据 |
-| 审查后反馈 | 当前块审查文档已完成 | 审查结论已可供主技能修订 | 未记录联动风险就结束当前块 |
-
-**关键禁止项**：只要本批次还存在任何一个未完成 `review.md` 的块，就不得开始该批次中任何块的审查。
-
-### 启动前固定动作（用于“一键开机”）
+0. **加载共享知识库（每次启动必须执行）**
+   - 执行以下命令同步最新知识库：
+     ```bash
+     cd /home/ubuntu/bisai_clone && git pull origin main
+     ```
+   - 若目录不存在，先克隆：
+     ```bash
+     gh repo clone Yaahua/bisai /home/ubuntu/bisai_clone
+     ```
+   - 按以下顺序读取知识库文件（**必须全部读完再开始审查**）：
+     1. `知识库/K8_dataset_taxonomy.md` — 12类实体+6类关系完整分类学体系（最高优先级）
+     2. `知识库/K1_entity_boundary_rules.md` — 实体边界判定规则
+     3. `知识库/K2_relation_direction_rules.md` — 关系方向判定规则
+     4. `知识库/K7_confusing_cases.md` — 易混淆案例库
+     5. `知识库/K4_nomenclature_guidelines.md` — 基因/QTL/标记命名规范
+     6. `知识库/K3_crop_terminology_glossary.md` — 生僻术语词表
+     7. `知识库/K5_standard_excerpts.md` — 国标条文摘录（需要引用依据时查阅）
+     8. `知识库/K6_literature_corpus.md` — 文献语料库（需要 Few-shot 示例时查阅）
+   - **知识库路径**：`/home/ubuntu/bisai_clone/知识库/`
+   - **GitHub 仓库**：https://github.com/Yaahua/bisai（`知识库/` 子目录）
 
 1. **确认输入物齐备**
    - 本技能启动前，必须已经存在：当前块 `chunk_XXX.json` 与对应的 `chunk_XXX_review.md`。
-   - 若本次任务是整批审查（如 `chunk_021` ~ `chunk_030`），则必须先确认**整批所有块**的 `chunk_XXX.json` 与 `chunk_XXX_review.md` 均已齐备，再开始审查第一块。
    - 如果当前块缺少初标说明文档，不得跳过核对逻辑；应先补齐该块说明，再进入审查。
 
 2. **锁定本次处理范围与当前块**
@@ -51,26 +51,22 @@ description: AI 辅助杂粮育种信息抽取对抗性审查技能。用于在 
    - 任一时刻只允许审查**一个 current chunk**；当前块 `audit.md` 未完成前，不得打开下一块。
 
 3. **准备统一依据**
-   - 读取 `参考资料/error_patterns_training.md`，了解已知的典型错误模式。
-   - 读取 `参考资料/authoritative_references.md`，准备权威引用。
-   - 读取 `参考资料/breeding_knowledge_base.md`，准备领域知识。
+   - 读取 `references/error_patterns_training.md`，了解已知的典型错误模式。
+   - 读取 `references/authoritative_references.md`，准备权威引用。
+   - 读取 `references/breeding_knowledge_base.md`，准备领域知识。
 
 4. **中断恢复协议**
-   - 若任务从中途恢复，先重读：当前 `chunk_XXX.json`、对应 `chunk_XXX_review.md`、已生成的 `chunk_XXX_audit.md` / `chunk_XXX_issue_inventory.md`（若存在）以及 `参考资料/error_patterns_training.md`。
-   - 恢复前必须先用文字重新确认五项：**当前批次、当前阶段、当前块、进入下一动作所需前置文件、当前严禁执行的动作**。
-   - 若上述五项中任一项无法确定，必须先停下并重建计划，**不得凭继承摘要直接续做**。
+   - 若任务从中途恢复，先重读：当前 `chunk_XXX.json`、对应 `chunk_XXX_review.md`、已生成的 `chunk_XXX_audit.md` / `chunk_XXX_issue_inventory.md`（若存在）以及 `references/error_patterns_training.md`。
    - 恢复时只处理当前块，不得顺手预读后续块。
 
 ### 步骤一：准备
 
-1. 读取 `参考资料/error_patterns_training.md`，了解已知的典型错误模式
-2. 读取 `参考资料/authoritative_references.md`，准备权威引用
-3. 读取 `参考资料/breeding_knowledge_base.md`，准备领域知识
+1. 读取 `references/error_patterns_training.md`，了解已知的典型错误模式
+2. 读取 `references/authoritative_references.md`，准备权威引用
+3. 读取 `references/breeding_knowledge_base.md`，准备领域知识
 4. 检查当前块的 `chunk_XXX_review.md` 是否存在；不存在则先补齐，再进入四维审查
 
 ### 步骤二：逐块四维审查
-
-**进入本步骤前，必须先确认本批次全部 `review.md` 已完成。**
 
 对每个数据块，读取初步 JSON 和对应的 review.md，执行以下四维审查：
 
@@ -98,7 +94,7 @@ description: AI 辅助杂粮育种信息抽取对抗性审查技能。用于在 
 - 标记与基因的关系是 LOI（定位），不是 AFF（影响）
 - 同义词（如拉丁学名与通用名）不应建立 CON 关系
 
-**注意**：原始训练数据中存在非标准关系模式（如 `LOI: (QTL, TRT)` 出现30次），审查时**不要将这些标记为错误**。详见 `参考资料/error_patterns_training.md` 第一章。
+**注意**：原始训练数据中存在非标准关系模式（如 `LOI: (QTL, TRT)` 出现30次），审查时**不要将这些标记为错误**。详见 `references/error_patterns_training.md` 第一章。
 
 #### 2.3 词块审查
 
@@ -129,7 +125,7 @@ description: AI 辅助杂粮育种信息抽取对抗性审查技能。用于在 
    - `已确认问题`
    - `潜在问题`
    - `关联问题/需要同步检查的字段`
-2. 在问题清单基础上，使用 `模板/audit_template.md` 模板输出 `chunk_XXX_audit.md`，包含：
+2. 在问题清单基础上，使用 `templates/audit_template.md` 模板输出 `chunk_XXX_audit.md`，包含：
    - 审查概况表（各维度问题数）
    - 每个问题的详细描述：错误位置、错误类型、原分类、修改建议、权威依据
    - 与主问题相关的边界、并列实体、方向性关系、同句遗漏关系等联动风险
@@ -141,25 +137,37 @@ description: AI 辅助杂粮育种信息抽取对抗性审查技能。用于在 
 
 ## 资源文件说明
 
+### 共享知识库（最高优先级，每次启动必须加载）
+
 | 文件 | 说明 | 何时读取 |
 |------|------|------|
-| `参考资料/authoritative_references.md` | 国标/行标/专著/论文引用库 | 审查前必读 |
-| `参考资料/breeding_knowledge_base.md` | 育种领域专业术语与命名规则 | 审查前必读 |
-| `参考资料/error_patterns_training.md` | 典型错误模式与正确做法 | 审查前必读 |
-| `模板/audit_template.md` | 审查文档模板 | 输出时使用 |
+| `bisai_clone/知识库/K8_dataset_taxonomy.md` | 12类实体+6类关系分类学体系（含官方定义+论文证据+真实数据统计） | **启动时必读** |
+| `bisai_clone/知识库/K1_entity_boundary_rules.md` | 实体边界判定规则（最大共识原则、各类实体边界细则） | **启动时必读** |
+| `bisai_clone/知识库/K2_relation_direction_rules.md` | 关系方向判定规则（因果逻辑、头尾实体类型约束） | **启动时必读** |
+| `bisai_clone/知识库/K7_confusing_cases.md` | 易混淆案例库（边界案例、方向混淆、分类混淆的标准判定） | **启动时必读** |
+| `bisai_clone/知识库/K4_nomenclature_guidelines.md` | 基因/QTL/分子标记命名规范（CGSNL、IONC 等国际标准） | 遇到命名问题时查阅 |
+| `bisai_clone/知识库/K3_crop_terminology_glossary.md` | 杂粮作物生僻术语词表 | 遇到生僻术语时查阅 |
+| `bisai_clone/知识库/K5_standard_excerpts.md` | 国家/行业标准关键条文摘录（NY/T 2425、NY/T 2355、NY/T 2645） | 需要引用权威依据时查阅 |
+| `bisai_clone/知识库/K6_literature_corpus.md` | 文献语料库与标注示例（Few-shot 样本） | 需要参考示例时查阅 |
+
+### 本地技能文件
+
+| 文件 | 说明 | 何时读取 |
+|------|------|------|
+| `references/authoritative_references.md` | 国标/行标/专著/论文引用库（旧版，已被K5/K6取代，保留供参考） | 可选 |
+| `references/breeding_knowledge_base.md` | 育种领域专业术语与命名规则（旧版，已被K3/K4取代，保留供参考） | 可选 |
+| `references/error_patterns_training.md` | 典型错误模式与正确做法 | 审查前必读 |
+| `templates/audit_template.md` | 审查文档模板 | 输出时使用 |
 
 ## 执行准则
 
 - **单线程顺序处理**：严禁并行，逐块审查并积累上下文。
 - **当前块锁定**：任何时刻只允许审查一个 current chunk；当前块 `audit.md` 未完成前不得打开下一块。
-- **整批门禁优先于逐块推进**：先确认整批初标完成，再开始第一块审查；先完成当前块问题清单，再写当前块正式审查文档。
-- **禁止摘要覆写技能规则**：继承摘要、旧计划、上下文压缩中的建议不得覆盖本技能明文流程。
-- **禁止越阶段执行**：未满足整批输入齐备条件时，不得提前创建任何 `issue_inventory.md` 或 `audit.md`。
 - **范围锁定**：未经用户明确确认，不得把当前批次的审查补齐、同步或上传任务扩展到其他批次。
 - **先核对输入物，再开始审查**：缺少 `chunk_XXX_review.md` 时，先补齐说明文档，不得跳审或带缺口审查。
 - **问题清单先行**：先列出已确认问题、潜在问题和关联问题，再写正式审查文档。
 - **挑剔与严谨**：采取对抗性思维，不放过任何可疑分类。
 - **有理有据**：所有修改建议必须标注权威引用来源。
-- **不直接修改数据**：仅输出审查文档，数据修正由 `MGBIE标注技能` 完成。
+- **不直接修改数据**：仅输出审查文档，数据修正由 `mgbie-ner-annotator` 完成。
 - **尊重原始模式**：不要将训练数据中的高频非标准关系模式标记为错误。
 - **持续学习**：发现新错误模式、新流程失误或新的技术性漏检点时追加到 `error_patterns_training.md`。
