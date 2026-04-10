@@ -14,7 +14,7 @@ TRAIN_PATH  = '/home/ubuntu/official_mgbie/dataset/train.json'
 TEST_PATH   = '/home/ubuntu/official_mgbie/dataset/test_A.json'
 
 # 要修复的目标文件
-TARGET_PATH = '/home/ubuntu/bisai/数据/A榜/submit_v7_cicl_v2.json'
+TARGET_PATH = '/home/ubuntu/bisai/数据/A榜/submit_v9_targeted.json'
 
 MODEL   = "gpt-4.1-mini"
 WORKERS = 5    # 降低并发避免 429
