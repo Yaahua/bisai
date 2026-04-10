@@ -1,0 +1,589 @@
+[
+  {
+    "text": "In the cultivar BY5, most metabolite concentrations increased after exposure to 150 mM NaCl but decreased after exposure to 300 mM NaCl. Transcriptomic analysis revealed that gene expressions in BY5 were significantly affected under 300 mM NaCl exposure (34040 genes up-regulated and 14757 genes down-regulated).",
+    "entities": [
+      {
+        "start": 16,
+        "end": 19,
+        "text": "BY5",
+        "label": "VAR"
+      },
+      {
+        "start": 26,
+        "end": 51,
+        "text": "metabolite concentrations",
+        "label": "TRT"
+      },
+      {
+        "start": 80,
+        "end": 91,
+        "text": "150 mM NaCl",
+        "label": "ABS"
+      },
+      {
+        "start": 124,
+        "end": 135,
+        "text": "300 mM NaCl",
+        "label": "ABS"
+      },
+      {
+        "start": 261,
+        "end": 279,
+        "text": "genes up-regulated",
+        "label": "TRT"
+      },
+      {
+        "start": 290,
+        "end": 310,
+        "text": "genes down-regulated",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "150 mM NaCl",
+        "head_start": 80,
+        "head_end": 91,
+        "head_type": "ABS",
+        "tail": "metabolite concentrations",
+        "tail_start": 26,
+        "tail_end": 51,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "300 mM NaCl",
+        "head_start": 124,
+        "head_end": 135,
+        "head_type": "ABS",
+        "tail": "metabolite concentrations",
+        "tail_start": 26,
+        "tail_end": 51,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "300 mM NaCl",
+        "head_start": 124,
+        "head_end": 135,
+        "head_type": "ABS",
+        "tail": "genes up-regulated",
+        "tail_start": 261,
+        "tail_end": 279,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "300 mM NaCl",
+        "head_start": 124,
+        "head_end": 135,
+        "head_type": "ABS",
+        "tail": "genes down-regulated",
+        "tail_start": 290,
+        "tail_end": 310,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "BY5",
+        "head_start": 16,
+        "head_end": 19,
+        "head_type": "VAR",
+        "tail": "metabolite concentrations",
+        "tail_start": 26,
+        "tail_end": 51,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "Salt-tolerant and salt-sensitive quinoa cultivars showed induced expression levels of CqGSTs genes in roots under salt treatment. Most quinoa bHLH transcription factors have high homology with Arabidopsis thaliana bHLH family members.",
+    "entities": [
+      {
+        "start": 33,
+        "end": 39,
+        "text": "quinoa",
+        "label": "CROP"
+      },
+      {
+        "start": 65,
+        "end": 82,
+        "text": "expression levels",
+        "label": "TRT"
+      },
+      {
+        "start": 86,
+        "end": 92,
+        "text": "CqGSTs",
+        "label": "GENE"
+      },
+      {
+        "start": 114,
+        "end": 128,
+        "text": "salt treatment",
+        "label": "ABS"
+      },
+      {
+        "start": 142,
+        "end": 168,
+        "text": "bHLH transcription factors",
+        "label": "GENE"
+      },
+      {
+        "start": 193,
+        "end": 213,
+        "text": "Arabidopsis thaliana",
+        "label": "CROP"
+      }
+    ],
+    "relations": [
+      {
+        "head": "salt treatment",
+        "head_start": 114,
+        "head_end": 128,
+        "head_type": "ABS",
+        "tail": "expression levels",
+        "tail_start": 65,
+        "tail_end": 82,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Dehydration response element binding proteins (DREBs) are transcriptional regulators that enhance plant tolerance to abiotic stress. This study analyzed the DREB gene family (SiDREBs) in foxtail millet (Setaria italica) using bioinformatics and gene expression under abiotic stress.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 53,
+        "text": "Dehydration response element binding proteins (DREBs)",
+        "label": "GENE"
+      },
+      {
+        "start": 175,
+        "end": 182,
+        "text": "SiDREBs",
+        "label": "GENE"
+      },
+      {
+        "start": 187,
+        "end": 201,
+        "text": "foxtail millet",
+        "label": "CROP"
+      },
+      {
+        "start": 203,
+        "end": 218,
+        "text": "Setaria italica",
+        "label": "CROP"
+      },
+      {
+        "start": 267,
+        "end": 281,
+        "text": "abiotic stress",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "abiotic stress",
+        "head_start": 267,
+        "head_end": 281,
+        "head_type": "ABS",
+        "tail": "Dehydration response element binding proteins (DREBs)",
+        "tail_start": 0,
+        "tail_end": 53,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "foxtail millet",
+        "head_start": 187,
+        "head_end": 201,
+        "head_type": "CROP",
+        "tail": "SiDREBs",
+        "tail_start": 175,
+        "tail_end": 182,
+        "tail_type": "GENE",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "APR provides broad-spectrum resistance to Pca populations. The 11 oat genotypes with APR are desirable resistance sources for breeding programs developing durable crown rust resistant cultivars for eastern Canada.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "APR",
+        "label": "TRT"
+      },
+      {
+        "start": 13,
+        "end": 38,
+        "text": "broad-spectrum resistance",
+        "label": "TRT"
+      },
+      {
+        "start": 42,
+        "end": 57,
+        "text": "Pca populations",
+        "label": "BIS"
+      },
+      {
+        "start": 66,
+        "end": 69,
+        "text": "oat",
+        "label": "CROP"
+      },
+      {
+        "start": 163,
+        "end": 173,
+        "text": "crown rust",
+        "label": "BIS"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Yellow endosperm sorghum contains carotenoids. The objective was to study the genetic basis of carotenoid variation by mapping QTL associated with carotenoid content and endosperm color.",
+    "entities": [
+      {
+        "start": 17,
+        "end": 24,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 34,
+        "end": 45,
+        "text": "carotenoids",
+        "label": "TRT"
+      },
+      {
+        "start": 95,
+        "end": 115,
+        "text": "carotenoid variation",
+        "label": "TRT"
+      },
+      {
+        "start": 127,
+        "end": 130,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 147,
+        "end": 165,
+        "text": "carotenoid content",
+        "label": "TRT"
+      },
+      {
+        "start": 170,
+        "end": 185,
+        "text": "endosperm color",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "sorghum",
+        "head_start": 17,
+        "head_end": 24,
+        "head_type": "CROP",
+        "tail": "carotenoids",
+        "tail_start": 34,
+        "tail_end": 45,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "QTL",
+        "head_start": 127,
+        "head_end": 130,
+        "head_type": "QTL",
+        "tail": "carotenoid content",
+        "tail_start": 147,
+        "tail_end": 165,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "QTL",
+        "head_start": 127,
+        "head_end": 130,
+        "head_type": "QTL",
+        "tail": "endosperm color",
+        "tail_start": 170,
+        "tail_end": 185,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Nineteen genes for anthocyanin biosynthesis were annotated in this genomic region. Gene Si1g06530 encodes a SANT/Myb domain protein and was highly expressed in developing panicles and seeds. It is a candidate gene for the brown hull color of Jigu 31.",
+    "entities": [
+      {
+        "start": 88,
+        "end": 97,
+        "text": "Si1g06530",
+        "label": "GENE"
+      },
+      {
+        "start": 222,
+        "end": 238,
+        "text": "brown hull color",
+        "label": "TRT"
+      },
+      {
+        "start": 242,
+        "end": 249,
+        "text": "Jigu 31",
+        "label": "VAR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Jigu 31",
+        "head_start": 242,
+        "head_end": 249,
+        "head_type": "VAR",
+        "tail": "brown hull color",
+        "tail_start": 222,
+        "tail_end": 238,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Si1g06530",
+        "head_start": 88,
+        "head_end": 97,
+        "head_type": "GENE",
+        "tail": "brown hull color",
+        "tail_start": 222,
+        "tail_end": 238,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "The two materials show distinct accumulation patterns of secondary metabolites phenylpropanoids, including hydroxycinnamates and flavonoids. This may contribute to the improved drought resistance of the novel tartary buckwheat cultivars.",
+    "entities": [
+      {
+        "start": 177,
+        "end": 195,
+        "text": "drought resistance",
+        "label": "TRT"
+      },
+      {
+        "start": 209,
+        "end": 226,
+        "text": "tartary buckwheat",
+        "label": "CROP"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "BC lines had moderate to high CLS and PM resistance compared to susceptible parent KING. BC line H3 had similar or superior agronomic traits to KING and higher yield (18.0-32.0%) under CLS and PM outbreaks.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "text": "BC lines",
+        "label": "BM"
+      },
+      {
+        "start": 30,
+        "end": 33,
+        "text": "CLS",
+        "label": "BIS"
+      },
+      {
+        "start": 38,
+        "end": 40,
+        "text": "PM",
+        "label": "BIS"
+      },
+      {
+        "start": 83,
+        "end": 87,
+        "text": "KING",
+        "label": "VAR"
+      },
+      {
+        "start": 89,
+        "end": 99,
+        "text": "BC line H3",
+        "label": "VAR"
+      },
+      {
+        "start": 124,
+        "end": 140,
+        "text": "agronomic traits",
+        "label": "TRT"
+      },
+      {
+        "start": 160,
+        "end": 165,
+        "text": "yield",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "BC line H3",
+        "head_start": 89,
+        "head_end": 99,
+        "head_type": "VAR",
+        "tail": "agronomic traits",
+        "tail_start": 124,
+        "tail_end": 140,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "BC line H3",
+        "head_start": 89,
+        "head_end": 99,
+        "head_type": "VAR",
+        "tail": "yield",
+        "tail_start": 160,
+        "tail_end": 165,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "CLS",
+        "head_start": 30,
+        "head_end": 33,
+        "head_type": "BIS",
+        "tail": "yield",
+        "tail_start": 160,
+        "tail_end": 165,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "PM",
+        "head_start": 38,
+        "head_end": 40,
+        "head_type": "BIS",
+        "tail": "yield",
+        "tail_start": 160,
+        "tail_end": 165,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "The objective of this study was to identify quantitative trait loci (QTL) for grain yield and its components under drought stress in a recombinant inbred line (RIL) population of barley.",
+    "entities": [
+      {
+        "start": 69,
+        "end": 72,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 78,
+        "end": 89,
+        "text": "grain yield",
+        "label": "TRT"
+      },
+      {
+        "start": 115,
+        "end": 129,
+        "text": "drought stress",
+        "label": "ABS"
+      },
+      {
+        "start": 179,
+        "end": 185,
+        "text": "barley",
+        "label": "CROP"
+      }
+    ],
+    "relations": [
+      {
+        "head": "drought stress",
+        "head_start": 115,
+        "head_end": 129,
+        "head_type": "ABS",
+        "tail": "grain yield",
+        "tail_start": 78,
+        "tail_end": 89,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "barley",
+        "head_start": 179,
+        "head_end": 185,
+        "head_type": "CROP",
+        "tail": "QTL",
+        "tail_start": 69,
+        "tail_end": 72,
+        "tail_type": "QTL",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "The results indicated that the expression of SiARDP was induced by cold stress, and overexpression of SiARDP in Arabidopsis improved the cold tolerance of transgenic plants.",
+    "entities": [
+      {
+        "start": 45,
+        "end": 51,
+        "text": "SiARDP",
+        "label": "GENE"
+      },
+      {
+        "start": 67,
+        "end": 78,
+        "text": "cold stress",
+        "label": "ABS"
+      },
+      {
+        "start": 112,
+        "end": 123,
+        "text": "Arabidopsis",
+        "label": "CROP"
+      },
+      {
+        "start": 137,
+        "end": 151,
+        "text": "cold tolerance",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "cold stress",
+        "head_start": 67,
+        "head_end": 78,
+        "head_type": "ABS",
+        "tail": "SiARDP",
+        "tail_start": 45,
+        "tail_end": 51,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "SiARDP",
+        "head_start": 45,
+        "head_end": 51,
+        "head_type": "GENE",
+        "tail": "cold tolerance",
+        "tail_start": 137,
+        "tail_end": 151,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  }
+]

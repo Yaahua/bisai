@@ -1,0 +1,556 @@
+[
+  {
+    "text": "A genome-wide association study analyzed 425 foxtail millet samples from Xinjiang Academy using 1,304,248 SNPs. 77 QTL regions were detected across three environments. Analysis of LD, genetic structure, clustering, and phylogeny showed regional differences among foxtail millet subgroups.",
+    "entities": [
+      {
+        "start": 2,
+        "end": 31,
+        "text": "genome-wide association study",
+        "label": "BM"
+      },
+      {
+        "start": 45,
+        "end": 59,
+        "text": "foxtail millet",
+        "label": "CROP"
+      },
+      {
+        "start": 106,
+        "end": 110,
+        "text": "SNPs",
+        "label": "MRK"
+      },
+      {
+        "start": 115,
+        "end": 118,
+        "text": "QTL",
+        "label": "QTL"
+      }
+    ],
+    "relations": [
+      {
+        "head": "SNPs",
+        "head_start": 106,
+        "head_end": 110,
+        "head_type": "MRK",
+        "tail": "QTL",
+        "tail_start": 115,
+        "tail_end": 118,
+        "tail_type": "QTL",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "ABA Insensitive 5 (ABI5) is a basic leucine zipper transcription factor. There is minimal research on the ABI5 family in foxtail millet.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 24,
+        "text": "ABA Insensitive 5 (ABI5)",
+        "label": "GENE"
+      },
+      {
+        "start": 121,
+        "end": 135,
+        "text": "foxtail millet",
+        "label": "CROP"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Molecular markers identified chromosomal regions with powdery mildew resistance genes and estimated each locus's resistance effect. Twenty-eight F-1 hybrids and eight parental lines from a barley diallel study were inoculated with five isolates of E. graminis.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "text": "Molecular markers",
+        "label": "MRK"
+      },
+      {
+        "start": 29,
+        "end": 48,
+        "text": "chromosomal regions",
+        "label": "CHR"
+      },
+      {
+        "start": 54,
+        "end": 79,
+        "text": "powdery mildew resistance",
+        "label": "TRT"
+      },
+      {
+        "start": 80,
+        "end": 85,
+        "text": "genes",
+        "label": "GENE"
+      },
+      {
+        "start": 145,
+        "end": 156,
+        "text": "F-1 hybrids",
+        "label": "CROSS"
+      },
+      {
+        "start": 167,
+        "end": 181,
+        "text": "parental lines",
+        "label": "CROSS"
+      },
+      {
+        "start": 189,
+        "end": 195,
+        "text": "barley",
+        "label": "CROP"
+      },
+      {
+        "start": 248,
+        "end": 259,
+        "text": "E. graminis",
+        "label": "BIS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "genes",
+        "head_start": 80,
+        "head_end": 85,
+        "head_type": "GENE",
+        "tail": "chromosomal regions",
+        "tail_start": 29,
+        "tail_end": 48,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "genes",
+        "head_start": 80,
+        "head_end": 85,
+        "head_type": "GENE",
+        "tail": "powdery mildew resistance",
+        "tail_start": 54,
+        "tail_end": 79,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "powdery mildew resistance",
+        "head_start": 54,
+        "head_end": 79,
+        "head_type": "TRT",
+        "tail": "E. graminis",
+        "tail_start": 248,
+        "tail_end": 259,
+        "tail_type": "BIS",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Marker-assisted breeding is important for genetic improvement. This study aimed to identify QTL associated with bioenergy-related traits in sweet sorghum, including flowering time, plant height, total biomass, stem diameter, stem moisture percentage, and brix.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 24,
+        "text": "Marker-assisted breeding",
+        "label": "BM"
+      },
+      {
+        "start": 92,
+        "end": 95,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 140,
+        "end": 153,
+        "text": "sweet sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 165,
+        "end": 179,
+        "text": "flowering time",
+        "label": "TRT"
+      },
+      {
+        "start": 181,
+        "end": 193,
+        "text": "plant height",
+        "label": "TRT"
+      },
+      {
+        "start": 195,
+        "end": 208,
+        "text": "total biomass",
+        "label": "TRT"
+      },
+      {
+        "start": 210,
+        "end": 223,
+        "text": "stem diameter",
+        "label": "TRT"
+      },
+      {
+        "start": 225,
+        "end": 249,
+        "text": "stem moisture percentage",
+        "label": "TRT"
+      },
+      {
+        "start": 255,
+        "end": 259,
+        "text": "brix",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QTL",
+        "head_start": 92,
+        "head_end": 95,
+        "head_type": "QTL",
+        "tail": "flowering time",
+        "tail_start": 165,
+        "tail_end": 179,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "QTL",
+        "head_start": 92,
+        "head_end": 95,
+        "head_type": "QTL",
+        "tail": "plant height",
+        "tail_start": 181,
+        "tail_end": 193,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "QTL",
+        "head_start": 92,
+        "head_end": 95,
+        "head_type": "QTL",
+        "tail": "total biomass",
+        "tail_start": 195,
+        "tail_end": 208,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "QTL",
+        "head_start": 92,
+        "head_end": 95,
+        "head_type": "QTL",
+        "tail": "stem diameter",
+        "tail_start": 210,
+        "tail_end": 223,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "QTL",
+        "head_start": 92,
+        "head_end": 95,
+        "head_type": "QTL",
+        "tail": "stem moisture percentage",
+        "tail_start": 225,
+        "tail_end": 249,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "QTL",
+        "head_start": 92,
+        "head_end": 95,
+        "head_type": "QTL",
+        "tail": "brix",
+        "tail_start": 255,
+        "tail_end": 259,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "CRISPR components targeting the sorghum genome were delivered to protoplasts via polyethylene glycol-mediated transfection, both plasmid-mediated and ribonucleoprotein-based. Targeted deep sequencing analyzed frequencies of small insertions and deletions induced by sgRNAs targeting four endogenous sorghum genes.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "CRISPR",
+        "label": "BM"
+      },
+      {
+        "start": 32,
+        "end": 39,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 266,
+        "end": 272,
+        "text": "sgRNAs",
+        "label": "GENE"
+      },
+      {
+        "start": 299,
+        "end": 306,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 307,
+        "end": 312,
+        "text": "genes",
+        "label": "GENE"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Protoplasts were isolated from sorghum leaves. Plants were cultivated under three conditions. Cultivation with seven days of a 16-h light/8-h dark photoperiod followed by three days of continuous darkness yielded the highest viable protoplasts and transfection efficiency.",
+    "entities": [
+      {
+        "start": 31,
+        "end": 38,
+        "text": "sorghum",
+        "label": "CROP"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Clust analysis found 2987 genes correlated with increasing CC and RWC. Pathway analysis identified ribosome as a positive regulator of RWC and thermogenesis as a positive regulator of CC.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 31,
+        "text": "genes",
+        "label": "GENE"
+      },
+      {
+        "start": 59,
+        "end": 61,
+        "text": "CC",
+        "label": "TRT"
+      },
+      {
+        "start": 66,
+        "end": 69,
+        "text": "RWC",
+        "label": "TRT"
+      },
+      {
+        "start": 99,
+        "end": 107,
+        "text": "ribosome",
+        "label": "GENE"
+      },
+      {
+        "start": 143,
+        "end": 156,
+        "text": "thermogenesis",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "ribosome",
+        "head_start": 99,
+        "head_end": 107,
+        "head_type": "GENE",
+        "tail": "RWC",
+        "tail_start": 66,
+        "tail_end": 69,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "thermogenesis",
+        "head_start": 143,
+        "head_end": 156,
+        "head_type": "TRT",
+        "tail": "CC",
+        "tail_start": 59,
+        "tail_end": 61,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Over 240 QTLs are reported for drought tolerance traits in sorghum for marker discovery. Identifying traits and understanding their physiological and genetic mechanisms may enhance HT tolerance.",
+    "entities": [
+      {
+        "start": 9,
+        "end": 12,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 31,
+        "end": 48,
+        "text": "drought tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 59,
+        "end": 66,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 181,
+        "end": 193,
+        "text": "HT tolerance",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QTL",
+        "head_start": 9,
+        "head_end": 12,
+        "head_type": "QTL",
+        "tail": "drought tolerance",
+        "tail_start": 31,
+        "tail_end": 48,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "The waxy gene is crucial for starch synthesis in foxtail millet endosperm. Researchers developed a KASP marker, KASP-Waxy, from the waxy gene sequence to identify waxy foxtail millet.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 13,
+        "text": "waxy gene",
+        "label": "GENE"
+      },
+      {
+        "start": 49,
+        "end": 63,
+        "text": "foxtail millet",
+        "label": "CROP"
+      },
+      {
+        "start": 99,
+        "end": 110,
+        "text": "KASP marker",
+        "label": "MRK"
+      },
+      {
+        "start": 112,
+        "end": 121,
+        "text": "KASP-Waxy",
+        "label": "MRK"
+      },
+      {
+        "start": 132,
+        "end": 141,
+        "text": "waxy gene",
+        "label": "GENE"
+      },
+      {
+        "start": 163,
+        "end": 182,
+        "text": "waxy foxtail millet",
+        "label": "VAR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "waxy gene",
+        "head_start": 132,
+        "head_end": 141,
+        "head_type": "GENE",
+        "tail": "foxtail millet",
+        "tail_start": 49,
+        "tail_end": 63,
+        "tail_type": "CROP",
+        "label": "AFF"
+      },
+      {
+        "head": "KASP-Waxy",
+        "head_start": 112,
+        "head_end": 121,
+        "head_type": "MRK",
+        "tail": "waxy gene",
+        "tail_start": 132,
+        "tail_end": 141,
+        "tail_type": "GENE",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "The SiWD40-1 gene in foxtail millet is a key regulator of drought stress. Overexpression of SiWD40-1 in Arabidopsis thaliana improved drought tolerance.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 12,
+        "text": "SiWD40-1",
+        "label": "GENE"
+      },
+      {
+        "start": 21,
+        "end": 35,
+        "text": "foxtail millet",
+        "label": "CROP"
+      },
+      {
+        "start": 58,
+        "end": 72,
+        "text": "drought stress",
+        "label": "ABS"
+      },
+      {
+        "start": 92,
+        "end": 100,
+        "text": "SiWD40-1",
+        "label": "GENE"
+      },
+      {
+        "start": 104,
+        "end": 124,
+        "text": "Arabidopsis thaliana",
+        "label": "CROP"
+      },
+      {
+        "start": 134,
+        "end": 151,
+        "text": "drought tolerance",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "SiWD40-1",
+        "head_start": 92,
+        "head_end": 100,
+        "head_type": "GENE",
+        "tail": "drought stress",
+        "tail_start": 58,
+        "tail_end": 72,
+        "tail_type": "ABS",
+        "label": "AFF"
+      },
+      {
+        "head": "SiWD40-1",
+        "head_start": 92,
+        "head_end": 100,
+        "head_type": "GENE",
+        "tail": "drought tolerance",
+        "tail_start": 134,
+        "tail_end": 151,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  }
+]

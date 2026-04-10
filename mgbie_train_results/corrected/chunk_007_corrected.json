@@ -1,0 +1,536 @@
+[
+  {
+    "text": "Parent lines should be selected for higher heterosis based on different agronomical traits and distant genetic distance. Hybrid breeding should consider groups clustered by agronomical traits and molecular markers.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "text": "Parent lines",
+        "label": "CROSS"
+      },
+      {
+        "start": 43,
+        "end": 52,
+        "text": "heterosis",
+        "label": "TRT"
+      },
+      {
+        "start": 72,
+        "end": 90,
+        "text": "agronomical traits",
+        "label": "TRT"
+      },
+      {
+        "start": 103,
+        "end": 119,
+        "text": "genetic distance",
+        "label": "TRT"
+      },
+      {
+        "start": 121,
+        "end": 136,
+        "text": "Hybrid breeding",
+        "label": "BM"
+      },
+      {
+        "start": 196,
+        "end": 213,
+        "text": "molecular markers",
+        "label": "MRK"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Sorghum overcomes limitations of model species like Arabidopsis thaliana. Advances in metabolomics, transcriptomics, proteomics, phenomics, population genomics and pangenomics expand understanding of Sorghum's drought resilience mechanisms.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 52,
+        "end": 72,
+        "text": "Arabidopsis thaliana",
+        "label": "CROP"
+      },
+      {
+        "start": 210,
+        "end": 228,
+        "text": "drought resilience",
+        "label": "TRT"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "An F-2 population was generated from a cross between sweet sorghum cv. 'Erdurmus' and grain sorghum cv. 'Ogretmenoglu'. A genetic map was constructed from SNPs discovered by ddRAD-seq.",
+    "entities": [
+      {
+        "start": 3,
+        "end": 17,
+        "text": "F-2 population",
+        "label": "CROSS"
+      },
+      {
+        "start": 53,
+        "end": 66,
+        "text": "sweet sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 67,
+        "end": 81,
+        "text": "cv. 'Erdurmus'",
+        "label": "VAR"
+      },
+      {
+        "start": 86,
+        "end": 99,
+        "text": "grain sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 100,
+        "end": 118,
+        "text": "cv. 'Ogretmenoglu'",
+        "label": "VAR"
+      },
+      {
+        "start": 155,
+        "end": 159,
+        "text": "SNPs",
+        "label": "MRK"
+      }
+    ],
+    "relations": [
+      {
+        "head": "sweet sorghum",
+        "head_start": 53,
+        "head_end": 66,
+        "head_type": "CROP",
+        "tail": "cv. 'Erdurmus'",
+        "tail_start": 67,
+        "tail_end": 81,
+        "tail_type": "VAR",
+        "label": "CON"
+      },
+      {
+        "head": "grain sorghum",
+        "head_start": 86,
+        "head_end": 99,
+        "head_type": "CROP",
+        "tail": "cv. 'Ogretmenoglu'",
+        "tail_start": 100,
+        "tail_end": 118,
+        "tail_type": "VAR",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "Sorghum callus has metabolites. The epigenetic mechanism regulating metabolic biosynthesis in sorghum is unknown.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 68,
+        "end": 90,
+        "text": "metabolic biosynthesis",
+        "label": "TRT"
+      },
+      {
+        "start": 94,
+        "end": 101,
+        "text": "sorghum",
+        "label": "CROP"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "The marker OPA 12(383) was 6.03 cM from the locus for anthracnose resistance. The marker OPA 12(383) was cloned and sequenced.",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "text": "OPA 12(383)",
+        "label": "MRK"
+      },
+      {
+        "start": 44,
+        "end": 49,
+        "text": "locus",
+        "label": "QTL"
+      },
+      {
+        "start": 54,
+        "end": 76,
+        "text": "anthracnose resistance",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "OPA 12(383)",
+        "head_start": 11,
+        "head_end": 22,
+        "head_type": "MRK",
+        "tail": "locus",
+        "tail_start": 44,
+        "tail_end": 49,
+        "tail_type": "QTL",
+        "label": "LOI"
+      },
+      {
+        "head": "locus",
+        "head_start": 44,
+        "head_end": 49,
+        "head_type": "QTL",
+        "tail": "anthracnose resistance",
+        "tail_start": 54,
+        "tail_end": 76,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Flowering time was recorded to confirm identification of known QTL. The study combined field visual ratings and reflectance data to identify GWAS marker-trait associations using GBS data.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "text": "Flowering time",
+        "label": "TRT"
+      },
+      {
+        "start": 63,
+        "end": 66,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 141,
+        "end": 145,
+        "text": "GWAS",
+        "label": "BM"
+      },
+      {
+        "start": 178,
+        "end": 186,
+        "text": "GBS data",
+        "label": "MRK"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QTL",
+        "head_start": 63,
+        "head_end": 66,
+        "head_type": "QTL",
+        "tail": "Flowering time",
+        "tail_start": 0,
+        "tail_end": 14,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Drought and HT tolerance can be improved by understanding tolerance mechanisms, screening germplasm to identify tolerant lines, and incorporating those traits into elite breeding lines. Systems approaches identify the best tolerance donors for SSA and SA sorghum breeding programs.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Drought",
+        "label": "ABS"
+      },
+      {
+        "start": 12,
+        "end": 24,
+        "text": "HT tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 112,
+        "end": 126,
+        "text": "tolerant lines",
+        "label": "VAR"
+      },
+      {
+        "start": 164,
+        "end": 184,
+        "text": "elite breeding lines",
+        "label": "VAR"
+      },
+      {
+        "start": 255,
+        "end": 280,
+        "text": "sorghum breeding programs",
+        "label": "BM"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Drought",
+        "head_start": 0,
+        "head_end": 7,
+        "head_type": "ABS",
+        "tail": "HT tolerance",
+        "tail_start": 12,
+        "tail_end": 24,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Overexpression of SiCDPK24 in Arabidopsis enhanced drought resistance and improved survival under drought stress. It activated the expressions of stress-related genes RD29A, RD29B, RD22, KIN1, COR15, COR47, LEA14, CBF3/DREB1A, and DREB2A.",
+    "entities": [
+      {
+        "start": 18,
+        "end": 26,
+        "text": "SiCDPK24",
+        "label": "GENE"
+      },
+      {
+        "start": 30,
+        "end": 41,
+        "text": "Arabidopsis",
+        "label": "CROP"
+      },
+      {
+        "start": 51,
+        "end": 69,
+        "text": "drought resistance",
+        "label": "TRT"
+      },
+      {
+        "start": 98,
+        "end": 112,
+        "text": "drought stress",
+        "label": "ABS"
+      },
+      {
+        "start": 167,
+        "end": 172,
+        "text": "RD29A",
+        "label": "GENE"
+      },
+      {
+        "start": 174,
+        "end": 179,
+        "text": "RD29B",
+        "label": "GENE"
+      },
+      {
+        "start": 181,
+        "end": 185,
+        "text": "RD22",
+        "label": "GENE"
+      },
+      {
+        "start": 187,
+        "end": 191,
+        "text": "KIN1",
+        "label": "GENE"
+      },
+      {
+        "start": 193,
+        "end": 198,
+        "text": "COR15",
+        "label": "GENE"
+      },
+      {
+        "start": 200,
+        "end": 205,
+        "text": "COR47",
+        "label": "GENE"
+      },
+      {
+        "start": 207,
+        "end": 212,
+        "text": "LEA14",
+        "label": "GENE"
+      },
+      {
+        "start": 214,
+        "end": 225,
+        "text": "CBF3/DREB1A",
+        "label": "GENE"
+      },
+      {
+        "start": 231,
+        "end": 237,
+        "text": "DREB2A",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "SiCDPK24",
+        "head_start": 18,
+        "head_end": 26,
+        "head_type": "GENE",
+        "tail": "drought resistance",
+        "tail_start": 51,
+        "tail_end": 69,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "drought stress",
+        "head_start": 98,
+        "head_end": 112,
+        "head_type": "ABS",
+        "tail": "drought resistance",
+        "tail_start": 51,
+        "tail_end": 69,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "The genetic variation and basis of A, E and A:E were described among 70 recombinant inbred lines (RILs) of sorghum. Experiment 1 used 40% and 80% of field capacity as water regimes. Experiment 2 used 80% field capacity.",
+    "entities": [
+      {
+        "start": 72,
+        "end": 103,
+        "text": "recombinant inbred lines (RILs)",
+        "label": "CROSS"
+      },
+      {
+        "start": 107,
+        "end": 114,
+        "text": "sorghum",
+        "label": "CROP"
+      }
+    ],
+    "relations": [
+      {
+        "head": "sorghum",
+        "head_start": 107,
+        "head_end": 114,
+        "head_type": "CROP",
+        "tail": "recombinant inbred lines (RILs)",
+        "tail_start": 72,
+        "tail_end": 103,
+        "tail_type": "CROSS",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "The sweet sorghum SbWRKY50 gene (Sb09g005700) encodes a typical class II WRKY family protein. SbWRKY50 localizes to the nucleus and has transcriptional activation activity. Its expression in sweet sorghum was reduced by salt stress. Ectopic expression of SbWRKY50 reduced salt tolerance in Arabidopsis thaliana plants.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 17,
+        "text": "sweet sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 18,
+        "end": 26,
+        "text": "SbWRKY50",
+        "label": "GENE"
+      },
+      {
+        "start": 33,
+        "end": 44,
+        "text": "Sb09g005700",
+        "label": "GENE"
+      },
+      {
+        "start": 94,
+        "end": 102,
+        "text": "SbWRKY50",
+        "label": "GENE"
+      },
+      {
+        "start": 136,
+        "end": 171,
+        "text": "transcriptional activation activity",
+        "label": "TRT"
+      },
+      {
+        "start": 220,
+        "end": 231,
+        "text": "salt stress",
+        "label": "ABS"
+      },
+      {
+        "start": 255,
+        "end": 263,
+        "text": "SbWRKY50",
+        "label": "GENE"
+      },
+      {
+        "start": 272,
+        "end": 286,
+        "text": "salt tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 290,
+        "end": 310,
+        "text": "Arabidopsis thaliana",
+        "label": "CROP"
+      }
+    ],
+    "relations": [
+      {
+        "head": "SbWRKY50",
+        "head_start": 255,
+        "head_end": 263,
+        "head_type": "GENE",
+        "tail": "transcriptional activation activity",
+        "tail_start": 136,
+        "tail_end": 171,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Sb09g005700",
+        "head_start": 33,
+        "head_end": 44,
+        "head_type": "GENE",
+        "tail": "transcriptional activation activity",
+        "tail_start": 136,
+        "tail_end": 171,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "salt stress",
+        "head_start": 220,
+        "head_end": 231,
+        "head_type": "ABS",
+        "tail": "SbWRKY50",
+        "tail_start": 255,
+        "tail_end": 263,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "SbWRKY50",
+        "head_start": 255,
+        "head_end": 263,
+        "head_type": "GENE",
+        "tail": "salt tolerance",
+        "tail_start": 272,
+        "tail_end": 286,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  }
+]

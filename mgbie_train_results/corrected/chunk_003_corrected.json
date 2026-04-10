@@ -1,0 +1,775 @@
+[
+  {
+    "text": "Sorghum plants were exposed to abiotic stress treatments. Hsf expression was not observed with ABA treatment. Hsf1 showed high expression during high temperature and cold stresses. Hsf4 and Hsf6 showed expression during salt stress. Hsf5, Hsf6, Hsf10, Hsf13, Hsf19, Hsf23 and Hsf25 showed expression during drought stress.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 31,
+        "end": 45,
+        "text": "abiotic stress",
+        "label": "ABS"
+      },
+      {
+        "start": 95,
+        "end": 108,
+        "text": "ABA treatment",
+        "label": "ABS"
+      },
+      {
+        "start": 110,
+        "end": 114,
+        "text": "Hsf1",
+        "label": "GENE"
+      },
+      {
+        "start": 145,
+        "end": 161,
+        "text": "high temperature",
+        "label": "ABS"
+      },
+      {
+        "start": 166,
+        "end": 179,
+        "text": "cold stresses",
+        "label": "ABS"
+      },
+      {
+        "start": 181,
+        "end": 185,
+        "text": "Hsf4",
+        "label": "GENE"
+      },
+      {
+        "start": 190,
+        "end": 194,
+        "text": "Hsf6",
+        "label": "GENE"
+      },
+      {
+        "start": 220,
+        "end": 231,
+        "text": "salt stress",
+        "label": "ABS"
+      },
+      {
+        "start": 233,
+        "end": 237,
+        "text": "Hsf5",
+        "label": "GENE"
+      },
+      {
+        "start": 239,
+        "end": 243,
+        "text": "Hsf6",
+        "label": "GENE"
+      },
+      {
+        "start": 245,
+        "end": 250,
+        "text": "Hsf10",
+        "label": "GENE"
+      },
+      {
+        "start": 252,
+        "end": 257,
+        "text": "Hsf13",
+        "label": "GENE"
+      },
+      {
+        "start": 259,
+        "end": 264,
+        "text": "Hsf19",
+        "label": "GENE"
+      },
+      {
+        "start": 266,
+        "end": 271,
+        "text": "Hsf23",
+        "label": "GENE"
+      },
+      {
+        "start": 276,
+        "end": 281,
+        "text": "Hsf25",
+        "label": "GENE"
+      },
+      {
+        "start": 307,
+        "end": 321,
+        "text": "drought stress",
+        "label": "ABS"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "We phenotyped 590 diverse sorghum accessions from West Africa in 10 environments under drought stress conditions: preflowering water stress (WS1), postflowering water stress (WS2), well-watered (WW), and rainfed (RF) over 4 years. Traits measured include days to 50% flowering (DFLo), aboveground dry biomass (DBM), plant height (PH), and grain yield components: grain weight (GrW), panicle weight (PW), grain number (GrN) per plant, and 1000-grain weight (TGrW). Genome-wide association studies (GWAS) were conducted. Broad-sense heritability for biomass and grain yield was 33-92% across environments.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 33,
+        "text": "sorghum",
+        "label": "CROP"
+      },
+      {
+        "start": 87,
+        "end": 101,
+        "text": "drought stress",
+        "label": "ABS"
+      },
+      {
+        "start": 285,
+        "end": 314,
+        "text": "aboveground dry biomass (DBM)",
+        "label": "TRT"
+      },
+      {
+        "start": 316,
+        "end": 333,
+        "text": "plant height (PH)",
+        "label": "TRT"
+      },
+      {
+        "start": 339,
+        "end": 350,
+        "text": "grain yield",
+        "label": "TRT"
+      },
+      {
+        "start": 363,
+        "end": 381,
+        "text": "grain weight (GrW)",
+        "label": "TRT"
+      },
+      {
+        "start": 383,
+        "end": 402,
+        "text": "panicle weight (PW)",
+        "label": "TRT"
+      },
+      {
+        "start": 404,
+        "end": 422,
+        "text": "grain number (GrN)",
+        "label": "TRT"
+      },
+      {
+        "start": 438,
+        "end": 462,
+        "text": "1000-grain weight (TGrW)",
+        "label": "TRT"
+      },
+      {
+        "start": 464,
+        "end": 502,
+        "text": "Genome-wide association studies (GWAS)",
+        "label": "BM"
+      }
+    ],
+    "relations": []
+  },
+  {
+    "text": "Markers for chlorophyll content and leaf traits were linked to genes including PDCD4, LEA proteins, and Cytochrome P450. These findings provide molecular markers and genotypes for genomics-assisted breeding in sorghum.",
+    "entities": [
+      {
+        "start": 12,
+        "end": 31,
+        "text": "chlorophyll content",
+        "label": "TRT"
+      },
+      {
+        "start": 36,
+        "end": 47,
+        "text": "leaf traits",
+        "label": "TRT"
+      },
+      {
+        "start": 79,
+        "end": 84,
+        "text": "PDCD4",
+        "label": "GENE"
+      },
+      {
+        "start": 86,
+        "end": 98,
+        "text": "LEA proteins",
+        "label": "GENE"
+      },
+      {
+        "start": 104,
+        "end": 119,
+        "text": "Cytochrome P450",
+        "label": "GENE"
+      },
+      {
+        "start": 144,
+        "end": 161,
+        "text": "molecular markers",
+        "label": "MRK"
+      },
+      {
+        "start": 180,
+        "end": 206,
+        "text": "genomics-assisted breeding",
+        "label": "BM"
+      },
+      {
+        "start": 210,
+        "end": 217,
+        "text": "sorghum",
+        "label": "CROP"
+      }
+    ],
+    "relations": [
+      {
+        "head": "PDCD4",
+        "head_start": 79,
+        "head_end": 84,
+        "head_type": "GENE",
+        "tail": "chlorophyll content",
+        "tail_start": 12,
+        "tail_end": 31,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "PDCD4",
+        "head_start": 79,
+        "head_end": 84,
+        "head_type": "GENE",
+        "tail": "leaf traits",
+        "tail_start": 36,
+        "tail_end": 47,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "LEA proteins",
+        "head_start": 86,
+        "head_end": 98,
+        "head_type": "GENE",
+        "tail": "chlorophyll content",
+        "tail_start": 12,
+        "tail_end": 31,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "LEA proteins",
+        "head_start": 86,
+        "head_end": 98,
+        "head_type": "GENE",
+        "tail": "leaf traits",
+        "tail_start": 36,
+        "tail_end": 47,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Cytochrome P450",
+        "head_start": 104,
+        "head_end": 119,
+        "head_type": "GENE",
+        "tail": "chlorophyll content",
+        "tail_start": 12,
+        "tail_end": 31,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "Cytochrome P450",
+        "head_start": 104,
+        "head_end": 119,
+        "head_type": "GENE",
+        "tail": "leaf traits",
+        "tail_start": 36,
+        "tail_end": 47,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Of 8,361 high-quality InDels longer than 20 bp developed as molecular markers, 180 were validated with 91.5% accuracy. SSR41 and these markers were used to map the white leaf sheath gene SiWLS1.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 28,
+        "text": "InDels",
+        "label": "MRK"
+      },
+      {
+        "start": 60,
+        "end": 77,
+        "text": "molecular markers",
+        "label": "MRK"
+      },
+      {
+        "start": 119,
+        "end": 124,
+        "text": "SSR41",
+        "label": "MRK"
+      },
+      {
+        "start": 164,
+        "end": 181,
+        "text": "white leaf sheath",
+        "label": "TRT"
+      },
+      {
+        "start": 187,
+        "end": 193,
+        "text": "SiWLS1",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "SiWLS1",
+        "head_start": 187,
+        "head_end": 193,
+        "head_type": "GENE",
+        "tail": "white leaf sheath",
+        "tail_start": 164,
+        "tail_end": 181,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "GsNAC2 overexpression upregulated key glutathione biosynthesis genes. It increased GR and GSH-Px activities and accumulated more GSH after saline-alkali treatment.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "GsNAC2",
+        "label": "GENE"
+      },
+      {
+        "start": 38,
+        "end": 62,
+        "text": "glutathione biosynthesis",
+        "label": "TRT"
+      },
+      {
+        "start": 83,
+        "end": 85,
+        "text": "GR",
+        "label": "TRT"
+      },
+      {
+        "start": 90,
+        "end": 96,
+        "text": "GSH-Px",
+        "label": "TRT"
+      },
+      {
+        "start": 129,
+        "end": 132,
+        "text": "GSH",
+        "label": "TRT"
+      },
+      {
+        "start": 139,
+        "end": 162,
+        "text": "saline-alkali treatment",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "GsNAC2",
+        "head_start": 0,
+        "head_end": 6,
+        "head_type": "GENE",
+        "tail": "glutathione biosynthesis",
+        "tail_start": 38,
+        "tail_end": 62,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "GsNAC2",
+        "head_start": 0,
+        "head_end": 6,
+        "head_type": "GENE",
+        "tail": "GR",
+        "tail_start": 83,
+        "tail_end": 85,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "GsNAC2",
+        "head_start": 0,
+        "head_end": 6,
+        "head_type": "GENE",
+        "tail": "GSH-Px",
+        "tail_start": 90,
+        "tail_end": 96,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "GsNAC2",
+        "head_start": 0,
+        "head_end": 6,
+        "head_type": "GENE",
+        "tail": "GSH",
+        "tail_start": 129,
+        "tail_end": 132,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "saline-alkali treatment",
+        "head_start": 139,
+        "head_end": 162,
+        "head_type": "ABS",
+        "tail": "GSH",
+        "tail_start": 129,
+        "tail_end": 132,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "bZIPs are crucial for abiotic stress resistance. Setaria italica is a model for understanding stress resistance mechanisms.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "bZIPs",
+        "label": "GENE"
+      },
+      {
+        "start": 22,
+        "end": 36,
+        "text": "abiotic stress",
+        "label": "ABS"
+      },
+      {
+        "start": 37,
+        "end": 47,
+        "text": "resistance",
+        "label": "TRT"
+      },
+      {
+        "start": 49,
+        "end": 64,
+        "text": "Setaria italica",
+        "label": "CROP"
+      },
+      {
+        "start": 94,
+        "end": 111,
+        "text": "stress resistance",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "bZIPs",
+        "head_start": 0,
+        "head_end": 5,
+        "head_type": "GENE",
+        "tail": "resistance",
+        "tail_start": 37,
+        "tail_end": 47,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Jingu 21 resistance to 31 herbicides was categorized into five levels: extremely weak, weak, moderate, strong, and extremely strong. Jingu 21 showed extremely strong resistance to lactofen, butachlor, and anilofos.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "text": "Jingu 21",
+        "label": "VAR"
+      },
+      {
+        "start": 9,
+        "end": 36,
+        "text": "resistance to 31 herbicides",
+        "label": "TRT"
+      },
+      {
+        "start": 166,
+        "end": 188,
+        "text": "resistance to lactofen",
+        "label": "TRT"
+      },
+      {
+        "start": 190,
+        "end": 199,
+        "text": "butachlor",
+        "label": "ABS"
+      },
+      {
+        "start": 205,
+        "end": 213,
+        "text": "anilofos",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Jingu 21",
+        "head_start": 0,
+        "head_end": 8,
+        "head_type": "VAR",
+        "tail": "resistance to 31 herbicides",
+        "tail_start": 9,
+        "tail_end": 36,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Jingu 21",
+        "head_start": 0,
+        "head_end": 8,
+        "head_type": "VAR",
+        "tail": "resistance to lactofen",
+        "tail_start": 166,
+        "tail_end": 188,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "The study identified 11 QTLs for five traits under drought stress (DS) and well-watered (WW) conditions. qPLAL4.1, a major QTL for leaf rolling, was detected on chromosome 4. Two candidate genes, SiLTP and SiPLATZ12, were identified within the qPLAL4.1 region.",
+    "entities": [
+      {
+        "start": 24,
+        "end": 28,
+        "text": "QTLs",
+        "label": "QTL"
+      },
+      {
+        "start": 51,
+        "end": 65,
+        "text": "drought stress",
+        "label": "ABS"
+      },
+      {
+        "start": 105,
+        "end": 113,
+        "text": "qPLAL4.1",
+        "label": "QTL"
+      },
+      {
+        "start": 131,
+        "end": 143,
+        "text": "leaf rolling",
+        "label": "TRT"
+      },
+      {
+        "start": 161,
+        "end": 173,
+        "text": "chromosome 4",
+        "label": "CHR"
+      },
+      {
+        "start": 196,
+        "end": 201,
+        "text": "SiLTP",
+        "label": "GENE"
+      },
+      {
+        "start": 206,
+        "end": 215,
+        "text": "SiPLATZ12",
+        "label": "GENE"
+      },
+      {
+        "start": 244,
+        "end": 252,
+        "text": "qPLAL4.1",
+        "label": "QTL"
+      }
+    ],
+    "relations": [
+      {
+        "head": "qPLAL4.1",
+        "head_start": 244,
+        "head_end": 252,
+        "head_type": "QTL",
+        "tail": "leaf rolling",
+        "tail_start": 131,
+        "tail_end": 143,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "qPLAL4.1",
+        "head_start": 244,
+        "head_end": 252,
+        "head_type": "QTL",
+        "tail": "chromosome 4",
+        "tail_start": 161,
+        "tail_end": 173,
+        "tail_type": "CHR",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "In foxtail millet, SiARDP gene expression was induced by various abiotic stresses, including ABA, PEG, and NaCl treatments. Overexpression of SiARDP in Arabidopsis enhanced tolerance to drought and salt stresses.",
+    "entities": [
+      {
+        "start": 3,
+        "end": 17,
+        "text": "foxtail millet",
+        "label": "CROP"
+      },
+      {
+        "start": 19,
+        "end": 25,
+        "text": "SiARDP",
+        "label": "GENE"
+      },
+      {
+        "start": 65,
+        "end": 81,
+        "text": "abiotic stresses",
+        "label": "ABS"
+      },
+      {
+        "start": 93,
+        "end": 96,
+        "text": "ABA",
+        "label": "ABS"
+      },
+      {
+        "start": 98,
+        "end": 101,
+        "text": "PEG",
+        "label": "ABS"
+      },
+      {
+        "start": 107,
+        "end": 111,
+        "text": "NaCl",
+        "label": "ABS"
+      },
+      {
+        "start": 142,
+        "end": 148,
+        "text": "SiARDP",
+        "label": "GENE"
+      },
+      {
+        "start": 152,
+        "end": 163,
+        "text": "Arabidopsis",
+        "label": "CROP"
+      },
+      {
+        "start": 173,
+        "end": 193,
+        "text": "tolerance to drought",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "SiARDP",
+        "head_start": 142,
+        "head_end": 148,
+        "head_type": "GENE",
+        "tail": "tolerance to drought",
+        "tail_start": 173,
+        "tail_end": 193,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "A major QTL for flowering time, qFt3.1, was identified on chromosome 3. Overexpression of the candidate gene SiCOL15 delayed flowering time in foxtail millet.",
+    "entities": [
+      {
+        "start": 16,
+        "end": 30,
+        "text": "flowering time",
+        "label": "TRT"
+      },
+      {
+        "start": 32,
+        "end": 38,
+        "text": "qFt3.1",
+        "label": "QTL"
+      },
+      {
+        "start": 58,
+        "end": 70,
+        "text": "chromosome 3",
+        "label": "CHR"
+      },
+      {
+        "start": 109,
+        "end": 116,
+        "text": "SiCOL15",
+        "label": "GENE"
+      },
+      {
+        "start": 125,
+        "end": 139,
+        "text": "flowering time",
+        "label": "TRT"
+      },
+      {
+        "start": 143,
+        "end": 157,
+        "text": "foxtail millet",
+        "label": "CROP"
+      }
+    ],
+    "relations": [
+      {
+        "head": "qFt3.1",
+        "head_start": 32,
+        "head_end": 38,
+        "head_type": "QTL",
+        "tail": "flowering time",
+        "tail_start": 125,
+        "tail_end": 139,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "qFt3.1",
+        "head_start": 32,
+        "head_end": 38,
+        "head_type": "QTL",
+        "tail": "chromosome 3",
+        "tail_start": 58,
+        "tail_end": 70,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "SiCOL15",
+        "head_start": 109,
+        "head_end": 116,
+        "head_type": "GENE",
+        "tail": "flowering time",
+        "tail_start": 125,
+        "tail_end": 139,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  }
+]

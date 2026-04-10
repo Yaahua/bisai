@@ -1,0 +1,900 @@
+[
+  {
+    "text": "A drought tolerance QTL on chromosome 2 was transferred from barley cultivar 'Tadmor' to cultivars 'Baronesse' and 'Aydanhanim'. The QTL's effects on drought tolerance and other traits were studied using near-isogenic lines in controlled environments and field trials.",
+    "entities": [
+      {
+        "start": 2,
+        "end": 19,
+        "text": "drought tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 20,
+        "end": 23,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 27,
+        "end": 39,
+        "text": "chromosome 2",
+        "label": "CHR"
+      },
+      {
+        "start": 61,
+        "end": 67,
+        "text": "barley",
+        "label": "CROP"
+      },
+      {
+        "start": 77,
+        "end": 85,
+        "text": "'Tadmor'",
+        "label": "VAR"
+      },
+      {
+        "start": 99,
+        "end": 110,
+        "text": "'Baronesse'",
+        "label": "VAR"
+      },
+      {
+        "start": 115,
+        "end": 127,
+        "text": "'Aydanhanim'",
+        "label": "VAR"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QTL",
+        "head_start": 20,
+        "head_end": 23,
+        "head_type": "QTL",
+        "tail": "chromosome 2",
+        "tail_start": 27,
+        "tail_end": 39,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "QTL",
+        "head_start": 20,
+        "head_end": 23,
+        "head_type": "QTL",
+        "tail": "drought tolerance",
+        "tail_start": 2,
+        "tail_end": 19,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "'Tadmor'",
+        "head_start": 77,
+        "head_end": 85,
+        "head_type": "VAR",
+        "tail": "barley",
+        "tail_start": 61,
+        "tail_end": 67,
+        "tail_type": "CROP",
+        "label": "CON"
+      },
+      {
+        "head": "'Baronesse'",
+        "head_start": 99,
+        "head_end": 110,
+        "head_type": "VAR",
+        "tail": "barley",
+        "tail_start": 61,
+        "tail_end": 67,
+        "tail_type": "CROP",
+        "label": "CON"
+      },
+      {
+        "head": "'Aydanhanim'",
+        "head_start": 115,
+        "head_end": 127,
+        "head_type": "VAR",
+        "tail": "barley",
+        "tail_start": 61,
+        "tail_end": 67,
+        "tail_type": "CROP",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "The two AFLP markers were converted to STS markers. The STS markers are useful for marker-assisted selection of plants with non-brittle pedicel and for map-based cloning of the non-brittle pedicel gene.",
+    "entities": [
+      {
+        "start": 8,
+        "end": 20,
+        "text": "AFLP markers",
+        "label": "MRK"
+      },
+      {
+        "start": 39,
+        "end": 50,
+        "text": "STS markers",
+        "label": "MRK"
+      },
+      {
+        "start": 83,
+        "end": 108,
+        "text": "marker-assisted selection",
+        "label": "BM"
+      },
+      {
+        "start": 124,
+        "end": 143,
+        "text": "non-brittle pedicel",
+        "label": "TRT"
+      },
+      {
+        "start": 152,
+        "end": 169,
+        "text": "map-based cloning",
+        "label": "BM"
+      },
+      {
+        "start": 177,
+        "end": 196,
+        "text": "non-brittle pedicel",
+        "label": "TRT"
+      },
+      {
+        "start": 197,
+        "end": 201,
+        "text": "gene",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "STS markers",
+        "head_start": 39,
+        "head_end": 50,
+        "head_type": "MRK",
+        "tail": "non-brittle pedicel",
+        "tail_start": 177,
+        "tail_end": 196,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Transcriptome data showed high expression of genes VfbZIP1, VfbZIP2, VfbZIP5, VfbZIP7, VfbZIP15, VfbZIP17, and VfbZIP18 in a drought-tolerant cultivar under drought stress. qRT-PCR confirmed consistent expression of VfbZIP1, VfbZIP2, and VfbZIP5. Ectopic overexpression of VfbZIP5 in tobacco using a PVX vector enhanced drought tolerance.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "text": "Transcriptome",
+        "label": "BM"
+      },
+      {
+        "start": 51,
+        "end": 58,
+        "text": "VfbZIP1",
+        "label": "GENE"
+      },
+      {
+        "start": 60,
+        "end": 67,
+        "text": "VfbZIP2",
+        "label": "GENE"
+      },
+      {
+        "start": 69,
+        "end": 76,
+        "text": "VfbZIP5",
+        "label": "GENE"
+      },
+      {
+        "start": 78,
+        "end": 85,
+        "text": "VfbZIP7",
+        "label": "GENE"
+      },
+      {
+        "start": 87,
+        "end": 95,
+        "text": "VfbZIP15",
+        "label": "GENE"
+      },
+      {
+        "start": 97,
+        "end": 105,
+        "text": "VfbZIP17",
+        "label": "GENE"
+      },
+      {
+        "start": 111,
+        "end": 119,
+        "text": "VfbZIP18",
+        "label": "GENE"
+      },
+      {
+        "start": 125,
+        "end": 141,
+        "text": "drought-tolerant",
+        "label": "TRT"
+      },
+      {
+        "start": 157,
+        "end": 171,
+        "text": "drought stress",
+        "label": "ABS"
+      },
+      {
+        "start": 173,
+        "end": 180,
+        "text": "qRT-PCR",
+        "label": "BM"
+      },
+      {
+        "start": 284,
+        "end": 291,
+        "text": "tobacco",
+        "label": "CROP"
+      },
+      {
+        "start": 300,
+        "end": 310,
+        "text": "PVX vector",
+        "label": "BM"
+      },
+      {
+        "start": 320,
+        "end": 337,
+        "text": "drought tolerance",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "VfbZIP5",
+        "head_start": 69,
+        "head_end": 76,
+        "head_type": "GENE",
+        "tail": "drought tolerance",
+        "tail_start": 320,
+        "tail_end": 337,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "The transcriptome findings suggested that 2253 differentially expressed genes (DEGs) are drought-responsive genes influenced by SiNRX1. The DEGs were enriched in pathways including phenylalanine, tyrosine and tryptophan biosynthesis, plant hormone signal transduction, phenylpropanoid biosynthesis, and plant-pathogen interaction.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 17,
+        "text": "transcriptome",
+        "label": "BM"
+      },
+      {
+        "start": 128,
+        "end": 134,
+        "text": "SiNRX1",
+        "label": "GENE"
+      },
+      {
+        "start": 47,
+        "end": 84,
+        "text": "differentially expressed genes (DEGs)",
+        "label": "GENE"
+      },
+      {
+        "start": 89,
+        "end": 107,
+        "text": "drought-responsive",
+        "label": "TRT"
+      },
+      {
+        "start": 108,
+        "end": 113,
+        "text": "genes",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "SiNRX1",
+        "head_start": 128,
+        "head_end": 134,
+        "head_type": "GENE",
+        "tail": "drought-responsive",
+        "tail_start": 89,
+        "tail_end": 107,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "The Milletdb database contains GWAS results for 20 yield-related traits. These traits were measured under three environmental conditions: field (no stress), early drought, and late drought over two years.",
+    "entities": [
+      {
+        "start": 31,
+        "end": 35,
+        "text": "GWAS",
+        "label": "BM"
+      },
+      {
+        "start": 51,
+        "end": 71,
+        "text": "yield-related traits",
+        "label": "TRT"
+      },
+      {
+        "start": 157,
+        "end": 170,
+        "text": "early drought",
+        "label": "ABS"
+      },
+      {
+        "start": 176,
+        "end": 188,
+        "text": "late drought",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "early drought",
+        "head_start": 157,
+        "head_end": 170,
+        "head_type": "ABS",
+        "tail": "yield-related traits",
+        "tail_start": 51,
+        "tail_end": 71,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "late drought",
+        "head_start": 176,
+        "head_end": 188,
+        "head_type": "ABS",
+        "tail": "yield-related traits",
+        "tail_start": 51,
+        "tail_end": 71,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "Sacaca and QQ57 exhibited high salt tolerance thresholds, low salt sensitivity index, and high Na+ sequestration capacity into vacuoles. A positive association was detected between salt tolerance degree and yield parameters, saponins (SAPs), and minerals content.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Sacaca",
+        "label": "VAR"
+      },
+      {
+        "start": 11,
+        "end": 15,
+        "text": "QQ57",
+        "label": "VAR"
+      },
+      {
+        "start": 31,
+        "end": 56,
+        "text": "salt tolerance thresholds",
+        "label": "TRT"
+      },
+      {
+        "start": 62,
+        "end": 84,
+        "text": "salt sensitivity index",
+        "label": "TRT"
+      },
+      {
+        "start": 95,
+        "end": 135,
+        "text": "Na+ sequestration capacity into vacuoles",
+        "label": "TRT"
+      },
+      {
+        "start": 181,
+        "end": 202,
+        "text": "salt tolerance degree",
+        "label": "TRT"
+      },
+      {
+        "start": 207,
+        "end": 223,
+        "text": "yield parameters",
+        "label": "TRT"
+      },
+      {
+        "start": 225,
+        "end": 240,
+        "text": "saponins (SAPs)",
+        "label": "TRT"
+      },
+      {
+        "start": 246,
+        "end": 262,
+        "text": "minerals content",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Sacaca",
+        "head_start": 0,
+        "head_end": 6,
+        "head_type": "VAR",
+        "tail": "salt tolerance thresholds",
+        "tail_start": 31,
+        "tail_end": 56,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Sacaca",
+        "head_start": 0,
+        "head_end": 6,
+        "head_type": "VAR",
+        "tail": "salt sensitivity index",
+        "tail_start": 62,
+        "tail_end": 84,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "Sacaca",
+        "head_start": 0,
+        "head_end": 6,
+        "head_type": "VAR",
+        "tail": "Na+ sequestration capacity into vacuoles",
+        "tail_start": 95,
+        "tail_end": 135,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "QQ57",
+        "head_start": 11,
+        "head_end": 15,
+        "head_type": "VAR",
+        "tail": "salt tolerance thresholds",
+        "tail_start": 31,
+        "tail_end": 56,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "QQ57",
+        "head_start": 11,
+        "head_end": 15,
+        "head_type": "VAR",
+        "tail": "salt sensitivity index",
+        "tail_start": 62,
+        "tail_end": 84,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "QQ57",
+        "head_start": 11,
+        "head_end": 15,
+        "head_type": "VAR",
+        "tail": "Na+ sequestration capacity into vacuoles",
+        "tail_start": 95,
+        "tail_end": 135,
+        "tail_type": "TRT",
+        "label": "HAS"
+      }
+    ]
+  },
+  {
+    "text": "Inhibiting the expression of the FtIST1 gene in Tartary buckwheat by VIGS decreased the activities of antioxidant enzymes SOD, POD, and CAT. It increased plasmalemma permeability and leaf Na+ content. This indicates that loss of FtIST1 gene expression leads to decreased antioxidant capacity, increased cell membrane damage, increased shoot Na+ content, and decreased salt tolerance. FtIST1 is a salt tolerance gene associated with salt tolerance in Tartary buckwheat.",
+    "entities": [
+      {
+        "start": 33,
+        "end": 39,
+        "text": "FtIST1",
+        "label": "GENE"
+      },
+      {
+        "start": 48,
+        "end": 65,
+        "text": "Tartary buckwheat",
+        "label": "CROP"
+      },
+      {
+        "start": 69,
+        "end": 73,
+        "text": "VIGS",
+        "label": "BM"
+      },
+      {
+        "start": 102,
+        "end": 121,
+        "text": "antioxidant enzymes",
+        "label": "TRT"
+      },
+      {
+        "start": 154,
+        "end": 178,
+        "text": "plasmalemma permeability",
+        "label": "TRT"
+      },
+      {
+        "start": 183,
+        "end": 199,
+        "text": "leaf Na+ content",
+        "label": "TRT"
+      },
+      {
+        "start": 271,
+        "end": 291,
+        "text": "antioxidant capacity",
+        "label": "TRT"
+      },
+      {
+        "start": 303,
+        "end": 323,
+        "text": "cell membrane damage",
+        "label": "TRT"
+      },
+      {
+        "start": 335,
+        "end": 352,
+        "text": "shoot Na+ content",
+        "label": "TRT"
+      },
+      {
+        "start": 368,
+        "end": 382,
+        "text": "salt tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 384,
+        "end": 390,
+        "text": "FtIST1",
+        "label": "GENE"
+      },
+      {
+        "start": 432,
+        "end": 446,
+        "text": "salt tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 450,
+        "end": 467,
+        "text": "Tartary buckwheat",
+        "label": "CROP"
+      },
+      {
+        "start": 396,
+        "end": 410,
+        "text": "salt tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 411,
+        "end": 415,
+        "text": "gene",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "FtIST1",
+        "head_start": 384,
+        "head_end": 390,
+        "head_type": "GENE",
+        "tail": "antioxidant enzymes",
+        "tail_start": 102,
+        "tail_end": 121,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "FtIST1",
+        "head_start": 384,
+        "head_end": 390,
+        "head_type": "GENE",
+        "tail": "plasmalemma permeability",
+        "tail_start": 154,
+        "tail_end": 178,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "FtIST1",
+        "head_start": 384,
+        "head_end": 390,
+        "head_type": "GENE",
+        "tail": "leaf Na+ content",
+        "tail_start": 183,
+        "tail_end": 199,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "FtIST1",
+        "head_start": 384,
+        "head_end": 390,
+        "head_type": "GENE",
+        "tail": "salt tolerance",
+        "tail_start": 396,
+        "tail_end": 410,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "The drought-responsive gene ZmVQ52 from maize was cloned and characterized. Overexpression of ZmVQ52 in Arabidopsis enhanced drought tolerance by increasing proline content and decreasing malondialdehyde (MDA) content.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 22,
+        "text": "drought-responsive",
+        "label": "TRT"
+      },
+      {
+        "start": 23,
+        "end": 27,
+        "text": "gene",
+        "label": "GENE"
+      },
+      {
+        "start": 28,
+        "end": 34,
+        "text": "ZmVQ52",
+        "label": "GENE"
+      },
+      {
+        "start": 40,
+        "end": 45,
+        "text": "maize",
+        "label": "CROP"
+      },
+      {
+        "start": 94,
+        "end": 100,
+        "text": "ZmVQ52",
+        "label": "GENE"
+      },
+      {
+        "start": 104,
+        "end": 115,
+        "text": "Arabidopsis",
+        "label": "CROP"
+      },
+      {
+        "start": 125,
+        "end": 142,
+        "text": "drought tolerance",
+        "label": "TRT"
+      },
+      {
+        "start": 157,
+        "end": 172,
+        "text": "proline content",
+        "label": "TRT"
+      },
+      {
+        "start": 188,
+        "end": 217,
+        "text": "malondialdehyde (MDA) content",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "ZmVQ52",
+        "head_start": 94,
+        "head_end": 100,
+        "head_type": "GENE",
+        "tail": "drought tolerance",
+        "tail_start": 125,
+        "tail_end": 142,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "ZmVQ52",
+        "head_start": 94,
+        "head_end": 100,
+        "head_type": "GENE",
+        "tail": "proline content",
+        "tail_start": 157,
+        "tail_end": 172,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "ZmVQ52",
+        "head_start": 94,
+        "head_end": 100,
+        "head_type": "GENE",
+        "tail": "malondialdehyde (MDA) content",
+        "tail_start": 188,
+        "tail_end": 217,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "The results showed that the expression of the SiMYB1 gene was induced by drought, salt, and ABA. Overexpression of SiMYB1 in transgenic Arabidopsis improved drought and salt tolerance.",
+    "entities": [
+      {
+        "start": 46,
+        "end": 52,
+        "text": "SiMYB1",
+        "label": "GENE"
+      },
+      {
+        "start": 73,
+        "end": 80,
+        "text": "drought",
+        "label": "ABS"
+      },
+      {
+        "start": 82,
+        "end": 86,
+        "text": "salt",
+        "label": "ABS"
+      },
+      {
+        "start": 92,
+        "end": 95,
+        "text": "ABA",
+        "label": "ABS"
+      },
+      {
+        "start": 115,
+        "end": 121,
+        "text": "SiMYB1",
+        "label": "GENE"
+      },
+      {
+        "start": 125,
+        "end": 147,
+        "text": "transgenic Arabidopsis",
+        "label": "VAR"
+      },
+      {
+        "start": 157,
+        "end": 164,
+        "text": "drought",
+        "label": "TRT"
+      },
+      {
+        "start": 169,
+        "end": 183,
+        "text": "salt tolerance",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "drought",
+        "head_start": 73,
+        "head_end": 80,
+        "head_type": "ABS",
+        "tail": "SiMYB1",
+        "tail_start": 115,
+        "tail_end": 121,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "salt",
+        "head_start": 82,
+        "head_end": 86,
+        "head_type": "ABS",
+        "tail": "SiMYB1",
+        "tail_start": 115,
+        "tail_end": 121,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "ABA",
+        "head_start": 92,
+        "head_end": 95,
+        "head_type": "ABS",
+        "tail": "SiMYB1",
+        "tail_start": 115,
+        "tail_end": 121,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "SiMYB1",
+        "head_start": 115,
+        "head_end": 121,
+        "head_type": "GENE",
+        "tail": "drought",
+        "tail_start": 157,
+        "tail_end": 164,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "SiMYB1",
+        "head_start": 115,
+        "head_end": 121,
+        "head_type": "GENE",
+        "tail": "salt tolerance",
+        "tail_start": 169,
+        "tail_end": 183,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "A major QTL for kernel number per spike (KNPS) in wheat was identified on chromosome 4B, designated as QKnps.caas-4B. It was consistently expressed in multiple environments.",
+    "entities": [
+      {
+        "start": 8,
+        "end": 11,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 50,
+        "end": 55,
+        "text": "wheat",
+        "label": "CROP"
+      },
+      {
+        "start": 74,
+        "end": 87,
+        "text": "chromosome 4B",
+        "label": "CHR"
+      },
+      {
+        "start": 103,
+        "end": 116,
+        "text": "QKnps.caas-4B",
+        "label": "QTL"
+      },
+      {
+        "start": 16,
+        "end": 46,
+        "text": "kernel number per spike (KNPS)",
+        "label": "TRT"
+      }
+    ],
+    "relations": [
+      {
+        "head": "QKnps.caas-4B",
+        "head_start": 103,
+        "head_end": 116,
+        "head_type": "QTL",
+        "tail": "chromosome 4B",
+        "tail_start": 74,
+        "tail_end": 87,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "wheat",
+        "head_start": 50,
+        "head_end": 55,
+        "head_type": "CROP",
+        "tail": "QKnps.caas-4B",
+        "tail_start": 103,
+        "tail_end": 116,
+        "tail_type": "QTL",
+        "label": "CON"
+      }
+    ]
+  }
+]
