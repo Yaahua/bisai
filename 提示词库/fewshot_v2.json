@@ -1,0 +1,562 @@
+[
+  {
+    "text": "Molecular markers identified chromosomal regions with powdery mildew resistance genes and estimated each locus's resistance effect. Twenty-eight F-1 hybrids and eight parental lines from a barley diallel study were inoculated with five isolates of E. graminis.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "text": "Molecular markers",
+        "label": "MRK"
+      },
+      {
+        "start": 29,
+        "end": 48,
+        "text": "chromosomal regions",
+        "label": "CHR"
+      },
+      {
+        "start": 54,
+        "end": 79,
+        "text": "powdery mildew resistance",
+        "label": "TRT"
+      },
+      {
+        "start": 54,
+        "end": 85,
+        "text": "powdery mildew resistance genes",
+        "label": "GENE"
+      },
+      {
+        "start": 145,
+        "end": 156,
+        "text": "F-1 hybrids",
+        "label": "CROSS"
+      },
+      {
+        "start": 167,
+        "end": 181,
+        "text": "parental lines",
+        "label": "CROSS"
+      },
+      {
+        "start": 189,
+        "end": 195,
+        "text": "barley",
+        "label": "CROP"
+      },
+      {
+        "start": 248,
+        "end": 259,
+        "text": "E. graminis",
+        "label": "BIS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Molecular markers",
+        "head_start": 0,
+        "head_end": 17,
+        "head_type": "MRK",
+        "tail": "chromosomal regions",
+        "tail_start": 29,
+        "tail_end": 48,
+        "tail_type": "CHR",
+        "label": "LOI"
+      },
+      {
+        "head": "powdery mildew resistance genes",
+        "head_start": 54,
+        "head_end": 85,
+        "head_type": "GENE",
+        "tail": "powdery mildew resistance",
+        "tail_start": 54,
+        "tail_end": 79,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "F-1 hybrids",
+        "head_start": 145,
+        "head_end": 156,
+        "head_type": "CROSS",
+        "tail": "barley",
+        "tail_start": 189,
+        "tail_end": 195,
+        "tail_type": "CROP",
+        "label": "CON"
+      },
+      {
+        "head": "parental lines",
+        "head_start": 167,
+        "head_end": 181,
+        "head_type": "CROSS",
+        "tail": "barley",
+        "tail_start": 189,
+        "tail_end": 195,
+        "tail_type": "CROP",
+        "label": "CON"
+      },
+      {
+        "head": "E. graminis",
+        "head_start": 248,
+        "head_end": 259,
+        "head_type": "BIS",
+        "tail": "powdery mildew resistance",
+        "tail_start": 54,
+        "tail_end": 79,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  },
+  {
+    "text": "The two AFLP markers were converted to STS markers. The STS markers are useful for marker-assisted selection of plants with non-brittle pedicel and for map-based cloning of the non-brittle pedicel gene.",
+    "entities": [
+      {
+        "start": 8,
+        "end": 20,
+        "text": "AFLP markers",
+        "label": "MRK"
+      },
+      {
+        "start": 39,
+        "end": 50,
+        "text": "STS markers",
+        "label": "MRK"
+      },
+      {
+        "start": 56,
+        "end": 67,
+        "text": "STS markers",
+        "label": "MRK"
+      },
+      {
+        "start": 83,
+        "end": 108,
+        "text": "marker-assisted selection",
+        "label": "BM"
+      },
+      {
+        "start": 124,
+        "end": 143,
+        "text": "non-brittle pedicel",
+        "label": "TRT"
+      },
+      {
+        "start": 152,
+        "end": 169,
+        "text": "map-based cloning",
+        "label": "BM"
+      },
+      {
+        "start": 177,
+        "end": 201,
+        "text": "non-brittle pedicel gene",
+        "label": "GENE"
+      }
+    ],
+    "relations": [
+      {
+        "head": "AFLP markers",
+        "head_start": 8,
+        "head_end": 20,
+        "head_type": "MRK",
+        "tail": "STS markers",
+        "tail_start": 39,
+        "tail_end": 50,
+        "tail_type": "MRK",
+        "label": "USE"
+      },
+      {
+        "head": "STS markers",
+        "head_start": 39,
+        "head_end": 50,
+        "head_type": "MRK",
+        "tail": "non-brittle pedicel",
+        "tail_start": 124,
+        "tail_end": 143,
+        "tail_type": "TRT",
+        "label": "LOI"
+      },
+      {
+        "head": "STS markers",
+        "head_start": 39,
+        "head_end": 50,
+        "head_type": "MRK",
+        "tail": "non-brittle pedicel gene",
+        "tail_start": 177,
+        "tail_end": 201,
+        "tail_type": "GENE",
+        "label": "LOI"
+      }
+    ]
+  },
+  {
+    "text": "The drought-resistant cultivar JiaYan 2 (JIA2) and water-sensitive cultivar BaYou 9 (BA9) were subjected to three water gradient treatments during the booting stage: 30% field capacity (severe stress), 45% field capacity (moderate stress), and 70% field capacity (normal water supply). After 7 days, root samples were collected for transcriptome and proteome analyses.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 21,
+        "text": "drought-resistant",
+        "label": "TRT"
+      },
+      {
+        "start": 31,
+        "end": 39,
+        "text": "JiaYan 2",
+        "label": "VAR"
+      },
+      {
+        "start": 41,
+        "end": 45,
+        "text": "JIA2",
+        "label": "VAR"
+      },
+      {
+        "start": 51,
+        "end": 66,
+        "text": "water-sensitive",
+        "label": "TRT"
+      },
+      {
+        "start": 76,
+        "end": 83,
+        "text": "BaYou 9",
+        "label": "VAR"
+      },
+      {
+        "start": 85,
+        "end": 88,
+        "text": "BA9",
+        "label": "VAR"
+      },
+      {
+        "start": 151,
+        "end": 164,
+        "text": "booting stage",
+        "label": "GST"
+      },
+      {
+        "start": 166,
+        "end": 184,
+        "text": "30% field capacity",
+        "label": "ABS"
+      },
+      {
+        "start": 186,
+        "end": 199,
+        "text": "severe stress",
+        "label": "ABS"
+      },
+      {
+        "start": 202,
+        "end": 220,
+        "text": "45% field capacity",
+        "label": "ABS"
+      },
+      {
+        "start": 222,
+        "end": 237,
+        "text": "moderate stress",
+        "label": "ABS"
+      },
+      {
+        "start": 244,
+        "end": 262,
+        "text": "70% field capacity",
+        "label": "ABS"
+      },
+      {
+        "start": 264,
+        "end": 283,
+        "text": "normal water supply",
+        "label": "ABS"
+      },
+      {
+        "start": 332,
+        "end": 345,
+        "text": "transcriptome",
+        "label": "BM"
+      }
+    ],
+    "relations": [
+      {
+        "head": "JiaYan 2",
+        "head_start": 31,
+        "head_end": 39,
+        "head_type": "VAR",
+        "tail": "drought-resistant",
+        "tail_start": 4,
+        "tail_end": 21,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "JIA2",
+        "head_start": 41,
+        "head_end": 45,
+        "head_type": "VAR",
+        "tail": "drought-resistant",
+        "tail_start": 4,
+        "tail_end": 21,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "BaYou 9",
+        "head_start": 76,
+        "head_end": 83,
+        "head_type": "VAR",
+        "tail": "water-sensitive",
+        "tail_start": 51,
+        "tail_end": 66,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "BA9",
+        "head_start": 85,
+        "head_end": 88,
+        "head_type": "VAR",
+        "tail": "water-sensitive",
+        "tail_start": 51,
+        "tail_end": 66,
+        "tail_type": "TRT",
+        "label": "HAS"
+      },
+      {
+        "head": "30% field capacity",
+        "head_start": 166,
+        "head_end": 184,
+        "head_type": "ABS",
+        "tail": "booting stage",
+        "tail_start": 151,
+        "tail_end": 164,
+        "tail_type": "GST",
+        "label": "OCI"
+      },
+      {
+        "head": "severe stress",
+        "head_start": 186,
+        "head_end": 199,
+        "head_type": "ABS",
+        "tail": "booting stage",
+        "tail_start": 151,
+        "tail_end": 164,
+        "tail_type": "GST",
+        "label": "OCI"
+      },
+      {
+        "head": "45% field capacity",
+        "head_start": 202,
+        "head_end": 220,
+        "head_type": "ABS",
+        "tail": "booting stage",
+        "tail_start": 151,
+        "tail_end": 164,
+        "tail_type": "GST",
+        "label": "OCI"
+      },
+      {
+        "head": "moderate stress",
+        "head_start": 222,
+        "head_end": 237,
+        "head_type": "ABS",
+        "tail": "booting stage",
+        "tail_start": 151,
+        "tail_end": 164,
+        "tail_type": "GST",
+        "label": "OCI"
+      },
+      {
+        "head": "70% field capacity",
+        "head_start": 244,
+        "head_end": 262,
+        "head_type": "ABS",
+        "tail": "booting stage",
+        "tail_start": 151,
+        "tail_end": 164,
+        "tail_type": "GST",
+        "label": "OCI"
+      },
+      {
+        "head": "normal water supply",
+        "head_start": 264,
+        "head_end": 283,
+        "head_type": "ABS",
+        "tail": "booting stage",
+        "tail_start": 151,
+        "tail_end": 164,
+        "tail_type": "GST",
+        "label": "OCI"
+      },
+      {
+        "head": "30% field capacity",
+        "head_start": 166,
+        "head_end": 184,
+        "head_type": "ABS",
+        "tail": "severe stress",
+        "tail_start": 186,
+        "tail_end": 199,
+        "tail_type": "ABS",
+        "label": "CON"
+      },
+      {
+        "head": "45% field capacity",
+        "head_start": 202,
+        "head_end": 220,
+        "head_type": "ABS",
+        "tail": "moderate stress",
+        "tail_start": 222,
+        "tail_end": 237,
+        "tail_type": "ABS",
+        "label": "CON"
+      },
+      {
+        "head": "70% field capacity",
+        "head_start": 244,
+        "head_end": 262,
+        "head_type": "ABS",
+        "tail": "normal water supply",
+        "tail_start": 264,
+        "tail_end": 283,
+        "tail_type": "ABS",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "Comparative genomics and QTL analysis revealed the genetic basis of the easily dehulled trait in a particular variety. This variety was artificially selected by the Wa people, who cultivate Tartary buckwheat as a staple food to prevent lysine deficiency.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 28,
+        "text": "QTL",
+        "label": "QTL"
+      },
+      {
+        "start": 119,
+        "end": 123,
+        "text": "This",
+        "label": "VAR"
+      },
+      {
+        "start": 190,
+        "end": 207,
+        "text": "Tartary buckwheat",
+        "label": "CROP"
+      }
+    ],
+    "relations": [
+      {
+        "head": "Tartary buckwheat",
+        "head_start": 190,
+        "head_end": 207,
+        "head_type": "CROP",
+        "tail": "This",
+        "tail_start": 119,
+        "tail_end": 123,
+        "tail_type": "VAR",
+        "label": "CON"
+      }
+    ]
+  },
+  {
+    "text": "GsNAC2 overexpression upregulated key glutathione biosynthesis genes. It increased GR and GSH-Px activities and accumulated more GSH after saline-alkali treatment.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "GsNAC2",
+        "label": "GENE"
+      },
+      {
+        "start": 38,
+        "end": 62,
+        "text": "glutathione biosynthesis",
+        "label": "GENE"
+      },
+      {
+        "start": 83,
+        "end": 85,
+        "text": "GR",
+        "label": "GENE"
+      },
+      {
+        "start": 90,
+        "end": 96,
+        "text": "GSH-Px",
+        "label": "GENE"
+      },
+      {
+        "start": 129,
+        "end": 132,
+        "text": "GSH",
+        "label": "TRT"
+      },
+      {
+        "start": 139,
+        "end": 162,
+        "text": "saline-alkali treatment",
+        "label": "ABS"
+      }
+    ],
+    "relations": [
+      {
+        "head": "GsNAC2",
+        "head_start": 0,
+        "head_end": 6,
+        "head_type": "GENE",
+        "tail": "glutathione biosynthesis",
+        "tail_start": 38,
+        "tail_end": 62,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "GsNAC2",
+        "head_start": 0,
+        "head_end": 6,
+        "head_type": "GENE",
+        "tail": "GR",
+        "tail_start": 83,
+        "tail_end": 85,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "GsNAC2",
+        "head_start": 0,
+        "head_end": 6,
+        "head_type": "GENE",
+        "tail": "GSH-Px",
+        "tail_start": 90,
+        "tail_end": 96,
+        "tail_type": "GENE",
+        "label": "AFF"
+      },
+      {
+        "head": "GsNAC2",
+        "head_start": 0,
+        "head_end": 6,
+        "head_type": "GENE",
+        "tail": "GSH",
+        "tail_start": 129,
+        "tail_end": 132,
+        "tail_type": "TRT",
+        "label": "AFF"
+      },
+      {
+        "head": "saline-alkali treatment",
+        "head_start": 139,
+        "head_end": 162,
+        "head_type": "ABS",
+        "tail": "GSH",
+        "tail_start": 129,
+        "tail_end": 132,
+        "tail_type": "TRT",
+        "label": "AFF"
+      }
+    ]
+  }
+]
