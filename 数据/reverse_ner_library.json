@@ -1,0 +1,523 @@
+[
+  {
+    "text": "Genome-wide association study in maize identified several loci associated with drought tolerance and kernel weight, providing valuable markers for breeding resilient varieties.",
+    "entities": [
+      {
+        "entity": "maize",
+        "type": "CROP",
+        "start": 31,
+        "end": 36
+      }
+    ],
+    "relations": [],
+    "source_entity_type": "CROP"
+  },
+  {
+    "text": "In wheat, the introduction of the rust resistance gene Yr15 into elite cultivars significantly improved disease resistance without compromising yield under field conditions.",
+    "entities": [
+      {
+        "entity": "wheat",
+        "type": "CROP",
+        "start": 3,
+        "end": 8
+      }
+    ],
+    "relations": [],
+    "source_entity_type": "CROP"
+  },
+  {
+    "text": "Transcriptomic analysis of soybean roots under salt stress revealed upregulation of multiple stress-responsive genes, which can be targeted to enhance salt tolerance in this important legume crop.",
+    "entities": [
+      {
+        "entity": "soybean",
+        "type": "CROP",
+        "start": 21,
+        "end": 28
+      }
+    ],
+    "relations": [],
+    "source_entity_type": "CROP"
+  },
+  {
+    "text": "In this study, the rice variety Zhengdao11 was evaluated under drought stress conditions along with three other varieties to assess their yield stability and physiological responses.",
+    "entities": [
+      {
+        "entity": "Zhengdao11",
+        "type": "VAR",
+        "start": 25,
+        "end": 34
+      }
+    ],
+    "relations": [],
+    "source_entity_type": "VAR"
+  },
+  {
+    "text": "The wheat cultivar Jimai22 showed significant resistance to Fusarium head blight when compared with the susceptible variety Bainong64, indicating its potential for breeding programs.",
+    "entities": [
+      {
+        "entity": "Jimai22",
+        "type": "VAR",
+        "start": 19,
+        "end": 26
+      },
+      {
+        "entity": "Bainong64",
+        "type": "VAR",
+        "start": 88,
+        "end": 96
+      }
+    ],
+    "relations": [],
+    "source_entity_type": "VAR"
+  },
+  {
+    "text": "A recombinant inbred line population derived from a cross between the maize varieties B73 and Mo17 was used to construct a high-density genetic linkage map for QTL analysis.",
+    "entities": [
+      {
+        "entity": "B73",
+        "type": "VAR",
+        "start": 65,
+        "end": 68
+      },
+      {
+        "entity": "Mo17",
+        "type": "VAR",
+        "start": 73,
+        "end": 77
+      }
+    ],
+    "relations": [],
+    "source_entity_type": "VAR"
+  },
+  {
+    "text": "The expression of the flowering time gene Ghd7 was significantly correlated with heading date variation in rice under different photoperiod conditions.",
+    "entities": [
+      {
+        "entity": "Ghd7",
+        "type": "GENE",
+        "start": 27,
+        "end": 31
+      }
+    ],
+    "relations": [
+      {
+        "subject": "Ghd7",
+        "predicate": "GENE-AFF-TRT",
+        "object": "heading date variation"
+      }
+    ],
+    "source_entity_type": "GENE"
+  },
+  {
+    "text": "Transgenic wheat lines overexpressing TaMADS1 exhibited enhanced drought tolerance, demonstrated by increased relative water content and reduced leaf wilting.",
+    "entities": [
+      {
+        "entity": "TaMADS1",
+        "type": "GENE",
+        "start": 27,
+        "end": 34
+      }
+    ],
+    "relations": [
+      {
+        "subject": "TaMADS1",
+        "predicate": "GENE-LOI-TRT",
+        "object": "drought tolerance"
+      }
+    ],
+    "source_entity_type": "GENE"
+  },
+  {
+    "text": "QTL mapping revealed that the locus containing the OsNAC10 gene on chromosome 11 contributed to improved grain yield under drought stress in rice.",
+    "entities": [
+      {
+        "entity": "OsNAC10",
+        "type": "GENE",
+        "start": 38,
+        "end": 45
+      }
+    ],
+    "relations": [
+      {
+        "subject": "OsNAC10",
+        "predicate": "GENE-LOI-CHR",
+        "object": "chromosome 11"
+      }
+    ],
+    "source_entity_type": "GENE"
+  },
+  {
+    "text": "In a maize mapping population derived from B73 and Mo17, a total of 18 QTLs including qTGW6 and qSH1 were identified that significantly influenced grain yield and kernel size on chromosomes 3 and 6.",
+    "entities": [
+      {
+        "entity": "qTGW6",
+        "type": "QTL",
+        "start": 82,
+        "end": 88
+      },
+      {
+        "entity": "qSH1",
+        "type": "QTL",
+        "start": 93,
+        "end": 97
+      }
+    ],
+    "relations": [
+      {
+        "subject": "qTGW6",
+        "predicate": "QTL-LOI-CHR",
+        "object": "chromosome 6"
+      },
+      {
+        "subject": "qSH1",
+        "predicate": "QTL-LOI-CHR",
+        "object": "chromosome 3"
+      }
+    ],
+    "source_entity_type": "QTL"
+  },
+  {
+    "text": "A recombinant inbred line population of wheat was used to construct a high-density linkage map revealing four major QTLs for drought tolerance, including qDT1 and qDT3, mapped on chromosomes 1B and 3A respectively.",
+    "entities": [
+      {
+        "entity": "QTLs",
+        "type": "QTL",
+        "start": 66,
+        "end": 70
+      },
+      {
+        "entity": "qDT1",
+        "type": "QTL",
+        "start": 81,
+        "end": 85
+      },
+      {
+        "entity": "qDT3",
+        "type": "QTL",
+        "start": 90,
+        "end": 94
+      }
+    ],
+    "relations": [
+      {
+        "subject": "qDT1",
+        "predicate": "QTL-LOI-CHR",
+        "object": "chromosome 1B"
+      },
+      {
+        "subject": "qDT3",
+        "predicate": "QTL-LOI-CHR",
+        "object": "chromosome 3A"
+      }
+    ],
+    "source_entity_type": "QTL"
+  },
+  {
+    "text": "Using an F2 population from the cross between rice varieties Nipponbare and Kasalath, QTL analysis identified qPH4.1 as a major locus affecting plant height on chromosome 4, explaining 22.5% of the phenotypic variance.",
+    "entities": [
+      {
+        "entity": "QTL",
+        "type": "QTL",
+        "start": 20,
+        "end": 23
+      },
+      {
+        "entity": "qPH4.1",
+        "type": "QTL",
+        "start": 38,
+        "end": 44
+      }
+    ],
+    "relations": [
+      {
+        "subject": "qPH4.1",
+        "predicate": "QTL-LOI-CHR",
+        "object": "chromosome 4"
+      }
+    ],
+    "source_entity_type": "QTL"
+  },
+  {
+    "text": "A total of 150 SSR markers including RM223 and RM315 were used to construct the linkage map for rice chromosome 6, facilitating the identification of QTLs associated with drought tolerance.",
+    "entities": [
+      {
+        "entity": "RM223",
+        "type": "MRK",
+        "start": 39,
+        "end": 44
+      },
+      {
+        "entity": "RM315",
+        "type": "MRK",
+        "start": 49,
+        "end": 54
+      }
+    ],
+    "relations": [
+      {
+        "subject": "RM223",
+        "predicate": "MRK-LOI-CHR",
+        "object": "rice chromosome 6"
+      },
+      {
+        "subject": "RM315",
+        "predicate": "MRK-LOI-CHR",
+        "object": "rice chromosome 6"
+      }
+    ],
+    "source_entity_type": "MRK"
+  },
+  {
+    "text": "SNP markers such as AX-945678 and AX-123456 derived from the wheat 90K array were instrumental in dissecting the genetic basis of fusarium head blight resistance in the cultivar 'Sumai 3'.",
+    "entities": [
+      {
+        "entity": "AX-945678",
+        "type": "MRK",
+        "start": 17,
+        "end": 26
+      },
+      {
+        "entity": "AX-123456",
+        "type": "MRK",
+        "start": 31,
+        "end": 40
+      }
+    ],
+    "relations": [
+      {
+        "subject": "AX-945678",
+        "predicate": "MRK-LOI-CHR",
+        "object": "wheat 90K array"
+      },
+      {
+        "subject": "AX-123456",
+        "predicate": "MRK-LOI-CHR",
+        "object": "wheat 90K array"
+      }
+    ],
+    "source_entity_type": "MRK"
+  },
+  {
+    "text": "The SSR marker RM224 showed significant linkage to the blast resistance gene Pi-1 on chromosome 11, providing a useful tool for marker-assisted selection in rice breeding programs.",
+    "entities": [
+      {
+        "entity": "RM224",
+        "type": "MRK",
+        "start": 15,
+        "end": 20
+      }
+    ],
+    "relations": [
+      {
+        "subject": "RM224",
+        "predicate": "MRK-LOI-CHR",
+        "object": "chromosome 11"
+      }
+    ],
+    "source_entity_type": "MRK"
+  },
+  {
+    "text": "Genome-wide association studies identified several QTLs linked to drought tolerance and grain yield in the rice variety Zhonghua 11 under field conditions.",
+    "entities": [
+      {
+        "entity": "drought tolerance",
+        "type": "TRT",
+        "start": 65,
+        "end": 81
+      },
+      {
+        "entity": "grain yield",
+        "type": "TRT",
+        "start": 86,
+        "end": 97
+      }
+    ],
+    "relations": [
+      {
+        "subject": "QTLs",
+        "predicate": "QTL-LOI-TRT",
+        "object": "drought tolerance"
+      },
+      {
+        "subject": "QTLs",
+        "predicate": "QTL-LOI-TRT",
+        "object": "grain yield"
+      }
+    ],
+    "source_entity_type": "TRT"
+  },
+  {
+    "text": "The wheat cultivar Jimai 22 exhibited significant variation in plant height and resistance to stripe rust, with associated markers mapped to chromosome 2B.",
+    "entities": [
+      {
+        "entity": "plant height",
+        "type": "TRT",
+        "start": 38,
+        "end": 50
+      },
+      {
+        "entity": "resistance to stripe rust",
+        "type": "TRT",
+        "start": 55,
+        "end": 78
+      }
+    ],
+    "relations": [
+      {
+        "subject": "Jimai 22",
+        "predicate": "VAR-HAS-TRT",
+        "object": "plant height"
+      },
+      {
+        "subject": "Jimai 22",
+        "predicate": "VAR-HAS-TRT",
+        "object": "resistance to stripe rust"
+      }
+    ],
+    "source_entity_type": "TRT"
+  },
+  {
+    "text": "Expression analysis showed that the gene TaNAC2 positively regulates thousand-kernel weight and grain filling rate in bread wheat under heat stress.",
+    "entities": [
+      {
+        "entity": "thousand-kernel weight",
+        "type": "TRT",
+        "start": 53,
+        "end": 72
+      },
+      {
+        "entity": "grain filling rate",
+        "type": "TRT",
+        "start": 77,
+        "end": 95
+      }
+    ],
+    "relations": [
+      {
+        "subject": "TaNAC2",
+        "predicate": "GENE-AFF-TRT",
+        "object": "thousand-kernel weight"
+      },
+      {
+        "subject": "TaNAC2",
+        "predicate": "GENE-AFF-TRT",
+        "object": "grain filling rate"
+      }
+    ],
+    "source_entity_type": "TRT"
+  },
+  {
+    "text": "The drought tolerance of rice variety IR64 was evaluated by measuring proline content as a biochemical marker (BM), which showed a significant increase under water deficit conditions.",
+    "entities": [
+      {
+        "entity": "proline content",
+        "type": "BM",
+        "start": 60,
+        "end": 75
+      }
+    ],
+    "relations": [
+      {
+        "subject": "IR64",
+        "predicate": "VAR-USE-BM",
+        "object": "proline content"
+      }
+    ],
+    "source_entity_type": "BM"
+  },
+  {
+    "text": "Chlorophyll fluorescence was used as a BM to assess photosynthetic efficiency in maize lines subjected to heat stress treatment, revealing lines with enhanced tolerance.",
+    "entities": [
+      {
+        "entity": "Chlorophyll fluorescence",
+        "type": "BM",
+        "start": 0,
+        "end": 22
+      }
+    ],
+    "relations": [
+      {
+        "subject": "heat stress treatment",
+        "predicate": "TRT-HAS-BM",
+        "object": "Chlorophyll fluorescence"
+      }
+    ],
+    "source_entity_type": "BM"
+  },
+  {
+    "text": "Protein content, a reliable BM, correlated positively with grain yield in wheat breeding populations, supporting its use in selecting superior genotypes for improved nutritional quality.",
+    "entities": [
+      {
+        "entity": "Protein content",
+        "type": "BM",
+        "start": 0,
+        "end": 15
+      }
+    ],
+    "relations": [
+      {
+        "subject": "Protein content",
+        "predicate": "BM",
+        "object": "grain yield"
+      }
+    ],
+    "source_entity_type": "BM"
+  },
+  {
+    "text": "在水稻第3染色体短臂的LOI区间内鉴定出了与抗逆性相关的多个QTL，这些QTL对干旱胁迫具有显著响应。",
+    "entities": [
+      {
+        "entity": "第3染色体短臂",
+        "type": "LOI",
+        "start": 4,
+        "end": 10
+      }
+    ],
+    "relations": [
+      {
+        "subject": "QTL",
+        "predicate": "QTL-LOI-CHR",
+        "object": "第3染色体短臂"
+      }
+    ],
+    "source_entity_type": "LOI"
+  },
+  {
+    "text": "通过全基因组关联分析，我们定位了小麦第5染色体长臂上的LOI，该区域含有控制籽粒蛋白质含量的重要基因。",
+    "entities": [
+      {
+        "entity": "第5染色体长臂",
+        "type": "LOI",
+        "start": 16,
+        "end": 23
+      }
+    ],
+    "relations": [
+      {
+        "subject": "基因",
+        "predicate": "GENE-LOI-CHR",
+        "object": "第5染色体长臂"
+      }
+    ],
+    "source_entity_type": "LOI"
+  },
+  {
+    "text": "玉米抗病性状的某些QTL集中分布于第8染色体短臂的LOI区间，表明该区域在抗病育种中具有潜在应用价值。",
+    "entities": [
+      {
+        "entity": "第8染色体短臂",
+        "type": "LOI",
+        "start": 15,
+        "end": 21
+      }
+    ],
+    "relations": [
+      {
+        "subject": "QTL",
+        "predicate": "QTL-LOI-CHR",
+        "object": "第8染色体短臂"
+      }
+    ],
+    "source_entity_type": "LOI"
+  }
+]

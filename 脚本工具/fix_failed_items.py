@@ -14,10 +14,10 @@ TRAIN_PATH  = '/home/ubuntu/official_mgbie/dataset/train.json'
 TEST_PATH   = '/home/ubuntu/official_mgbie/dataset/test_A.json'
 
 # 要修复的目标文件
-TARGET_PATH = '/home/ubuntu/bisai/数据/A榜/submit_v9_targeted.json'
+TARGET_PATH = '/home/ubuntu/bisai/数据/A榜/submit_v11_nano.json'
 
-MODEL   = "gpt-4.1-mini"
-WORKERS = 5    # 降低并发避免 429
+MODEL   = "gpt-4.1-mini"  # 用 mini 修复 nano 限速失败条目
+WORKERS = 4    # 降低并发避免 429
 TOP_K   = 4
 
 ILLEGAL_TRIPLETS = {
