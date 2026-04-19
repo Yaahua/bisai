@@ -1,0 +1,137 @@
+=== Overall ===
+v17 total rels: 897
+v21 total rels: 1411
+intersection: 553
+only v17: 344
+only v21: 858
+
+=== Triplet comparison ===
+triplet                        v17   v21 inter  only17  only21
+ABS-AFF-ABS                      1     0     0       1       0
+ABS-AFF-CROP                     6    17     5       1      12
+ABS-AFF-GENE                    35    63    20      15      43
+ABS-AFF-TRT                     68   153    50      18     103
+ABS-AFF-VAR                      1     9     0       1       9
+BIS-AFF-BIS                      4     3     2       2       1
+BIS-AFF-CROP                     2     6     1       1       5
+BIS-AFF-GENE                     0     1     0       0       1
+BIS-AFF-TRT                      1    10     1       0       9
+BM-AFF-GENE                      1    13     0       1      13
+BM-AFF-TRT                       1    27     1       0      26
+GENE-AFF-GENE                   11    11     6       5       5
+GENE-AFF-TRT                    97   152    74      23      78
+QTL-AFF-BIS                      3     0     0       3       0
+QTL-AFF-TRT                      1    24     1       0      23
+TRT-AFF-BIS                      2     2     1       1       1
+TRT-AFF-GENE                     0     1     0       0       1
+TRT-AFF-TRT                     19    27     5      14      22
+VAR-AFF-GENE                     1     0     0       1       0
+VAR-AFF-TRT                      0     3     0       0       3
+CROP-CON-CHR                     0     1     0       0       1
+CROP-CON-CROP                    8    13     8       0       5
+CROP-CON-CROSS                   2     3     0       2       3
+CROP-CON-GENE                   14    31    11       3      20
+CROP-CON-QTL                     1     2     0       1       2
+CROP-CON-VAR                    52    59    37      15      22
+CROSS-CON-CROSS                  0     1     0       0       1
+CROSS-CON-VAR                   12     6     2      10       4
+GENE-CON-GENE                   16    16    11       5       5
+GENE-CON-VAR                     2     1     1       1       0
+MRK-CON-MRK                      0     2     0       0       2
+QTL-CON-GENE                     1     1     1       0       0
+QTL-CON-QTL                      2     9     1       1       8
+TRT-CON-GENE                     0     2     0       0       2
+TRT-CON-TRT                      0     7     0       0       7
+VAR-CON-CROSS                    6     4     0       6       4
+VAR-CON-GENE                     1     3     1       0       2
+VAR-CON-QTL                      1     1     0       1       1
+VAR-CON-VAR                      0     3     0       0       3
+CROP-HAS-TRT                    61    67    26      35      41
+GENE-HAS-TRT                     2     1     0       2       1
+QTL-HAS-TRT                      1     0     0       1       0
+VAR-HAS-TRT                    113   157    87      26      70
+BM-LOI-GENE                      0     1     0       0       1
+BM-LOI-TRT                       1     4     1       0       3
+GENE-LOI-ABS                     0    15     0       0      15
+GENE-LOI-CHR                     9    12     7       2       5
+GENE-LOI-CROP                    1     0     0       1       0
+GENE-LOI-MRK                     5    10     5       0       5
+GENE-LOI-QTL                     2     4     1       1       3
+GENE-LOI-TRT                    24    25     6      18      19
+MRK-LOI-CHR                      8     8     1       7       7
+MRK-LOI-CROSS                    0     2     0       0       2
+MRK-LOI-GENE                     3     4     2       1       2
+MRK-LOI-QTL                     11    16    10       1       6
+MRK-LOI-TRT                     22    33    17       5      16
+QTL-LOI-ABS                      0     2     0       0       2
+QTL-LOI-BIS                      3     4     1       2       3
+QTL-LOI-CHR                     48    83    24      24      59
+QTL-LOI-GENE                    10    11     9       1       2
+QTL-LOI-MRK                      9     0     0       9       0
+QTL-LOI-QTL                      0     1     0       0       1
+QTL-LOI-TRT                    137   147    78      59      69
+QTL-LOI-VAR                      2     0     0       2       0
+TRT-LOI-CHR                      3     3     0       3       3
+ABS-OCI-GST                      5     8     4       1       4
+BIS-OCI-GST                      2     3     2       0       1
+BM-OCI-GST                       0     4     0       0       4
+GENE-OCI-GST                     0     2     0       0       2
+TRT-OCI-GST                     26    43    23       3      20
+VAR-OCI-GST                      1     1     1       0       0
+BM-USE-CROSS                     1     1     1       0       0
+BM-USE-GENE                      1     1     0       1       1
+BM-USE-MRK                       3     3     0       3       3
+BM-USE-QTL                       1     1     0       1       1
+BM-USE-TRT                       3     3     3       0       0
+CROP-USE-BM                      1    20     1       0      19
+CROSS-USE-BM                     0     5     0       0       5
+CROSS-USE-MRK                    1     0     0       1       0
+MRK-USE-BM                       1     5     0       1       5
+MRK-USE-MRK                      0     1     0       0       1
+MRK-USE-VAR                      1     0     0       1       0
+TRT-USE-BM                       0     2     0       0       2
+VAR-USE-BM                       3    11     3       0       8
+
+=== Items with most v21-only relations ===
+idx=259 only17= 0 only21=20 | Conventional breeding approaches like pure line selection, pedigree selection, mutagenesis, wide crosses and polyploidy 
+idx=223 only17= 6 only21=17 | Fengtian had higher contents of K+, NO3-, soluble sugar, and betaine in leaf blades and higher contributions of these os
+idx=315 only17= 0 only21=16 | GWAS identified SNPs associated with leaf area, leaf area index, specific leaf area, leaf relative water content, number
+idx=121 only17= 5 only21=15 | The phenotype of 126 RILs and their parents Tx623A (sorghum) and Sa (Sudangrass) was characterized for two years. The ph
+idx=391 only17= 0 only21=15 | Transcriptome analysis revealed key drought-responsive pathways: starch and sucrose metabolism, phenylpropanoid biosynth
+idx=337 only17=10 only21=14 | These regions were involved in genes controlling stomata length (LR), leaf number (LN), leaf weight (LW), and genetic sc
+idx= 49 only17= 3 only21=12 | A cross between Aininghuang and Jingu 21 produced an F-2 population of 543 foxtail millet plants. A high-density linkage
+idx=199 only17= 2 only21=11 | Drought-related QTL were on linkage groups 1, 2, 3, 5, 6, 7, 9, and 10. Two maturity QTL mapped on linkage groups 7 and 
+idx= 82 only17= 0 only21=10 | A high-density genetic map was constructed for the cross Tx623A x S722 using 103 recombinant inbred lines (RILs). The ma
+idx=189 only17= 1 only21=10 | A population of 188 recombinant inbred lines (RILs) from a cross between grain sorghum M71 and sweet sorghum SS79 was us
+idx=348 only17= 0 only21=10 | Q77 was the control. Proline content, CAT activity, soluble sugar content and MDA content were measured in three drought
+idx= 40 only17= 0 only21= 9 | Different oat cultivars and treatment periods showed significant differences in gene expression after drought and salt s
+idx=132 only17= 1 only21= 9 | Based on three Striga resistance indices, 25 landraces exhibited greater resistance than the resistant check variety Ber
+idx=143 only17= 1 only21= 9 | Quantitative trait loci (QTL) mapping identified 22 QTL for nine panicle-related traits. The increased effect alleles of
+idx=334 only17= 1 only21= 9 | Composite interval mapping detected 10 QTL for SG on chromosomes 3H, 4H, 5H, 6H and 7H. Six QTL were associated with ter
+idx=389 only17= 0 only21= 9 | Association mapping was performed for plant height, panicle height, number of leaves per plant, field fresh grain weight
+idx=145 only17= 1 only21= 8 | Oats regulated Ca2+ concentration through CAX and ACA after salt stress. Oats decoded Ca2+ signals through CML and trans
+idx=250 only17= 0 only21= 8 | Sorghum seedlings were exposed to CdCl2 concentrations of 0, 10, 20, 50, 100, and 150 μM. Cd stress decreased peroxidase
+idx=311 only17= 1 only21= 8 | 120 barley double haploid lines from the 'Steptoe' x 'Morex' cross were screened for plant height, peduncle length, spik
+idx= 54 only17= 8 only21= 7 | QTL alleles for increased height, later flowering and greater total dry matter yield were located on SBI-01 of R9403463-
+
+=== Items with most v17-only relations ===
+idx= 51 only17=22 only21= 0 | Meta-QTLs on CaLG01 and CaLG06 harbor QTLs for traits including days to 50% flowering, days to maturity, days to flower 
+idx=337 only17=10 only21=14 | These regions were involved in genes controlling stomata length (LR), leaf number (LN), leaf weight (LW), and genetic sc
+idx= 54 only17= 8 only21= 7 | QTL alleles for increased height, later flowering and greater total dry matter yield were located on SBI-01 of R9403463-
+idx=364 only17= 8 only21= 0 | GA(3) and kinetin increased photosynthetic rate, stomatal conductance, and transpiration rate. Salicylic acid reduced me
+idx= 91 only17= 7 only21= 6 | A chromosome-anchored genetic map was developed for an oat recombinant inbred population. SNP markers linked to QTL affe
+idx=221 only17= 6 only21= 0 | A OIL-hotspot genomic region was identified, related to drought tolerance traits: dry root biomass, root surface area, l
+idx=223 only17= 6 only21=17 | Fengtian had higher contents of K+, NO3-, soluble sugar, and betaine in leaf blades and higher contributions of these os
+idx= 14 only17= 5 only21= 2 | 101 oat genotypes were evaluated. The genotypes comprised 51 cultivars and 50 breeding lines from eight Canadian oat bre
+idx= 50 only17= 5 only21= 3 | Resistance loci against pathotypes from Texas and Puerto Rico are flanked by SSR markers Ch5-55.0 and Ch5-56.1. The resi
+idx=121 only17= 5 only21=15 | The phenotype of 126 RILs and their parents Tx623A (sorghum) and Sa (Sudangrass) was characterized for two years. The ph
+idx=152 only17= 5 only21= 7 | Overexpression of SiMYB56 upregulates ABA synthesis and response genes under drought. SiMYB56 enhances drought resistanc
+idx=313 only17= 5 only21= 3 | A candidate gene-based association analysis used 363 barley accessions to identify superior haplotypes for HvGL7-2H. Hap
+idx= 11 only17= 4 only21= 2 | Association mapping was done to understand drought and heat tolerance genetic basis in chickpea. Phenotypic data for dro
+idx= 22 only17= 4 only21= 4 | Sorghum exhibits enhanced water uptake and reduced dissipation in arid environments to withstand drought stress. Sorghum
+idx= 45 only17= 4 only21= 4 | DEGs and DEMs participate in starch and sucrose metabolism and flavonoid biosynthesis. These processes improve drought t
+idx= 66 only17= 4 only21= 0 | A field study tested the integrated effects of two planting densities (67,500 and 90,000 plants ha⁻¹) and three N rates 
+idx=125 only17= 4 only21= 4 | Five stable QTLs are co-located on chromosome 3H flanked by markers bpb6282426 and bpb4786261. They are Qgna.sau-3H for 
+idx=202 only17= 4 only21= 2 | Two barley populations, W89001002003 x I60049 (W x I, six-row type) and Merit x H93174006 (M x H, two-row type), contain
+idx=207 only17= 4 only21= 3 | QTLs for root volume, root fresh weight, and root dry weight co-localized on chromosome SBI-04. These traits are positiv
+idx=256 only17= 4 only21= 3 | Bulked segregant analysis used progeny lines from a cross between Cascade and AC Marie. It identified randomly amplified

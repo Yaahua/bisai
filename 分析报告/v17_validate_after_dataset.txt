@@ -1,0 +1,48 @@
+模式: validate
+
+=== 在训练集上验证白名单规则精确率 ===
+
+关系     TP     FP     精确率      召回贡献
+--------------------------------------------------
+LOI       106     33    76.3%
+AFF        12      3    80.0%
+HAS        20      4    83.3%
+CON        20      3    87.0%
+USE         0      0     0.0%
+OCI         0      0     0.0%
+--------------------------------------------------
+合计        158     43    78.6%
+
+=== FP 样本分析 ===
+
+[LOI] FP 样本：
+  [QTL]QTL --LOI--> [TRT]abiotic stress tolerance
+  触发词: "for" | 规则: QTL/MRK/GENE for TRT
+  [QTL]qPH1 --LOI--> [CHR]Chr 6
+  触发词: ", qPH2, qPH3) were detected on" | 规则: mapped to/located on CHR
+  [QTL]qPH1 --LOI--> [CHR]Chr 9
+  触发词: ", qPH2, qPH3) were detected on Chr 6 and" | 规则: mapped to/located on CHR
+
+[AFF] FP 样本：
+  [GENE]N1 --AFF--> [TRT]covered/hulless character
+  触发词: "controls the" | 规则: GENE/QTL controls TRT（短距离）
+  [GENE]CaTIFY4b --AFF--> [TRT]chickpea seed weight
+  触发词: "regulates" | 规则: GENE/QTL regulates TRT
+  [GENE]CaTIFY4b --AFF--> [TRT]organ size
+  触发词: "regulates chickpea seed weight and" | 规则: GENE/QTL regulates TRT
+
+[HAS] FP 样本：
+  [CROP]broomcorn millet --HAS--> [TRT]agronomic traits
+  触发词: "varieties with improved" | 规则: CROP/VAR with high TRT
+  [VAR]QQ57 --HAS--> [TRT]high salt tolerance thresholds
+  触发词: "exhibited" | 规则: CROP/VAR showed TRT
+  [VAR]over-expression plants --HAS--> [TRT]germination rate
+  触发词: "showed decreased" | 规则: CROP/VAR showed TRT
+
+[CON] FP 样本：
+  [CROP]lentil --CON--> [VAR]Northfield
+  触发词: "accession ILL5588 ('" | 规则: CROP variety VAR
+  [CROP]cowpea --CON--> [VAR]TVu2185
+  触发词: "line" | 规则: CROP variety VAR
+  [CROP]yard-long bean --CON--> [VAR]TVu6642
+  触发词: "line" | 规则: CROP variety VAR

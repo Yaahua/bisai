@@ -1,0 +1,10 @@
+submit_v30_fixed: ent_avg=7.18 rel_avg=2.48 no_rel=29.5%
+submit_v31_trim_none: ent_avg=7.18 rel_avg=2.43 no_rel=30.5%
+submit_v31_trim_illegalish: ent_avg=7.18 rel_avg=2.32 no_rel=31.8%
+submit_v31_plus_safe_selective: ent_avg=7.18 rel_avg=3.04 no_rel=25.2%
+submit_v31_plus_safe_core: ent_avg=7.18 rel_avg=2.74 no_rel=27.3%
+
+plus_safe_selective_added_total=222
+plus_safe_selective_added_types=ABS-AFF-GENE:33, QTL-LOI-TRT:30, ABS-AFF-TRT:29, VAR-HAS-TRT:27, QTL-LOI-CHR:25, GENE-AFF-TRT:22, CROP-HAS-TRT:18, CROP-CON-VAR:17, GENE-LOI-TRT:12, MRK-LOI-TRT:6, TRT-OCI-GST:3
+plus_safe_core_added_total=103
+plus_safe_core_added_types=QTL-LOI-TRT:30, ABS-AFF-TRT:29, VAR-HAS-TRT:27, CROP-CON-VAR:17

@@ -1,0 +1,94 @@
+=== 所有提交文件统计 ===
+文件名                                              条数     实体均值     关系均值     无关系%
+--------------------------------------------------------------------------------
+sc_raw_samples.json                           ERROR: 'str' object has no attribute 'get'
+submit_ensemble.json                            400     9.30     5.28    16.0%
+submit_ensemble_v2_intersect.json               400     6.13     1.42    52.5%
+submit_ensemble_v3.json                         400     6.91     2.16    38.2%
+submit_ensemble_v4a.json                        400     7.67     2.62    32.0%
+submit_ensemble_v4b.json                        400     5.87     1.20    54.8%
+submit_optimized.json                           400     7.56     4.14    13.5%
+submit_sc_gemini.json                           400     6.43     3.44    22.0%
+submit_v10_gemini.json                          400     7.58     3.51    25.8%
+submit_v11_nano.json                            400     7.10     2.64    22.8%
+submit_v12_fixed.json                           400     5.57     1.15    64.0%
+submit_v12_reverse_scir.json                    400     5.57     1.77    48.8%
+submit_v13_e3clean.json                         400     6.91     1.20    57.0%
+submit_v13_e3plus.json                          400     6.91     2.16    38.2%
+submit_v13_e3v12.json                           400     6.91     1.20    57.0%
+submit_v14_recall_boost.json                    400     6.91     2.86    24.2%
+submit_v15_glm.json                              99     8.66     6.05     3.0%
+submit_v16_rules.json                           400     6.91     2.75    30.2%
+submit_v17_whitelist.json                       400     6.91     2.24    35.8%
+submit_v18_whitelist.json                       400     6.91     2.26    34.8%
+submit_v19_recovered.json                       400     6.91     2.34    34.5%
+submit_v2.json                                  400     7.84     4.37     9.5%
+submit_v20_verA_v18only.json                    400     6.91     2.26    34.8%
+submit_v20_verB_v19_sc.json                     400     6.91     4.47    13.0%
+submit_v20_verC_5source_2vote.json              400     6.91     2.87    28.0%
+submit_v20_verD_v18_sc_cross.json               400     6.91     2.93    26.5%
+submit_v20_verE_v19_sc_cross.json               400     6.91     3.01    26.5%
+submit_v20_verF_sc_only.json                    400     6.43     3.44    22.0%
+submit_v21_elite.json                           400     7.23     3.53    20.2%
+submit_v29_postprocessed.json                   400     7.18     2.21    33.8%
+submit_v3.json                                  400     7.56     4.14    13.5%
+submit_v30_safe.json                            400     6.91     2.60    32.0%
+submit_v30_supported_alltypes.json              400     6.91     3.12    27.0%
+submit_v30_ultrasafe.json                       400     6.91     2.46    33.8%
+submit_v4.json                                  400     7.56     3.69    16.2%
+submit_v5.json                                  400     7.84     5.25     7.5%
+submit_v6_rag.json                              400     7.89     3.85    19.2%
+submit_v7_cicl_v2.json                          400     7.97     2.85    32.8%
+submit_v9_clean.json                            400     6.93     3.35    25.0%
+submit_v9_targeted.json                         400     6.93     3.50    24.0%
+submit_v9v12_merged.json                        400     6.93     1.84    44.5%
+test_A.json                                     400     0.00     0.00   100.0%
+
+
+=== 已知提交分数 ===
+  v2                             0.3423
+  v1/submit.json                 0.3457
+  v3                             0.3482
+  v7_cicl_v2                     0.3746
+  v9_clean                       0.3893
+  v16_rules                      0.4077
+  ensemble_v4a                   0.4079
+  ensemble_v3                    0.4172
+  v21_nli_v17                    0.4192
+  v25_ds_validate                0.4203
+  v22_schema_filter              0.4208
+  v26_filtered                   0.4208
+  v17_whitelist                  0.4224
+
+
+=== v17_whitelist 关系类型分布 ===
+
+关系标签分布:
+  LOI          298 (33.2%)
+  AFF          254 (28.3%)
+  HAS          177 (19.7%)
+  CON          118 (13.2%)
+  OCI           34 (3.8%)
+  USE           16 (1.8%)
+
+三元组类型分布 (Top 20):
+  QTL-LOI-TRT                    137
+  VAR-HAS-TRT                    113
+  GENE-AFF-TRT                     97
+  ABS-AFF-TRT                     68
+  CROP-HAS-TRT                     61
+  CROP-CON-VAR                     52
+  QTL-LOI-CHR                     48
+  ABS-AFF-GENE                    35
+  TRT-OCI-GST                     26
+  GENE-LOI-TRT                     24
+  MRK-LOI-TRT                     22
+  TRT-AFF-TRT                     19
+  GENE-CON-GENE                    16
+  CROP-CON-GENE                    14
+  CROSS-CON-VAR                     12
+  MRK-LOI-QTL                     11
+  GENE-AFF-GENE                    11
+  QTL-LOI-GENE                    10
+  GENE-LOI-CHR                      9
+  QTL-LOI-MRK                      9

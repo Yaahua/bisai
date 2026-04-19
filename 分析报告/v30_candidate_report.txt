@@ -1,0 +1,25 @@
+/home/ubuntu/bisai/分析报告/v30_candidate_report.txt
+=== Baseline ===
+v17_whitelist	items=400	ent_avg=6.91	rel_avg=2.24	no_rel=35.8%
+
+=== v30_ultrasafe ===
+added_total=96	ent_avg=6.91	rel_avg=2.48	no_rel=32.8%
+support_hist=v10:64, v7:19, v9:13
+top_triplets=ABS-AFF-TRT:51, QTL-LOI-CHR:22, CROP-CON-VAR:14, GENE-LOI-TRT:7, VAR-USE-BM:2
+json=/home/ubuntu/bisai/数据/A榜/submit_v30_ultrasafe.json
+zip=/home/ubuntu/bisai/数据/A榜/submit_v30_ultrasafe.zip
+
+=== v30_safe ===
+added_total=157	ent_avg=6.91	rel_avg=2.63	no_rel=30.8%
+support_hist=v10:102, v9:29, v7:26
+top_triplets=ABS-AFF-TRT:51, ABS-AFF-GENE:27, QTL-LOI-CHR:22, CROP-CON-VAR:14, QTL-AFF-TRT:13, BM-AFF-TRT:11, CROP-USE-BM:10, GENE-LOI-TRT:7, VAR-USE-BM:2
+json=/home/ubuntu/bisai/数据/A榜/submit_v30_safe.json
+zip=/home/ubuntu/bisai/数据/A榜/submit_v30_safe.zip
+
+=== v30_supported_alltypes ===
+added_total=415	ent_avg=6.91	rel_avg=3.28	no_rel=25.0%
+support_hist=v10:278, v9:83, v7:54
+top_triplets=VAR-HAS-TRT:51, ABS-AFF-TRT:51, QTL-LOI-TRT:42, GENE-AFF-TRT:37, ABS-AFF-GENE:27, CROP-HAS-TRT:23, QTL-LOI-CHR:22, CROP-CON-VAR:14, QTL-AFF-TRT:13, TRT-OCI-GST:13, BM-AFF-TRT:11, CROP-USE-BM:10, TRT-AFF-TRT:9, GENE-LOI-TRT:7, MRK-LOI-TRT:7
+json=/home/ubuntu/bisai/数据/A榜/submit_v30_supported_alltypes.json
+zip=/home/ubuntu/bisai/数据/A榜/submit_v30_supported_alltypes.zip
+

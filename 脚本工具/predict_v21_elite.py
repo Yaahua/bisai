@@ -16,6 +16,7 @@ import re
 import sys
 import time
 import threading
+from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -27,9 +28,29 @@ from copy import deepcopy
 sys.stdout.reconfigure(line_buffering=True)
 
 # ===== 路径 =====
-TRAIN_PATH = '/home/ubuntu/official_mgbie/dataset/train.json'
-TEST_PATH = '/home/ubuntu/official_mgbie/dataset/test_A.json'
-OUTPUT_PATH = '/home/ubuntu/bisai/数据/A榜/submit_v21_elite.json'
+BASE_DIR = Path(__file__).resolve().parents[1]
+
+
+def pick_existing_path(*candidates):
+    for p in candidates:
+        if p and Path(p).exists():
+            return str(Path(p))
+    return str(Path(candidates[0])) if candidates and candidates[0] else ''
+
+
+TRAIN_PATH = pick_existing_path(
+    os.environ.get('MGBIE_TRAIN_PATH'),
+    BASE_DIR / '数据/训练集/train.json',
+    '/home/ubuntu/official_mgbie/dataset/train.json',
+    '/home/ubuntu/CCL2026-BreedIE/dataset/train.json',
+)
+TEST_PATH = pick_existing_path(
+    os.environ.get('MGBIE_TEST_PATH'),
+    BASE_DIR / '数据/A榜/test_A.json',
+    '/home/ubuntu/official_mgbie/dataset/test_A.json',
+    '/home/ubuntu/CCL2026-BreedIE/dataset/test_A.json',
+)
+OUTPUT_PATH = str(BASE_DIR / '数据/A榜/submit_v21_elite.json')
 os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
 
 # ===== 超参数 =====
@@ -56,6 +77,11 @@ ILLEGAL_TRIPLETS = {
 
 # ===== 加载数据 =====
 print("加载数据...", flush=True)
+if not Path(TRAIN_PATH).exists() or not Path(TEST_PATH).exists():
+    raise FileNotFoundError(
+        f"未找到数据文件。TRAIN_PATH={TRAIN_PATH} TEST_PATH={TEST_PATH}。"
+        "可通过环境变量 MGBIE_TRAIN_PATH / MGBIE_TEST_PATH 指定。"
+    )
 with open(TRAIN_PATH, encoding='utf-8') as f:
     TRAIN_DATA = json.load(f)
 with open(TEST_PATH, encoding='utf-8') as f:

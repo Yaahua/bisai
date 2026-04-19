@@ -1,0 +1,60 @@
+=== v21相对v17的新增关系支持情况 ===
+总新增关系: 858
+none          443
+v10           278
+v9             83
+v7             54
+
+=== 各三元组的支持分布（Top 25 by total new relations） ===
+ABS-AFF-TRT                  total=103 | none:52; v10:35; v7:13; v9:3
+GENE-AFF-TRT                 total=78  | none:41; v10:34; v9:2; v7:1
+VAR-HAS-TRT                  total=70  | v10:30; none:19; v9:16; v7:5
+QTL-LOI-TRT                  total=69  | none:27; v10:22; v7:12; v9:8
+QTL-LOI-CHR                  total=59  | none:37; v10:20; v7:1; v9:1
+ABS-AFF-GENE                 total=43  | v10:18; none:16; v7:6; v9:3
+CROP-HAS-TRT                 total=41  | none:18; v10:15; v9:8
+BM-AFF-TRT                   total=26  | none:15; v9:8; v10:3
+QTL-AFF-TRT                  total=23  | v10:12; none:10; v7:1
+TRT-AFF-TRT                  total=22  | none:13; v10:7; v7:2
+CROP-CON-VAR                 total=22  | none:8; v10:7; v7:4; v9:3
+TRT-OCI-GST                  total=20  | v10:11; none:7; v9:2
+CROP-CON-GENE                total=20  | none:14; v10:4; v9:2
+GENE-LOI-TRT                 total=19  | none:12; v9:6; v7:1
+CROP-USE-BM                  total=19  | none:9; v10:5; v9:5
+MRK-LOI-TRT                  total=16  | none:9; v10:7
+GENE-LOI-ABS                 total=15  | none:15
+BM-AFF-GENE                  total=13  | none:11; v7:1; v9:1
+ABS-AFF-CROP                 total=12  | none:7; v10:4; v9:1
+BIS-AFF-TRT                  total=9   | none:7; v10:2
+ABS-AFF-VAR                  total=9   | none:5; v7:2; v9:2
+VAR-USE-BM                   total=8   | none:6; v10:2
+QTL-CON-QTL                  total=8   | none:8
+TRT-CON-TRT                  total=7   | none:5; v9:2
+MRK-LOI-CHR                  total=7   | none:7
+
+=== 新增最多的样本（附各旧模型支持数） ===
+idx=259 new=20 | v7= 0 v9= 9 v10= 0 | Conventional breeding approaches like pure line selection, pedigree selection, mutagenesis, wide crosses and polyploidy 
+idx=223 new=17 | v7= 0 v9= 6 v10= 4 | Fengtian had higher contents of K+, NO3-, soluble sugar, and betaine in leaf blades and higher contributions of these os
+idx=315 new=16 | v7= 0 v9= 0 v10= 0 | GWAS identified SNPs associated with leaf area, leaf area index, specific leaf area, leaf relative water content, number
+idx=121 new=15 | v7= 0 v9= 5 v10= 0 | The phenotype of 126 RILs and their parents Tx623A (sorghum) and Sa (Sudangrass) was characterized for two years. The ph
+idx=391 new=15 | v7= 0 v9= 0 v10= 0 | Transcriptome analysis revealed key drought-responsive pathways: starch and sucrose metabolism, phenylpropanoid biosynth
+idx=337 new=14 | v7= 0 v9= 0 v10=10 | These regions were involved in genes controlling stomata length (LR), leaf number (LN), leaf weight (LW), and genetic sc
+idx= 49 new=12 | v7=11 v9= 0 v10= 0 | A cross between Aininghuang and Jingu 21 produced an F-2 population of 543 foxtail millet plants. A high-density linkage
+idx=199 new=11 | v7= 0 v9= 0 v10= 0 | Drought-related QTL were on linkage groups 1, 2, 3, 5, 6, 7, 9, and 10. Two maturity QTL mapped on linkage groups 7 and 
+idx= 82 new=10 | v7= 0 v9= 0 v10= 0 | A high-density genetic map was constructed for the cross Tx623A x S722 using 103 recombinant inbred lines (RILs). The ma
+idx=189 new=10 | v7= 0 v9= 0 v10= 0 | A population of 188 recombinant inbred lines (RILs) from a cross between grain sorghum M71 and sweet sorghum SS79 was us
+idx=348 new=10 | v7= 0 v9= 2 v10= 0 | Q77 was the control. Proline content, CAT activity, soluble sugar content and MDA content were measured in three drought
+idx= 40 new= 9 | v7= 0 v9= 0 v10= 9 | Different oat cultivars and treatment periods showed significant differences in gene expression after drought and salt s
+idx=132 new= 9 | v7= 0 v9= 0 v10= 8 | Based on three Striga resistance indices, 25 landraces exhibited greater resistance than the resistant check variety Ber
+idx=143 new= 9 | v7= 1 v9= 0 v10= 0 | Quantitative trait loci (QTL) mapping identified 22 QTL for nine panicle-related traits. The increased effect alleles of
+idx=334 new= 9 | v7= 0 v9= 0 v10= 5 | Composite interval mapping detected 10 QTL for SG on chromosomes 3H, 4H, 5H, 6H and 7H. Six QTL were associated with ter
+idx=389 new= 9 | v7= 0 v9= 0 v10= 9 | Association mapping was performed for plant height, panicle height, number of leaves per plant, field fresh grain weight
+idx=145 new= 8 | v7= 1 v9= 0 v10= 0 | Oats regulated Ca2+ concentration through CAX and ACA after salt stress. Oats decoded Ca2+ signals through CML and trans
+idx=250 new= 8 | v7= 0 v9= 0 v10= 0 | Sorghum seedlings were exposed to CdCl2 concentrations of 0, 10, 20, 50, 100, and 150 μM. Cd stress decreased peroxidase
+idx=311 new= 8 | v7= 2 v9= 0 v10= 0 | 120 barley double haploid lines from the 'Steptoe' x 'Morex' cross were screened for plant height, peduncle length, spik
+idx= 54 new= 7 | v7= 0 v9= 0 v10= 7 | QTL alleles for increased height, later flowering and greater total dry matter yield were located on SBI-01 of R9403463-
+idx=147 new= 7 | v7= 0 v9= 3 v10= 1 | The spring six-row cross Steptoe (dormant)/Morex (non-dormant) doubled haploid mapping population was evaluated in green
+idx=152 new= 7 | v7= 1 v9= 2 v10= 2 | Overexpression of SiMYB56 upregulates ABA synthesis and response genes under drought. SiMYB56 enhances drought resistanc
+idx=159 new= 7 | v7= 0 v9= 4 v10= 0 | The dehydration-tolerant cultivars IC-403579 and Prasad showed lower lipid peroxidation and electrolyte leakage than the
+idx=285 new= 7 | v7= 0 v9= 0 v10= 4 | NaCl treatments inhibited the growth and photosynthesis of the sweet sorghum cultivar Lvjuren more severely than the cul
+idx=383 new= 7 | v7= 0 v9= 0 v10= 7 | Hulled and hulless oat cultivars had similar lodging susceptibility to nitrogen addition. They produced lower dry weight

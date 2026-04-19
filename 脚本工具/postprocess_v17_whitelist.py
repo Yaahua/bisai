@@ -20,13 +20,26 @@ postprocess_v17_whitelist.py
 """
 
 import json
+import os
 import re
 import sys
+from pathlib import Path
 from copy import deepcopy
 
-INPUT_PATH  = '数据/A榜/submit_ensemble_v3.json'
-OUTPUT_PATH = '数据/A榜/submit_v17_whitelist.json'
-TRAIN_PATH  = '/home/ubuntu/CCL2026-BreedIE/dataset/train.json'
+BASE_DIR = Path(__file__).resolve().parents[1]
+INPUT_PATH  = str(BASE_DIR / '数据/A榜/submit_ensemble_v3.json')
+OUTPUT_PATH = str(BASE_DIR / '数据/A榜/submit_v17_whitelist.json')
+TRAIN_PATH  = next(
+    (
+        str(p) for p in [
+            Path(os.environ['MGBIE_TRAIN_PATH']) if os.environ.get('MGBIE_TRAIN_PATH') else None,
+            BASE_DIR / '数据/训练集/train.json',
+            Path('/home/ubuntu/official_mgbie/dataset/train.json'),
+            Path('/home/ubuntu/CCL2026-BreedIE/dataset/train.json'),
+        ] if p and p.exists()
+    ),
+    str(BASE_DIR / '数据/训练集/train.json')
+)
 
 # ===== 白名单规则定义 =====
 # 格式: (label, head_types, tail_types, pattern, max_dist, description)
@@ -345,6 +358,10 @@ if __name__ == '__main__':
     print(f"模式: {mode}")
     
     # 加载训练集
+    if not Path(TRAIN_PATH).exists():
+        raise FileNotFoundError(
+            f'未找到训练集文件：{TRAIN_PATH}。可通过环境变量 MGBIE_TRAIN_PATH 指定。'
+        )
     train_data = json.load(open(TRAIN_PATH, encoding='utf-8'))
     
     if mode == 'validate':
