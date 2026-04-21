@@ -1,0 +1,19 @@
+base=/home/ubuntu/bisai/数据/A榜/submit_v32_plus_abs_var.json
+base: ent_avg=7.18 rel_avg=2.62 no_rel=28.2%
+反馈: v32_plus_abs_var_crop(+CROP-CON-VAR:17) → 0.4469 (掉分)
+结论: CROP-CON-VAR 已证伪，后续排除
+
+submit_v36_gene_abs: added=33 ent_avg=7.18 rel_avg=2.70 no_rel=27.8%
+  types=ABS-AFF-GENE:33
+submit_v36_qtl_loi: added=55 ent_avg=7.18 rel_avg=2.76 no_rel=27.3%
+  types=QTL-LOI-TRT:30, QTL-LOI-CHR:25
+submit_v36_gene_trt: added=22 ent_avg=7.18 rel_avg=2.67 no_rel=27.5%
+  types=GENE-AFF-TRT:22
+submit_v36_crop_has: added=18 ent_avg=7.18 rel_avg=2.67 no_rel=28.0%
+  types=CROP-HAS-TRT:18
+submit_v36_gene_abs_qtl: added=88 ent_avg=7.18 rel_avg=2.84 no_rel=26.8%
+  types=ABS-AFF-GENE:33, QTL-LOI-TRT:30, QTL-LOI-CHR:25
+submit_v36_gene_abs_trt: added=55 ent_avg=7.18 rel_avg=2.76 no_rel=27.0%
+  types=ABS-AFF-GENE:33, GENE-AFF-TRT:22
+submit_v36_top3: added=73 ent_avg=7.18 rel_avg=2.80 no_rel=26.8%
+  types=ABS-AFF-GENE:33, GENE-AFF-TRT:22, CROP-HAS-TRT:18
