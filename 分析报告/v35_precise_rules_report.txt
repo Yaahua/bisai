@@ -1,0 +1,17 @@
+base=/home/ubuntu/bisai/数据/A榜/submit_v32_plus_abs_var.json
+base: ent_avg=7.18 rel_avg=2.62 no_rel=28.2%
+
+submit_v35_qtl_loi_trt: added=0 ent_avg=7.18 rel_avg=2.62 no_rel=28.2%
+  types=
+submit_v35_qtl_aff_trt: added=0 ent_avg=7.18 rel_avg=2.62 no_rel=28.2%
+  types=
+submit_v35_crop_has_trt: added=4 ent_avg=7.18 rel_avg=2.63 no_rel=28.0%
+  types=CROP-HAS-TRT:4
+submit_v35_bm_aff_trt: added=0 ent_avg=7.18 rel_avg=2.62 no_rel=28.2%
+  types=
+submit_v35_mrk_loi_chr: added=6 ent_avg=7.18 rel_avg=2.63 no_rel=28.2%
+  types=MRK-LOI-CHR:6
+submit_v35_qtl_combo: added=0 ent_avg=7.18 rel_avg=2.62 no_rel=28.2%
+  types=
+submit_v35_all_precise: added=10 ent_avg=7.18 rel_avg=2.65 no_rel=28.0%
+  types=MRK-LOI-CHR:6, CROP-HAS-TRT:4

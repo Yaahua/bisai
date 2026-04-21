@@ -1,0 +1,17 @@
+base=/home/ubuntu/bisai/数据/A榜/submit_v32_plus_abs_var.json
+base stats: rel_avg=2.62
+
+submit_v33_gene_abs: added=33 ent_avg=7.18 rel_avg=2.70 no_rel=27.8%
+  types=ABS-AFF-GENE:33
+submit_v33_gene_trt: added=22 ent_avg=7.18 rel_avg=2.67 no_rel=27.5%
+  types=GENE-AFF-TRT:22
+submit_v33_crop_has: added=18 ent_avg=7.18 rel_avg=2.67 no_rel=28.0%
+  types=CROP-HAS-TRT:18
+submit_v33_gene_combo: added=55 ent_avg=7.18 rel_avg=2.76 no_rel=27.0%
+  types=ABS-AFF-GENE:33, GENE-AFF-TRT:22
+submit_v33_safe_trio: added=68 ent_avg=7.18 rel_avg=2.79 no_rel=27.0%
+  types=ABS-AFF-GENE:33, CROP-HAS-TRT:18, CROP-CON-VAR:17
+submit_v33_qtl_gene: added=55 ent_avg=7.18 rel_avg=2.76 no_rel=27.3%
+  types=QTL-LOI-TRT:30, QTL-LOI-CHR:25
+submit_v33_mega: added=145 ent_avg=7.18 rel_avg=2.98 no_rel=25.2%
+  types=ABS-AFF-GENE:33, QTL-LOI-TRT:30, QTL-LOI-CHR:25, GENE-AFF-TRT:22, CROP-HAS-TRT:18, CROP-CON-VAR:17

@@ -1,0 +1,11 @@
+base=/home/ubuntu/bisai/数据/A榜/submit_v32_plus_abs_var.json
+base: ent_avg=7.18 rel_avg=2.62 no_rel=28.2%
+
+submit_v34_gene_trt_rule: added=4 ent_avg=7.18 rel_avg=2.63 no_rel=27.8%
+  types={('GENE', 'AFF', 'TRT'): 4}
+submit_v34_crop_has_rule: added=5 ent_avg=7.18 rel_avg=2.63 no_rel=28.2%
+  types={('CROP', 'HAS', 'TRT'): 5}
+submit_v34_abs_gene_rule: added=0 ent_avg=7.18 rel_avg=2.62 no_rel=28.2%
+  types={}
+submit_v34_all_rules: added=116 ent_avg=7.18 rel_avg=2.91 no_rel=27.3%
+  types={('QTL', 'AFF', 'TRT'): 103, ('GENE', 'LOI', 'TRT'): 3, ('CROP', 'HAS', 'TRT'): 5, ('GENE', 'AFF', 'TRT'): 4, ('BM', 'AFF', 'TRT'): 1}
