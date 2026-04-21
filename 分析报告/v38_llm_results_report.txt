@@ -1,0 +1,7 @@
+base=/home/ubuntu/bisai/数据/A榜/submit_v36_gene_abs.json (score=0.4487)
+LLM 关系抽取结果（111个无关系样本）:
+submit_v38_llm_strict: added=196 rel_avg=3.19 no_rel=12.0%
+  types=QTL-AFF-TRT:20, GENE-AFF-TRT:15, VAR-HAS-TRT:13, CROP-HAS-TRT:11, BM-USE-GENE:10, BM-AFF-TRT:9, CROSS-CON-VAR:9, VAR-CON-VAR:8, CROP-CON-CROP:8, ABS-AFF-GENE:8
+submit_v38_llm_highconf: added=127 rel_avg=3.02 no_rel=15.2%
+  types=QTL-AFF-TRT:20, GENE-AFF-TRT:15, VAR-HAS-TRT:13, CROP-HAS-TRT:11, BM-USE-GENE:10, BM-AFF-TRT:9, CROSS-CON-VAR:9, VAR-CON-VAR:8, CROP-CON-CROP:8, ABS-AFF-GENE:8
+submit_v38_llm_qtl: added_llm=196 added_qtl=52 total=248 rel_avg=3.32

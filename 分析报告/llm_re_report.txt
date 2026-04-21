@@ -1,0 +1,19 @@
+base=/home/ubuntu/bisai/数据/A榜/submit_v36_gene_abs.json (score=0.4487)
+策略: 对 111 个无关系样本用 gpt-4.1-mini 抽取关系
+实际添加关系: 248
+关系类型分布:
+  QTL-AFF-TRT: 20
+  GENE-AFF-TRT: 15
+  VAR-HAS-TRT: 13
+  CROP-HAS-TRT: 11
+  BM-USE-GENE: 10
+  BM-AFF-TRT: 9
+  CROSS-CON-VAR: 9
+  VAR-CON-VAR: 8
+  CROP-CON-CROP: 8
+  ABS-AFF-GENE: 8
+  CROP-HAS-GENE: 6
+  TRT-AFF-TRT: 5
+  QTL-LOI-CHR: 5
+  CROSS-HAS-TRT: 4
+  TRT-OCI-VAR: 4
