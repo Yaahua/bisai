@@ -1,0 +1,172 @@
+============================================================
+v41 规则补充报告
+============================================================
+
+底座: /home/ubuntu/bisai/数据/A榜/submit_v36_gene_abs.json (score=0.4487)
+总新增候选: 1083
+
+各类型新增候选:
+
+  GENE-AFF-GENE: 412 条
+    样本40: AsTCP021 --[, astcp033, astcp044, astcp053, and]--> AsTCP058
+    样本40: AsTCP033 --[, astcp044, astcp053, and]--> AsTCP058
+    样本40: AsTCP044 --[, astcp053, and]--> AsTCP058
+    样本40: AsTCP053 --[, and]--> AsTCP058
+    样本40: AsTCP058 --[, astcp033, astcp044, astcp053, and]--> AsTCP021
+
+  TRT-AFF-TRT: 210 条
+    样本5: root traits --[. genome-wide association studies of]--> root-related traits
+    样本5: root-related traits --[. genome-wide association studies of]--> root traits
+    样本9: inositol --[and ethanolamine contents increased in z]--> Glycine
+    样本9: inositol --[and ethanolamine contents increased in z]--> serine relative contents
+    样本9: ethanolamine contents --[increased in zhonggu2.]--> Glycine
+
+  CROP-CON-GENE: 89 条
+    样本34: foxtail millet --[(cold stress tolerance in setaria italic]--> SiCST1
+    样本43: Tartary buckwheat --[from]--> FtMYB10
+    样本58: foxtail millet --[in]--> drought-responsive genes
+    样本67: Setaria italica --[were identified from the]--> HAK/KUP/KT proteins
+    样本70: sorghum --[negatively regulates salt tolerance and ]--> SbMYBHv33
+
+  GENE-LOI-TRT: 64 条
+    样本44: drought-responsive protein coding genes --[. superior alleles associated with]--> drought tolerance
+    样本55: NBS-LRR proteins --[, indicating nbs-lrr genes are candidate]--> greenbug resistance
+    样本55: NBS-LRR genes --[are candidates for]--> greenbug resistance
+    样本55: SgR1 --[. genomic comparison of the]--> greenbug resistance
+    样本64: HvGA20ox2 --[. this fragment is associated with]--> lower gene expression
+
+  VAR-HAS-TRT: 61 条
+    样本0: genotypes --[with contrasting sensitivity to ln. ln i]--> primary and lateral root growth
+    样本9: Zhonggu2 --[increased in]--> ethanolamine contents
+    样本26: Tx623A --[and sudangrass sa with rad-seq. qtl mapp]--> plant height
+    样本26: Tx623A --[and sudangrass sa with rad-seq. qtl mapp]--> PH
+    样本26: Tx623A --[and sudangrass sa with rad-seq. qtl mapp]--> stem diameter
+
+  CROP-HAS-TRT: 58 条
+    样本0: Tartary buckwheat --[genotypes with contrasting sensitivity t]--> primary and lateral root growth
+    样本11: chickpea --[. phenotypic data for]--> drought tolerance root traits
+    样本18: foxtail millet --[is a major indicator of nutritional qual]--> Hull color (HC)
+    样本18: foxtail millet --[) is a major indicator of nutritional qu]--> HC
+    样本24: millet --[reductions of 14.9% and 36.9%. photosynt]--> yield
+
+  MRK-LOI-TRT: 57 条
+    样本13: 367 markers --[(dart and ssrs) and an in vitro assay fo]--> germination stimulant activity
+    样本13: DArT --[and ssrs) and an in vitro assay for]--> germination stimulant activity
+    样本13: SSRs --[) and an in vitro assay for]--> germination stimulant activity
+    样本19: marker-trait associations --[(mtas) for]--> pods/plant
+    样本19: marker-trait associations --[(mtas) for pods/plant,]--> seeds/pod
+
+  BM-AFF-TRT: 46 条
+    样本4: Composite interval mapping --[identified six qtls for]--> 100-seed weight
+    样本4: Composite interval mapping --[identified six qtls for 100-seed weight ]--> days to flowering
+    样本5: Genome-wide association studies --[of]--> root-related traits
+    样本19: Genome-wide association mapping --[identified 39 significant marker-trait a]--> pods/plant
+    样本19: Genome-wide association mapping --[identified 39 significant marker-trait a]--> seeds/pod
+
+  CROSS-CON-VAR: 38 条
+    样本13: 354 recombinant inbred lines --[from]--> SRN39
+    样本13: 354 recombinant inbred lines --[from srn39 (low stimulant) x]--> Shanqui Red
+    样本26: recombinant inbred line population --[between sorghum]--> Tx623A
+    样本26: recombinant inbred line population --[between sorghum tx623a and sudangrass]--> Sa
+    样本48: F-6 RIL population --[from the cross]--> Yugu 5
+
+  QTL-LOI-CHR: 23 条
+    样本51: QTLs --[on calg01 and]--> CaLG06
+    样本53: carotenoid QTL --[. for beta-carotene, five qtl were on]--> chromosomes 1, 2, and 10
+    样本91: Three QTL --[on chromosomes]--> 7C-17A
+    样本104: QTL --[(qpj6.1) on]--> chromosome 6
+    样本104: QTLs --[(qfbw1.1, qfbw6.1, qfbw7.1, and qfbw9.1)]--> chromosomes 1, 6, 7, and 9
+
+  VAR-USE-BM: 17 条
+    样本26: Tx623A --[and sudangrass sa with]--> RAD-seq
+    样本26: Tx623A --[and sudangrass sa with rad-seq.]--> QTL mapping
+    样本26: Sa --[with]--> RAD-seq
+    样本26: Sa --[with rad-seq.]--> QTL mapping
+    样本96: hulless --[used 87 barley landraces (39 hulled, 48]--> GWAS
+
+  MRK-LOI-CHR: 5 条
+    样本150: SLAFs --[with 26,693 snps and spanned 896.74 cm o]--> chromosomes
+    样本150: SNPs --[and spanned 896.74 cm on seven]--> chromosomes
+    样本268: SSRs --[and snps, covering all 21 oat chromosome]--> chromosome 17A/7C
+    样本268: SNPs --[, covering all 21 oat chromosomes. a qtl]--> chromosome 17A/7C
+    样本305: Block43 --[and block697 on]--> chromosome 1
+
+  ABS-OCI-GST: 3 条
+    样本43: drought --[. transgenic lines were less sensitive t]--> germination
+    样本102: water-limited conditions --[in foxtail millet under]--> jointing stage
+    样本367: drought --[resistance of sinrx1 mutants was identif]--> germination
+
+
+============================================================
+生成版本
+============================================================
+
+submit_v41_rule_gene_aff_gene: added=412, rel_avg=3.73, no_rel=23.5%
+
+submit_v41_rule_trt_aff_trt: added=210, rel_avg=3.23, no_rel=26.5%
+
+submit_v41_rule_crop_con_gene: added=89, rel_avg=2.92, no_rel=24.8%
+
+submit_v41_rule_gene_loi_trt: added=64, rel_avg=2.86, no_rel=25.8%
+
+submit_v41_rule_var_has_trt: added=61, rel_avg=2.85, no_rel=26.5%
+
+submit_v41_rule_crop_has_trt: added=58, rel_avg=2.85, no_rel=26.0%
+
+submit_v41_rule_mrk_loi_trt: added=57, rel_avg=2.85, no_rel=26.8%
+
+submit_v41_rule_bm_aff_trt: added=46, rel_avg=2.82, no_rel=26.0%
+
+submit_v41_rule_cross_con_var: added=38, rel_avg=2.80, no_rel=26.2%
+
+submit_v41_rule_qtl_loi_chr: added=23, rel_avg=2.76, no_rel=27.0%
+
+submit_v41_rule_var_use_bm: added=17, rel_avg=2.75, no_rel=27.8%
+
+submit_v41_rule_mrk_loi_chr: added=5, rel_avg=2.71, no_rel=27.5%
+
+submit_v41_rule_abs_oci_gst: added=3, rel_avg=2.71, no_rel=27.8%
+
+submit_v41_rule_lowcov_combo: added=68, rel_avg=2.87, no_rel=25.8%
+
+submit_v41_rule_midcov_combo: added=373, rel_avg=3.63, no_rel=21.8%
+
+submit_v41_rule_all: added=1083, rel_avg=5.41, no_rel=13.8%
+  GENE-AFF-GENE: 412条
+  TRT-AFF-TRT: 210条
+  CROP-CON-GENE: 89条
+  GENE-LOI-TRT: 64条
+  VAR-HAS-TRT: 61条
+  CROP-HAS-TRT: 58条
+  MRK-LOI-TRT: 57条
+  BM-AFF-TRT: 46条
+  CROSS-CON-VAR: 38条
+  QTL-LOI-CHR: 23条
+  VAR-USE-BM: 17条
+  MRK-LOI-CHR: 5条
+  ABS-OCI-GST: 3条
+
+submit_v41_sub_plus_lowcov: removed=25+added=68, rel_avg=2.81, no_rel=26.0%
+
+submit_v41_sub_generic_plus_lowcov: removed=95+added=68, rel_avg=2.63, no_rel=30.0%
+
+
+============================================================
+提交建议
+============================================================
+
+建议提交顺序（优先级从高到低）:
+
+第一优先级（减法策略，最可能涨分）:
+1. submit_v41_sub_conservative（保守删除 score>=4 的 25 条假阳性）
+2. submit_v41_sub_generic（删除泛称实体相关的 95 条关系）
+
+第二优先级（减法+加法组合）:
+3. submit_v41_sub_plus_lowcov（保守减法 + 低覆盖率规则加法）
+4. submit_v41_sub_generic_plus_lowcov（泛称减法 + 低覆盖率规则加法）
+
+第三优先级（纯加法，单类型测试）:
+5. submit_v41_rule_bm_aff_trt（BM-AFF-TRT 规则补充，覆盖率最低的类型）
+6. submit_v41_rule_mrk_loi_chr（MRK-LOI-CHR 规则补充）
+7. submit_v41_rule_lowcov_combo（低覆盖率类型组合）
+

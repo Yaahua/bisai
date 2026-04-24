@@ -1,0 +1,354 @@
+============================================================
+v41 减法策略分析报告
+============================================================
+
+训练集 between 词模式（前10类型）:
+
+  VAR-HAS-TRT (n=328, avg_dist=67, max_dist=310):
+    'and': 243
+    'in': 106
+    'the': 89
+    'higher': 72
+    'had': 52
+    'to': 46
+    'than': 46
+    'were': 45
+    'content': 44
+    'for': 42
+
+  ABS-AFF-TRT (n=285, avg_dist=81, max_dist=291):
+    'and': 237
+    'in': 94
+    'under': 68
+    'to': 63
+    'the': 57
+    'of': 48
+    'by': 46
+    'content': 40
+    'sorghum': 34
+    'a': 31
+
+  CROP-CON-VAR (n=222, avg_dist=74, max_dist=287):
+    'and': 152
+    'the': 74
+    'in': 52
+    'were': 40
+    'for': 35
+    'drought': 34
+    'with': 32
+    'a': 30
+    'two': 27
+    'variety': 26
+
+  GENE-AFF-TRT (n=177, avg_dist=80, max_dist=359):
+    'and': 142
+    'of': 59
+    'in': 57
+    'the': 36
+    'genes': 33
+    'to': 29
+    'stress': 26
+    'somax': 24
+    'regulate': 23
+    'expression': 20
+
+  QTL-LOI-TRT (n=224, avg_dist=52, max_dist=273):
+    'for': 132
+    'and': 115
+    'with': 63
+    'were': 60
+    'associated': 47
+    'plant': 40
+    'height': 32
+    'h': 28
+    'on': 26
+    'in': 25
+
+  CROP-HAS-TRT (n=165, avg_dist=71, max_dist=283):
+    'and': 107
+    'in': 94
+    'for': 36
+    'to': 23
+    'the': 22
+    'is': 19
+    'lines': 19
+    'yield': 18
+    'with': 17
+    'of': 17
+
+  QTL-LOI-CHR (n=141, avg_dist=62, max_dist=275):
+    'on': 128
+    'and': 100
+    'were': 81
+    'for': 69
+    'h': 49
+    'the': 37
+    'qtls': 34
+    'vu': 33
+    'mapped': 29
+    'chromosomes': 25
+
+  ABS-AFF-GENE (n=91, avg_dist=88, max_dist=320):
+    'and': 75
+    'in': 43
+    'expression': 41
+    'to': 30
+    'showed': 25
+    'by': 25
+    'hsf': 24
+    'was': 24
+    'under': 18
+    'genes': 16
+
+  GENE-LOI-TRT (n=85, avg_dist=70, max_dist=231):
+    'and': 46
+    'in': 40
+    'the': 29
+    'of': 25
+    'to': 19
+    'was': 16
+    'a': 15
+    'gene': 15
+    'is': 13
+    'identified': 13
+
+  BM-AFF-TRT (n=33, avg_dist=174, max_dist=567):
+    'and': 52
+    'in': 26
+    'the': 23
+    'light': 21
+    'maize': 20
+    'leaves': 20
+    'enhanced': 19
+    'of': 19
+    'carboxylation': 18
+    'point': 17
+
+  MRK-LOI-TRT (n=67, avg_dist=70, max_dist=280):
+    'and': 44
+    'with': 25
+    'for': 18
+    'in': 16
+    'yield': 15
+    'were': 14
+    'traits': 14
+    'associated': 13
+    'sorghum': 11
+    'snp': 11
+
+  VAR-USE-BM (n=41, avg_dist=92, max_dist=316):
+    'line': 31
+    'and': 29
+    'the': 20
+    'lines': 15
+    'a': 15
+    'b': 15
+    'r': 15
+    'selection': 15
+    'three': 14
+    'in': 13
+
+  TRT-AFF-TRT (n=48, avg_dist=64, max_dist=231):
+    'with': 27
+    'was': 23
+    'correlated': 23
+    'and': 21
+    'positively': 17
+    'the': 17
+    'number': 14
+    'grain': 9
+    'of': 8
+    'that': 7
+
+  GENE-AFF-GENE (n=26, avg_dist=106, max_dist=333):
+    'and': 22
+    'of': 21
+    'overexpression': 11
+    'the': 8
+    'by': 8
+    'accumulation': 7
+    'expression': 7
+    'to': 7
+    'upregulated': 6
+    'is': 6
+
+  QTL-AFF-TRT (n=26, avg_dist=90, max_dist=309):
+    'and': 19
+    'effects': 15
+    'in': 12
+    'with': 11
+    'qkw': 10
+    'harvest': 9
+    'on': 8
+    'plant': 8
+    'large': 8
+    'genetic': 8
+
+
+疑似假阳性关系总数: 172
+
+按类型统计:
+  QTL-LOI-TRT: 41条疑似假阳性
+  QTL-LOI-CHR: 13条疑似假阳性
+  MRK-LOI-TRT: 11条疑似假阳性
+  VAR-HAS-TRT: 10条疑似假阳性
+  ABS-AFF-TRT: 7条疑似假阳性
+  MRK-LOI-QTL: 6条疑似假阳性
+  GENE-LOI-TRT: 6条疑似假阳性
+  ABS-AFF-GENE: 6条疑似假阳性
+  GENE-LOI-MRK: 5条疑似假阳性
+  TRT-AFF-TRT: 5条疑似假阳性
+  CROP-CON-VAR: 5条疑似假阳性
+  GENE-CON-GENE: 5条疑似假阳性
+  GENE-CON-TRT: 4条疑似假阳性
+  GENE-AFF-TRT: 4条疑似假阳性
+  MRK-LOI-CHR: 4条疑似假阳性
+  VAR-CON-VAR: 3条疑似假阳性
+  BM-USE-MRK: 3条疑似假阳性
+  MRK-USE-BM: 2条疑似假阳性
+  QTL-LOI-GENE: 2条疑似假阳性
+  CROP-CON-CROSS: 2条疑似假阳性
+
+Top 30 最可疑关系:
+  样本69 [QTL-LOI-TRT] score=6: QTLs → traits
+    原因: 实体距离异常(dist=160, avg=52±53); head是泛称: 'QTLs'; tail是泛称: 'traits'
+  样本217 [MRK-USE-BM] score=6: markers → marker-assisted selection
+    原因: between词匹配度低(14%): 'were approximately 6 and 14 cm away from the resis'; 实体距离异常(dist=156, avg=18±2); head是泛称: 'markers'
+  样本30 [QTL-LOI-TRT] score=5: QTLs → NS
+    原因: 实体距离异常(dist=211, avg=52±53); head是泛称: 'QTLs'; tail过短: 'NS'
+  样本30 [QTL-LOI-TRT] score=5: QTLs → SW
+    原因: 实体距离异常(dist=220, avg=52±53); head是泛称: 'QTLs'; tail过短: 'SW'
+  样本30 [QTL-LOI-TRT] score=5: QTLs → PW
+    原因: 实体距离异常(dist=228, avg=52±53); head是泛称: 'QTLs'; tail过短: 'PW'
+  样本14 [VAR-CON-VAR] score=4: genotypes → cultivars
+    原因: head是泛称: 'genotypes'; tail是泛称: 'cultivars'
+  样本14 [VAR-CON-VAR] score=4: genotypes → breeding lines
+    原因: head是泛称: 'genotypes'; tail是泛称: 'breeding lines'
+  样本14 [VAR-HAS-TRT] score=4: genotypes → adult plant resistance (APR)
+    原因: 实体距离异常(dist=264, avg=67±62); head是泛称: 'genotypes'
+  样本18 [BM-USE-MRK] score=4: RAD-seq analysis → SNPs
+    原因: between词匹配度低(17%): 'was used to reveal genome-wide'; tail是泛称: 'SNPs'
+  样本30 [QTL-LOI-TRT] score=4: QTLs → NDP
+    原因: 实体距离异常(dist=215, avg=52±53); head是泛称: 'QTLs'
+  样本30 [QTL-LOI-CHR] score=4: QTLs → LG4
+    原因: 实体距离异常(dist=246, avg=62±68); head是泛称: 'QTLs'
+  样本30 [MRK-LOI-QTL] score=4: 4181663 → QTLs
+    原因: 实体距离异常(dist=268, avg=53±40); tail是泛称: 'QTLs'
+  样本30 [MRK-LOI-QTL] score=4: 4175954 → QTLs
+    原因: 实体距离异常(dist=280, avg=53±40); tail是泛称: 'QTLs'
+  样本69 [QTL-LOI-CHR] score=4: QTLs → chromosome
+    原因: 实体距离异常(dist=241, avg=62±68); head是泛称: 'QTLs'
+  样本124 [MRK-LOI-QTL] score=4: Markers → QTLs
+    原因: head是泛称: 'Markers'; tail是泛称: 'QTLs'
+  样本163 [QTL-LOI-GENE] score=4: QTL → HD genes
+    原因: between词匹配度低(25%): 'for hd were identified. hd gene expression varied '; 实体距离异常(dist=183, avg=82±35)
+  样本174 [VAR-USE-BM] score=4: varieties → selection
+    原因: between词匹配度低(0%): 'have been developed through'; head是泛称: 'varieties'
+  样本214 [GENE-OCI-GST] score=4: SiEUL gene family members → developmental stages
+    原因: between词匹配度低(10%): 'in foxtail millet. analysis covered their properti'; 实体距离异常(dist=180, avg=31±18)
+  样本217 [MRK-LOI-GENE] score=4: markers → resistance gene
+    原因: 实体距离异常(dist=244, avg=60±44); head是泛称: 'markers'
+  样本225 [CROP-CON-CROSS] score=4: sorghum → 2645 testcross hybrids
+    原因: between词匹配度低(22%): 'using correlated auxiliary traits. it determined t'; 实体距离异常(dist=150, avg=26±38)
+  样本225 [CROP-CON-CROSS] score=4: sorghum → female parental lines
+    原因: between词匹配度低(18%): 'using correlated auxiliary traits. it determined t'; 实体距离异常(dist=243, avg=26±38)
+  样本231 [QTL-LOI-TRT] score=4: qSaltol_7.1 → salt tolerance
+    原因: between词匹配度低(27%): 'is located near genes encoding 3-ketoacyl-coa synt'; 实体距离异常(dist=225, avg=52±53)
+  样本309 [GENE-LOI-MRK] score=4: lnt2 → SNP1765
+    原因: between词匹配度低(0%): ') locus was conducted. linkage analysis mapped lnt'; 实体距离异常(dist=117, avg=68±10)
+  样本309 [GENE-LOI-MRK] score=4: lnt2 → SNP526
+    原因: between词匹配度低(5%): ') locus was conducted. linkage analysis mapped lnt'; 实体距离异常(dist=129, avg=68±10)
+  样本377 [TRT-AFF-TRT] score=4: Pep1 → systemic defense signaling
+    原因: between词匹配度低(24%): 'treatment up-regulated the pathogenesis-related pr'; 实体距离异常(dist=216, avg=64±56)
+  样本0 [CROP-CON-VAR] score=3: Tartary buckwheat → genotypes
+    原因: 实体紧邻但训练集通常有间距; tail是泛称: 'genotypes'
+  样本14 [CROP-CON-VAR] score=3: oat → genotypes
+    原因: 实体紧邻但训练集通常有间距; tail是泛称: 'genotypes'
+  样本19 [MRK-LOI-TRT] score=3: markers → pods/plant
+    原因: 实体距离偏大(dist=185, avg=70); head是泛称: 'markers'
+  样本19 [MRK-LOI-TRT] score=3: markers → seeds/pod
+    原因: 实体距离偏大(dist=174, avg=70); head是泛称: 'markers'
+  样本38 [MRK-LOI-TRT] score=3: SNPs → HT
+    原因: head是泛称: 'SNPs'; tail过短: 'HT'
+
+submit_v41_sub_conservative: removed=25, rel_avg=2.64, no_rel=28.0%
+  删除 QTL-LOI-TRT: 6条
+  删除 MRK-LOI-QTL: 3条
+  删除 QTL-LOI-CHR: 2条
+  删除 VAR-CON-VAR: 2条
+  删除 CROP-CON-CROSS: 2条
+  删除 GENE-LOI-MRK: 2条
+  删除 MRK-USE-BM: 1条
+  删除 MRK-LOI-GENE: 1条
+  删除 VAR-HAS-TRT: 1条
+  删除 BM-USE-MRK: 1条
+
+submit_v41_sub_moderate: removed=42, rel_avg=2.60, no_rel=28.2%
+  删除 QTL-LOI-TRT: 8条
+  删除 MRK-LOI-TRT: 6条
+  删除 CROP-CON-VAR: 4条
+  删除 MRK-LOI-QTL: 3条
+  删除 QTL-LOI-CHR: 2条
+  删除 VAR-CON-VAR: 2条
+  删除 QTL-LOI-GENE: 2条
+  删除 CROP-CON-CROSS: 2条
+  删除 GENE-LOI-MRK: 2条
+  删除 MRK-USE-BM: 1条
+
+submit_v41_sub_aggressive: removed=172, rel_avg=2.27, no_rel=34.0%
+  删除 QTL-LOI-TRT: 41条
+  删除 QTL-LOI-CHR: 13条
+  删除 MRK-LOI-TRT: 11条
+  删除 VAR-HAS-TRT: 10条
+  删除 ABS-AFF-TRT: 7条
+  删除 MRK-LOI-QTL: 6条
+  删除 ABS-AFF-GENE: 6条
+  删除 GENE-LOI-TRT: 6条
+  删除 CROP-CON-VAR: 5条
+  删除 GENE-LOI-MRK: 5条
+
+submit_v41_sub_generic: removed=95, rel_avg=2.46, no_rel=32.8%
+  删除 QTL-LOI-TRT: 33条
+  删除 QTL-LOI-CHR: 11条
+  删除 MRK-LOI-TRT: 11条
+  删除 VAR-HAS-TRT: 9条
+  删除 MRK-LOI-QTL: 4条
+  删除 CROP-CON-VAR: 4条
+  删除 MRK-LOI-CHR: 4条
+  删除 VAR-CON-VAR: 3条
+  删除 GENE-CON-GENE: 3条
+  删除 GENE-LOI-TRT: 3条
+
+submit_v41_sub_gene_trt: removed=4, rel_avg=2.69, no_rel=27.8%
+  删除 GENE-AFF-TRT: 4条
+
+submit_v41_sub_distance: removed=52, rel_avg=2.57, no_rel=28.5%
+  删除 QTL-LOI-TRT: 10条
+  删除 ABS-AFF-TRT: 6条
+  删除 QTL-LOI-CHR: 4条
+  删除 MRK-LOI-QTL: 4条
+  删除 TRT-AFF-TRT: 3条
+  删除 GENE-LOI-TRT: 3条
+  删除 VAR-HAS-TRT: 2条
+  删除 QTL-LOI-GENE: 2条
+  删除 CROP-CON-CROSS: 2条
+  删除 GENE-LOI-MRK: 2条
+
+
+============================================================
+提交建议
+============================================================
+
+底座: rel_avg=2.70, no_rel=27.8%
+submit_v41_sub_aggressive: removed=172, rel_avg=2.27, no_rel=34.0%
+submit_v41_sub_conservative: removed=25, rel_avg=2.64, no_rel=28.0%
+submit_v41_sub_distance: removed=52, rel_avg=2.57, no_rel=28.5%
+submit_v41_sub_gene_trt: removed=4, rel_avg=2.69, no_rel=27.8%
+submit_v41_sub_generic: removed=95, rel_avg=2.46, no_rel=32.8%
+submit_v41_sub_moderate: removed=42, rel_avg=2.60, no_rel=28.2%
+
+建议提交顺序:
+1. submit_v41_sub_generic（只删泛称，最精准）
+2. submit_v41_sub_gene_trt（只删 GENE-AFF-TRT 可疑关系）
+3. submit_v41_sub_conservative（score>=4，保守删除）
+

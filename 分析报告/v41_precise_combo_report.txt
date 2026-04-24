@@ -1,0 +1,84 @@
+============================================================
+v41 精准组合报告
+============================================================
+
+底座: /home/ubuntu/bisai/数据/A榜/submit_v36_gene_abs.json (score=0.4487)
+
+submit_v41_precise_cv: added=10, rel_avg=2.73, no_rel=27.5%
+  CROSS-CON-VAR: 4条
+  QTL-LOI-CHR: 2条
+  VAR-HAS-TRT: 1条
+  CROP-HAS-TRT: 1条
+  GENE-LOI-TRT: 1条
+  CROP-CON-GENE: 1条
+
+submit_v41_precise_strict: added=316, rel_avg=3.49, no_rel=21.5%
+  TRT-AFF-TRT: 127条
+  VAR-HAS-TRT: 35条
+  MRK-LOI-TRT: 31条
+  GENE-LOI-TRT: 26条
+  CROSS-CON-VAR: 25条
+  BM-AFF-TRT: 17条
+  CROP-HAS-TRT: 15条
+  GENE-AFF-GENE: 11条
+  QTL-LOI-CHR: 9条
+  VAR-USE-BM: 9条
+  CROP-CON-GENE: 9条
+  MRK-LOI-CHR: 1条
+  ABS-OCI-GST: 1条
+
+submit_v41_sub_conservative_plus_cv: removed=25+added=10, rel_avg=2.67, no_rel=27.8%
+  CROSS-CON-VAR: 4条
+  QTL-LOI-CHR: 2条
+  VAR-HAS-TRT: 1条
+  CROP-HAS-TRT: 1条
+  GENE-LOI-TRT: 1条
+  CROP-CON-GENE: 1条
+
+submit_v41_sub_conservative_plus_strict: removed=25+added=316, rel_avg=3.43, no_rel=21.8%
+  TRT-AFF-TRT: 127条
+  VAR-HAS-TRT: 35条
+  MRK-LOI-TRT: 31条
+  GENE-LOI-TRT: 26条
+  CROSS-CON-VAR: 25条
+  BM-AFF-TRT: 17条
+  CROP-HAS-TRT: 15条
+  GENE-AFF-GENE: 11条
+  QTL-LOI-CHR: 9条
+  VAR-USE-BM: 9条
+  CROP-CON-GENE: 9条
+  MRK-LOI-CHR: 1条
+  ABS-OCI-GST: 1条
+
+submit_v41_precise_ultrasafe: added=27, rel_avg=2.77, no_rel=26.5%
+  BM-AFF-TRT: 17条
+  VAR-USE-BM: 9条
+  MRK-LOI-CHR: 1条
+
+submit_v41_sub_plus_ultrasafe: removed=25+added=27, rel_avg=2.71, no_rel=26.8%
+  BM-AFF-TRT: 17条
+  VAR-USE-BM: 9条
+  MRK-LOI-CHR: 1条
+
+
+============================================================
+最终提交建议
+============================================================
+
+最终建议提交顺序（每日3次）:
+
+=== 第一天 ===
+1. submit_v41_sub_conservative（保守减法，删25条假阳性）
+2. submit_v41_sub_conservative_plus_cv（保守减法 + 交叉验证加法）
+3. submit_v41_precise_cv（纯交叉验证加法）
+
+=== 第二天 ===
+4. submit_v41_sub_generic（泛称减法，删95条）
+5. submit_v41_precise_strict（精准严格加法）
+6. submit_v41_sub_plus_ultrasafe（保守减法 + 超安全加法）
+
+=== 第三天 ===
+7. submit_v41_sub_conservative_plus_strict（保守减法 + 精准严格加法）
+8. submit_v41_rule_bm_aff_trt（BM-AFF-TRT 单类型测试）
+9. submit_v41_rule_lowcov_combo（低覆盖率组合）
+
