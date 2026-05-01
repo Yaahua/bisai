@@ -1,0 +1,3338 @@
+{
+  "status": 200,
+  "url": "https://api.crossref.org/works?query=biomedical+relation+extraction+directionality+entity+roles&rows=8",
+  "json": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 1694804,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                20
+              ]
+            ],
+            "date-time": "2025-12-20T22:15:24Z",
+            "timestamp": 1766268924441,
+            "version": "build-2065373602"
+          },
+          "publisher-location": "Stroudsburg, PA, USA",
+          "reference-count": 0,
+          "publisher": "Association for Computational Linguistics",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2023
+              ]
+            ]
+          },
+          "DOI": "10.18653/v1/2023.bionlp-1.35",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2023,
+                8,
+                5
+              ]
+            ],
+            "date-time": "2023-08-05T00:57:42Z",
+            "timestamp": 1691197062000
+          },
+          "page": "377-384",
+          "source": "Crossref",
+          "is-referenced-by-count": 5,
+          "title": [
+            "Biomedical Relation Extraction with Entity Type Markers and Relation-specific Question Answering"
+          ],
+          "prefix": "10.18653",
+          "author": [
+            {
+              "given": "Koshi",
+              "family": "Yamada",
+              "sequence": "first",
+              "affiliation": []
+            },
+            {
+              "given": "Makoto",
+              "family": "Miwa",
+              "sequence": "additional",
+              "affiliation": []
+            },
+            {
+              "given": "Yutaka",
+              "family": "Sasaki",
+              "sequence": "additional",
+              "affiliation": []
+            }
+          ],
+          "member": "1643",
+          "event": {
+            "name": "The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks",
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  7
+                ]
+              ]
+            },
+            "location": "Toronto, Canada",
+            "end": {
+              "date-parts": [
+                [
+                  2023,
+                  7
+                ]
+              ]
+            }
+          },
+          "container-title": [
+            "The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks"
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2023,
+                8,
+                5
+              ]
+            ],
+            "date-time": "2023-08-05T01:27:11Z",
+            "timestamp": 1691198831000
+          },
+          "score": 31.666252,
+          "resource": {
+            "primary": {
+              "URL": "https://aclanthology.org/2023.bionlp-1.35"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2023
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.18653/v1/2023.bionlp-1.35",
+          "published": {
+            "date-parts": [
+              [
+                2023
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                25
+              ]
+            ],
+            "date-time": "2026-03-25T06:50:24Z",
+            "timestamp": 1774421424222,
+            "version": "3.50.1"
+          },
+          "reference-count": 46,
+          "publisher": "Elsevier BV",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    12,
+                    1
+                  ]
+                ],
+                "date-time": "2024-12-01T00:00:00Z",
+                "timestamp": 1733011200000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    12,
+                    1
+                  ]
+                ],
+                "date-time": "2024-12-01T00:00:00Z",
+                "timestamp": 1733011200000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/legal/tdmrep-license"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    12,
+                    1
+                  ]
+                ],
+                "date-time": "2025-12-01T00:00:00Z",
+                "timestamp": 1764547200000
+              },
+              "content-version": "vor",
+              "delay-in-days": 365,
+              "URL": "http://www.elsevier.com/open-access/userlicense/1.0/"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    12,
+                    1
+                  ]
+                ],
+                "date-time": "2024-12-01T00:00:00Z",
+                "timestamp": 1733011200000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-017"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    12,
+                    1
+                  ]
+                ],
+                "date-time": "2024-12-01T00:00:00Z",
+                "timestamp": 1733011200000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-037"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    12,
+                    1
+                  ]
+                ],
+                "date-time": "2024-12-01T00:00:00Z",
+                "timestamp": 1733011200000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-012"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    12,
+                    1
+                  ]
+                ],
+                "date-time": "2024-12-01T00:00:00Z",
+                "timestamp": 1733011200000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-029"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    12,
+                    1
+                  ]
+                ],
+                "date-time": "2024-12-01T00:00:00Z",
+                "timestamp": 1733011200000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-004"
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "elsevier.com",
+              "sciencedirect.com"
+            ],
+            "crossmark-restriction": true
+          },
+          "short-container-title": [
+            "Journal of Biomedical Informatics"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2024,
+                12
+              ]
+            ]
+          },
+          "DOI": "10.1016/j.jbi.2024.104756",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                30
+              ]
+            ],
+            "date-time": "2024-11-30T11:27:39Z",
+            "timestamp": 1732966059000
+          },
+          "page": "104756",
+          "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 1,
+          "special_numbering": "C",
+          "title": [
+            "Biomedical document-level relation extraction with thematic capture and localized entity pooling"
+          ],
+          "prefix": "10.1016",
+          "volume": "160",
+          "author": [
+            {
+              "given": "Yuqing",
+              "family": "Li",
+              "sequence": "first",
+              "affiliation": []
+            },
+            {
+              "given": "Xinhui",
+              "family": "Shao",
+              "sequence": "additional",
+              "affiliation": []
+            }
+          ],
+          "member": "78",
+          "reference": [
+            {
+              "key": "10.1016/j.jbi.2024.104756_b1",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Y. Yao, D. Ye, P. Li, X. Han, Y. Lin, Z. Liu, Z. Liu, L. Huang, J. Zhou, M. Sun, DocRED: A Large-Scale Document-Level Relation Extraction Dataset, in: Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, 2019, pp. 764–777.",
+              "DOI": "10.18653/v1/P19-1074"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b2",
+              "doi-asserted-by": "crossref",
+              "unstructured": "D. Wang, W. Hu, E. Cao, W. Sun, Global-to-Local Neural Networks for Document-Level Relation Extraction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing, EMNLP, 2020, pp. 3711–3721.",
+              "DOI": "10.18653/v1/2020.emnlp-main.303"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b3",
+              "first-page": "764",
+              "article-title": "BioCreative V CDR task corpus: a resource for chemical disease relation extraction",
+              "volume": "2016",
+              "author": "Li",
+              "year": "2016",
+              "journal-title": "Database J. Biol. Databases Curat."
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b4",
+              "doi-asserted-by": "crossref",
+              "unstructured": "F. Christopoulou, M. Miwa, S. Ananiadou, Connecting the Dots: Document-level Neural Relation Extraction with Edge-oriented Graphs, in: Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing, EMNLP-IJCNLP, 2019, pp. 4925–4936.",
+              "DOI": "10.18653/v1/D19-1498"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b5",
+              "doi-asserted-by": "crossref",
+              "unstructured": "S. Zeng, R. Xu, B. Chang, L. Li, Double Graph Based Reasoning for Document-level Relation Extraction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing, EMNLP, 2020, pp. 1630–1640.",
+              "DOI": "10.18653/v1/2020.emnlp-main.127"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b6",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Z. Zhang, B. Yu, X. Shu, T. Liu, H. Tang, W. Yubin, L. Guo, Document-level Relation Extraction with Dual-tier Heterogeneous Graph, in: Proceedings of the 28th International Conference on Computational Linguistics, 2020, pp. 1630–1641.",
+              "DOI": "10.18653/v1/2020.coling-main.143"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b7",
+              "doi-asserted-by": "crossref",
+              "first-page": "57",
+              "DOI": "10.1016/j.aiopen.2021.01.001",
+              "article-title": "Graph neural networks: A review of methods and applications",
+              "volume": "1",
+              "author": "Zhou",
+              "year": "2020",
+              "journal-title": "AI Open"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b8",
+              "doi-asserted-by": "crossref",
+              "unstructured": "G. Nan, Z. Guo, I. Sekulic, W. Lu, Reasoning with Latent Structure Refinement for Document-Level Relation Extraction, in: Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, 2020, pp. 1546–1557.",
+              "DOI": "10.18653/v1/2020.acl-main.141"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b9",
+              "doi-asserted-by": "crossref",
+              "unstructured": "W. Zhou, K. Huang, T. Ma, J. Huang, Document-Level Relation Extraction with Adaptive Thresholding and Localized Context Pooling, in: Proceedings of the AAAI Conference on Artificial Intelligence, 2021, pp. 14612–14620.",
+              "DOI": "10.1609/aaai.v35i16.17717"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b10",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Q. Tan, R. He, L. Bing, H.T. Ng, Document-Level Relation Extraction with Adaptive Focal Loss and Knowledge Distillation, in: Findings of the Association for Computational Linguistics, 2022, pp. 1672–1681.",
+              "DOI": "10.18653/v1/2022.findings-acl.132"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b11",
+              "doi-asserted-by": "crossref",
+              "unstructured": "J. Li, K. Xu, F. Li, H. Fei, Y. Ren, D. Ji, MRN: A Locally and Globally Mention-Based Reasoning Network for Document-Level Relation Extraction, in: Findings of the Association for Computational Linguistics, 2021, pp. 1359–1370.",
+              "DOI": "10.18653/v1/2021.findings-acl.117"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b12",
+              "unstructured": "A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A.N. Gomez, L. Kaiser, I. Polosukhin, Attention Is All You Need, in: Proceedings of the 31st International Conference on Neural Information Processing Systems, 2017, pp. 6000–6010."
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b13",
+              "doi-asserted-by": "crossref",
+              "unstructured": "J. Devlin, M.-W. Chang, K. Lee, K. Toutanova, BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding, in: Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, 2019, pp. 4171–4186.",
+              "DOI": "10.18653/v1/N19-1423"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b14",
+              "doi-asserted-by": "crossref",
+              "unstructured": "I. Beltagy, K. Lo, A. Cohan, SciBERT: A Pretrained Language Model for Scientific Text, in: Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing, 2019, pp. 3615–3620.",
+              "DOI": "10.18653/v1/D19-1371"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b15",
+              "series-title": "Research in Computational Molecular Biology",
+              "first-page": "272",
+              "article-title": "RENET: A deep learning approach for extracting gene-disease associations from literature",
+              "author": "Wu",
+              "year": "2019"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b16",
+              "doi-asserted-by": "crossref",
+              "unstructured": "N. Zhang, X. Chen, X. Xie, S. Deng, C. Tan, M. Chen, F. Huang, L. Si, H. Chen, Document-level Relation Extraction as Semantic Segmentation, in: Proceedings of the Thirtieth International Joint Conference on Artificial Intelligence, IJCAI, 2021, pp. 3999–4006.",
+              "DOI": "10.24963/ijcai.2021/551"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b17",
+              "unstructured": "D. Zeng, K. Liu, S. Lai, G. Zhou, J. Zhao, Relation Classification via Convolutional Deep Neural Network, in: Proceedings of COLING 2014, the 25th International Conference on Computational Linguistics: Technical Papers, 2014, pp. 2335–2344."
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b18",
+              "unstructured": "S. Zhang, D. Zheng, X. Hu, M. Yang, Bidirectional Long Short-Term Memory Networks for Relation Classification, in: Proceedings of the 29th Pacific Asia Conference on Language, Information and Computation, 2015, pp. 73–78."
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b19",
+              "doi-asserted-by": "crossref",
+              "unstructured": "R. Cai, X. Zhang, H. Wang, Bidirectional Recurrent Convolutional Neural Network for Relation Classification, in: Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics, 2016, pp. 756–765.",
+              "DOI": "10.18653/v1/P16-1072"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b20",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Y. Zhang, P. Qi, C.D. Manning, Graph Convolution over Pruned Dependency Trees Improves Relation Extraction, in: Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, 2018, pp. 2205–2215.",
+              "DOI": "10.18653/v1/D18-1244"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b21",
+              "doi-asserted-by": "crossref",
+              "unstructured": "D. Zeng, K. Liu, Y. Chen, J. Zhao, Distant Supervision for Relation Extraction via Piecewise Convolutional Neural Networks, in: Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing, 2015, pp. 1753–1762.",
+              "DOI": "10.18653/v1/D15-1203"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b22",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Y. Lin, S. Shen, Z. Liu, H. Luan, M. Sun, Neural Relation Extraction with Selective Attention over Instances, in: Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics, 2016, pp. 2124–2133.",
+              "DOI": "10.18653/v1/P16-1200"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b23",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Y. Zhang, V. Zhong, D. Chen, G. Angeli, C.D. Manning, Position-aware Attention and Supervised Data Improve Slot Filling, in: Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing, 2017, pp. 35–45.",
+              "DOI": "10.18653/v1/D17-1004"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b24",
+              "doi-asserted-by": "crossref",
+              "unstructured": "H. Li, Q. Chen, B. Tang, X. Wang, Chemical-induced disease extraction via convolutional neural networks with attention, in: 2017 IEEE International Conference on Bioinformatics and Biomedicine, BIBM, 2017, pp. 1276–1279.",
+              "DOI": "10.1109/BIBM.2017.8217843"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b25",
+              "doi-asserted-by": "crossref",
+              "unstructured": "D.Q. Nguyen, K. Verspoor, Convolutional neural networks for chemical-disease relation extraction are improved with character-based word embeddings, in: Proceedings of the BioNLP 2018 Workshop, 2018, pp. 129–136.",
+              "DOI": "10.18653/v1/W18-2314"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b26",
+              "doi-asserted-by": "crossref",
+              "unstructured": "P. Gupta, S. Rajaram, H. Schütze, B. Andrassy, T. Runkler, Neural relation extraction within and across sentence boundaries, in: Proceedings of the AAAI Conference on Artificial Intelligence, 2018, pp. 6513–6520.",
+              "DOI": "10.1609/aaai.v33i01.33016513"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b27",
+              "series-title": "Fine-tune bert for DocRED with two-step process",
+              "author": "Wang",
+              "year": "2019"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b28",
+              "doi-asserted-by": "crossref",
+              "unstructured": "H. Tang, Y. Cao, Z. Zhang, J. Cao, F. Fang, S. Wang, P. Yin, HIN: Hierarchical Inference Network for Document-Level Relation Extraction, in: Pacific-Asia Conference on Knowledge Discovery and Data Mining, 2020, pp. 197–209.",
+              "DOI": "10.1007/978-3-030-47426-3_16"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b29",
+              "doi-asserted-by": "crossref",
+              "first-page": "14",
+              "DOI": "10.1016/j.neunet.2023.11.062",
+              "article-title": "Document-level relation extraction with relation correlations",
+              "volume": "171",
+              "author": "Han",
+              "year": "2024",
+              "journal-title": "Neural Netw."
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b30",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Y. Ma, A. Wang, N. Okazaki, DREEAM: Guiding Attention with Evidence for Improving Document-Level Relation Extraction, in: Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics, 2023, pp. 1971–1983.",
+              "DOI": "10.18653/v1/2023.eacl-main.145"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b31",
+              "doi-asserted-by": "crossref",
+              "unstructured": "M. Schlichtkrull, T. N. Kipf, P. Bloem, R.v.d. Berg, I. Titov, M. Welling, Modeling Relational Data with Graph Convolutional Networks, in: European Semantic Web Conference, 2018, pp. 593–607.",
+              "DOI": "10.1007/978-3-319-93417-4_38"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b32",
+              "doi-asserted-by": "crossref",
+              "unstructured": "H. Liu, Z. Kang, L. Zhang, L. Tian, F. Hua, Document-Level Relation Extraction with Cross-sentence Reasoning Graph, in: Pacific-Asia Conference on Knowledge Discovery and Data Mining, 2023, pp. 316–328.",
+              "DOI": "10.1007/978-3-031-33374-3_25"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b33",
+              "doi-asserted-by": "crossref",
+              "unstructured": "K. Huang, P. Qi, G. Wang, T. Ma, J. Huang, Entity and Evidence Guided Document-Level Relation Extraction, in: Proceedings of the 6th Workshop on Representation Learning for NLP, 2021, pp. 307–315.",
+              "DOI": "10.18653/v1/2021.repl4nlp-1.30"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b34",
+              "doi-asserted-by": "crossref",
+              "unstructured": "D. Ru, C. Sun, J. Feng, L. Qiu, H. Zhou, W. Zhang, Y. Yu, L. Li, Learning Logic Rules for Document-Level Relation Extraction, in: Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing, 2021, pp. 1239–1250.",
+              "DOI": "10.18653/v1/2021.emnlp-main.95"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b35",
+              "doi-asserted-by": "crossref",
+              "unstructured": "R. Jia, C. Wong, H. Poon, Document-Level N-ary Relation Extraction with Multiscale Representation Learning, in: Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, 2019, pp. 3693–3704.",
+              "DOI": "10.18653/v1/N19-1370"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b36",
+              "doi-asserted-by": "crossref",
+              "unstructured": "T. Wolf, L. Debut, V. Sanh, J. Chaumond, C. Delangue, A. Moi, P. Cistac, T. Rault, R. Louf, M. Funtowicz, J. Davison, S. Shleifer, P. von Platen, C. Ma, Y. Jernite, J. Plu, C. Xu, T. Le Scao, S. Gugger, M. Drame, Q. Lhoest, A. Rush, Transformers: State-of-the-Art Natural Language Processing, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations, 2020, pp. 38–45.",
+              "DOI": "10.18653/v1/2020.emnlp-demos.6"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b37",
+              "unstructured": "P. Micikevicius, S. Narang, J. Alben, G. Diamos, E. Elsen, D. Garcia, B. Ginsburg, M. Houston, O. Kuchaiev, G. Venkatesh, H. Wu, Mixed Precision Training, in: International Conference on Learning Representations, 2018."
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b38",
+              "unstructured": "I. Loshchilov, F. Hutter, Decoupled Weight Decay Regularization, in: International Conference on Learning Representations, 2019."
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b39",
+              "series-title": "Accurate, large minibatch SGD: Training ImageNet in 1 hour",
+              "first-page": "14",
+              "author": "Goyal",
+              "year": "2017"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b40",
+              "doi-asserted-by": "crossref",
+              "unstructured": "B. Xu, Q. Wang, Y. Lyu, Y. Zhu, Z. Mao, Entity Structure Within and Throughout: Modeling Mention Dependencies for Document-Level Relation Extraction, in: Proceedings of the AAAI Conference on Artificial Intelligence, 2021, pp. 14149–14157.",
+              "DOI": "10.1609/aaai.v35i16.17665"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b41",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.csl.2023.101574",
+              "article-title": "Document-level relation extraction with entity mentions deep attention",
+              "volume": "84",
+              "author": "Xu",
+              "year": "2024",
+              "journal-title": "Comput. Speech Lang."
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b42",
+              "doi-asserted-by": "crossref",
+              "unstructured": "H. Minh Tran, M.T. Nguyen, T.H. Nguyen, The Dots Have Their Values: Exploiting the Node-Edge Connections in Graph-based Neural Models for Document-level Relation Extraction, in: Findings of the Association for Computational Linguistics, EMNLP, 2020, pp. 4561–4567.",
+              "DOI": "10.18653/v1/2020.findings-emnlp.409"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b43",
+              "doi-asserted-by": "crossref",
+              "unstructured": "J. Giorgi, G. Bader, B. Wang, A sequence-to-sequence approach for document-level relation extraction, in: Proceedings of the 21st Workshop on Biomedical Language Processing, 2022, pp. 10–25.",
+              "DOI": "10.18653/v1/2022.bionlp-1.2"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b44",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Y. Xiao, Z. Zhang, Y. Mao, C. Yang, J. Han, SAIS: Supervising and Augmenting Intermediate Steps for Document-Level Relation Extraction, in: Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, 2022, pp. 2395–2409.",
+              "DOI": "10.18653/v1/2022.naacl-main.171"
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b45",
+              "doi-asserted-by": "crossref",
+              "first-page": "132",
+              "DOI": "10.1016/j.patrec.2023.02.012",
+              "article-title": "Relational distance and document-level contrastive pre-training based relation extraction model",
+              "volume": "167",
+              "author": "Dong",
+              "year": "2023",
+              "journal-title": "Pattern Recognit. Lett."
+            },
+            {
+              "key": "10.1016/j.jbi.2024.104756_b46",
+              "doi-asserted-by": "crossref",
+              "unstructured": "D. Sorokin, I. Gurevych, Context-Aware Representations for Knowledge Base Relation Extraction, in: Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing, 2017, pp. 1784–1789.",
+              "DOI": "10.18653/v1/D17-1188"
+            }
+          ],
+          "container-title": [
+            "Journal of Biomedical Informatics"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S1532046424001746?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S1532046424001746?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                1
+              ]
+            ],
+            "date-time": "2025-12-01T04:19:10Z",
+            "timestamp": 1764562750000
+          },
+          "score": 31.062244,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1532046424001746"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2024,
+                12
+              ]
+            ]
+          },
+          "references-count": 46,
+          "alternative-id": [
+            "S1532046424001746"
+          ],
+          "URL": "https://doi.org/10.1016/j.jbi.2024.104756",
+          "ISSN": [
+            "1532-0464"
+          ],
+          "issn-type": [
+            {
+              "value": "1532-0464",
+              "type": "print"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                12
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "Elsevier",
+              "name": "publisher",
+              "label": "This article is maintained by"
+            },
+            {
+              "value": "Biomedical document-level relation extraction with thematic capture and localized entity pooling",
+              "name": "articletitle",
+              "label": "Article Title"
+            },
+            {
+              "value": "Journal of Biomedical Informatics",
+              "name": "journaltitle",
+              "label": "Journal Title"
+            },
+            {
+              "value": "https://doi.org/10.1016/j.jbi.2024.104756",
+              "name": "articlelink",
+              "label": "CrossRef DOI link to publisher maintained version"
+            },
+            {
+              "value": "article",
+              "name": "content_type",
+              "label": "Content Type"
+            },
+            {
+              "value": "© 2024 Published by Elsevier Inc.",
+              "name": "copyright",
+              "label": "Copyright"
+            }
+          ],
+          "article-number": "104756"
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                2
+              ]
+            ],
+            "date-time": "2026-01-02T16:56:16Z",
+            "timestamp": 1767372976161,
+            "version": "3.40.5"
+          },
+          "reference-count": 76,
+          "publisher": "Elsevier BV",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    11,
+                    1
+                  ]
+                ],
+                "date-time": "2023-11-01T00:00:00Z",
+                "timestamp": 1698796800000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    11,
+                    1
+                  ]
+                ],
+                "date-time": "2023-11-01T00:00:00Z",
+                "timestamp": 1698796800000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/legal/tdmrep-license"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    11,
+                    1
+                  ]
+                ],
+                "date-time": "2024-11-01T00:00:00Z",
+                "timestamp": 1730419200000
+              },
+              "content-version": "vor",
+              "delay-in-days": 366,
+              "URL": "http://www.elsevier.com/open-access/userlicense/1.0/"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    11,
+                    1
+                  ]
+                ],
+                "date-time": "2023-11-01T00:00:00Z",
+                "timestamp": 1698796800000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-017"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    11,
+                    1
+                  ]
+                ],
+                "date-time": "2023-11-01T00:00:00Z",
+                "timestamp": 1698796800000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-037"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    11,
+                    1
+                  ]
+                ],
+                "date-time": "2023-11-01T00:00:00Z",
+                "timestamp": 1698796800000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-012"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    11,
+                    1
+                  ]
+                ],
+                "date-time": "2023-11-01T00:00:00Z",
+                "timestamp": 1698796800000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-029"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    11,
+                    1
+                  ]
+                ],
+                "date-time": "2023-11-01T00:00:00Z",
+                "timestamp": 1698796800000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-004"
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "elsevier.com",
+              "sciencedirect.com"
+            ],
+            "crossmark-restriction": true
+          },
+          "short-container-title": [
+            "Journal of Biomedical Informatics"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2023,
+                11
+              ]
+            ]
+          },
+          "DOI": "10.1016/j.jbi.2023.104527",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2023,
+                10,
+                17
+              ]
+            ],
+            "date-time": "2023-10-17T01:14:00Z",
+            "timestamp": 1697505240000
+          },
+          "page": "104527",
+          "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 1,
+          "special_numbering": "C",
+          "title": [
+            "Learning entity-oriented representation for biomedical relation extraction"
+          ],
+          "prefix": "10.1016",
+          "volume": "147",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-4113-4369",
+              "authenticated-orcid": false,
+              "given": "Ying",
+              "family": "Hu",
+              "sequence": "first",
+              "affiliation": []
+            },
+            {
+              "given": "Yanping",
+              "family": "Chen",
+              "sequence": "additional",
+              "affiliation": []
+            },
+            {
+              "given": "Yongbin",
+              "family": "Qin",
+              "sequence": "additional",
+              "affiliation": []
+            },
+            {
+              "given": "Ruizhang",
+              "family": "Huang",
+              "sequence": "additional",
+              "affiliation": []
+            }
+          ],
+          "member": "78",
+          "reference": [
+            {
+              "issue": "4",
+              "key": "10.1016/j.jbi.2023.104527_b1",
+              "doi-asserted-by": "crossref",
+              "first-page": "bbaa372",
+              "DOI": "10.1093/bib/bbaa372",
+              "article-title": "idenPC-CAP: Identify protein complexes from weighted RNA-protein heterogeneous interaction networks using co-assemble partner relation",
+              "volume": "22",
+              "author": "Wu",
+              "year": "2021",
+              "journal-title": "Brief. Bioinform."
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b2",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.compbiomed.2020.103829",
+              "article-title": "Insights into changes in binding affinity caused by disease mutations in protein-protein complexes",
+              "volume": "123",
+              "author": "Jemimah",
+              "year": "2020",
+              "journal-title": "Comput. Biol. Med."
+            },
+            {
+              "issue": "Database-Issue",
+              "key": "10.1016/j.jbi.2023.104527_b3",
+              "doi-asserted-by": "crossref",
+              "first-page": "D1121",
+              "DOI": "10.1093/nar/gkx1076",
+              "article-title": "Therapeutic target database update 2018: Enriched resource for facilitating bench-to-clinic research of targeted therapeutics",
+              "volume": "46",
+              "author": "Li",
+              "year": "2018",
+              "journal-title": "Nucleic Acids Res."
+            },
+            {
+              "issue": "Database-Issue",
+              "key": "10.1016/j.jbi.2023.104527_b4",
+              "doi-asserted-by": "crossref",
+              "first-page": "D948",
+              "DOI": "10.1093/nar/gky868",
+              "article-title": "The comparative toxicogenomics database: Update 2019",
+              "volume": "47",
+              "author": "Davis",
+              "year": "2019",
+              "journal-title": "Nucleic Acids Res."
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/j.jbi.2023.104527_b5",
+              "doi-asserted-by": "crossref",
+              "first-page": "bbaa344",
+              "DOI": "10.1093/bib/bbaa344",
+              "article-title": "PharmKG: A dedicated knowledge graph benchmark for bomedical data mining",
+              "volume": "22",
+              "author": "Zheng",
+              "year": "2021",
+              "journal-title": "Brief. Bioinform."
+            },
+            {
+              "issue": "11",
+              "key": "10.1016/j.jbi.2023.104527_b6",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1371/journal.pmed.1002699",
+              "article-title": "Deep-learning-assisted diagnosis for knee magnetic resonance imaging: development and retrospective validation of MRNet",
+              "volume": "15",
+              "author": "Bien",
+              "year": "2018",
+              "journal-title": "PLoS Med."
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/j.jbi.2023.104527_b7",
+              "doi-asserted-by": "crossref",
+              "first-page": "848",
+              "DOI": "10.1016/j.gie.2020.05.043",
+              "article-title": "Comparison of performances of artificial intelligence versus expert endoscopists for real-time assisted diagnosis of esophageal squamous cell carcinoma (with video)",
+              "volume": "92",
+              "author": "Fukuda",
+              "year": "2020",
+              "journal-title": "Gastrointest. Endosc."
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b8",
+              "series-title": "Systematic Reviews in Health Research: Meta-Analysis in Context",
+              "first-page": "535",
+              "article-title": "Comprehensive meta-analysis software",
+              "author": "Borenstein",
+              "year": "2022"
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b9",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.5582/bst.2020.01047",
+              "article-title": "Breakthrough: Chloroquine phosphate has shown apparent efficacy in treatment of COVID-19 associated pneumonia in clinical studies",
+              "author": "Gao",
+              "year": "2020",
+              "journal-title": "Biosci. Trends"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.jbi.2023.104527_b10",
+              "doi-asserted-by": "crossref",
+              "first-page": "60",
+              "DOI": "10.1177/0165551516673485",
+              "article-title": "Extraction of Protein-Protein Interactions (PPIs) from the literature by deep convolutional neural networks with various feature embeddings",
+              "volume": "44",
+              "author": "Choi",
+              "year": "2018",
+              "journal-title": "J. Inf. Sci."
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b11",
+              "doi-asserted-by": "crossref",
+              "first-page": "18",
+              "DOI": "10.1016/j.knosys.2018.11.020",
+              "article-title": "Feature assisted stacked attentive shortest dependency path based Bi-LSTM model for protein-protein interaction",
+              "volume": "166",
+              "author": "Yadav",
+              "year": "2019",
+              "journal-title": "Knowl.-Based Syst."
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b12",
+              "series-title": "Proceedings of the Eighth International Joint Conference on Natural Language Processing",
+              "first-page": "240",
+              "article-title": "Identifying protein-protein interactions in biomedical literature using recurrent neural networks with long short-term memory",
+              "author": "Hsieh",
+              "year": "2017"
+            },
+            {
+              "issue": "8",
+              "key": "10.1016/j.jbi.2023.104527_b13",
+              "doi-asserted-by": "crossref",
+              "first-page": "2690",
+              "DOI": "10.3390/app10082690",
+              "article-title": "A hybrid deep learning model for protein–protein interactions extraction from biomedical literature",
+              "volume": "10",
+              "author": "Quan",
+              "year": "2020",
+              "journal-title": "Appl. Sci."
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b14",
+              "series-title": "Proceedings of the 2021 Workshop on Biomedical Language Processing",
+              "first-page": "180",
+              "article-title": "Improving biomedical pretrained language models with knowledge",
+              "author": "Yuan",
+              "year": "2021"
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b15",
+              "series-title": "Proceedings of the Workshop on Biomedical Language Processing",
+              "first-page": "1",
+              "article-title": "Improving BERT model using contrastive learning for biomedical relation extraction",
+              "author": "Su",
+              "year": "2021"
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/j.jbi.2023.104527_b16",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.patter.2023.100729",
+              "article-title": "Fine-tuning large neural language models for biomedical natural language processing",
+              "volume": "4",
+              "author": "Tinn",
+              "year": "2023",
+              "journal-title": "Patterns"
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b17",
+              "series-title": "Proceedings of the ACM International Conference on Information and Knowledge Management",
+              "first-page": "2361",
+              "article-title": "Enriching pre-trained language model with entity information for relation classification",
+              "author": "Wu",
+              "year": "2019"
+            },
+            {
+              "issue": "18",
+              "key": "10.1016/j.jbi.2023.104527_b18",
+              "doi-asserted-by": "crossref",
+              "first-page": "3604",
+              "DOI": "10.1093/bioinformatics/bth451",
+              "article-title": "Discovering patterns to extract protein-protein interactions from full texts",
+              "volume": "20",
+              "author": "Huang",
+              "year": "2004",
+              "journal-title": "Bioinformatics"
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/j.jbi.2023.104527_b19",
+              "doi-asserted-by": "crossref",
+              "first-page": "365",
+              "DOI": "10.1093/bioinformatics/btl616",
+              "article-title": "RelEx - Relation extraction using dependency parse trees",
+              "volume": "23",
+              "author": "Fundel",
+              "year": "2007",
+              "journal-title": "Bioinformatics"
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b20",
+              "series-title": "Proceedings of the Workshop on Biomedical Natural Language Processing",
+              "first-page": "21",
+              "article-title": "An extended dependency graph for relation extraction in biomedical texts",
+              "author": "Peng",
+              "year": "2015"
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b21",
+              "series-title": "Proceedings of the International Conference on Machine Learning and Cybernetics",
+              "first-page": "3358",
+              "article-title": "Relationship extraction from biomedical literature using maximum entropy based on rich features",
+              "author": "Yao",
+              "year": "2010"
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b22",
+              "series-title": "Proceedings of the Ninth International Conference on Language Resources and Evaluation",
+              "first-page": "3736",
+              "article-title": "Using large biomedical databases as gold annotations for automatic relation extraction",
+              "author": "Ellendorff",
+              "year": "2014"
+            },
+            {
+              "issue": "S-11",
+              "key": "10.1016/j.jbi.2023.104527_b23",
+              "article-title": "All-paths graph kernel for protein-protein interaction extraction with evaluation of cross-corpus learning",
+              "volume": "9",
+              "author": "Airola",
+              "year": "2008",
+              "journal-title": "BMC Bioinformatics"
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b24",
+              "series-title": "Proceedings of the Workshop on Current Trends in Biomedical Natural Language Processing",
+              "first-page": "1",
+              "article-title": "A graph kernel for protein-protein interaction extraction",
+              "author": "Airola",
+              "year": "2008"
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b25",
+              "series-title": "Proceedings of the 2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning",
+              "first-page": "228",
+              "article-title": "Semi-supervised classification for extracting protein interaction sentences using dependency parsing",
+              "author": "Erkan",
+              "year": "2007"
+            },
+            {
+              "issue": "5",
+              "key": "10.1016/j.jbi.2023.104527_b26",
+              "doi-asserted-by": "crossref",
+              "first-page": "756",
+              "DOI": "10.1002/asi.20791",
+              "article-title": "Kernel-based learning for biomedical relation extraction",
+              "volume": "59",
+              "author": "Li",
+              "year": "2008",
+              "journal-title": "J. Am. Soc. Inf. Sci. Technol."
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b27",
+              "doi-asserted-by": "crossref",
+              "first-page": "910423:1",
+              "DOI": "10.1155/2015/910423",
+              "article-title": "A relation extraction framework for biomedical text using hybrid feature set",
+              "volume": "2015",
+              "author": "Muzaffar",
+              "year": "2015",
+              "journal-title": "Comput. Math. Methods Med."
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b28",
+              "doi-asserted-by": "crossref",
+              "first-page": "23",
+              "DOI": "10.1016/j.jbi.2015.03.002",
+              "article-title": "Extracting drug-drug interactions from literature using a rich feature-based linear kernel approach",
+              "volume": "55",
+              "author": "Kim",
+              "year": "2015",
+              "journal-title": "J. Biomed. Inform."
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b29",
+              "series-title": "Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence",
+              "first-page": "2718",
+              "article-title": "Extracting biomolecular interactions using semantic parsing of biomedical text",
+              "author": "Garg",
+              "year": "2016"
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b30",
+              "series-title": "Proceedings of the International Conference on World Wide Web Companion",
+              "first-page": "655",
+              "article-title": "Tree kernel-based protein-protein interaction extraction considering both modal verb phrases and appositive dependency features",
+              "author": "Ma",
+              "year": "2015"
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b31",
+              "doi-asserted-by": "crossref",
+              "first-page": "298473:1",
+              "DOI": "10.1155/2014/298473",
+              "article-title": "Biomedical relation extraction: From binary to complex",
+              "volume": "2014",
+              "author": "Zhou",
+              "year": "2014",
+              "journal-title": "Comput. Math. Methods Med."
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.jbi.2023.104527_b32",
+              "first-page": "7:1",
+              "article-title": "Exploiting graph kernels for high performance biomedical relation extraction",
+              "volume": "9",
+              "author": "Chandrasekarasastry",
+              "year": "2018",
+              "journal-title": "J. Biomed. Semant."
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b33",
+              "series-title": "Advances in Neural Information Processing Systems Annual Conference on Neural Information Processing Systems",
+              "first-page": "3111",
+              "article-title": "Distributed representations of words and phrases and their compositionality",
+              "author": "Mikolov",
+              "year": "2013"
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b34",
+              "series-title": "Proceedings of the Conference on Empirical Methods in Natural Language Processing",
+              "first-page": "1532",
+              "article-title": "Glove: Global vectors for word representation",
+              "author": "Pennington",
+              "year": "2014"
+            },
+            {
+              "issue": "5",
+              "key": "10.1016/j.jbi.2023.104527_b35",
+              "doi-asserted-by": "crossref",
+              "first-page": "828",
+              "DOI": "10.1093/bioinformatics/btx659",
+              "article-title": "Drug-drug interaction extraction via hierarchical RNNs on sequence and shortest dependency paths",
+              "volume": "34",
+              "author": "Zhang",
+              "year": "2018",
+              "journal-title": "Bioinformatics"
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b36",
+              "doi-asserted-by": "crossref",
+              "first-page": "15",
+              "DOI": "10.1016/j.jbi.2018.08.005",
+              "article-title": "Drug-drug interaction extraction from biomedical texts using long short-term memory network",
+              "volume": "86",
+              "author": "Sahu",
+              "year": "2018",
+              "journal-title": "J. Biomed. Inform."
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b37",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1155/2016/8479587",
+              "article-title": "A shortest dependency path based convolutional neural network for protein-protein relation extraction",
+              "volume": "2016",
+              "author": "Hua",
+              "year": "2016",
+              "journal-title": "BioMed. Res. Int."
+            },
+            {
+              "doi-asserted-by": "crossref",
+              "unstructured": "M. Ahmed, J. Islam, M.R. Samee, R.E. Mercer, Identifying Protein-Protein Interaction Using Tree LSTM and Structured Attention, in: Proceedings of the IEEE International Conference on Semantic Computing, 2019, pp. 224–231.",
+              "key": "10.1016/j.jbi.2023.104527_b38",
+              "DOI": "10.1109/ICOSC.2019.8665584"
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.jbi.2023.104527_b39",
+              "doi-asserted-by": "crossref",
+              "first-page": "1105",
+              "DOI": "10.1109/TCBB.2020.3020016",
+              "article-title": "Relation extraction from biomedical and clinical text: Unified multitask learning framework",
+              "volume": "19",
+              "author": "Yadav",
+              "year": "2022",
+              "journal-title": "IEEE/ACM Trans. Comput. Biol. Bioinform."
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b40",
+              "series-title": "Proceedings of the Advanced Data Mining and Applications International Conference",
+              "first-page": "554",
+              "article-title": "Drug-drug interaction extraction via recurrent neural network with multiple attention layers",
+              "volume": "vol. 10604",
+              "author": "Yi",
+              "year": "2017"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.jbi.2023.104527_b41",
+              "doi-asserted-by": "crossref",
+              "first-page": "20",
+              "DOI": "10.1186/s12859-021-04534-5",
+              "article-title": "Biomedical relation extraction via knowledge-enhanced reading comprehension",
+              "volume": "23",
+              "author": "Chen",
+              "year": "2022",
+              "journal-title": "BMC Bioinform."
+            },
+            {
+              "year": "2018",
+              "author": "Radford",
+              "series-title": "Improving Language Understanding by Generative Pre-Training",
+              "key": "10.1016/j.jbi.2023.104527_b42"
+            },
+            {
+              "issue": "8",
+              "key": "10.1016/j.jbi.2023.104527_b43",
+              "first-page": "9",
+              "article-title": "Language models are unsupervised multitask learners",
+              "volume": "1",
+              "author": "Radford",
+              "year": "2019",
+              "journal-title": "OpenAI Blog"
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b44",
+              "series-title": "Advances in Neural Information Processing Systems, Vol. 33",
+              "first-page": "1877",
+              "article-title": "Language models are few-shot learners",
+              "author": "Brown",
+              "year": "2020"
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b45",
+              "first-page": "27730",
+              "article-title": "Training language models to follow instructions with human feedback",
+              "volume": "35",
+              "author": "Ouyang",
+              "year": "2022",
+              "journal-title": "Adv. Neural Inf. Process. Syst."
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b46",
+              "series-title": "Proceedings of the Conference of the North American Chapter of the Association for Computational Linguistics",
+              "first-page": "4171",
+              "article-title": "BERT: Pre-training of deep bidirectional transformers for language understanding",
+              "author": "Devlin",
+              "year": "2019"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.jbi.2023.104527_b47",
+              "first-page": "5485",
+              "article-title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+              "volume": "21",
+              "author": "Raffel",
+              "year": "2020",
+              "journal-title": "J. Mach. Learn. Res."
+            },
+            {
+              "year": "2023",
+              "author": "Touvron",
+              "series-title": "LLaMA: Open and efficient foundation language models",
+              "key": "10.1016/j.jbi.2023.104527_b48"
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/j.jbi.2023.104527_b49",
+              "doi-asserted-by": "crossref",
+              "first-page": "1234",
+              "DOI": "10.1093/bioinformatics/btz682",
+              "article-title": "BioBERT: A pre-trained biomedical language representation model for biomedical text mining",
+              "volume": "36",
+              "author": "Lee",
+              "year": "2020",
+              "journal-title": "Bioinformatics"
+            },
+            {
+              "year": "2021",
+              "author": "Wang",
+              "series-title": "Pre-trained language models in biomedical domain: A systematic survey",
+              "key": "10.1016/j.jbi.2023.104527_b50"
+            },
+            {
+              "year": "2023",
+              "author": "Zhao",
+              "series-title": "A survey of large language models",
+              "key": "10.1016/j.jbi.2023.104527_b51"
+            },
+            {
+              "unstructured": "Q. Wei, Z. Ji, Y. Si, J. Du, J. Wang, F. Tiryaki, S. Wu, C. Tao, K. Roberts, H. Xu, Relation Extraction from Clinical Narratives Using Pre-trained Language Models, in: American Medical Informatics Association Annual Symposium, 2019.",
+              "key": "10.1016/j.jbi.2023.104527_b52"
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b53",
+              "series-title": "Proceedings of the Annual Meeting of the Association for Computational Linguistics",
+              "first-page": "6396",
+              "article-title": "Amalgamation of protein sequence, structure and textual information for improving protein-protein interaction identification",
+              "author": "Dutta",
+              "year": "2020"
+            },
+            {
+              "doi-asserted-by": "crossref",
+              "unstructured": "Q. Liu, Z. Yang, L. Wang, Y. Zhang, H. Lin, J. Ning, SGAT: A Self-supervised Graph Attention Network for Biomedical Relation Extraction, in: IEEE International Conference on Bioinformatics and Biomedicine, 2021, pp. 698–701.",
+              "key": "10.1016/j.jbi.2023.104527_b54",
+              "DOI": "10.1109/BIBM52615.2021.9669699"
+            },
+            {
+              "doi-asserted-by": "crossref",
+              "unstructured": "M. Agrawal, S. Hegselmann, H. Lang, Y. Kim, D. Sontag, Large language models are few-shot clinical information extractors, in: Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing, 2022, pp. 1998–2022.",
+              "key": "10.1016/j.jbi.2023.104527_b55",
+              "DOI": "10.18653/v1/2022.emnlp-main.130"
+            },
+            {
+              "year": "2023",
+              "author": "Tang",
+              "series-title": "Does synthetic data generation of llms help clinical text mining?",
+              "key": "10.1016/j.jbi.2023.104527_b56"
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b57",
+              "series-title": "Proceedings of the Conference of the Association for Computational Linguistics",
+              "first-page": "4593",
+              "article-title": "BERT rediscovers the classical NLP pipeline",
+              "author": "Tenney",
+              "year": "2019"
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b58",
+              "doi-asserted-by": "crossref",
+              "first-page": "6918381:1",
+              "DOI": "10.1155/2016/6918381",
+              "article-title": "Drug-drug interaction extraction via convolutional neural networks",
+              "volume": "2016",
+              "author": "Liu",
+              "year": "2016",
+              "journal-title": "Comput. Math. Methods Med."
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b59",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1186/1471-2105-8-50",
+              "article-title": "BioInfer: A corpus for information extraction in the biomedical domain",
+              "volume": "8",
+              "author": "Pyysalo",
+              "year": "2007",
+              "journal-title": "BMC Bioinformatics"
+            },
+            {
+              "doi-asserted-by": "crossref",
+              "unstructured": "J. Ding, D. Berleant, D. Nettleton, E.S. Wurtele, Mining MEDLINE: Abstracts, Sentences, or Phrases?, in: Proceedings of the 2002 Pacific Symposium on Biocomputing, 2002, pp. 326–337.",
+              "key": "10.1016/j.jbi.2023.104527_b60",
+              "DOI": "10.1142/9789812799623_0031"
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b61",
+              "series-title": "Proceedings of the 2005 Learning Language in Logic Workshop",
+              "article-title": "Learning language in logic-genic interaction extraction challenge",
+              "author": "Nédellec",
+              "year": "2005"
+            },
+            {
+              "issue": "5",
+              "key": "10.1016/j.jbi.2023.104527_b62",
+              "doi-asserted-by": "crossref",
+              "first-page": "914",
+              "DOI": "10.1016/j.jbi.2013.07.011",
+              "article-title": "The DDI corpus: An annotated corpus with pharmacological substances and drug-drug interactions",
+              "volume": "46",
+              "author": "Herrero-Zazo",
+              "year": "2013",
+              "journal-title": "J. Biomed. Inform."
+            },
+            {
+              "unstructured": "M. Krallinger, O. Rabal, S.A. Akhondi, M.P. Pérez, J. Santamaría, G.P. Rodríguez, G. Tsatsaronis, A. Intxaurrondo, J.A. López, U. Nandal, et al., Overview of the BioCreative VI chemical-protein interaction Track, in: Proceedings of the BioCreative Challenge Evaluation Workshop, Vol. 1, 2017, pp. 141–146.",
+              "key": "10.1016/j.jbi.2023.104527_b63"
+            },
+            {
+              "unstructured": "A. Miranda, F. Mehryary, J. Luoma, S. Pyysalo, A. Valencia, M. Krallinger, Overview of DrugProt BioCreative VII track: quality evaluation and large scale text mining of drug-gene/protein relations, in: Proceedings of the Seventh BioCreative Challenge Evaluation Workshop, 2021, pp. 11–21.",
+              "key": "10.1016/j.jbi.2023.104527_b64"
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b65",
+              "series-title": "Proceedings of the Workshop on Biomedical Language Processing",
+              "first-page": "376",
+              "article-title": "Comparing encoder-only and encoder-decoder transformers for relation extraction from biomedical texts: An empirical study on ten benchmark datasets",
+              "author": "Sarrouti",
+              "year": "2022"
+            },
+            {
+              "issue": "11",
+              "key": "10.1016/j.jbi.2023.104527_b66",
+              "doi-asserted-by": "crossref",
+              "first-page": "3315",
+              "DOI": "10.1109/JBHI.2020.2983365",
+              "article-title": "A multi-view deep neural network model for chemical-disease relation extraction from imbalanced datasets",
+              "volume": "24",
+              "author": "Mitra",
+              "year": "2020",
+              "journal-title": "IEEE J. Biomed. Health Inf."
+            },
+            {
+              "doi-asserted-by": "crossref",
+              "unstructured": "P. Su, K. Vijay-Shanker, Investigation of BERT Model on Biomedical Relation Extraction Based on Revised Fine-tuning Mechanism, in: IEEE International Conference on Bioinformatics and Biomedicine, 2020, pp. 2522–2529.",
+              "key": "10.1016/j.jbi.2023.104527_b67",
+              "DOI": "10.1109/BIBM49941.2020.9313160"
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b68",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.jbi.2021.103931",
+              "article-title": "Protein-protein interaction relation extraction based on multigranularity semantic fusion",
+              "volume": "123",
+              "author": "Li",
+              "year": "2021",
+              "journal-title": "J. Biomed. Inform."
+            },
+            {
+              "issue": "6",
+              "key": "10.1016/j.jbi.2023.104527_b69",
+              "doi-asserted-by": "crossref",
+              "first-page": "bbac409",
+              "DOI": "10.1093/bib/bbac409",
+              "article-title": "BioGPT: Generative pre-trained transformer for biomedical text generation and mining",
+              "volume": "23",
+              "author": "Luo",
+              "year": "2022",
+              "journal-title": "Brief. Bioinform."
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b70",
+              "doi-asserted-by": "crossref",
+              "first-page": "83",
+              "DOI": "10.1016/j.jbi.2018.03.011",
+              "article-title": "A hybrid model based on neural networks for biomedical relation extraction",
+              "volume": "81",
+              "author": "Zhang",
+              "year": "2018",
+              "journal-title": "J. Biomed. Inform."
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b71",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.jbi.2020.103432",
+              "article-title": "Drug-drug interaction extraction via hybrid neural networks on biomedical literature",
+              "volume": "106",
+              "author": "Wu",
+              "year": "2020",
+              "journal-title": "J. Biomed. Inform."
+            },
+            {
+              "key": "10.1016/j.jbi.2023.104527_b72",
+              "series-title": "Proceedings of the Conference on Empirical Methods in Natural Language Processing and the International Joint Conference on Natural Language Processing",
+              "first-page": "3613",
+              "article-title": "SciBERT: A pretrained language model for scientific text",
+              "author": "Beltagy",
+              "year": "2019"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.jbi.2023.104527_b73",
+              "doi-asserted-by": "crossref",
+              "first-page": "2:1",
+              "DOI": "10.1145/3458754",
+              "article-title": "Domain-specific language model pretraining for biomedical natural language processing",
+              "volume": "3",
+              "author": "Gu",
+              "year": "2022",
+              "journal-title": "ACM Trans. Comput. Healthc."
+            },
+            {
+              "year": "2021",
+              "author": "Phan",
+              "series-title": "SciFive: a text-to-text transformer model for biomedical literature",
+              "key": "10.1016/j.jbi.2023.104527_b74"
+            },
+            {
+              "year": "2023",
+              "author": "Wang",
+              "series-title": "Can LLMs like GPT-4 outperform traditional AI tools in dementia diagnosis? Maybe, but not today",
+              "key": "10.1016/j.jbi.2023.104527_b75"
+            },
+            {
+              "year": "2023",
+              "author": "Han",
+              "series-title": "Is information extraction solved by chatgpt? An analysis of performance, evaluation criteria, robustness and errors",
+              "key": "10.1016/j.jbi.2023.104527_b76"
+            }
+          ],
+          "container-title": [
+            "Journal of Biomedical Informatics"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S1532046423002484?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S1532046423002484?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                2
+              ]
+            ],
+            "date-time": "2024-11-02T00:46:40Z",
+            "timestamp": 1730508400000
+          },
+          "score": 31.041954,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1532046423002484"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2023,
+                11
+              ]
+            ]
+          },
+          "references-count": 76,
+          "alternative-id": [
+            "S1532046423002484"
+          ],
+          "URL": "https://doi.org/10.1016/j.jbi.2023.104527",
+          "ISSN": [
+            "1532-0464"
+          ],
+          "issn-type": [
+            {
+              "type": "print",
+              "value": "1532-0464"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                11
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "Elsevier",
+              "name": "publisher",
+              "label": "This article is maintained by"
+            },
+            {
+              "value": "Learning entity-oriented representation for biomedical relation extraction",
+              "name": "articletitle",
+              "label": "Article Title"
+            },
+            {
+              "value": "Journal of Biomedical Informatics",
+              "name": "journaltitle",
+              "label": "Journal Title"
+            },
+            {
+              "value": "https://doi.org/10.1016/j.jbi.2023.104527",
+              "name": "articlelink",
+              "label": "CrossRef DOI link to publisher maintained version"
+            },
+            {
+              "value": "article",
+              "name": "content_type",
+              "label": "Content Type"
+            },
+            {
+              "value": "© 2023 Elsevier Inc.",
+              "name": "copyright",
+              "label": "Copyright"
+            }
+          ],
+          "article-number": "104527"
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                31
+              ]
+            ],
+            "date-time": "2026-03-31T14:28:19Z",
+            "timestamp": 1774967299828,
+            "version": "3.50.1"
+          },
+          "posted": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                2
+              ]
+            ]
+          },
+          "reference-count": 0,
+          "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    10,
+                    2
+                  ]
+                ],
+                "date-time": "2024-10-02T00:00:00Z",
+                "timestamp": 1727827200000
+              },
+              "content-version": "unspecified",
+              "delay-in-days": 0,
+              "URL": "https://creativecommons.org/licenses/by/4.0/"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "DOI": "10.36227/techrxiv.172789006.68125167/v1",
+          "type": "posted-content",
+          "created": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                2
+              ]
+            ],
+            "date-time": "2024-10-02T13:27:51Z",
+            "timestamp": 1727875671000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Bi-encoder-based approach to biomedical document-level entity recognition and relation extraction"
+          ],
+          "prefix": "10.36227",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-2196-1033",
+              "authenticated-orcid": false,
+              "given": "Pengyuan",
+              "family": "Nie",
+              "sequence": "first",
+              "affiliation": []
+            },
+            {
+              "given": "Mengxuan",
+              "family": "Lin",
+              "sequence": "additional",
+              "affiliation": []
+            },
+            {
+              "given": "Jinzhong",
+              "family": "Ning",
+              "sequence": "additional",
+              "affiliation": []
+            },
+            {
+              "given": "Zhihao",
+              "family": "Yang",
+              "sequence": "additional",
+              "affiliation": []
+            },
+            {
+              "given": "Lei",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": []
+            }
+          ],
+          "member": "263",
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                31
+              ]
+            ],
+            "date-time": "2026-03-31T13:29:40Z",
+            "timestamp": 1774963780000
+          },
+          "score": 30.575266,
+          "resource": {
+            "primary": {
+              "URL": "https://www.techrxiv.org/doi/full/10.36227/techrxiv.172789006.68125167/v1"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                2
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.36227/techrxiv.172789006.68125167/v1",
+          "relation": {
+            "is-preprint-of": [
+              {
+                "id-type": "doi",
+                "id": "10.1109/TCBBIO.2025.3582790",
+                "asserted-by": "subject"
+              }
+            ]
+          },
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                2
+              ]
+            ]
+          },
+          "subtype": "preprint"
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                30
+              ]
+            ],
+            "date-time": "2024-10-30T02:46:57Z",
+            "timestamp": 1730256417475,
+            "version": "3.28.0"
+          },
+          "reference-count": 23,
+          "publisher": "IEEE",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2022,
+                    12,
+                    10
+                  ]
+                ],
+                "date-time": "2022-12-10T00:00:00Z",
+                "timestamp": 1670630400000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-029"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2022,
+                    12,
+                    10
+                  ]
+                ],
+                "date-time": "2022-12-10T00:00:00Z",
+                "timestamp": 1670630400000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-037"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2022,
+                12,
+                10
+              ]
+            ]
+          },
+          "DOI": "10.1109/icsai57119.2022.10005391",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2023,
+                1,
+                9
+              ]
+            ],
+            "date-time": "2023-01-09T21:28:16Z",
+            "timestamp": 1673299696000
+          },
+          "page": "1-7",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Chinese Biomedical Entity Relation Extraction Based On Directed Graph Convolutional Network"
+          ],
+          "prefix": "10.1109",
+          "author": [
+            {
+              "given": "Baosheng",
+              "family": "Yin",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Shenyang Aerospace University,Human-Computer Intelligence Research Center,Shenyang,China"
+                }
+              ]
+            },
+            {
+              "given": "Wei",
+              "family": "Zhao",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Shenyang Aerospace University,Human-Computer Intelligence Research Center,Shenyang,China"
+                }
+              ]
+            }
+          ],
+          "member": "263",
+          "reference": [
+            {
+              "key": "ref1",
+              "first-page": "551",
+              "article-title": "Exploiting syntactico-semantic structures for relation extraction[C]",
+              "volume-title": "Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies",
+              "author": "Chan"
+            },
+            {
+              "key": "ref2",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.3115/1118693.1118703"
+            },
+            {
+              "key": "ref3",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.3115/1219840.1219893"
+            },
+            {
+              "key": "ref4",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1609/aaai.v34i05.6374"
+            },
+            {
+              "key": "ref5",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/2020.coling-main.138"
+            },
+            {
+              "key": "ref6",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/2020.acl-main.136"
+            },
+            {
+              "key": "ref7",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/P18-1047"
+            },
+            {
+              "key": "ref8",
+              "first-page": "1399",
+              "article-title": "Jointly identifying entities and extracting relations in encyclopedia text via a graphical model approach[C]",
+              "author": "Yu",
+              "year": "2010",
+              "journal-title": "Coling 2010: Posters"
+            },
+            {
+              "key": "ref9",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.3115/v1/p14-1038"
+            },
+            {
+              "key": "ref10",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.3115/1699510.1699527"
+            },
+            {
+              "key": "ref11",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.3115/1219044.1219066"
+            },
+            {
+              "key": "ref12",
+              "first-page": "384",
+              "article-title": "Word representations: a simple and general method for semi-supervised learning[C]",
+              "volume-title": "Proceedings of the 48th annual meeting of the association for computational linguistics",
+              "author": "Turian"
+            },
+            {
+              "issue": "6",
+              "key": "ref13",
+              "first-page": "1793",
+              "article-title": "Survey of entity relationship extraction based on deep learning[J]",
+              "volume": "30",
+              "author": "Hai-hong",
+              "year": "2019",
+              "journal-title": "Journal of Software"
+            },
+            {
+              "key": "ref14",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/K19-1056"
+            },
+            {
+              "key": "ref15",
+              "first-page": "2335",
+              "article-title": "Relation classification via convolutional deep neural network[C]",
+              "volume-title": "Proceedings of COLING 2014, the 25th International Conference on Computational Linguistics: Technical Papers",
+              "author": "Zeng"
+            },
+            {
+              "issue": "12",
+              "key": "ref16",
+              "first-page": "2557",
+              "article-title": "ENT-BERT Entity Relation Classification Model Combining BERT and Entity Information[J]",
+              "volume": "41",
+              "author": "Dong-dong",
+              "year": "2020",
+              "journal-title": "Journal of Chinese Computer Systems"
+            },
+            {
+              "key": "ref17",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/D18-1157"
+            },
+            {
+              "key": "ref18",
+              "first-page": "551",
+              "article-title": "Exploiting syntactico-semantic structures for relation extraction[C]",
+              "volume-title": "Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies",
+              "author": "Chan"
+            },
+            {
+              "key": "ref19",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.eswa.2018.07.032"
+            },
+            {
+              "key": "ref20",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1609/aaai.v34i05.6374"
+            },
+            {
+              "key": "ref21",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.24963/ijcai.2020/561"
+            },
+            {
+              "key": "ref22",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/2021.acl-long.486"
+            },
+            {
+              "key": "ref23",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/2020.acl-main.734"
+            }
+          ],
+          "event": {
+            "name": "2022 8th International Conference on Systems and Informatics (ICSAI)",
+            "start": {
+              "date-parts": [
+                [
+                  2022,
+                  12,
+                  10
+                ]
+              ]
+            },
+            "location": "Kunming, China",
+            "end": {
+              "date-parts": [
+                [
+                  2022,
+                  12,
+                  12
+                ]
+              ]
+            }
+          },
+          "container-title": [
+            "2022 8th International Conference on Systems and Informatics (ICSAI)"
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx7/10005314/10005319/10005391.pdf?arnumber=10005391",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2024,
+                2,
+                9
+              ]
+            ],
+            "date-time": "2024-02-09T09:24:45Z",
+            "timestamp": 1707470685000
+          },
+          "score": 29.31522,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/10005391/"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2022,
+                12,
+                10
+              ]
+            ]
+          },
+          "references-count": 23,
+          "URL": "https://doi.org/10.1109/icsai57119.2022.10005391",
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                12,
+                10
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                17
+              ]
+            ],
+            "date-time": "2025-01-17T19:10:16Z",
+            "timestamp": 1737141016140,
+            "version": "3.33.0"
+          },
+          "reference-count": 18,
+          "publisher": "IEEE",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    9,
+                    23
+                  ]
+                ],
+                "date-time": "2024-09-23T00:00:00Z",
+                "timestamp": 1727049600000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-029"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    9,
+                    23
+                  ]
+                ],
+                "date-time": "2024-09-23T00:00:00Z",
+                "timestamp": 1727049600000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-037"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                23
+              ]
+            ]
+          },
+          "DOI": "10.1109/icedcs64328.2024.00015",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                16
+              ]
+            ],
+            "date-time": "2025-01-16T18:31:54Z",
+            "timestamp": 1737052314000
+          },
+          "page": "60-65",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Document-Level Biomedical Entity Relation Extraction Based on Semantic Segmentation"
+          ],
+          "prefix": "10.1109",
+          "author": [
+            {
+              "given": "Zheng",
+              "family": "Wei",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Dalian Jiaotong University,School of Intelligent Railway Engineering,Dalian,China"
+                }
+              ]
+            },
+            {
+              "given": "Guan",
+              "family": "Li",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Dalian Jiaotong University,School of Intelligent Railway Engineering,Dalian,China"
+                }
+              ]
+            }
+          ],
+          "member": "263",
+          "reference": [
+            {
+              "article-title": "A Comprehensive Survey of Document-level Relation Extraction (2016-2022)[J]",
+              "year": "2023",
+              "author": "Delaunay",
+              "key": "ref1"
+            },
+            {
+              "key": "ref2",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.24963/ijcai.2021/551"
+            },
+            {
+              "key": "ref3",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/2022.findings-acl.132"
+            },
+            {
+              "key": "ref4",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/2020.emnlp-main.127"
+            },
+            {
+              "key": "ref5",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-031-33374-3_25"
+            },
+            {
+              "article-title": "Fine-tune bert for docred with two-step process",
+              "year": "2019",
+              "author": "Wang",
+              "key": "ref6"
+            },
+            {
+              "key": "ref7",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1609/aaai.v35i16.17717"
+            },
+            {
+              "key": "ref8",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/N18-1080"
+            },
+            {
+              "key": "ref9",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-319-24574-4_28"
+            },
+            {
+              "key": "ref10",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1093/database/baw068"
+            },
+            {
+              "key": "ref11",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-030-17083-7_17"
+            },
+            {
+              "article-title": "BioBERT-based Deep Learning and Merged ChemProt-DrugProt for Enhanced Biomedical Relation Extraction",
+              "year": "2024",
+              "author": "McInnes",
+              "key": "ref12"
+            },
+            {
+              "key": "ref13",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/D19-1371"
+            },
+            {
+              "key": "ref14",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/2020.findings-emnlp.409"
+            },
+            {
+              "key": "ref15",
+              "first-page": "2098",
+              "article-title": "Document-level biomedical relation extraction based on multi-dimensional fusion information and multi-granularity logical reasoning[C]",
+              "volume-title": "Proceedings of the 29th International Conference on Computational Linguistics",
+              "author": "Li"
+            },
+            {
+              "key": "ref16",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.knosys.2023.111281"
+            },
+            {
+              "key": "ref17",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/2021.findings-acl.47"
+            },
+            {
+              "key": "ref18",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/TASLP.2023.3316454"
+            }
+          ],
+          "event": {
+            "name": "2024 International Conference on Electronics and Devices, Computational Science (ICEDCS)",
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  9,
+                  23
+                ]
+              ]
+            },
+            "location": "Marseille, France",
+            "end": {
+              "date-parts": [
+                [
+                  2024,
+                  9,
+                  25
+                ]
+              ]
+            }
+          },
+          "container-title": [
+            "2024 International Conference on Electronics and Devices, Computational Science (ICEDCS)"
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx8/10834803/10834611/10834941.pdf?arnumber=10834941",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                17
+              ]
+            ],
+            "date-time": "2025-01-17T18:31:39Z",
+            "timestamp": 1737138699000
+          },
+          "score": 29.284996,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/10834941/"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                23
+              ]
+            ]
+          },
+          "references-count": 18,
+          "URL": "https://doi.org/10.1109/icedcs64328.2024.00015",
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                23
+              ]
+            ]
+          }
+        },
+        {
+          "institution": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/02en5vm52",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Sorbonne université"
+            }
+          ],
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                4
+              ]
+            ],
+            "date-time": "2026-04-04T12:03:44Z",
+            "timestamp": 1775304224140,
+            "version": "3.50.1"
+          },
+          "reference-count": 0,
+          "publisher": "Agence Bibliographique de l'Enseignement Supérieur",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "abstract": "<jats:title>Contextualisation et généralisation en extraction d'entités et de relations</jats:title>\n                <jats:p xml:lang=\"fr\">Depuis 2018, le transfert de modèles de langue pré-entraînés et la préservation de leurs capacités de contextualisation ont permis d'atteindre des performances sans précédent sur les benchmarks de Traitement Automatique des Langues. Cependant, alors que ces modèles atteignent des scores impressionnants, leurs capacités de compréhension apparaissent assez peu développées, révélant les limites des jeux de données de référence pour identifier leurs facteurs de performance et pour mesurer précisément leur capacité de compréhension. Dans cette thèse, nous étudions la généralisation à des faits inconnus par des modèles état de l'art en Extraction d'Entités Nommées et de Relations. En effet, les benchmarks traditionnels présentent un recoupement lexical important entre les mentions et les relations utilisées pour l'entraînement et l'évaluation des modèles. Au contraire, l'intérêt principal de l'Extraction d'Information est d'extraire des informations inconnues jusqu'alors. Nous proposons plusieurs études pour séparer les performances selon le recoupement des mentions et des relations avec le jeu d'entraînement. Nous constatons que les modèles de langage pré-entraînés sont principalement bénéfiques pour détecter les mentions non connues, en particulier dans des genres de textes nouveaux. Bien que cela les rende adaptés à des cas d'utilisation concrets, il existe toujours un écart de performance important entre les mentions connues et inconnues. En particulier, même les modèles d'Extraction d'Entités et de Relations les plus récents reposent sur une heuristique de rétention superficielle, basant plus leur prédiction sur les arguments des relations que sur leur contexte.</jats:p>",
+          "DOI": "10.70675/72fea173z5549z4bd5z8332zf81f26d3c2b9",
+          "type": "dissertation",
+          "created": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                4
+              ]
+            ],
+            "date-time": "2026-04-04T11:15:42Z",
+            "timestamp": 1775301342000
+          },
+          "approved": {
+            "date-parts": [
+              [
+                2022,
+                3,
+                11
+              ]
+            ]
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Contextualization and Generalization in Entity and Relation Extraction"
+          ],
+          "prefix": "10.70675",
+          "author": [
+            {
+              "sequence": "additional",
+              "affiliation": []
+            },
+            {
+              "given": "Bruno",
+              "family": "Taillé",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "id": [
+                    {
+                      "id": "https://ror.org/02en5vm52",
+                      "id-type": "ROR",
+                      "asserted-by": "publisher"
+                    }
+                  ],
+                  "name": "Sorbonne université"
+                }
+              ]
+            }
+          ],
+          "member": "51494",
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                4
+              ]
+            ],
+            "date-time": "2026-04-04T11:15:43Z",
+            "timestamp": 1775301343000
+          },
+          "score": 29.144428,
+          "degree": [
+            "Doctorat ès Sciences et technologies de l'information et de la communication",
+            "PhD"
+          ],
+          "resource": {
+            "primary": {
+              "URL": "https://theses.fr/2022SORUS266"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                null
+              ]
+            ]
+          },
+          "references-count": 0,
+          "alternative-id": [
+            "2022SORUS266"
+          ],
+          "URL": "https://doi.org/10.70675/72fea173z5549z4bd5z8332zf81f26d3c2b9"
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                30
+              ]
+            ],
+            "date-time": "2025-05-30T06:09:52Z",
+            "timestamp": 1748585392773,
+            "version": "3.40.3"
+          },
+          "publisher-location": "Singapore",
+          "reference-count": 89,
+          "publisher": "Springer Nature Singapore",
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9789819739615"
+            },
+            {
+              "type": "electronic",
+              "value": "9789819739622"
+            }
+          ],
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2024-01-01T00:00:00Z",
+                "timestamp": 1704067200000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2024-01-01T00:00:00Z",
+                "timestamp": 1704067200000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "link.springer.com"
+            ],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2024
+              ]
+            ]
+          },
+          "DOI": "10.1007/978-981-97-3962-2_12",
+          "type": "book-chapter",
+          "created": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                3
+              ]
+            ],
+            "date-time": "2024-09-03T13:02:13Z",
+            "timestamp": 1725368533000
+          },
+          "page": "237-281",
+          "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 1,
+          "title": [
+            "Advances in Biomedical Entity and Relation Extraction: Techniques and Applications"
+          ],
+          "prefix": "10.1007",
+          "author": [
+            {
+              "given": "Sadika",
+              "family": "Sood",
+              "sequence": "first",
+              "affiliation": []
+            },
+            {
+              "given": "Aditi",
+              "family": "Sharan",
+              "sequence": "additional",
+              "affiliation": []
+            }
+          ],
+          "member": "297",
+          "published-online": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                4
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "12_CR1",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Abacha AB, Zweigenbaum P (2011a) A Hybrid approach for the extraction of semantic relations from MEDLINE abstracts. In: Computational linguistics and intelligent text processing: 12th international conference, Vol. 6609, CICLing 2011, Tokyo, Japan, 20–26 Feb 2011. Proceedings, Part II. Springer, Berlin, pp. 139–150. https://doi.org/10.1007/978-3-642-19437-5_11",
+              "DOI": "10.1007/978-3-642-19437-5_11"
+            },
+            {
+              "key": "12_CR2",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Abacha AB, Zweigenbaum P (2011b) Automatic extraction of semantic relations between medical entities: a rule-based approach. J Biomed Semant 2:S4. https://doi.org/10.1186/2041-1480-2-S5-S4",
+              "DOI": "10.1186/2041-1480-2-S5-S4"
+            },
+            {
+              "key": "12_CR3",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Akbik A, Bergmann T, Blythe D, Rasul K, Schweter S, Vollgraf R (2019) FLAIR: an easy-to-use framework for state-of-the-Art NLP. In: Proceedings of the 2019 conference of the North American chapter of the association for computational linguistics (demonstrations). Association for Computational Linguistics, pp. 54–59. https://doi.org/10.18653/v1/N19-4010",
+              "DOI": "10.18653/v1/N19-4010"
+            },
+            {
+              "key": "12_CR4",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Aronson AR, Lang FM (2010) An overview of MetaMap: historical perspective and recent advances. J Am Med Infomatics Assoc 17(3):229–236. https://doi.org/10.1136/jamia.2009.002733",
+              "DOI": "10.1136/jamia.2009.002733"
+            },
+            {
+              "key": "12_CR5",
+              "unstructured": "Aronson AR (2001) Effective mapping of biomedical text to the UMLS Metathesaurus: the MetaMap program. In: Proceedings of the AMIA symposium. American Medical Informatics Association, pp 17–21"
+            },
+            {
+              "key": "12_CR6",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Bada M, Eckert M, Evans D (2012) Concept annotation in the CRAFT corpus. BMC Bioinf. 13(1):1471–2105. https://doi.org/10.1186/1471-2105-13-161",
+              "DOI": "10.1186/1471-2105-13-161"
+            },
+            {
+              "key": "12_CR7",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Bagewadi S, Bobić T, Apitius MH, Fluck J, Klinger R (2014) Detecting miRNA mentions and relations in biomedical literature. F1000Research 3(205):205. https://doi.org/10.12688/f1000research.4591.3",
+              "DOI": "10.12688/f1000research.4591.3"
+            },
+            {
+              "key": "12_CR8",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Becker KG, Barnes KC, Bright TJ, Wang SA (2004) The genetic association database. Nat Genet 36(5):431–432. https://doi.org/10.1038/ng0504-431",
+              "DOI": "10.1038/ng0504-431"
+            },
+            {
+              "key": "12_CR9",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Beltagy I, Lo K, Cohan A (2019) SciBERT: a pretrained language model for scientific text. ArXiv. https://doi.org/10.48550/arXiv.1903.10676",
+              "DOI": "10.48550/arXiv.1903.10676"
+            },
+            {
+              "key": "12_CR10",
+              "unstructured": "Berger AL, Pietra VJD, Pietra SAD (1996) A maximum entropy approach to natural language processing. Comput Linguist 22(1):39–71"
+            },
+            {
+              "key": "12_CR11",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Björne J, Salakoski T (2015) TEES 2.2: biomedical event extraction for diverse corpora. BMC Bioinf 16(Suppl 1):S4. https://doi.org/10.1186/1471-2105-16-S16-S4",
+              "DOI": "10.1186/1471-2105-16-S16-S4"
+            },
+            {
+              "key": "12_CR12",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Bose P, Srinivasan S, Sleeman IV, WC, Palta J, Kapoor R, Ghosh P (2021) A survey on recent named entity recognition and relationship extraction techniques on clinical texts. Appl Sci 11(18). https://doi.org/10.3390/app11188319",
+              "DOI": "10.3390/app11188319"
+            },
+            {
+              "key": "12_CR13",
+              "unstructured": "Bui QC (2012) Relation extraction methods for biomedical literature [Ph.D. thesis] [UvA-DARE (Digital Academic Repository)]. https://hdl.handle.net/11245/1.373917"
+            },
+            {
+              "key": "12_CR14",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Bundschus M, Dejori M, Stetter M, Tresp V, Kriegel HP (2008) Extraction of semantic biomedical relations from text using conditional random fields. BMC Bioinform 9(207). https://doi.org/10.1186/1471-2105-9-207",
+              "DOI": "10.1186/1471-2105-9-207"
+            },
+            {
+              "key": "12_CR15",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Bunescu R, Ge R, Kate RJ, Marcotte EM, Mooney RJ, Ramani AK, Wong YW (2005) Comparative experiments on learning information extractors for proteins and their interactions. Artif intel med 33(2):139–155. https://doi.org/10.1016/j.artmed.2004.07.016",
+              "DOI": "10.1016/j.artmed.2004.07.016"
+            },
+            {
+              "key": "12_CR16",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Cenikj G, Eftimov T, Seljak BK (2021) {SAFFRON}: tran{S}fer le{A}rning For Food-disease {R}elati{O}n extractio{N}. In: Proceedings of the 20th workshop on biomedical language processing. Association for Computational Linguistics, pp 30–40. https://doi.org/10.18653/v1/2021.bionlp-1.4",
+              "DOI": "10.18653/v1/2021.bionlp-1.4"
+            },
+            {
+              "key": "12_CR17",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Cho H, Choi W, Lee H (2017) A method for named entity normalization in biomedical articles: application to diseases and plants. BMC Bioinform. https://doi.org/10.1186/s12859-017-1857-8",
+              "DOI": "10.1186/s12859-017-1857-8"
+            },
+            {
+              "key": "12_CR18",
+              "unstructured": "Collier N, Ohta T, Tsuruoka Y, Tateisi Y, Kim J-D (2004) Introduction to the bio-entity recognition task at {JNLPBA}. In: Proceedings of the international joint workshop on natural language processing in biomedicine and its applications ({NLPBA}/{B}io{NLP}), pp 73–78. https://aclanthology.org/W04-1213"
+            },
+            {
+              "key": "12_CR19",
+              "unstructured": "Database Information. (n.d.). DISGENET plus. Retrieved 9 May 2023, from https://www.disgenetplus.com/DbInfo"
+            },
+            {
+              "key": "12_CR20",
+              "doi-asserted-by": "publisher",
+              "first-page": "326",
+              "DOI": "10.1142/9789812799623_0031",
+              "volume": "7",
+              "author": "J Ding",
+              "year": "2002",
+              "unstructured": "Ding J, Berleant D, Nettleton D, Wurtele E (2002) Mining MEDLINE: abstracts, sentences, or phrases? Pac Symp Biocomput 7:326–337. https://doi.org/10.1142/9789812799623_0031",
+              "journal-title": "Pac Symp Biocomput"
+            },
+            {
+              "key": "12_CR21",
+              "doi-asserted-by": "publisher",
+              "first-page": "1",
+              "DOI": "10.1016/j.jbi.2013.12.006",
+              "volume": "47",
+              "author": "RI Doğan",
+              "year": "2014",
+              "unstructured": "Doğan RI, Leaman R, Lu Z (2014) February). NCBI disease corpus: a resource for disease name recognition and concept normalization. J Biomed Inform 47:1–10. https://doi.org/10.1016/j.jbi.2013.12.006",
+              "journal-title": "J Biomed Inform"
+            },
+            {
+              "key": "12_CR22",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Florez E, Precioso F, Pighetti R, Riveill M (2019) Deep learning for identification of adverse drug reaction relations. Assoc Comput Machinery New York NY United States. https://doi.org/10.1145/3364908.3365295",
+              "DOI": "10.1145/3364908.3365295"
+            },
+            {
+              "key": "12_CR23",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Frunza O, Inkpen D (2010) Extraction of disease-treatment semantic relations from biomedical sentences. In: BioNLP ‘10: proceedings of the 2010 workshop on biomedical natural language, pp 91–98. https://doi.org/10.5555/1869961.1869973",
+              "DOI": "10.5555/1869961.1869973"
+            },
+            {
+              "key": "12_CR24",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Gerner M, Sarafraz F, Bergman CM, Nenadic G (2012) BioContext: an integrated text mining system for large-scale extraction and contextualization of biomolecular events. Bioinformatics 28(16):2154–2161. https://doi.org/10.1093/bioinformatics/bts332",
+              "DOI": "10.1093/bioinformatics/bts332"
+            },
+            {
+              "issue": "1",
+              "key": "12_CR25",
+              "doi-asserted-by": "publisher",
+              "first-page": "15",
+              "DOI": "10.1186/2041-1480-3-15",
+              "volume": "3",
+              "author": "H Gurulingappa",
+              "year": "2012",
+              "unstructured": "Gurulingappa H, Mateen-Rajpu A, Toldo L (2012) Extraction of potential adverse drug events from medical case reports. J Biomed Semant 3(1):15. https://doi.org/10.1186/2041-1480-3-15",
+              "journal-title": "J Biomed Semant"
+            },
+            {
+              "key": "12_CR26",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Habibi M, Weber L, Neves M, Wiegandt DL, Leser U (2017) Deep learning with word embeddings improves biomedical named entity recognition. Bioinformatics 33(14):i37–i48. https://doi.org/10.1093/bioinformatics/btx228",
+              "DOI": "10.1093/bioinformatics/btx228"
+            },
+            {
+              "key": "12_CR27",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Hakenberg J, Leaman R, Vo NH, Jonnalagadda S (2010) Efficient extraction of protein-protein interactions from full-text articles. IEEE/ACM Trans Comput Biol Bioinf 7(3):481–494. https://doi.org/10.1109/TCBB.2010.51",
+              "DOI": "10.1109/TCBB.2010.51"
+            },
+            {
+              "key": "12_CR28",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Hanisch D, Fundel K, Mevissen HT, Zimmer R, Fluck J (2005) ProMiner: rule-based protein and gene entity recognition. BMC Bioinformatics 6(S14). https://doi.org/10.1186/1471-2105-6-S1-S14",
+              "DOI": "10.1186/1471-2105-6-S1-S14"
+            },
+            {
+              "key": "12_CR29",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Hekenberg J, Gerner M, Haeussler M, Solt I, Plake C, Schroeder M, Gonzalez G, Nenadic G, Bergman CM (2011) The GNAT library for local and remote gene mention normalization. Bioinformatics 27(19):2769–2771. https://doi.org/10.1093/bioinformatics/btr455",
+              "DOI": "10.1093/bioinformatics/btr455"
+            },
+            {
+              "key": "12_CR30",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Huang M, Zhu X, Li M (n.d.) A hybrid method for relation extraction from biomedical literature. Int J Med Inform 75(6):443–455. https://doi.org/10.1016/j.ijmedinf.2005.06.010",
+              "DOI": "10.1016/j.ijmedinf.2005.06.010"
+            },
+            {
+              "key": "12_CR31",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Jagannatha A, Liu F, Liu W, Yu H (2019) Overview of the first natural language processing challenge for extracting medication, indication, and adverse drug events from electronic health record notes (MADE 1.0). Drug Safety 42(1):99–111. https://doi.org/10.1007/s40264-018-0762-z",
+              "DOI": "10.1007/s40264-018-0762-z"
+            },
+            {
+              "key": "12_CR32",
+              "unstructured": "Jurafsky D, Martin JH (2022) Speech and language processing (3rd ed.) draft"
+            },
+            {
+              "key": "12_CR33",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Kano Y, Björne J, Ginter F, Salakoski T, Buyko E, Others (2011) U-Compare bio-event meta-service: compatible BioNLP event extraction services. BMC Bioinformatics 12(481). https://doi.org/10.1186/1471-2105-12-481",
+              "DOI": "10.1186/1471-2105-12-481"
+            },
+            {
+              "key": "12_CR34",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Kazama J, Makino T, Ohta Y, Tsujii J (2002) Tuning support vector machines for biomedical named entity recognition. In: Proceedings of the ACL 2002 workshop on natural language processing in the biomedical domain, July 11, 2002, University of Pennsylvania, Philadelphia, PA, USA. https://doi.org/10.3115/1118149.1118150",
+              "DOI": "10.3115/1118149.1118150"
+            },
+            {
+              "key": "12_CR35",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Kilicoglu H, Bergler S (2009) Syntactic dependency based heuristics for biological event extraction. https://doi.org/10.3115/1572340.1572361",
+              "DOI": "10.3115/1572340.1572361"
+            },
+            {
+              "key": "12_CR36",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Kocaman V, Talby D (2021) Biomedical named entity recognition at scale. In: Pattern recognition. ICPR international workshops and challenges, vol. 12661, pp 635–646. Springer, Cham. https://doi.org/10.1007/978-3-030-68763-2_48",
+              "DOI": "10.1007/978-3-030-68763-2_48"
+            },
+            {
+              "key": "12_CR37",
+              "doi-asserted-by": "publisher",
+              "first-page": "S2",
+              "DOI": "10.1186/1758-2946-7-S1-S2",
+              "volume": "7",
+              "author": "M Krallinger",
+              "year": "2015",
+              "unstructured": "Krallinger M, Rabal O, Leitner F, Vazquez M, Salgado D, Lu Z, Leaman R (2015) The CHEMDNER corpus of chemicals and drugs and its annotation principles. J Cheminformatics 7:S2",
+              "journal-title": "J Cheminformatics"
+            },
+            {
+              "key": "12_CR38",
+              "unstructured": "Krallinger M, Rabal O, others (2017) Overview of the BioCreative VI chemical-protein interaction track. https://biocreative.bioinformatics.udel.edu/tasks/biocreative-vi/track-5/"
+            },
+            {
+              "key": "12_CR39",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Leaman R, Dogan RI, Lu Z (2013) DNorm: disease name normalization with pairwise learning to rank. Bioinformatics 29(22):2909–2917. https://doi.org/10.1093/bioinformatics/btt474",
+              "DOI": "10.1093/bioinformatics/btt474"
+            },
+            {
+              "key": "12_CR40",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Leaman R, Wei CH, Lu Z (2015) tmChem: a high-performance approach for chemical named entity recognition and normalization. J Cheminformatics 7(S3). https://doi.org/10.1186/1758-2946-7-S1-S3",
+              "DOI": "10.1186/1758-2946-7-S1-S3"
+            },
+            {
+              "key": "12_CR41",
+              "doi-asserted-by": "publisher",
+              "first-page": "652",
+              "DOI": "10.1142/9789812776136_0062",
+              "volume": "13",
+              "author": "R Leaman",
+              "year": "2008",
+              "unstructured": "Leaman R, Gonzalez GH (2008) BANNER: an execuTable survey of advances in biomedical named entity recognition. Pac Symp Biocomput 13:652–663. https://doi.org/10.1142/9789812776136_0062",
+              "journal-title": "Pac Symp Biocomput"
+            },
+            {
+              "key": "12_CR42",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Lee S, Kim D, Lee K, Choi J, Kim S, Jeon M, Lim S, Choi D, Kim S, Tan AC, Kang J (2016) BEST: next-generation biomedical entity search tool for knowledge discovery from biomedical literature. Plos 11(10). https://doi.org/10.1371/journal.pone.0164680",
+              "DOI": "10.1371/journal.pone.0164680"
+            },
+            {
+              "key": "12_CR43",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Lee J, Yoon W, Kim S, Kim D, Kim S, So CH, Kang J (2020) BioBERT: a pre-trained biomedical language representation model for biomedical text mining. Bioinformatics 36(4):1234–1240. https://doi.org/10.1093/bioinformatics/btz682",
+              "DOI": "10.1093/bioinformatics/btz682"
+            },
+            {
+              "key": "12_CR44",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1093/database/baw068",
+              "author": "J Li",
+              "year": "2015",
+              "unstructured": "Li J, Sun Y, Johnson RJ (2015) Annotating chemicals, diseases and their interactions in biomedical literature. Database. https://doi.org/10.1093/database/baw068",
+              "journal-title": "Database"
+            },
+            {
+              "key": "12_CR45",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Licata L, Surdo PL, Iannuccelli M, Palma A, Micarelli E, Perfetto L, Peluso D, Calderone A, Castagnoli L, Cesareni G (2020) SIGNOR 2.0, the SIGnaling network open resource 2.0: 2019 update. Nucleic Acids Res 48. D504-D510. https://doi.org/10.1093/nar/gkz949",
+              "DOI": "10.1093/nar/gkz949"
+            },
+            {
+              "key": "12_CR46",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Luo L, Lai PT, Wei CH, Arighi CN, Lu Z (2022) BioRED: a rich biomedical relation extraction dataset. Briefings Bioinform 23(5). https://doi.org/10.1093/bib/bbac282",
+              "DOI": "10.1093/bib/bbac282"
+            },
+            {
+              "key": "12_CR47",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Miwa M, Saetre R, Kim J-D, Tsujii J (2010) Event extraction with complex event classification using rich features. J Bioinf Comput Biol 8(1):131–146. https://doi.org/10.1142/s0219720010004586",
+              "DOI": "10.1142/s0219720010004586"
+            },
+            {
+              "key": "12_CR48",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Mulligen EMV, Reglat AF, Gurwitz D, Molokhia M, Nieto A, Trifiro G, Kors JA, Furlong LI (2012) The EU-ADR corpus: annotated drugs, diseases, targets, and their relationships. J Biomed Inform 45(5):879–884. https://doi.org/10.1016/j.jbi.2012.04.004",
+              "DOI": "10.1016/j.jbi.2012.04.004"
+            },
+            {
+              "key": "12_CR50",
+              "unstructured": "Nedellec C (2005) Learning language in logic—Genic interaction extraction challenge 31–37"
+            },
+            {
+              "key": "12_CR51",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Neumann M, King D, Beltagy I, Ammar W (2019) ScispaCy: fast and robust models for biomedical natural language processing. In: Proceedings of the 18th BioNLP workshop and shared task, pp 319–327. https://doi.org/10.18653/v1/W19-5034",
+              "DOI": "10.18653/v1/W19-5034"
+            },
+            {
+              "key": "12_CR52",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Neves ML, Carazo JM, Montano AP (2010) Moara: a Java library for extracting and normalizing gene and protein mentions. BMC Bioinf 11. https://doi.org/10.1186/1471-2105-11-157",
+              "DOI": "10.1186/1471-2105-11-157"
+            },
+            {
+              "key": "12_CR53",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Nguyen QL, Tikk D, Leser U (2010) Simple tricks for improving pattern-based information extraction from the biomedical literature. J Biomed Semant 1(9). https://doi.org/10.1186/2041-1480-1-9",
+              "DOI": "10.1186/2041-1480-1-9"
+            },
+            {
+              "key": "12_CR54",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Piñero J, Bravo À, Rosinach NQ, Sacristán AG, Pons JD, Centeno E, García JG, Sanz F, Furlong LI (2016) DisGeNET: a comprehensive platform integrating information on human disease-associated genes and variants. Nucleic Acids Res 45(D1):D833–D839. https://doi.org/10.1093/nar/gkw943",
+              "DOI": "10.1093/nar/gkw943"
+            },
+            {
+              "key": "12_CR55",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Pyysalo S, Ginter F, Heimonen J, Björne J, Boberg J, Järvinen J, Salakoski T (2007) BioInfer: a corpus for information extraction in the biomedical domain. BMC Bioinf 8(50). https://doi.org/10.1186/1471-2105-8-50",
+              "DOI": "10.1186/1471-2105-8-50"
+            },
+            {
+              "key": "12_CR56",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Pyysalo S, Airola A, Heimonen J, Björne J, Ginter F, Salakoski T (2008) Comparative analysis of five protein-protein interaction corpora. Bioinformatics 9(S6). https://doi.org/10.1186/1471-2105-9-S3-S6",
+              "DOI": "10.1186/1471-2105-9-S3-S6"
+            },
+            {
+              "key": "12_CR57",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Pyysalo S, Ohta T, Rak R, Rowley A, Chun H-W (2013) Overview of the cancer genetics and pathway curation tasks of BioNLP shared task 2013. BMC Bioinf. https://doi.org/10.1186/1471-2105-16-S10-S2",
+              "DOI": "10.1186/1471-2105-16-S10-S2"
+            },
+            {
+              "key": "12_CR58",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Raza S, Shajan DJ, Shajan F, Bashir SR (2022) Large-scale application of named entity recognition to biomedicine and epidemiology. PLOS Digital Health 1:1–18. https://doi.org/10.1371/journal.pdig.0000152",
+              "DOI": "10.1371/journal.pdig.0000152"
+            },
+            {
+              "key": "12_CR59",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Rebholz-Schuhmann D, Yepes AJ, Li C, Kafkas S, Lewin I, Kang N (2011) Assessment of NER solutions against the first and second CALBC silver standard corpus. J Biomed Semant 2. https://doi.org/10.1186/2041-1480-2-S5-S11",
+              "DOI": "10.1186/2041-1480-2-S5-S11"
+            },
+            {
+              "key": "12_CR60",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Rocktäschel T, Weidlich M, Leser U (2012) ChemSpot: a hybrid system for chemical-named entity recognition. Bioinformatics 28(12):1633–1640. https://doi.org/10.1093/bioinformatics/bts183",
+              "DOI": "10.1093/bioinformatics/bts183"
+            },
+            {
+              "key": "12_CR61",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Rosario B, Hearst MA (2004) Classifying semantic relations in bioscience texts. Ann Meet Assoc Comput Linguist. https://doi.org/10.3115/1218955.1219010",
+              "DOI": "10.3115/1218955.1219010"
+            },
+            {
+              "key": "12_CR62",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Sacristán AG, Bravo À, Tresserra MP, Valverde O (2017) Text mining and expert curation to develop a database on psychiatric diseases and their genes. Database. https://doi.org/10.1093/database/bax043",
+              "DOI": "10.1093/database/bax043"
+            },
+            {
+              "key": "12_CR63",
+              "unstructured": "Saha S, Glass L (2020) Biomedical named entity recognition—Pros and cons of rule-based and deep learning methods—CINECA—Common infrastructure for national Cohorts in Europe, Canada, and Africa. CINECA Project. Retrieved 30 Nov 2022, from https://www.cineca-project.eu/blog-all/biomedical-named-entity-recognition-pros-and-cons-of-rule-based-and-deep-learning-methods"
+            },
+            {
+              "key": "12_CR64",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Saha SK, Sarkar S, Mitra P (2009) Feature selection techniques for maximum entropy-based biomedical named entity recognition. J Biomed Inform 42:905–911. https://doi.org/10.1016/j.jbi.2008.12.012",
+              "DOI": "10.1016/j.jbi.2008.12.012"
+            },
+            {
+              "key": "12_CR65",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Sahu S, Anand A, Oruganty K, Gattu M (2016) Relation extraction from clinical texts using domain invariant convolutional neural network. In: Proceedings of the 15th workshop on biomedical natural language processing. Association for Computational Linguistics, pp 206–215. https://doi.org/10.18653/v1/W16-2928",
+              "DOI": "10.18653/v1/W16-2928"
+            },
+            {
+              "issue": "4",
+              "key": "12_CR66",
+              "doi-asserted-by": "publisher",
+              "first-page": "3191",
+              "DOI": "10.1093/bioinformatics/bti475",
+              "volume": "21",
+              "author": "B Settles",
+              "year": "2005",
+              "unstructured": "Settles B (2005) ABNER is an open-source tool for automatically tagging genes, proteins, and other entity names in text. Bioinformatics 21(4):3191–3192. https://doi.org/10.1093/bioinformatics/bti475",
+              "journal-title": "Bioinformatics"
+            },
+            {
+              "key": "12_CR67",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Settles B (2004) Biomedical named entity recognition using conditional random fields and rich feature sets. In: Proceedings of the international joint workshop on natural language processing in biomedicine and its applications ({NLPBA}/{B}io{NLP}), pp 107–110. https://aclanthology.org/W04-1221",
+              "DOI": "10.3115/1567594.1567618"
+            },
+            {
+              "key": "12_CR68",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Smith L, Tanabe LK, nee Ando RJ, Kuo C-J, Chung I-F, Hsu C-N (2008) Overview of BioCreative II gene mention recognition. Genome Biol. 9:S2",
+              "DOI": "10.1186/gb-2008-9-s2-s2"
+            },
+            {
+              "key": "12_CR69",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Soomro PD, Kumar S, Banbhrani, Shaikh AA, Raj H (2017) Bio-NER: biomedical named entity recognition using rule-based and statistical learners. Int J Adv Comput Sci Appl 8(12). https://doi.org/10.14569/IJACSA.2017.081220",
+              "DOI": "10.14569/IJACSA.2017.081220"
+            },
+            {
+              "key": "12_CR70",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Sung M, Jeong M, Choi Y, Kim D, Lee J, Kang J (2022) BERN2: an advanced neural biomedical named entity recognition and normalization tool. Bioinformatics 38(20):4837–4839. https://doi.org/10.1093/bioinformatics/btac598",
+              "DOI": "10.1093/bioinformatics/btac598"
+            },
+            {
+              "key": "12_CR71",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Tanabe L, Xie N, Thom LH, Matten W, Wilbur WJ (2005) GENETAG: a tagged corpus for gene/protein named entity recognition. BMC Bioinf 6(1):1471–2105. https://doi.org/10.1186/1471-2105-6-S1-S3",
+              "DOI": "10.1186/1471-2105-6-S1-S3"
+            },
+            {
+              "key": "12_CR72",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Thompson P, McNaught J, Montemagni S, Calzolari N, Gratta RD, Lee V (2011) The BioLexicon: a large-scale terminological resource for biomedical text mining. BMC Bioinform 12:1471–2105. https://doi.org/10.1186/1471-2105-12-397",
+              "DOI": "10.1186/1471-2105-12-397"
+            },
+            {
+              "key": "12_CR73",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Tian Y, Shen W, Song Y, Xia F, He M, Li K (2020) Improving biomedical named entity recognition with syntactic information. BMC Bioinform 21(539). https://doi.org/10.1186/s12859-020-03834-6",
+              "DOI": "10.1186/s12859-020-03834-6"
+            },
+            {
+              "key": "12_CR74",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Tsuruoka Y, Tsujii J (2003) Boosting precision and recall of dictionary-based protein name recognition. In: Proceedings of the ACL 2003 workshop on natural language processing in biomedicine, vol. 13, pp 41–48. https://doi.org/10.3115/1118958.1118964",
+              "DOI": "10.3115/1118958.1118964"
+            },
+            {
+              "key": "12_CR75",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Tsuruoka Y, Tsujii J, Ananiadou S (2008) FACTA: a text search engine for finding associated biomedical concepts. Bioinformatics 24(21):2559–2560. https://doi.org/10.1093/bioinformatics/btn469",
+              "DOI": "10.1093/bioinformatics/btn469"
+            },
+            {
+              "key": "12_CR76",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Wang X, Song X, Guan Y, Li B, Han J (2020) Comprehensive named entity recognition on CORD-19 with distant or weak supervision. https://doi.org/10.48550/arXiv.2003.12218",
+              "DOI": "10.48550/arXiv.2003.12218"
+            },
+            {
+              "key": "12_CR77",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Weber L, Münchmeyer J, Rocktäschel T, Habibi M, Leser U (2020) HUNER: improving biomedical NER with pretraining. Bioinformatics 36(1):295–302. https://doi.org/10.1093/bioinformatics/btz528",
+              "DOI": "10.1093/bioinformatics/btz528"
+            },
+            {
+              "key": "12_CR78",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Weber L, Sänger M, Münchmeyer J, Habibi M, Leser U, Akbik A (2021) HunFlair: an easy-to-use tool for state-of-the-art biomedical named entity recognition. Bioinformatics 37(17):2792–2794. https://doi.org/10.1093/bioinformatics/btab042",
+              "DOI": "10.1093/bioinformatics/btab042"
+            },
+            {
+              "key": "12_CR79",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Wei CH, Kao HY (2011) Cross-species gene normalization by species inference. BMC Bioinformatics 12(S5). https://doi.org/10.1186/1471-2105-12-S8-S5",
+              "DOI": "10.1186/1471-2105-12-S8-S5"
+            },
+            {
+              "key": "12_CR80",
+              "unstructured": "Wei CH, Peng Y, Leaman R, Davis AP, Mattingly CJ, Li J, Wiegers TC, Lu Z (2015) Overview of the biocreative v chemical disease relation (CDR) task. In: Proceedings of the fifth bio creative challenge evaluation workshop. Sevilla, pp 154–166"
+            },
+            {
+              "key": "12_CR81",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Wei CH, Peng Y, Leaman R, Davis AP, Mattingly CJ, Li J, Wiegers TC, Lu Z (2016) Assessing state of the art in biomedical relation extraction: an overview of the BioCreative V chemical-disease relation (CDR) task. Database 2016",
+              "DOI": "10.1093/database/baw032"
+            },
+            {
+              "key": "12_CR82",
+              "unstructured": "Wu Y, Jiang M, Xu J, Zhi D, Xu H (2017) Clinical named entity recognition using deep learning models. AMIA Annu Symp Proceedings Arch 1812–1819"
+            },
+            {
+              "key": "12_CR83",
+              "unstructured": "Yadav V, Bethard S (2019) A survey on recent advances in named entity recognition from deep learning models. arXiv"
+            },
+            {
+              "key": "12_CR84",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Yang H, Swaminathan R, Sharma A, Ketkar V, D'Silva J (2011) Mining biomedical text towards building a quantitative food-disease-gene network. In: Learning structure and schemas from documents. Springer, Berlin, pp 205–225. https://doi.org/10.1007/978-3-642-22913-8_10",
+              "DOI": "10.1007/978-3-642-22913-8_10"
+            },
+            {
+              "key": "12_CR85",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Yoon W, So CH, Lee J, Kang J (2018) CollaboNet: collaboration of deep neural networks for biomedical named entity recognition. BMC Bioinformatics 20(supp 10). https://doi.org/10.1186/s12859-019-2813-6",
+              "DOI": "10.1186/s12859-019-2813-6"
+            },
+            {
+              "key": "12_CR86",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Zazo MH, Bedmar IS, Martínez P, Declerck T (2013) The DDI corpus: An annotated corpus with pharmacological substances and drug–drug interactions. J Biomed Inform 46(5):914–920. https://doi.org/10.1016/j.jbi.2013.07.011",
+              "DOI": "10.1016/j.jbi.2013.07.011"
+            },
+            {
+              "key": "12_CR87",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Zhang Y, Lin H, Yang Z, Wang J, Li Y (2012) A single kernel-based approach to extract drug-drug interactions from biomedical literature. Plos One 7(11). https://doi.org/10.1371/journal.pone.0048901",
+              "DOI": "10.1371/journal.pone.0048901"
+            },
+            {
+              "key": "12_CR88",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Zhang Y, Lin H, Yang Z, Wang J, Zhang S, Sun Y, Yang L (2018) A hybrid model based on neural networks for biomedical relation extraction. J Biomed Inform 81, 83–92. https://doi.org/10.1016/j.jbi.2018.03.011",
+              "DOI": "10.1016/j.jbi.2018.03.011"
+            },
+            {
+              "key": "12_CR89",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Zhao S, Su C, Lu Z. Wang F (2020) Recent advances in biomedical literature mining. Briefings Bioinform 1–19. https://doi.org/10.1093/bib/bbaa057",
+              "DOI": "10.1093/bib/bbaa057"
+            },
+            {
+              "key": "12_CR90",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Zhu F, Patumcharoenpol P, Zhang C, Yang Y, Chan J, Meechai A, Vongsangnak W, Shen B (2012) Biomedical text mining and its applications in cancer research. J Biomed Inform 46:200–211. https://doi.org/10.1016/j.jbi.2012.10.007",
+              "DOI": "10.1016/j.jbi.2012.10.007"
+            }
+          ],
+          "container-title": [
+            "Transactions on Computer Systems and Networks",
+            "Text Mining Approaches for Biomedical Data"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://link.springer.com/content/pdf/10.1007/978-981-97-3962-2_12",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                3
+              ]
+            ],
+            "date-time": "2024-09-03T13:04:09Z",
+            "timestamp": 1725368649000
+          },
+          "score": 28.55881,
+          "resource": {
+            "primary": {
+              "URL": "https://link.springer.com/10.1007/978-981-97-3962-2_12"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2024
+              ]
+            ]
+          },
+          "ISBN": [
+            "9789819739615",
+            "9789819739622"
+          ],
+          "references-count": 89,
+          "URL": "https://doi.org/10.1007/978-981-97-3962-2_12",
+          "ISSN": [
+            "2730-7484",
+            "2730-7492"
+          ],
+          "issn-type": [
+            {
+              "type": "print",
+              "value": "2730-7484"
+            },
+            {
+              "type": "electronic",
+              "value": "2730-7492"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "4 September 2024",
+              "order": 1,
+              "name": "first_online",
+              "label": "First Online",
+              "group": {
+                "name": "ChapterHistory",
+                "label": "Chapter History"
+              }
+            }
+          ]
+        }
+      ],
+      "items-per-page": 8,
+      "query": {
+        "start-index": 0,
+        "search-terms": "biomedical relation extraction directionality entity roles"
+      }
+    }
+  },
+  "text": "{\"status\":\"ok\",\"message-type\":\"work-list\",\"message-version\":\"1.0.0\",\"message\":{\"facets\":{},\"total-results\":1694804,\"items\":[{\"indexed\":{\"date-parts\":[[2025,12,20]],\"date-time\":\"2025-12-20T22:15:24Z\",\"timestamp\":1766268924441,\"version\":\"build-2065373602\"},\"publisher-location\":\"Stroudsburg, PA, USA\",\"reference-count\":0,\"publisher\":\"Association for Computational Linguistics\",\"content-domain\":{\"domain\":[],\"crossmark-restriction\":false},\"published-print\":{\"date-parts\":[[2023]]},\"DOI\":\"10.18653\\/v1\\/2023.bionlp-1.35\",\"type\":\"proceedings-article\",\"created\":{\"date-parts\":[[2023,8,5]],\"date-time\":\"2023-08-05T00:57:42Z\",\"timestamp\":1691197062000},\"page\":\"377-384\",\"source\":\"Crossref\",\"is-referenced-by-count\":5,\"title\":[\"Biomedical Relation Extraction with Entity Type Markers and Relation-specific Question Answering\"],\"prefix\":\"10.18653\",\"author\":[{\"given\":\"Koshi\",\"family\":\"Yamada\",\"sequence\":\"first\",\"affiliation\":[]},{\"given\":\"Makoto\",\"family\":\"Miwa\",\"sequence\":\"additional\",\"affiliation\":[]},{\"given\":\"Yutaka\",\"family\":\"Sasaki\",\"sequence\":\"additional\",\"affiliation\":[]}],\"member\":\"1643\",\"event\":{\"name\":\"The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks\",\"start\":{\"date-parts\":[[2023,7]]},\"location\":\"Toronto, Canada\",\"end\":{\"date-parts\":[[2023,7]]}},\"container-title\":[\"The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks\"],\"deposited\":{\"date-parts\":[[2023,8,5]],\"date-time\":\"2023-08-05T01:27:11Z\",\"timestamp\":1691198831000},\"score\":31.666252,\"resource\":{\"primary\":{\"URL\":\"https:\\/\\/aclanthology.org\\/2023.bionlp-1.35\"}},\"issued\":{\"date-parts\":[[2023]]},\"references-count\":0,\"URL\":\"https:\\/\\/doi.org\\/10.18653\\/v1\\/2023.bionlp-1.35\",\"published\":{\"date-parts\":[[2023]]}},{\"indexed\":{\"date-parts\":[[2026,3,25]],\"date-time\":\"2026-03-25T06:50:24Z\",\"timestamp\":1774421424222,\"version\":\"3.50.1\"},\"reference-count\":46,\"publisher\":\"Elsevier BV\",\"license\":[{\"start\":{\"date-parts\":[[2024,12,1]],\"date-time\":\"2024-12-01T00:00:00Z\",\"timestam"
+}

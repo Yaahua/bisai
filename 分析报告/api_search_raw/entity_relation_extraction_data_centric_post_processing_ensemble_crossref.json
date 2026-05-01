@@ -1,0 +1,1241 @@
+{
+  "status": 200,
+  "url": "https://api.crossref.org/works?query=entity+relation+extraction+data+centric+post+processing+ensemble&rows=8",
+  "json": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 6125650,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2022,
+                11,
+                11
+              ]
+            ],
+            "date-time": "2022-11-11T06:00:57Z",
+            "timestamp": 1668146457721
+          },
+          "reference-count": 0,
+          "publisher": "Elsevier BV",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "SSRN Journal"
+          ],
+          "DOI": "10.2139/ssrn.4272160",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2022,
+                11,
+                10
+              ]
+            ],
+            "date-time": "2022-11-10T03:20:31Z",
+            "timestamp": 1668050431000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Effective Sentence-Level Relation Extraction Model Using Entity-Centric Dependency Tree"
+          ],
+          "prefix": "10.2139",
+          "author": [
+            {
+              "given": "Seongsik",
+              "family": "Park",
+              "sequence": "first",
+              "affiliation": []
+            },
+            {
+              "given": "Harksoo",
+              "family": "Kim",
+              "sequence": "additional",
+              "affiliation": []
+            }
+          ],
+          "member": "78",
+          "container-title": [
+            "SSRN Electronic Journal"
+          ],
+          "language": "en",
+          "deposited": {
+            "date-parts": [
+              [
+                2022,
+                11,
+                10
+              ]
+            ],
+            "date-time": "2022-11-10T03:20:35Z",
+            "timestamp": 1668050435000
+          },
+          "score": 34.187813,
+          "resource": {
+            "primary": {
+              "URL": "https://www.ssrn.com/abstract=4272160"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2022
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.2139/ssrn.4272160",
+          "ISSN": [
+            "1556-5068"
+          ],
+          "issn-type": [
+            {
+              "value": "1556-5068",
+              "type": "electronic"
+            }
+          ],
+          "published-other": {
+            "date-parts": [
+              [
+                2022
+              ]
+            ]
+          },
+          "published": {
+            "date-parts": [
+              [
+                2022
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                31
+              ]
+            ],
+            "date-time": "2026-03-31T15:14:31Z",
+            "timestamp": 1774970071063,
+            "version": "3.50.1"
+          },
+          "posted": {
+            "date-parts": [
+              [
+                2025,
+                8,
+                24
+              ]
+            ]
+          },
+          "reference-count": 0,
+          "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    8,
+                    24
+                  ]
+                ],
+                "date-time": "2025-08-24T00:00:00Z",
+                "timestamp": 1755993600000
+              },
+              "content-version": "unspecified",
+              "delay-in-days": 0,
+              "URL": "https://creativecommons.org/licenses/by/4.0/"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "DOI": "10.36227/techrxiv.175606969.96683635/v1",
+          "type": "posted-content",
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                8,
+                24
+              ]
+            ],
+            "date-time": "2025-08-24T21:08:22Z",
+            "timestamp": 1756069702000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "TIRE: Advancing Threat Intelligence Relation Extraction with a Novel Data-Centric Framework"
+          ],
+          "prefix": "10.36227",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0009-0008-8024-7631",
+              "authenticated-orcid": false,
+              "given": "INOUSSA",
+              "family": "MOUICHE",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "School of Computer Science, University of Windsor"
+                }
+              ]
+            },
+            {
+              "given": "Sherif",
+              "family": "Saad",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "School of Computer Science, University of Windsor"
+                }
+              ]
+            }
+          ],
+          "member": "263",
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                31
+              ]
+            ],
+            "date-time": "2026-03-31T13:42:48Z",
+            "timestamp": 1774964568000
+          },
+          "score": 31.694061,
+          "resource": {
+            "primary": {
+              "URL": "https://www.techrxiv.org/doi/full/10.36227/techrxiv.175606969.96683635/v1"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2025,
+                8,
+                24
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.36227/techrxiv.175606969.96683635/v1",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                8,
+                24
+              ]
+            ]
+          },
+          "subtype": "preprint"
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                5
+              ]
+            ],
+            "date-time": "2025-11-05T11:22:41Z",
+            "timestamp": 1762341761076
+          },
+          "publisher-location": "Stroudsburg, PA, USA",
+          "reference-count": 0,
+          "publisher": "Association for Computational Linguistics",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2021
+              ]
+            ]
+          },
+          "DOI": "10.18653/v1/2021.emnlp-main.437",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2021,
+                12,
+                17
+              ]
+            ],
+            "date-time": "2021-12-17T03:56:42Z",
+            "timestamp": 1639713402000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 16,
+          "title": [
+            "Learning from Noisy Labels for Entity-Centric Information Extraction"
+          ],
+          "prefix": "10.18653",
+          "author": [
+            {
+              "given": "Wenxuan",
+              "family": "Zhou",
+              "sequence": "first",
+              "affiliation": []
+            },
+            {
+              "given": "Muhao",
+              "family": "Chen",
+              "sequence": "additional",
+              "affiliation": []
+            }
+          ],
+          "member": "1643",
+          "event": {
+            "name": "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+            "location": "Online and Punta Cana, Dominican Republic",
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  11
+                ]
+              ]
+            },
+            "end": {
+              "date-parts": [
+                [
+                  2021,
+                  11
+                ]
+              ]
+            }
+          },
+          "container-title": [
+            "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing"
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2021,
+                12,
+                17
+              ]
+            ],
+            "date-time": "2021-12-17T04:00:04Z",
+            "timestamp": 1639713604000
+          },
+          "score": 31.399872,
+          "resource": {
+            "primary": {
+              "URL": "https://aclanthology.org/2021.emnlp-main.437"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2021
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.18653/v1/2021.emnlp-main.437",
+          "published": {
+            "date-parts": [
+              [
+                2021
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                30
+              ]
+            ],
+            "date-time": "2024-10-30T10:54:49Z",
+            "timestamp": 1730285689944,
+            "version": "3.28.0"
+          },
+          "reference-count": 12,
+          "publisher": "IEEE",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2009,
+                9
+              ]
+            ]
+          },
+          "DOI": "10.1109/nlpke.2009.5313758",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2009,
+                11,
+                16
+              ]
+            ],
+            "date-time": "2009-11-16T18:27:56Z",
+            "timestamp": 1258396076000
+          },
+          "page": "1-5",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Entity relation extraction to free text"
+          ],
+          "prefix": "10.1109",
+          "author": [
+            {
+              "given": "Suxiang",
+              "family": "Zhang",
+              "sequence": "first",
+              "affiliation": []
+            }
+          ],
+          "member": "263",
+          "reference": [
+            {
+              "year": "0",
+              "key": "3"
+            },
+            {
+              "key": "2",
+              "article-title": "automatic entity relation extraction",
+              "author": "che",
+              "year": "2004",
+              "journal-title": "National Conference on Information Retrieval and Content Security"
+            },
+            {
+              "key": "10",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.3115/974147.974186"
+            },
+            {
+              "key": "1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.3115/974147.974158"
+            },
+            {
+              "key": "7",
+              "first-page": "183",
+              "article-title": "named entity relation extraction method based on seed self-expansion",
+              "author": "tingting",
+              "year": "2006",
+              "journal-title": "Eng Comput"
+            },
+            {
+              "key": "6",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.3115/1118693.1118721"
+            },
+            {
+              "key": "5",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1360/crad20070818"
+            },
+            {
+              "article-title": "convolution kernels on discrete structures",
+              "year": "1999",
+              "author": "haussler",
+              "key": "4"
+            },
+            {
+              "key": "9",
+              "article-title": "a maximum entroy approach to information extraction from semi-structured and free text",
+              "author": "chieu",
+              "year": "2002",
+              "journal-title": "Proceedings of the Enghteenth International Conference on Artificial Intelligence (AAAI-02)"
+            },
+            {
+              "key": "8",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1162/153244303322533205"
+            },
+            {
+              "key": "11",
+              "article-title": "machine learning of extraction patterns from unannotated corpora",
+              "author": "yangarber",
+              "year": "1999",
+              "journal-title": "Proc Workshop on Machine Learning and Information Extraction AAAI-99"
+            },
+            {
+              "key": "12",
+              "first-page": "1",
+              "article-title": "comprehensive information based methodology for natural language understanding",
+              "volume": "27",
+              "author": "yixin",
+              "year": "2004",
+              "journal-title": "Journal of Beijing University of Posts and Telecommunications"
+            }
+          ],
+          "event": {
+            "name": "2009 International Conference on Natural Language Processing and Knowledge Engineering (NLP-KE)",
+            "start": {
+              "date-parts": [
+                [
+                  2009,
+                  9,
+                  24
+                ]
+              ]
+            },
+            "location": "Dalian, China",
+            "end": {
+              "date-parts": [
+                [
+                  2009,
+                  9,
+                  27
+                ]
+              ]
+            }
+          },
+          "container-title": [
+            "2009 International Conference on Natural Language Processing and Knowledge Engineering"
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx5/5306518/5313726/05313758.pdf?arnumber=5313758",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2017,
+                3,
+                17
+              ]
+            ],
+            "date-time": "2017-03-17T13:33:34Z",
+            "timestamp": 1489757614000
+          },
+          "score": 31.093006,
+          "resource": {
+            "primary": {
+              "URL": "http://ieeexplore.ieee.org/document/5313758/"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2009,
+                9
+              ]
+            ]
+          },
+          "references-count": 12,
+          "URL": "https://doi.org/10.1109/nlpke.2009.5313758",
+          "published": {
+            "date-parts": [
+              [
+                2009,
+                9
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                6
+              ]
+            ],
+            "date-time": "2024-09-06T20:44:19Z",
+            "timestamp": 1725655459371
+          },
+          "reference-count": 0,
+          "publisher": "SPIE",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2023,
+                5,
+                23
+              ]
+            ]
+          },
+          "DOI": "10.1117/12.2674559",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2023,
+                5,
+                23
+              ]
+            ],
+            "date-time": "2023-05-23T22:19:08Z",
+            "timestamp": 1684880348000
+          },
+          "page": "45",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Research on relation extraction model of overlapping entity based on attention mechanism"
+          ],
+          "prefix": "10.1117",
+          "author": [
+            {
+              "given": "Ling",
+              "family": "Gan",
+              "sequence": "first",
+              "affiliation": []
+            },
+            {
+              "given": "Xiaobin",
+              "family": "Liu",
+              "sequence": "additional",
+              "affiliation": []
+            }
+          ],
+          "member": "189",
+          "event": {
+            "name": "International Conference on Computer Graphics, Artificial Intelligence, and Data Processing (ICCAID 2022)",
+            "start": {
+              "date-parts": [
+                [
+                  2022,
+                  12,
+                  23
+                ]
+              ]
+            },
+            "location": "Guangzhou, China",
+            "end": {
+              "date-parts": [
+                [
+                  2023,
+                  1,
+                  25
+                ]
+              ]
+            }
+          },
+          "container-title": [
+            "International Conference on Computer Graphics, Artificial Intelligence, and Data Processing (ICCAID 2022)"
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2023,
+                5,
+                23
+              ]
+            ],
+            "date-time": "2023-05-23T22:19:09Z",
+            "timestamp": 1684880349000
+          },
+          "score": 30.397915,
+          "resource": {
+            "primary": {
+              "URL": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12604/2674559/Research-on-relation-extraction-model-of-overlapping-entity-based-on/10.1117/12.2674559.full"
+            }
+          },
+          "editor": [
+            {
+              "given": "Ruishi",
+              "family": "Liang",
+              "sequence": "additional",
+              "affiliation": []
+            },
+            {
+              "given": "Jing",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": []
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2023,
+                5,
+                23
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.1117/12.2674559",
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                5,
+                23
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                30
+              ]
+            ],
+            "date-time": "2024-10-30T18:09:41Z",
+            "timestamp": 1730311781029,
+            "version": "3.28.0"
+          },
+          "reference-count": 10,
+          "publisher": "SPIE",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2022,
+                3,
+                18
+              ]
+            ]
+          },
+          "DOI": "10.1117/12.2631039",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2022,
+                3,
+                18
+              ]
+            ],
+            "date-time": "2022-03-18T19:31:43Z",
+            "timestamp": 1647631903000
+          },
+          "page": "16",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Entity relation extraction model based on probabilistic threshold decay"
+          ],
+          "prefix": "10.1117",
+          "author": [
+            {
+              "given": "junkang",
+              "family": "zheng",
+              "sequence": "first",
+              "affiliation": []
+            },
+            {
+              "given": "Jun",
+              "family": "Yang",
+              "sequence": "additional",
+              "affiliation": []
+            },
+            {
+              "given": "Jiahua",
+              "family": "Zhang",
+              "sequence": "additional",
+              "affiliation": []
+            }
+          ],
+          "member": "189",
+          "reference": [
+            {
+              "key": "c1",
+              "article-title": "UTD: Classifying semantic relations by combining lexical and semantic resources",
+              "author": "Rink",
+              "year": "2010",
+              "journal-title": "Association for Computational Linguistics"
+            },
+            {
+              "key": "c2",
+              "article-title": "Incremental Joint Extraction of Entity Mentions and Relations[C]//",
+              "author": "Qi",
+              "year": "2014",
+              "journal-title": "Meeting of the Association for Computational Linguistics"
+            },
+            {
+              "article-title": "Jointly identifying entities and extracting relations in encyclopedia text via a graphical model approach",
+              "year": "2010",
+              "author": "Yu",
+              "key": "c3"
+            },
+            {
+              "key": "c4",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.3115/v1/D14-1"
+            },
+            {
+              "key": "c5",
+              "article-title": "GraphRel: Modeling Text as Relational Graphs for Joint Entity and Relation Extraction[C]//",
+              "author": "Fu",
+              "year": "2019",
+              "journal-title": "ACL"
+            },
+            {
+              "issue": "000",
+              "key": "c6",
+              "article-title": "Joint Entity and Relation Extraction Based on A Hybrid Neural Network[J]",
+              "volume": "257",
+              "author": "Zheng",
+              "year": "2017",
+              "journal-title": "Neurocomputing"
+            },
+            {
+              "key": "c7",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1186/s12859-017-1609-9"
+            },
+            {
+              "key": "c8",
+              "article-title": "Joint Extraction of Entities and Relations Based on a Novel Tagging Scheme[J]",
+              "volume-title": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics",
+              "volume": "1",
+              "author": "Zheng",
+              "year": "2017"
+            },
+            {
+              "key": "c9",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/2020.acl-main"
+            },
+            {
+              "article-title": "Conditional Layer Normalization-based Conditional Text Generation [Blog post]",
+              "year": "2019",
+              "author": "Su",
+              "key": "c10"
+            }
+          ],
+          "event": {
+            "name": "International Conference on Computer Graphics, Artificial Intelligence, and Data Processing (ICCAID 2021)",
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  12,
+                  24
+                ]
+              ]
+            },
+            "location": "Harbin, China",
+            "end": {
+              "date-parts": [
+                [
+                  2021,
+                  12,
+                  26
+                ]
+              ]
+            }
+          },
+          "container-title": [
+            "International Conference on Computer Graphics, Artificial Intelligence, and Data Processing (ICCAID 2021)"
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2022,
+                6,
+                26
+              ]
+            ],
+            "date-time": "2022-06-26T18:47:16Z",
+            "timestamp": 1656269236000
+          },
+          "score": 30.347351,
+          "resource": {
+            "primary": {
+              "URL": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12168/2631039/Entity-relation-extraction-model-based-on-probabilistic-threshold-decay/10.1117/12.2631039.full"
+            }
+          },
+          "editor": [
+            {
+              "given": "Feng",
+              "family": "Wu",
+              "sequence": "additional",
+              "affiliation": []
+            },
+            {
+              "given": "Jinping",
+              "family": "Liu",
+              "sequence": "additional",
+              "affiliation": []
+            },
+            {
+              "given": "Yanping",
+              "family": "Chen",
+              "sequence": "additional",
+              "affiliation": []
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2022,
+                3,
+                18
+              ]
+            ]
+          },
+          "references-count": 10,
+          "URL": "https://doi.org/10.1117/12.2631039",
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                3,
+                18
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                8,
+                7
+              ]
+            ],
+            "date-time": "2024-08-07T12:11:41Z",
+            "timestamp": 1723032701571
+          },
+          "publisher-location": "Morristown, NJ, USA",
+          "reference-count": 0,
+          "publisher": "Association for Computational Linguistics",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2009
+              ]
+            ]
+          },
+          "DOI": "10.3115/1699510.1699542",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2010,
+                4,
+                15
+              ]
+            ],
+            "date-time": "2010-04-15T15:36:52Z",
+            "timestamp": 1271345812000
+          },
+          "page": "238",
+          "source": "Crossref",
+          "is-referenced-by-count": 17,
+          "title": [
+            "Entity extraction via ensemble semantics"
+          ],
+          "prefix": "10.3115",
+          "volume": "1",
+          "author": [
+            {
+              "given": "Marco",
+              "family": "Pennacchiotti",
+              "sequence": "first",
+              "affiliation": []
+            },
+            {
+              "given": "Patrick",
+              "family": "Pantel",
+              "sequence": "additional",
+              "affiliation": []
+            }
+          ],
+          "member": "1643",
+          "event": {
+            "number": "2009",
+            "acronym": "EMNLP '09",
+            "name": "the 2009 Conference",
+            "start": {
+              "date-parts": [
+                [
+                  2009,
+                  8,
+                  6
+                ]
+              ]
+            },
+            "theme": "Volume 1",
+            "location": "Singapore",
+            "end": {
+              "date-parts": [
+                [
+                  2009,
+                  8,
+                  7
+                ]
+              ]
+            }
+          },
+          "container-title": [
+            "Proceedings of the 2009 Conference on Empirical Methods in Natural Language Processing Volume 1 - EMNLP '09"
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2010,
+                4,
+                15
+              ]
+            ],
+            "date-time": "2010-04-15T15:39:43Z",
+            "timestamp": 1271345983000
+          },
+          "score": 29.655066,
+          "resource": {
+            "primary": {
+              "URL": "http://portal.acm.org/citation.cfm?doid=1699510.1699542"
+            }
+          },
+          "proceedings-subject": "Empirical Methods in Natural Language Processing",
+          "issued": {
+            "date-parts": [
+              [
+                2009
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.3115/1699510.1699542",
+          "published": {
+            "date-parts": [
+              [
+                2009
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                30
+              ]
+            ],
+            "date-time": "2024-10-30T01:57:20Z",
+            "timestamp": 1730253440250,
+            "version": "3.28.0"
+          },
+          "reference-count": 8,
+          "publisher": "IEEE",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2008,
+                10
+              ]
+            ]
+          },
+          "DOI": "10.1109/icosp.2008.4697434",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2008,
+                12,
+                9
+              ]
+            ],
+            "date-time": "2008-12-09T16:55:11Z",
+            "timestamp": 1228841711000
+          },
+          "page": "1569-1572",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "A new approach of automatic Entity Relation Extraction combined multimachine learning"
+          ],
+          "prefix": "10.1109",
+          "author": [
+            {
+              "family": "Zhang Suxiang",
+              "sequence": "first",
+              "affiliation": []
+            },
+            {
+              "family": "Zhang Suxian",
+              "sequence": "additional",
+              "affiliation": []
+            }
+          ],
+          "member": "263",
+          "reference": [
+            {
+              "key": "3",
+              "article-title": "automatic entity relation extraction",
+              "author": "che",
+              "year": "2004",
+              "journal-title": "National Conference on Information Retrieval and Content Security"
+            },
+            {
+              "key": "2",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1023/A:1007562322031"
+            },
+            {
+              "key": "1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.3115/974147.974158"
+            },
+            {
+              "key": "7",
+              "first-page": "282",
+              "article-title": "conditional random field: probabilistic models for segmenting and labeling sequence data",
+              "author": "lafferty",
+              "year": "2001",
+              "journal-title": "Proceedings of the International Conference on Machine Learning"
+            },
+            {
+              "key": "6",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.3115/1118693.1118721"
+            },
+            {
+              "key": "5",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1162/153244303322533205"
+            },
+            {
+              "key": "4",
+              "article-title": "a maximum entroy approach to information extraction from semi-structured and free text",
+              "author": "chieu",
+              "year": "2002",
+              "journal-title": "Proceedings of the Enghteenth International Conference on Artificial Intelligence (AAAI-02)"
+            },
+            {
+              "key": "8",
+              "first-page": "1",
+              "article-title": "comprehensive information based methodology for natural language understanding",
+              "volume": "27",
+              "author": "yixin",
+              "year": "2004",
+              "journal-title": "Journal of Beijing University of Posts and Telecommunications"
+            }
+          ],
+          "event": {
+            "name": "2008 9th International Conference on Signal Processing (ICSP 2008)",
+            "start": {
+              "date-parts": [
+                [
+                  2008,
+                  10,
+                  26
+                ]
+              ]
+            },
+            "location": "Beijing, China",
+            "end": {
+              "date-parts": [
+                [
+                  2008,
+                  10,
+                  29
+                ]
+              ]
+            }
+          },
+          "container-title": [
+            "2008 9th International Conference on Signal Processing"
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx5/4681671/4697053/04697434.pdf?arnumber=4697434",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2017,
+                3,
+                17
+              ]
+            ],
+            "date-time": "2017-03-17T12:07:03Z",
+            "timestamp": 1489752423000
+          },
+          "score": 29.529915,
+          "resource": {
+            "primary": {
+              "URL": "http://ieeexplore.ieee.org/document/4697434/"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2008,
+                10
+              ]
+            ]
+          },
+          "references-count": 8,
+          "URL": "https://doi.org/10.1109/icosp.2008.4697434",
+          "published": {
+            "date-parts": [
+              [
+                2008,
+                10
+              ]
+            ]
+          }
+        }
+      ],
+      "items-per-page": 8,
+      "query": {
+        "start-index": 0,
+        "search-terms": "entity relation extraction data centric post processing ensemble"
+      }
+    }
+  },
+  "text": "{\"status\":\"ok\",\"message-type\":\"work-list\",\"message-version\":\"1.0.0\",\"message\":{\"facets\":{},\"total-results\":6125650,\"items\":[{\"indexed\":{\"date-parts\":[[2022,11,11]],\"date-time\":\"2022-11-11T06:00:57Z\",\"timestamp\":1668146457721},\"reference-count\":0,\"publisher\":\"Elsevier BV\",\"content-domain\":{\"domain\":[],\"crossmark-restriction\":false},\"short-container-title\":[\"SSRN Journal\"],\"DOI\":\"10.2139\\/ssrn.4272160\",\"type\":\"journal-article\",\"created\":{\"date-parts\":[[2022,11,10]],\"date-time\":\"2022-11-10T03:20:31Z\",\"timestamp\":1668050431000},\"source\":\"Crossref\",\"is-referenced-by-count\":0,\"title\":[\"Effective Sentence-Level Relation Extraction Model Using Entity-Centric Dependency Tree\"],\"prefix\":\"10.2139\",\"author\":[{\"given\":\"Seongsik\",\"family\":\"Park\",\"sequence\":\"first\",\"affiliation\":[]},{\"given\":\"Harksoo\",\"family\":\"Kim\",\"sequence\":\"additional\",\"affiliation\":[]}],\"member\":\"78\",\"container-title\":[\"SSRN Electronic Journal\"],\"language\":\"en\",\"deposited\":{\"date-parts\":[[2022,11,10]],\"date-time\":\"2022-11-10T03:20:35Z\",\"timestamp\":1668050435000},\"score\":34.187813,\"resource\":{\"primary\":{\"URL\":\"https:\\/\\/www.ssrn.com\\/abstract=4272160\"}},\"issued\":{\"date-parts\":[[2022]]},\"references-count\":0,\"URL\":\"https:\\/\\/doi.org\\/10.2139\\/ssrn.4272160\",\"ISSN\":[\"1556-5068\"],\"issn-type\":[{\"value\":\"1556-5068\",\"type\":\"electronic\"}],\"published-other\":{\"date-parts\":[[2022]]},\"published\":{\"date-parts\":[[2022]]}},{\"indexed\":{\"date-parts\":[[2026,3,31]],\"date-time\":\"2026-03-31T15:14:31Z\",\"timestamp\":1774970071063,\"version\":\"3.50.1\"},\"posted\":{\"date-parts\":[[2025,8,24]]},\"reference-count\":0,\"publisher\":\"Institute of Electrical and Electronics Engineers (IEEE)\",\"license\":[{\"start\":{\"date-parts\":[[2025,8,24]],\"date-time\":\"2025-08-24T00:00:00Z\",\"timestamp\":1755993600000},\"content-version\":\"unspecified\",\"delay-in-days\":0,\"URL\":\"https:\\/\\/creativecommons.org\\/licenses\\/by\\/4.0\\/\"}],\"content-domain\":{\"domain\":[],\"crossmark-restriction\":false},\"DOI\":\"10.36227\\/techrxiv.175606969.96683635\\/v1\",\"type\":\"posted-content\",\"created\""
+}

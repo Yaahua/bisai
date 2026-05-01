@@ -1,0 +1,326 @@
+{
+  "status": 200,
+  "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=entity+relation+extraction+data+centric+post+processing+ensemble&limit=8&fields=title%2Cyear%2CcitationCount%2Curl%2Cabstract%2CexternalIds%2Cvenue",
+  "json": {
+    "total": 102,
+    "offset": 0,
+    "next": 8,
+    "data": [
+      {
+        "paperId": "3b44b62bb64f10cd30fb95b3fce39fc1ee210e34",
+        "externalIds": {
+          "PubMedCentral": "12097206",
+          "DBLP": "journals/biodb/MeesawadHHZHT25",
+          "DOI": "10.1093/database/baae127",
+          "CorpusId": 278818462,
+          "PubMed": "40402771"
+        },
+        "url": "https://www.semanticscholar.org/paper/3b44b62bb64f10cd30fb95b3fce39fc1ee210e34",
+        "title": "Enhancing biomedical relation extraction through data-centric and preprocessing-robust ensemble learning approach",
+        "venue": "Database J. Biol. Databases Curation",
+        "year": 2025,
+        "citationCount": 0,
+        "openAccessPdf": {
+          "url": "",
+          "status": null,
+          "license": "CCBY",
+          "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12097206, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "2261400367",
+            "name": "Wilailack Meesawad"
+          },
+          {
+            "authorId": "31763053",
+            "name": "Jen-Chieh Han"
+          },
+          {
+            "authorId": "2261401297",
+            "name": "Chun-Yu Hsueh"
+          },
+          {
+            "authorId": "2153633899",
+            "name": "Yu Zhang"
+          },
+          {
+            "authorId": "1722796",
+            "name": "Hsieh-Chuan Hung"
+          },
+          {
+            "authorId": "2261399801",
+            "name": "Richard Tzong-Han Tsai"
+          }
+        ],
+        "abstract": "Abstract The paper describes our biomedical relation extraction system, which is designed to participate in the BioCreative VIII challenge Track 1: BioRED Track, which emphasizes the relation extraction from biomedical literature. Our system employs an ensemble learning method, leveraging the PubTator API in conjunction with multiple pretrained bidirectional encoder representations from transformer (BERT) models. Various preprocessing inputs are incorporated, encompassing prompt questions, entity ID pairs, and co-occurrence contexts. To enhance model comprehension, special tokens and boundary tags are incorporated. Specifically, we utilize PubMedBERT alongside the Max Rule ensemble learning mechanism to amalgamate outputs from diverse classifiers. Our findings surpass the established benchmark score, thereby providing a robust benchmark for evaluating performance in this task. Moreover, our study introduces and demonstrates the effectiveness of a data-centric approach, emphasizing the significance of prioritizing high-quality data instances in enhancing model performance and robustness."
+      },
+      {
+        "paperId": "34256c58e9017baa90483775e08fc949af25e46e",
+        "externalIds": {
+          "DOI": "10.1117/12.3075576",
+          "CorpusId": 279479118
+        },
+        "url": "https://www.semanticscholar.org/paper/34256c58e9017baa90483775e08fc949af25e46e",
+        "title": "Constructing text-centric knowledge graphs based on deep learning: a focus on named entity recognition and relation extraction",
+        "venue": "International Conference on Intelligent Transportation and Smart Cities",
+        "year": 2025,
+        "citationCount": 0,
+        "openAccessPdf": {
+          "url": "",
+          "status": null,
+          "license": null,
+          "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1117/12.3075576?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1117/12.3075576, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "2333601519",
+            "name": "Xin Luo"
+          }
+        ],
+        "abstract": "Knowledge graphs (KGs) are structured representations of knowledge widely used in natural language processing (NLP) for tasks such as information retrieval, recommendation systems, and data analysis. This study presents a framework for constructing knowledge graphs from textual data by focusing on named entity recognition (NER) and relation extraction (RE) using pre-trained language models. The proposed framework leverages BERT for deep contextualized embeddings, addressing challenges such as linguistic ambiguity, implicit relationships, and complex syntactic structures in text. To enhance performance, the framework integrates supervised learning with rule-based methods and employs techniques such as data augmentation and hyperparameter tuning. Experimental evaluation on diverse text corpora demonstrates that the BERT-based approach significantly outperforms traditional rule-based systems and BiLSTM-CRF models, achieving higher precision, recall, and F1-scores in both NER and RE tasks. The extracted entities and relationships are organized into a Neo4j-based graph database, enabling intuitive visualization and network analysis. This research not only advances NLP methodologies for knowledge graph construction but also highlights the potential applications in domains such as smart cities and smart education, where structured knowledge representations can facilitate decision-making, information management, and data-driven insights. The proposed approach provides a scalable and robust solution for extracting actionable knowledge from unstructured textual data."
+      },
+      {
+        "paperId": "3a9bbbb2038d55c3c7809454a2d0480fadcfe891",
+        "externalIds": {
+          "DBLP": "journals/biodb/PhanPC24",
+          "PubMedCentral": "11463225",
+          "DOI": "10.1093/database/baae104",
+          "CorpusId": 273229757,
+          "PubMed": "39383312"
+        },
+        "url": "https://www.semanticscholar.org/paper/3a9bbbb2038d55c3c7809454a2d0480fadcfe891",
+        "title": "Optimized biomedical entity relation extraction method with data augmentation and classification using GPT-4 and Gemini",
+        "venue": "Database J. Biol. Databases Curation",
+        "year": 2024,
+        "citationCount": 4,
+        "openAccessPdf": {
+          "url": "https://doi.org/10.1093/database/baae104",
+          "status": "GOLD",
+          "license": "CCBY",
+          "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11463225, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "2315267736",
+            "name": "Cong-Phuoc Phan"
+          },
+          {
+            "authorId": "2325114330",
+            "name": "Ben Phan"
+          },
+          {
+            "authorId": "2315267566",
+            "name": "Jung-Hsien Chiang"
+          }
+        ],
+        "abstract": "Abstract Despite numerous research efforts by teams participating in the BioCreative VIII Track 01 employing various techniques to achieve the high accuracy of biomedical relation tasks, the overall performance in this area still has substantial room for improvement. Large language models bring a new opportunity to improve the performance of existing techniques in natural language processing tasks. This paper presents our improved method for relation extraction, which involves integrating two renowned large language models: Gemini and GPT-4. Our new approach utilizes GPT-4 to generate augmented data for training, followed by an ensemble learning technique to combine the outputs of diverse models to create a more precise prediction. We then employ a method using Gemini responses as input to fine-tune the BioNLP–PubMed–Bert classification model, which leads to improved performance as measured by precision, recall, and F1 scores on the same test dataset used in the challenge evaluation. Database URL: https://biocreative.bioinformatics.udel.edu/tasks/biocreative-viii/track-1/"
+      },
+      {
+        "paperId": "eac0ff16e23cfc8e9875468afaef42a4a453b65a",
+        "externalIds": {
+          "DBLP": "journals/jidm/BelemAFCGTJLG23",
+          "DOI": "10.5753/jidm.2023.3180",
+          "CorpusId": 265587246
+        },
+        "url": "https://www.semanticscholar.org/paper/eac0ff16e23cfc8e9875468afaef42a4a453b65a",
+        "title": "Contextual Reinforcement, Entity Delimitation and Generative Data Augmentation for Entity Recognition and Relation Extraction in Official Documents",
+        "venue": "Journal of Information and Data Management",
+        "year": 2023,
+        "citationCount": 2,
+        "openAccessPdf": {
+          "url": "https://sol.sbc.org.br/journals/index.php/jidm/article/download/3180/2410",
+          "status": "BRONZE",
+          "license": null,
+          "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.5753/jidm.2023.3180?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5753/jidm.2023.3180, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "2810045",
+            "name": "F. Belém"
+          },
+          {
+            "authorId": "2273560149",
+            "name": "Cláudio M. V. de Andrade"
+          },
+          {
+            "authorId": "2068901760",
+            "name": "Celso França"
+          },
+          {
+            "authorId": "2269766636",
+            "name": "Marcos Carvalho"
+          },
+          {
+            "authorId": "2163114613",
+            "name": "M. Ganem"
+          },
+          {
+            "authorId": "2269347015",
+            "name": "Gabriel Teixeira"
+          },
+          {
+            "authorId": "2269343434",
+            "name": "Gabriel Jallais"
+          },
+          {
+            "authorId": "2257166419",
+            "name": "A. Laender"
+          },
+          {
+            "authorId": "2255022508",
+            "name": "M. A. Gonçalves"
+          }
+        ],
+        "abstract": "Transformer architectures have become the main component of various state-of-the-art methods for natural language processing tasks, such as Named Entity Recognition and Relation Extraction (NER+RE). As these architectures rely on semantic (contextual) aspects of word sequences, they may fail to accurately identify and delimit entity spans when there is little semantic context surrounding the named entities. This is the case of entities composed only by digits and punctuation, such as IDs and phone numbers, as well as long composed names. In this article, we propose new techniques for contextual reinforcement and entity delimitation based on pre- and post-processing techniques to provide a richer semantic context, improving SpERT, a state-of-the-art Span-based Entity and Relation Transformer. To provide further context to the training process of NER+RE, we propose a data augmentation technique based on Generative Pretrained Transformers (GPT). We evaluate our strategies using real data from public administration documents (official gazettes and biddings) and court lawsuits. Our results show that our pre- and post-processing strategies, when used co-jointly, allows significant improvements on NER+ER effectiveness, while we also show the benefits of using GPT for training data augmentation."
+      },
+      {
+        "paperId": "a3e115e3828deabdff335123be0ae4e1c206faed",
+        "externalIds": {
+          "DOI": "10.1109/ICWR65219.2025.11006259",
+          "CorpusId": 278823769
+        },
+        "url": "https://www.semanticscholar.org/paper/a3e115e3828deabdff335123be0ae4e1c206faed",
+        "title": "ACORD: ANOVA Context Aware Relation Extraction from Textual Data",
+        "venue": "2025 11th International Conference on Web Research (ICWR)",
+        "year": 2025,
+        "citationCount": 1,
+        "openAccessPdf": {
+          "url": "",
+          "status": null,
+          "license": null,
+          "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/ICWR65219.2025.11006259?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/ICWR65219.2025.11006259, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "2362929359",
+            "name": "Parinaz Soltanzadeh"
+          },
+          {
+            "authorId": "2302587679",
+            "name": "Hossein Rahmani"
+          },
+          {
+            "authorId": "2362924627",
+            "name": "Amirhossein Derakhshan"
+          },
+          {
+            "authorId": "151103412",
+            "name": "Milad Allahgholi"
+          }
+        ],
+        "abstract": "Relation extraction in textual data is an important task in natural language processing with diverse applications in QA systems, knowledge graph construction and text analysis. The research conducted in this area is categorized into rule-based methods, machine learning methods and deep learning methods. However, to the best of our knowledge, none of the existing models have considered context-awareness in relation extraction. In this paper, we propose a method called ACORD, which first attempts to identify the context using ANOVA measure and second utilizes identified context to determine the relationship between two entities in a text through an ensemble learning model. The evaluation results demonstrate that ACORD achieves a precision of 88% in determining the correct relationship. Moreover, the non-numerical interpretation of the results allows for the identification of the most discriminative terms for each class."
+      },
+      {
+        "paperId": "dd39cd00fbc7925ebabd8cb55310c6c94e42e269",
+        "externalIds": {
+          "DBLP": "conf/icassp/DongDHL25",
+          "DOI": "10.1109/ICASSP49660.2025.10890454",
+          "CorpusId": 276969518
+        },
+        "url": "https://www.semanticscholar.org/paper/dd39cd00fbc7925ebabd8cb55310c6c94e42e269",
+        "title": "WMAJL: Watcher-Mediated Attention Joint Learning Model for Multimodal Relation Extraction",
+        "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+        "year": 2025,
+        "citationCount": 0,
+        "openAccessPdf": {
+          "url": "",
+          "status": null,
+          "license": null,
+          "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/ICASSP49660.2025.10890454?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/ICASSP49660.2025.10890454, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "2202923747",
+            "name": "Yunrui Dong"
+          },
+          {
+            "authorId": "49939080",
+            "name": "Guiduo Duan"
+          },
+          {
+            "authorId": "117789039",
+            "name": "Tianxi Huang"
+          },
+          {
+            "authorId": "2349954781",
+            "name": "Yunhao Li"
+          }
+        ],
+        "abstract": "In the domain of Multimodal Relation Extraction (MRE), we present the $\\color{Red}{\\text{W}}$atcher-$\\color{Red}{\\text{M}}$ediated $\\color{Red}{\\text{A}}$ttention $\\color{Red}{\\text{J}}$oint $\\color{Red}{\\text{L}}$earning Model ($\\color{Red}{\\text{WMAJL}}$), a novel approach addressing the challenges of modality alignment noise, cross-modal fusion disparity, preservation of textual relative position information, and the distinctiveness of classification labels. WMAJL employs an integrative framework leveraging contrastive learning and variational autoencoder constraints to mitigate modality alignment noise by prioritizing relevant semantic data and effectively reducing extraneous noise that does not contribute to the task. The model’s innovative architecture includes a mediator watcher, which facilitates enhanced cross-modal fusion by enabling nuanced information exchange between textual and visual modalities while preserving the unique characteristics of each modality. Additionally, the design of auxiliary tasks, such as Named Entity Recognition (NER), and output supervision constructs loss functions that preserve relative position information, ensuring a precise depiction of entity relationships throughout the multilayer encoding processes. A key differentiator of WMAJL is its label-centric self-information loss technique, inspired by InfoNCE, which trains the model to cluster similar relation labels in semantically coherent areas, thereby optimizing classification label uniqueness by discerning subtle differences among relation types. The synergistic application of these strategies has led to a significant enhancement of WMAJL’s performance, as evidenced by its state-of-the-art F1 score of $\\color{Red}{84.93\\%}$ on the MNRE dataset. This achievement surpasses existing benchmarks and sets a new standard for multimodal knowledge extraction, underscoring WMAJL’s potential to revolutionize the MRE landscape."
+      },
+      {
+        "paperId": "cadadb857fe18932add58c65a33257c2fe34fae4",
+        "externalIds": {
+          "DBLP": "conf/dsc/WuW17a",
+          "MAG": "2743310737",
+          "DOI": "10.1109/DSC.2017.40",
+          "CorpusId": 5739399
+        },
+        "url": "https://www.semanticscholar.org/paper/cadadb857fe18932add58c65a33257c2fe34fae4",
+        "title": "The CRFs-Based Chinese Open Entity Relation Extraction",
+        "venue": "International Conference on Data Science in Cyberspace",
+        "year": 2017,
+        "citationCount": 5,
+        "openAccessPdf": {
+          "url": "",
+          "status": "CLOSED",
+          "license": null,
+          "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1109/DSC.2017.40?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/DSC.2017.40, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "2118089961",
+            "name": "Xiaoyang Wu"
+          },
+          {
+            "authorId": "145965599",
+            "name": "Bin Wu"
+          }
+        ],
+        "abstract": null
+      },
+      {
+        "paperId": "688da89c3e21e0e88dc2a3fd8cc1db6a7838fb5e",
+        "externalIds": {
+          "DOI": "10.1109/TASLPRO.2025.3546851",
+          "CorpusId": 276712462
+        },
+        "url": "https://www.semanticscholar.org/paper/688da89c3e21e0e88dc2a3fd8cc1db6a7838fb5e",
+        "title": "Dual-Aspect Noise-Based Regularization for Multi-Modal Relation Extraction in Media Posts",
+        "venue": "IEEE Transactions on Audio, Speech, and Language Processing",
+        "year": 2025,
+        "citationCount": 0,
+        "openAccessPdf": {
+          "url": "",
+          "status": "CLOSED",
+          "license": null,
+          "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/TASLPRO.2025.3546851?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/TASLPRO.2025.3546851, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "2319408007",
+            "name": "Kai Sun"
+          },
+          {
+            "authorId": "1950135986",
+            "name": "Bin Shi"
+          },
+          {
+            "authorId": "144950995",
+            "name": "Samuel Mensah"
+          },
+          {
+            "authorId": "2278215770",
+            "name": "Wenjian Liu"
+          },
+          {
+            "authorId": "2114956544",
+            "name": "Bo Dong"
+          }
+        ],
+        "abstract": "Multi-Modal Relation Extraction (MMRE) plays a key role in various multimedia applications including, recommendation and information retrieval systems. MMRE aims to extract the semantic relation between entities by leveraging context from a text-image pair. By utilizing context from images, the challenge of learning from noisy images in MMRE emerges as a research problem by itself. For instance, subtle variations in similar images can act as noise and potentially impact the predictions made by MMRE models. To tackle this problem, current work utilizes attention mechanisms to fuse relevant text and image features or devise data augmentation techniques (e.g., via generative models) to improve generalization. However, the current performance still remains unsatisfactory. In an effort to improve upon the performance, we propose a Dual-Aspect Noise-based Regularization framework that encompasses two techniques: 1) noise removal through an adaptive gating mechanism, 2) fighting noise with noise to improve feature stability in the learning process. We find that combining these techniques encourages the model to focus on more relevant image features for MMRE. We carry out extensive experiments and demonstrate that our proposed model is further enhanced by exploring data augmentation techniques. This additional improvement leads the model to achieve state-of-the-art performance on the widely-used Multi-modal Neural Relation Extraction (MNRE) dataset, and show its effectiveness and generalizability on the Multi-Modal Named Entity Recognition task."
+      }
+    ]
+  },
+  "text": "{\"total\": 102, \"offset\": 0, \"next\": 8, \"data\": [{\"paperId\": \"3b44b62bb64f10cd30fb95b3fce39fc1ee210e34\", \"externalIds\": {\"PubMedCentral\": \"12097206\", \"DBLP\": \"journals/biodb/MeesawadHHZHT25\", \"DOI\": \"10.1093/database/baae127\", \"CorpusId\": 278818462, \"PubMed\": \"40402771\"}, \"url\": \"https://www.semanticscholar.org/paper/3b44b62bb64f10cd30fb95b3fce39fc1ee210e34\", \"title\": \"Enhancing biomedical relation extraction through data-centric and preprocessing-robust ensemble learning approach\", \"venue\": \"Database J. Biol. Databases Curation\", \"year\": 2025, \"citationCount\": 0, \"openAccessPdf\": {\"url\": \"\", \"status\": null, \"license\": \"CCBY\", \"disclaimer\": \"Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12097206, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use.\"}, \"authors\": [{\"authorId\": \"2261400367\", \"name\": \"Wilailack Meesawad\"}, {\"authorId\": \"31763053\", \"name\": \"Jen-Chieh Han\"}, {\"authorId\": \"2261401297\", \"name\": \"Chun-Yu Hsueh\"}, {\"authorId\": \"2153633899\", \"name\": \"Yu Zhang\"}, {\"authorId\": \"1722796\", \"name\": \"Hsieh-Chuan Hung\"}, {\"authorId\": \"2261399801\", \"name\": \"Richard Tzong-Han Tsai\"}], \"abstract\": \"Abstract The paper describes our biomedical relation extraction system, which is designed to participate in the BioCreative VIII challenge Track 1: BioRED Track, which emphasizes the relation extraction from biomedical literature. Our system employs an ensemble learning method, leveraging the PubTator API in conjunction with multiple pretrained bidirectional encoder representations from transformer (BERT) models. Various preprocessing inputs are incorporated, encompassing prompt questions, entity ID pairs, and co-occurrence contexts. To enhance model comprehension, special tokens and boundary tags are incorporated. Specifically, we utilize PubMedBERT alongside the Max Rule ensemble learning mechanism to amalgamate outp"
+}

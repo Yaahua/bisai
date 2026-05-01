@@ -1,0 +1,1987 @@
+{
+  "status": 200,
+  "url": "https://api.crossref.org/works?query=large+language+models+biomedical+information+extraction+relation+extraction&rows=8",
+  "json": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 7935922,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                27
+              ]
+            ],
+            "date-time": "2026-02-27T02:36:07Z",
+            "timestamp": 1772159767508,
+            "version": "3.50.1"
+          },
+          "description": "The supplemental material contains material to support the article.",
+          "reference-count": 0,
+          "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "DOI": "10.1109/tnnls.2025.3596257/mm1",
+          "type": "component",
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                8,
+                21
+              ]
+            ],
+            "date-time": "2025-08-21T18:30:42Z",
+            "timestamp": 1755801042000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "REaMA: Building Biomedical Relation Extraction Specialized Large Language Models Through Instruction Tuning_supp1-3596257.pdf"
+          ],
+          "prefix": "10.1109",
+          "author": [
+            {
+              "given": "Zhenan",
+              "family": "He",
+              "sequence": "first",
+              "affiliation": []
+            }
+          ],
+          "member": "263",
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                30
+              ]
+            ],
+            "date-time": "2026-01-30T16:23:11Z",
+            "timestamp": 1769790191000
+          },
+          "score": 45.131603,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/ielx8/5962385/11272992/11131263/supp1-3596257.pdf?arnumber=11131263"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                null
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.1109/tnnls.2025.3596257/mm1",
+          "relation": {
+            "is-component-of": [
+              {
+                "id-type": "doi",
+                "id": "10.1109/TNNLS.2025.3596257",
+                "asserted-by": "object"
+              }
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                20
+              ]
+            ],
+            "date-time": "2026-04-20T02:40:41Z",
+            "timestamp": 1776652841983,
+            "version": "3.51.2"
+          },
+          "posted": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                6
+              ]
+            ]
+          },
+          "group-title": "Computer Science and Mathematics",
+          "reference-count": 0,
+          "publisher": "MDPI AG",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2026,
+                    1,
+                    6
+                  ]
+                ],
+                "date-time": "2026-01-06T00:00:00Z",
+                "timestamp": 1767657600000
+              },
+              "content-version": "unspecified",
+              "delay-in-days": 0,
+              "URL": "http://creativecommons.org/licenses/by/4.0"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "accepted": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                2
+              ]
+            ]
+          },
+          "abstract": "<jats:p>Real-world data streams, such as news articles and social media posts, are dynamic and nonstationary, creating challenges for real-time structured representation via knowledge graphs, where relation extraction is a key component. Continual relation extraction (CRE) addresses this setting by incrementally learning new relations while preserving previously acquired knowledge. This work investigates the use of pretrained language models for CRE, focusing on large language models (LLMs) and the effectiveness of memory replay in mitigating forgetting. We evaluated decoder-only models and an encoder-decoder model on TACRED and FewRel in English. Our results show that memory replay is most beneficial for smaller instruction-tuned models (e.g., Flan-T5 Base) and base models such as Llama2-7B-hf.\nIn contrast, the remaining instruction-tuned models in this work do not benefit from memory replay, yet some, like Mistral-7B, already achieve higher accuracies without it and surpass prior methods. We further observed that Llama models in this work are more prone to hallucinations. To the best of our knowledge, this work provides the first reproducible benchmarks for LLMs in CRE. It offers a novel analysis of knowledge retention and hallucination behavior—dimensions that have not been systematically studied in earlier research.</jats:p>",
+          "DOI": "10.20944/preprints202601.0167.v1",
+          "type": "posted-content",
+          "created": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                7
+              ]
+            ],
+            "date-time": "2026-01-07T03:45:05Z",
+            "timestamp": 1767757505000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Large Language Models for Continual Relation Extraction"
+          ],
+          "prefix": "10.20944",
+          "author": [
+            {
+              "given": "Sefika",
+              "family": "Efeoglu",
+              "sequence": "first",
+              "affiliation": []
+            },
+            {
+              "given": "Adrian",
+              "family": "Paschke",
+              "sequence": "additional",
+              "affiliation": []
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-8786-7250",
+              "authenticated-orcid": false,
+              "given": "Sonja",
+              "family": "Schimmler",
+              "sequence": "additional",
+              "affiliation": []
+            }
+          ],
+          "member": "1968",
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                20
+              ]
+            ],
+            "date-time": "2026-04-20T01:44:42Z",
+            "timestamp": 1776649482000
+          },
+          "score": 42.847748,
+          "resource": {
+            "primary": {
+              "URL": "https://www.preprints.org/manuscript/202601.0167/v1"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                6
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.20944/preprints202601.0167.v1",
+          "relation": {
+            "is-preprint-of": [
+              {
+                "id-type": "doi",
+                "id": "10.1109/ACCESS.2026.3682652",
+                "asserted-by": "subject"
+              }
+            ]
+          },
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                6
+              ]
+            ]
+          },
+          "subtype": "preprint"
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                21
+              ]
+            ],
+            "date-time": "2025-12-21T08:29:12Z",
+            "timestamp": 1766305752852,
+            "version": "3.48.0"
+          },
+          "reference-count": 13,
+          "publisher": "Elsevier BV",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2025-01-01T00:00:00Z",
+                "timestamp": 1735689600000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2025-01-01T00:00:00Z",
+                "timestamp": 1735689600000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/legal/tdmrep-license"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    9,
+                    19
+                  ]
+                ],
+                "date-time": "2025-09-19T00:00:00Z",
+                "timestamp": 1758240000000
+              },
+              "content-version": "vor",
+              "delay-in-days": 261,
+              "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+            }
+          ],
+          "funder": [
+            {
+              "DOI": "10.13039/501100007336",
+              "name": "University of Bucharest",
+              "doi-asserted-by": "publisher",
+              "id": [
+                {
+                  "id": "10.13039/501100007336",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "elsevier.com",
+              "sciencedirect.com"
+            ],
+            "crossmark-restriction": true
+          },
+          "short-container-title": [
+            "Procedia Computer Science"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "DOI": "10.1016/j.procs.2025.09.178",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                6
+              ]
+            ],
+            "date-time": "2025-11-06T22:13:28Z",
+            "timestamp": 1762467208000
+          },
+          "page": "592-601",
+          "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "special_numbering": "C",
+          "title": [
+            "Benchmarking Large Language Models for Biomedical Relation Extraction"
+          ],
+          "prefix": "10.1016",
+          "volume": "270",
+          "author": [
+            {
+              "given": "Claudiu",
+              "family": "Creangă",
+              "sequence": "first",
+              "affiliation": []
+            },
+            {
+              "given": "Teodor",
+              "family": "Marchitan",
+              "sequence": "additional",
+              "affiliation": []
+            },
+            {
+              "given": "Liviu P.",
+              "family": "Dinu",
+              "sequence": "additional",
+              "affiliation": []
+            }
+          ],
+          "member": "78",
+          "reference": [
+            {
+              "key": "10.1016/j.procs.2025.09.178_bib1",
+              "unstructured": "H. Satam et al., ”Next-Generation Sequencing Technology: Current Trends and Advancements,” Biology (Basel), 12(7):997. doi: 10.3390/bi-ology12070997. PMID: 37508427; PMCID: PMC10376292, 2023"
+            },
+            {
+              "key": "10.1016/j.procs.2025.09.178_bib2",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Bokharaeian, B., Diaz, A., Taghizadeh, N., Chitsaz, H., Chavoshinejad, R. (2017). SNPPhenA: a corpus for extracting ranked associations of single-nucleotide polymorphisms and phenotypes from literature. Journal of biomedical semantics, 8(1), 14. https://doi.org/10.1186/s13326-017-0116-2",
+              "DOI": "10.1186/s13326-017-0116-2"
+            },
+            {
+              "key": "10.1016/j.procs.2025.09.178_bib3",
+              "doi-asserted-by": "crossref",
+              "unstructured": "C. Creangă, L. P. Dinu, and D. Gifu, ”Fine-Tuning Models for Biomedical Relation Extraction,” Procedia Computer Science, vol. 246, pp. 2100-2109. doi: https://doi.org/10.1016/j.procs.2024.09.637, 2024",
+              "DOI": "10.1016/j.procs.2024.09.637"
+            },
+            {
+              "key": "10.1016/j.procs.2025.09.178_bib4",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Mohammad Dehghani and Behrouz Bokharaeian and Zahra Yazdanparast: BioBERT Based SNP-traits Associations Extraction from Biomedical Literature, 2023, arXiv:2308.02569",
+              "DOI": "10.1109/ICCKE60553.2023.10326231"
+            },
+            {
+              "key": "10.1016/j.procs.2025.09.178_bib5",
+              "doi-asserted-by": "crossref",
+              "unstructured": "J. P. C. Chiu and E. Nichols, ”Named Entity Recognition with Bidirectional LSTM-CNNs,” arXiv preprint arXiv:1511.08308, 2016.",
+              "DOI": "10.1162/tacl_a_00104"
+            },
+            {
+              "key": "10.1016/j.procs.2025.09.178_bib6",
+              "unstructured": "P. He et al., ”DeBERTa: Decoding-enhanced BERT with Disentangled Attention,” arXiv preprint arXiv:2006.03654, 2020"
+            },
+            {
+              "key": "10.1016/j.procs.2025.09.178_bib7",
+              "unstructured": "J. Devlin et al., ”BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding,” arXiv preprint arXiv:1810.04805, 2018"
+            },
+            {
+              "key": "10.1016/j.procs.2025.09.178_bib8",
+              "doi-asserted-by": "crossref",
+              "unstructured": "A. Conneau et al., ”Unsupervised Cross-lingual Representation Learning at Scale,” arXiv preprint arXiv:1911.02116, 2019",
+              "DOI": "10.18653/v1/2020.acl-main.747"
+            },
+            {
+              "key": "10.1016/j.procs.2025.09.178_bib9",
+              "doi-asserted-by": "crossref",
+              "unstructured": "B. Warner et al., ”Smarter, Better, Faster, Longer: A Modern Bidirectional Encoder for Fast, Memory Efficient, and Long Context Finetuning and Inference,” arXiv preprint arXiv:2412.13663, 2024",
+              "DOI": "10.18653/v1/2025.acl-long.127"
+            },
+            {
+              "key": "10.1016/j.procs.2025.09.178_bib10",
+              "unstructured": "J. Bai et al., ”Qwen Technical Report,” arXiv preprint arXiv:2309.16609, 2023."
+            },
+            {
+              "key": "10.1016/j.procs.2025.09.178_bib11",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Seripa D, Bizzarro A, Pilotto A, Palmieri O, Panza F, D’Onofrio G, Gravina C, Archetti S, Daniele A, Borroni B, Padovani A, Masullo C. TOMM40, APOE, and APOC1 in primary progressive aphasia and frontotemporal dementia. J Alzheimers Dis. 2012;31(4):731-40. doi: 10.3233/JAD-2012-120403. PMID: 22710912.",
+              "DOI": "10.3233/JAD-2012-120403"
+            },
+            {
+              "key": "10.1016/j.procs.2025.09.178_bib12",
+              "unstructured": "Jiang, Albert Q and Sablayrolles, Alexandre and Mensch, Arthur and Bamford, Chris and Chaplot, Devendra Singh and Casas, Diego de las and Bressand, Florian and Lengyel, Gianna and Lample, Guillaume and Saulnier, Lucile and others, Mistral 7B, 2023, arXiv:2310.06825"
+            },
+            {
+              "key": "10.1016/j.procs.2025.09.178_bib13",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Bokharaeian, B., Dehghani, M. Diaz, A. Automatic extraction of ranked SNP-phenotype associations from text using a BERT-LSTM-based method. BMC Bioinformatics 24, 144 (2023). https://doi.org/10.1186/s12859-023-05236-w",
+              "DOI": "10.1186/s12859-023-05236-w"
+            }
+          ],
+          "container-title": [
+            "Procedia Computer Science"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S1877050925028480?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S1877050925028480?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                21
+              ]
+            ],
+            "date-time": "2025-12-21T08:27:29Z",
+            "timestamp": 1766305649000
+          },
+          "score": 41.47,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1877050925028480"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "references-count": 13,
+          "alternative-id": [
+            "S1877050925028480"
+          ],
+          "URL": "https://doi.org/10.1016/j.procs.2025.09.178",
+          "ISSN": [
+            "1877-0509"
+          ],
+          "issn-type": [
+            {
+              "type": "print",
+              "value": "1877-0509"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "Elsevier",
+              "name": "publisher",
+              "label": "This article is maintained by"
+            },
+            {
+              "value": "Benchmarking Large Language Models for Biomedical Relation Extraction",
+              "name": "articletitle",
+              "label": "Article Title"
+            },
+            {
+              "value": "Procedia Computer Science",
+              "name": "journaltitle",
+              "label": "Journal Title"
+            },
+            {
+              "value": "https://doi.org/10.1016/j.procs.2025.09.178",
+              "name": "articlelink",
+              "label": "CrossRef DOI link to publisher maintained version"
+            },
+            {
+              "value": "article",
+              "name": "content_type",
+              "label": "Content Type"
+            },
+            {
+              "value": "© 2025 The Author(s). Published by Elsevier B.V.",
+              "name": "copyright",
+              "label": "Copyright"
+            }
+          ]
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                24
+              ]
+            ],
+            "date-time": "2026-02-24T09:23:32Z",
+            "timestamp": 1771925012809,
+            "version": "3.50.1"
+          },
+          "reference-count": 25,
+          "publisher": "IEEE",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    11,
+                    7
+                  ]
+                ],
+                "date-time": "2025-11-07T00:00:00Z",
+                "timestamp": 1762473600000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-029"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    11,
+                    7
+                  ]
+                ],
+                "date-time": "2025-11-07T00:00:00Z",
+                "timestamp": 1762473600000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-037"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                7
+              ]
+            ]
+          },
+          "DOI": "10.1109/mlnlp66797.2025.11389036",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                23
+              ]
+            ],
+            "date-time": "2026-02-23T20:45:29Z",
+            "timestamp": 1771879529000
+          },
+          "page": "1-5",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Feature-Enhanced Relation Extraction with Large Language Models"
+          ],
+          "prefix": "10.1109",
+          "author": [
+            {
+              "given": "Yihe",
+              "family": "Chi",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "East China Normal University,Shanghai Key Laboratory of Trustworthy Computing,Shanghai,China"
+                }
+              ]
+            }
+          ],
+          "member": "263",
+          "reference": [
+            {
+              "key": "ref1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.24963/ijcai.2020/561"
+            },
+            {
+              "key": "ref2",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/P19-1136"
+            },
+            {
+              "key": "ref3",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.3115/v1/p14-1038"
+            },
+            {
+              "key": "ref4",
+              "first-page": "2335",
+              "article-title": "Relation classification via convolutional deep neural network",
+              "volume-title": "Proc. 25th Int. Conf. Comput. Linguistics",
+              "author": "Zeng",
+              "year": "2014"
+            },
+            {
+              "key": "ref5",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1162/neco.1997.9.8.1735"
+            },
+            {
+              "key": "ref6",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/p17-1113"
+            },
+            {
+              "key": "ref7",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/2020.acl-main.136"
+            },
+            {
+              "key": "ref8",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/2020.coling-main.138"
+            },
+            {
+              "key": "ref9",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/2021.acl-long.486"
+            },
+            {
+              "key": "ref10",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.48550/arXiv.1810.04805"
+            },
+            {
+              "key": "ref11",
+              "first-page": "1877",
+              "article-title": "Language models are few-shot learners",
+              "volume": "33",
+              "author": "Brown",
+              "year": "2020",
+              "journal-title": "Advances in Neural Information Processing Systems"
+            },
+            {
+              "key": "ref12",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/D19-3029"
+            },
+            {
+              "key": "ref13",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/D19-1250"
+            },
+            {
+              "key": "ref14",
+              "article-title": "GPT-NER: Named entity recognition via large language models",
+              "author": "Wang",
+              "year": "2023",
+              "journal-title": "arXiv preprint"
+            },
+            {
+              "key": "ref15",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/P18-1047"
+            },
+            {
+              "key": "ref16",
+              "article-title": "Are large language models good at relation extraction?",
+              "author": "Xu",
+              "year": "2023",
+              "journal-title": "arXiv preprint"
+            },
+            {
+              "key": "ref17",
+              "article-title": "LLaMANER: Large language models for named entity recognition",
+              "author": "Zhang",
+              "year": "2024",
+              "journal-title": "arXiv preprint"
+            },
+            {
+              "key": "ref18",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.3115/v1/p14-5010"
+            },
+            {
+              "key": "ref19",
+              "volume-title": "spaCy 2: Natural language understanding with Bloom embeddings, convolutional neural networks and incremental parsing",
+              "author": "Honnibal",
+              "year": "2017"
+            },
+            {
+              "key": "ref20",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/219717.219748"
+            },
+            {
+              "key": "ref21",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.3115/981732.981751"
+            },
+            {
+              "key": "ref22",
+              "article-title": "Qwen2.5 technical report",
+              "author": "Yang",
+              "year": "2024",
+              "journal-title": "arXiv preprint"
+            },
+            {
+              "key": "ref23",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-642-15939-8_10"
+            },
+            {
+              "key": "ref24",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/P17-1017"
+            },
+            {
+              "key": "ref25",
+              "article-title": "Graph attention networks",
+              "volume-title": "Proc. Int. Conf. Learning Representations",
+              "author": "Veličković",
+              "year": "2018"
+            }
+          ],
+          "event": {
+            "name": "2025 8th International Conference on Machine Learning and Natural Language Processing (MLNLP)",
+            "location": "Hangzhou, China",
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  11,
+                  7
+                ]
+              ]
+            },
+            "end": {
+              "date-parts": [
+                [
+                  2025,
+                  11,
+                  9
+                ]
+              ]
+            }
+          },
+          "container-title": [
+            "2025 8th International Conference on Machine Learning and Natural Language Processing (MLNLP)"
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx8/11387764/11387795/11389036.pdf?arnumber=11389036",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                24
+              ]
+            ],
+            "date-time": "2026-02-24T08:35:00Z",
+            "timestamp": 1771922100000
+          },
+          "score": 40.808147,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/11389036/"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                7
+              ]
+            ]
+          },
+          "references-count": 25,
+          "URL": "https://doi.org/10.1109/mlnlp66797.2025.11389036",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                7
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                11
+              ]
+            ],
+            "date-time": "2026-04-11T02:13:04Z",
+            "timestamp": 1775873584188,
+            "version": "3.50.1"
+          },
+          "publisher-location": "Stroudsburg, PA, USA",
+          "reference-count": 0,
+          "publisher": "Association for Computational Linguistics",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2024
+              ]
+            ]
+          },
+          "DOI": "10.18653/v1/2024.bionlp-1.23",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                20
+              ]
+            ],
+            "date-time": "2024-09-20T19:33:08Z",
+            "timestamp": 1726860788000
+          },
+          "page": "295-317",
+          "source": "Crossref",
+          "is-referenced-by-count": 13,
+          "title": [
+            "Large Language Models for Biomedical Knowledge Graph Construction: Information extraction from EMR notes"
+          ],
+          "prefix": "10.18653",
+          "author": [
+            {
+              "given": "Vahan",
+              "family": "Arsenyan",
+              "sequence": "first",
+              "affiliation": []
+            },
+            {
+              "given": "Spartak",
+              "family": "Bughdaryan",
+              "sequence": "additional",
+              "affiliation": []
+            },
+            {
+              "given": "Fadi",
+              "family": "Shaya",
+              "sequence": "additional",
+              "affiliation": []
+            },
+            {
+              "given": "Kent Wilson",
+              "family": "Small",
+              "sequence": "additional",
+              "affiliation": []
+            },
+            {
+              "given": "Davit",
+              "family": "Shahnazaryan",
+              "sequence": "additional",
+              "affiliation": []
+            }
+          ],
+          "member": "1643",
+          "event": {
+            "name": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+            "location": "Bangkok, Thailand",
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  8
+                ]
+              ]
+            },
+            "end": {
+              "date-parts": [
+                [
+                  2024,
+                  8
+                ]
+              ]
+            }
+          },
+          "container-title": [
+            "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing"
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                20
+              ]
+            ],
+            "date-time": "2024-09-20T19:42:09Z",
+            "timestamp": 1726861329000
+          },
+          "score": 40.471283,
+          "resource": {
+            "primary": {
+              "URL": "https://aclanthology.org/2024.bionlp-1.23"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2024
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.18653/v1/2024.bionlp-1.23",
+          "published": {
+            "date-parts": [
+              [
+                2024
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                25
+              ]
+            ],
+            "date-time": "2025-04-25T04:14:53Z",
+            "timestamp": 1745554493536,
+            "version": "3.40.4"
+          },
+          "reference-count": 11,
+          "publisher": "IEEE",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    3,
+                    14
+                  ]
+                ],
+                "date-time": "2025-03-14T00:00:00Z",
+                "timestamp": 1741910400000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-029"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    3,
+                    14
+                  ]
+                ],
+                "date-time": "2025-03-14T00:00:00Z",
+                "timestamp": 1741910400000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-037"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                14
+              ]
+            ]
+          },
+          "DOI": "10.1109/itoec63606.2025.10968300",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                23
+              ]
+            ],
+            "date-time": "2025-04-23T17:51:12Z",
+            "timestamp": 1745430672000
+          },
+          "page": "644-647",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Corpus Construction for Etiquette Entity and Relation Extraction in Ancient Chinese Texts Assisted by Large Language Models"
+          ],
+          "prefix": "10.1109",
+          "author": [
+            {
+              "family": "Siriguleng",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Inner Mongolia MINZU University,College of Computer Science and Technology,Tongliao,China"
+                }
+              ]
+            }
+          ],
+          "member": "263",
+          "reference": [
+            {
+              "key": "ref1",
+              "first-page": "3192",
+              "article-title": "2024. CHisIEC: An Information Extraction Corpus for Ancient Chinese History",
+              "volume-title": "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+              "author": "Xuemei"
+            },
+            {
+              "issue": "06",
+              "key": "ref2",
+              "first-page": "26",
+              "article-title": "Research on information extraction methods for historical classics under the perspective of digital humanities[J]",
+              "volume": "8",
+              "author": "Lifan",
+              "year": "2021",
+              "journal-title": "Big Data Research. 2022"
+            },
+            {
+              "key": "ref3",
+              "first-page": "1",
+              "article-title": "Entity-relation joint extraction method from Chinese ancient text based on learning and global pointer network",
+              "volume-title": "Journal of Computer Applications",
+              "author": "Bin",
+              "year": "2024"
+            },
+            {
+              "issue": "7",
+              "key": "ref4",
+              "first-page": "56",
+              "article-title": "Multi-Task Learning for Ancient Ritual Literature Etiquette Entity Recognition",
+              "volume": "8",
+              "author": "RGL",
+              "year": "2024",
+              "journal-title": "Data Analysis and Knowledge Discovery"
+            },
+            {
+              "key": "ref5",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/p17-1113"
+            },
+            {
+              "key": "ref6",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/p19-1129"
+            },
+            {
+              "key": "ref7",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.24963/ijcai.2020/546"
+            },
+            {
+              "key": "ref8",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/2021.findings-emnlp.204"
+            },
+            {
+              "key": "ref9",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1609/aaai.v34i05.6374"
+            },
+            {
+              "journal-title": "Traditional Chinese Rituals[M]",
+              "year": "2004",
+              "author": "Peng",
+              "key": "ref10"
+            },
+            {
+              "journal-title": "GujiBERT and GujiGPT: Construction of Intelligent Information Processing Foundation Language Models for Ancient Texts",
+              "year": "2023",
+              "author": "Wang",
+              "key": "ref11"
+            }
+          ],
+          "event": {
+            "name": "2025 IEEE 8th Information Technology and Mechatronics Engineering Conference (ITOEC)",
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  3,
+                  14
+                ]
+              ]
+            },
+            "location": "Chongqing, China",
+            "end": {
+              "date-parts": [
+                [
+                  2025,
+                  3,
+                  16
+                ]
+              ]
+            }
+          },
+          "container-title": [
+            "2025 IEEE 8th Information Technology and Mechatronics Engineering Conference (ITOEC)"
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx8/10967567/10967571/10968300.pdf?arnumber=10968300",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                24
+              ]
+            ],
+            "date-time": "2025-04-24T05:11:49Z",
+            "timestamp": 1745471509000
+          },
+          "score": 40.298714,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/10968300/"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                14
+              ]
+            ]
+          },
+          "references-count": 11,
+          "URL": "https://doi.org/10.1109/itoec63606.2025.10968300",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                14
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                11
+              ]
+            ],
+            "date-time": "2025-02-11T05:22:01Z",
+            "timestamp": 1739251321568,
+            "version": "3.37.0"
+          },
+          "posted": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "group-title": "SSRN",
+          "reference-count": 35,
+          "publisher": "Elsevier BV",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "DOI": "10.2139/ssrn.5131704",
+          "type": "posted-content",
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                10
+              ]
+            ],
+            "date-time": "2025-02-10T21:51:30Z",
+            "timestamp": 1739224290000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Multi-Modal Relation Extraction Based on Shortest Dependency Path and Large Language Models"
+          ],
+          "prefix": "10.2139",
+          "author": [
+            {
+              "given": "Hao",
+              "family": "Xue",
+              "sequence": "first",
+              "affiliation": []
+            },
+            {
+              "given": "Yange",
+              "family": "Dai",
+              "sequence": "additional",
+              "affiliation": []
+            },
+            {
+              "given": "Jing",
+              "family": "Ma",
+              "sequence": "additional",
+              "affiliation": []
+            },
+            {
+              "given": "Xiaoyu",
+              "family": "Guo",
+              "sequence": "additional",
+              "affiliation": []
+            }
+          ],
+          "member": "78",
+          "reference": [
+            {
+              "key": "ref1",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.bdr.2023.100380",
+              "article-title": "What is a multi-modal knowledge graph: a survey",
+              "volume": "32",
+              "author": "J Peng",
+              "year": "2023",
+              "journal-title": "Big Data Research"
+            },
+            {
+              "key": "ref2",
+              "first-page": "8748",
+              "article-title": "Learning transferable visual models from natural language supervision",
+              "author": "A Radford",
+              "year": "2021",
+              "journal-title": "International conference on machine learning"
+            },
+            {
+              "key": "ref3",
+              "author": "Q Ye",
+              "year": "2023",
+              "journal-title": "mplug-owl: Modularization empowers large language models with multimodality"
+            },
+            {
+              "key": "ref4",
+              "first-page": "5925",
+              "article-title": "Named entity and relation extraction with multi-modal retrieval",
+              "author": "X Wang",
+              "year": "2022",
+              "journal-title": "Findings of the Association for Computational Linguistics: EMNLP 2022"
+            },
+            {
+              "key": "ref5",
+              "first-page": "2787",
+              "author": "J Li",
+              "year": "2023",
+              "journal-title": "Prompting chatgpt in mner: Enhanced multimodal named entity recognition with auxiliary refined knowledge"
+            },
+            {
+              "key": "ref6",
+              "first-page": "1",
+              "article-title": "Research on relation extraction based on multimodal large language model",
+              "author": "Z Wang",
+              "year": "2024",
+              "journal-title": "Data Analysis and Knowledge Discovery"
+            },
+            {
+              "key": "ref7",
+              "author": "F Chen",
+              "year": "2023",
+              "journal-title": "Chain-of-thought prompt distillation for multimodal named entity and multimodal relation extraction"
+            },
+            {
+              "key": "ref8",
+              "first-page": "4458",
+              "article-title": "Dependency-driven relation extraction with attentive graph convolutional networks",
+              "volume": "1",
+              "author": "Y Tian",
+              "year": "2021",
+              "journal-title": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing"
+            },
+            {
+              "key": "ref9",
+              "first-page": "724",
+              "article-title": "A shortest path dependency kernel for relation extraction",
+              "author": "R Bunescu",
+              "year": "2005",
+              "journal-title": "Proceedings of Human Language Technology Conference and Conference on Empirical Methods in Natural Language Processing"
+            },
+            {
+              "key": "ref10",
+              "doi-asserted-by": "crossref",
+              "first-page": "1753",
+              "DOI": "10.18653/v1/D15-1203",
+              "article-title": "Distant supervision for relation extraction via piecewise convolutional neural networks",
+              "author": "D Zeng",
+              "year": "2015",
+              "journal-title": "Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing"
+            },
+            {
+              "key": "ref11",
+              "doi-asserted-by": "crossref",
+              "first-page": "2895",
+              "DOI": "10.18653/v1/P19-1279",
+              "article-title": "Matching the blanks: Distributional similarity for relation learning",
+              "author": "L Baldini Soares",
+              "year": "2019",
+              "journal-title": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics"
+            },
+            {
+              "key": "ref12",
+              "first-page": "50",
+              "article-title": "A frustratingly easy approach for entity and relation extraction",
+              "author": "Z Zhong",
+              "year": "2021",
+              "journal-title": "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Association for Computational Linguistics"
+            },
+            {
+              "key": "ref13",
+              "first-page": "1",
+              "article-title": "Mnre: A challenge multimodal dataset for neural relation extraction with visual evidence in social media posts",
+              "author": "C Zheng",
+              "year": "2021",
+              "journal-title": "2021 IEEE International Conference on Multimedia and Expo (ICME)"
+            },
+            {
+              "key": "ref14",
+              "doi-asserted-by": "crossref",
+              "first-page": "5298",
+              "DOI": "10.1145/3474085.3476968",
+              "article-title": "Multimodal relation extraction with efficient graph alignment",
+              "author": "C Zheng",
+              "year": "2021",
+              "journal-title": "Proceedings of the 29th ACM International Conference on Multimedia"
+            },
+            {
+              "key": "ref15",
+              "article-title": "Good visual guidance make a better extractor: Hierarchical visual prefix for multimodal entity and relation extraction",
+              "author": "X Chen",
+              "year": "2022",
+              "journal-title": "Findings of the Association for Computational Linguistics: NAACL 2022"
+            },
+            {
+              "key": "ref16",
+              "first-page": "904",
+              "article-title": "Hybrid transformer with multi-level fusion for multimodal knowledge graph completion",
+              "author": "X Chen",
+              "year": "2022",
+              "journal-title": "Proceedings of the 45th international ACM SIGIR conference on research and development in information retrieval"
+            },
+            {
+              "key": "ref17",
+              "doi-asserted-by": "crossref",
+              "first-page": "4564",
+              "DOI": "10.1145/3581783.3612209",
+              "article-title": "More: A multimodal object-entity relation extraction dataset with a benchmark evaluation",
+              "author": "L He",
+              "year": "2023",
+              "journal-title": "Proceedings of the 31st ACM International Conference on Multimedia"
+            },
+            {
+              "key": "ref18",
+              "doi-asserted-by": "crossref",
+              "first-page": "5185",
+              "DOI": "10.1145/3581783.3611899",
+              "article-title": "Prompt me up: Unleashing the power of alignments for multimodal entity and relation extraction",
+              "author": "X Hu",
+              "year": "2023",
+              "journal-title": "Proceedings of the 31st ACM International Conference on Multimedia"
+            },
+            {
+              "key": "ref19",
+              "author": "Q Li",
+              "year": "2024",
+              "journal-title": "Variational multi-modal hypergraph attention network for multi-modal relation extraction"
+            },
+            {
+              "key": "ref20",
+              "first-page": "1877",
+              "article-title": "Language models are few-shot learners",
+              "volume": "33",
+              "author": "T Brown",
+              "year": "2020",
+              "journal-title": "Advances in Neural Information Processing Systems"
+            },
+            {
+              "key": "ref21",
+              "doi-asserted-by": "crossref",
+              "first-page": "1107",
+              "DOI": "10.18653/v1/2024.emnlp-main.64",
+              "article-title": "A survey on in-context learning",
+              "author": "Q Dong",
+              "year": "2024",
+              "journal-title": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing"
+            },
+            {
+              "key": "ref22",
+              "first-page": "12697",
+              "article-title": "Calibrate before use: Improving few-shot performance of language models",
+              "author": "Z Zhao",
+              "year": "2021",
+              "journal-title": "International conference on machine learning"
+            },
+            {
+              "key": "ref23",
+              "first-page": "8086",
+              "article-title": "Fantastically ordered prompts and where to find them: Overcoming few-shot prompt order sensitivity",
+              "volume": "1",
+              "author": "Y Lu",
+              "year": "2022",
+              "journal-title": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics"
+            },
+            {
+              "key": "ref24",
+              "first-page": "7441",
+              "article-title": "In-context learning with iterative demonstration selection",
+              "author": "C Qin",
+              "year": "2024",
+              "journal-title": "Findings of the Association for Computational Linguistics: EMNLP 2024"
+            },
+            {
+              "key": "ref25",
+              "article-title": "Selective annotation makes language models better few-shot learners",
+              "author": "S Hongjin",
+              "year": "2022",
+              "journal-title": "The Eleventh International Conference on Learning Representations"
+            },
+            {
+              "key": "ref26",
+              "first-page": "10136",
+              "article-title": "Demystifying prompts in language models via perplexity estimation",
+              "author": "H Gonen",
+              "year": "2023",
+              "journal-title": "Findings of the Association for Computational Linguistics: EMNLP 2023"
+            },
+            {
+              "key": "ref27",
+              "first-page": "100",
+              "article-title": "The 3rd Workshop on Knowledge Extraction and Integration for Deep Learning Architectures",
+              "author": "J Liu",
+              "year": "2022",
+              "journal-title": "Proceedings of Deep Learning Inside Out"
+            },
+            {
+              "key": "ref28",
+              "article-title": "Large language models are human-level prompt engineers",
+              "author": "Y Zhou",
+              "year": "2022",
+              "journal-title": "NeurIPS 2022 Foundation Models for Decision Making Workshop"
+            },
+            {
+              "key": "ref29",
+              "first-page": "24824",
+              "article-title": "Chain-of-thought prompting elicits reasoning in large language models",
+              "volume": "35",
+              "author": "J Wei",
+              "year": "2022",
+              "journal-title": "Advances in neural information processing systems"
+            },
+            {
+              "key": "ref30",
+              "author": "W Liu",
+              "year": "2023",
+              "journal-title": "Mmhqa-icl: Multimodal in-context learning for hybrid question answering over text, tables and images"
+            },
+            {
+              "key": "ref31",
+              "first-page": "2969",
+              "article-title": "In-context learning for few-shot multimodal named entity recognition",
+              "author": "C Cai",
+              "year": "2023",
+              "journal-title": "Findings of the Association for Computational Linguistics: EMNLP 2023"
+            },
+            {
+              "key": "ref32",
+              "author": "X H L�",
+              "year": "2024",
+              "journal-title": "Bm25s: Orders of magnitude faster lexical search via eager sparse scoring"
+            },
+            {
+              "key": "ref33",
+              "first-page": "318",
+              "article-title": "M3-embedding: Multi-linguality, multi-functionality, multi-granularity text embeddings through self-knowledge distillation",
+              "author": "J Chen",
+              "year": "2024",
+              "journal-title": "Findings of the Association for Computational Linguistics: ACL 2024"
+            },
+            {
+              "key": "ref34",
+              "first-page": "19730",
+              "article-title": "BLIP-2: Bootstrapping language-image pre-training with frozen image encoders and large language models",
+              "volume": "202",
+              "author": "J Li",
+              "year": "2023",
+              "journal-title": "Proceedings of the 40th International Conference on Machine Learning"
+            },
+            {
+              "key": "ref35",
+              "first-page": "34892",
+              "article-title": "Visual instruction tuning",
+              "volume": "36",
+              "author": "H Liu",
+              "year": "2023",
+              "journal-title": "Advances in Neural Information Processing Systems"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                10
+              ]
+            ],
+            "date-time": "2025-02-10T22:05:52Z",
+            "timestamp": 1739225152000
+          },
+          "score": 39.99619,
+          "resource": {
+            "primary": {
+              "URL": "https://www.ssrn.com/abstract=5131704"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "references-count": 35,
+          "URL": "https://doi.org/10.2139/ssrn.5131704",
+          "published": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "subtype": "preprint"
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                28
+              ]
+            ],
+            "date-time": "2026-01-28T18:46:19Z",
+            "timestamp": 1769625979708,
+            "version": "3.49.0"
+          },
+          "reference-count": 28,
+          "publisher": "IEEE",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    11,
+                    19
+                  ]
+                ],
+                "date-time": "2025-11-19T00:00:00Z",
+                "timestamp": 1763510400000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-029"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    11,
+                    19
+                  ]
+                ],
+                "date-time": "2025-11-19T00:00:00Z",
+                "timestamp": 1763510400000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-037"
+            }
+          ],
+          "funder": [
+            {
+              "DOI": "10.13039/501100001809",
+              "name": "National Natural Science Foundation of China",
+              "doi-asserted-by": "publisher",
+              "id": [
+                {
+                  "id": "10.13039/501100001809",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                19
+              ]
+            ]
+          },
+          "DOI": "10.1109/medai67139.2025.00024",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                27
+              ]
+            ],
+            "date-time": "2026-01-27T04:49:42Z",
+            "timestamp": 1769489382000
+          },
+          "page": "119-123",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "A comprehensive evaluation of document level biomedical relation extraction using large language models"
+          ],
+          "prefix": "10.1109",
+          "author": [
+            {
+              "given": "Yuxuan",
+              "family": "Liu",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Fudan University,Institute of Science and Technology for Brain-Inspired Intelligence and MOE Frontiers Center for Brain Science,Shanghai,China,200433"
+                }
+              ]
+            },
+            {
+              "given": "Shanfeng",
+              "family": "Zhu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Fudan University,Institute of Science and Technology for Brain-Inspired Intelligence and MOE Frontiers Center for Brain Science,Shanghai,China,200433"
+                }
+              ]
+            }
+          ],
+          "member": "263",
+          "reference": [
+            {
+              "key": "ref1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/BIBM.2018.8621375"
+            },
+            {
+              "key": "ref2",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.3115/1567594.1567599"
+            },
+            {
+              "key": "ref3",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1093/database/bay073"
+            },
+            {
+              "key": "ref4",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-030-17083-7_17"
+            },
+            {
+              "key": "ref5",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/n19–1423"
+            },
+            {
+              "key": "ref6",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/BIBM58861.2023.10385582"
+            },
+            {
+              "key": "ref7",
+              "first-page": "2098",
+              "article-title": "Document-level biomedical relation extraction based on multi-dimensional fusion information and multi-granularity logical reasoning",
+              "volume-title": "Proceedings of the 29th international conference on computational linguistics",
+              "author": "Li"
+            },
+            {
+              "key": "ref8",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.eswa.2020.113538"
+            },
+            {
+              "key": "ref9",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/BIBM52615.2021.9669590"
+            },
+            {
+              "key": "ref10",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1093/bioinformatics/btae418"
+            },
+            {
+              "key": "ref11",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3458754"
+            },
+            {
+              "key": "ref12",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/2022.acl-long.551"
+            },
+            {
+              "key": "ref13",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1609/aaai.v35i16.17717"
+            },
+            {
+              "key": "ref14",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.jbi.2023.104487"
+            },
+            {
+              "key": "ref15",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1093/bioinformatics/btaf226"
+            },
+            {
+              "key": "ref16",
+              "article-title": "Chatie: Zero-shot information extraction via chatting with chatgpt",
+              "author": "Wei",
+              "year": "2023"
+            },
+            {
+              "key": "ref17",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/2024.knowllm-1.11"
+            },
+            {
+              "key": "ref18",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/2024.acl-demos.20"
+            },
+            {
+              "key": "ref19",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/2022.emnlp-main.580"
+            },
+            {
+              "key": "ref20",
+              "article-title": "Biomedical relation extraction via adaptive document-relation cross-mapping and concept unique identifier",
+              "author": "Shang",
+              "year": "2025"
+            },
+            {
+              "key": "ref21",
+              "article-title": "Overview of GutBrainIE@CLEF 2025: Gut-Brain Interplay Information Extraction",
+              "volume-title": "CLEF 2025 Working Notes",
+              "author": "Martinelli",
+              "year": "2025"
+            },
+            {
+              "key": "ref22",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-032-04354-2_12"
+            },
+            {
+              "key": "ref23",
+              "article-title": "Deepseek-v3 technical report",
+              "author": "Liu",
+              "year": "2024"
+            },
+            {
+              "key": "ref24",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1038/s41586-025-09422-z"
+            },
+            {
+              "key": "ref25",
+              "article-title": "The llama 3 herd of models",
+              "author": "Grattafiori",
+              "year": "2024"
+            },
+            {
+              "key": "ref26",
+              "article-title": "Qwen3 technical report",
+              "author": "Yang",
+              "year": "2025"
+            },
+            {
+              "issue": "2",
+              "key": "ref27",
+              "first-page": "3",
+              "article-title": "Lora: Low-rank adaptation of large language models",
+              "volume": "1",
+              "author": "Hu",
+              "year": "2022",
+              "journal-title": "ICLR"
+            },
+            {
+              "key": "ref28",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18653/v1/2024.acl-demos.38"
+            }
+          ],
+          "event": {
+            "name": "2025 IEEE International conference on Medical Artificial Intelligence (MedAI)",
+            "location": "Wuhan, China",
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  11,
+                  19
+                ]
+              ]
+            },
+            "end": {
+              "date-parts": [
+                [
+                  2025,
+                  11,
+                  21
+                ]
+              ]
+            }
+          },
+          "container-title": [
+            "2025 IEEE International conference on Medical Artificial Intelligence (MedAI)"
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx8/11354065/11354069/11354086.pdf?arnumber=11354086",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                27
+              ]
+            ],
+            "date-time": "2026-01-27T06:08:13Z",
+            "timestamp": 1769494093000
+          },
+          "score": 39.99416,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/11354086/"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                19
+              ]
+            ]
+          },
+          "references-count": 28,
+          "URL": "https://doi.org/10.1109/medai67139.2025.00024",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                19
+              ]
+            ]
+          }
+        }
+      ],
+      "items-per-page": 8,
+      "query": {
+        "start-index": 0,
+        "search-terms": "large language models biomedical information extraction relation extraction"
+      }
+    }
+  },
+  "text": "{\"status\":\"ok\",\"message-type\":\"work-list\",\"message-version\":\"1.0.0\",\"message\":{\"facets\":{},\"total-results\":7935922,\"items\":[{\"indexed\":{\"date-parts\":[[2026,2,27]],\"date-time\":\"2026-02-27T02:36:07Z\",\"timestamp\":1772159767508,\"version\":\"3.50.1\"},\"description\":\"The supplemental material contains material to support the article.\",\"reference-count\":0,\"publisher\":\"Institute of Electrical and Electronics Engineers (IEEE)\",\"content-domain\":{\"domain\":[],\"crossmark-restriction\":false},\"DOI\":\"10.1109\\/tnnls.2025.3596257\\/mm1\",\"type\":\"component\",\"created\":{\"date-parts\":[[2025,8,21]],\"date-time\":\"2025-08-21T18:30:42Z\",\"timestamp\":1755801042000},\"source\":\"Crossref\",\"is-referenced-by-count\":0,\"title\":[\"REaMA: Building Biomedical Relation Extraction Specialized Large Language Models Through Instruction Tuning_supp1-3596257.pdf\"],\"prefix\":\"10.1109\",\"author\":[{\"given\":\"Zhenan\",\"family\":\"He\",\"sequence\":\"first\",\"affiliation\":[]}],\"member\":\"263\",\"deposited\":{\"date-parts\":[[2026,1,30]],\"date-time\":\"2026-01-30T16:23:11Z\",\"timestamp\":1769790191000},\"score\":45.131603,\"resource\":{\"primary\":{\"URL\":\"https:\\/\\/ieeexplore.ieee.org\\/ielx8\\/5962385\\/11272992\\/11131263\\/supp1-3596257.pdf?arnumber=11131263\"}},\"issued\":{\"date-parts\":[[null]]},\"references-count\":0,\"URL\":\"https:\\/\\/doi.org\\/10.1109\\/tnnls.2025.3596257\\/mm1\",\"relation\":{\"is-component-of\":[{\"id-type\":\"doi\",\"id\":\"10.1109\\/TNNLS.2025.3596257\",\"asserted-by\":\"object\"}]}},{\"indexed\":{\"date-parts\":[[2026,4,20]],\"date-time\":\"2026-04-20T02:40:41Z\",\"timestamp\":1776652841983,\"version\":\"3.51.2\"},\"posted\":{\"date-parts\":[[2026,1,6]]},\"group-title\":\"Computer Science and Mathematics\",\"reference-count\":0,\"publisher\":\"MDPI AG\",\"license\":[{\"start\":{\"date-parts\":[[2026,1,6]],\"date-time\":\"2026-01-06T00:00:00Z\",\"timestamp\":1767657600000},\"content-version\":\"unspecified\",\"delay-in-days\":0,\"URL\":\"http:\\/\\/creativecommons.org\\/licenses\\/by\\/4.0\"}],\"content-domain\":{\"domain\":[],\"crossmark-restriction\":false},\"accepted\":{\"date-parts\":[[2026,1,2]]},\"abstract\":\"<jat"
+}

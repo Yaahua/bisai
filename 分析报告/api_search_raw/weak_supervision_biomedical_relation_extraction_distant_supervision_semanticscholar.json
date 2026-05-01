@@ -1,0 +1,9 @@
+{
+  "status": 429,
+  "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=weak+supervision+biomedical+relation+extraction+distant+supervision&limit=8&fields=title%2Cyear%2CcitationCount%2Curl%2Cabstract%2CexternalIds%2Cvenue",
+  "json": {
+    "message": "Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form",
+    "code": "429"
+  },
+  "text": "{\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"}"
+}

@@ -1,0 +1,772 @@
+[
+  {
+    "source": "OpenAlex",
+    "query": "entity relation extraction data centric post processing ensemble",
+    "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
+    "year": 2019,
+    "cited_by": 8551,
+    "doi": "https://doi.org/10.1016/j.inffus.2019.12.012",
+    "url": "https://openalex.org/W2981731882",
+    "abstract_available": false
+  },
+  {
+    "source": "OpenAlex",
+    "query": "large language models biomedical information extraction relation extraction",
+    "title": "The STRING database in 2021: customizable protein–protein networks, and functional characterization of user-uploaded gene/measurement sets",
+    "year": 2020,
+    "cited_by": 8421,
+    "doi": "https://doi.org/10.1093/nar/gkaa1074",
+    "url": "https://openalex.org/W3107527779",
+    "abstract_available": true
+  },
+  {
+    "source": "OpenAlex",
+    "query": "large language models biomedical information extraction relation extraction",
+    "title": "The STRING database in 2023: protein–protein association networks and functional enrichment analyses for any sequenced genome of interest",
+    "year": 2022,
+    "cited_by": 8234,
+    "doi": "https://doi.org/10.1093/nar/gkac1000",
+    "url": "https://openalex.org/W4308834893",
+    "abstract_available": true
+  },
+  {
+    "source": "OpenAlex",
+    "query": "large language models biomedical information extraction relation extraction",
+    "title": "BioBERT: a pre-trained biomedical language representation model for biomedical text mining",
+    "year": 2019,
+    "cited_by": 6792,
+    "doi": "https://doi.org/10.1093/bioinformatics/btz682",
+    "url": "https://openalex.org/W2911489562",
+    "abstract_available": true
+  },
+  {
+    "source": "OpenAlex",
+    "query": "entity relation extraction data centric post processing ensemble",
+    "title": "Machine Learning: Algorithms, Real-World Applications and Research Directions",
+    "year": 2021,
+    "cited_by": 4929,
+    "doi": "https://doi.org/10.1007/s42979-021-00592-x",
+    "url": "https://openalex.org/W3135028703",
+    "abstract_available": false
+  },
+  {
+    "source": "OpenAlex",
+    "query": "entity relation extraction data centric post processing ensemble",
+    "title": "Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy",
+    "year": 2019,
+    "cited_by": 3892,
+    "doi": "https://doi.org/10.1016/j.ijinfomgt.2019.08.002",
+    "url": "https://openalex.org/W2969625533",
+    "abstract_available": true
+  },
+  {
+    "source": "OpenAlex",
+    "query": "biomedical relation extraction directionality entity roles",
+    "title": "Distant supervision for relation extraction without labeled data",
+    "year": 2009,
+    "cited_by": 2899,
+    "doi": "https://doi.org/10.3115/1690219.1690287",
+    "url": "https://openalex.org/W2107598941",
+    "abstract_available": true
+  },
+  {
+    "source": "OpenAlex",
+    "query": "biomedical relation extraction directionality entity roles",
+    "title": "Reporting animal research: Explanation and elaboration for the ARRIVE guidelines 2.0",
+    "year": 2020,
+    "cited_by": 2736,
+    "doi": "https://doi.org/10.1371/journal.pbio.3000411",
+    "url": "https://openalex.org/W3043135743",
+    "abstract_available": true
+  },
+  {
+    "source": "OpenAlex",
+    "query": "biomedical relation extraction directionality entity roles",
+    "title": "A Survey on Knowledge Graphs: Representation, Acquisition, and Applications",
+    "year": 2021,
+    "cited_by": 2596,
+    "doi": "https://doi.org/10.1109/tnnls.2021.3070843",
+    "url": "https://openalex.org/W3003265726",
+    "abstract_available": true
+  },
+  {
+    "source": "OpenAlex",
+    "query": "entity relation extraction data centric post processing ensemble",
+    "title": "A Metaverse: Taxonomy, Components, Applications, and Open Challenges",
+    "year": 2022,
+    "cited_by": 1719,
+    "doi": "https://doi.org/10.1109/access.2021.3140175",
+    "url": "https://openalex.org/W4206484811",
+    "abstract_available": true
+  },
+  {
+    "source": "OpenAlex",
+    "query": "entity relation extraction data centric post processing ensemble",
+    "title": "Machine Learning Interpretability: A Survey on Methods and Metrics",
+    "year": 2019,
+    "cited_by": 1712,
+    "doi": "https://doi.org/10.3390/electronics8080832",
+    "url": "https://openalex.org/W2964303497",
+    "abstract_available": true
+  },
+  {
+    "source": "OpenAlex",
+    "query": "biomedical relation extraction directionality entity roles",
+    "title": "Natural language processing: state of the art, current trends and challenges",
+    "year": 2022,
+    "cited_by": 1683,
+    "doi": "https://doi.org/10.1007/s11042-022-13428-4",
+    "url": "https://openalex.org/W2747680751",
+    "abstract_available": false
+  },
+  {
+    "source": "OpenAlex",
+    "query": "weak supervision biomedical relation extraction distant supervision",
+    "title": "Causability and explainability of artificial intelligence in medicine",
+    "year": 2019,
+    "cited_by": 1656,
+    "doi": "https://doi.org/10.1002/widm.1312",
+    "url": "https://openalex.org/W2927351257",
+    "abstract_available": true
+  },
+  {
+    "source": "OpenAlex",
+    "query": "weak supervision biomedical relation extraction distant supervision",
+    "title": "Deep Learning Techniques for Medical Image Segmentation: Achievements and Challenges",
+    "year": 2019,
+    "cited_by": 1591,
+    "doi": "https://doi.org/10.1007/s10278-019-00227-x",
+    "url": "https://openalex.org/W2947263797",
+    "abstract_available": true
+  },
+  {
+    "source": "OpenAlex",
+    "query": "biomedical relation extraction directionality entity roles",
+    "title": "Proceedings of the 28th International Conference on Computational Linguistics",
+    "year": 2020,
+    "cited_by": 1422,
+    "doi": "https://doi.org/10.18653/v1/2020.coling-main",
+    "url": "https://openalex.org/W4365799947",
+    "abstract_available": true
+  },
+  {
+    "source": "OpenAlex",
+    "query": "entity relation extraction data centric post processing ensemble",
+    "title": "Recent advances and applications of deep learning methods in materials science",
+    "year": 2022,
+    "cited_by": 1011,
+    "doi": "https://doi.org/10.1038/s41524-022-00734-6",
+    "url": "https://openalex.org/W3208687975",
+    "abstract_available": true
+  },
+  {
+    "source": "OpenAlex",
+    "query": "weak supervision biomedical relation extraction distant supervision",
+    "title": "Findings of the Association for Computational Linguistics: EMNLP 2021",
+    "year": 2021,
+    "cited_by": 896,
+    "doi": "https://doi.org/10.18653/v1/2021.findings-emnlp",
+    "url": "https://openalex.org/W3101118213",
+    "abstract_available": false
+  },
+  {
+    "source": "OpenAlex",
+    "query": "biomedical relation extraction directionality entity roles",
+    "title": "Extracting Information from Textual Documents in the Electronic Health Record: A Review of Recent Research",
+    "year": 2008,
+    "cited_by": 892,
+    "doi": "https://doi.org/10.1055/s-0038-1638592",
+    "url": "https://openalex.org/W2114388055",
+    "abstract_available": true
+  },
+  {
+    "source": "OpenAlex",
+    "query": "biomedical relation extraction directionality entity roles",
+    "title": "Graph Convolution over Pruned Dependency Trees Improves Relation Extraction",
+    "year": 2018,
+    "cited_by": 861,
+    "doi": "https://doi.org/10.18653/v1/d18-1244",
+    "url": "https://openalex.org/W2892094955",
+    "abstract_available": true
+  },
+  {
+    "source": "OpenAlex",
+    "query": "large language models biomedical information extraction relation extraction",
+    "title": "Enriching contextualized language model from knowledge graph for biomedical information extraction",
+    "year": 2020,
+    "cited_by": 169,
+    "doi": "https://doi.org/10.1093/bib/bbaa110",
+    "url": "https://openalex.org/W3037979089",
+    "abstract_available": true
+  },
+  {
+    "source": "Crossref",
+    "query": "biomedical relation extraction BioRED data centric ensemble",
+    "title": "BioRED: a rich biomedical relation extraction dataset",
+    "year": 2022,
+    "cited_by": 123,
+    "doi": "10.1093/bib/bbac282",
+    "url": "https://doi.org/10.1093/bib/bbac282",
+    "abstract_available": true
+  },
+  {
+    "source": "OpenAlex",
+    "query": "large language models biomedical information extraction relation extraction",
+    "title": "Complex event extraction at PubMed scale",
+    "year": 2010,
+    "cited_by": 121,
+    "doi": "https://doi.org/10.1093/bioinformatics/btq180",
+    "url": "https://openalex.org/W2103320915",
+    "abstract_available": true
+  },
+  {
+    "source": "OpenAlex",
+    "query": "large language models biomedical information extraction relation extraction",
+    "title": "Taiyi: a bilingual fine-tuned large language model for diverse biomedical tasks",
+    "year": 2024,
+    "cited_by": 71,
+    "doi": "https://doi.org/10.1093/jamia/ocae037",
+    "url": "https://openalex.org/W4392282268",
+    "abstract_available": true
+  },
+  {
+    "source": "OpenAlex",
+    "query": "large language models biomedical information extraction relation extraction",
+    "title": "BIOSMILE: A semantic role labeling system for biomedical verbs using a maximum-entropy model with automatically generated template features",
+    "year": 2007,
+    "cited_by": 59,
+    "doi": "https://doi.org/10.1186/1471-2105-8-325",
+    "url": "https://openalex.org/W2113202266",
+    "abstract_available": true
+  },
+  {
+    "source": "OpenAlex",
+    "query": "biomedical relation extraction BioRED data centric ensemble",
+    "title": "Stimuli-Responsive and Antibacterial Cellulose-Chitosan Hydrogels Containing Polydiacetylene Nanosheets",
+    "year": 2023,
+    "cited_by": 42,
+    "doi": "https://doi.org/10.3390/polym15051062",
+    "url": "https://openalex.org/W4321459739",
+    "abstract_available": true
+  },
+  {
+    "source": "OpenAlex",
+    "query": "biomedical relation extraction BioRED data centric ensemble",
+    "title": "Advancing Chinese biomedical text mining with community challenges",
+    "year": 2024,
+    "cited_by": 33,
+    "doi": "https://doi.org/10.1016/j.jbi.2024.104716",
+    "url": "https://openalex.org/W4392616920",
+    "abstract_available": true
+  },
+  {
+    "source": "OpenAlex",
+    "query": "biomedical relation extraction BioRED data centric ensemble",
+    "title": "BioREx: Improving biomedical relation extraction by leveraging heterogeneous datasets",
+    "year": 2023,
+    "cited_by": 30,
+    "doi": "https://doi.org/10.1016/j.jbi.2023.104487",
+    "url": "https://openalex.org/W4381573137",
+    "abstract_available": false
+  },
+  {
+    "source": "OpenAlex",
+    "query": "biomedical relation extraction BioRED data centric ensemble",
+    "title": "Artificial intelligence tools for the identification of antibiotic resistance genes",
+    "year": 2024,
+    "cited_by": 27,
+    "doi": "https://doi.org/10.3389/fmicb.2024.1437602",
+    "url": "https://openalex.org/W4400595130",
+    "abstract_available": true
+  },
+  {
+    "source": "OpenAlex",
+    "query": "weak supervision biomedical relation extraction distant supervision",
+    "title": "Improving Distantly Supervised Extraction of Drug-Drug and Protein-Protein Interactions",
+    "year": 2012,
+    "cited_by": 24,
+    "doi": null,
+    "url": "https://openalex.org/W1576450670",
+    "abstract_available": true
+  },
+  {
+    "source": "Crossref",
+    "query": "entity relation extraction data centric post processing ensemble",
+    "title": "Entity extraction via ensemble semantics",
+    "year": 2009,
+    "cited_by": 17,
+    "doi": "10.3115/1699510.1699542",
+    "url": "https://doi.org/10.3115/1699510.1699542",
+    "abstract_available": false
+  },
+  {
+    "source": "Crossref",
+    "query": "entity relation extraction data centric post processing ensemble",
+    "title": "Learning from Noisy Labels for Entity-Centric Information Extraction",
+    "year": 2021,
+    "cited_by": 16,
+    "doi": "10.18653/v1/2021.emnlp-main.437",
+    "url": "https://doi.org/10.18653/v1/2021.emnlp-main.437",
+    "abstract_available": false
+  },
+  {
+    "source": "OpenAlex",
+    "query": "biomedical relation extraction BioRED data centric ensemble",
+    "title": "HunFlair2 in a cross-corpus evaluation of biomedical named entity recognition and normalization tools",
+    "year": 2024,
+    "cited_by": 14,
+    "doi": "https://doi.org/10.1093/bioinformatics/btae564",
+    "url": "https://openalex.org/W4402697996",
+    "abstract_available": true
+  },
+  {
+    "source": "Crossref",
+    "query": "large language models biomedical information extraction relation extraction",
+    "title": "Large Language Models for Biomedical Knowledge Graph Construction: Information extraction from EMR notes",
+    "year": 2024,
+    "cited_by": 13,
+    "doi": "10.18653/v1/2024.bionlp-1.23",
+    "url": "https://doi.org/10.18653/v1/2024.bionlp-1.23",
+    "abstract_available": false
+  },
+  {
+    "source": "OpenAlex",
+    "query": "weak supervision biomedical relation extraction distant supervision",
+    "title": "Document-Level $N$-ary Relation Extraction with Multiscale Representation Learning",
+    "year": 2019,
+    "cited_by": 13,
+    "doi": "https://doi.org/10.48550/arxiv.1904.02347",
+    "url": "https://openalex.org/W2925440078",
+    "abstract_available": true
+  },
+  {
+    "source": "OpenAlex",
+    "query": "biomedical relation extraction BioRED data centric ensemble",
+    "title": "A Comprehensive Survey on Evaluating Large Language Model Applications in the Medical Industry",
+    "year": 2024,
+    "cited_by": 10,
+    "doi": "https://doi.org/10.48550/arxiv.2404.15777",
+    "url": "https://openalex.org/W4395483680",
+    "abstract_available": true
+  },
+  {
+    "source": "Crossref",
+    "query": "weak supervision biomedical relation extraction distant supervision",
+    "title": "Improvement of n-ary Relation Extraction by Adding Lexical Semantics to Distant-Supervision Rule Learning",
+    "year": 2015,
+    "cited_by": 6,
+    "doi": "10.5220/0005187303170324",
+    "url": "https://doi.org/10.5220/0005187303170324",
+    "abstract_available": false
+  },
+  {
+    "source": "Crossref",
+    "query": "biomedical relation extraction directionality entity roles",
+    "title": "Biomedical Relation Extraction with Entity Type Markers and Relation-specific Question Answering",
+    "year": 2023,
+    "cited_by": 5,
+    "doi": "10.18653/v1/2023.bionlp-1.35",
+    "url": "https://doi.org/10.18653/v1/2023.bionlp-1.35",
+    "abstract_available": false
+  },
+  {
+    "source": "Crossref",
+    "query": "weak supervision biomedical relation extraction distant supervision",
+    "title": "Dual Supervision Framework for Relation Extraction with Distant Supervision and Human Annotation",
+    "year": 2020,
+    "cited_by": 5,
+    "doi": "10.18653/v1/2020.coling-main.564",
+    "url": "https://doi.org/10.18653/v1/2020.coling-main.564",
+    "abstract_available": false
+  },
+  {
+    "source": "Crossref",
+    "query": "weak supervision biomedical relation extraction distant supervision",
+    "title": "Effective Piecewise CNN with Attention Mechanism for Distant Supervision on Relation Extraction Task",
+    "year": 2020,
+    "cited_by": 5,
+    "doi": "10.5220/0009582700530060",
+    "url": "https://doi.org/10.5220/0009582700530060",
+    "abstract_available": false
+  },
+  {
+    "source": "SemanticScholar",
+    "query": "entity relation extraction data centric post processing ensemble",
+    "title": "The CRFs-Based Chinese Open Entity Relation Extraction",
+    "year": 2017,
+    "cited_by": 5,
+    "doi": "10.1109/DSC.2017.40",
+    "url": "https://www.semanticscholar.org/paper/cadadb857fe18932add58c65a33257c2fe34fae4",
+    "abstract_available": false
+  },
+  {
+    "source": "OpenAlex",
+    "query": "biomedical relation extraction BioRED data centric ensemble",
+    "title": "Enhancing biomedical relation extraction with directionality",
+    "year": 2025,
+    "cited_by": 4,
+    "doi": "https://doi.org/10.1093/bioinformatics/btaf226",
+    "url": "https://openalex.org/W4412454185",
+    "abstract_available": true
+  },
+  {
+    "source": "Crossref",
+    "query": "weak supervision biomedical relation extraction distant supervision",
+    "title": "ArabRelat: Arabic Relation Extraction using Distant Supervision",
+    "year": 2015,
+    "cited_by": 4,
+    "doi": "10.5220/0005636604100417",
+    "url": "https://doi.org/10.5220/0005636604100417",
+    "abstract_available": false
+  },
+  {
+    "source": "SemanticScholar",
+    "query": "entity relation extraction data centric post processing ensemble",
+    "title": "Optimized biomedical entity relation extraction method with data augmentation and classification using GPT-4 and Gemini",
+    "year": 2024,
+    "cited_by": 4,
+    "doi": "10.1093/database/baae104",
+    "url": "https://www.semanticscholar.org/paper/3a9bbbb2038d55c3c7809454a2d0480fadcfe891",
+    "abstract_available": true
+  },
+  {
+    "source": "Crossref",
+    "query": "biomedical relation extraction BioRED data centric ensemble",
+    "title": "LLM-Based Fine-Tuning Data Generation for Relation Triplet Extraction with Expert Ensemble and Demonstration Selection",
+    "year": 2024,
+    "cited_by": 3,
+    "doi": "10.1109/is61756.2024.10705209",
+    "url": "https://doi.org/10.1109/is61756.2024.10705209",
+    "abstract_available": false
+  },
+  {
+    "source": "Crossref",
+    "query": "biomedical relation extraction BioRED data centric ensemble",
+    "title": "Maximizing Relation Extraction Potential: A Data-Centric Study to Unveil Challenges and Opportunities",
+    "year": 2024,
+    "cited_by": 3,
+    "doi": "10.1109/access.2024.3494737",
+    "url": "https://doi.org/10.1109/access.2024.3494737",
+    "abstract_available": false
+  },
+  {
+    "source": "Crossref",
+    "query": "weak supervision biomedical relation extraction distant supervision",
+    "title": "Domain-Specific Relation Extraction - Using Distant Supervision Machine Learning",
+    "year": 2015,
+    "cited_by": 3,
+    "doi": "10.5220/0005615100920103",
+    "url": "https://doi.org/10.5220/0005615100920103",
+    "abstract_available": false
+  },
+  {
+    "source": "Crossref",
+    "query": "weak supervision biomedical relation extraction distant supervision",
+    "title": "Biomedical relation extraction with knowledge base–refined weak supervision",
+    "year": 2023,
+    "cited_by": 3,
+    "doi": "10.1093/database/baad054",
+    "url": "https://doi.org/10.1093/database/baad054",
+    "abstract_available": true
+  },
+  {
+    "source": "SemanticScholar",
+    "query": "entity relation extraction data centric post processing ensemble",
+    "title": "Contextual Reinforcement, Entity Delimitation and Generative Data Augmentation for Entity Recognition and Relation Extraction in Official Documents",
+    "year": 2023,
+    "cited_by": 2,
+    "doi": "10.5753/jidm.2023.3180",
+    "url": "https://www.semanticscholar.org/paper/eac0ff16e23cfc8e9875468afaef42a4a453b65a",
+    "abstract_available": true
+  },
+  {
+    "source": "Crossref",
+    "query": "biomedical relation extraction directionality entity roles",
+    "title": "Biomedical document-level relation extraction with thematic capture and localized entity pooling",
+    "year": 2024,
+    "cited_by": 1,
+    "doi": "10.1016/j.jbi.2024.104756",
+    "url": "https://doi.org/10.1016/j.jbi.2024.104756",
+    "abstract_available": false
+  },
+  {
+    "source": "Crossref",
+    "query": "biomedical relation extraction directionality entity roles",
+    "title": "Learning entity-oriented representation for biomedical relation extraction",
+    "year": 2023,
+    "cited_by": 1,
+    "doi": "10.1016/j.jbi.2023.104527",
+    "url": "https://doi.org/10.1016/j.jbi.2023.104527",
+    "abstract_available": false
+  },
+  {
+    "source": "Crossref",
+    "query": "biomedical relation extraction directionality entity roles",
+    "title": "Advances in Biomedical Entity and Relation Extraction: Techniques and Applications",
+    "year": 2024,
+    "cited_by": 1,
+    "doi": "10.1007/978-981-97-3962-2_12",
+    "url": "https://doi.org/10.1007/978-981-97-3962-2_12",
+    "abstract_available": false
+  },
+  {
+    "source": "SemanticScholar",
+    "query": "entity relation extraction data centric post processing ensemble",
+    "title": "ACORD: ANOVA Context Aware Relation Extraction from Textual Data",
+    "year": 2025,
+    "cited_by": 1,
+    "doi": "10.1109/ICWR65219.2025.11006259",
+    "url": "https://www.semanticscholar.org/paper/a3e115e3828deabdff335123be0ae4e1c206faed",
+    "abstract_available": true
+  },
+  {
+    "source": "OpenAlex",
+    "query": "biomedical relation extraction BioRED data centric ensemble",
+    "title": "Enhancing biomedical relation extraction through data-centric and preprocessing-robust ensemble learning approach",
+    "year": 2025,
+    "cited_by": 0,
+    "doi": "https://doi.org/10.1093/database/baae127",
+    "url": "https://openalex.org/W4410595987",
+    "abstract_available": true
+  },
+  {
+    "source": "Crossref",
+    "query": "biomedical relation extraction BioRED data centric ensemble",
+    "title": "Correction to: The overview of the BioRED (Biomedical Relation Extraction Dataset) track at BioCreative VIII",
+    "year": 2024,
+    "cited_by": 0,
+    "doi": "10.1093/database/baae110",
+    "url": "https://doi.org/10.1093/database/baae110",
+    "abstract_available": false
+  },
+  {
+    "source": "Crossref",
+    "query": "biomedical relation extraction BioRED data centric ensemble",
+    "title": "TIRE: Advancing Threat Intelligence Relation Extraction with a Novel Data-Centric Framework",
+    "year": 2025,
+    "cited_by": 0,
+    "doi": "10.36227/techrxiv.175606969.96683635/v1",
+    "url": "https://doi.org/10.36227/techrxiv.175606969.96683635/v1",
+    "abstract_available": false
+  },
+  {
+    "source": "Crossref",
+    "query": "biomedical relation extraction BioRED data centric ensemble",
+    "title": "Figure 3: The illustration of relation data generation and relation triplet extraction.",
+    "year": 2024,
+    "cited_by": 0,
+    "doi": "10.7717/peerj-cs.2014/fig-3",
+    "url": "https://doi.org/10.7717/peerj-cs.2014/fig-3",
+    "abstract_available": false
+  },
+  {
+    "source": "Crossref",
+    "query": "biomedical relation extraction BioRED data centric ensemble",
+    "title": "Effective Sentence-Level Relation Extraction Model Using Entity-Centric Dependency Tree",
+    "year": 2022,
+    "cited_by": 0,
+    "doi": "10.2139/ssrn.4272160",
+    "url": "https://doi.org/10.2139/ssrn.4272160",
+    "abstract_available": false
+  },
+  {
+    "source": "Crossref",
+    "query": "biomedical relation extraction directionality entity roles",
+    "title": "Bi-encoder-based approach to biomedical document-level entity recognition and relation extraction",
+    "year": 2024,
+    "cited_by": 0,
+    "doi": "10.36227/techrxiv.172789006.68125167/v1",
+    "url": "https://doi.org/10.36227/techrxiv.172789006.68125167/v1",
+    "abstract_available": false
+  },
+  {
+    "source": "Crossref",
+    "query": "biomedical relation extraction directionality entity roles",
+    "title": "Chinese Biomedical Entity Relation Extraction Based On Directed Graph Convolutional Network",
+    "year": 2022,
+    "cited_by": 0,
+    "doi": "10.1109/icsai57119.2022.10005391",
+    "url": "https://doi.org/10.1109/icsai57119.2022.10005391",
+    "abstract_available": false
+  },
+  {
+    "source": "Crossref",
+    "query": "biomedical relation extraction directionality entity roles",
+    "title": "Document-Level Biomedical Entity Relation Extraction Based on Semantic Segmentation",
+    "year": 2024,
+    "cited_by": 0,
+    "doi": "10.1109/icedcs64328.2024.00015",
+    "url": "https://doi.org/10.1109/icedcs64328.2024.00015",
+    "abstract_available": false
+  },
+  {
+    "source": "Crossref",
+    "query": "biomedical relation extraction directionality entity roles",
+    "title": "Contextualization and Generalization in Entity and Relation Extraction",
+    "year": 2026,
+    "cited_by": 0,
+    "doi": "10.70675/72fea173z5549z4bd5z8332zf81f26d3c2b9",
+    "url": "https://doi.org/10.70675/72fea173z5549z4bd5z8332zf81f26d3c2b9",
+    "abstract_available": true
+  },
+  {
+    "source": "Crossref",
+    "query": "large language models biomedical information extraction relation extraction",
+    "title": "REaMA: Building Biomedical Relation Extraction Specialized Large Language Models Through Instruction Tuning_supp1-3596257.pdf",
+    "year": 2025,
+    "cited_by": 0,
+    "doi": "10.1109/tnnls.2025.3596257/mm1",
+    "url": "https://doi.org/10.1109/tnnls.2025.3596257/mm1",
+    "abstract_available": false
+  },
+  {
+    "source": "Crossref",
+    "query": "large language models biomedical information extraction relation extraction",
+    "title": "Large Language Models for Continual Relation Extraction",
+    "year": 2026,
+    "cited_by": 0,
+    "doi": "10.20944/preprints202601.0167.v1",
+    "url": "https://doi.org/10.20944/preprints202601.0167.v1",
+    "abstract_available": true
+  },
+  {
+    "source": "Crossref",
+    "query": "large language models biomedical information extraction relation extraction",
+    "title": "Benchmarking Large Language Models for Biomedical Relation Extraction",
+    "year": 2025,
+    "cited_by": 0,
+    "doi": "10.1016/j.procs.2025.09.178",
+    "url": "https://doi.org/10.1016/j.procs.2025.09.178",
+    "abstract_available": false
+  },
+  {
+    "source": "Crossref",
+    "query": "large language models biomedical information extraction relation extraction",
+    "title": "Feature-Enhanced Relation Extraction with Large Language Models",
+    "year": 2025,
+    "cited_by": 0,
+    "doi": "10.1109/mlnlp66797.2025.11389036",
+    "url": "https://doi.org/10.1109/mlnlp66797.2025.11389036",
+    "abstract_available": false
+  },
+  {
+    "source": "Crossref",
+    "query": "large language models biomedical information extraction relation extraction",
+    "title": "Corpus Construction for Etiquette Entity and Relation Extraction in Ancient Chinese Texts Assisted by Large Language Models",
+    "year": 2025,
+    "cited_by": 0,
+    "doi": "10.1109/itoec63606.2025.10968300",
+    "url": "https://doi.org/10.1109/itoec63606.2025.10968300",
+    "abstract_available": false
+  },
+  {
+    "source": "Crossref",
+    "query": "large language models biomedical information extraction relation extraction",
+    "title": "Multi-Modal Relation Extraction Based on Shortest Dependency Path and Large Language Models",
+    "year": 2025,
+    "cited_by": 0,
+    "doi": "10.2139/ssrn.5131704",
+    "url": "https://doi.org/10.2139/ssrn.5131704",
+    "abstract_available": false
+  },
+  {
+    "source": "Crossref",
+    "query": "large language models biomedical information extraction relation extraction",
+    "title": "A comprehensive evaluation of document level biomedical relation extraction using large language models",
+    "year": 2025,
+    "cited_by": 0,
+    "doi": "10.1109/medai67139.2025.00024",
+    "url": "https://doi.org/10.1109/medai67139.2025.00024",
+    "abstract_available": false
+  },
+  {
+    "source": "Crossref",
+    "query": "weak supervision biomedical relation extraction distant supervision",
+    "title": "DISTANT SUPERVISION FOR RELATION EXTRACTION USING ONTOLOGY CLASS HIERARCHY-BASED FEATURES",
+    "year": 2015,
+    "cited_by": 0,
+    "doi": "10.17771/pucrio.acad.24296",
+    "url": "https://doi.org/10.17771/pucrio.acad.24296",
+    "abstract_available": false
+  },
+  {
+    "source": "Crossref",
+    "query": "weak supervision biomedical relation extraction distant supervision",
+    "title": "Sentence Bag Graph Formulation for Biomedical Distant Supervision Relation Extraction_supp1-3377229.pdf",
+    "year": 2024,
+    "cited_by": 0,
+    "doi": "10.1109/tkde.2024.3377229/mm1",
+    "url": "https://doi.org/10.1109/tkde.2024.3377229/mm1",
+    "abstract_available": false
+  },
+  {
+    "source": "Crossref",
+    "query": "entity relation extraction data centric post processing ensemble",
+    "title": "Entity relation extraction to free text",
+    "year": 2009,
+    "cited_by": 0,
+    "doi": "10.1109/nlpke.2009.5313758",
+    "url": "https://doi.org/10.1109/nlpke.2009.5313758",
+    "abstract_available": false
+  },
+  {
+    "source": "Crossref",
+    "query": "entity relation extraction data centric post processing ensemble",
+    "title": "Research on relation extraction model of overlapping entity based on attention mechanism",
+    "year": 2023,
+    "cited_by": 0,
+    "doi": "10.1117/12.2674559",
+    "url": "https://doi.org/10.1117/12.2674559",
+    "abstract_available": false
+  },
+  {
+    "source": "Crossref",
+    "query": "entity relation extraction data centric post processing ensemble",
+    "title": "Entity relation extraction model based on probabilistic threshold decay",
+    "year": 2022,
+    "cited_by": 0,
+    "doi": "10.1117/12.2631039",
+    "url": "https://doi.org/10.1117/12.2631039",
+    "abstract_available": false
+  },
+  {
+    "source": "Crossref",
+    "query": "entity relation extraction data centric post processing ensemble",
+    "title": "A new approach of automatic Entity Relation Extraction combined multimachine learning",
+    "year": 2008,
+    "cited_by": 0,
+    "doi": "10.1109/icosp.2008.4697434",
+    "url": "https://doi.org/10.1109/icosp.2008.4697434",
+    "abstract_available": false
+  },
+  {
+    "source": "SemanticScholar",
+    "query": "entity relation extraction data centric post processing ensemble",
+    "title": "Constructing text-centric knowledge graphs based on deep learning: a focus on named entity recognition and relation extraction",
+    "year": 2025,
+    "cited_by": 0,
+    "doi": "10.1117/12.3075576",
+    "url": "https://www.semanticscholar.org/paper/34256c58e9017baa90483775e08fc949af25e46e",
+    "abstract_available": true
+  },
+  {
+    "source": "SemanticScholar",
+    "query": "entity relation extraction data centric post processing ensemble",
+    "title": "WMAJL: Watcher-Mediated Attention Joint Learning Model for Multimodal Relation Extraction",
+    "year": 2025,
+    "cited_by": 0,
+    "doi": "10.1109/ICASSP49660.2025.10890454",
+    "url": "https://www.semanticscholar.org/paper/dd39cd00fbc7925ebabd8cb55310c6c94e42e269",
+    "abstract_available": true
+  },
+  {
+    "source": "SemanticScholar",
+    "query": "entity relation extraction data centric post processing ensemble",
+    "title": "Dual-Aspect Noise-Based Regularization for Multi-Modal Relation Extraction in Media Posts",
+    "year": 2025,
+    "cited_by": 0,
+    "doi": "10.1109/TASLPRO.2025.3546851",
+    "url": "https://www.semanticscholar.org/paper/688da89c3e21e0e88dc2a3fd8cc1db6a7838fb5e",
+    "abstract_available": true
+  }
+]
