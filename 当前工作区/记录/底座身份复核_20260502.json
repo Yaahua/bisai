@@ -1,0 +1,65 @@
+{
+  "base_json": "当前工作区/底座/submit_baseline_04514_v44_del_var_con_cross.json",
+  "base_zip": "当前工作区/底座/submit_baseline_04514_v44_del_var_con_cross.zip",
+  "json_raw_sha256": "f07583dac35bfb5118e2a641ebb31a9da5ae6d2f71a1839f2157196a61003472",
+  "zip_submit_raw_sha256": "f07583dac35bfb5118e2a641ebb31a9da5ae6d2f71a1839f2157196a61003472",
+  "json_canonical_sha256": "da4ceedd99406caeeb68ac61de3242886fe6e07cd43771f80a45011980c7468f",
+  "zip_submit_canonical_sha256": "da4ceedd99406caeeb68ac61de3242886fe6e07cd43771f80a45011980c7468f",
+  "same_canonical_content": true,
+  "zip_entries": [
+    [
+      "submit.json",
+      740359,
+      3036743189
+    ]
+  ],
+  "sample_count": 400,
+  "non_empty_sample_count": 288,
+  "relation_total": 1052,
+  "relation_type_counts": {
+    "CON": 130,
+    "AFF": 371,
+    "HAS": 223,
+    "OCI": 44,
+    "USE": 26,
+    "LOI": 258
+  },
+  "item_field_counts": {
+    "text": 400,
+    "entities": 400,
+    "relations": 400
+  },
+  "relation_field_counts": {
+    "head": 1052,
+    "head_start": 1052,
+    "head_end": 1052,
+    "head_type": 1052,
+    "tail": 1052,
+    "tail_start": 1052,
+    "tail_end": 1052,
+    "tail_type": 1052,
+    "label": 1052
+  },
+  "relation_count_histogram": {
+    "0": 112,
+    "1": 61,
+    "2": 68,
+    "3": 49,
+    "4": 38,
+    "5": 14,
+    "6": 22,
+    "7": 14,
+    "8": 5,
+    "9": 5,
+    "10": 4,
+    "11": 1,
+    "12": 1,
+    "13": 2,
+    "14": 1,
+    "17": 1,
+    "18": 1,
+    "33": 1
+  },
+  "duplicate_relation_count_within_same_sample": 0,
+  "pass": true
+}
